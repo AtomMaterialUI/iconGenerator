@@ -26,15 +26,15 @@
   "author": "",
   "license": "ISC",
   "devDependencies": {
-    "@types/node": "^13.7.6",
+    "@types/node": "^13.9.8",
     "@types/yargs": "^15.0.4",
     "nodegit": "^0.26.5",
     "puppeteer": "^2.1.1",
     "rimraf": "^3.0.2",
     "ts-node-dev": "^1.0.0-pre.44",
-    "tslint": "^6.0.0",
-    "typescript": "^3.8.2",
+    "tslint": "^6.1.0",
+    "typescript": "^3.8.3",
     "xml2json-cli": "^1.1.1",
-    "yargs": "^15.1.0"
+    "yargs": "^15.3.1"
   }
 }
