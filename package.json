@@ -10,17 +10,16 @@
   },
   "scripts": {
     "postinstall": "npm run compile",
-    "precompile": "rimraf ./dist",
     "compile": "tsc",
     "compile:w": "npm run compile -- -w",
     "lint": "tslint --project tsconfig.json",
     "preexample": "npm run lint && npm run compile && npm run convert",
-    "example": "node ./bin/examples --all",
-    "wiki": "node ./bin/wiki all -o file",
-    "preview": "node ./bin/preview all -o file",
+    "example": "ts-node ./bin/examples --all",
+    "wiki": "ts-node ./bin/wiki all -o file",
+    "preview": "ts-node ./bin/preview all -o file",
     "convert": "npm run convert_icons && npm run convert_folders",
-    "convert_icons": "xml2json ../src/main/resources/icon_associations.xml icon_associations.json",
-    "convert_folders": "xml2json ../src/main/resources/folder_associations.xml folder_associations.json"
+    "convert_icons": "xml2json icon_associations.xml icon_associations.json",
+    "convert_folders": "xml2json folder_associations.xml folder_associations.json"
   },
   "author": "",
   "license": "ISC",

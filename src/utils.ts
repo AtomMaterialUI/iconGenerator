@@ -27,7 +27,7 @@
 import path from 'path';
 import fs from 'fs';
 
-export const ROOT = 'a-file-icon-idea';
+export const ROOT = 'icon-generator';
 
 
 /**

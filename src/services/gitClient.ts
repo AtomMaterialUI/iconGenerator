@@ -68,7 +68,7 @@ export class GitClient<T extends CommandArgs> {
   private wikiRepo: Repository;
 
   constructor(private pargs: T, private logger: Logger) {
-    this.rootFolder = pathUnixJoin(findDirectorySync(ROOT), './../../');
+    this.rootFolder = pathUnixJoin(findDirectorySync(ROOT), './');
     this.codeRepoFolder = pathUnixJoin(this.rootFolder, this.pargs.account, ROOT);
     this.wikiRepoFolder = pathUnixJoin(this.rootFolder, this.pargs.account, `${ROOT}.wiki`);
 

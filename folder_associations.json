@@ -117,9 +117,9 @@
 					"icon": "/controllers.svg"
 				},
 				{
-					"folderNames": "core,support",
+					"folderNames": "bin,core,support",
 					"name": "core",
-					"pattern": "^(core|support)$",
+					"pattern": "^(bin|core|support)$",
 					"icon": "/core.svg"
 				},
 				{
@@ -747,9 +747,9 @@
 					"icon": "/temp.svg"
 				},
 				{
-					"folderNames": "test,tests,spec,specs",
+					"folderNames": "test,tests,spec,specs,unit,units",
 					"name": "tests",
-					"pattern": "^(tests?|specs?)$",
+					"pattern": "^(tests?|specs?|units?)$",
 					"icon": "/tests.svg"
 				},
 				{
