@@ -84,7 +84,9 @@ export class WikiGenerator {
       let hasCommit: boolean;
       if (results && results.length) {
         for (const result of results) {
-          hasCommit = await this.gitClient.tryCommitToWikiRepo(result.filename, result.content) || hasCommit;
+          if (result) {
+            hasCommit = await this.gitClient.tryCommitToWikiRepo(result.filename, result.content) || hasCommit;
+          }
         }
       }
 

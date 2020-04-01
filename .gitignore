@@ -6,3 +6,4 @@ npm-debug.*
 deploy_key
 
 .idea
+token

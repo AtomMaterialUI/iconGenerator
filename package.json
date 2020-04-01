@@ -16,6 +16,7 @@
     "preexample": "npm run lint && npm run compile && npm run convert",
     "example": "ts-node ./bin/examples --all",
     "wiki": "ts-node ./bin/wiki all -o file",
+    "wiki_publish": "ts-node ./bin/wiki all -o repo -t 58b3cf5064502644596f9cfdd76c007c6e960f53",
     "preview": "ts-node ./bin/preview all -o file",
     "convert": "npm run convert_icons && npm run convert_folders",
     "convert_icons": "xml2json icon_associations.xml icon_associations.json",

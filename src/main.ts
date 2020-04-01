@@ -62,7 +62,7 @@ const generator = <ICommandArgs extends CommandArgs>(ArgsParser, Generator, useG
     const folders = require(foldersPath).associations.associations.regex;
 
     // Generate the files
-    new Generator(pargs, files, folders, logger).generate();
+    await new Generator(pargs, files, folders, logger, gitClient).generate();
     process.exit(0);
   }
   finally {
