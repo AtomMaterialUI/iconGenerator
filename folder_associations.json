@@ -5,834 +5,1120 @@
 				{
 					"folderNames": "admin",
 					"name": "admin",
+					"folderColor": "",
+					"iconColor": "",
 					"pattern": "^admin$",
 					"icon": "/netlify.svg"
 				},
 				{
 					"folderNames": "android",
 					"name": "android",
+					"folderColor": "8bc34a",
+					"iconColor": "dcedc8",
 					"pattern": "^android$",
 					"icon": "/android.svg"
 				},
 				{
 					"folderNames": "animation,animations,anims,anim",
 					"name": "animations",
+					"folderColor": "ec407a",
+					"iconColor": "f8bbd0",
 					"pattern": "^(animations?|anims?)$",
 					"icon": "/animations.svg"
 				},
 				{
+					"folderNames": "group_vars,host_vars,vars,roles",
+					"name": "ansible",
+					"folderColor": "ef5350",
+					"iconColor": "ffcdd2",
+					"pattern": "^(group_vars|host_vars|vars|roles)$",
+					"icon": "/ansible.svg"
+				},
+				{
 					"folderNames": "api,apis,rest,swagger",
 					"name": "api",
+					"folderColor": "FFF176",
+					"iconColor": "F57F17",
 					"pattern": "^(apis?|rest|swagger)$",
 					"icon": "/api.svg"
 				},
 				{
 					"folderNames": "mp3,wav,music,musics,audio,sound,sounds",
 					"name": "audio",
+					"folderColor": "ef5350",
+					"iconColor": "ffcdd2",
 					"pattern": "^(mp3|wav|musics?|audio|sounds?)$",
 					"icon": "/audio.svg"
 				},
 				{
 					"folderNames": "archive,archives,jar,jars,zip,zips,backups,backup",
 					"name": "archives",
+					"folderColor": "795548",
+					"iconColor": "D7CCC8",
 					"pattern": "^(archives?|jars?|zips?|backups?)",
 					"icon": "/archive.svg"
 				},
 				{
 					"folderNames": "aws,.aws",
 					"name": "aws",
+					"folderColor": "FF8F00",
+					"iconColor": "ffecb3",
 					"pattern": "^\\.?aws$",
 					"icon": "/aws.svg"
 				},
 				{
 					"folderNames": "azuredevops,azure-devops",
 					"name": "azuredevops",
+					"folderColor": "b3e5fc",
+					"iconColor": "0077db",
 					"pattern": "^(azuredevops?|azure-devops?)$",
 					"icon": "/azure-devops.svg"
 				},
 				{
 					"folderNames": "benchmark,benchmarks",
 					"name": "benchmark",
+					"folderColor": "009688",
+					"iconColor": "B2DFDB",
 					"pattern": "^benchmarks?$",
 					"icon": "/benchmark.svg"
 				},
 				{
 					"folderNames": "bower_components",
 					"name": "bower",
+					"folderColor": "F4511E",
+					"iconColor": "FFCCBC",
 					"pattern": "^bower_components$",
 					"icon": "/bower.svg"
 				},
 				{
 					"folderNames": "channel,channels",
 					"name": "channels",
+					"folderColor": "",
+					"iconColor": "",
 					"pattern": "^(channels?)$",
 					"icon": "/messages.svg"
 				},
 				{
 					"folderNames": "ci,integration,integrations",
 					"name": "ci",
+					"folderColor": "",
+					"iconColor": "",
 					"pattern": "^(ci|integrations?)$",
 					"icon": "/ci.svg"
 				},
 				{
 					"folderNames": ".circleci",
 					"name": "circleci",
+					"folderColor": "",
+					"iconColor": "",
 					"pattern": "^\\.?circleci$",
 					"icon": "/circleci.svg"
 				},
 				{
 					"folderNames": "component,components,module,modules",
 					"name": "components",
+					"folderColor": "",
+					"iconColor": "",
 					"pattern": "^(components?|modules?)$",
 					"icon": "/components.svg"
 				},
 				{
 					"folderNames": "config,conf,settings,.config,.conf,.settings",
 					"name": "config",
+					"folderColor": "",
+					"iconColor": "",
 					"pattern": "^\\.?(config|conf|settings)$",
 					"icon": "/config.svg"
 				},
 				{
 					"folderNames": "container,containers",
 					"name": "containers",
+					"folderColor": "",
+					"iconColor": "",
 					"pattern": "^(containers?)$",
 					"icon": "/container.svg"
 				},
 				{
 					"folderNames": "content,contents,cont",
 					"name": "content",
+					"folderColor": "",
+					"iconColor": "",
 					"pattern": "^(contents?|cont)$",
 					"icon": "/content.svg"
 				},
 				{
 					"folderNames": "constant,constants,const",
 					"name": "constants",
+					"folderColor": "",
+					"iconColor": "",
 					"pattern": "^(constants?|const)$",
 					"icon": "/constants.svg"
 				},
 				{
 					"folderNames": "controller,controllers,ctrl,ctrls",
 					"name": "controllers",
+					"folderColor": "",
+					"iconColor": "",
 					"pattern": "^(controllers?|ctrls?)$",
 					"icon": "/controllers.svg"
 				},
 				{
 					"folderNames": "bin,core,support",
 					"name": "core",
+					"folderColor": "",
+					"iconColor": "",
 					"pattern": "^(bin|core|support)$",
 					"icon": "/core.svg"
 				},
 				{
 					"folderNames": "coverage",
 					"name": "coverage",
+					"folderColor": "",
+					"iconColor": "",
 					"pattern": "^coverage$",
 					"icon": "/coverage.svg"
 				},
 				{
 					"folderNames": "custom",
 					"name": "custom",
+					"folderColor": "",
+					"iconColor": "",
 					"pattern": "^custom$",
 					"icon": "/custom.svg"
 				},
 				{
 					"folderNames": "db,migrate,database,repo,repos,repositories",
 					"name": "db",
+					"folderColor": "",
+					"iconColor": "",
 					"pattern": "^(db|migrate|database|repos?|repositories)$",
 					"icon": "/db.svg"
 				},
 				{
 					"folderNames": "debug,debugging",
 					"name": "debug",
+					"folderColor": "",
+					"iconColor": "",
 					"pattern": "^(debug|debugging)$",
 					"icon": "/debug.svg"
 				},
 				{
 					"folderNames": "delta,deltas,diff",
 					"name": "delta",
+					"folderColor": "",
+					"iconColor": "",
 					"pattern": "^(deltas?|diff)$",
 					"icon": "/delta.svg"
 				},
 				{
 					"folderNames": "deploy",
 					"name": "deploy",
+					"folderColor": "",
+					"iconColor": "",
 					"pattern": "^deploy$",
 					"icon": "/aws.svg"
 				},
 				{
 					"folderNames": "dist,out,build,release",
 					"name": "dist",
+					"folderColor": "",
+					"iconColor": "",
 					"pattern": "^(dist|out|build|release)$",
 					"icon": "/dist.svg"
 				},
 				{
 					"folderNames": "docker,.docker",
 					"name": "docker",
+					"folderColor": "",
+					"iconColor": "",
 					"pattern": "^\\.?docker$",
 					"icon": "/docker.svg"
 				},
 				{
 					"folderNames": "doc,docs,documentation",
 					"name": "docs",
+					"folderColor": "",
+					"iconColor": "",
 					"pattern": "^(docs?|documentation)$",
 					"icon": "/docs.svg"
 				},
 				{
 					"folderNames": "download,downloads",
 					"name": "download",
+					"folderColor": "",
+					"iconColor": "",
 					"pattern": "^downloads?$",
 					"icon": "/download.svg"
 				},
 				{
 					"folderNames": "dump,dumps,data",
 					"name": "dump",
+					"folderColor": "",
+					"iconColor": "",
 					"pattern": "^(dumps?|data)$",
 					"icon": "/dump.svg"
 				},
 				{
 					"folderNames": "e2e,scenario,scenarios",
 					"name": "e2e",
+					"folderColor": "",
+					"iconColor": "",
 					"pattern": "^(e2e|scenarios?)$",
 					"icon": "/e2e.svg"
 				},
 				{
 					"folderNames": "env,envs,environment,environments",
 					"name": "env",
+					"folderColor": "",
+					"iconColor": "",
 					"pattern": "^(envs?|environments?)$",
 					"icon": "/env.svg"
 				},
 				{
 					"folderNames": "error,errors",
 					"name": "error",
+					"folderColor": "",
+					"iconColor": "",
 					"pattern": "^(errors?)$",
 					"icon": "/error.svg"
 				},
 				{
 					"folderNames": "event,events",
 					"name": "events",
+					"folderColor": "",
+					"iconColor": "",
 					"pattern": "^(events?)$",
 					"icon": "/events.svg"
 				},
 				{
 					"folderNames": "example,examples,ex,exs",
 					"name": "example",
+					"folderColor": "",
+					"iconColor": "",
 					"pattern": "^(examples?|exs?)$",
 					"icon": "/examples.svg"
 				},
 				{
 					"folderNames": "exclude,excludes,external",
 					"name": "exclude",
+					"folderColor": "",
+					"iconColor": "",
 					"pattern": "^(excludes?|external)$",
 					"icon": "/exclude.svg"
 				},
 				{
 					"folderNames": ".expo,.expo-shared",
 					"name": "expo",
+					"folderColor": "",
+					"iconColor": "",
 					"pattern": "^\\.expo(-shared)?$",
 					"icon": "/expo.svg"
 				},
 				{
 					"folderNames": "feature,features,feat,feats",
 					"name": "features",
+					"folderColor": "",
+					"iconColor": "",
 					"pattern": "^(features?|feats?)$",
 					"icon": "/rules.svg"
 				},
 				{
 					"folderNames": "fixture,fixtures,fabricator,fabricators,factory,factories",
 					"name": "fixtures",
+					"folderColor": "",
+					"iconColor": "",
 					"pattern": "^(fixtures?|fabricators?|factory|factories)$",
 					"icon": "/fixtures.svg"
 				},
 				{
 					"folderNames": "flow,def,defs",
 					"name": "flow",
+					"folderColor": "",
+					"iconColor": "",
 					"pattern": "^(flow|defs?)$",
 					"icon": "/flow.svg"
 				},
 				{
 					"folderNames": "font,fonts",
 					"name": "fonts",
+					"folderColor": "",
+					"iconColor": "",
 					"pattern": "^fonts?$",
 					"icon": "/fonts.svg"
 				},
 				{
 					"folderNames": "function,functions,service,services,lambda,lambdas",
 					"name": "functions",
+					"folderColor": "",
+					"iconColor": "",
 					"pattern": "^(functions?|services?|lambdas?)$",
 					"icon": "/functions.svg"
 				},
 				{
 					"folderNames": "gen,generated,auto",
 					"name": "generated",
+					"folderColor": "",
+					"iconColor": "",
 					"pattern": "^(gen|generated|auto)$",
 					"icon": "/generated.svg"
 				},
 				{
 					"folderNames": ".git,.submodules",
 					"name": "git",
+					"folderColor": "",
+					"iconColor": "",
 					"pattern": "^(\\.git|\\.submodules)$",
 					"icon": "/git.svg"
 				},
 				{
 					"folderNames": "github,.github",
 					"name": "github",
+					"folderColor": "",
+					"iconColor": "",
 					"pattern": "^\\.?github$",
 					"icon": "/github.svg"
 				},
 				{
 					"folderNames": "global",
 					"name": "global",
+					"folderColor": "",
+					"iconColor": "",
 					"pattern": "^global$",
 					"icon": "/global.svg"
 				},
 				{
 					"folderNames": ".gradle,gradle",
 					"name": "gradle",
+					"folderColor": "",
+					"iconColor": "",
 					"pattern": "^\\.?gradle$",
 					"icon": "/gradle.svg"
 				},
 				{
 					"folderNames": "graphql,gql,schema,schemas",
 					"name": "graphql",
+					"folderColor": "",
+					"iconColor": "",
 					"pattern": "^(graphql|gql|schemas?)$",
 					"icon": "/graphql.svg"
 				},
 				{
 					"folderNames": "grunt",
 					"name": "grunt",
+					"folderColor": "",
+					"iconColor": "",
 					"pattern": "^grunt$",
 					"icon": "/grunt.svg"
 				},
 				{
 					"folderNames": "guard,guards",
 					"name": "guard",
+					"folderColor": "",
+					"iconColor": "",
 					"pattern": "^guards?$",
 					"icon": "/guard.svg"
 				},
 				{
 					"folderNames": "gulp",
 					"name": "gulp",
+					"folderColor": "",
+					"iconColor": "",
 					"pattern": "^gulp$",
 					"icon": "/gulp.svg"
 				},
 				{
 					"folderNames": "helper,helpers,help",
 					"name": "helper",
+					"folderColor": "",
+					"iconColor": "",
 					"pattern": "^(helpers?|help)$",
 					"icon": "/helper.svg"
 				},
 				{
 					"folderNames": "hooks,hook,triggers,trigger",
 					"name": "hooks",
+					"folderColor": "",
+					"iconColor": "",
 					"pattern": "^(hooks?|triggers?)",
 					"icon": "/hook.svg"
 				},
 				{
 					"folderNames": "i18n,lang,langs,language,languages,localization,locale,locales,translation,translations",
 					"name": "i18n",
+					"folderColor": "",
+					"iconColor": "",
 					"pattern": "^(i18n|langs?|languages?|localization|locales?|translations?)$",
 					"icon": "/i18n.svg"
 				},
 				{
 					"folderNames": "icon,icons,ico,svg,svgicon,svgicons",
 					"name": "icons",
+					"folderColor": "",
+					"iconColor": "",
 					"pattern": "^(icons?|ico|svg|svgicons?)$",
 					"icon": "/icons.svg"
 				},
 				{
 					"folderNames": ".idea",
 					"name": "idea",
+					"folderColor": "",
+					"iconColor": "",
 					"pattern": "^\\.idea$",
 					"icon": "/idea.svg"
 				},
 				{
 					"folderNames": ".xcodeproj,.xcworkspace",
 					"name": "ios",
+					"folderColor": "",
+					"iconColor": "",
 					"pattern": ".*\\.xc(odeproj|workspace)",
 					"icon": "/ios.svg"
 				},
 				{
 					"folderNames": "image,images,img,medias,media",
 					"name": "images",
+					"folderColor": "",
+					"iconColor": "",
 					"pattern": "^(images?|img|medias?)$",
 					"icon": "/images.svg"
 				},
 				{
 					"folderNames": "includes,include,import,imports,concerns,concern",
 					"name": "include",
+					"folderColor": "",
+					"iconColor": "",
 					"pattern": "^(includes?|imports?|concerns?)$",
 					"icon": "/include.svg"
 				},
 				{
 					"folderNames": "init,initializers,initializer,startup",
 					"name": "init",
+					"folderColor": "",
+					"iconColor": "",
 					"pattern": "^(init|initializers?|startup)$",
 					"icon": "/hook.svg"
 				},
 				{
 					"folderNames": "javascript,javascripts,js",
 					"name": "javascript",
+					"folderColor": "",
+					"iconColor": "",
 					"pattern": "^(javascripts?|js)$",
 					"icon": "/js.svg"
 				},
 				{
 					"folderNames": "jinja",
 					"name": "jinja",
+					"folderColor": "",
+					"iconColor": "",
 					"pattern": "^jinja$",
 					"icon": "/jinja.svg"
 				},
 				{
 					"folderNames": "jobs,job,resque",
 					"name": "jobs",
+					"folderColor": "",
+					"iconColor": "",
 					"pattern": "^(jobs?|resque)$",
 					"icon": "/job.svg"
 				},
 				{
 					"folderNames": "jsons,json",
 					"name": "json",
+					"folderColor": "",
+					"iconColor": "",
 					"pattern": "^jsons?$",
 					"icon": "/json.svg"
 				},
 				{
 					"folderNames": "key,keys,cert,certs",
 					"name": "keys",
+					"folderColor": "",
+					"iconColor": "",
 					"pattern": "^(keys?|certs?)$",
 					"icon": "/keys.svg"
 				},
 				{
 					"folderNames": "kubernetes,k8s",
 					"name": "kubernetes",
+					"folderColor": "",
+					"iconColor": "",
 					"pattern": "^(kubernetes|k8s)$",
 					"icon": "/kubernetes.svg"
 				},
 				{
 					"folderNames": "layout,layouts,_layout,_layouts",
 					"name": "layouts",
+					"folderColor": "",
+					"iconColor": "",
 					"pattern": "^_?layouts?$",
 					"icon": "/layouts.svg"
 				},
 				{
 					"folderNames": "less",
 					"name": "less",
+					"folderColor": "",
+					"iconColor": "",
 					"pattern": "^less$",
 					"icon": "/less.svg"
 				},
 				{
 					"folderNames": "log,logs",
 					"name": "logs",
+					"folderColor": "",
+					"iconColor": "",
 					"pattern": "^logs?$",
 					"icon": "/logs.svg"
 				},
 				{
 					"folderNames": "mailer,mailers,email,emails,mail,mails",
 					"name": "mailers",
+					"folderColor": "",
+					"iconColor": "",
 					"pattern": "^(mailers?|emails?|mails?)$",
 					"icon": "/mailers.svg"
 				},
 				{
 					"folderNames": "md,markdown",
 					"name": "markdown",
+					"folderColor": "",
+					"iconColor": "",
 					"pattern": "^(md|markdown)$",
 					"icon": "/markdown.svg"
 				},
 				{
 					"folderNames": "maven",
 					"name": "maven",
+					"folderColor": "",
+					"iconColor": "",
 					"pattern": "^maven$",
 					"icon": "/maven.svg"
 				},
 				{
 					"folderNames": "map,maps,mapping,mappings,mapper,mappers",
 					"name": "maps",
+					"folderColor": "",
+					"iconColor": "",
 					"pattern": "^(maps?|mappings?|mappers?)$",
 					"icon": "/maps.svg"
 				},
 				{
 					"folderNames": "message,messages,msg,msgs",
 					"name": "messages",
+					"folderColor": "",
+					"iconColor": "",
 					"pattern": "^(messages?|msgs?)$",
 					"icon": "/messages.svg"
 				},
 				{
 					"folderNames": "meta,META-INF",
 					"name": "meta",
+					"folderColor": "",
+					"iconColor": "",
 					"pattern": "^(meta|META-INF)$",
 					"icon": "/meta.svg"
 				},
 				{
 					"folderNames": "middleware,middlewares,thunk,thunks",
 					"name": "middlewares",
+					"folderColor": "",
+					"iconColor": "",
 					"pattern": "^(middlewares?|thunks?)$",
 					"icon": "/middleware.svg"
 				},
 				{
 					"folderNames": "mock,mocks,fake,fakes,stub,stubs",
 					"name": "mocks",
+					"folderColor": "",
+					"iconColor": "",
 					"pattern": "^(mocks?|fakes?|stubs?)$",
 					"icon": "/mocks.svg"
 				},
 				{
 					"folderNames": "modal,modals,portal,portals",
 					"name": "modals",
+					"folderColor": "",
+					"iconColor": "",
 					"pattern": "^(modals?|portals?)$",
 					"icon": "/modals.svg"
 				},
 				{
 					"folderNames": "model,models,struct,structs,class,classes",
 					"name": "models",
+					"folderColor": "",
+					"iconColor": "",
 					"pattern": "^(models?|structs?|class|classes)$",
 					"icon": "/models.svg"
 				},
 				{
 					"folderNames": ".netlify",
 					"name": "netlify",
+					"folderColor": "",
+					"iconColor": "",
 					"pattern": "^\\.netlify",
 					"icon": "/netlify.svg"
 				},
 				{
 					"folderNames": "node_modules",
 					"name": "node_modules",
+					"folderColor": "",
+					"iconColor": "",
 					"pattern": "^node_modules$",
 					"icon": "/node.svg"
 				},
 				{
 					"folderNames": "notif,notification,notifications,flash",
 					"name": "notification",
+					"folderColor": "",
+					"iconColor": "",
 					"pattern": "(notif|notifications?|flash)",
 					"icon": "/notification.svg"
 				},
 				{
 					"folderNames": "nuxt,.nuxt",
 					"name": "nuxt",
+					"folderColor": "",
+					"iconColor": "",
 					"pattern": "(nuxt|.nuxt)",
 					"icon": "/nuxt.svg"
 				},
 				{
 					"folderNames": ".nyc",
 					"name": "nyc",
+					"folderColor": "",
+					"iconColor": "",
 					"pattern": "^\\.nyc",
 					"icon": "/coverage.svg"
 				},
 				{
 					"folderNames": "other,misc,extra,extras",
 					"name": "other",
+					"folderColor": "",
+					"iconColor": "",
 					"pattern": "^(other|misc|extras?)$",
 					"icon": "/other.svg"
 				},
 				{
 					"folderNames": "package,packages",
 					"name": "packages",
+					"folderColor": "",
+					"iconColor": "",
 					"pattern": "^packages?$",
 					"icon": "/packages.svg"
 				},
 				{
 					"folderNames": "php",
 					"name": "php",
+					"folderColor": "",
+					"iconColor": "",
 					"pattern": "^php$",
 					"icon": "/php.svg"
 				},
 				{
 					"folderNames": "pipe,pipes,filter,filters",
 					"name": "pipe",
+					"folderColor": "",
+					"iconColor": "",
 					"pattern": "^(pipes?|filters?)$",
 					"icon": "/pipe.svg"
 				},
 				{
 					"folderNames": "plugin,plugins,mu-plugins",
 					"name": "plugin",
+					"folderColor": "",
+					"iconColor": "",
 					"pattern": "^(mu-)?plugins?$",
 					"icon": "/plugin.svg"
 				},
 				{
 					"folderNames": "post,posts",
 					"name": "posts",
+					"folderColor": "",
+					"iconColor": "",
 					"pattern": "^posts?$",
 					"icon": "/posts.svg"
 				},
 				{
 					"folderNames": ".prisma",
 					"name": "prisma",
+					"folderColor": "",
+					"iconColor": "",
 					"pattern": "^\\.prisma$",
 					"icon": "/prisma.svg"
 				},
 				{
 					"folderNames": "private",
 					"name": "private",
+					"folderColor": "",
+					"iconColor": "",
 					"pattern": "^private$",
 					"icon": "/private.svg"
 				},
 				{
 					"folderNames": "provider,providers",
 					"name": "providers",
+					"folderColor": "",
+					"iconColor": "",
 					"pattern": "^providers?$",
 					"icon": "/providers.svg"
 				},
 				{
 					"folderNames": "python",
 					"name": "python",
+					"folderColor": "",
+					"iconColor": "",
 					"pattern": "^python$",
 					"icon": "/python.svg"
 				},
 				{
 					"folderNames": "react,react_components,react-scripts",
 					"name": "react",
+					"folderColor": "",
+					"iconColor": "",
 					"pattern": "^react[_-]?.*",
 					"icon": "/react.svg"
 				},
 				{
 					"folderNames": "action,actions",
 					"name": "redux-actions",
+					"folderColor": "",
+					"iconColor": "",
 					"pattern": "^actions?$",
 					"icon": "/redux-actions.svg"
 				},
 				{
 					"folderNames": "reducer,reducers",
 					"name": "redux-reducers",
+					"folderColor": "",
+					"iconColor": "",
 					"pattern": "^reducers?$",
 					"icon": "/redux-reducers.svg"
 				},
 				{
 					"folderNames": "store,stores",
 					"name": "redux-stores",
+					"folderColor": "",
+					"iconColor": "",
 					"pattern": "^stores?$",
 					"icon": "/redux-stores.svg"
 				},
 				{
 					"folderNames": "relay",
 					"name": "relay",
+					"folderColor": "",
+					"iconColor": "",
 					"pattern": "^relay$",
 					"icon": "/relay.svg"
 				},
 				{
 					"folderNames": "res,resource,resources,asset,assets",
 					"name": "resource",
+					"folderColor": "",
+					"iconColor": "",
 					"pattern": "^(res|resources?|assets?)$",
 					"icon": "/resource.svg"
 				},
 				{
 					"folderNames": ".xcassets",
 					"name": "resourceIOS",
+					"folderColor": "",
+					"iconColor": "",
 					"pattern": ".*\\.xcassets",
 					"icon": "/resource.svg"
 				},
 				{
 					"folderNames": "review,reviews",
 					"name": "reviews",
+					"folderColor": "",
+					"iconColor": "",
 					"pattern": "^reviews?$",
 					"icon": "/reviews.svg"
 				},
 				{
 					"folderNames": "routes,router",
 					"name": "routes",
+					"folderColor": "",
+					"iconColor": "",
 					"pattern": "^(routes|router)$",
 					"icon": "/routes.svg"
 				},
 				{
 					"folderNames": "validation,validations,validator,validators,rule,rules",
 					"name": "rules",
+					"folderColor": "",
+					"iconColor": "",
 					"pattern": "^(validations?|validators?|rules?)$",
 					"icon": "/rules.svg"
 				},
 				{
 					"folderNames": "sass,scss",
 					"name": "sass",
+					"folderColor": "",
+					"iconColor": "",
 					"pattern": "^(sass|scss)$",
 					"icon": "/sass.svg"
 				},
 				{
 					"folderNames": "screens,screen,screenshot,screenshots",
 					"name": "screens",
+					"folderColor": "",
+					"iconColor": "",
 					"pattern": "^(screens?|screenshots?)$",
 					"icon": "/screens.svg"
 				},
 				{
 					"folderNames": "script,scripts,selector,selectors",
 					"name": "scripts",
+					"folderColor": "",
+					"iconColor": "",
 					"pattern": "^(scripts?|selectors?)$",
 					"icon": "/scripts.svg"
 				},
 				{
 					"folderNames": "secure,security",
 					"name": "security",
+					"folderColor": "",
+					"iconColor": "",
 					"pattern": "^(secure|security)$",
 					"icon": "/security.svg"
 				},
 				{
 					"folderNames": "server,http,request,requests,saga,sagas",
 					"name": "server",
+					"folderColor": "",
+					"iconColor": "",
 					"pattern": "^(server|http|requests?|sagas?)$",
 					"icon": "/server.svg"
 				},
 				{
 					"folderNames": ".serverless,serverless",
 					"name": "serverless",
+					"folderColor": "",
+					"iconColor": "",
 					"pattern": "^\\.?serverless$",
 					"icon": "/serverless.svg"
 				},
 				{
 					"folderNames": "shared",
 					"name": "shared",
+					"folderColor": "",
+					"iconColor": "",
 					"pattern": "^shared$",
 					"icon": "/shared.svg"
 				},
 				{
 					"folderNames": "src,app",
 					"name": "sources",
+					"folderColor": "",
+					"iconColor": "",
 					"pattern": "^(src|app)$",
 					"icon": "/src.svg"
 				},
 				{
 					"folderNames": "sql,mysql,pgsql",
 					"name": "sql",
+					"folderColor": "",
+					"iconColor": "",
 					"pattern": "^(sql|mysql|pgsql)$",
 					"icon": "/sql.svg"
 				},
 				{
 					"folderNames": "stack,stacks",
 					"name": "stack",
+					"folderColor": "",
+					"iconColor": "",
 					"pattern": "^stacks?$",
 					"icon": "/stack.svg"
 				},
 				{
 					"folderNames": "stories,storybook,storybooks",
 					"name": "storybook",
+					"folderColor": "",
+					"iconColor": "",
 					"pattern": "^(stories|storybooks?)$",
 					"icon": "/storybook.svg"
 				},
 				{
 					"folderNames": ".storybook",
 					"name": "storybookConfig",
+					"folderColor": "",
+					"iconColor": "",
 					"pattern": "^\\.storybook$",
 					"icon": "/storybook.svg"
 				},
 				{
 					"folderNames": "css,style,styles,stylesheet,stylesheets",
 					"name": "styles",
+					"folderColor": "",
+					"iconColor": "",
 					"pattern": "^(css|styles?|stylesheets?)$",
 					"icon": "/styles.svg"
 				},
 				{
 					"folderNames": "styl,stylus",
 					"name": "stylus",
+					"folderColor": "",
+					"iconColor": "",
 					"pattern": "^(styl|stylus)$",
 					"icon": "/stylus.svg"
 				},
 				{
 					"folderNames": ".sublime",
 					"name": "sublime",
+					"folderColor": "",
+					"iconColor": "",
 					"pattern": "^\\.sublime$",
 					"icon": "/sublime.svg"
 				},
 				{
 					"folderNames": "sync,synced",
 					"name": "sync",
+					"folderColor": "",
+					"iconColor": "",
 					"pattern": "^(sync|synced)$",
 					"icon": "/sync.svg"
 				},
 				{
 					"folderNames": "syntax,syntaxes,spellcheck",
 					"name": "syntax",
+					"folderColor": "",
+					"iconColor": "",
 					"pattern": "^(syntax|syntaxes|spellcheck)$",
 					"icon": "/syntax.svg"
 				},
 				{
 					"folderNames": "task,tasks",
 					"name": "tasks",
+					"folderColor": "",
+					"iconColor": "",
 					"pattern": "^(tasks?)$",
 					"icon": "/tasks.svg"
 				},
 				{
 					"folderNames": "tmp,.tmp,temp,.temp,cache,.cache",
 					"name": "temp",
+					"folderColor": "",
+					"iconColor": "",
 					"pattern": "^(\\.?tmp|\\.?temp|\\.?cache)$",
 					"icon": "/temp.svg"
 				},
 				{
 					"folderNames": "test,tests,spec,specs,unit,units",
 					"name": "tests",
+					"folderColor": "",
+					"iconColor": "",
 					"pattern": "^(tests?|specs?|units?)$",
 					"icon": "/tests.svg"
 				},
 				{
 					"folderNames": "theme,themes,color,colors,scheme,schemes,skin,skins",
 					"name": "themes",
+					"folderColor": "",
+					"iconColor": "",
 					"pattern": "^(themes?|colors?|schemes?|skins?)$",
 					"icon": "/themes.svg"
 				},
 				{
 					"folderNames": "typescript,typescripts,ts,interface,interfaces",
 					"name": "typescript",
+					"folderColor": "",
+					"iconColor": "",
 					"pattern": "^(typescripts?|ts|interfaces?)$",
 					"icon": "/ts.svg"
 				},
 				{
 					"folderNames": "upload,uploads",
 					"name": "upload",
+					"folderColor": "",
+					"iconColor": "",
 					"pattern": "^uploads?$",
 					"icon": "/upload.svg"
 				},
 				{
 					"folderNames": "util,utils,tool,tools",
 					"name": "utils",
+					"folderColor": "",
+					"iconColor": "",
 					"pattern": "^(utils?|tools?)$",
 					"icon": "/tools.svg"
 				},
 				{
 					"folderNames": "vendor,vendors,lib,libs,Pod,Pods",
 					"name": "vendors",
+					"folderColor": "",
+					"iconColor": "",
 					"pattern": "^(vendors?|libs?|Pods?)$",
 					"icon": "/lib.svg"
 				},
 				{
 					"folderNames": "videos,video,movie,movies",
 					"name": "video",
+					"folderColor": "",
+					"iconColor": "",
 					"pattern": "^(videos?|movies?)$",
 					"icon": "/video.svg"
 				},
 				{
 					"folderNames": "view,views,template,templates,page,pages",
 					"name": "views",
+					"folderColor": "",
+					"iconColor": "",
 					"pattern": "^(views?|templates?|pages?)$",
 					"icon": "/views.svg"
 				},
 				{
 					"folderNames": "virtual,vm,vms,machine,machines",
 					"name": "vm",
+					"folderColor": "",
+					"iconColor": "",
 					"pattern": "^(virtual|vms?|machines?)$",
 					"icon": "/vm.svg"
 				},
 				{
 					"folderNames": "vscode,.vscode",
 					"name": "vscode",
+					"folderColor": "",
+					"iconColor": "",
 					"pattern": "^\\.?vscode$",
 					"icon": "/vscode.svg"
 				},
 				{
 					"folderNames": "vue",
 					"name": "vue",
+					"folderColor": "",
+					"iconColor": "",
 					"pattern": "^vue$",
 					"icon": "/vue.svg"
 				},
 				{
 					"folderNames": "vuex",
 					"name": "vuex",
+					"folderColor": "",
+					"iconColor": "",
 					"pattern": "^vuex$",
 					"icon": "/vuex.svg"
 				},
 				{
 					"folderNames": "public,static,web,www,wwwroot",
 					"name": "web",
+					"folderColor": "",
+					"iconColor": "",
 					"pattern": "^(public|static|web|www|wwwroot)$",
 					"icon": "/web.svg"
 				},
 				{
 					"folderNames": "webpack",
 					"name": "webpack",
+					"folderColor": "",
+					"iconColor": "",
 					"pattern": "^webpack$",
 					"icon": "/webpack.svg"
 				},
 				{
 					"folderNames": "wp-admin,wp-content,wp-includes",
 					"name": "wordpress",
+					"folderColor": "",
+					"iconColor": "",
 					"pattern": "^wp-(admin|content|includes)$",
 					"icon": "/wordpress.svg"
 				}
