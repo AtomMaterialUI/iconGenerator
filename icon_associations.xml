@@ -1132,7 +1132,7 @@
         <regex fileNames="*.cpp,*.c++,*.cc,*.ii,*.mii,*.cxx,*.ipp,*.hpp"
                name="C++"
                color="1E9CEF"
-               pattern=".*\.(cpp|c++|cc|ii|mii|cxx|ipp|hpp)$"
+               pattern=".*\.(cpp|c\+\+|cc|ii|mii|cxx|ipp|hpp)$"
                icon="/icons/files/cpp.svg"/>
         <regex fileNames="*.csx,*.cs"
                name="C#"
