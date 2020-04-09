@@ -223,7 +223,7 @@ export class GitClient<T extends CommandArgs> {
     if (!remote) {
       remote = GitClient.addRemote(this.docsRepo, this.docsRepoUrl);
     }
-    await this.push(remote, numOfCommits, 'docs');
+    await this.push(remote, numOfCommits);
   }
 
   /**

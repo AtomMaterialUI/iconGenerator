@@ -114,7 +114,7 @@ export class FoldersListGenerator extends ListGenerator {
     let mdText = '| ';
 
     mdText += this.pargs.useSmallFonts ? '<sub>' : '';
-    mdText += ` ![${folderAssociation.name}](${this.getImagesUrl()}folders${folderAssociation.icon}?sanitize=true) `;
+    mdText += ` ![${folderAssociation.name}](${this.getImagesUrl()}/folders${folderAssociation.icon}?sanitize=true) `;
     mdText += this.pargs.useSmallFonts ? '</sub>' : '';
     return mdText;
   }
@@ -123,7 +123,7 @@ export class FoldersListGenerator extends ListGenerator {
     let mdText = '| ';
 
     mdText += this.pargs.useSmallFonts ? '<sub>' : '';
-    mdText += ` ![${folderAssociation.name}](${this.getImagesUrl()}foldersOpen${folderAssociation.icon}?sanitize=true) `;
+    mdText += ` ![${folderAssociation.name}](${this.getImagesUrl()}/foldersOpen${folderAssociation.icon}?sanitize=true) `;
     mdText += this.pargs.useSmallFonts ? '</sub>' : '';
     return mdText;
   }
