@@ -782,7 +782,7 @@
                name="ChartJS"
                color="ff777b"
                pattern="^[Cc]hart(\.bundle)?(\.min)?\.[cm]?js$"
-               icon="/icons/files/chart.svg"/>
+               icon="/icons/files/chartjs.svg"/>
         <regex fileNames="*.jas"
                name="Cheetah 3D"
                color="A1887F"
