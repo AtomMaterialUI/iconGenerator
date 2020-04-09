@@ -151,6 +151,7 @@ export class ExampleGenerator {
       folderAssociations.forEach(folder => {
         try {
           fs.mkdirSync(folder);
+          fs.writeFileSync(`${folder}/.keep`, null);
           this.logger.updateLog(`Example folder for '${name}' successfully created!`);
         } catch (e) {
           this.logger.error(`Something went wrong while creating the folder(s) for '${name}' :\n${e}`);
