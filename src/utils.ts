@@ -29,6 +29,7 @@ import path from 'path';
 import fs from 'fs';
 
 export const ROOT = 'iconGenerator';
+export const DOCS_ROOT = 'material-theme-jetbrains-docs';
 
 
 /**

@@ -36,39 +36,45 @@ import { PreviewArgsParser, PreviewCommandArgs } from './argsParsers/previewArgs
 import { PreviewGenerator } from './previewGenerator';
 import { CommandArgs } from './types/associations';
 
-const generator = <ICommandArgs extends CommandArgs>(ArgsParser, Generator, useGit = false) => async () => {
-  const logger = new Logger();
-  // Parse arguments
-  const pargs = new ArgsParser(logger).parse();
+const generator = <ICommandArgs extends CommandArgs>(ArgsParser, Generator, useGit = false) => {
+  return async () => {
+    const logger = new Logger();
+    // Parse arguments
+    const pargs = new ArgsParser(logger).parse();
 
-  const gitClient = useGit ? new GitClient<ICommandArgs>(pargs, logger) : null;
+    const gitClient = useGit ? new GitClient<ICommandArgs>(pargs, logger) : null;
 
-  // Find the icon association files root folder
-  const rootDir = findDirectorySync('.');
+    // Find the icon association files root folder
+    const rootDir = findDirectorySync('.');
 
-  // Regexp to find the associations.json
-  const baseRegex = '(?:(?:\\/|\\\\)[a-zA-Z0-9\\s_@\-^!#$%&+={}\\[\\]]+)*(?:\\/|\\\\)';
-  // Find associations in src
-  const filesPath = findFileSync(new RegExp(`${baseRegex}icon_associations\\.json`), rootDir)[0];
-  const foldersPath = findFileSync(new RegExp(`${baseRegex}folder_associations\\.json`), rootDir)[0];
+    // Regexp to find the associations.json
+    const baseRegex = '(?:(?:\\/|\\\\)[a-zA-Z0-9\\s_@\-^!#$%&+={}\\[\\]]+)*(?:\\/|\\\\)';
+    // Find associations in src
+    const filesPath = findFileSync(new RegExp(`${baseRegex}icon_associations\\.json`), rootDir)[0];
+    const foldersPath = findFileSync(new RegExp(`${baseRegex}folder_associations\\.json`), rootDir)[0];
 
-  if (useGit) {
-    // Clone or open repo
-    await Promise.all([gitClient.getCodeRepository(), gitClient.getWikiRepository()]);
-  }
+    if (useGit) {
+      // Clone or open repo
+      await Promise.all([
+        gitClient.getCodeRepository(),
+        gitClient.getWikiRepository(),
+        gitClient.getDocsRepository(),
+      ]);
+    }
 
-  try {
-    // Try to parse the json files
-    const files = require(filesPath).associations.associations.regex;
-    const folders = require(foldersPath).associations.associations.regex;
+    try {
+      // Try to parse the json files
+      const files = require(filesPath).associations.associations.regex;
+      const folders = require(foldersPath).associations.associations.regex;
 
-    // Generate the files
-    await new Generator(pargs, files, folders, logger, gitClient).generate();
-    process.exit(0);
-  }
-  finally {
-    process.exit(1);
-  }
+      // Generate the files
+      await new Generator(pargs, files, folders, logger, gitClient).generate();
+      process.exit(0);
+    }
+    finally {
+      process.exit(1);
+    }
+  };
 };
 
 export const examples = generator<CommandArgs>(ExamplesArgsParser, ExampleGenerator);

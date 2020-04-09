@@ -25,9 +25,9 @@
  *
  */
 
-import {ListGenerator, ListGeneratorParams} from './listGenerator';
-import {IconAssociation} from '../types/associations';
-import {ROOT, slugify} from '../utils';
+import { ListGenerator, ListGeneratorParams } from './listGenerator';
+import { IconAssociation } from '../types/associations';
+import { ROOT, slugify } from '../utils';
 
 export interface FilesListGeneratorParams extends ListGeneratorParams {
   files: IconAssociation[],
@@ -39,6 +39,7 @@ export class FilesListGenerator extends ListGenerator {
   constructor(param: FilesListGeneratorParams) {
     super({
       wikiPageFilename: 'associations.md',
+      docsPageFilename: 'docs/reference/associations.md',
       associationsFile: 'icon_associations.json',
       logGroupId: 'files',
       pargs: param.pargs,
@@ -77,7 +78,7 @@ export class FilesListGenerator extends ListGenerator {
   }
 
   protected getImagesUrl() {
-    return `https://raw.githubusercontent.com/${this.pargs.account}/${ROOT}/master/assets/`;
+    return `https://raw.githubusercontent.com/${this.pargs.account}/${ROOT}/master/assets`;
   }
 
   private getName(iconAssociation: IconAssociation) {
@@ -102,7 +103,7 @@ export class FilesListGenerator extends ListGenerator {
     let mdText = '| ';
 
     mdText += this.pargs.useSmallFonts ? '<sub>' : '';
-    mdText += ` ${iconAssociation.fileNames.split(',').map(f => f.replace('*','&ast;')).join('<br>')} `;
+    mdText += ` ${iconAssociation.fileNames.split(',').map(f => f.replace('*', '&ast;')).join('<br>')} `;
     mdText += this.pargs.useSmallFonts ? '</sub>' : '';
     return mdText;
   }

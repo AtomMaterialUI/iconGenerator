@@ -25,14 +25,13 @@
  *
  */
 
-import {FolderAssociation, IconAssociation} from './types/associations';
-import {Logger} from './services/logger';
-import {GitClient} from './services/gitClient';
-import {PreviewCommandArgs} from './argsParsers/previewArgsParser';
-import {FilesPreviewGenerator} from './previewGenerators/filesPreviewGenerator';
-import {FoldersPreviewGenerator} from './previewGenerators/foldersPreviewGenerator';
-import {ExamplesFlags} from './argsParsers/examplesArgsParser';
-
+import { FolderAssociation, IconAssociation } from './types/associations';
+import { Logger } from './services/logger';
+import { GitClient } from './services/gitClient';
+import { PreviewCommandArgs } from './argsParsers/previewArgsParser';
+import { FilesPreviewGenerator } from './previewGenerators/filesPreviewGenerator';
+import { FoldersPreviewGenerator } from './previewGenerators/foldersPreviewGenerator';
+import { ExamplesFlags } from './argsParsers/examplesArgsParser';
 
 export class PreviewGenerator {
   private filesPreviewGenerator: FilesPreviewGenerator;
@@ -61,7 +60,6 @@ export class PreviewGenerator {
 
   }
 
-
   async generate() {
     const results = [];
     this.logger.log(`Running generate command for ${this.pargs.command}`, 'preview');
@@ -79,22 +77,29 @@ export class PreviewGenerator {
     }
 
     try {
-      let hasCommit: boolean;
-      if (results && results.length) {
-        for (const result of results) {
-          hasCommit = await this.gitClient.tryCommitToWikiRepo(result.filename, result.content) || hasCommit;
-        }
-      }
-
-      if (hasCommit) {
-        await this.gitClient.tryPushToWikiRepo(results.length);
-      }
+      await this.commitAndPushToWiki(results);
 
       this.logger.log('Finished');
-    } catch (e) {
+    }
+    catch (e) {
       const error = e instanceof Error ? e : new Error(e);
       this.logger.error(error.stack);
       process.exit(1);
     }
   }
+
+  private async commitAndPushToWiki(results: any[]) {
+    let hasCommit: boolean;
+    if (results && results.length) {
+      for (const result of results) {
+        hasCommit = await this.gitClient.tryCommitToWikiRepo(result.filename, result.content) || hasCommit;
+      }
+    }
+
+    if (hasCommit) {
+      await this.gitClient.tryPushToWikiRepo(results.length);
+    }
+  }
+
+
 }

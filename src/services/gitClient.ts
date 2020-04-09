@@ -25,19 +25,24 @@
  *
  */
 
-import {WikiAllowedOutputs} from '../argsParsers/wikiArgsParser';
-import {ISpinner, Logger} from './logger';
+import { WikiAllowedOutputs } from '../argsParsers/wikiArgsParser';
+import { ISpinner, Logger } from './logger';
+import rimraf from 'rimraf';
 import * as fs from 'fs';
-import {Clone, Cred, PushOptions, Reference, Remote, Repository, Signature} from 'nodegit';
-import {findDirectorySync, pathUnixJoin, ROOT} from '../utils';
-import {clearInterval} from 'timers';
-import {CommandArgs} from '../types/associations';
+import { Clone, Cred, PushOptions, Reference, Remote, Repository, Signature } from 'nodegit';
+import { findDirectorySync, pathUnixJoin, ROOT, DOCS_ROOT } from '../utils';
+import { clearInterval } from 'timers';
+import { CommandArgs } from '../types/associations';
 
 export class GitClient<T extends CommandArgs> {
   /**
    * Path to the wiki
    */
   wikiRepoFolder: string;
+  /**
+   * Path to the docs repo
+   */
+  docsRepoFolder: string;
   /**
    * Path to the folder containing the icons
    */
@@ -58,6 +63,10 @@ export class GitClient<T extends CommandArgs> {
    * Url to the wiki
    */
   private readonly wikiRepoUrl: string;
+  /**
+   * Url to the docs
+   */
+  private readonly docsRepoUrl: string;
 
   /**
    * Code Repository
@@ -67,13 +76,19 @@ export class GitClient<T extends CommandArgs> {
    * Wiki Repository
    */
   private wikiRepo: Repository;
+  /**
+   * Docs Repository
+   */
+  private docsRepo: Repository;
 
   constructor(private pargs: T, private logger: Logger) {
     this.rootFolder = pathUnixJoin(findDirectorySync(ROOT), './');
     this.codeRepoFolder = pathUnixJoin(this.rootFolder, 'tmp', this.pargs.account, ROOT);
     this.wikiRepoFolder = pathUnixJoin(this.rootFolder, 'tmp', this.pargs.account, `${ROOT}.wiki`);
+    this.docsRepoFolder = pathUnixJoin(this.rootFolder, 'tmp', this.pargs.account, DOCS_ROOT);
 
     this.codeRepoUrl = `https://github.com/${this.pargs.account}/${ROOT}`;
+    this.docsRepoUrl = `https://github.com/${this.pargs.account}/${DOCS_ROOT}`;
     this.wikiRepoUrl = `${this.codeRepoUrl}.wiki`;
   }
 
@@ -129,6 +144,17 @@ export class GitClient<T extends CommandArgs> {
   }
 
   /**
+   * Get the docs repository
+   */
+  async getDocsRepository() {
+    if (this.pargs.output !== WikiAllowedOutputs.REPO) {
+      return;
+    }
+
+    this.docsRepo = await this.getRepository(this.docsRepoUrl, this.docsRepoFolder);
+  }
+
+  /**
    * Try to commit to the wiki repo
    * @param filename
    * @param content
@@ -142,6 +168,22 @@ export class GitClient<T extends CommandArgs> {
     }
 
     return this.commit(this.wikiRepo, filename);
+  }
+
+  /**
+   * Try to commit to the docs repo
+   * @param filename
+   * @param content
+   */
+  async tryCommitToDocsRepo(filename: string, content: any): Promise<boolean> {
+    if (this.pargs.output !== WikiAllowedOutputs.REPO || !content) {
+      return;
+    }
+    if (!this.docsRepo) {
+      await this.getDocsRepository();
+    }
+
+    return this.commit(this.docsRepo, filename);
   }
 
   /**
@@ -165,6 +207,26 @@ export class GitClient<T extends CommandArgs> {
   }
 
   /**
+   * Try to push to the docs repo
+   * @param numOfCommits
+   */
+  async tryPushToDocsRepo(numOfCommits: number) {
+    if (this.pargs.output !== WikiAllowedOutputs.REPO) {
+      return;
+    }
+    if (!this.docsRepo) {
+      await this.getDocsRepository();
+    }
+
+    // Fetch or add remote
+    let remote = await this.docsRepo.getRemote('origin');
+    if (!remote) {
+      remote = GitClient.addRemote(this.docsRepo, this.docsRepoUrl);
+    }
+    await this.push(remote, numOfCommits, 'docs');
+  }
+
+  /**
    * Check if the filename has changed in the repo
    * @param filename
    */
@@ -185,10 +247,15 @@ export class GitClient<T extends CommandArgs> {
    * @param folder
    */
   private async getRepository(url: string, folder: string): Promise<Repository> {
-    if (url && !fs.existsSync(folder)) {
+    if (!url) {
+      throw Error('url is not defined');
+    }
+    if (!fs.existsSync(folder)) {
       return this.cloneRepo(url, folder);
-    } else {
-      return Repository.open(folder);
+    }
+    else {
+      await rimraf.sync(folder);
+      return this.cloneRepo(url, folder);
     }
   }
 
@@ -205,7 +272,8 @@ export class GitClient<T extends CommandArgs> {
       this.logger.spinnerLogStop(spinner, message.replace('Cloning', 'Cloned'), this.logGroupId);
 
       return clone;
-    } catch (e) {
+    }
+    catch (e) {
       clearInterval(spinner.timer);
       throw e;
     }
@@ -250,7 +318,8 @@ export class GitClient<T extends CommandArgs> {
 
       this.logger.spinnerLogStop(spinner, `Commit created: ${headId.tostrS()}`, this.logGroupId);
       return true;
-    } catch (e) {
+    }
+    catch (e) {
       clearInterval(spinner.timer);
       throw e;
     }
@@ -261,7 +330,7 @@ export class GitClient<T extends CommandArgs> {
    * @param remote
    * @param numOfCommits
    */
-  private async push(remote: Remote, numOfCommits: number) {
+  private async push(remote: Remote, numOfCommits: number, branch: string = 'master') {
     const options: PushOptions = {
       callbacks: {
         credentials: () => Cred.userpassPlaintextNew(this.pargs.account, this.pargs.token),
@@ -277,11 +346,12 @@ export class GitClient<T extends CommandArgs> {
 
     try {
       // Push master
-      const result = await remote.push(['refs/heads/master:refs/heads/master'], options);
+      const result = await remote.push([`refs/heads/${branch}:refs/heads/${branch}`], options);
       this.logger.spinnerLogStop(spinner, `Commit${s} pushed`, this.logGroupId);
       clearTimeout(timer);
       return result;
-    } catch (e) {
+    }
+    catch (e) {
       clearInterval(spinner.timer);
       throw e;
     }

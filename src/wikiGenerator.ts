@@ -47,6 +47,7 @@ export class WikiGenerator {
       files,
       associationsFile: '',
       wikiPageFilename: '',
+      docsPageFilename: '',
       logger,
       gitClient,
     });
@@ -54,6 +55,7 @@ export class WikiGenerator {
     this.foldersListGenerator = new FoldersListGenerator({
       associationsFile: '',
       wikiPageFilename: '',
+      docsPageFilename: '',
       pargs,
       folders,
       logger,
@@ -82,24 +84,40 @@ export class WikiGenerator {
     }
 
     try {
-      let hasCommit: boolean;
-      if (results && results.length) {
-        for (const result of results) {
-          if (result) {
-            hasCommit = await this.gitClient.tryCommitToWikiRepo(result.filename, result.content) || hasCommit;
-          }
-        }
-      }
-
-      if (hasCommit) {
-        await this.gitClient.tryPushToWikiRepo(results.length);
-      }
+      await this.commitAndPushToWiki(results);
+      await this.commitAndPushToDocs(results);
 
       this.logger.log('Finished');
     } catch (e) {
       const error = e instanceof Error ? e : new Error(e);
       this.logger.error(error.stack);
       process.exit(1);
+    }
+  }
+
+  private async commitAndPushToWiki(results: any[]) {
+    let hasCommit: boolean;
+    if (results && results.length) {
+      for (const result of results) {
+        hasCommit = await this.gitClient.tryCommitToWikiRepo(result.filename, result.content) || hasCommit;
+      }
+    }
+
+    if (hasCommit) {
+      await this.gitClient.tryPushToWikiRepo(results.length);
+    }
+  }
+
+  private async commitAndPushToDocs(results: any[]) {
+    let hasCommit: boolean;
+    if (results && results.length) {
+      for (const result of results) {
+        hasCommit = await this.gitClient.tryCommitToDocsRepo(result.docsFilename, result.content) || hasCommit;
+      }
+    }
+
+    if (hasCommit) {
+      await this.gitClient.tryPushToDocsRepo(results.length);
     }
   }
 }

@@ -25,9 +25,9 @@
  *
  */
 
-import {ListGenerator, ListGeneratorParams} from './listGenerator';
-import {FolderAssociation} from '../types/associations';
-import {ROOT, slugify} from '../utils';
+import { ListGenerator, ListGeneratorParams } from './listGenerator';
+import { FolderAssociation } from '../types/associations';
+import { ROOT, slugify } from '../utils';
 
 export interface FoldersListGeneratorParams extends ListGeneratorParams {
   folders: FolderAssociation[],
@@ -39,6 +39,7 @@ export class FoldersListGenerator extends ListGenerator {
   constructor(param: FoldersListGeneratorParams) {
     super({
       wikiPageFilename: 'folder_associations.md',
+      docsPageFilename: 'docs/reference/folder_associations.md',
       associationsFile: 'folder_associations.json',
       logGroupId: 'folders',
       pargs: param.pargs,
@@ -49,7 +50,7 @@ export class FoldersListGenerator extends ListGenerator {
   }
 
   protected getImagesUrl() {
-    return `https://raw.githubusercontent.com/${this.pargs.account}/${ROOT}/master/assets/`;
+    return `https://raw.githubusercontent.com/${this.pargs.account}/${ROOT}/master/assets/icons`;
   }
 
   protected createList(): string {
@@ -113,7 +114,7 @@ export class FoldersListGenerator extends ListGenerator {
     let mdText = '| ';
 
     mdText += this.pargs.useSmallFonts ? '<sub>' : '';
-    mdText += ` ![${folderAssociation.name}](${this.getImagesUrl()}folders/${folderAssociation.icon}?sanitize=true) `;
+    mdText += ` ![${folderAssociation.name}](${this.getImagesUrl()}folders${folderAssociation.icon}?sanitize=true) `;
     mdText += this.pargs.useSmallFonts ? '</sub>' : '';
     return mdText;
   }
@@ -122,7 +123,7 @@ export class FoldersListGenerator extends ListGenerator {
     let mdText = '| ';
 
     mdText += this.pargs.useSmallFonts ? '<sub>' : '';
-    mdText += ` ![${folderAssociation.name}](${this.getImagesUrl()}foldersOpen/${folderAssociation.icon}?sanitize=true) `;
+    mdText += ` ![${folderAssociation.name}](${this.getImagesUrl()}foldersOpen${folderAssociation.icon}?sanitize=true) `;
     mdText += this.pargs.useSmallFonts ? '</sub>' : '';
     return mdText;
   }
