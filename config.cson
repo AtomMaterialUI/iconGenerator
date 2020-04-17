@@ -1629,15 +1629,6 @@ fileIcons:
 			[/^Notebook$/, "dark-cyan"]
 		]
 
-	Karma:
-		icon: "karma"
-		priority: 2
-		match: [
-			[/^karma\.conf(ig)?\.[cm]?js$/i, "medium-cyan"]
-			[/^karma\.conf(ig)?\.coffee$/i, "medium-maroon"]
-			[/^karma\.conf(ig)?\.ts$/i, "medium-cyan"]
-		]
-
 	KerboScript:
 		icon: "kos"
 		match: ".ks"

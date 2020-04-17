@@ -25,6 +25,7 @@
   ~
   -->
 
+<!--suppress LongLine -->
 <associations>
     <associations>
         <type name="Database" type="Database Element"
@@ -569,7 +570,7 @@
         <regex fileNames="javaBean.java,javabean.java"
                name="Bean"
                color="AB7967"
-               pattern=".*(b|B)ean\.java$"
+               pattern=".*([bB])ean\.java$"
                icon="/icons/files/bean.svg"/>
         <regex fileNames="*.feature,*.feature.php"
                name="Behat"
@@ -684,7 +685,7 @@
         <regex fileNames="Brewfile"
                name="Brewfile"
                color="8D6E63"
-               pattern="^Brewfile$$"
+               pattern="^Brewfile$"
                icon="/icons/files/brew.svg"/>
         <regex fileNames="*.bro"
                name="Bro"
@@ -1229,7 +1230,7 @@
         <regex fileNames="Dockerfile,dockerfile,dev.dockerfile,prodDockerfile"
                name="Docker"
                color="1e9cef"
-               pattern=".*\.?(d|D)ockerfile$"
+               pattern=".*\.?[dD]ockerfile$"
                icon="/icons/files/docker.svg"/>
         <regex fileNames="docker-compose.yml,docker-compose.yaml,docker-compose.dev.yml"
                name="DockerCompose"
@@ -1249,7 +1250,7 @@
         <regex fileNames="Doxyfile,doxyfile"
                name="Doxygen"
                color="FF5370"
-               pattern="^(D|d)oxyfile$"
+               pattern="^[Dd]oxyfile$"
                icon="/icons/files/doxygen.svg"/>
         <regex fileNames="*.drupal"
                name="Drupal"
@@ -1534,7 +1535,7 @@
         <regex fileNames="Gemfile.lock,gemfile.lock"
                name="Gemfile"
                color="e53935"
-               pattern="^(G|g)emfile\.lock$"
+               pattern="^[Gg]emfile\.lock$"
                icon="/icons/files/gemfile.svg"/>
         <regex fileNames=".gitlab-ci.yml"
                name="GitLab CI"
@@ -1604,12 +1605,12 @@
         <regex fileNames="gruntfile,Gruntfile,gruntfile.js,Gruntfile.ts"
                name="Grunt"
                color="F4BF75"
-               pattern="(g|G)runtfile.*"
+               pattern="[gG]runtfile.*"
                icon="/icons/files/gruntfile.svg"/>
         <regex fileNames="gulpfile,Gulpfile,gulpfile.js,Gulpfile.ts"
                name="Gulp"
                color="C74748"
-               pattern="(g|G)ulpfile.*"
+               pattern="[gG]ulpfile.*"
                icon="/icons/files/gulpfile.svg"/>
 
         <regex fileNames="*.objh,*.h,*.hp,*.hpp,*.tcc,*.hxx"
@@ -1655,7 +1656,7 @@
         <regex fileNames="Procfile,Procfile.windows,.slugignore"
                name="Heroku"
                color="7963E6"
-               pattern="^((P|p)rocfile(\.windows)?|\.slugignore)$"
+               pattern="^([Pp]rocfile(\.windows)?|\.slugignore)$"
                icon="/icons/files/heroku.svg"/>
         <regex fileNames="history,history.txt,historyfile"
                name="History"
@@ -1737,7 +1738,7 @@
         <regex fileNames="jenkinsfile,Jenkinsfile.groovy"
                name="Jenkins"
                color="D24A39"
-               pattern="^(j|J)enkinsfile.*"
+               pattern="^([jJ])enkinsfile.*"
                icon="/icons/files/jenkins.svg"/>
         <regex fileNames="jest.config.js,jest.setup.js,jest.teardown.js"
                name="Jest"
@@ -1790,10 +1791,11 @@
                pattern=".*\.ipynb$"
                icon="/icons/files/jupyter.svg"/>
 
-        <regex fileNames="karma.conf.js,karma.conf.ts"
+        <!--region K -->
+        <regex fileNames="karma.conf.js,karma.conf.ts,karma.config.coffee"
                name="Karma"
                color="6AAB20"
-               pattern="^karma\.conf.*"
+               pattern="^karma\.conf(ig)?\.(js|ts|coffee)$"
                icon="/icons/files/karma.svg"/>
         <regex fileNames="*.key,*.pem,*.gpg,*.pub"
                name="Key"
@@ -1820,6 +1822,7 @@
                color="497CE3"
                pattern=".*\.(kt|kts|kotlin)$"
                icon="/icons/files/kotlin.svg"/>
+        <!--endregion-->
 
         <regex fileNames="lerna.json"
                name="Lerna"
@@ -1900,7 +1903,7 @@
         <regex fileNames="Makefile,*.makefile"
                name="Makefile"
                color="E79627"
-               pattern=".*\.?(m|M)akefile$"
+               pattern=".*\.?([mM])akefile$"
                icon="/icons/files/makefile.svg"/>
         <regex fileNames="*.man,*.man1,*.man8"
                name="Manpage"
@@ -2178,7 +2181,7 @@
         <regex fileNames="my.test.php,myTest.php"
                name="PHPUnit"
                color="C792EA"
-               pattern=".*(t|T)est\.php$"
+               pattern=".*([tT])est\.php$"
                icon="/icons/files/phpunit.svg"/>
         <regex fileNames="*.phtml"
                name="PHTML"
@@ -2369,17 +2372,17 @@
         <regex fileNames="action.js,actions.ts,myAction.js,myActions.js,my-actions.js"
                name="Redux Action"
                color="ab47bc"
-               pattern=".*(a|A)ctions?\.(js|ts)$"
+               pattern=".*([aA])ctions?\.(js|ts)$"
                icon="/icons/files/redux-action.svg"/>
         <regex fileNames="reducer.js,reducer.ts,myReducer.js,myReducers.js,my-reducers.js"
                name="Redux Reducer"
                color="4CAF50"
-               pattern=".*(r|R)educer\.(js|ts)$"
+               pattern=".*([rR])educer\.(js|ts)$"
                icon="/icons/files/redux-reducer.svg"/>
         <regex fileNames="store.js,store.ts,myStore.js,myStores.js,my-stores.js"
                name="Redux Store"
                color="26C6DA"
-               pattern=".*(s|S)tore\.(js|ts)$"
+               pattern=".*([sS])tore\.(js|ts)$"
                icon="/icons/files/redux-store.svg"/>
         <regex fileNames="*.rst"
                name="Restructured"
@@ -2666,7 +2669,7 @@
         <regex fileNames="MyTest.java,myTest.java,mytest.java"
                name="Test Java"
                color="7963E6"
-               pattern="(t|T)est\.java$"
+               pattern="([tT])est\.java$"
                icon="/icons/files/testjava.svg"/>
         <regex fileNames="*.test.js,*.spec.js,*.test.es6,*.spec.es6"
                name="Test JS"
@@ -2778,7 +2781,7 @@
         <regex fileNames="Vagrantfile,vagrantfile"
                name="Vagrant"
                color="26A2C1"
-               pattern="^(V|v)agrantfile$"
+               pattern="^([Vv])agrantfile$"
                icon="/icons/files/vagrant.svg"/>
         <regex fileNames="*.vala"
                name="Vala"
