@@ -3201,36 +3201,6 @@ fileIcons:
 		colour: "dark-cyan"
 		priority: 2
 
-	"Q/Kdb+":
-		icon: "kx"
-		alias: /^Kdb\s*\+$/
-		match: [
-			[".q", "medium-blue", scope: /^source\.q$/]
-			[".k", "dark-purple", scope: /^source\.k4$/]
-		]
-
-	QASM:
-		icon: "qiskit"
-		alias: "OpenQASM"
-		match: ".qasm"
-		colour: "dark-blue"
-		scope: "qasm"
-
-	QlikView:
-		icon: "qlik"
-		match: [
-			[".qvw", "medium-green"]
-			[".qvd", "dark-green"]
-		]
-
-	QT:
-		icon: "qt"
-		match: [
-			[".qml", "medium-green", "qml"]
-			[".qmlproject", "dark-green"]
-			[".qbs", "medum-cyan"]
-		]
-
 	Quasar:
 		icon: "quasar"
 		priority: 2

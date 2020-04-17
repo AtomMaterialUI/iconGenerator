@@ -2349,6 +2349,34 @@
                pattern="^(python-?config\.json|pyproject\.toml)$"
                icon="/icons/files/python.svg"/>
 
+        <!--region Q -->
+        <regex fileNames="*.q,*.k"
+               name="Q/Kdb"
+               color="64B5F6"
+               pattern=".*\.[kq]$"
+               icon="/icons/files/kx.svg"/>
+        <regex fileNames="*.qasm"
+               name="QASM"
+               color="be96ff"
+               pattern=".*\.qasm$"
+               icon="/icons/files/qiskit.svg"/>
+        <regex fileNames="*.qvw,*.qvd"
+               name="QlikView"
+               color="019844"
+               pattern=".*\.(qvw|qvd)$"
+               icon="/icons/files/qlikview.svg"/>
+        <regex fileNames="*.qml,*.qmlproject,*.qbs"
+               name="Qt"
+               color="FFB74D"
+               pattern=".*\.(qml|qbs)(project)?$"
+               icon="/icons/files/qt.svg"/>
+        <regex fileNames="quasar.conf.js,quasar.conf.cjs"
+               name="Quasar"
+               color="AB47BC"
+               pattern="^quasar\.conf\.[cm]?js$"
+               icon="/icons/files/quasar.svg"/>
+        <!--endregion-->
+
         <regex fileNames="*.r,*.rmd"
                name="R"
                color="497CE3"
