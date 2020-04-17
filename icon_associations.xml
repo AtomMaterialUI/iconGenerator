@@ -3019,6 +3019,54 @@
                icon="/icons/files/yvmrc.svg"/>
         <!--endregion-->
 
+        <!--region Z-->
+        <regex fileNames="*.zpr,*.ztl"
+               name="ZBrush"
+               color="90A4AE"
+               pattern=".*\.(zpr|ztl)$"
+               icon="/icons/files/zbrush.svg"/>
+        <regex fileNames="now.json"
+               name="Zeit Now"
+               color="212121"
+               pattern="^now\.json$"
+               icon="/icons/files/zeit.svg"/>
+        <regex fileNames="*.zep,*.zephir"
+               name="Zephir"
+               color="705499"
+               pattern=".*\.(zep|zephir)$"
+               icon="/icons/files/zephir.svg"/>
+        <regex fileNames="*.zig"
+               name="Zig"
+               color="f7a41e"
+               pattern=".*\.zig$"
+               icon="/icons/files/zig.svg"/>
+        <regex fileNames="*.z80,*.zilog,*.plx"
+               name="Zilog"
+               color="5C6BC0"
+               pattern=".*\.(z80|zilog|plx)$"
+               icon="/icons/files/zilog.svg"/>
+        <regex fileNames="*.zpl,*.zmpl,*.zimpl"
+               name="Zimpl"
+               color="e27812"
+               pattern=".*\.(zpl|zmpl|zimpl)$"
+               icon="/icons/files/zimpl.svg"/>
+        <regex fileNames="*.zap,*.xzap,*.zabstr,*.zil,*.mud"
+               name="Zork Assembly"
+               color="EF5350"
+               pattern=".*\.(zap|xzap|zabstr|zil|mud)$"
+               icon="/icons/files/zork.svg"/>
+        <regex fileNames="*.zs"
+               name="ZenScript Craft Tweaker"
+               color="8D6E63"
+               pattern=".*\.zs$"
+               icon="/icons/files/zenscript.svg"/>
+        <regex fileNames="*.zsrc.json"
+               name="ZenScript Craft Tweaker Config"
+               color="8D6E63"
+               pattern="^.*\.zsrc\.json$"
+               icon="/icons/files/zenscript.svg"/>
+        <!--endregion-->
+
         <!--region Config -->
         <regex fileNames="*.lds,*.ld,*.ini,*.cnf,*.config,*.cfg"
                name="Preferences"
