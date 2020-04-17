@@ -89,6 +89,7 @@
                color="FFB62C"
                icon="/icons/files/svg.svg"/>
 
+        <!--region 0-9 -->
         <regex fileNames="*.bsl,*.mdo,*.sbsl,*.os"
                name="1C"
                color="FFB74D"
@@ -104,7 +105,7 @@
                color="52699b"
                pattern=".*\.4d[mb]$"
                icon="/icons/files/4d.svg"/>
-
+        <!--endregion-->
 
         <!--region A -->
         <regex fileNames="*.a+"
@@ -137,6 +138,11 @@
                color="EA3D3C"
                pattern=".*\.(as3?|jsfl)$"
                icon="/icons/files/actionscript.svg"/>
+        <regex fileNames="*.ada,*.adb,*.ads"
+               name="Ada"
+               color="7A8387"
+               pattern=".*\.(ada|adb|ads)$"
+               icon="/icons/files/ada.svg"/>
         <regex fileNames="*.fla"
                name="Adobe Animate"
                color="ff4a19"
@@ -152,11 +158,21 @@
                color="EA7130"
                pattern=".*\.(ait?)$"
                icon="/icons/files/ai.svg"/>
-        <regex fileNames="*.ada,*.adb,*.ads"
-               name="Ada"
-               color="7A8387"
-               pattern=".*\.(ada|adb|ads)$"
-               icon="/icons/files/ada.svg"/>
+        <regex fileNames="*.id,*.indd,*.indl,*.indt,*.indb,*.idml"
+               name="Adobe InDesign"
+               color="F13C6F"
+               pattern=".*\.(id|indd|indl|indt|indb|idml)$"
+               icon="/icons/files/indesign.svg"/>
+        <regex fileNames="*.psb,*.psd"
+               name="Adobe Photoshop"
+               color="1E9CEF"
+               pattern=".*\.(psb|psd)$"
+               icon="/icons/files/psd.svg"/>
+        <regex fileNames="*.prel,*.prproj,*.psq"
+               name="Adobe Premiere"
+               color="7963E6"
+               pattern=".*\.(prel|prproj|psq)$"
+               icon="/icons/files/premiere.svg"/>
         <regex fileNames="*.prw,*.ahu,*.aph,*.tlpp"
                name="AdvPL"
                color="4FC3F7"
@@ -227,10 +243,10 @@
                color="6AAB20"
                pattern="^MainActivity\.java$"
                icon="/icons/files/android.svg"/>
-        <regex fileNames="*.smali,*.rsh"
+        <regex fileNames="*.smali,*.rsh,*.webarchivexml"
                name="Android Smali"
                color="6AAB20"
-               pattern=".*\.(smali|rsh)$"
+               pattern=".*\.(smali|rsh|webarchivexml)$"
                icon="/icons/files/android.svg"/>
         <regex fileNames="*.acs,*.angelscript"
                name="AngelScript"
@@ -402,11 +418,26 @@
                color="c51666"
                pattern=".*\.[ais]$"
                icon="/icons/files/asmpure.svg"/>
-        <regex fileNames="*.asm,*.nasm,*.inc,*.ms,*.agc,*.aes,*.aea,*.arm,*.avr,*.argus,*.mitigus"
+        <regex fileNames="*.asm,*.nasm,*.inc,*.ms,*.agc,*.aes,*.lst,*.aea,*.arm,*.avr,*.argus,*.mitigus"
                name="Assembly"
                color="ff6e40"
-               pattern=".*\.(asm|nasm|inc|ms|agc|aes|aea|arm|avr|argus|mitigus)$"
+               pattern=".*\.(asm|nasm|inc|ms|agc|aes|lst|aea|arm|avr|argus|mitigus)$"
                icon="/icons/files/asm.svg"/>
+        <regex fileNames="*.h8,*.h8S,*.h8SX,*.h800"
+               name="Assembly Hitachi"
+               color="2196F3"
+               pattern="\.h8(SX?|\d{3})?$"
+               icon="/icons/files/hitachi.svg"/>
+        <regex fileNames="*.x32,*.x86,*.x64,*.i386,*.80386"
+               name="Assembly Intel"
+               color="FF8A65"
+               pattern="\.(x(32|86|64)|i386|80386)$"
+               icon="/icons/files/intel.svg"/>
+        <regex fileNames="*.vax,*.vmasm"
+               name="Assembly Vax"
+               color="F06292"
+               pattern="\.v(ax|masm)$"
+               icon="/icons/files/vax.svg"/>
         <regex fileNames="*.asp,*.asa,*.aspx,*.asax,*.ascx,*.ashx,*.asmx,*.axd"
                name="ASP"
                color="1E9CEF"
@@ -455,7 +486,7 @@
         <regex fileNames="AUTHORS,AUTHORS.md,AUTHORS.txt"
                name="Authors"
                color="F78AE0"
-               pattern="^(AUTHORS|authors)(\.(md|txt))?"
+               pattern="^(AUTHORS|authors)(\.(md|txt))?$"
                icon="/icons/files/authors.svg"/>
         <regex fileNames="*.ahk,*.ahkl"
                name="AutoHotKey"
@@ -465,13 +496,18 @@
         <regex fileNames="*.au3"
                name="AutoIt"
                color="1976d2"
-               pattern=".*\.au3"
+               pattern=".*\.au3$"
                icon="/icons/files/autoit.svg"/>
         <regex fileNames="*.avcs,*.avsc,*.avdl"
                name="Avro"
                color="1E88E5"
-               pattern=".*\.(avcs|avsc|avdl)"
+               pattern=".*\.av(cs|sc|dl)$"
                icon="/icons/files/avro.svg"/>
+        <regex fileNames="*.awk,*.gawk,*.mawk,*.nawk"
+               name="AWK"
+               color="EC407A"
+               pattern=".*\.[gmn]?awk$"
+               icon="/icons/files/awk.svg"/>
         <regex fileNames="*.azcli"
                name="Azure"
                color="64b5f6"
@@ -480,7 +516,7 @@
         <regex fileNames="azure-pipelines.yml"
                name="Azure Pipelines"
                color="64b5f6"
-               pattern="azure-pipelines\.ya?ml$"
+               pattern="^azure-pipelines\.ya?ml$"
                icon="/icons/files/azure.svg"/>
         <!--endregion-->
 
@@ -515,6 +551,11 @@
                color="7963E6"
                pattern=".*\.(bas|vb|vbs)$"
                icon="/icons/files/vs.svg"/>
+        <regex fileNames=".bzrignore"
+               name="Bazaar"
+               color="FFD54F"
+               pattern="^\.bzrignore$"
+               icon="/icons/files/bazaar.svg"/>
         <regex fileNames="*.bzl,*.bazel"
                name="Bazel"
                color="6AAB20"
@@ -640,6 +681,11 @@
                color="78909C"
                pattern="brakeman\.yml$"
                icon="/icons/files/brakeman.svg"/>
+        <regex fileNames="Brewfile"
+               name="Brewfile"
+               color="8D6E63"
+               pattern="^Brewfile$$"
+               icon="/icons/files/brew.svg"/>
         <regex fileNames="*.bro"
                name="Bro"
                color="81C784"
@@ -698,10 +744,10 @@
         <!--endregion-->
 
         <!--region C -->
-        <regex fileNames="*.c,*.objc,*.idc,*.w,*.nc,*.upc,*.cats"
+        <regex fileNames="*.c,*.objc,*.idc,*.w,*.nc,*.upc,*.cats,*.wbm,*.xpm"
                name="C"
                color="E84140"
-               pattern=".*\.(c|objc|idc|w|nc|upc|cats)$"
+               pattern=".*\.(c|objc|idc|w|nc|upc|cats|wbm|xpm)$"
                icon="/icons/files/c.svg"/>
         <regex fileNames="*.cabal"
                name="Cabal"
@@ -1128,10 +1174,10 @@
                color="616161"
                pattern="^cypress\.json$"
                icon="/icons/files/cypress.svg"/>
-        <regex fileNames="*.cpp,*.c++,*.cc,*.ii,*.mii,*.cxx,*.ipp"
+        <regex fileNames="*.cpp,*.c++,*.cc,*.ii,*.mii,*.cxx,*.ipp,*.tcc,*.inl"
                name="C++"
                color="1E9CEF"
-               pattern=".*\.(cpp|c\+\+|cc|ii|mii|cxx|ipp)$"
+               pattern=".*\.(cpp|c\+\+|cc|ii|mii|cxx|ipp|tcc|inl)$"
                icon="/icons/files/cpp.svg"/>
         <regex fileNames="*.csx,*.cs"
                name="C#"
@@ -1657,11 +1703,6 @@
                color="E57373"
                pattern=".*\.(idr|idris)$"
                icon="/icons/files/idris.svg"/>
-        <regex fileNames="*.id,*.indd,*.indl,*.indt,*.indb,*.idml"
-               name="InDesign"
-               color="F13C6F"
-               pattern=".*\.(id|indd|indl|indt|indb|idml)$"
-               icon="/icons/files/indesign.svg"/>
         <regex fileNames="*.nycrc.json,*.nycrc"
                name="Istanbul"
                color="fdd835"
@@ -2134,11 +2175,6 @@
                color="6AAB20"
                pattern=".*\.volt$"
                icon="/icons/files/phalcon.svg"/>
-        <regex fileNames="*.psb,*.psd"
-               name="Photoshop"
-               color="1E9CEF"
-               pattern=".*\.(psb|psd)$"
-               icon="/icons/files/psd.svg"/>
         <regex fileNames="my.test.php,myTest.php"
                name="PHPUnit"
                color="C792EA"
@@ -2214,11 +2250,6 @@
                color="497CE3"
                pattern=".*\.(powershell|ps1|psd1|psc1|pssc|cmd)$"
                icon="/icons/files/powershell.svg"/>
-        <regex fileNames="*.prel,*.prproj,*.psq"
-               name="Premiere"
-               color="7963E6"
-               pattern=".*\.(prel|prproj|psq)$"
-               icon="/icons/files/premiere.svg"/>
         <regex fileNames=".prettierrc.js,.prettierrc.json,.prettierrc.yml"
                name="Prettier"
                color="EE6292"
@@ -3153,10 +3184,10 @@
                color="D52A29"
                pattern=".*\.(mpp|ogg|oga|opus|ra|rm|wav|wma|snd|mid|cda)$"
                icon="/icons/files/audio.svg"/>
-        <regex fileNames="*.ac3,*.m4p,*.f4a,*.f4b,*.it,*.s3m"
+        <regex fileNames="*.ac3,*.m4p,*.f4a,*.f4b,*.it,*.s3m,*.sndh"
                name="Audio (3)"
                color="D52A29"
-               pattern=".*\.(ac3|m4p|f4a|f4b|it|s3m)$"
+               pattern=".*\.(ac3|m4p|f4a|f4b|it|s3m|sndh)$"
                icon="/icons/files/audio.svg"/>
         <!--endregion-->
 
