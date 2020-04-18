@@ -2096,10 +2096,10 @@
                color="ffca28"
                pattern=".*\.(nim|nimble)$"
                icon="/icons/files/nim.svg"/>
-        <regex fileNames="server.js,server.ts,app.js,app.ts,app.es6"
+        <regex fileNames="server.js,server.ts,app.js,app.ts,app.es6,main.js,main.ts,main.ts6"
                name="Node"
                color="73B923"
-               pattern="^(server|app)\.(js|ts|es6)$"
+               pattern="^(server|app|main)\.(js|ts|es6)$"
                icon="/icons/files/nodejs.svg"/>
         <regex fileNames=".node-version"
                name="Node Version"
