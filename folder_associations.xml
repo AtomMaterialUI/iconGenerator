@@ -29,8 +29,8 @@
     <associations>
         <regex folderNames="admin"
                name="admin"
-               folderColor=""
-               iconColor=""
+               folderColor="00ad9f"
+               iconColor="b3e6e2"
                pattern="^admin$"
                icon="/netlify.svg"/>
         <regex folderNames="android"
@@ -161,6 +161,12 @@
                iconColor=""
                pattern="^coverage$"
                icon="/coverage.svg"/>
+        <regex folderNames="cron,scheduler"
+               name="cron"
+               folderColor="757575"
+               iconColor="FFEE58"
+               pattern="^(cron|scheduler)$"
+               icon="/serverless.svg"/>
         <regex folderNames="custom"
                name="custom"
                folderColor=""

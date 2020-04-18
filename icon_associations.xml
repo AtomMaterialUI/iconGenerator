@@ -2452,6 +2452,16 @@
                color="ab47bc"
                pattern=".*([aA])ctions?\.(js|ts)$"
                icon="/icons/files/redux-action.svg"/>
+        <regex fileNames="saga.js,sagas.ts,mySaga.js,mySagas.js,my-sagas.js"
+               name="Redux Saga"
+               color="EF5350"
+               pattern=".*([sS])agas?\.(js|ts)$"
+               icon="/icons/files/redux-saga.svg"/>
+        <regex fileNames="selector.js,selectors.ts,mySelector.js,mySelectors.js,my-selectors.js"
+               name="Redux Selector"
+               color="FDD835"
+               pattern=".*([sS])electors?\.(js|ts)$"
+               icon="/icons/files/redux-selector.svg"/>
         <regex fileNames="reducer.js,reducer.ts,myReducer.js,myReducers.js,my-reducers.js"
                name="Redux Reducer"
                color="4CAF50"
