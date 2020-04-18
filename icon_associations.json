@@ -156,6 +156,13 @@
 					"icon": "/icons/files/actionscript.svg"
 				},
 				{
+					"fileNames": "*.ada,*.adb,*.ads",
+					"name": "Ada",
+					"color": "7A8387",
+					"pattern": ".*\\.(ada|adb|ads)$",
+					"icon": "/icons/files/ada.svg"
+				},
+				{
 					"fileNames": "*.fla",
 					"name": "Adobe Animate",
 					"color": "ff4a19",
@@ -177,11 +184,25 @@
 					"icon": "/icons/files/ai.svg"
 				},
 				{
-					"fileNames": "*.ada,*.adb,*.ads",
-					"name": "Ada",
-					"color": "7A8387",
-					"pattern": ".*\\.(ada|adb|ads)$",
-					"icon": "/icons/files/ada.svg"
+					"fileNames": "*.id,*.indd,*.indl,*.indt,*.indb,*.idml",
+					"name": "Adobe InDesign",
+					"color": "F13C6F",
+					"pattern": ".*\\.(id|indd|indl|indt|indb|idml)$",
+					"icon": "/icons/files/indesign.svg"
+				},
+				{
+					"fileNames": "*.psb,*.psd",
+					"name": "Adobe Photoshop",
+					"color": "1E9CEF",
+					"pattern": ".*\\.(psb|psd)$",
+					"icon": "/icons/files/psd.svg"
+				},
+				{
+					"fileNames": "*.prel,*.prproj,*.psq",
+					"name": "Adobe Premiere",
+					"color": "7963E6",
+					"pattern": ".*\\.(prel|prproj|psq)$",
+					"icon": "/icons/files/premiere.svg"
 				},
 				{
 					"fileNames": "*.prw,*.ahu,*.aph,*.tlpp",
@@ -282,10 +303,10 @@
 					"icon": "/icons/files/android.svg"
 				},
 				{
-					"fileNames": "*.smali,*.rsh",
+					"fileNames": "*.smali,*.rsh,*.webarchivexml",
 					"name": "Android Smali",
 					"color": "6AAB20",
-					"pattern": ".*\\.(smali|rsh)$",
+					"pattern": ".*\\.(smali|rsh|webarchivexml)$",
 					"icon": "/icons/files/android.svg"
 				},
 				{
@@ -340,9 +361,16 @@
 				{
 					"fileNames": "*.guard.js,*.guard.ts",
 					"name": "Angular Guard",
-					"color": "43A047",
+					"color": "FF8A65",
 					"pattern": ".*\\.guard\\.[tj]s$",
 					"icon": "/icons/files/angularguard.svg"
+				},
+				{
+					"fileNames": "*.interceptor.js,*.interceptor.ts",
+					"name": "Angular Interceptor",
+					"color": "AFB42B",
+					"pattern": ".*\\.interceptor\\.[tj]s$",
+					"icon": "/icons/files/angularinterceptor.svg"
 				},
 				{
 					"fileNames": "*.service.js,*.service.ts",
@@ -527,11 +555,32 @@
 					"icon": "/icons/files/asmpure.svg"
 				},
 				{
-					"fileNames": "*.asm,*.nasm,*.inc,*.ms,*.agc,*.aes,*.aea,*.arm,*.avr,*.argus,*.mitigus",
+					"fileNames": "*.asm,*.nasm,*.inc,*.ms,*.agc,*.aes,*.lst,*.aea,*.arm,*.avr,*.argus,*.mitigus",
 					"name": "Assembly",
 					"color": "ff6e40",
-					"pattern": ".*\\.(asm|nasm|inc|ms|agc|aes|aea|arm|avr|argus|mitigus)$",
+					"pattern": ".*\\.(asm|nasm|inc|ms|agc|aes|lst|aea|arm|avr|argus|mitigus)$",
 					"icon": "/icons/files/asm.svg"
+				},
+				{
+					"fileNames": "*.h8,*.h8S,*.h8SX,*.h800",
+					"name": "Assembly Hitachi",
+					"color": "2196F3",
+					"pattern": "\\.h8(SX?|\\d{3})?$",
+					"icon": "/icons/files/hitachi.svg"
+				},
+				{
+					"fileNames": "*.x32,*.x86,*.x64,*.i386,*.80386",
+					"name": "Assembly Intel",
+					"color": "FF8A65",
+					"pattern": "\\.(x(32|86|64)|i386|80386)$",
+					"icon": "/icons/files/intel.svg"
+				},
+				{
+					"fileNames": "*.vax,*.vmasm",
+					"name": "Assembly Vax",
+					"color": "F06292",
+					"pattern": "\\.v(ax|masm)$",
+					"icon": "/icons/files/vax.svg"
 				},
 				{
 					"fileNames": "*.asp,*.asa,*.aspx,*.asax,*.ascx,*.ashx,*.asmx,*.axd",
@@ -600,7 +649,7 @@
 					"fileNames": "AUTHORS,AUTHORS.md,AUTHORS.txt",
 					"name": "Authors",
 					"color": "F78AE0",
-					"pattern": "^(AUTHORS|authors)(\\.(md|txt))?",
+					"pattern": "^(AUTHORS|authors)(\\.(md|txt))?$",
 					"icon": "/icons/files/authors.svg"
 				},
 				{
@@ -614,15 +663,22 @@
 					"fileNames": "*.au3",
 					"name": "AutoIt",
 					"color": "1976d2",
-					"pattern": ".*\\.au3",
+					"pattern": ".*\\.au3$",
 					"icon": "/icons/files/autoit.svg"
 				},
 				{
 					"fileNames": "*.avcs,*.avsc,*.avdl",
 					"name": "Avro",
 					"color": "1E88E5",
-					"pattern": ".*\\.(avcs|avsc|avdl)",
+					"pattern": ".*\\.av(cs|sc|dl)$",
 					"icon": "/icons/files/avro.svg"
+				},
+				{
+					"fileNames": "*.awk,*.gawk,*.mawk,*.nawk",
+					"name": "AWK",
+					"color": "EC407A",
+					"pattern": ".*\\.[gmn]?awk$",
+					"icon": "/icons/files/awk.svg"
 				},
 				{
 					"fileNames": "*.azcli",
@@ -635,7 +691,7 @@
 					"fileNames": "azure-pipelines.yml",
 					"name": "Azure Pipelines",
 					"color": "64b5f6",
-					"pattern": "azure-pipelines\\.ya?ml$",
+					"pattern": "^azure-pipelines\\.ya?ml$",
 					"icon": "/icons/files/azure.svg"
 				},
 				{
@@ -681,6 +737,13 @@
 					"icon": "/icons/files/vs.svg"
 				},
 				{
+					"fileNames": ".bzrignore",
+					"name": "Bazaar",
+					"color": "FFD54F",
+					"pattern": "^\\.bzrignore$",
+					"icon": "/icons/files/bazaar.svg"
+				},
+				{
 					"fileNames": "*.bzl,*.bazel",
 					"name": "Bazel",
 					"color": "6AAB20",
@@ -698,7 +761,7 @@
 					"fileNames": "javaBean.java,javabean.java",
 					"name": "Bean",
 					"color": "AB7967",
-					"pattern": ".*(b|B)ean\\.java$",
+					"pattern": ".*([bB])ean\\.java$",
 					"icon": "/icons/files/bean.svg"
 				},
 				{
@@ -856,6 +919,13 @@
 					"icon": "/icons/files/brakeman.svg"
 				},
 				{
+					"fileNames": "Brewfile",
+					"name": "Brewfile",
+					"color": "8D6E63",
+					"pattern": "^Brewfile$",
+					"icon": "/icons/files/brew.svg"
+				},
+				{
 					"fileNames": "*.bro",
 					"name": "Bro",
 					"color": "81C784",
@@ -933,10 +1003,10 @@
 					"icon": "/icons/files/byond.svg"
 				},
 				{
-					"fileNames": "*.c,*.objc,*.idc,*.w,*.nc,*.upc,*.cats",
+					"fileNames": "*.c,*.objc,*.idc,*.w,*.nc,*.upc,*.cats,*.wbm,*.xpm",
 					"name": "C",
 					"color": "E84140",
-					"pattern": ".*\\.(c|objc|idc|w|nc|upc|cats)$",
+					"pattern": ".*\\.(c|objc|idc|w|nc|upc|cats|wbm|xpm)$",
 					"icon": "/icons/files/c.svg"
 				},
 				{
@@ -1049,7 +1119,7 @@
 					"name": "ChartJS",
 					"color": "ff777b",
 					"pattern": "^[Cc]hart(\\.bundle)?(\\.min)?\\.[cm]?js$",
-					"icon": "/icons/files/chart.svg"
+					"icon": "/icons/files/chartjs.svg"
 				},
 				{
 					"fileNames": "*.jas",
@@ -1535,10 +1605,10 @@
 					"icon": "/icons/files/cypress.svg"
 				},
 				{
-					"fileNames": "*.cpp,*.c++,*.cc,*.ii,*.mii,*.cxx,*.ipp,*.hpp",
+					"fileNames": "*.cpp,*.c++,*.cc,*.ii,*.mii,*.cxx,*.ipp,*.tcc,*.inl",
 					"name": "C++",
 					"color": "1E9CEF",
-					"pattern": ".*\\.(cpp|c\\+\\+|cc|ii|mii|cxx|ipp|hpp)$",
+					"pattern": ".*\\.(cpp|c\\+\\+|cc|ii|mii|cxx|ipp|tcc|inl)$",
 					"icon": "/icons/files/cpp.svg"
 				},
 				{
@@ -1608,7 +1678,7 @@
 					"fileNames": "Dockerfile,dockerfile,dev.dockerfile,prodDockerfile",
 					"name": "Docker",
 					"color": "1e9cef",
-					"pattern": ".*\\.?(d|D)ockerfile$",
+					"pattern": ".*\\.?[dD]ockerfile$",
 					"icon": "/icons/files/docker.svg"
 				},
 				{
@@ -1636,7 +1706,7 @@
 					"fileNames": "Doxyfile,doxyfile",
 					"name": "Doxygen",
 					"color": "FF5370",
-					"pattern": "^(D|d)oxyfile$",
+					"pattern": "^[Dd]oxyfile$",
 					"icon": "/icons/files/doxygen.svg"
 				},
 				{
@@ -2028,7 +2098,7 @@
 					"fileNames": "Gemfile.lock,gemfile.lock",
 					"name": "Gemfile",
 					"color": "e53935",
-					"pattern": "^(G|g)emfile\\.lock$",
+					"pattern": "^[Gg]emfile\\.lock$",
 					"icon": "/icons/files/gemfile.svg"
 				},
 				{
@@ -2126,14 +2196,14 @@
 					"fileNames": "gruntfile,Gruntfile,gruntfile.js,Gruntfile.ts",
 					"name": "Grunt",
 					"color": "F4BF75",
-					"pattern": "(g|G)runtfile.*",
+					"pattern": "[gG]runtfile.*",
 					"icon": "/icons/files/gruntfile.svg"
 				},
 				{
 					"fileNames": "gulpfile,Gulpfile,gulpfile.js,Gulpfile.ts",
 					"name": "Gulp",
 					"color": "C74748",
-					"pattern": "(g|G)ulpfile.*",
+					"pattern": "[gG]ulpfile.*",
 					"icon": "/icons/files/gulpfile.svg"
 				},
 				{
@@ -2196,7 +2266,7 @@
 					"fileNames": "Procfile,Procfile.windows,.slugignore",
 					"name": "Heroku",
 					"color": "7963E6",
-					"pattern": "^((P|p)rocfile(\\.windows)?|\\.slugignore)$",
+					"pattern": "^([Pp]rocfile(\\.windows)?|\\.slugignore)$",
 					"icon": "/icons/files/heroku.svg"
 				},
 				{
@@ -2263,13 +2333,6 @@
 					"icon": "/icons/files/idris.svg"
 				},
 				{
-					"fileNames": "*.id,*.indd,*.indl,*.indt,*.indb,*.idml",
-					"name": "InDesign",
-					"color": "F13C6F",
-					"pattern": ".*\\.(id|indd|indl|indt|indb|idml)$",
-					"icon": "/icons/files/indesign.svg"
-				},
-				{
 					"fileNames": "*.nycrc.json,*.nycrc",
 					"name": "Istanbul",
 					"color": "fdd835",
@@ -2315,7 +2378,7 @@
 					"fileNames": "jenkinsfile,Jenkinsfile.groovy",
 					"name": "Jenkins",
 					"color": "D24A39",
-					"pattern": "^(j|J)enkinsfile.*",
+					"pattern": "^([jJ])enkinsfile.*",
 					"icon": "/icons/files/jenkins.svg"
 				},
 				{
@@ -2389,11 +2452,32 @@
 					"icon": "/icons/files/jupyter.svg"
 				},
 				{
-					"fileNames": "karma.conf.js,karma.conf.ts",
+					"fileNames": "karma.conf.js,karma.conf.ts,karma.config.coffee",
 					"name": "Karma",
 					"color": "6AAB20",
-					"pattern": "^karma\\.conf.*",
+					"pattern": "^karma\\.conf(ig)?\\.(js|ts|coffee)$",
 					"icon": "/icons/files/karma.svg"
+				},
+				{
+					"fileNames": "*.ks",
+					"name": "KerboScript",
+					"color": "044699",
+					"pattern": ".*\\.ks$",
+					"icon": "/icons/files/kerboscript.svg"
+				},
+				{
+					"fileNames": "keybase.txt",
+					"name": "Keybase",
+					"color": "ff6f21",
+					"pattern": "^keybase\\.txt$",
+					"icon": "/icons/files/keybase.svg"
+				},
+				{
+					"fileNames": "*.knt,*.keynote",
+					"name": "Keynote",
+					"color": "4FC3F7",
+					"pattern": ".*\\.(knt|keynote)$",
+					"icon": "/icons/files/keynote.svg"
 				},
 				{
 					"fileNames": "*.key,*.pem,*.gpg,*.pub",
@@ -2403,11 +2487,32 @@
 					"icon": "/icons/files/key.svg"
 				},
 				{
+					"fileNames": "*.kicad_pcb,*.kicad_pcb-bak,*.kicad_mod,*.kicad_wks",
+					"name": "KiCad",
+					"color": "7986CB",
+					"pattern": ".*\\.kicad_.*$",
+					"icon": "/icons/files/kicad.svg"
+				},
+				{
+					"fileNames": "kitchen.yml,.kitchen.yml,kitchen.local.yml,kitchen.dev.yaml",
+					"name": "KitchenCI",
+					"color": "5ca645",
+					"pattern": "^\\.?kitchen(\\.[-\\w]*)*\\.ya?ml$",
+					"icon": "/icons/files/kitchenci.svg"
+				},
+				{
 					"fileNames": "*.kv",
 					"name": "Kivy",
 					"color": "90a4ae",
 					"pattern": ".*\\.kv$",
 					"icon": "/icons/files/kivy.svg"
+				},
+				{
+					"fileNames": "*.kml",
+					"name": "KML",
+					"color": "15b5cb",
+					"pattern": ".*\\.kml$",
+					"icon": "/icons/files/kml.svg"
 				},
 				{
 					"fileNames": "*.kl",
@@ -2417,18 +2522,39 @@
 					"icon": "/icons/files/kl.svg"
 				},
 				{
-					"fileNames": "*.knockout,*.ko",
+					"fileNames": "knime.ini",
+					"name": "KNIME",
+					"color": "ffd800",
+					"pattern": "^knife\\.ini$",
+					"icon": "/icons/files/knime.svg"
+				},
+				{
+					"fileNames": "knockout.js,knockout.min.js",
 					"name": "Knockout",
 					"color": "D52A29",
-					"pattern": ".*\\.(knockout|ko)$",
+					"pattern": "^knockout(.*)\\.js$",
 					"icon": "/icons/files/knockout.svg"
 				},
 				{
-					"fileNames": "*.kt,*.kts,*.kotlin",
+					"fileNames": "*.kt,*.kts,*.ktm,*.kotlin",
 					"name": "Kotlin",
 					"color": "497CE3",
-					"pattern": ".*\\.(kt|kts|kotlin)$",
+					"pattern": ".*\\.(kt|kts|ktm|kotlin)$",
 					"icon": "/icons/files/kotlin.svg"
+				},
+				{
+					"fileNames": "kubernetes.yml,kubernetes.dev.yaml",
+					"name": "Kubernetes",
+					"color": "64B5F6",
+					"pattern": "^kubernetes.*\\.ya?ml$",
+					"icon": "/icons/files/kubernetes.svg"
+				},
+				{
+					"fileNames": "kazelcfg.json,.kazelcfg.json",
+					"name": "Kazel Config",
+					"color": "64B5F6",
+					"pattern": "^\\.?kazelcfg\\.json$",
+					"icon": "/icons/files/kubernetes.svg"
 				},
 				{
 					"fileNames": "lerna.json",
@@ -2539,7 +2665,7 @@
 					"fileNames": "Makefile,*.makefile",
 					"name": "Makefile",
 					"color": "E79627",
-					"pattern": ".*\\.?(m|M)akefile$",
+					"pattern": ".*\\.?([mM])akefile$",
 					"icon": "/icons/files/makefile.svg"
 				},
 				{
@@ -2739,10 +2865,10 @@
 					"icon": "/icons/files/nim.svg"
 				},
 				{
-					"fileNames": "server.js,server.ts,app.js,app.ts,app.es6",
+					"fileNames": "server.js,server.ts,app.js,app.ts,app.es6,main.js,main.ts,main.ts6",
 					"name": "Node",
 					"color": "73B923",
-					"pattern": "^(server|app)\\.(js|ts|es6)$",
+					"pattern": "^(server|app|main)\\.(js|ts|es6)$",
 					"icon": "/icons/files/nodejs.svg"
 				},
 				{
@@ -2921,17 +3047,10 @@
 					"icon": "/icons/files/phalcon.svg"
 				},
 				{
-					"fileNames": "*.psb,*.psd",
-					"name": "Photoshop",
-					"color": "1E9CEF",
-					"pattern": ".*\\.(psb|psd)$",
-					"icon": "/icons/files/psd.svg"
-				},
-				{
 					"fileNames": "my.test.php,myTest.php",
 					"name": "PHPUnit",
 					"color": "C792EA",
-					"pattern": ".*(t|T)est\\.php$",
+					"pattern": ".*([tT])est\\.php$",
 					"icon": "/icons/files/phpunit.svg"
 				},
 				{
@@ -3033,13 +3152,6 @@
 					"icon": "/icons/files/powershell.svg"
 				},
 				{
-					"fileNames": "*.prel,*.prproj,*.psq",
-					"name": "Premiere",
-					"color": "7963E6",
-					"pattern": ".*\\.(prel|prproj|psq)$",
-					"icon": "/icons/files/premiere.svg"
-				},
-				{
 					"fileNames": ".prettierrc.js,.prettierrc.json,.prettierrc.yml",
 					"name": "Prettier",
 					"color": "EE6292",
@@ -3108,6 +3220,41 @@
 					"color": "FFCB6B",
 					"pattern": "^(python-?config\\.json|pyproject\\.toml)$",
 					"icon": "/icons/files/python.svg"
+				},
+				{
+					"fileNames": "*.q,*.k",
+					"name": "Q/Kdb",
+					"color": "64B5F6",
+					"pattern": ".*\\.[kq]$",
+					"icon": "/icons/files/kx.svg"
+				},
+				{
+					"fileNames": "*.qasm",
+					"name": "QASM",
+					"color": "be96ff",
+					"pattern": ".*\\.qasm$",
+					"icon": "/icons/files/qiskit.svg"
+				},
+				{
+					"fileNames": "*.qvw,*.qvd",
+					"name": "QlikView",
+					"color": "019844",
+					"pattern": ".*\\.(qvw|qvd)$",
+					"icon": "/icons/files/qlikview.svg"
+				},
+				{
+					"fileNames": "*.qml,*.qmlproject,*.qbs",
+					"name": "Qt",
+					"color": "FFB74D",
+					"pattern": ".*\\.(qml|qbs)(project)?$",
+					"icon": "/icons/files/qt.svg"
+				},
+				{
+					"fileNames": "quasar.conf.js,quasar.conf.cjs",
+					"name": "Quasar",
+					"color": "AB47BC",
+					"pattern": "^quasar\\.conf\\.[cm]?js$",
+					"icon": "/icons/files/quasar.svg"
 				},
 				{
 					"fileNames": "*.r,*.rmd",
@@ -3204,21 +3351,35 @@
 					"fileNames": "action.js,actions.ts,myAction.js,myActions.js,my-actions.js",
 					"name": "Redux Action",
 					"color": "ab47bc",
-					"pattern": ".*(a|A)ctions?\\.(js|ts)$",
+					"pattern": ".*([aA])ctions?\\.(js|ts)$",
 					"icon": "/icons/files/redux-action.svg"
+				},
+				{
+					"fileNames": "saga.js,sagas.ts,mySaga.js,mySagas.js,my-sagas.js",
+					"name": "Redux Saga",
+					"color": "EF5350",
+					"pattern": ".*([sS])agas?\\.(js|ts)$",
+					"icon": "/icons/files/redux-saga.svg"
+				},
+				{
+					"fileNames": "selector.js,selectors.ts,mySelector.js,mySelectors.js,my-selectors.js",
+					"name": "Redux Selector",
+					"color": "FDD835",
+					"pattern": ".*([sS])electors?\\.(js|ts)$",
+					"icon": "/icons/files/redux-selector.svg"
 				},
 				{
 					"fileNames": "reducer.js,reducer.ts,myReducer.js,myReducers.js,my-reducers.js",
 					"name": "Redux Reducer",
 					"color": "4CAF50",
-					"pattern": ".*(r|R)educer\\.(js|ts)$",
+					"pattern": ".*([rR])educer\\.(js|ts)$",
 					"icon": "/icons/files/redux-reducer.svg"
 				},
 				{
 					"fileNames": "store.js,store.ts,myStore.js,myStores.js,my-stores.js",
 					"name": "Redux Store",
 					"color": "26C6DA",
-					"pattern": ".*(s|S)tore\\.(js|ts)$",
+					"pattern": ".*([sS])tore\\.(js|ts)$",
 					"icon": "/icons/files/redux-store.svg"
 				},
 				{
@@ -3446,10 +3607,10 @@
 					"icon": "/icons/files/spring.svg"
 				},
 				{
-					"fileNames": "*.sql,*.pdb,*.pgsql,*.mysql,*.hql,*.qml,*.psql,*.pkb",
+					"fileNames": "*.sql,*.pdb,*.pgsql,*.mysql,*.hql,*.qml,*.psql,*.pkb,*.xql,*.xq,*.xqm,*.xqy",
 					"name": "SQL",
 					"color": "39ADB5",
-					"pattern": ".*\\.(sql|pdb|pgsql|mysql|hql|qml|psql|pkb)$",
+					"pattern": ".*\\.(sql|pdb|pgsql|mysql|hql|qml|psql|pkb|xql|xq|xqm|xqy)$",
 					"icon": "/icons/files/sql.svg"
 				},
 				{
@@ -3617,7 +3778,7 @@
 					"fileNames": "MyTest.java,myTest.java,mytest.java",
 					"name": "Test Java",
 					"color": "7963E6",
-					"pattern": "(t|T)est\\.java$",
+					"pattern": "([tT])est\\.java$",
 					"icon": "/icons/files/testjava.svg"
 				},
 				{
@@ -3771,7 +3932,7 @@
 					"fileNames": "Vagrantfile,vagrantfile",
 					"name": "Vagrant",
 					"color": "26A2C1",
-					"pattern": "^(V|v)agrantfile$",
+					"pattern": "^([Vv])agrantfile$",
 					"icon": "/icons/files/vagrant.svg"
 				},
 				{
@@ -3852,18 +4013,53 @@
 					"icon": "/icons/files/vuex.svg"
 				},
 				{
-					"fileNames": "wallaby.js,wallaby.ts",
+					"fileNames": ".wallaby.js,.wallaby.ts",
 					"name": "Wallaby",
 					"color": "4caf50",
-					"pattern": "^wallaby.*",
+					"pattern": "^\\.wallaby\\.[jt]s$",
 					"icon": "/icons/files/wallaby.svg"
 				},
 				{
-					"fileNames": "*.wat,*.wasm",
+					"fileNames": ".walt",
+					"name": "Walt",
+					"color": "664ff0",
+					"pattern": "^\\.walt$",
+					"icon": "/icons/files/walt.svg"
+				},
+				{
+					"fileNames": ".watchmanconfig,watchman.json",
+					"name": "Watchman",
+					"color": "7986CB",
+					"pattern": "(\\.watchmanconfig|^watchman\\.json)$",
+					"icon": "/icons/files/watchman.svg"
+				},
+				{
+					"fileNames": "*.wat,*.wasm,*.wast",
 					"name": "WebAssembly",
 					"color": "7c4dff",
-					"pattern": ".*\\.(wat|wasm)$",
+					"pattern": ".*\\.(wat|wasm|wast)$",
 					"icon": "/icons/files/webassembly.svg"
+				},
+				{
+					"fileNames": "*.wdl",
+					"name": "WDL",
+					"color": "0b99be",
+					"pattern": ".*\\.wdl$",
+					"icon": "/icons/files/wdl.svg"
+				},
+				{
+					"fileNames": "*.webgl",
+					"name": "WebGL",
+					"color": "E57373",
+					"pattern": ".*\\.webgl$",
+					"icon": "/icons/files/webgl.svg"
+				},
+				{
+					"fileNames": "*.owl",
+					"name": "Web Ontology Language",
+					"color": "A1887F",
+					"pattern": ".*\\.owl$",
+					"icon": "/icons/files/owl.svg"
 				},
 				{
 					"fileNames": "webpack.common.js,webpack.config.js,webpack.dev.js,webpack.prod.js,webpack.config.ts,webpack.config.es6,webpack.dev.coffee",
@@ -3873,11 +4069,25 @@
 					"icon": "/icons/files/webpack.svg"
 				},
 				{
+					"fileNames": "*.vtt",
+					"name": "WebVTT",
+					"color": "64B5F6",
+					"pattern": ".*\\.vtt$",
+					"icon": "/icons/files/webvtt.svg"
+				},
+				{
 					"fileNames": "*.hintrc",
 					"name": "Webhint",
 					"color": "1e88e5",
 					"pattern": ".*\\.hintrc$",
 					"icon": "/icons/files/webhint.svg"
+				},
+				{
+					"fileNames": "*.wy",
+					"name": "Wenyan",
+					"color": "ef5b3a",
+					"pattern": ".*\\.wy$",
+					"icon": "/icons/files/wenyan.svg"
 				},
 				{
 					"fileNames": "*.wpy",
@@ -3887,11 +4097,32 @@
 					"icon": "/icons/files/wepy.svg"
 				},
 				{
-					"fileNames": "*.bat,*.exe,*.dos,*.ms,*.msi",
+					"fileNames": "wercker.yaml,wercker.yml",
+					"name": "Wercker",
+					"color": "3abcee",
+					"pattern": "wercker\\.ya?ml$",
+					"icon": "/icons/files/wercker.svg"
+				},
+				{
+					"fileNames": ".wgetrc,.wget-hsts",
+					"name": "Wget",
+					"color": "BA68C8",
+					"pattern": "^\\.wget(rc|-hsts)$",
+					"icon": "/icons/files/wget.svg"
+				},
+				{
+					"fileNames": "*.bat,*.exe,*.dos,*.ms,*.msi,*.com,*.reg",
 					"name": "Windows",
 					"color": "82AAFF",
-					"pattern": ".*\\.(bat|exe|dos|ms|msi)$",
+					"pattern": ".*\\.(bat|exe|com|dos|ms|msi|reg)$",
 					"icon": "/icons/files/windows.svg"
+				},
+				{
+					"fileNames": "*.wix,*.wixproj,*.wixobj,*.wxs,*.wxi,*.wxl",
+					"name": "Wix",
+					"color": "FFD54F",
+					"pattern": ".*\\.(wix|wxl|wxi|wxs|wixobj|wixproj)$",
+					"icon": "/icons/files/wix.svg"
 				},
 				{
 					"fileNames": "*.doc,*.docx,*.docm,*.docxml,*.dotm,*.dotx,*.wri,*.odt,*.odtx",
@@ -3901,11 +4132,53 @@
 					"icon": "/icons/files/word.svg"
 				},
 				{
-					"fileNames": "*.xamarin",
+					"fileNames": "wp-admin.php,wp-login.php,wp-config.php",
+					"name": "Wordpress",
+					"color": "B2CCD6",
+					"pattern": "^wp-.*\\.php$",
+					"icon": "/icons/files/wordpress.svg"
+				},
+				{
+					"fileNames": "workbox-config.js,workbox-config.ts",
+					"name": "Workbox",
+					"color": "FF8A65",
+					"pattern": "workbox-config\\.[jt]s$",
+					"icon": "/icons/files/workbox.svg"
+				},
+				{
+					"fileNames": "*.wurst",
+					"name": "WurstScript",
+					"color": "40babe",
+					"pattern": ".*\\.wurst$",
+					"icon": "/icons/files/wurst.svg"
+				},
+				{
+					"fileNames": "*.x10",
+					"name": "X10",
+					"color": "d37d54",
+					"pattern": ".*\\.x10",
+					"icon": "/icons/files/x10.svg"
+				},
+				{
+					"fileNames": ".Xauthority,.Xclients,.Xinitrc,.Xinputrc,.Xprofile,.Xresources,.Xscreensaver",
+					"name": "X11",
+					"color": "ed4f1a",
+					"pattern": "^\\.X(authority|clients|initrc|inputrc|profile|resources|session-errors|screensaver)$",
+					"icon": "/icons/files/x11.svg"
+				},
+				{
+					"fileNames": ".workbook",
 					"name": "Xamarin",
 					"color": "26A2C1",
-					"pattern": ".*\\.xamarin",
+					"pattern": "^\\.workbook$",
 					"icon": "/icons/files/xamarin.svg"
+				},
+				{
+					"fileNames": "*.xc",
+					"name": "XC",
+					"color": "c3e82a",
+					"pattern": ".*\\.xc$",
+					"icon": "/icons/files/xmos.svg"
 				},
 				{
 					"fileNames": "*.xcodeproj",
@@ -3915,17 +4188,17 @@
 					"icon": "/icons/files/appstore.svg"
 				},
 				{
-					"fileNames": "*.xcplayground",
-					"name": "XCode Playground",
+					"fileNames": "*.xcplayground,*.xcworkspace,*.xcworkspacedata,*.xcplugindata,*.xcscheme,*.xcsettings,*.xcuserstate",
+					"name": "XCode Files",
 					"color": "2196F3",
-					"pattern": ".*\\.xcplayground$",
+					"pattern": ".*\\.xc(playground|workspace|workspacedata|plugindata|checkout|scheme|settings|userstate)$",
 					"icon": "/icons/files/appstore.svg"
 				},
 				{
-					"fileNames": "*.xcworkspace",
-					"name": "XCode Workspace",
+					"fileNames": "*.mode1v3,*.mode3v3",
+					"name": "XCode Mode v3",
 					"color": "2196F3",
-					"pattern": ".*\\.xcworkspace$",
+					"pattern": ".*\\.mode\\dv3$",
 					"icon": "/icons/files/appstore.svg"
 				},
 				{
@@ -3936,11 +4209,46 @@
 					"icon": "/icons/files/appstore.svg"
 				},
 				{
+					"fileNames": "*.xtend",
+					"name": "Xtend",
+					"color": "7E57C2",
+					"pattern": ".*\\.xtend$",
+					"icon": "/icons/files/xtend.svg"
+				},
+				{
+					"fileNames": "*.xojo_code,*.xojo_menu,*.xojo_report,*.xojo_script,*.xojo_toolbar,*.xojo_window",
+					"name": "Xojo",
+					"color": "81bc40",
+					"pattern": ".*\\.xojo_(code|menu|report|script|toolbar|window)$",
+					"icon": "/icons/files/xojo.svg"
+				},
+				{
+					"fileNames": "*.xsp-config,*.xsp.metadata",
+					"name": "XPages",
+					"color": "2196F3",
+					"pattern": ".*\\.xsp(-config|\\.metadata)$",
+					"icon": "/icons/files/xpages.svg"
+				},
+				{
+					"fileNames": "*.xpl,*.xproc",
+					"name": "XProc",
+					"color": "7891c8",
+					"pattern": ".*\\.(xpl|xproc)$",
+					"icon": "/icons/files/xproc.svg"
+				},
+				{
 					"fileNames": "*.yang",
 					"name": "Yang",
 					"color": "42a5f5",
 					"pattern": ".*\\.yang$",
 					"icon": "/icons/files/yang.svg"
+				},
+				{
+					"fileNames": "*.yar,*.yara",
+					"name": "YARA",
+					"color": "c51716",
+					"pattern": ".*\\.yara?$",
+					"icon": "/icons/files/yara.svg"
 				},
 				{
 					"fileNames": ".yarnrc, yarn.json, yarn.js",
@@ -3957,18 +4265,102 @@
 					"icon": "/icons/files/lock.svg"
 				},
 				{
-					"fileNames": ".yarnclean",
+					"fileNames": ".yarnclean,.yarn-metadata,.yarn-integrity",
 					"name": "Yarn Clean",
 					"color": "1E9CEF",
-					"pattern": "^\\.yarnclean$",
+					"pattern": "^\\.yarn(clean|-metadata|-integrity)$",
 					"icon": "/icons/files/yarn.svg"
+				},
+				{
+					"fileNames": ".yo-rc.json",
+					"name": "Yeoman",
+					"color": "F78C6C",
+					"pattern": "^\\.yo-rc\\.json$",
+					"icon": "/icons/files/yeoman.svg"
+				},
+				{
+					"fileNames": "*.yorick",
+					"name": "Yorick",
+					"color": "FDCB91",
+					"pattern": ".*\\.yorick$",
+					"icon": "/icons/files/yorick.svg"
+				},
+				{
+					"fileNames": "yahoo-config.js,yui.js,yui-min.js",
+					"name": "YUI",
+					"color": "5C6BC0",
+					"pattern": "^(yahoo-|yui)[^.]*\\.[jt]s$",
+					"icon": "/icons/files/yorick.svg"
 				},
 				{
 					"fileNames": ".yvmrc",
 					"name": "YVM",
 					"color": "FD1773",
-					"pattern": "^\\.yvmrc",
+					"pattern": "^\\.yvmrc$",
 					"icon": "/icons/files/yvmrc.svg"
+				},
+				{
+					"fileNames": "*.zpr,*.ztl",
+					"name": "ZBrush",
+					"color": "90A4AE",
+					"pattern": ".*\\.(zpr|ztl)$",
+					"icon": "/icons/files/zbrush.svg"
+				},
+				{
+					"fileNames": "now.json",
+					"name": "Zeit Now",
+					"color": "212121",
+					"pattern": "^now\\.json$",
+					"icon": "/icons/files/zeit.svg"
+				},
+				{
+					"fileNames": "*.zep,*.zephir",
+					"name": "Zephir",
+					"color": "705499",
+					"pattern": ".*\\.(zep|zephir)$",
+					"icon": "/icons/files/zephir.svg"
+				},
+				{
+					"fileNames": "*.zig",
+					"name": "Zig",
+					"color": "f7a41e",
+					"pattern": ".*\\.zig$",
+					"icon": "/icons/files/zig.svg"
+				},
+				{
+					"fileNames": "*.z80,*.zilog,*.plx",
+					"name": "Zilog",
+					"color": "5C6BC0",
+					"pattern": ".*\\.(z80|zilog|plx)$",
+					"icon": "/icons/files/zilog.svg"
+				},
+				{
+					"fileNames": "*.zpl,*.zmpl,*.zimpl",
+					"name": "Zimpl",
+					"color": "e27812",
+					"pattern": ".*\\.(zpl|zmpl|zimpl)$",
+					"icon": "/icons/files/zimpl.svg"
+				},
+				{
+					"fileNames": "*.zap,*.xzap,*.zabstr,*.zil,*.mud",
+					"name": "Zork Assembly",
+					"color": "EF5350",
+					"pattern": ".*\\.(zap|xzap|zabstr|zil|mud)$",
+					"icon": "/icons/files/zork.svg"
+				},
+				{
+					"fileNames": "*.zs",
+					"name": "ZenScript Craft Tweaker",
+					"color": "8D6E63",
+					"pattern": ".*\\.zs$",
+					"icon": "/icons/files/zenscript.svg"
+				},
+				{
+					"fileNames": "*.zsrc.json",
+					"name": "ZenScript Craft Tweaker Config",
+					"color": "8D6E63",
+					"pattern": "^.*\\.zsrc\\.json$",
+					"icon": "/icons/files/zenscript.svg"
 				},
 				{
 					"fileNames": "*.lds,*.ld,*.ini,*.cnf,*.config,*.cfg",
@@ -4076,10 +4468,10 @@
 					"icon": "/icons/files/audio.svg"
 				},
 				{
-					"fileNames": "*.ac3,*.m4p,*.f4a,*.f4b,*.it,*.s3m",
+					"fileNames": "*.ac3,*.m4p,*.f4a,*.f4b,*.it,*.s3m,*.sndh",
 					"name": "Audio (3)",
 					"color": "D52A29",
-					"pattern": ".*\\.(ac3|m4p|f4a|f4b|it|s3m)$",
+					"pattern": ".*\\.(ac3|m4p|f4a|f4b|it|s3m|sndh)$",
 					"icon": "/icons/files/audio.svg"
 				},
 				{
@@ -4158,13 +4550,6 @@
 					"color": "D14748",
 					"pattern": ".*\\.rb$",
 					"icon": "/icons/files/ruby.svg"
-				},
-				{
-					"fileNames": "*.php,*.phps",
-					"name": "PHP",
-					"color": "BB80B3",
-					"pattern": ".*\\.(php|phps)$",
-					"icon": "/icons/files/php.svg"
 				},
 				{
 					"fileNames": "*.json,*.cson",

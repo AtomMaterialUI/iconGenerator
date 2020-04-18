@@ -5,8 +5,8 @@
 				{
 					"folderNames": "admin",
 					"name": "admin",
-					"folderColor": "",
-					"iconColor": "",
+					"folderColor": "00ad9f",
+					"iconColor": "b3e6e2",
 					"pattern": "^admin$",
 					"icon": "/netlify.svg"
 				},
@@ -177,6 +177,14 @@
 					"iconColor": "",
 					"pattern": "^coverage$",
 					"icon": "/coverage.svg"
+				},
+				{
+					"folderNames": "cron,scheduler",
+					"name": "cron",
+					"folderColor": "757575",
+					"iconColor": "FFEE58",
+					"pattern": "^(cron|scheduler)$",
+					"icon": "/serverless.svg"
 				},
 				{
 					"folderNames": "custom",
