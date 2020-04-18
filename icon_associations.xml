@@ -286,9 +286,14 @@
                icon="/icons/files/angulardirective.svg"/>
         <regex fileNames="*.guard.js,*.guard.ts"
                name="Angular Guard"
-               color="43A047"
+               color="FF8A65"
                pattern=".*\.guard\.[tj]s$"
                icon="/icons/files/angularguard.svg"/>
+        <regex fileNames="*.interceptor.js,*.interceptor.ts"
+               name="Angular Interceptor"
+               color="AFB42B"
+               pattern=".*\.interceptor\.[tj]s$"
+               icon="/icons/files/angularinterceptor.svg"/>
         <regex fileNames="*.service.js,*.service.ts"
                name="Angular Service"
                color="FDD835"
