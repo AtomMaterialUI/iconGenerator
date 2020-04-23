@@ -7,7 +7,7 @@
   <br>
 </h1>
 
-This is the icon generator for the [Atom Material File Icons Project](https://github.com/a-file-icon-idea).
+This is the icon generator for the [Atom Material File Icons Project](https://github.com/mallowigi/a-file-icon-idea).
 
 ## File Icons
 ![File Icons](assets/files.png)
