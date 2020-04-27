@@ -82,77 +82,9 @@ uses:  A loosely-defined "parent" from which to inherit properties not defined b
 
 directoryIcons:
 
-	"Acre Desktop":
-		icon: "acre"
-		match: [
-			[/^APLSource$/, "medium-blue"]
-			[/^\.acre$/, "dark-blue"]
-		]
-
-	Agda:
-		icon: "agda"
-		match: /^\.agda$/i
-		colour: "dark-cyan"
-
-	Alacritty:
-		icon: "alacritty-alt"
-		match: /\/\.config\/alacritty$/i
-		colour: "dark-blue"
-		matchPath: true
-
-	"App Store":
-		icon: "appstore"
-		match: /\.(app|xcodeproj|xcworkspace)$/i
-
-	ArtText:
-		icon: "arttext"
-		match: /\.artx$/i
-		colour: "dark-purple"
-
-	Atom:
-		icon: "atom"
-		match: /^\.atom(-ci)?$/
-		colour: "dark-green"
-
-	"Azure Pipelines":
-		icon: "azurepipelines"
-		match: /^\.azure-pipelines$/i
-		colour: "dark-blue"
-
-	Bazaar:
-		icon: "bazaar"
-		match: /^\.bzr$/
-		colour: "auto-yellow"
-
-	Bower:
-		icon: "bower"
-		match: /^bower[-_]components$/
-		colour: ["medium-yellow", "medium-orange"]
-
-	Cabal:
-		icon: "cabal"
-		match: /^\.cabal$/i
-		colour: "medium-cyan"
-
 	Chef:
 		icon: "chef"
 		match: /\.chef$/
-
-	CircleCI:
-		icon: "circleci"
-		match: /^\.circleci$/
-
-	CPAN:
-		icon: "cpan"
-		match: [
-			[/^\.cpan$/i, "medium-blue"]
-			[/^\.cpanplus$/i, "dark-blue"]
-		]
-
-	CVS:
-		icon: "cvs"
-		match: /^CVS$/
-		colour: "medium-orange"
 
 	Deno:
 		icon: "deno"
@@ -188,10 +120,6 @@ directoryIcons:
 		icon: "expo"
 		match: /^\.expo(-shared)?$/i
 		colour: "medium-blue"
-
-	Fossil:
-		icon: "fossil"
-		match: /^\.fossil-settings$/i
 
 	Framework:
 		icon: "dylib"
