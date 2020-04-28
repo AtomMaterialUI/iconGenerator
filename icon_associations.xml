@@ -2576,6 +2576,11 @@
                color="ab47bc"
                pattern=".*([aA])ctions?\.(js|ts)$"
                icon="/icons/files/redux-action.svg"/>
+        <regex fileNames="epic.js,epics.ts,myEpic.js,myEpics.js,my-epics.js"
+               name="Redux Epic"
+               color="64B5F6"
+               pattern=".*([eE])pics?\.(js|ts)$"
+               icon="/icons/files/redux-epic.svg"/>
         <regex fileNames="saga.js,sagas.ts,mySaga.js,mySagas.js,my-sagas.js"
                name="Redux Saga"
                color="EF5350"
