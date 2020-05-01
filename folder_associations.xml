@@ -34,6 +34,12 @@
                iconColor="C5CAE9"
                pattern="^\.acre$"
                icon="/acre.svg"/>
+        <regex folderNames="addon,addons"
+               name="addons"
+               folderColor="7CB342"
+               iconColor="dcedc8"
+               pattern="^(addons?)$"
+               icon="/addon.svg"/>
         <regex folderNames="admin"
                name="admin"
                folderColor="00ad9f"
@@ -264,60 +270,62 @@
                icon="/cvs.svg"/>
         <!--endregion-->
 
+        <!--region D-->
         <regex folderNames="db,migrate,database,repo,repos,repositories"
                name="db"
-               folderColor=""
-               iconColor=""
+               folderColor="7CB342"
+               iconColor="C5E1A5"
                pattern="^(db|migrate|database|repos?|repositories)$"
                icon="/db.svg"/>
         <regex folderNames="debug,debugging"
                name="debug"
-               folderColor=""
-               iconColor=""
+               folderColor="D32F2F"
+               iconColor="F48FB1"
                pattern="^(debug|debugging)$"
                icon="/debug.svg"/>
         <regex folderNames="delta,deltas,diff"
                name="delta"
-               folderColor=""
-               iconColor=""
+               folderColor="EC407A"
+               iconColor="F8BBD0"
                pattern="^(deltas?|diff)$"
                icon="/delta.svg"/>
         <regex folderNames="deploy"
                name="deploy"
-               folderColor=""
-               iconColor=""
+               folderColor="FF8F00"
+               iconColor="ffecb3"
                pattern="^deploy$"
                icon="/aws.svg"/>
         <regex folderNames="dist,out,build,release"
                name="dist"
-               folderColor=""
-               iconColor=""
+               folderColor="e57373"
+               iconColor="ffcdd2"
                pattern="^(dist|out|build|release)$"
                icon="/dist.svg"/>
         <regex folderNames="docker,.docker"
                name="docker"
-               folderColor=""
-               iconColor=""
+               folderColor="039be5"
+               iconColor="b3e5fc"
                pattern="^\.?docker$"
                icon="/docker.svg"/>
         <regex folderNames="doc,docs,documentation"
                name="docs"
-               folderColor=""
-               iconColor=""
+               folderColor="0277bd"
+               iconColor="b3e5fc"
                pattern="^(docs?|documentation)$"
                icon="/docs.svg"/>
         <regex folderNames="download,downloads"
                name="download"
-               folderColor=""
-               iconColor=""
+               folderColor="4caf50"
+               iconColor="c8e6c9"
                pattern="^downloads?$"
                icon="/download.svg"/>
         <regex folderNames="dump,dumps,data"
                name="dump"
-               folderColor=""
-               iconColor=""
+               folderColor="757575"
+               iconColor="bdbdbd"
                pattern="^(dumps?|data)$"
                icon="/dump.svg"/>
+        <!--endregion-->
 
         <regex folderNames="e2e,scenario,scenarios"
                name="e2e"
@@ -882,48 +890,50 @@
         <!--region T-->
         <regex folderNames="task,tasks"
                name="tasks"
-               folderColor=""
-               iconColor=""
+               folderColor="795774"
+               iconColor="CE93D8"
                pattern="^(tasks?)$"
                icon="/tasks.svg"/>
         <regex folderNames="tmp,.tmp,temp,.temp,cache,.cache"
                name="temp"
-               folderColor=""
-               iconColor=""
+               folderColor="8D6E63"
+               iconColor="D7CCC8"
                pattern="^(\.?tmp|\.?temp|\.?cache)$"
                icon="/temp.svg"/>
         <regex folderNames="test,tests,spec,specs,unit,units"
                name="tests"
-               folderColor=""
-               iconColor=""
+               folderColor="1DE9B6"
+               iconColor="00897B"
                pattern="^(tests?|specs?|units?)$"
                icon="/tests.svg"/>
         <regex folderNames="theme,themes,color,colors,scheme,schemes,skin,skins"
                name="themes"
-               folderColor=""
-               iconColor=""
+               folderColor="673AB7"
+               iconColor="BBDEFB"
                pattern="^(themes?|colors?|schemes?|skins?)$"
                icon="/themes.svg"/>
         <regex folderNames="typescript,typescripts,ts,interface,interfaces"
                name="typescript"
-               folderColor=""
-               iconColor=""
+               folderColor="0288d1"
+               iconColor="90caf9"
                pattern="^(typescripts?|ts|interfaces?)$"
                icon="/ts.svg"/>
         <!--endregion-->
 
+        <!--region U-->
         <regex folderNames="upload,uploads"
                name="upload"
-               folderColor=""
-               iconColor=""
+               folderColor="ff7043"
+               iconColor="FFEBEE"
                pattern="^uploads?$"
                icon="/upload.svg"/>
         <regex folderNames="util,utils,tool,tools"
                name="utils"
-               folderColor=""
-               iconColor=""
+               folderColor="78909C"
+               iconColor="F5F5F5"
                pattern="^(utils?|tools?)$"
                icon="/tools.svg"/>
+        <!--endregion-->
 
         <!--region V-->
         <regex folderNames="vendor,vendors,lib,libs,Pod,Pods"
@@ -976,24 +986,26 @@
                icon="/vuex.svg"/>
         <!--endregion-->
 
+        <!--region W-->
         <regex folderNames="public,static,web,www,wwwroot"
                name="web"
-               folderColor=""
-               iconColor=""
+               folderColor="039be5"
+               iconColor="b3e5fc"
                pattern="^(public|static|web|www|wwwroot)$"
                icon="/web.svg"/>
         <regex folderNames="webpack"
                name="webpack"
-               folderColor=""
-               iconColor=""
+               folderColor="03a9f4"
+               iconColor="8ed6fb"
                pattern="^webpack$"
                icon="/webpack.svg"/>
         <regex folderNames="wp-admin,wp-content,wp-includes"
                name="wordpress"
-               folderColor=""
-               iconColor=""
+               folderColor="21759b"
+               iconColor="e1f5fe"
                pattern="^wp-(admin|content|includes)$"
                icon="/wordpress.svg"/>
+        <!--endregion-->
 
     </associations>
 </associations>
