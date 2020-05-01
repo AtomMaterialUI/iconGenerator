@@ -82,20 +82,6 @@ uses:  A loosely-defined "parent" from which to inherit properties not defined b
 
 directoryIcons:
 
-	Emacs:
-		icon: "emacs"
-		match: /^\.emacs\.d$/
-		colour: "medium-purple"
-
-	Framework:
-		icon: "dylib"
-		match: /\.(appex|framework|ideplugin)$/i
-
-	Istanbul:
-		icon: "istanbul"
-		match: /^\.nyc[-_]output$/
-		colour: "medium-orange"
-
 	Meteor:
 		icon: "meteor"
 		match: /^\.meteor$/
@@ -105,13 +91,6 @@ directoryIcons:
 		icon: "hg"
 		match: /^\.hg$/
 		colour: "medium-grey"
-
-	NodeJS:
-		icon: "node"
-		match: [
-			[/^node_modules$/, "medium-green"]
-			[/^\.node-gyp$/, "dark-green"]
-		]
 
 	Package:
 		icon: "package"

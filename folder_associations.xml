@@ -358,6 +358,12 @@
                iconColor="e0f2f1"
                pattern="^(e2e|scenarios?)$"
                icon="/e2e.svg"/>
+        <regex folderNames=".emacs.d"
+               name="emacs"
+               folderColor="9C27B0"
+               iconColor="E1BEE7"
+               pattern="^\.emacs\.d$"
+               icon="/emacs.svg"/>
         <regex folderNames="env,envs,environment,environments"
                name="env"
                folderColor="8BC34A"
@@ -490,61 +496,71 @@
                icon="/gulp.svg"/>
         <!--endregion-->
 
+        <!--region H-->
         <regex folderNames="helper,helpers,help"
                name="helper"
-               folderColor=""
-               iconColor=""
+               folderColor="afb42b"
+               iconColor="f0f4c3"
                pattern="^(helpers?|help)$"
                icon="/helper.svg"/>
         <regex folderNames="hooks,hook,triggers,trigger"
                name="hooks"
-               folderColor=""
-               iconColor=""
+               folderColor="9575CD"
+               iconColor="D1C4E9"
                pattern="^(hooks?|triggers?)"
                icon="/hook.svg"/>
+        <!--endregion-->
 
+        <!--region I-->
         <regex folderNames="i18n,lang,langs,language,languages,localization,locale,locales,translation,translations"
                name="i18n"
-               folderColor=""
-               iconColor=""
+               folderColor="5c6bc0"
+               iconColor="c5cae9"
                pattern="^(i18n|langs?|languages?|localization|locales?|translations?)$"
                icon="/i18n.svg"/>
         <regex folderNames="icon,icons,ico,svg,svgicon,svgicons"
                name="icons"
-               folderColor=""
-               iconColor=""
+               folderColor="009688"
+               iconColor="b2dfdb"
                pattern="^(icons?|ico|svg|svgicons?)$"
                icon="/icons.svg"/>
         <regex folderNames=".idea"
                name="idea"
-               folderColor=""
-               iconColor=""
+               folderColor="00BCD4"
+               iconColor="087CFA"
                pattern="^\.idea$"
                icon="/idea.svg"/>
         <regex folderNames=".xcodeproj,.xcworkspace"
                name="ios"
-               folderColor=""
-               iconColor=""
+               folderColor="78909c"
+               iconColor="cfd8dc"
                pattern=".*\.xc(odeproj|workspace)"
                icon="/ios.svg"/>
         <regex folderNames="image,images,img,medias,media"
                name="images"
-               folderColor=""
-               iconColor=""
+               folderColor="009688"
+               iconColor="b2dfdb"
                pattern="^(images?|img|medias?)$"
                icon="/images.svg"/>
         <regex folderNames="includes,include,import,imports,concerns,concern"
                name="include"
-               folderColor=""
-               iconColor=""
+               folderColor="039be5"
+               iconColor="b3e5fc"
                pattern="^(includes?|imports?|concerns?)$"
                icon="/include.svg"/>
         <regex folderNames="init,initializers,initializer,startup"
                name="init"
-               folderColor=""
-               iconColor=""
+               folderColor="9575CD"
+               iconColor="D1C4E9"
                pattern="^(init|initializers?|startup)$"
                icon="/hook.svg"/>
+        <regex folderNames=".nyc,.nyc-output,.nyc_output"
+               name="istanbul"
+               folderColor="FFB300"
+               iconColor="FFF9C4"
+               pattern="^\.nyc[-_]output$"
+               icon="/istanbul.svg"/>
+        <!--endregion-->
 
         <regex folderNames="javascript,javascripts,js"
                name="javascript"
@@ -554,8 +570,8 @@
                icon="/js.svg"/>
         <regex folderNames="jinja"
                name="jinja"
-               folderColor=""
-               iconColor=""
+               folderColor="607D8B"
+               iconColor="CFD8DC"
                pattern="^jinja$"
                icon="/jinja.svg"/>
         <regex folderNames="jobs,job,resque"
