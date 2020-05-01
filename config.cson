@@ -87,11 +87,6 @@ directoryIcons:
 		match: /^\.meteor$/
 		colour: "dark-orange"
 
-	Mercurial:
-		icon: "hg"
-		match: /^\.hg$/
-		colour: "medium-grey"
-
 	Package:
 		icon: "package"
 		match: /^\.(bundle|paket)$/i
