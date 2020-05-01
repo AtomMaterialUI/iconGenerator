@@ -82,10 +82,6 @@ uses:  A loosely-defined "parent" from which to inherit properties not defined b
 
 directoryIcons:
 
-	Chef:
-		icon: "chef"
-		match: /\.chef$/
-
 	Deno:
 		icon: "deno"
 		match: ".deno"

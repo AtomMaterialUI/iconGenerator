@@ -879,6 +879,7 @@
                pattern="^(syntax|syntaxes|spellcheck)$"
                icon="/syntax.svg"/>
 
+        <!--region T-->
         <regex folderNames="task,tasks"
                name="tasks"
                folderColor=""
@@ -909,6 +910,7 @@
                iconColor=""
                pattern="^(typescripts?|ts|interfaces?)$"
                icon="/ts.svg"/>
+        <!--endregion-->
 
         <regex folderNames="upload,uploads"
                name="upload"
@@ -923,48 +925,56 @@
                pattern="^(utils?|tools?)$"
                icon="/tools.svg"/>
 
+        <!--region V-->
         <regex folderNames="vendor,vendors,lib,libs,Pod,Pods"
                name="vendors"
-               folderColor=""
-               iconColor=""
+               folderColor="6CAC23"
+               iconColor="A5D6A7"
                pattern="^(vendors?|libs?|Pods?)$"
                icon="/lib.svg"/>
         <regex folderNames="videos,video,movie,movies"
                name="video"
-               folderColor=""
-               iconColor=""
+               folderColor="7986CB"
+               iconColor="C5CAE9"
                pattern="^(videos?|movies?)$"
                icon="/video.svg"/>
         <regex folderNames="view,views,template,templates,page,pages"
                name="views"
-               folderColor=""
-               iconColor=""
+               folderColor="FFB300"
+               iconColor="FFE0B2"
                pattern="^(views?|templates?|pages?)$"
                icon="/views.svg"/>
+        <regex folderNames="viewmodel,viewmodels,viewModel,viewModels"
+               name="views"
+               folderColor="0288d1"
+               iconColor="b3e5fc"
+               pattern="^(view[mM]odels?)$"
+               icon="/viewmodel.svg"/>
         <regex folderNames="virtual,vm,vms,machine,machines"
                name="vm"
-               folderColor=""
-               iconColor=""
+               folderColor="039be5"
+               iconColor="b3e5fc"
                pattern="^(virtual|vms?|machines?)$"
                icon="/vm.svg"/>
         <regex folderNames="vscode,.vscode"
                name="vscode"
-               folderColor=""
-               iconColor=""
+               folderColor="42A5F5"
+               iconColor="bbdefb"
                pattern="^\.?vscode$"
                icon="/vscode.svg"/>
         <regex folderNames="vue"
                name="vue"
-               folderColor=""
-               iconColor=""
+               folderColor="009688"
+               iconColor="41B883"
                pattern="^vue$"
                icon="/vue.svg"/>
         <regex folderNames="vuex"
                name="vuex"
-               folderColor=""
-               iconColor=""
+               folderColor="009688"
+               iconColor="41B883"
                pattern="^vuex$"
                icon="/vuex.svg"/>
+        <!--endregion-->
 
         <regex folderNames="public,static,web,www,wwwroot"
                name="web"
