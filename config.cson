@@ -87,27 +87,9 @@ directoryIcons:
 		match: /^\.emacs\.d$/
 		colour: "medium-purple"
 
-	Expo:
-		icon: "expo"
-		match: /^\.expo(-shared)?$/i
-		colour: "medium-blue"
-
 	Framework:
 		icon: "dylib"
 		match: /\.(appex|framework|ideplugin)$/i
-
-	Git:
-		icon: "git"
-		match: /\.git$/
-		colour: "medium-red"
-
-	GitHub:
-		icon: "github"
-		match: /^\.github$/
-
-	GitLab:
-		icon: "gitlab"
-		match: /^\.gitlab$/
 
 	Istanbul:
 		icon: "istanbul"

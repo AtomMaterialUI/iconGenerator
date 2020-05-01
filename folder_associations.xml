@@ -351,48 +351,50 @@
                icon="/dump.svg"/>
         <!--endregion-->
 
+        <!--region E-->
         <regex folderNames="e2e,scenario,scenarios"
                name="e2e"
-               folderColor=""
-               iconColor=""
+               folderColor="00796B"
+               iconColor="e0f2f1"
                pattern="^(e2e|scenarios?)$"
                icon="/e2e.svg"/>
         <regex folderNames="env,envs,environment,environments"
                name="env"
-               folderColor=""
-               iconColor=""
+               folderColor="8BC34A"
+               iconColor="DCEDC8"
                pattern="^(envs?|environments?)$"
                icon="/env.svg"/>
         <regex folderNames="error,errors"
                name="error"
-               folderColor=""
-               iconColor=""
+               folderColor="ef5350"
+               iconColor="ffcdd2"
                pattern="^(errors?)$"
                icon="/error.svg"/>
         <regex folderNames="event,events"
                name="events"
-               folderColor=""
-               iconColor=""
+               folderColor="66BB6A"
+               iconColor="C8E6C9"
                pattern="^(events?)$"
                icon="/events.svg"/>
         <regex folderNames="example,examples,ex,exs"
                name="example"
-               folderColor=""
-               iconColor=""
+               folderColor="009688"
+               iconColor="b2dfdb"
                pattern="^(examples?|exs?)$"
                icon="/examples.svg"/>
         <regex folderNames="exclude,excludes,external"
                name="exclude"
-               folderColor=""
-               iconColor=""
+               folderColor="ff8a65"
+               iconColor="fbe9e7"
                pattern="^(excludes?|external)$"
                icon="/exclude.svg"/>
         <regex folderNames=".expo,.expo-shared"
                name="expo"
-               folderColor=""
-               iconColor=""
+               folderColor="01579b"
+               iconColor="9FA8DA"
                pattern="^\.expo(-shared)?$"
                icon="/expo.svg"/>
+        <!--endregion-->
 
         <regex folderNames="feature,features,feat,feats"
                name="features"
@@ -425,24 +427,31 @@
                pattern="^(functions?|services?|lambdas?)$"
                icon="/functions.svg"/>
 
+        <!--region G-->
         <regex folderNames="gen,generated,auto"
                name="generated"
-               folderColor=""
-               iconColor=""
+               folderColor="EC407A"
+               iconColor="FCE4EC"
                pattern="^(gen|generated|auto)$"
                icon="/generated.svg"/>
         <regex folderNames=".git,.submodules"
                name="git"
-               folderColor=""
-               iconColor=""
+               folderColor="ff7043"
+               iconColor="ffccbc"
                pattern="^(\.git|\.submodules)$"
                icon="/git.svg"/>
         <regex folderNames="github,.github"
                name="github"
-               folderColor=""
-               iconColor=""
+               folderColor="546e7a"
+               iconColor="eceff1"
                pattern="^\.?github$"
                icon="/github.svg"/>
+        <regex folderNames="gitlab,.gitlab"
+               name="gitlab"
+               folderColor="e24329"
+               iconColor="FFCDD2"
+               pattern="^\.?gitlab$"
+               icon="/gitlab.svg"/>
         <regex folderNames="global"
                name="global"
                folderColor=""
@@ -479,6 +488,7 @@
                iconColor=""
                pattern="^gulp$"
                icon="/gulp.svg"/>
+        <!--endregion-->
 
         <regex folderNames="helper,helpers,help"
                name="helper"
