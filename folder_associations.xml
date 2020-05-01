@@ -670,6 +670,12 @@
                iconColor="B2EBF2"
                pattern="^(meta|META-INF)$"
                icon="/meta.svg"/>
+        <regex folderNames=".meteor"
+               name="meteor"
+               folderColor="AC7B69"
+               iconColor="EFEBE9"
+               pattern="^\.meteor$"
+               icon="/meteor.svg"/>
         <regex folderNames="middleware,middlewares,thunk,thunks"
                name="middlewares"
                folderColor="5c6bc0"
@@ -733,11 +739,11 @@
         <!--endregion-->
 
         <!--region P-->
-        <regex folderNames="package,packages"
+        <regex folderNames="package,packages,bundle,bundles,.bundle,.paket"
                name="packages"
                folderColor="5C6BC0"
                iconColor="C5CAE9"
-               pattern="^packages?$"
+               pattern="^(packages?|\.?bundles?|\.paket)$"
                icon="/packages.svg"/>
         <regex folderNames="php"
                name="php"
@@ -961,6 +967,12 @@
                iconColor="FFA726"
                pattern="^\.sublime$"
                icon="/sublime.svg"/>
+        <regex folderNames=".svn"
+               name="svn"
+               folderColor="5C6BC0"
+               iconColor="C5CAE9"
+               pattern="^\.svn$"
+               icon="/svn.svg"/>
         <regex folderNames="sync,synced"
                name="sync"
                folderColor="0288d1"
@@ -994,6 +1006,12 @@
                iconColor="00897B"
                pattern="^(tests?|specs?|units?)$"
                icon="/tests.svg"/>
+        <regex folderNames=".tmBundle"
+               name="textmate"
+               folderColor="9C27B0"
+               iconColor="C792EA"
+               pattern="^\.tmBundle$"
+               icon="/textmate.svg"/>
         <regex folderNames="theme,themes,color,colors,scheme,schemes,skin,skins"
                name="themes"
                folderColor="673AB7"
@@ -1024,6 +1042,12 @@
         <!--endregion-->
 
         <!--region V-->
+        <regex folderNames=".vagrant,.vagrant.d"
+               name="vagrant"
+               folderColor="26A69A"
+               iconColor="B2DFDB"
+               pattern="^\.vagrant(\.d)?$"
+               icon="/vagrant.svg"/>
         <regex folderNames="vendor,vendors,lib,libs,Pod,Pods"
                name="vendors"
                folderColor="6CAC23"
@@ -1043,11 +1067,17 @@
                pattern="^(views?|templates?|pages?)$"
                icon="/views.svg"/>
         <regex folderNames="viewmodel,viewmodels,viewModel,viewModels"
-               name="views"
+               name="viewModels"
                folderColor="0288d1"
                iconColor="b3e5fc"
                pattern="^(view[mM]odels?)$"
                icon="/viewmodel.svg"/>
+        <regex folderNames="vim,.vim"
+               name="vim"
+               folderColor="6AAB20"
+               iconColor="F0F4C3"
+               pattern="^\.?vim$"
+               icon="/vim.svg"/>
         <regex folderNames="virtual,vm,vms,machine,machines"
                name="vm"
                folderColor="039be5"

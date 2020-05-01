@@ -80,40 +80,6 @@ uses:  A loosely-defined "parent" from which to inherit properties not defined b
 ###
 
 
-directoryIcons:
-
-	Meteor:
-		icon: "meteor"
-		match: /^\.meteor$/
-		colour: "dark-orange"
-
-	Package:
-		icon: "package"
-		match: /^\.(bundle|paket)$/i
-
-	SVN:
-		icon: "svn"
-		match: /^\.svn$/i
-
-	TextMate:
-		icon: "textmate"
-		match: ".tmBundle"
-
-	UFO:
-		icon: "ufo"
-		match: /\.ufo\d?$/i
-
-	Vagrant:
-		icon: "vagrant"
-		match: [
-			[".vagrant", "medium-cyan"]
-			[".vagrant.d", "dark-cyan"]
-		]
-
-	Vim:
-		icon: "vim"
-		match: /^\.vim$/i
-		colour: "medium-green"
 
 fileIcons:
 
