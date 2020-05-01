@@ -82,31 +82,6 @@ uses:  A loosely-defined "parent" from which to inherit properties not defined b
 
 directoryIcons:
 
-	Deno:
-		icon: "deno"
-		match: ".deno"
-		colour: "dark-purple"
-
-	Dependabot:
-		icon: "dependabot"
-		match: ".dependabot"
-		colour: "medium-blue"
-
-	DevContainer:
-		icon: "devcontainer"
-		match: /^\.devcontainer$/i
-		colour: "medium-blue"
-
-	Docker:
-		icon: "docker"
-		match: /^\.docker$/
-		colour: "dark-blue"
-
-	Dropbox:
-		icon: "dropbox"
-		match: /^(Dropbox|\.dropbox\.cache)$/
-		colour: "medium-blue"
-
 	Emacs:
 		icon: "emacs"
 		match: /^\.emacs\.d$/
