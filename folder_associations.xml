@@ -1057,5 +1057,14 @@
                icon="/wordpress.svg"/>
         <!--endregion-->
 
+        <!--region Y-->
+        <regex folderNames="yarn"
+               name="yarn"
+               folderColor="039be5"
+               iconColor="b3e5fc"
+               pattern="^\.yarn$"
+               icon="/yarn.svg"/>
+        <!--endregion-->
+
     </associations>
 </associations>

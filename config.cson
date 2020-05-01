@@ -120,15 +120,6 @@ directoryIcons:
 		match: /^\.vim$/i
 		colour: "medium-green"
 
-	"Visual Studio":
-		icon: "vs"
-		match: /^\.vscode$/i
-
-	Yarn:
-		icon: "yarn"
-		match: /^\.yarn$/i
-		colour: "medium-blue"
-
 fileIcons:
 
 	D:
