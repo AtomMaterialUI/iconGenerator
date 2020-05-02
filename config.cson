@@ -83,12 +83,6 @@ uses:  A loosely-defined "parent" from which to inherit properties not defined b
 
 fileIcons:
 
-	D:
-		icon: "dlang"
-		scope: "d"
-		match: /\.di?$/i
-		colour: "medium-red"
-
 	D3:
 		icon: "d3"
 		priority: 2
@@ -108,13 +102,6 @@ fileIcons:
 			[/^\.boringignore$/i, "dark-green"]
 		]
 
-	Dart:
-		icon: "dart"
-		scope: "dart"
-		match: ".dart"
-		colour: "medium-cyan"
-		interpreter: "dart"
-
 	Dashboard:
 		icon: "dashboard"
 		generic: true
@@ -128,9 +115,6 @@ fileIcons:
 		icon: "database"
 		generic: true
 		match: [
-			[".aff", "medium-red"]
-			[".cson", "medium-maroon"]
-			[/\.dict?$/i, "medium-green"]
 			[".hson", "medium-orange", "hson"]
 			[".http", "medium-red"]
 			[".ndjson", "medium-orange"]
@@ -146,12 +130,9 @@ fileIcons:
 			[".son", "dark-green", "son"]
 			[".ston", "medium-maroon"]
 			[".ttl", "medium-cyan", scope: "turtle"]
-			[".schema", "dark-blue", priority: 0.25]
 			[".sy", "dark-green"]
 			[".syntax", "medium-blue"]
 			[".webmanifest", "medium-blue"]
-			[/\.(od|onlydata)$/i, "medium-grey", alias: "OnlyData"]
-			[".dbi", "medium-orange"] # https://wiki.servoy.com/display/DOCS/Updating+a+Local+Database+Using+DBI+Files
 			[/\.snip(pets?)?$/i, "medium-green", alias: /^(SnipMate|UltiSnip|NeoSnippet)$/i, scope: /\.(vim-snippet|snipmate|ultisnips|neosnippet|snippets?)(\.|$)/i]
 			[/\.yas(nippet)?$/i, "medium-green", alias: /(YA)?Snippet/i, scope: /^source\.yasnippet$/i]
 			[/(^|\.)fonts\.(dir|scale|alias)$/i, "medium-red", scope: /^source\.fontdir$/i, priority: 4]
@@ -198,14 +179,6 @@ fileIcons:
 			[/^rules$/, "medium-cyan"]
 		]
 
-	Delphi: # Pascal IDE
-		icon: "delphi"
-		match: [
-			[".dfm", "medium-red"]
-			[".dof", "medium-blue", uses: "INI"]
-			[".dpr", "medium-orange"]
-		]
-
 	"D★Mark":
 		icon: "icon-star"
 		match: ".dmark"
@@ -237,13 +210,6 @@ fileIcons:
 		match: ".dia"
 		colour: "auto-cyan"
 
-	Diff:
-		icon: "diff"
-		match: [
-			[".diff", "medium-orange", alias: "udiff", scope: "diff"]
-			[".diffs", "medium-red", priority: 0.1]
-		]
-
 	Digdag:
 		icon: "digdag"
 		match: ".dig"
@@ -271,13 +237,6 @@ fileIcons:
 		colour: "medium-cyan"
 		mime: "application/docbook+xml"
 		uses: "XML"
-
-	Docker:
-		icon: "docker"
-		match: [
-			[/^(Dockerfile|docker-compose)|\.docker(file|ignore)$/i, "dark-blue", scope: "dockerfile", priority: 2]
-			[/^docker-sync\.yml$/i, "dark-orange", priority: 2]
-		]
 
 	Doclets:
 		icon: "doclets"
@@ -331,12 +290,6 @@ fileIcons:
 		colour: "dark-blue"
 		priority: 0.5
 
-	Doxyfile:
-		icon: "doxygen"
-		scope: "doxygen"
-		match: /^\.?Doxyfile$/i
-		colour: "medium-blue"
-
 	Dragula:
 		icon: "dragula"
 		priority: 2
@@ -357,17 +310,6 @@ fileIcons:
 			[".dyapp", "medium-red"]
 			[".mipage", "dark-green"]
 		]
-
-	DyLib:
-		icon: "dylib"
-		match: /\.(dylib|bundle)$/i
-		colour: "medium-cyan"
-
-	E:
-		icon: "e"
-		match: /\.E$/
-		colour: "medium-green"
-		interpreter: "rune"
 
 	Eagle:
 		icon: "eagle"
@@ -392,13 +334,6 @@ fileIcons:
 		match: ".epj"
 		colour: "medium-blue"
 
-	Eclipse:
-		icon: "eclipse"
-		match: [
-			[/\.c?project$/, "dark-blue"]
-			[".classpath", "medium-red"]
-		]
-
 	ECLiPSe:
 		icon: "eclipse-lang"
 		priority: 1.5
@@ -406,61 +341,11 @@ fileIcons:
 		colour: "medium-blue"
 		scope: "eclipse"
 
-	EditorConfig:
-		icon: "editorconfig"
-		match: ".editorconfig"
-		colour: "medium-orange"
-		scope: "editorconfig"
-
-	Edge:
-		icon: "edge"
-		match: ".edge"
-		colour: "dark-orange"
-		scope: /\.html.edge$/
-
-	Eiffel:
-		icon: "eiffel"
-		scope: "eiffel"
-		match: /\.e$/
-		colour: "medium-cyan"
-
-	EJS:
-		icon: "ejs"
-		match: ".ejs"
-		colour: "medium-green"
-		scope: "text.html.js"
-
 	Electron:
 		icon: "electron"
 		match: /\.compilerc(\.json)?$/i
 		colour: "dark-blue"
 		priority: 2
-
-	Elixir:
-		icon: "elixir"
-		match: [
-			[".ex", "dark-purple", "elixir"]
-			[/\.(exs|l?eex)$/i, "medium-purple"]
-			[/^mix\.(exs?|lock)$/i, "light-purple"]
-		]
-
-	Elm:
-		icon: "elm"
-		scope: "elm"
-		match: ".elm"
-		colour: "medium-blue"
-
-	"Emacs Lisp":
-		icon: "emacs"
-		priority: 1.5
-		match: [
-			[/(^|\.)(el|_?emacs|emacs\.desktop|abbrev[-_]defs)$/i, "medium-purple", alias: "elisp", scope: "emacs.lisp", interpreter: /^(x?emacs)$/]
-			[/(^|\.)(elc|eld)$/i, "dark-purple", signature: /^;ELC\x17\0{3}/]
-			[".gnus", "medium-red"]
-			[".viper", "dark-green"]
-			[/^Cask$/, "dark-blue"]
-			[/^Project\.ede$/i, "medium-blue"]
-		]
 
 	Email:
 		icon: "at"
@@ -468,12 +353,6 @@ fileIcons:
 		colour: "auto-red"
 		alias: /^(EML|mbox|e?-?mail)$/i
 		scope: /^text\.eml($|\.)/
-
-	Ember:
-		icon: "ember"
-		priority: 2
-		match: /^ember(\.|(-[^.]+)?-(\d+\.)+(debug\.)?)[cm]?js$/i
-		colour: "medium-red"
 
 	EmberScript:
 		icon: "em"
@@ -498,32 +377,11 @@ fileIcons:
 		match: ".eq"
 		colour: "medium-orange"
 
-	Erlang:
-		icon: "erlang"
-		match: [
-			[".erl", "medium-red", scope: "erlang", interpreter: "escript"]
-			[".beam", "dark-red"]
-			[".hrl", "medium-maroon"]
-			[".xrl", "medium-green"]
-			[".yrl", "dark-green"]
-			[".app.src", "dark-maroon"]
-			[/^Emakefile$/, "dark-green"]
-			[/^rebar(\.config)?\.lock$/i, "medium-red"]
-		]
-
 	ESDoc:
 		icon: "esdoc"
 		priority: 2
 		match: /^\.?esdoc\.([cm]?js|json)$/i
 		colour: "medium-red"
-
-	ESLint:
-		icon: "eslint"
-		priority: 2
-		match: [
-			[/\.eslint(cache|ignore)$/i, "medium-purple"]
-			[/\.eslintrc($|\.)/i, "light-purple"]
-		]
 
 	ExtJS:
 		icon: "extjs"
@@ -563,12 +421,6 @@ fileIcons:
 			[".gi", "dark-blue"]
 			[".tst", "medium-orange"]
 		]
-
-	Gatsby:
-		icon: "gatsby"
-		match: /^gatsby-.+\.[jt]s$/i
-		colour: "dark-purple"
-		priority: 2
 
 	GAUSS:
 		icon: "gauss"
