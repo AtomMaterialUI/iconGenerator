@@ -973,6 +973,12 @@
                iconColor="FFA726"
                pattern="^\.sublime$"
                icon="/sublime.svg"/>
+        <regex folderNames="svg,svgs,svgicon,svgicons,graphic,graphics"
+               name="svg"
+               folderColor="ffb300"
+               iconColor="fff9c4"
+               pattern="^(svgs?|svgicons?|graphics?)$"
+               icon="/svg.svg"/>
         <regex folderNames=".svn"
                name="svn"
                folderColor="5C6BC0"
