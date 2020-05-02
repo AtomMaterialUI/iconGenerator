@@ -73,7 +73,7 @@
               icon="/icons/files/image.svg"/>
         <regex fileNames="*.jpg,*.jpeg,*.png,*.apng,*.gif,*.bmp,*.bpg,*.djvu,*.dpx,*.jps,*.jng,*.jxr"
                name="Images"
-               pattern=".*\.(jpg|a?png|jpeg|gif|bmp|bpg|djvu?|dpx|jps|jng|jxr)"
+               pattern=".*\.(jpg|a?png|jpeg|gif|bmp|bpg|djvu|dpx|jps|jng|jxr)"
                color="92AC5A"
                icon="/icons/files/image.svg"/>
         <regex fileNames="*.webp,*.ico,*.dcm,*.ecw,*.fig,*.hdp,*.hdr,*.heif,*.heic,*.icns,*.iff"
@@ -3307,7 +3307,7 @@
                name="YUI"
                color="5C6BC0"
                pattern="^(yahoo-|yui)[^.]*\.[jt]s$"
-               icon="/icons/files/yorick.svg"/>
+               icon="/icons/files/yui.svg"/>
         <regex fileNames=".yvmrc"
                name="YVM"
                color="FD1773"
