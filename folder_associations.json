@@ -491,6 +491,14 @@
 					"icon": "/rules.svg"
 				},
 				{
+					"folderNames": ".firebase",
+					"name": "firebase",
+					"folderColor": "fbc02d",
+					"iconColor": "fff9c4",
+					"pattern": "^\\.firebase$",
+					"icon": "/firebase.svg"
+				},
+				{
 					"folderNames": "fixture,fixtures,fabricator,fabricators,factory,factories",
 					"name": "fixtures",
 					"folderColor": "9E9D24",
@@ -627,11 +635,11 @@
 					"icon": "/i18n.svg"
 				},
 				{
-					"folderNames": "icon,icons,ico,svg,svgicon,svgicons",
+					"folderNames": "icon,icons,ico,svg",
 					"name": "icons",
 					"folderColor": "009688",
 					"iconColor": "b2dfdb",
-					"pattern": "^(icons?|ico|svg|svgicons?)$",
+					"pattern": "^(icons?|ico)$",
 					"icon": "/icons.svg"
 				},
 				{
@@ -641,14 +649,6 @@
 					"iconColor": "087CFA",
 					"pattern": "^\\.idea$",
 					"icon": "/idea.svg"
-				},
-				{
-					"folderNames": ".xcodeproj,.xcworkspace",
-					"name": "ios",
-					"folderColor": "78909c",
-					"iconColor": "cfd8dc",
-					"pattern": ".*\\.xc(odeproj|workspace)",
-					"icon": "/ios.svg"
 				},
 				{
 					"folderNames": "image,images,img,medias,media",
@@ -1027,12 +1027,12 @@
 					"icon": "/resource.svg"
 				},
 				{
-					"folderNames": ".xcassets",
+					"folderNames": "Assets.xcassets,Base.lproj",
 					"name": "resourceIOS",
 					"folderColor": "78909c",
 					"iconColor": "cfd8dc",
-					"pattern": ".*\\.xcassets",
-					"icon": "/resource.svg"
+					"pattern": ".*\\.(xcassets|lproj)",
+					"icon": "/ios.svg"
 				},
 				{
 					"folderNames": "review,reviews",
@@ -1099,11 +1099,11 @@
 					"icon": "/security.svg"
 				},
 				{
-					"folderNames": "server,http,request,requests,saga,sagas",
+					"folderNames": "server,http,request,requests",
 					"name": "server",
 					"folderColor": "FF8F00",
 					"iconColor": "FFECB3",
-					"pattern": "^(server|http|requests?|sagas?)$",
+					"pattern": "^(server|http|requests?)$",
 					"icon": "/server.svg"
 				},
 				{
@@ -1139,11 +1139,11 @@
 					"icon": "/sql.svg"
 				},
 				{
-					"folderNames": "stack,stacks",
+					"folderNames": "stack,stacks,structure,structures",
 					"name": "stack",
 					"folderColor": "FFA726",
 					"iconColor": "ffe0b2",
-					"pattern": "^stacks?$",
+					"pattern": "^(structures?|stacks?)$",
 					"icon": "/stack.svg"
 				},
 				{
@@ -1185,6 +1185,14 @@
 					"iconColor": "FFA726",
 					"pattern": "^\\.sublime$",
 					"icon": "/sublime.svg"
+				},
+				{
+					"folderNames": "svg,svgs,svgicon,svgicons,graphic,graphics",
+					"name": "svg",
+					"folderColor": "ffb300",
+					"iconColor": "fff9c4",
+					"pattern": "^(svgs?|svgicons?|graphics?)$",
+					"icon": "/svg.svg"
 				},
 				{
 					"folderNames": ".svn",
@@ -1307,7 +1315,7 @@
 					"icon": "/views.svg"
 				},
 				{
-					"folderNames": "viewmodel,viewmodels,viewModel,viewModels",
+					"folderNames": "viewmodel,viewModels",
 					"name": "viewModels",
 					"folderColor": "0288d1",
 					"iconColor": "b3e5fc",
@@ -1379,11 +1387,11 @@
 					"icon": "/wordpress.svg"
 				},
 				{
-					"folderNames": "yarn",
+					"folderNames": "yarn,.yarn",
 					"name": "yarn",
 					"folderColor": "039be5",
 					"iconColor": "b3e5fc",
-					"pattern": "^\\.yarn$",
+					"pattern": "^\\.?yarn$",
 					"icon": "/yarn.svg"
 				}
 			]

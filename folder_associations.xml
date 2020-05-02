@@ -526,11 +526,11 @@
                iconColor="c5cae9"
                pattern="^(i18n|langs?|languages?|localization|locales?|translations?)$"
                icon="/i18n.svg"/>
-        <regex folderNames="icon,icons,ico,svg,svgicon,svgicons"
+        <regex folderNames="icon,icons,ico,glyph,glyphs"
                name="icons"
                folderColor="009688"
                iconColor="b2dfdb"
-               pattern="^(icons?|ico|svg|svgicons?)$"
+               pattern="^(icons?|ico|glyphs?)$"
                icon="/icons.svg"/>
         <regex folderNames=".idea"
                name="idea"
@@ -901,11 +901,11 @@
                iconColor="fff9c4"
                pattern="^(secure|security)$"
                icon="/security.svg"/>
-        <regex folderNames="server,http,request,requests,saga,sagas"
+        <regex folderNames="server,http,request,requests"
                name="server"
                folderColor="FF8F00"
                iconColor="FFECB3"
-               pattern="^(server|http|requests?|sagas?)$"
+               pattern="^(server|http|requests?)$"
                icon="/server.svg"/>
         <regex folderNames=".serverless,serverless"
                name="serverless"
@@ -1072,7 +1072,7 @@
                iconColor="FFE0B2"
                pattern="^(views?|templates?|pages?)$"
                icon="/views.svg"/>
-        <regex folderNames="viewmodel,viewmodels,viewModel,viewModels"
+        <regex folderNames="viewmodel,viewModels"
                name="viewModels"
                folderColor="0288d1"
                iconColor="b3e5fc"
