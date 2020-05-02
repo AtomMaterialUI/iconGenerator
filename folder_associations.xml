@@ -409,6 +409,12 @@
                iconColor="ffcdd2"
                pattern="^(features?|feats?)$"
                icon="/rules.svg"/>
+        <regex folderNames=".firebase"
+               name="firebase"
+               folderColor="fbc02d"
+               iconColor="fff9c4"
+               pattern="^\.firebase$"
+               icon="/firebase.svg"/>
         <regex folderNames="fixture,fixtures,fabricator,fabricators,factory,factories"
                name="fixtures"
                folderColor="9E9D24"
@@ -931,11 +937,11 @@
                iconColor="b2dfdb"
                pattern="^(sql|mysql|pgsql)$"
                icon="/sql.svg"/>
-        <regex folderNames="stack,stacks"
+        <regex folderNames="stack,stacks,structure,structures"
                name="stack"
                folderColor="FFA726"
                iconColor="ffe0b2"
-               pattern="^stacks?$"
+               pattern="^(structures?|stacks?)$"
                icon="/stack.svg"/>
         <regex folderNames="stories,storybook,storybooks"
                name="storybook"
@@ -1126,11 +1132,11 @@
         <!--endregion-->
 
         <!--region Y-->
-        <regex folderNames="yarn"
+        <regex folderNames="yarn,.yarn"
                name="yarn"
                folderColor="039be5"
                iconColor="b3e5fc"
-               pattern="^\.yarn$"
+               pattern="^\.?yarn$"
                icon="/yarn.svg"/>
         <!--endregion-->
 

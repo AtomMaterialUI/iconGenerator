@@ -96,7 +96,7 @@
                icon="/icons/files/svg.svg"/>
 
         <!--region 0-9 -->
-        <regex fileNames="*.bsl,*.mdo,*.sbsl,*.os"
+        <regex fileNames="*.bsl,*.mdo,*.sdbl,*.os"
                name="1C"
                color="FFB74D"
                pattern=".*\.(bsl|sdbl|os|mdo)$"
@@ -995,7 +995,7 @@
                color="AB7967"
                pattern=".*\.(coffee|iced|litcoffee|cjsx)$"
                icon="/icons/files/coffeescript.svg"/>
-        <regex fileNames="coffeelint"
+        <regex fileNames="coffeelint.json"
                name="CoffeeLint"
                color="AB7967"
                pattern="^coffeelint\.json$"
@@ -1018,7 +1018,7 @@
         <regex fileNames=".commitlintrc,.commitlintrc.js,.commitlintrc.json,.commitlintrc.yml"
                name="Commitlint"
                color="50B2DD"
-               pattern=".*\.commitlintrc\.(js(on)?|yml)$"
+               pattern=".*\.commitlintrc(\.js(on)?|\.ya?ml)?$"
                icon="/icons/files/commitlint.svg"/>
         <regex fileNames="commitlint.config.js"
                name="Commitlint Config"
@@ -1572,11 +1572,6 @@
                color="D52A29"
                pattern="^\.git.*"
                icon="/icons/files/git.svg"/>
-        <regex fileNames="*.go,*.gohtml"
-               name="Go"
-               color="82AAFF"
-               pattern=".*\.(go|gohtml)$"
-               icon="/icons/files/go.svg"/>
         <regex fileNames="go.mod,go.sub"
                name="Go Config"
                color="82AAFF"
@@ -1698,11 +1693,6 @@
                color="C55461"
                pattern=".*\.(htaccess|htpasswd)$"
                icon="/icons/files/htaccess.svg"/>
-        <regex fileNames="*.html,*.htm"
-               name="HTML"
-               color="F4BF75"
-               pattern=".*\.(html|htm)$"
-               icon="/icons/files/html.svg"/>
         <regex fileNames="*.http,*.rest"
                name="HTTP"
                color="29B6F6"
@@ -1851,7 +1841,7 @@
         <regex fileNames="jest.config.js,jest.setup.js,jest.teardown.js,jest.babel.json,jest.jsx,jest.tsx"
                name="Jest"
                color="D52A29"
-               pattern="^jest\.(config|setup|teardown|babel)\.(js(on|x)?|[cm]js|tsx?)$"
+               pattern="^jest(\.(config|setup|teardown|babel))?\.(js(on|x)?|[cm]js|tsx?)$"
                icon="/icons/files/jest.svg"/>
         <regex fileNames=".jestrc,.jestrc.js,.jestrc.json"
                name="Jestrc"
@@ -2104,11 +2094,6 @@
                color="E79627"
                pattern="manifest\.json$"
                icon="/icons/files/manifest.svg"/>
-        <regex fileNames="*.md,*.markdown,*.mson"
-               name="Markdown"
-               color="EA7130"
-               pattern=".*\.(md|markdown|mson)$"
-               icon="/icons/files/markdown.svg"/>
         <regex fileNames="*.shtml,*.dhtml,*.dtd"
                name="Markup"
                color="7963E6"
@@ -2235,7 +2220,7 @@
                color="ffca28"
                pattern=".*\.(nim|nimble)$"
                icon="/icons/files/nim.svg"/>
-        <regex fileNames="server.js,server.ts,app.js,app.ts,app.es6,main.js,main.ts,main.ts6"
+        <regex fileNames="server.js,server.ts,app.js,app.ts,app.es6,main.js,main.ts,main.es6"
                name="Node"
                color="73B923"
                pattern="^(server|app|main)\.(js|ts|es6)$"
@@ -2347,11 +2332,6 @@
                color="D73736"
                pattern=".*\.pdf$"
                icon="/icons/files/pdf.svg"/>
-        <regex fileNames="*.perl,*.pl,*.pm"
-               name="Perl"
-               color="4DB6AC"
-               pattern=".*\.(perl|pl|pm)$"
-               icon="/icons/files/perl.svg"/>
         <regex fileNames="perlconfig.json,perl5config.json,perl6config.json"
                name="Perl Config"
                color="4DB6AC"
@@ -2609,12 +2589,12 @@
         <regex fileNames="reducer.js,reducer.ts,myReducer.js,myReducers.js,my-reducers.js"
                name="Redux Reducer"
                color="4CAF50"
-               pattern=".*([rR])educer\.(js|ts)$"
+               pattern=".*([rR])educers?\.(js|ts)$"
                icon="/icons/files/redux-reducer.svg"/>
         <regex fileNames="store.js,store.ts,myStore.js,myStores.js,my-stores.js"
                name="Redux Store"
                color="26C6DA"
-               pattern=".*([sS])tore\.(js|ts)$"
+               pattern=".*([sS])tores?\.(js|ts)$"
                icon="/icons/files/redux-store.svg"/>
         <regex fileNames="*.rst"
                name="Restructured"
@@ -3399,27 +3379,6 @@
                icon="/icons/files/binary.svg"/>
         <!--endregion-->
 
-        <regex fileNames="*.ttf,*.ttc,*.pfb,*.pfm,*.otf,*.dfont,*.pfa,*.afm,*.eot,*.woff,*.woff2"
-               name="Font"
-               pattern=".*\.(ttf|ttc|pfb|pfm|otf|dfont|pfa|afm|eot|woff2?)$"
-               color="7A8387"
-               icon="/icons/files/font.svg"/>
-        <regex fileNames="*.lock"
-               name="Lockfiles"
-               color="D52B2A"
-               pattern=".*\.lock$"
-               icon="/icons/files/lock.svg"/>
-        <regex fileNames="*.xml,*.xhtml,*.fxml,*.jrxml,*.jnlp,*.pom,*.rng,*.tld,*.wsdl,*.xsd,*.xsl,*.xslt,*.xul"
-               name="XML"
-               pattern=".*\.(xml|xhtml|fxml|jrxml|jnlp|pom|rng|tld|wsdl|xsd|xsl|xslt|xul)$"
-               color="D14748"
-               icon="/icons/files/xml.svg"/>
-        <regex fileNames="*.yml,*.yaml,*.info"
-               name="YAML"
-               color="F4c179"
-               pattern=".*\.(yml|yaml|info)$"
-               icon="/icons/files/yaml.svg"/>
-
         <!--region Archive -->
         <regex fileNames="*.z,*.xz,*.7z,*.7zip,*.gzip,*.zip,*.rar,*.tar"
                name="Archive"
@@ -3474,11 +3433,17 @@
                icon="/icons/files/video.svg"/>
         <!--endregion-->
 
-        <regex fileNames="*.txt,*.rtf"
-               name="Text"
-               color="E79627"
-               pattern=".*\.(txt|rtf)$"
-               icon="/icons/files/text.svg"/>
+        <!--region Languages -->
+        <regex fileNames="*.html,*.htm,*.xhtml"
+               name="HTML"
+               color="F4BF75"
+               pattern=".*\.(html|htm|xhtml)$"
+               icon="/icons/files/html.svg"/>
+        <regex fileNames="*.go,*.gohtml"
+               name="Go"
+               color="82AAFF"
+               pattern=".*\.(go|gohtml)$"
+               icon="/icons/files/go.svg"/>
         <regex fileNames="*.min.js,*.min.es6,*.min.es,*.min.jsx,*.min.ts"
                name="Javascript Minified"
                color="E79627"
@@ -3494,16 +3459,21 @@
                color="61DAFB"
                pattern=".*\.(jsx|tsx)$"
                icon="/icons/files/jsx.svg"/>
-        <regex fileNames="*.ts,*.tslint"
-               name="TypeScript"
-               color="1E9CEF"
-               pattern=".*\.(ts|tslint)$"
-               icon="/icons/files/typeScript.svg"/>
         <regex fileNames="*.js,*.es6,*.es,*.mjs,*.cjs"
                name="Javascript"
                color="FFCB6B"
                pattern=".*\.([cms]?js|es\d)$"
                icon="/icons/files/js.svg"/>
+        <regex fileNames="*.json,*.cson,*.jsonc,*.rsj"
+               name="JSON"
+               color="92AA5D"
+               pattern=".*\.(json|cson|jsonc|rsj)$"
+               icon="/icons/files/json.svg"/>
+        <regex fileNames="*.perl,*.pl,*.pm"
+               name="Perl"
+               color="4DB6AC"
+               pattern=".*\.(perl|pl|pm)$"
+               icon="/icons/files/perl.svg"/>
         <regex fileNames="*.py,*.python,*.pyc,*.whl"
                name="Python"
                color="FFCB6B"
@@ -3514,16 +3484,51 @@
                color="D14748"
                pattern=".*\.rb$"
                icon="/icons/files/ruby.svg"/>
-        <!--        <regex fileNames="*.php,*.phps"-->
-        <!--               name="PHP"-->
-        <!--               color="BB80B3"-->
-        <!--               pattern=".*\.(php|phps)$"-->
-        <!--               icon="/icons/files/php.svg"/>-->
-        <regex fileNames="*.json,*.cson,*.jsonc,*.rsj"
-               name="JSON"
-               color="92AA5D"
-               pattern=".*\.(json|cson|jsonc|rsj)$"
-               icon="/icons/files/json.svg"/>
+        <regex fileNames="*.php,*.phps"
+               name="PHP"
+               color="BB80B3"
+               pattern=".*\.(php|phps)$"
+               icon="/icons/files/php.svg"/>
+        <regex fileNames="*.txt,*.rtf"
+               name="Text"
+               color="E79627"
+               pattern=".*\.(txt|rtf)$"
+               icon="/icons/files/text.svg"/>
+        <regex fileNames="*.ts,*.tslint"
+               name="TypeScript"
+               color="1E9CEF"
+               pattern=".*\.(ts|tslint)$"
+               icon="/icons/files/typeScript.svg"/>
+        <!--endregion-->
+
+        <!--region Least priority -->
+        <regex fileNames="*.ttf,*.ttc,*.pfb,*.pfm,*.otf,*.dfont,*.pfa,*.afm,*.eot,*.woff,*.woff2"
+               name="Font"
+               pattern=".*\.(ttf|ttc|pfb|pfm|otf|dfont|pfa|afm|eot|woff2?)$"
+               color="7A8387"
+               icon="/icons/files/font.svg"/>
+        <regex fileNames="*.lock"
+               name="Lockfiles"
+               color="D52B2A"
+               pattern=".*\.lock$"
+               icon="/icons/files/lock.svg"/>
+        <regex fileNames="*.md,*.markdown,*.mson"
+               name="Markdown"
+               color="EA7130"
+               pattern=".*\.(md|markdown|mson)$"
+               icon="/icons/files/markdown.svg"/>
+        <regex fileNames="*.xml,*.fxml,*.jrxml,*.jnlp,*.pom,*.rng,*.tld,*.wsdl,*.xsd,*.xsl,*.xslt,*.xul"
+               name="XML"
+               pattern=".*\.(xml|fxml|jrxml|jnlp|pom|rng|tld|wsdl|xsd|xsl|xslt|xul)$"
+               color="D14748"
+               icon="/icons/files/xml.svg"/>
+        <regex fileNames="*.yml,*.yaml,*.info"
+               name="YAML"
+               color="F4c179"
+               pattern=".*\.(yml|yaml|info)$"
+               icon="/icons/files/yaml.svg"/>
+        <!--endregion-->
+
         <!--<regex fileNames=""
  name="Any" 
 pattern="" 
