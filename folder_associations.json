@@ -635,11 +635,11 @@
 					"icon": "/i18n.svg"
 				},
 				{
-					"folderNames": "icon,icons,ico,svg",
+					"folderNames": "icon,icons,ico,glyph,glyphs",
 					"name": "icons",
 					"folderColor": "009688",
 					"iconColor": "b2dfdb",
-					"pattern": "^(icons?|ico)$",
+					"pattern": "^(icons?|ico|glyphs?)$",
 					"icon": "/icons.svg"
 				},
 				{
