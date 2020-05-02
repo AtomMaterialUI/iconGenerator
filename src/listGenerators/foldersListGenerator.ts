@@ -39,7 +39,7 @@ export class FoldersListGenerator extends ListGenerator {
   constructor(param: FoldersListGeneratorParams) {
     super({
       wikiPageFilename: 'folder_associations.md',
-      docsPageFilename: 'docs/reference/folder-associations.md',
+      docsPageFilename: 'folder-associations.md',
       associationsFile: 'folder_associations.json',
       logGroupId: 'folders',
       pargs: param.pargs,

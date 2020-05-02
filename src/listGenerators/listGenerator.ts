@@ -250,7 +250,7 @@ export abstract class ListGenerator {
       }
 
       // Fetch docs page from the repository
-      const uri = `${this.DOCS_URL}/${this.docsPageFilename}`;
+      const uri = `${this.DOCS_URL}/master/docs/reference/${this.docsPageFilename}`;
       const spinner: ISpinner = this.logger.spinnerLogStart(`Requesting docs page from: ${uri}`, this.logGroupId);
 
       // Fetch the page

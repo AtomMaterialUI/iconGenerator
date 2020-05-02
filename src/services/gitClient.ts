@@ -85,7 +85,7 @@ export class GitClient<T extends CommandArgs> {
     this.rootFolder = pathUnixJoin(findDirectorySync(ROOT), './');
     this.codeRepoFolder = pathUnixJoin(this.rootFolder, 'tmp', this.pargs.account, ROOT);
     this.wikiRepoFolder = pathUnixJoin(this.rootFolder, 'tmp', this.pargs.account, `${ROOT}.wiki`);
-    this.docsRepoFolder = pathUnixJoin(this.rootFolder, 'tmp', this.pargs.account, DOCS_ROOT);
+    this.docsRepoFolder = pathUnixJoin(this.rootFolder, 'tmp', this.pargs.account, DOCS_ROOT, 'master/docs/reference/');
 
     this.codeRepoUrl = `https://github.com/${this.pargs.account}/${ROOT}`;
     this.docsRepoUrl = `https://github.com/${this.pargs.account}/${DOCS_ROOT}`;
