@@ -1883,6 +1883,11 @@
                color="FFCB6B"
                pattern=".*\.js\.map$"
                icon="/icons/files/jsmap.svg"/>
+        <regex fileNames="jsconfig.js,jsconfig.json,.jsconfig.js,.jsconfig.json"
+               name="JS Config"
+               color="ffca2f"
+               pattern="\.?jsconfig.*\.(js|json)$"
+               icon="/icons/files/jsconfig.svg"/>
         <regex fileNames="*.json5"
                name="JSON5"
                color="4DB6AC"
@@ -2972,7 +2977,7 @@
                name="TSConfig"
                color="0288d1"
                pattern="\.?tsconfig.*\.(js|json)$"
-               icon="/icons/files/tslint.svg"/>
+               icon="/icons/files/tsconfig.svg"/>
         <regex fileNames="tslint.js,tslint.json,.tslint.js,.tslint.json"
                name="TSLint"
                color="0288d1"

@@ -919,11 +919,11 @@
                iconColor="C8E6C9"
                pattern="^shared$"
                icon="/shared.svg"/>
-        <regex folderNames="src,source"
+        <regex folderNames="src,source,code"
                name="sources"
                folderColor="5C6BC0"
                iconColor="89ddff"
-               pattern="^(src|source)$"
+               pattern="^(src|source|code)$"
                icon="/src.svg"/>
         <regex folderNames="sql,mysql,pgsql"
                name="sql"
