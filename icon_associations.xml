@@ -2893,10 +2893,10 @@
                color="26A2C1"
                pattern=".*\.?(test|spec)\.dart$"
                icon="/icons/files/testdart.svg"/>
-        <regex fileNames="*.test.go,*.spec.go"
+        <regex fileNames="*.test.go,*.spec.go,*_test.go,*_spec.go"
                name="Test Go"
                color="82AAFF"
-               pattern=".*\.?(test|spec)\.go$"
+               pattern=".*([._])(test|spec)\.go$"
                icon="/icons/files/testgo.svg"/>
         <regex fileNames="*.test.hs,*.spec.hs"
                name="Test Haskell"
