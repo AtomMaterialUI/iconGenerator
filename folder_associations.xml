@@ -1039,6 +1039,12 @@
                iconColor="FFEBEE"
                pattern="^uploads?$"
                icon="/upload.svg"/>
+        <regex folderNames="user,users,member,members,friend,friends,partner,partners"
+               name="users"
+               folderColor="ec407a"
+               iconColor="f8bbd0"
+               pattern="^(users?|members?|friends?|partners?)$"
+               icon="/users.svg"/>
         <regex folderNames="util,utils,tool,tools"
                name="utils"
                folderColor="78909C"
