@@ -769,6 +769,12 @@
                iconColor="FFFDE7"
                pattern="^posts?$"
                icon="/posts.svg"/>
+        <regex folderNames="project,projects"
+               name="projects"
+               folderColor="5C6BC0"
+               iconColor="C5CAE9"
+               pattern="^projects?$"
+               icon="/projects.svg"/>
         <regex folderNames=".prisma"
                name="prisma"
                folderColor="00BFA5"
@@ -919,11 +925,11 @@
                iconColor="C8E6C9"
                pattern="^shared$"
                icon="/shared.svg"/>
-        <regex folderNames="src,source,code"
+        <regex folderNames="src,source,sources,code"
                name="sources"
                folderColor="5C6BC0"
                iconColor="89ddff"
-               pattern="^(src|source|code)$"
+               pattern="^(src|sources?|code)$"
                icon="/src.svg"/>
         <regex folderNames="sql,mysql,pgsql"
                name="sql"
