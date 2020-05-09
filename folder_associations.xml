@@ -202,11 +202,11 @@
                iconColor="b3e5fc"
                pattern="^(clusters?|nodes?)$"
                icon="/cluster.svg"/>
-        <regex folderNames="component,components,module,modules,widget,widgets,element,elements"
+        <regex folderNames="component,components,widget,widgets,element,elements,ui"
                name="components"
                folderColor="F9A825"
                iconColor="FFECB3"
-               pattern="^(components?|modules?|widgets?|elements?)$"
+               pattern="^(components?|widgets?|elements?|ui)$"
                icon="/components.svg"/>
         <regex folderNames="config,conf,settings,.config,.conf,.settings"
                name="config"
@@ -739,17 +739,17 @@
         <!--endregion-->
 
         <!--region P-->
-        <regex folderNames="package,packages,bundle,bundles,.bundle,.paket"
+        <regex folderNames="package,packages,bundle,bundles,.bundle,.paket,module,modules"
                name="packages"
                folderColor="5C6BC0"
                iconColor="C5CAE9"
-               pattern="^(packages?|\.?bundles?|\.paket)$"
+               pattern="^(packages?|\.?bundles?|\.paket|modules?)$"
                icon="/packages.svg"/>
-        <regex folderNames="php"
+        <regex folderNames="php,phtml"
                name="php"
                folderColor="673AB7"
                iconColor="89AAFF"
-               pattern="^php$"
+               pattern="^(php|phtml)$"
                icon="/php.svg"/>
         <regex folderNames="pipe,pipes,filter,filters"
                name="pipe"
