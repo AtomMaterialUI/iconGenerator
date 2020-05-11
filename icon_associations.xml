@@ -582,10 +582,10 @@
                color="AB7967"
                pattern=".*([bB])ean\.java$"
                icon="/icons/files/bean.svg"/>
-        <regex fileNames="*.feature,*.feature.php"
+        <regex fileNames="*.feature.php"
                name="Behat"
                color="39ADB5"
-               pattern=".*\.feature(\.php)?$"
+               pattern=".*\.feature(\.php)$"
                icon="/icons/files/behat.svg"/>
         <regex fileNames="behat.yml,behat.config.yml"
                name="Behat Config"
