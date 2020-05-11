@@ -583,11 +583,11 @@
                iconColor="E1BEE7"
                pattern="^(jobs?|resque)$"
                icon="/job.svg"/>
-        <regex folderNames="jsons,json"
+        <regex folderNames="jsons,json,serializer,serializers"
                name="json"
                folderColor="fbc02d"
                iconColor="fff9c4"
-               pattern="^jsons?$"
+               pattern="^(jsons?|serializers?)$"
                icon="/json.svg"/>
         <!--endregion-->
 
