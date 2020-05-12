@@ -1671,7 +1671,12 @@
         <regex fileNames="*.helm,*.helmignore"
                name="Helm"
                color="00acc1"
-               pattern=".*\.(helm|helmignore)"
+               pattern=".*\.(helm|helmignore)$"
+               icon="/icons/files/helm.svg"/>
+        <regex fileNames="Chart.yaml,helmfile.yml,values.yaml"
+               name="Helm Charts"
+               color="00acc1"
+               pattern="^(Chart|values|helmfile)\.ya?ml$"
                icon="/icons/files/helm.svg"/>
         <regex fileNames="Procfile,Procfile.windows,.slugignore"
                name="Heroku"
@@ -2000,6 +2005,11 @@
                name="Kubernetes"
                color="64B5F6"
                pattern="^kubernetes.*\.ya?ml$"
+               icon="/icons/files/kubernetes.svg"/>
+        <regex fileNames="kubernetes.yml,kubernetes.dev.yaml,deployment.yaml,service.yml,configmap.yaml"
+               name="Kubernetes Deployments"
+               color="64B5F6"
+               pattern="^(deployment|configmap|service)\.ya?ml$"
                icon="/icons/files/kubernetes.svg"/>
         <regex fileNames="kazelcfg.json,.kazelcfg.json"
                name="Kazel Config"
