@@ -1030,11 +1030,11 @@
                iconColor="BBDEFB"
                pattern="^(themes?|colors?|schemes?|skins?)$"
                icon="/themes.svg"/>
-        <regex folderNames="typescript,typescripts,ts,interface,interfaces"
+        <regex folderNames="types,type,typescript,typescripts,ts,interface,interfaces"
                name="typescript"
                folderColor="0288d1"
                iconColor="90caf9"
-               pattern="^(typescripts?|ts|interfaces?)$"
+               pattern="^(types?|typescripts?|ts|interfaces?)$"
                icon="/ts.svg"/>
         <!--endregion-->
 
