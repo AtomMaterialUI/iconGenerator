@@ -772,10 +772,10 @@
 					"icon": "/icons/files/bean.svg"
 				},
 				{
-					"fileNames": "*.feature,*.feature.php",
+					"fileNames": "*.feature.php",
 					"name": "Behat",
 					"color": "39ADB5",
-					"pattern": ".*\\.feature(\\.php)?$",
+					"pattern": ".*\\.feature(\\.php)$",
 					"icon": "/icons/files/behat.svg"
 				},
 				{
@@ -2280,7 +2280,14 @@
 					"fileNames": "*.helm,*.helmignore",
 					"name": "Helm",
 					"color": "00acc1",
-					"pattern": ".*\\.(helm|helmignore)",
+					"pattern": ".*\\.(helm|helmignore)$",
+					"icon": "/icons/files/helm.svg"
+				},
+				{
+					"fileNames": "Chart.yaml,helmfile.yml,values.yaml",
+					"name": "Helm Charts",
+					"color": "00acc1",
+					"pattern": "^(Chart|values|helmfile)\\.ya?ml$",
 					"icon": "/icons/files/helm.svg"
 				},
 				{
@@ -2571,6 +2578,13 @@
 					"icon": "/icons/files/jsmap.svg"
 				},
 				{
+					"fileNames": "jsconfig.js,jsconfig.json,.jsconfig.js,.jsconfig.json",
+					"name": "JS Config",
+					"color": "ffca2f",
+					"pattern": "\\.?jsconfig.*\\.(js|json)$",
+					"icon": "/icons/files/jsconfig.svg"
+				},
+				{
 					"fileNames": "*.json5",
 					"name": "JSON5",
 					"color": "4DB6AC",
@@ -2722,6 +2736,13 @@
 					"name": "Kubernetes",
 					"color": "64B5F6",
 					"pattern": "^kubernetes.*\\.ya?ml$",
+					"icon": "/icons/files/kubernetes.svg"
+				},
+				{
+					"fileNames": "kubernetes.yml,kubernetes.dev.yaml,deployment.yaml,service.yml,configmap.yaml",
+					"name": "Kubernetes Deployments",
+					"color": "64B5F6",
+					"pattern": "^(deployment|configmap|service)\\.ya?ml$",
 					"icon": "/icons/files/kubernetes.svg"
 				},
 				{
@@ -3957,10 +3978,10 @@
 					"icon": "/icons/files/testdart.svg"
 				},
 				{
-					"fileNames": "*.test.go,*.spec.go",
+					"fileNames": "*.test.go,*.spec.go,*_test.go,*_spec.go",
 					"name": "Test Go",
 					"color": "82AAFF",
-					"pattern": ".*\\.?(test|spec)\\.go$",
+					"pattern": ".*([._])(test|spec)\\.go$",
 					"icon": "/icons/files/testgo.svg"
 				},
 				{
@@ -4073,7 +4094,7 @@
 					"name": "TSConfig",
 					"color": "0288d1",
 					"pattern": "\\.?tsconfig.*\\.(js|json)$",
-					"icon": "/icons/files/tslint.svg"
+					"icon": "/icons/files/tsconfig.svg"
 				},
 				{
 					"fileNames": "tslint.js,tslint.json,.tslint.js,.tslint.json",

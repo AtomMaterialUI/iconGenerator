@@ -227,11 +227,11 @@
 					"icon": "/cluster.svg"
 				},
 				{
-					"folderNames": "component,components,module,modules",
+					"folderNames": "component,components,widget,widgets,element,elements,ui",
 					"name": "components",
 					"folderColor": "F9A825",
 					"iconColor": "FFECB3",
-					"pattern": "^(components?|modules?)$",
+					"pattern": "^(components?|widgets?|elements?|ui)$",
 					"icon": "/components.svg"
 				},
 				{
@@ -275,11 +275,11 @@
 					"icon": "/controllers.svg"
 				},
 				{
-					"folderNames": "bin,core,support",
+					"folderNames": "bin,core,support,io",
 					"name": "core",
 					"folderColor": "4DB6AC",
 					"iconColor": "E0F2F1",
-					"pattern": "^(bin|core|support)$",
+					"pattern": "^(bin|core|support|io)$",
 					"icon": "/core.svg"
 				},
 				{
@@ -443,11 +443,11 @@
 					"icon": "/env.svg"
 				},
 				{
-					"folderNames": "error,errors",
+					"folderNames": "error,errors,prod,production",
 					"name": "error",
 					"folderColor": "ef5350",
 					"iconColor": "ffcdd2",
-					"pattern": "^(errors?)$",
+					"pattern": "^(errors?|prod(uction)?)$",
 					"icon": "/error.svg"
 				},
 				{
@@ -595,11 +595,11 @@
 					"icon": "/grunt.svg"
 				},
 				{
-					"folderNames": "guard,guards",
+					"folderNames": "guard,guards,dev,development",
 					"name": "guard",
 					"folderColor": "43a047",
 					"iconColor": "c8e6c9",
-					"pattern": "^guards?$",
+					"pattern": "^(guards?|dev(elopment)?)$",
 					"icon": "/guard.svg"
 				},
 				{
@@ -659,11 +659,11 @@
 					"icon": "/images.svg"
 				},
 				{
-					"folderNames": "includes,include,import,imports,concerns,concern",
+					"folderNames": "includes,include,import,imports,concerns,concern,dep,deps",
 					"name": "include",
 					"folderColor": "039be5",
 					"iconColor": "b3e5fc",
-					"pattern": "^(includes?|imports?|concerns?)$",
+					"pattern": "^(includes?|imports?|concerns?|deps?)$",
 					"icon": "/include.svg"
 				},
 				{
@@ -707,11 +707,11 @@
 					"icon": "/job.svg"
 				},
 				{
-					"folderNames": "jsons,json",
+					"folderNames": "jsons,json,serializer,serializers",
 					"name": "json",
 					"folderColor": "fbc02d",
 					"iconColor": "fff9c4",
-					"pattern": "^jsons?$",
+					"pattern": "^(jsons?|serializers?)$",
 					"icon": "/json.svg"
 				},
 				{
@@ -891,19 +891,19 @@
 					"icon": "/other.svg"
 				},
 				{
-					"folderNames": "package,packages,bundle,bundles,.bundle,.paket",
+					"folderNames": "package,packages,bundle,bundles,.bundle,.paket,module,modules",
 					"name": "packages",
 					"folderColor": "5C6BC0",
 					"iconColor": "C5CAE9",
-					"pattern": "^(packages?|\\.?bundles?|\\.paket)$",
+					"pattern": "^(packages?|\\.?bundles?|\\.paket|modules?)$",
 					"icon": "/packages.svg"
 				},
 				{
-					"folderNames": "php",
+					"folderNames": "php,phtml",
 					"name": "php",
 					"folderColor": "673AB7",
 					"iconColor": "89AAFF",
-					"pattern": "^php$",
+					"pattern": "^(php|phtml)$",
 					"icon": "/php.svg"
 				},
 				{
@@ -929,6 +929,14 @@
 					"iconColor": "FFFDE7",
 					"pattern": "^posts?$",
 					"icon": "/posts.svg"
+				},
+				{
+					"folderNames": "project,projects",
+					"name": "projects",
+					"folderColor": "5C6BC0",
+					"iconColor": "C5CAE9",
+					"pattern": "^projects?$",
+					"icon": "/projects.svg"
 				},
 				{
 					"folderNames": ".prisma",
@@ -1099,11 +1107,11 @@
 					"icon": "/security.svg"
 				},
 				{
-					"folderNames": "server,http,request,requests",
+					"folderNames": "server,http,request,requests,staging,qa",
 					"name": "server",
 					"folderColor": "FF8F00",
 					"iconColor": "FFECB3",
-					"pattern": "^(server|http|requests?)$",
+					"pattern": "^(server|http|requests?|staging|qa)$",
 					"icon": "/server.svg"
 				},
 				{
@@ -1123,11 +1131,11 @@
 					"icon": "/shared.svg"
 				},
 				{
-					"folderNames": "src,source",
+					"folderNames": "src,source,sources,code",
 					"name": "sources",
 					"folderColor": "5C6BC0",
 					"iconColor": "89ddff",
-					"pattern": "^(src|source)$",
+					"pattern": "^(src|sources?|code)$",
 					"icon": "/src.svg"
 				},
 				{
@@ -1259,11 +1267,11 @@
 					"icon": "/themes.svg"
 				},
 				{
-					"folderNames": "typescript,typescripts,ts,interface,interfaces",
+					"folderNames": "types,type,typescript,typescripts,ts,interface,interfaces",
 					"name": "typescript",
 					"folderColor": "0288d1",
 					"iconColor": "90caf9",
-					"pattern": "^(typescripts?|ts|interfaces?)$",
+					"pattern": "^(types?|typescripts?|ts|interfaces?)$",
 					"icon": "/ts.svg"
 				},
 				{
@@ -1273,6 +1281,14 @@
 					"iconColor": "FFEBEE",
 					"pattern": "^uploads?$",
 					"icon": "/upload.svg"
+				},
+				{
+					"folderNames": "user,users,member,members,friend,friends,partner,partners",
+					"name": "users",
+					"folderColor": "ec407a",
+					"iconColor": "f8bbd0",
+					"pattern": "^(users?|members?|friends?|partners?)$",
+					"icon": "/users.svg"
 				},
 				{
 					"folderNames": "util,utils,tool,tools",
@@ -1291,11 +1307,11 @@
 					"icon": "/vagrant.svg"
 				},
 				{
-					"folderNames": "vendor,vendors,lib,libs,Pod,Pods",
+					"folderNames": "vendor,vendors,lib,libs,Pod,Pods,stdlib",
 					"name": "vendors",
 					"folderColor": "6CAC23",
 					"iconColor": "A5D6A7",
-					"pattern": "^(vendors?|libs?|Pods?)$",
+					"pattern": "^(vendors?|libs?|Pods?|stdlib)$",
 					"icon": "/lib.svg"
 				},
 				{
