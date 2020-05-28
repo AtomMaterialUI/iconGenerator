@@ -919,11 +919,11 @@
                iconColor="FFEE58"
                pattern="^\.?serverless$"
                icon="/serverless.svg"/>
-        <regex folderNames="shared"
+        <regex folderNames="shared, common"
                name="shared"
                folderColor="66BB6A"
                iconColor="C8E6C9"
-               pattern="^shared$"
+               pattern="^(shared|common)$"
                icon="/shared.svg"/>
         <regex folderNames="src,source,sources,code"
                name="sources"
