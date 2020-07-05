@@ -703,22 +703,6 @@ fileIcons:
 		match: /\.(gp|plo?t|gnuplot)$/i
 		colour: "medium-red"
 
-	Go:
-		icon: "go"
-		match: ".go"
-		colour: "medium-blue"
-		scope: /\.go(template)?$/i
-
-	Godot:
-		icon: "godot"
-		uses: "INI"
-		match: [
-			[".gd", "medium-blue", alias: "GDScript", scope: "gdscript", uses: "Text"]
-			[".godot", "dark-blue"]
-			[".tres", "medium-cyan"]
-			[".tscn", "medium-green"]
-			[".import", "medium-red"]
-		]
 
 	Golo:
 		icon: "golo"
@@ -735,33 +719,10 @@ fileIcons:
 			[".vark", "dark-blue"]
 		]
 
-	Gradle:
-		icon: "gradle"
-		match: [
-			[".gradle", "medium-blue", scope: "gradle"]
-			["gradlew", "dark-purple"]
-		]
-
 	"Grammatical Framework":
 		icon: "gf"
 		match: ".gf"
 		colour: "medium-red"
-
-	GraphQL:
-		icon: "graphql"
-		match: [
-			[".graphql", "medium-pink", scope: "graphql"]
-			[".graphqls", "medium-red"]
-			[".gql", "medium-purple"]
-		]
-
-	Graphviz:
-		icon: "graphviz"
-		match: [
-			[".gv", "medium-blue", scope: "dot"]
-			[".dot", "dark-cyan"]
-			[/\.(plantuml|[ip]uml|pu)$/i, "medium-orange", alias: "PlantUML"]
-		]
 
 	"Gravit Designer":
 		icon: "gvdesign"
@@ -782,181 +743,16 @@ fileIcons:
 		colour: "medium-cyan"
 		priority: 2
 
-	Groovy:
-		icon: "groovy"
-		scope: "groovy"
-		alias: "gsp"
-		interpreter: "groovy"
-		match: /\.(groovy|grt|gtpl|gsp|gvy)$/i
-		colour: "light-blue"
-
-	Grunt:
-		icon: "grunt"
-		priority: 2
-		match: [
-			[/^gruntfile.*\.([cm]?js|jsx)$/i, "medium-yellow"]
-			[/^gruntfile.*\.(lit)?coffee$/i, "medium-maroon"]
-			[/^gruntfile.*\.tsx?$/i, "medium-blue"]
-		]
-
-	Gulp:
-		icon: "gulp"
-		priority: 2
-		match: [
-			[/^gulpfile.*\.([cm]?js|jsx)$/i, "medium-red"]
-			[/^gulpfile.*\.(lit)?coffee$/i, "medium-maroon"]
-			[/^gulpfile.*\.tsx?$/i, "medium-blue"]
-		]
-
-	Hack:
-		icon: "hack"
-		match: [
-			[".hh", "medium-orange", scope: "hack"]
-			[".hhi", "medium-red"]
-			[".hack", "medium-yellow"]
-		]
-
-	Haml:
-		icon: "haml"
-		match: [
-			[".haml", "medium-yellow", "haml"]
-			[".hamlc", "medium-maroon", "hamlc"]
-			[".haml.deface", "medium-red"]
-		]
-
-	Harbour:
-		icon: "harbour"
-		scope: "harbour"
-		match: ".hb"
-		colour: "dark-blue"
-
-	"Hashicorp Configuration Language":
-		icon: "hashicorp"
-		match: [
-			[".hcl", "dark-purple", scope: /(^|\.)(hcl|hashicorp)(\.|$)/i]
-			[".workflow", "medium-cyan"]
-		]
-
-	Haskell:
-		icon: "haskell"
-		match: [
-			[".hs", "medium-purple", scope: "source.haskell", interpreter: "runhaskell"]
-			[".hsc", "medium-blue", scope: "hsc2hs"]
-			[".c2hs", "dark-purple", scope: "c2hs", alias: /^C2hs(\s*Haskell)?$/i]
-			[".lhs", "dark-blue", scope: "latex.haskell", alias: /^(lhaskell|lhs|Literate\s*Haskell)$/i]
-			[".hs-boot", "medium-maroon"]
-			[".hsig", "medium-maroon"]
-		]
-
-	Haxe:
-		icon: "haxe"
-		scope: /(^|\.)haxe(\.\d+)?$/i
-		match: /\.hx([sm]l|)?$/
-		colour: "medium-orange"
-
-	HaxeDevelop:
-		icon: "haxedevelop"
-		match: ".hxproj"
-		colour: "auto-blue"
-
-	Helix:
-		icon: "helix"
-		match: /^\.p4ignore$/i
-		colour: "medium-blue"
-
-	Help:
-		icon: "question"
-		match: [
-			[".chm", "medium-blue", signature: /^ITSF/, mime: "application/vnd.ms-htmlhelp", uses: "Binary"]
-			[".hlp", "dark-blue", signature: /^\?_\x03\0/, mime: "application/winhlp", uses: "Binary"]
-		]
-
-	Heroku:
-		icon: "heroku"
-		match: [
-			[/^(Proc|Apt)file$/, "medium-purple"]
-			[".buildpacks", "light-purple"]
-			[".slugignore", "dark-purple"]
-			[/^\.vendor_urls$/, "dark-purple"]
-		]
-
-	HewlettPackard:
-		icon: "hp"
-		match: ".hpgl"
-		colour: "medium-blue"
-
-	HJSON:
-		icon: "hjson"
-		match: ".hjson"
-		colour: "medium-green"
-		scope: "hjson"
-
-	HolyC:
-		icon: "templeos"
-		match: [
-			[".hc", "medium-yellow", scope: /\.hc$/]
-			[".hc.z", "medium-orange", priority: 2]
-		]
-
-	Hoplon:
-		icon: "hoplon"
-		match: ".hl"
-		colour: "medium-red"
-
-	HoundCI:
-		icon: "houndci"
-		match: /\.hound\.ya?ml$/i
-		colour: "medium-purple"
-		priority: 2
 
 	HTML:
 		icon: "html5"
 		match: [
-			[/\.x?html?$/i, "medium-orange", scope: "html.basic", alias: /^(xhtml|htm)$/i, signature: /^<!DOCTYPE\s+html/i]
-			[".cshtml", "medium-red"]
-			[".gohtml", "dark-blue", "gohtml"]
-			[".html.eex", "medium-purple"]
-			[".jsp", "medium-purple", scope: "jsp", alias: /^(jsp|Java\s*Server\s*Pages?)$/i]
-			[".jspf", "dark-purple"]
 			[".kit", "medium-green"]
 			[".isml", "medium-blue", "isml"]
 			[".latte", "medium-red", "latte"]
-			[".phtml", "dark-blue"]
-			[".shtml", "medium-cyan"]
 			[".scaml", "dark-red", "scaml"]
-			[".swig", "medium-green", "swig"]
 			[".vash", "medium-red", "vash"]
-			[".xht", "medium-maroon"]
-			[".dtml", "medium-blue", "dtml"]
-			[/\.mht(ml)?$/i, "medium-blue", "mhtml"]
-			[/\.html?\.ecr$/i, "medium-cyan", priority: 2]
-			[/\.(html?\.erb(\.deface)?|rhtml)$/i, "medium-red", scope: "html.erb", priority: 2]
 		]
-
-	Husky:
-		icon: "husky"
-		priority: 2
-		match: [
-			[".huskyrc", "auto-blue", priority: 1]
-			[".huskyrc.js", "auto-orange"]
-			[".huskyrc.json", "auto-yellow"]
-			[".huskyrc.cjs", "auto-green"]
-			[".huskyrc.mjs", "auto-blue"]
-		]
-
-	Hy:
-		icon: "hy"
-		scope: "hy"
-		alias: "hylang"
-		interpreter: "hy"
-		match: ".hy"
-		colour: "dark-blue"
-
-	Hyper:
-		icon: "hyper"
-		match: /^\.hyper\.[cm]?js$/i
-		colour: "dark-purple"
-		priority: 2
 
 	LabVIEW:
 		icon: "labview"
