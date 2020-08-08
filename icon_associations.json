@@ -3512,7 +3512,7 @@
 					"fileNames": "*.re,*.rei",
 					"name": "ReasonML",
 					"color": "D52A29",
-					"pattern": ".*\\.rei?",
+					"pattern": ".*\\.rei?$",
 					"icon": "/icons/files/reason.svg"
 				},
 				{
