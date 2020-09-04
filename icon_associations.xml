@@ -825,6 +825,11 @@
                color="a40802"
                pattern="^chai\.([jt]sx?|es6?|coffee)$"
                icon="/icons/files/chai.svg" />
+        <regex fileNames="*.pt"
+               name="Chameleon"
+               color="66BB6A"
+               pattern=".*\.pt$"
+               icon="/icons/files/chameleon.svg" />
         <regex fileNames="CHANGELOG,CHANGELOG.md,changelog.md,CHANGELOG.txt"
                name="Changelog"
                color="7A8387"
@@ -3169,6 +3174,11 @@
                color="0b99be"
                pattern=".*\.wdl$"
                icon="/icons/files/wdl.svg" />
+        <regex fileNames="*.web2py"
+               name="Web2PY"
+               color="82AAFF"
+               pattern=".*\.web2py$"
+               icon="/icons/files/web2py.svg" />
         <regex fileNames="*.webgl"
                name="WebGL"
                color="E57373"
