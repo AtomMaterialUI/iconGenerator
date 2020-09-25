@@ -2568,11 +2568,16 @@
                icon="/icons/files/quasar.svg" />
         <!--endregion-->
 
-        <regex fileNames="*.r,*.rmd"
+        <regex fileNames="*.r"
                name="R"
                color="497CE3"
-               pattern=".*\.(r|rmd)$"
+               pattern=".*\.r$"
                icon="/icons/files/r.svg" />
+        <regex fileNames="*.rmd"
+               name="R Markdown"
+               color="497CE3"
+               pattern=".*\.rmd$"
+               icon="/icons/files/rmd.svg" />
         <regex fileNames="*.rkt"
                name="Racket"
                color="E57373"
