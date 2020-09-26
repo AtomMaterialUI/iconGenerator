@@ -2378,6 +2378,11 @@
                color="7963E6"
                pattern=".*\.(one|onenote)$"
                icon="/icons/files/onenote.svg" />
+        <regex fileNames="openapi.json,openapi.yml"
+               name="OpenAPI"
+               color="D4E157"
+               pattern="openapi\.(json|ya?ml)$"
+               icon="/icons/files/openapi.svg" />
         <regex fileNames="*.odf,*.ods"
                name="OpenOffice"
                color="E79627"
