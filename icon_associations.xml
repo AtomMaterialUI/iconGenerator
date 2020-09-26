@@ -2801,7 +2801,7 @@
                icon="/icons/files/sketch.svg" />
         <regex fileNames="*.slim"
                name="Slim"
-               color="26A2C1"
+               color="fb9d38"
                pattern=".*\.slim$"
                icon="/icons/files/slim.svg" />
         <regex fileNames="*.tpl"
