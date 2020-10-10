@@ -2277,6 +2277,16 @@
                color="6BAD20"
                pattern=".*\.(nginx|conf)$"
                icon="/icons/files/nginx.svg" />
+        <regex fileNames="effect.ts,effect.js,effects.ts,effects.js"
+               name="NgRx Effects"
+               color="#9575CD"
+               pattern=".*\.effects?\.[tj]s$"
+               icon="/icons/files/ngrx-effects.svg" />
+        <regex fileNames="entity.ts,entity.js"
+               name="NgRx Entities"
+               color="64B5F6"
+               pattern=".*\.entity\.[tj]s$"
+               icon="/icons/files/ngrx-entities.svg" />
         <regex fileNames="*.nib"
                name="Nib"
                color="AB7967"
@@ -2733,6 +2743,11 @@
                color="D14748"
                pattern="^\.rvmrc$"
                icon="/icons/files/ruby.svg" />
+        <regex fileNames="rxjs.js,rxjs.ts"
+               name="RxJS"
+               color="B7178C"
+               pattern="rxjs\.[jt]s$"
+               icon="/icons/files/rxjs-effects.svg" />
 
         <regex fileNames="*.san"
                name="San"
@@ -2859,9 +2874,9 @@
                color="ec407a"
                pattern=".*\.(story|stories)\.(jsx?|tsx?)$"
                icon="/icons/files/storybook.svg" />
-        <regex fileNames=".stylelintrc,stylelint.config.js,stylelint.config.json"
+        <regex fileNames=".stylelintrc,stylelint.config.js,stylelint.config.json,.stylelintrc.js,.stylelintrc.json,.stylelintrc.yaml"
                name="Stylelint"
-               pattern="^(\.stylelintrc|stylelint\.config\.js(on)?)$"
+               pattern="^(\.stylelintrc(\.(js|json|ya?ml))?|stylelint\.config\.js(on)?)$"
                color="7A8387"
                icon="/icons/files/stylelint.svg" />
         <regex fileNames="*.styl"
