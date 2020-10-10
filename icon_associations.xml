@@ -2534,6 +2534,11 @@
                color="85D2CB"
                pattern=".*\.properties$"
                icon="/icons/files/source.svg" />
+        <regex fileNames="*.proto,*.protobuf"
+               name="Protobuf"
+               color="4285F4"
+               pattern=".*\.proto(buf)?$"
+               icon="/icons/files/protobuf.svg" />
         <regex fileNames="protractor.js,protractor.json"
                name="Protractor"
                pattern="^protractor\.js(on)?$"
