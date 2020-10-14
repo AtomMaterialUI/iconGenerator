@@ -2653,10 +2653,15 @@
                color="EF5350"
                pattern=".*\.red"
                icon="/icons/files/red.svg" />
-        <regex fileNames="redis,redis-config.yml"
+        <regex fileNames="*.rdb"
+               name="RedisDB"
+               color="D52A29"
+               pattern=".*\.rdb"
+               icon="/icons/files/redis.svg" />
+        <regex fileNames="redis-config.yml,redis-config.yaml"
                name="Redis"
                color="D52A29"
-               pattern="^redis.*"
+               pattern="^redis-config\.ya?ml"
                icon="/icons/files/redis.svg" />
         <regex fileNames="action.js,actions.ts,myAction.js,myActions.js,my-actions.js"
                name="Redux Action"
