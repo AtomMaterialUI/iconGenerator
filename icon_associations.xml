@@ -1797,10 +1797,10 @@
                color="ffdd00"
                pattern=".*\.imba$"
                icon="/icons/files/imba.svg" />
-        <regex fileNames="index.js,index.ts,index.coffee,index.es6"
+        <regex fileNames="index.js,index.ts,index.coffee,index.es6,index.html,index.scss"
                name="Index"
                color="4DD0E1"
-               pattern="^index\.(js|coffee|ts|es6)$"
+               pattern="^index\.(js|coffee|ts|es6|html|scss)$"
                icon="/icons/files/index.svg" />
         <regex fileNames="*.ni,*.i7x"
                name="Inform 7"
@@ -3461,10 +3461,10 @@
                color="E79627"
                pattern=".*\.env(\.\w+)?$"
                icon="/icons/files/preferences.svg" />
-        <regex fileNames="config,settings,option,pref"
+        <regex fileNames="config,settings,option,pref,config.yml,settings.ini,option.txt,prefs.yaml,config.json"
                name="Configs"
                color="E79627"
-               pattern="^(config|settings|option|pref)$"
+               pattern="^(config|settings?|options?|prefs?)(\.(ya?ml|ini|txt|json))?$"
                icon="/icons/files/preferences.svg" />
         <!--endregion-->
 
