@@ -2490,6 +2490,11 @@
                color="C792EA"
                pattern=".*([tT])est\.php$"
                icon="/icons/files/phpunit.svg" />
+        <regex fileNames="*.php_cs,*.engine,*.phar"
+               name="PHP Other"
+               color="7477ae"
+               pattern=".*\.(php_cs|engine|phar)$"
+               icon="/icons/files/php2.svg" />
         <regex fileNames="*.phtml"
                name="PHTML"
                color="43C0C0"
@@ -3810,10 +3815,10 @@
                color="D14748"
                pattern=".*\.rb$"
                icon="/icons/files/ruby.svg" />
-        <regex fileNames="*.php,*.phps,*.phpt,*.php_cs,*.engine,*.phar"
+        <regex fileNames="*.php,*.phps,*.phpt"
                name="PHP"
                color="BB80B3"
-               pattern=".*\.(php[st]?|php_cs|engine|phar)$"
+               pattern=".*\.(php[st]?)$"
                icon="/icons/files/php.svg" />
         <regex fileNames="*.txt,*.rtf"
                name="Text"
