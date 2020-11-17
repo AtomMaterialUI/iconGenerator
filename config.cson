@@ -754,50 +754,6 @@ fileIcons:
 			[".vash", "medium-red", "vash"]
 		]
 
-	Ledger:
-		icon: "graph"
-		match: [
-			[".ledger", "medium-blue", "ledger"]
-			[".hledger", "medium-green"]
-		]
-
-	Lefthook:
-		icon: "lefthook"
-		priority: 2
-		match: /^lefthook(-local)?\.ya?ml$/i
-		colour: "medium-red"
-
-	Lektor:
-		icon: "lektor"
-		match: [
-			[".lr", "dark-purple"]
-			[".lektorproject", "medium-orange"]
-		]
-
-	Lerna:
-		icon: "lerna"
-		priority: 2
-		match: /^lerna\.json$/i
-		colour: "auto-blue"
-
-	Leiningen:
-		icon: "lein"
-		priority: 2
-		match: "project.clj"
-
-	Lex:
-		icon: "lex"
-		alias: "Flex"
-		match: [
-			[/\.l(ex)?$/i, "medium-cyan", "lex"]
-			[".flex", "dark-red"]
-		]
-
-	LFE:
-		icon: "lfe"
-		match: ".lfe"
-		colour: "dark-red"
-
 	LightWave3D:
 		icon: "lightwave"
 		match: [

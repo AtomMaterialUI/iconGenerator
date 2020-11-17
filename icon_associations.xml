@@ -925,11 +925,6 @@
                color="66BB6A"
                pattern=".*\.clp$"
                icon="/icons/files/clips.svg" />
-        <regex fileNames="*.cljs,*.clj,*.cljc,*.cljx,*.clojure,*.hic"
-               name="Clojure"
-               color="7963E6"
-               pattern=".*\.(clj[cxs]?|clojure|hic)$"
-               icon="/icons/files/clojure.svg" />
         <regex fileNames="*.soy"
                name="Closure Templates"
                color="009788"
@@ -2094,8 +2089,23 @@
         <regex fileNames="*.lean,*.hlean"
                name="Lean"
                color="757575"
-               pattern=".*\.(lean|hlean)?$"
+               pattern=".*\.(lean|hlean)$"
                icon="/icons/files/lean.svg" />
+        <regex fileNames="lefthook.yml,lefthook-local.yaml"
+               name="Lefthook"
+               color="ff1e1d"
+               pattern="^lefthook(-local)?\.ya?ml$"
+               icon="/icons/files/lefthook.svg" />
+        <regex fileNames="*.lr,*.lektor,*.lektorproject"
+               name="Lektor"
+               color="762f4c"
+               pattern=".*\.(lr|lektor(project)?)$"
+               icon="/icons/files/lektor.svg" />
+        <regex fileNames="project.clj"
+               name="Leiningen"
+               color="d3bea5"
+               pattern="^project\.clj$"
+               icon="/icons/files/leiningen.svg" />
         <regex fileNames="lerna.json"
                name="Lerna"
                color="8D6E63"
@@ -2106,6 +2116,16 @@
                color="1E9CEF"
                pattern=".*\.less$"
                icon="/icons/files/less.svg" />
+        <regex fileNames="*.lex,*.flex"
+               name="Lex"
+               color="b94e9e"
+               pattern=".*\.(lex|flex)$"
+               icon="/icons/files/lex.svg" />
+        <regex fileNames="*.lfe"
+               name="LFE"
+               color="497649"
+               pattern=".*\.lfe$"
+               icon="/icons/files/lfe.svg" />
         <regex fileNames="*.lib,*.bib,*.s"
                name="Lib"
                color="8bc34a"
@@ -3782,6 +3802,11 @@
         <!--endregion-->
 
         <!--region Languages -->
+        <regex fileNames="*.cljs,*.clj,*.cljc,*.cljx,*.clojure,*.hic"
+               name="Clojure"
+               color="567dd1"
+               pattern=".*\.(clj[cxs]?|clojure|hic)$"
+               icon="/icons/files/clojure.svg" />
         <regex fileNames="*.html,*.htm,*.xhtml,*.mhtml,*.dtml"
                name="HTML"
                color="F4BF75"
