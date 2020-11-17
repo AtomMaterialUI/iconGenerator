@@ -83,18 +83,6 @@ uses:  A loosely-defined "parent" from which to inherit properties not defined b
 
 fileIcons:
 
-	D3:
-		icon: "d3"
-		priority: 2
-		match: /^d3(\.v\d+)?[^.]*\.[cm]?js$/i
-		colour: "medium-orange"
-
-	Danmakufu:
-		icon: "yang"
-		scope: "danmakufu"
-		match: ".dnh"
-		colour: "medium-red"
-
 	"Darcs Patch":
 		icon: "darcs"
 		match: [
@@ -760,15 +748,8 @@ fileIcons:
 			[/^mk\.config$/, "medium-green", priority: 2]
 			[/^Kbuild$/, "medium-blue"]
 			[/^\.?qmake$/i, "dark-blue"]
-			[/^DEPS$/, "dark-blue"]
 			[".pri", "dark-purple"]
 		]
-
-	Mako:
-		icon: "mako"
-		scope: "mako"
-		match: /\.mak?o$/i
-		colour: "dark-blue"
 
 	Roff:
 		icon: "manpage"
