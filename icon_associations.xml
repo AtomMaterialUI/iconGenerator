@@ -2075,6 +2075,27 @@
                icon="/icons/files/kubernetes.svg" />
         <!--endregion-->
 
+        <!--region L-->
+        <regex fileNames="*.lvproj"
+               name="LabVIEW"
+               color="ffd500"
+               pattern=".*\.lvproj$"
+               icon="/icons/files/labview.svg" />
+        <regex fileNames="*.las,*.lasso,*.ldml,*.lasso8,*.lasso9,*.lassoapp"
+               name="Lasso"
+               color="0571ae"
+               pattern=".*\.(las|ldml|lasso([89]|app)?)$"
+               icon="/icons/files/lasso.svg" />
+        <regex fileNames="leaflet.draw-src.js,leaflet.draw.css,leaflet.spin.css,leaflet.src.js,wicket-leaflet.mjs"
+               name="Leaflet"
+               color="b7e363"
+               pattern="^leaflet(.*)\.([cm]?js|css)$|^wicket-leaflet\.[cm]?js$"
+               icon="/icons/files/leaflet.svg" />
+        <regex fileNames="*.lean,*.hlean"
+               name="Lean"
+               color="757575"
+               pattern=".*\.(lean|hlean)?$"
+               icon="/icons/files/lean.svg" />
         <regex fileNames="lerna.json"
                name="Lerna"
                color="8D6E63"
@@ -2140,6 +2161,7 @@
                color="497CE3"
                pattern=".*\.lua$"
                icon="/icons/files/lua.svg" />
+        <!--endregion-->
 
         <regex fileNames="*.mage"
                name="Magento"

@@ -754,41 +754,6 @@ fileIcons:
 			[".vash", "medium-red", "vash"]
 		]
 
-	LabVIEW:
-		icon: "labview"
-		match: ".lvproj"
-		colour: "dark-blue"
-
-	Laravel:
-		icon: "laravel"
-		scope: "php.blade"
-		match: /\.blade(\.php)?$/i
-		colour: "medium-orange"
-
-	Lasso:
-		icon: "lasso"
-		match: [
-			[".lasso", "dark-blue", scope: "lasso", alias: "lassoscript"]
-			[".las", "dark-blue"]
-			[".lasso8", "medium-blue"]
-			[".lasso9", "medium-purple"]
-			[".lassoapp", "dark-red"]
-			[".ldml", "medium-red"]
-		]
-
-	Leaflet:
-		icon: "leaflet"
-		priority: 2
-		match: /^leaflet\.(draw-src|draw|spin|coordinates-(\d+\.)\d+\.\d+\.src)\.([cm]?js|css)$|^wicket-leaflet\.[cm]?js$/i
-		colour: "medium-green"
-
-	Lean:
-		icon: "lean"
-		match: [
-			[".lean", "dark-purple", "lean"]
-			[".hlean", "dark-red"]
-		]
-
 	Ledger:
 		icon: "graph"
 		match: [
