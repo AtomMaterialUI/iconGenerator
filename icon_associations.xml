@@ -2238,10 +2238,15 @@
                color="2196f3"
                pattern=".*\.marko$"
                icon="/icons/files/marko.svg" />
-        <regex fileNames="Makefile,*.makefile"
+        <regex fileNames="Makefile,makefile,BSDmakefile,GNUmakefile,mkfile"
                name="Makefile"
                color="E79627"
-               pattern=".*\.?([mM])akefile$"
+               pattern="^((BSD|GNU)?([mM])ake|mk)file$"
+               icon="/icons/files/makefile.svg" />
+        <regex fileNames="*.mk,*.mak,*.make,*.mms,*.am,*.bb,*.pri"
+               name="Make"
+               color="E79627"
+               pattern=".*(mk|mak|make|mmk|mms|am|bb)$"
                icon="/icons/files/makefile.svg" />
         <regex fileNames="*.man,*.man1,*.man8"
                name="Manpage"

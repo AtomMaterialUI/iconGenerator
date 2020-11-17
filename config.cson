@@ -757,21 +757,10 @@ fileIcons:
 	Makefile: # (Or similar build systems)
 		icon: "checklist"
 		match: [
-			[/^Makefile/, "medium-yellow", scope: "makefile", alias: /^(bsdmake|make|mf)$/i, interpreter: "make"]
 			[/^mk\.config$/, "medium-green", priority: 2]
-			[/\.(mk|mak|make)$/i, "medium-yellow"]
-			[/^BSDmakefile$/i, "medium-red"]
-			[/^GNUmakefile$/i, "medium-green"]
-			[/^makefile\.sco$/i, "medium-red"]
 			[/^Kbuild$/, "medium-blue"]
-			[/^makefile$/, "medium-yellow"]
-			[/^mkfile$/i, "medium-yellow"]
 			[/^\.?qmake$/i, "dark-blue"]
-			[".am", "medium-red"]
-			[".bb", "dark-blue"]
 			[/^DEPS$/, "dark-blue"]
-			[".mms", "medium-blue"]
-			[".mmk", "light-blue"]
 			[".pri", "dark-purple"]
 		]
 
