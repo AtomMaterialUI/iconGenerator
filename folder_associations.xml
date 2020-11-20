@@ -1000,11 +1000,11 @@
         <!--endregion-->
 
         <!--region T-->
-        <regex folderNames="task,tasks,command,commands,console,consoles"
+        <regex folderNames="task,tasks,command,commands,console,consoles,.run"
                name="tasks"
                folderColor="795774"
                iconColor="CE93D8"
-               pattern="^(tasks?|commands?|consoles?)$"
+               pattern="^(tasks?|commands?|consoles?|.run)$"
                icon="/tasks.svg" />
         <regex folderNames="tmp,.tmp,temp,.temp,cache,.cache"
                name="temp"
