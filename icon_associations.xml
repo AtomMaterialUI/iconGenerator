@@ -28,10 +28,20 @@
 <!--suppress LongLine -->
 <associations>
     <associations>
-        <type name="Database" type="Database Element"
+        <type name="Database"
+              type="Database Element"
               color="E57373"
               icon="/icons/files/db.svg" />
-        <!-- Custom -->
+        <type name="Images"
+              type="Images"
+              color="92AC5A"
+              icon="/icons/files/image.svg" />
+        <type name="SVG"
+              type="SVG"
+              color="FFB62C"
+              icon="/icons/files/svg.svg" />
+
+        <!-- region Custom -->
         <regex fileNames="CODE_OF_CONDUCT.md,CODE_OF_CONDUCT.txt"
                name="Github CODE"
                pattern="^CODE_OF_CONDUCT\.(md|txt)$"
@@ -57,20 +67,14 @@
                pattern="^(README|readme)(\.(md|txt))?$"
                color="78909C"
                icon="/icons/files/readme.svg" />
-
         <regex fileNames="plugin.xml"
                name="Plugin"
                pattern="^plugin.xml$"
                color="66BB6A"
                icon="/icons/files/plugin.svg" />
-        <regex fileNames="*.pref,*.prefs"
-               name="Prefs"
-               pattern=".*\.(prefs?)$"
-               color="1E88E5"
-               icon="/icons/files/config.svg" />
-        <type name="Images" type="Images"
-              color="92AC5A"
-              icon="/icons/files/image.svg" />
+        <!-- endregion -->
+
+        <!--region Images-->
         <regex fileNames="*.jpg,*.jpeg,*.png,*.apng,*.gif,*.bmp,*.bpg,*.djvu,*.dpx,*.jps,*.jng,*.jxr"
                name="Images"
                pattern=".*\.(jpg|a?png|jpeg|gif|bmp|bpg|djvu|dpx|jps|jng|jxr)"
@@ -86,14 +90,12 @@
                pattern=".*\.(pcx|pict|pxr|raw|sgi|tga|tiff|vsdx|wbmp?|px[mbgs])$"
                color="92AC5A"
                icon="/icons/files/image.svg" />
-        <type name="SVG" type="SVG"
-              color="FFB62C"
-              icon="/icons/files/svg.svg" />
         <regex fileNames="*.svg"
                name="SVG"
                pattern=".*\.svg"
                color="FFB62C"
                icon="/icons/files/svg.svg" />
+        <!--endregion-->
 
         <!--region 0-9 -->
         <regex fileNames="*.bsl,*.mdo,*.sdbl,*.os"
@@ -870,10 +872,10 @@
                color="884c2e"
                pattern="^chocolatey.*\.ps1$"
                icon="/icons/files/chocolatey.svg" />
-        <regex fileNames="*.crx"
+        <regex fileNames="*.crx,*.crdownload"
                name="Chrome"
                color="ffcc43"
-               pattern=".*\.crx$"
+               pattern=".*\.(crx|crdownload)$"
                icon="/icons/files/chrome.svg" />
         <regex fileNames="*.ck"
                name="ChucK"
@@ -1255,7 +1257,7 @@
                icon="/icons/files/debian.svg" />
         <regex fileNames="*.delphi,*.dfm,*.dof,*.dpr"
                name="Delphi"
-               color="FFB74D"
+               color="eb2734"
                pattern=".*\.(delphi|dfm|dof|dpr)$"
                icon="/icons/files/delphi.svg" />
         <regex fileNames="Dependencies"
@@ -1305,7 +1307,7 @@
                icon="/icons/files/diff.svg" />
         <regex fileNames="*.flake8,*.djt"
                name="Django"
-               color="EA7130"
+               color="2aa473"
                pattern=".*\.(flake8|djt)$"
                icon="/icons/files/django.svg" />
         <regex fileNames="*.dll,*.dlc"
@@ -1343,8 +1345,33 @@
                color="808080"
                pattern="\.[dD]ockerignore$"
                icon="/icons/files/dockerignore.svg" />
+        <regex fileNames="*.eco"
+               name="DocPad"
+               color="bfad7d"
+               pattern=".*\.eco$"
+               icon="/icons/files/docpad.svg" />
+        <regex fileNames="docz.config.js,.doczrc.json,.doczrc.config.mjs,docz.config.cjs"
+               name="Docz"
+               color="54e0d7"
+               pattern="\.?docz(rc)?(\.config)?\.([cm]?js|json)$"
+               icon="/icons/files/docz.svg" />
+        <regex fileNames="*.doge,*.djs"
+               name="DogeScript"
+               color="c2a633"
+               pattern=".*\.(doge|djs)$"
+               icon="/icons/files/dogescript.svg" />
+        <regex fileNames="dojo.js,dojo.mjs,dojo.cjs"
+               name="Dojo"
+               color="e92341"
+               pattern="^dojo\.[cm]?js$"
+               icon="/icons/files/dojo.svg" />
+        <regex fileNames="dosbox.conf,dosbox-0.74.conf,Dosbox.conf"
+               name="DosBOX"
+               color="b33b00"
+               pattern="^[dD]osbox.*\.conf$"
+               icon="/icons/files/dosbox.svg" />
         <regex fileNames="*.def,*.dot,*.jst"
-               name="Dot"
+               name="DotJS"
                color="2196f3"
                pattern=".*\.(def|dot|jst)$"
                icon="/icons/files/dotjs.svg" />
@@ -1355,14 +1382,29 @@
                icon="/icons/files/dotnet.svg" />
         <regex fileNames="Doxyfile,doxyfile"
                name="Doxygen"
-               color="FF5370"
+               color="3a81e0"
                pattern="^[Dd]oxyfile$"
                icon="/icons/files/doxygen.svg" />
+        <regex fileNames="dragula.js,dragula.css,dragula.min.cjs,dragula.min.css,dragula.mjs"
+               name="Dragula"
+               color="902855"
+               pattern="^dragula(\.min)?\.([cm]?js|css)$"
+               icon="/icons/files/dragula.svg" />
+        <regex fileNames=".drone.yml,.drone.yaml"
+               name="Drone"
+               color="04aae4"
+               pattern="\.drone\.ya?ml$"
+               icon="/icons/files/drone.svg" />
         <regex fileNames="*.drupal"
                name="Drupal"
                color="26A2C1"
                pattern=".*\.drupal$"
                icon="/icons/files/drupal.svg" />
+        <regex fileNames="*.dyalog,*.dyapp,*.mipage"
+               name="Dyalog APL"
+               color="fc9732"
+               pattern=".*\.(dyalog|dyapp|mipage)$"
+               icon="/icons/files/dyalog.svg" />
         <regex fileNames="*.dylib,*.bundle"
                name="Dylib"
                color="497CE3"
@@ -3899,6 +3941,11 @@
                color="E79627"
                pattern="^(config|settings?|options?|prefs?)(\.(ya?ml|ini|txt|json))?$"
                icon="/icons/files/preferences.svg" />
+        <regex fileNames="*.pref,*.prefs"
+               name="Prefs"
+               pattern=".*\.(prefs?)$"
+               color="1E88E5"
+               icon="/icons/files/config.svg" />
         <!--endregion-->
 
         <!--region Binaries -->
@@ -4007,7 +4054,7 @@
         <regex fileNames="*.js,*.es6,*.es,*.mjs,*.cjs"
                name="Javascript"
                color="FFCB6B"
-               pattern=".*\.([cms]?js|es\d)$"
+               pattern=".*\.([cm]?js|es\d)$"
                icon="/icons/files/js.svg" />
         <regex fileNames="*.json,*.cson,*.jsonc,*.rsj"
                name="JSON"

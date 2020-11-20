@@ -83,73 +83,6 @@ uses:  A loosely-defined "parent" from which to inherit properties not defined b
 
 fileIcons:
 
-	DocPad:
-		icon: "docpad"
-		match: ".eco"
-		colour: "medium-maroon"
-		scope: "eco"
-
-	Docz:
-		icon: "docz"
-		priority: 2
-		match: [
-			[/(^|\.)docz(rc)?(\.config)?\.[cm]?js$/i, "auto-yellow"]
-			[/(^|\.)docz(rc)?(\.config)?\.json$/i, "auto-orange"]
-		]
-
-	Dogescript:
-		icon: "doge"
-		priority: 0 # Not much wow
-		match: ".djs"
-		colour: "medium-yellow"
-		scope: "dogescript"
-
-	Dojo:
-		icon: "dojo"
-		priority: 2
-		match: /^dojo\.[cm]?js$/i
-		colour: "light-red"
-
-	DOSBox:
-		icon: "dosbox"
-		match: /^dosbox(\b|_).*(\.conf|pref\w*)$/i
-		colour: "medium-orange"
-
-	"doT.js":
-		icon: "dotjs"
-		priority: 0.9 # Hack to avoid conflict with GraphViz, but allow scope association
-		uses: "HTML"
-		match: [
-			[".dot", "medium-blue", "dotjs"]
-		]
-
-	Download:
-		icon: "download"
-		match: ".crdownload"
-		colour: "dark-blue"
-		priority: 0.5
-
-	Dragula:
-		icon: "dragula"
-		priority: 2
-		match: /^dragula(\.min)?\.([cm]?js|css)$/i
-		colour: "dark-purple"
-
-	Drone:
-		icon: "drone"
-		priority: 2
-		match: /\.drone\.ya?ml$/i
-		colour: "medium-cyan"
-
-	"Dyalog APL":
-		icon: "dyalog"
-		uses: "APL"
-		match: [
-			[".dyalog", "medium-orange", interpreter: "dyalog"]
-			[".dyapp", "medium-red"]
-			[".mipage", "dark-green"]
-		]
-
 	Eagle:
 		icon: "eagle"
 		match: ".eup"
@@ -593,15 +526,6 @@ fileIcons:
 			[".vash", "medium-red", "vash"]
 		]
 
-	Makefile: # (Or similar build systems)
-		icon: "checklist"
-		match: [
-			[/^mk\.config$/, "medium-green", priority: 2]
-			[/^Kbuild$/, "medium-blue"]
-			[/^\.?qmake$/i, "dark-blue"]
-			[".pri", "dark-purple"]
-		]
-
 	Roff:
 		icon: "manpage"
 		match: [
@@ -662,14 +586,6 @@ fileIcons:
 			[/^\.markdownlint/i, "dark-green", interpreter: "mdl", priority: 2]
 			[/^\.?mdlrc(\.style)?\.rb$/i, "medium-red"]
 			[/^\.?mdlrc$/i, "dark-cyan"]
-		]
-
-	Marko:
-		icon: "marko"
-		priority: 2
-		match: [
-			[".marko", "medium-blue", "marko"]
-			[/\.marko\.[cm]?js$/i, "medium-maroon"]
 		]
 
 	Materialize:
