@@ -526,34 +526,6 @@ fileIcons:
 			[".vash", "medium-red", "vash"]
 		]
 
-	Roff:
-		icon: "manpage"
-		match: [
-			[/\.(1([bcmstx]|has|in)?|[24568]|3(avl|bsm|cfgadm|in|[cmx]|perl|pm?|qt)?|7(d|fs|i|ipp|m|p)?|9[efps]?|chem|eqn|groff|man|mandoc|mdoc|me|mom|nr?|nroff|pic|roff?|tmac|tmac-u|tr|troff)$/i
-				"dark-green"
-				scope: /\.[gtn]?roff$/i
-				alias: /^([gtn]?roff|man([-_\s]?page|doc)?|mdoc)$/i
-				interpreter: /man|mandoc|([gnt]|dit)?roff/i
-				signature: /// ^
-					( '\\"\ [tre]+(?=\s|$)
-					| \.TH[\ \t]+(?:\S+)
-					| \.so[\ \t]+man(\w+)/.+\.\1($|\s)
-					| \.(EQ|PS|cstart)\n
-					| ('+\t?|\.\t)\\"\s
-					) ///m]
-			[/^(man|mdoc)\.template$/i, "dark-green"]
-			[/\.(rnh|rno|run|runoff)$/i, "dark-maroon", "runoff"]
-			[/(^|\.)((troff|eqn)rc(-end)?)$/i, "dark-green"]
-			[/^tmac\.|^(mmn|mmt|toc\.entries)$/i, "dark-green", priority: 2]
-			[///
-				(\\|/)
-				(?: man(\w+)\1[^\\/]+\.\2
-				| (?:tmac|eqnchar)\.d\1(?:ms\.)?[^\\/.]+(?:\.in)?
-				| picasso\1(?:defs\.\w+|disclaimer)
-				)$
-			///, "dark-green", matchPath: true]
-		]
-
 	Map:
 		icon: "sourcemap"
 		priority: 2
@@ -573,13 +545,6 @@ fileIcons:
 		match: ".mss"
 		colour: "medium-cyan"
 
-	Markdown:
-		icon: "markdown"
-		scope: /(^|\.)[gp]fm|md|markdown(\.|$)/i
-		match: /\.(md(te?xt)?|mdown|markdown|mkd|mkdown|mdwn|mkdn|rmd|ron|pmd)$/i
-		alias: /^(CommonMark|GFM|Pandoc)$|\bMarkdown\b/i
-		colour: "medium-blue"
-
 	MarkdownLint:
 		icon: "markdownlint"
 		match: [
@@ -593,18 +558,6 @@ fileIcons:
 		priority: 2
 		match: /^materialize(\.min)?\.([cm]?js|css)$/i
 		colour: "light-red"
-
-	Mathematica:
-		icon: "mathematica"
-		match: [
-			[".mathematica", "dark-red", scope: "mathematica", alias: "mma"]
-			[".ma", "medium-orange"]
-			[".mt", "medium-maroon"]
-			[".nb", "dark-orange"]
-			[".nbp", "dark-red"]
-			[".wl", "medium-yellow"]
-			[".wlt", "dark-yellow"]
-		]
 
 	MathJax:
 		icon: "mathjax"
@@ -646,19 +599,6 @@ fileIcons:
 			[".3ds", "medium-cyan"]
 		]
 
-	Maya:
-		icon: "maya"
-		match: [
-			[".mb", "dark-cyan"]
-			[".mel", "dark-blue"]
-			[/\.mcf[ip]$/i, "dark-purple"]
-		]
-
-	MDX:
-		icon: "mdx"
-		match: ".mdx"
-		colour: "medium-orange"
-
 	MediaWiki:
 		icon: "mediawiki"
 		match: [
@@ -670,15 +610,6 @@ fileIcons:
 		icon: "bullhorn"
 		match: /^\.mention-bot$/i
 		colour: "medium-orange"
-
-	Mercurial:
-		icon: "hg"
-		match: [
-			[".hgignore", "medium-grey"]
-			[/\.?hgrc$/i, "dark-grey"]
-			[".hgsub", "dark-cyan"]
-			[".hgsubstate", "medium-cyan"]
-		]
 
 	Mercury:
 		icon: "mercury"
@@ -831,28 +762,11 @@ fileIcons:
 		colour: "medium-red"
 		scope: "mrc"
 
-	MJML:
-		icon: "mjml"
-		match: [
-			[".mjml", "medium-red", "mjml"]
-			[".mjmlslim", "medium-orange"]
-		]
-
 	MkDocs:
 		icon: "book-alt"
 		priority: 2
 		match: /^\.?mkdocs\.ya?ml$/i
 		colour: "medium-blue"
-
-	Mocha:
-		icon: "mocha"
-		priority: 2
-		match: [
-			[/\.mocharc\.(jsonc?|[cm]?js|ya?ml)$/i, "medium-maroon"]
-			[/^mocha(\.min)?\.([jt]sx?|es6?|coffee)$/i, "medium-maroon"]
-			[/^mocha(\.min)?\.(s?css|less|styl)$/i, "medium-red"]
-			["mocha.opts", "light-maroon", priority: 2]
-		]
 
 	Model: # Or generic 3D asset
 		icon: "model"
@@ -954,13 +868,6 @@ fileIcons:
 		match: ".mtn-ignore"
 		colour: "dark-purple"
 
-	MoonScript:
-		icon: "moon"
-		scope: "moon"
-		interpreter: "moon"
-		match: ".moon"
-		colour: "medium-yellow"
-
 	MooTools:
 		icon: "mootools"
 		priority: 2
@@ -993,13 +900,6 @@ fileIcons:
 # Pure Data
 			[".pd", "dark-red"]
 		]
-
-	Mustache: # (Or Handlebars)
-		icon: "mustache"
-		scope: /(^|\.)(mustache|handlebars)(\.|$)/i
-		alias: /^(hbs|htmlbars|handlebars)$/i
-		match: /\.(hb[st]|handlebars|(mu)?stache)$/i
-		colour: "medium-orange"
 
 	Nano:
 		icon: "nano"
