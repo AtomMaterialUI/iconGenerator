@@ -1123,11 +1123,11 @@
 					"icon": "/serverless.svg"
 				},
 				{
-					"folderNames": "shared",
+					"folderNames": "shared, common",
 					"name": "shared",
 					"folderColor": "66BB6A",
 					"iconColor": "C8E6C9",
-					"pattern": "^shared$",
+					"pattern": "^(shared|common)$",
 					"icon": "/shared.svg"
 				},
 				{
@@ -1227,11 +1227,11 @@
 					"icon": "/syntax.svg"
 				},
 				{
-					"folderNames": "task,tasks",
+					"folderNames": "task,tasks,command,commands,console,consoles,.run",
 					"name": "tasks",
 					"folderColor": "795774",
 					"iconColor": "CE93D8",
-					"pattern": "^(tasks?)$",
+					"pattern": "^(tasks?|commands?|consoles?|.run)$",
 					"icon": "/tasks.svg"
 				},
 				{
@@ -1379,11 +1379,11 @@
 					"icon": "/vuex.svg"
 				},
 				{
-					"folderNames": "public,static,web,www,wwwroot",
+					"folderNames": "public,static,web,www,wwwroot,public_html",
 					"name": "web",
 					"folderColor": "039be5",
 					"iconColor": "b3e5fc",
-					"pattern": "^(public|static|web|www|wwwroot)$",
+					"pattern": "^(public(_html)?|static|web|www|wwwroot)$",
 					"icon": "/web.svg"
 				},
 				{
