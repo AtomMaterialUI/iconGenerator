@@ -1310,7 +1310,7 @@
                color="2aa473"
                pattern="(manage|__init__|settings|urls|[aw]sgi)\.py$"
                icon="/icons/files/django.svg" />
-        <regex fileNames="*.djt, *.django"
+        <regex fileNames="*.djt,*.django"
                name="Django"
                color="2aa473"
                pattern=".*\.(django|djt)$"

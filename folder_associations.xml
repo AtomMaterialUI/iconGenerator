@@ -58,11 +58,11 @@
                iconColor="ffcdd2"
                pattern="^alacritty$"
                icon="/alacritty.svg" />
-        <regex folderNames="android"
+        <regex folderNames="android,androidApp"
                name="android"
                folderColor="8bc34a"
                iconColor="dcedc8"
-               pattern="^android$"
+               pattern="^android(App)?$"
                icon="/android.svg" />
         <regex folderNames="animation,animations,anims,anim"
                name="animations"
@@ -271,11 +271,11 @@
         <!--endregion-->
 
         <!--region D-->
-        <regex folderNames="db,migrate,database,repo,repos,repositories"
+        <regex folderNames="db,migrate,database,repo,repos,repositories,repository"
                name="db"
                folderColor="7CB342"
                iconColor="C5E1A5"
-               pattern="^(db|migrate|database|repos?|repositories)$"
+               pattern="^(db|migrate|database|repos?|repositories|repository)$"
                icon="/db.svg" />
         <regex folderNames="debug,debugging"
                name="debug"
@@ -370,11 +370,11 @@
                iconColor="DCEDC8"
                pattern="^(envs?|environments?)$"
                icon="/env.svg" />
-        <regex folderNames="error,errors,prod,production"
+        <regex folderNames="error,errors,prod,production,exception,exceptions"
                name="error"
                folderColor="ef5350"
                iconColor="ffcdd2"
-               pattern="^(errors?|prod(uction)?)$"
+               pattern="^(errors?|exceptions?|prod(uction)?)$"
                icon="/error.svg" />
         <regex folderNames="event,events"
                name="events"
@@ -688,11 +688,11 @@
                iconColor="BCAAA4"
                pattern="^(mocks?|fakes?|stubs?)$"
                icon="/mocks.svg" />
-        <regex folderNames="modal,modals,portal,portals"
+        <regex folderNames="modal,modals,portal,portals,usecase,usecases"
                name="modals"
                folderColor="8d6e63"
                iconColor="D7CCC8"
-               pattern="^(modals?|portals?)$"
+               pattern="^(modals?|portals?|usecases?)$"
                icon="/modals.svg" />
         <regex folderNames="model,models,struct,structs,class,classes"
                name="models"
@@ -856,6 +856,12 @@
                iconColor="cfd8dc"
                pattern=".*\.(xcassets|lproj)"
                icon="/ios.svg" />
+        <regex folderNames="ios,iosApp"
+               name="resourceIOS"
+               folderColor="78909c"
+               iconColor="cfd8dc"
+               pattern="^ios(App)?$"
+               icon="/ios.svg" />
         <regex folderNames="review,reviews"
                name="reviews"
                folderColor="2196f3"
@@ -907,11 +913,11 @@
                iconColor="fff9c4"
                pattern="^(secure|security)$"
                icon="/security.svg" />
-        <regex folderNames="server,http,request,requests,staging,qa"
+        <regex folderNames="server,http,request,requests,staging,qa,backend"
                name="server"
                folderColor="FF8F00"
                iconColor="FFECB3"
-               pattern="^(server|http|requests?|staging|qa)$"
+               pattern="^(server|http|requests?|staging|qa|backend)$"
                icon="/server.svg" />
         <regex folderNames=".serverless,serverless"
                name="serverless"
@@ -925,11 +931,11 @@
                iconColor="C8E6C9"
                pattern="^(shared|common)$"
                icon="/shared.svg" />
-        <regex folderNames="src,source,sources,code"
+        <regex folderNames="src,source,sources,code,buildSrc"
                name="sources"
                folderColor="5C6BC0"
                iconColor="89ddff"
-               pattern="^(src|sources?|code)$"
+               pattern="^(src|sources?|code|buildSrc)$"
                icon="/src.svg" />
         <regex folderNames="sql,mysql,pgsql"
                name="sql"
@@ -1096,11 +1102,11 @@
                iconColor="F0F4C3"
                pattern="^\.?vim$"
                icon="/vim.svg" />
-        <regex folderNames="virtual,vm,vms,machine,machines"
+        <regex folderNames="virtual,vm,vms,machine,machines,desktop"
                name="vm"
                folderColor="039be5"
                iconColor="b3e5fc"
-               pattern="^(virtual|vms?|machines?)$"
+               pattern="^(virtual|vms?|machines?|desktop)$"
                icon="/vm.svg" />
         <regex folderNames="vscode,.vscode"
                name="vscode"
