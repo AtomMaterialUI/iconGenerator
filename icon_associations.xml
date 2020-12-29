@@ -1305,10 +1305,10 @@
                color="78909C"
                pattern=".*\.diffs?$"
                icon="/icons/files/diff.svg" />
-        <regex fileNames="manage.py,__init__.py,settings.py,urls.py,asgi.py,wsgi.py"
+        <regex fileNames="manage.py,settings.py,urls.py,asgi.py,wsgi.py"
                name="Django"
                color="2aa473"
-               pattern="(manage|__init__|settings|urls|[aw]sgi)\.py$"
+               pattern="(manage|settings|urls|[aw]sgi)\.py$"
                icon="/icons/files/django.svg" />
         <regex fileNames="*.djt,*.django"
                name="Django"
@@ -1965,6 +1965,11 @@
                name="Index"
                color="4DD0E1"
                pattern="^index\.(js|coffee|ts|es6|html|scss)$"
+               icon="/icons/files/index.svg" />
+        <regex fileNames="__init__.py"
+               name="InitPy"
+               color="4DD0E1"
+               pattern="^__init__\.py$"
                icon="/icons/files/index.svg" />
         <regex fileNames="*.ni,*.i7x"
                name="Inform 7"
