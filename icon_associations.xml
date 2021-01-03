@@ -1768,16 +1768,21 @@
                color="7A8387"
                pattern=".*\.ghostscript$"
                icon="/icons/files/ghostscript.svg" />
-        <regex fileNames="*.gem"
+        <regex fileNames="*.gem,*.gemspec"
                name="Gem"
                color="e53935"
-               pattern=".*\.gem$"
+               pattern=".*\.gem(spec)?$"
                icon="/icons/files/gemfile.svg" />
         <regex fileNames="Gemfile.lock,gemfile.lock"
                name="Gemfile"
                color="e53935"
                pattern="^[Gg]emfile\.lock$"
                icon="/icons/files/gemfile.svg" />
+        <regex fileNames=".irbrc,.gemrc,.pryrc"
+               name="Ruby RC Files"
+               color="E79627"
+               pattern="^\.?(irbrc|gemrc|pryrc)$"
+               icon="/icons/files/preferences.svg" />
         <regex fileNames=".gitlab-ci.yml"
                name="GitLab CI"
                color="e24329"
@@ -2469,6 +2474,7 @@
                icon="/icons/files/lync.svg" />
         <!--endregion-->
 
+        <!--region M -->
         <regex fileNames="*.mage"
                name="Magento"
                color="eb6007"
@@ -2744,6 +2750,7 @@
                color="ffa726"
                pattern=".*\.mxml$"
                icon="/icons/files/mxml.svg" />
+        <!--endregion-->
 
         <regex fileNames=".nest-cli.json"
                name="Nest"
@@ -3448,10 +3455,10 @@
                color="D14748"
                pattern="^\.ruby-version$"
                icon="/icons/files/ruby.svg" />
-        <regex fileNames="*.rs,*.rust"
+        <regex fileNames="*.rs,*.rust,*.rlib"
                name="Rust"
                color="a72146"
-               pattern=".*\.(rs|rust)$"
+               pattern=".*\.(rs|rust|rlib)$"
                icon="/icons/files/rust.svg" />
         <regex fileNames=".rvmrc"
                name="RVM"
@@ -4333,10 +4340,10 @@
                color="FFCB6B"
                pattern=".*\.(pyde|gypi?|tac|xpy|wsgi|smk|rpy)$"
                icon="/icons/files/python.svg" />
-        <regex fileNames="*.rb"
+        <regex fileNames="*.rb,*.ruby,*.rabl"
                name="Ruby"
                color="D14748"
-               pattern=".*\.rb$"
+               pattern=".*\.(rb|ruby|rabl)$"
                icon="/icons/files/ruby.svg" />
         <regex fileNames="*.php,*.phps,*.phpt"
                name="PHP"

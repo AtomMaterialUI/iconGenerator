@@ -1149,45 +1149,11 @@ fileIcons:
 		match: ".rproj"
 		colour: "light-blue"
 
-	Ruby:
-		icon: "ruby"
-		match: [
-			[/\.(rb|ru|ruby|erb|gemspec|god|mspec|pluginspec|podspec|rabl|rake|opal)$/i, "medium-red"
-				scope: "ruby"
-				alias: /^(rbx?|rake|jruby|macruby)$/i
-				interpreter: /(mac|j)?ruby|rake|rbx/]
-			[/^\.?(irbrc|gemrc|pryrc|ruby-(gemset|version))$/i, "medium-red"]
-			[/^(Appraisals|(Rake|App|[bB]uild|Cap|Danger|Deliver|Fast|Guard|Jar|Maven|Pod|Puppet|Snap)file(\.lock)?)$/, "medium-red"]
-			[/\.(jbuilder|rbuild|rb[wx]|builder)$/i, "dark-red"]
-			[/^rails$/, "medium-red"]
-			[".watchr", "dark-yellow"]
-		]
-
-	Rubocop:
-		icon: "rubocop"
-		priority: 2
-		match: /^\.rubocop(_todo)?\.ya?ml$/i
-		colour: "dark-red"
-
-	Rust:
-		icon: "rust"
-		match: [
-			[".rs", "medium-maroon", "rust"]
-			[".rlib", "light-maroon"]
-			[/^rust-toolchain$/, "medium-red"]
-		]
-
 	SAC:
 		icon: "sac"
 		match: ".sac"
 		colour: "medium-yellow"
 		scope: "sac"
-
-	San:
-		icon: "san"
-		match: ".san"
-		colour: "medium-cyan"
-		scope: "san"
 
 	Safari:
 		icon: "safari"
