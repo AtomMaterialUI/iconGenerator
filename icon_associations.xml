@@ -3085,10 +3085,10 @@
                color="f9ad00"
                pattern="^pnpmfile\.js"
                icon="/icons/files/pnpm.svg" />
-        <regex fileNames="*.pod"
+        <regex fileNames="*.pod,*.pod6,*.p6l,*.nqp"
                name="Pod"
                color="90A4AE"
-               pattern=".*\.pod$"
+               pattern=".*\.(pod6?|p6l|nqp)$"
                icon="/icons/files/pod.svg" />
         <regex fileNames="*.pogo"
                name="PogoScript"
@@ -3300,24 +3300,25 @@
                icon="/icons/files/quasar.svg" />
         <!--endregion-->
 
-        <regex fileNames="*.r"
+        <!--region R -->
+        <regex fileNames="*.r,*.rd,*.rsx"
                name="R"
                color="497CE3"
-               pattern=".*\.r$"
+               pattern=".*\.(r|rd|rsx)$"
                icon="/icons/files/r.svg" />
         <regex fileNames="*.rmd"
                name="R Markdown"
                color="497CE3"
                pattern=".*\.rmd$"
                icon="/icons/files/rmd.svg" />
-        <regex fileNames="*.rkt"
+        <regex fileNames="*.rkt,*.rktd,*.rktl,*.scrbl"
                name="Racket"
                color="E57373"
-               pattern=".*\.rkt"
+               pattern=".*\.(rkt[dl]?|scrbl)$"
                icon="/icons/files/racket.svg" />
         <regex fileNames="*.raml"
                name="Raml"
-               color="42a5f5"
+               color="72c3da"
                pattern=".*\.raml$"
                icon="/icons/files/raml.svg" />
         <regex fileNames="rails"
@@ -3340,6 +3341,26 @@
                color="42a5f5"
                pattern=".*\.(cshtml|vbhtml)$"
                icon="/icons/files/razor.svg" />
+        <regex fileNames="raphael.min.js,raphael.js,raphael.no-deps.mjs"
+               name="Raphael"
+               color="E57373"
+               pattern="^raphael(\.min|\.no-deps)*\.[cm]?js$"
+               icon="/icons/files/raphael.svg" />
+        <regex fileNames="*.rsc,*.rascal"
+               name="Rascal"
+               color="FFEE58"
+               pattern=".*\.(rsc|rascal)$"
+               icon="/icons/files/rascal.svg" />
+        <regex fileNames="razzle.config.js,razzle.config.yaml"
+               name="Razzle"
+               color="1E88E5"
+               pattern="^razzle\.config.*"
+               icon="/icons/files/raphael.svg" />
+        <regex fileNames="*.Rdata,*.rds,*.rdx"
+               name="RData"
+               color="dc353b"
+               pattern=".*\.(Rdata|rds|rdx)$"
+               icon="/icons/files/rdata.svg" />
         <regex fileNames="*.rdoc"
                name="RDoc"
                color="7A8387"
@@ -3351,9 +3372,14 @@
                pattern=".*\.(rql|restql)$"
                icon="/icons/files/restql.svg" />
         <regex fileNames="*.react-cli"
-               name="React"
+               name="React CLI"
                color="26A2C1"
                pattern=".*\.react-cli$"
+               icon="/icons/files/react.svg" />
+        <regex fileNames="react.js,react-min.js,react.mjs"
+               name="React"
+               color="26A2C1"
+               pattern="^react(-[^.]*)?\.[cm]?js$"
                icon="/icons/files/react.svg" />
         <regex fileNames="*.re,*.rei"
                name="ReasonML"
@@ -3425,6 +3451,16 @@
                pattern=".*\.reek$"
                color="d41217"
                icon="/icons/files/reek.svg" />
+        <regex fileNames="*.regex,*.regexp"
+               name="Regexp"
+               color="81C784"
+               pattern=".*\.(regexp?)$"
+               icon="/icons/files/regex.svg" />
+        <regex fileNames="*.rehyperc,*.remarkrc,*.retextrc,.rehypeignore,.remarkignore,.retextignore"
+               name="Remark"
+               color="d90303"
+               pattern=".*\.re(hype|mark|text)(rc|ignore).*$"
+               icon="/icons/files/remark.svg" />
         <regex fileNames=".renovaterc,renovate.json"
                name="Renovate"
                pattern="(?!^renovate$)(\.|^)renovate(rc)?(\.json)?$"
@@ -3530,6 +3566,7 @@
                color="B7178C"
                pattern="rxjs\.[jt]s$"
                icon="/icons/files/rxjs-effects.svg" />
+        <!-- endregion -->
 
         <regex fileNames="*.san"
                name="San"
@@ -4385,10 +4422,10 @@
                color="92AA5D"
                pattern=".*\.(json|cson|jsonc|rsj)$"
                icon="/icons/files/json.svg" />
-        <regex fileNames="*.perl,*.pl,*.pm,*.plx,*.pm,*.al,*.ph,*.psgi"
+        <regex fileNames="*.perl,*.pl,*.pl6,*.pm,*.plx,*.pm,*.pm6,*.al,*.ph,*.psgi"
                name="Perl"
                color="4DB6AC"
-               pattern=".*\.(perl|plx?|pm|ph|al|psgi)$"
+               pattern=".*\.(perl|pl[x6]?|pm6?|ph|al|psgi)$"
                icon="/icons/files/perl.svg" />
         <regex fileNames="*.py,*.python,*.ipy,*.pyc,*.whl,*.pep,*.pyp,*.pyt,*.py3,*.pyi,*.pyw,*.pyz"
                name="Python"
