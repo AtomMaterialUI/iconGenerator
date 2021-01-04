@@ -447,18 +447,6 @@ fileIcons:
 			[".vash", "medium-red", "vash"]
 		]
 
-	Nano:
-		icon: "nano"
-		match: ".nanorc"
-		colour: "medium-blue"
-		scope: /\.nanorc(?=\.|$)/i
-
-	Nanoc:
-		icon: "nanoc"
-		priority: 2
-		match: /^\.?nanoc\.ya?ml$/i
-		colour: "medium-red"
-
 	NAnt:
 		icon: "nant"
 		scope: "nant-build"

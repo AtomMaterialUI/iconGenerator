@@ -2653,7 +2653,7 @@
         <regex fileNames="modernizr.js,.modernizrrc,modernizr.custom.js,modernizr-dev.cjs"
                name="Modernizr"
                color="FFCA28"
-               pattern="^\.?modernizr(rc)?\.[cm]?js$|^modernizr([-\.]custom|-\d\.\d+)(\.\d+)?\.[cm]?js$"
+               pattern="^\.?modernizr(rc)?\.[cm]?js$|^modernizr([-.]custom|-\d\.\d+)(\.\d+)?\.[cm]?js$"
                icon="/icons/files/modernizr.svg" />
         <regex fileNames="*.modo,*.lxo"
                name="Modo"
@@ -2752,6 +2752,16 @@
                icon="/icons/files/mxml.svg" />
         <!--endregion-->
 
+        <regex fileNames="*.nano,*.nanorc"
+               name="Nano"
+               color="AB47BC"
+               pattern=".*\.(nano(rc)?)$"
+               icon="/icons/files/nano.svg" />
+        <regex fileNames="nanoc.yaml,nanoc.yml"
+               name="Nanoc"
+               color="d35623"
+               pattern="^nanoc\.ya?ml$"
+               icon="/icons/files/nanoc.svg" />
         <regex fileNames=".nest-cli.json"
                name="Nest"
                color="ea2845"
