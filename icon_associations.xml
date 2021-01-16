@@ -3575,7 +3575,7 @@
                name="RxJS"
                color="B7178C"
                pattern="rxjs\.[jt]s$"
-               icon="/icons/files/rxjs-effects.svg" />
+               icon="/icons/files/rxjs.svg" />
         <!-- endregion -->
 
         <regex fileNames="*.san"
