@@ -100,10 +100,10 @@
 					"icon": "/icons/files/1c.svg"
 				},
 				{
-					"fileNames": "*.stl,*.obj,*.3ds,*.dxf,*.ac",
+					"fileNames": "*.stl,*.obj,*.3ds,*.x,*.dxf,*.ac,*.shader,*.geo,*.c4d,*.tesc,*.tese,*.cginc,*.dxf,*.dwg,*.jas",
 					"name": "3D",
 					"color": "29b6f6",
-					"pattern": ".*\\.(stl|obj|3ds|dxf|ac)$",
+					"pattern": ".*\\.(stl|obj|3ds|dxf|ac|shader|geo|c4d|tes[ce]|cginc|dwg|jas|x)$",
 					"icon": "/icons/files/3d.svg"
 				},
 				{
@@ -1766,10 +1766,17 @@
 					"icon": "/icons/files/diff.svg"
 				},
 				{
-					"fileNames": "*.flake8,*.djt",
+					"fileNames": "manage.py,settings.py,urls.py,asgi.py,wsgi.py",
 					"name": "Django",
 					"color": "2aa473",
-					"pattern": ".*\\.(flake8|djt)$",
+					"pattern": "(manage|settings|urls|[aw]sgi)\\.py$",
+					"icon": "/icons/files/django.svg"
+				},
+				{
+					"fileNames": "*.djt,*.django",
+					"name": "Django",
+					"color": "2aa473",
+					"pattern": ".*\\.(django|djt)$",
 					"icon": "/icons/files/django.svg"
 				},
 				{
@@ -1913,6 +1920,41 @@
 					"icon": "/icons/files/dylib.svg"
 				},
 				{
+					"fileNames": "*.eup",
+					"name": "Eagle",
+					"color": "d50325",
+					"pattern": ".*\\.eup$",
+					"icon": "/icons/files/eagle.svg"
+				},
+				{
+					"fileNames": "*.eb",
+					"name": "Easybuild",
+					"color": "2196F3",
+					"pattern": ".*\\.eb$",
+					"icon": "/icons/files/easybuild.svg"
+				},
+				{
+					"fileNames": "*.ec,*.eh",
+					"name": "eC",
+					"color": "3b618f",
+					"pattern": ".*\\.e[ch]$",
+					"icon": "/icons/files/ec.svg"
+				},
+				{
+					"fileNames": "*.epj",
+					"name": "Ecere",
+					"color": "26A69A",
+					"pattern": ".*\\.epj$",
+					"icon": "/icons/files/ecere.svg"
+				},
+				{
+					"fileNames": "*.ecl,*.ecl.txt",
+					"name": "EclipseLang",
+					"color": "7986CB",
+					"pattern": ".*\\.ecl(\\.txt)?$",
+					"icon": "/icons/files/clipse.svg"
+				},
+				{
 					"fileNames": "*.eclipse,*.classpath,*.project,*.cproject",
 					"name": "Eclipse",
 					"color": "7963E6",
@@ -1927,6 +1969,13 @@
 					"icon": "/icons/files/adonis.svg"
 				},
 				{
+					"fileNames": ".compilerc,.compilerc.json",
+					"name": "Electron",
+					"color": "67d7f3",
+					"pattern": "\\.compilerc(\\.json)?$",
+					"icon": "/icons/files/electron.svg"
+				},
+				{
 					"fileNames": ".editorconfig",
 					"name": "EditorConfig",
 					"color": "7A8387",
@@ -1939,41 +1988,6 @@
 					"color": "4FC3F7",
 					"pattern": ".*\\.e$",
 					"icon": "/icons/files/eiffel.svg"
-				},
-				{
-					"fileNames": ".emacs.conf,.emacsconfig,.emacsrc",
-					"name": "Emacs",
-					"color": "E79627",
-					"pattern": "^\\.emacs.*$",
-					"icon": "/icons/files/emacs.svg"
-				},
-				{
-					"fileNames": "*.el,*.elc,*.eld,*.gnus,*.viper,*.ede",
-					"name": "Emacs Lisp",
-					"color": "E79627",
-					"pattern": "^.*\\.(el|el[cd]|gnus|viper|ede)$",
-					"icon": "/icons/files/emacs.svg"
-				},
-				{
-					"fileNames": "Cask,Caskfile",
-					"name": "Emacs Cask",
-					"color": "E79627",
-					"pattern": "^Cask(file)?$",
-					"icon": "/icons/files/emacs.svg"
-				},
-				{
-					"fileNames": ".ember-cli",
-					"name": "Ember CLI",
-					"color": "F78C6C",
-					"pattern": "^\\.ember-cli$",
-					"icon": "/icons/files/ember.svg"
-				},
-				{
-					"fileNames": ".ember.json",
-					"name": "Ember",
-					"color": "F78C6C",
-					"pattern": "^\\.ember\\.json$",
-					"icon": "/icons/files/ember.svg"
 				},
 				{
 					"fileNames": "*.ejs",
@@ -1997,6 +2011,76 @@
 					"icon": "/icons/files/elm.svg"
 				},
 				{
+					"fileNames": ".emacs.conf,.emacsconfig,.emacsrc",
+					"name": "Emacs",
+					"color": "E79627",
+					"pattern": "^\\.emacs.*$",
+					"icon": "/icons/files/emacs.svg"
+				},
+				{
+					"fileNames": "*.el,*.elc,*.eld,*.gnus,*.viper,*.ede",
+					"name": "Emacs Lisp",
+					"color": "E79627",
+					"pattern": "^.*\\.(el|el[cd]|gnus|viper|ede)$",
+					"icon": "/icons/files/emacs.svg"
+				},
+				{
+					"fileNames": "Cask,Caskfile",
+					"name": "Emacs Cask",
+					"color": "E79627",
+					"pattern": "^Cask(file)?$",
+					"icon": "/icons/files/emacs.svg"
+				},
+				{
+					"fileNames": "*.eml*.mbox,*.mail",
+					"name": "Email",
+					"color": "BBDEFB",
+					"pattern": ".*\\.(eml|mbox|mail)$",
+					"icon": "/icons/files/email.svg"
+				},
+				{
+					"fileNames": ".ember-cli",
+					"name": "Ember CLI",
+					"color": "F78C6C",
+					"pattern": "^\\.ember-cli$",
+					"icon": "/icons/files/ember.svg"
+				},
+				{
+					"fileNames": ".ember.json",
+					"name": "Ember",
+					"color": "F78C6C",
+					"pattern": "^\\.ember\\.json$",
+					"icon": "/icons/files/ember.svg"
+				},
+				{
+					"fileNames": "*.emberscript",
+					"name": "EmberScript",
+					"color": "d84730",
+					"pattern": ".*\\.emberscript$",
+					"icon": "/icons/files/emberscript.svg"
+				},
+				{
+					"fileNames": "*.ensime",
+					"name": "Ensime",
+					"color": "e95f69",
+					"pattern": ".*\\.ensime$",
+					"icon": "/icons/files/ensime.svg"
+				},
+				{
+					"fileNames": "*.eq",
+					"name": "EQ",
+					"color": "f8af70",
+					"pattern": ".*\\.eq$",
+					"icon": "/icons/files/eq.svg"
+				},
+				{
+					"fileNames": ".esdoc.js,.esdoc.json",
+					"name": "ESDoc",
+					"color": "e55151",
+					"pattern": "^\\.esdoc\\.([cm]?js|json)$",
+					"icon": "/icons/files/esdoc.svg"
+				},
+				{
 					"fileNames": ".eslintrc,.eslintrc.js,.eslintrc.json,.eslintrc.yml",
 					"name": "ESLint",
 					"color": "7963E6",
@@ -2004,11 +2088,18 @@
 					"icon": "/icons/files/eslint.svg"
 				},
 				{
-					"fileNames": ".eslintcache",
-					"name": "ESLint Cache",
+					"fileNames": ".eslintignore",
+					"name": "ESLint",
 					"color": "7963E6",
-					"pattern": ".*\\.eslintcache$",
+					"pattern": ".*\\.eslintrc(\\.js(on)?|\\.y(a)?ml)?$",
 					"icon": "/icons/files/eslint.svg"
+				},
+				{
+					"fileNames": ".eslintcache",
+					"name": "ESLint Ignore",
+					"color": "808080",
+					"pattern": "^\\.eslintignore$",
+					"icon": "/icons/files/eslintignore.svg"
 				},
 				{
 					"fileNames": "*.erb,*.ru",
@@ -2032,11 +2123,18 @@
 					"icon": "/icons/files/makefile.svg"
 				},
 				{
-					"fileNames": "*.xls,*.xlsx,*.xlm,*.xlt,*.xlsb,*.odx",
+					"fileNames": "*.xls,*.xlsm,*.xlsx,*.xlsb,*.xlm,*.xla,*.xlam,*.xlt,*.xltm,*.xltx,*.odx",
 					"name": "Excel",
 					"color": "6AAB20",
-					"pattern": ".*\\.(xls|xlsx|xlm|xlt|xlsb|odx)$",
+					"pattern": ".*\\.(xls[mxb]?|xlm|xlt[mx]?|xlam?|odx)$",
 					"icon": "/icons/files/excel.svg"
+				},
+				{
+					"fileNames": "Extjs.js,Extjs-ext.mjs",
+					"name": "ExtJS",
+					"color": "2c7fcc",
+					"pattern": "^Extjs(-ext)?\\.[cm]?js$",
+					"icon": "/icons/files/extjs.svg"
 				},
 				{
 					"fileNames": "fabfile.py",
@@ -2305,10 +2403,10 @@
 					"icon": "/icons/files/ghostscript.svg"
 				},
 				{
-					"fileNames": "*.gem",
+					"fileNames": "*.gem,*.gemspec",
 					"name": "Gem",
 					"color": "e53935",
-					"pattern": ".*\\.gem$",
+					"pattern": ".*\\.gem(spec)?$",
 					"icon": "/icons/files/gemfile.svg"
 				},
 				{
@@ -2317,6 +2415,13 @@
 					"color": "e53935",
 					"pattern": "^[Gg]emfile\\.lock$",
 					"icon": "/icons/files/gemfile.svg"
+				},
+				{
+					"fileNames": ".irbrc,.gemrc,.pryrc",
+					"name": "Ruby RC Files",
+					"color": "E79627",
+					"pattern": "^\\.?(irbrc|gemrc|pryrc)$",
+					"icon": "/icons/files/preferences.svg"
 				},
 				{
 					"fileNames": ".gitlab-ci.yml",
@@ -2662,6 +2767,20 @@
 					"icon": "/icons/files/index.svg"
 				},
 				{
+					"fileNames": "__init__.py",
+					"name": "InitPy",
+					"color": "4DD0E1",
+					"pattern": "^__init__\\.py$",
+					"icon": "/icons/files/index.svg"
+				},
+				{
+					"fileNames": "*.xsn,*.xsf,*.xtp2,*.infopathxml",
+					"name": "Infopath",
+					"color": "9C27B0",
+					"pattern": ".*\\.(xsn|xsf|xtp2|infopathxml)$",
+					"icon": "/icons/files/infopath.svg"
+				},
+				{
 					"fileNames": "*.ni,*.i7x",
 					"name": "Inform 7",
 					"color": "008e1f",
@@ -2844,10 +2963,10 @@
 					"icon": "/icons/files/jquery.svg"
 				},
 				{
-					"fileNames": "*.js.map",
+					"fileNames": "*.js.map,*.cjs.map,*.mjs.map",
 					"name": "JS Map",
 					"color": "FFCB6B",
-					"pattern": ".*\\.js\\.map$",
+					"pattern": ".*\\.[cm]?js\\.map$",
 					"icon": "/icons/files/jsmap.svg"
 				},
 				{
@@ -3243,11 +3362,39 @@
 					"icon": "/icons/files/lua.svg"
 				},
 				{
+					"fileNames": "*.ocrec,*.crec",
+					"name": "Lync",
+					"color": "42A5F5",
+					"pattern": ".*\\.(ocrec|crec)$",
+					"icon": "/icons/files/lync.svg"
+				},
+				{
 					"fileNames": "*.mage",
 					"name": "Magento",
-					"color": "F07178",
+					"color": "eb6007",
 					"pattern": ".*\\.mage$",
 					"icon": "/icons/files/magento.svg"
+				},
+				{
+					"fileNames": "*.mss",
+					"name": "Mapbox",
+					"color": "4161f3",
+					"pattern": ".*\\.mss$",
+					"icon": "/icons/files/mapbox.svg"
+				},
+				{
+					"fileNames": ".markdownlintrc,.markdownlint.json,.markdownlint.yaml,.markdownlint.jsonc,.mdlrc",
+					"name": "MarkdownLint",
+					"color": "bb262c",
+					"pattern": "^\\.(markdownlint(rc)?|mdlrc)(\\.(js|ya?ml|jsonc?))?$",
+					"icon": "/icons/files/markdownlint.svg"
+				},
+				{
+					"fileNames": ".markdownlintignore,.mdlignore",
+					"name": "MarkdownLint Ignore",
+					"color": "808080",
+					"pattern": "^\\.(markdownlintignore|mdlignore)$",
+					"icon": "/icons/files/markdownlintignore.svg"
 				},
 				{
 					"fileNames": "*.marko",
@@ -3299,6 +3446,13 @@
 					"icon": "/icons/files/markup.svg"
 				},
 				{
+					"fileNames": "materialize.js,materialize.css,materialize.min.js,materialize.min.css",
+					"name": "Materialize",
+					"color": "ee6e73",
+					"pattern": "^materialize(\\.min)?\\.([cm]?js|css)$",
+					"icon": "/icons/files/materialize.svg"
+				},
+				{
 					"fileNames": "*.ma,*.mb,*.mt,*.cdf,*.nb,*.nbp,*.wl,*.wlt",
 					"name": "Mathematica",
 					"color": "FF4081",
@@ -3306,11 +3460,18 @@
 					"icon": "/icons/files/mathematica.svg"
 				},
 				{
-					"fileNames": "*.matlab",
+					"fileNames": "*.matlab,*.mltbx,*.mdlp,*.mn,*.sldd,*.slx,*.slxp",
 					"name": "Matlab",
 					"color": "D28445",
-					"pattern": ".*\\.matlab$",
+					"pattern": ".*\\.(matlab|mlappinstall|mlpkginstall|mltbx|mdlp|mn|sldd|slxp?)$",
 					"icon": "/icons/files/matlab.svg"
+				},
+				{
+					"fileNames": "MathJax.js,MathJax-config.cjs,TeX-MML-AM_CHTML.js",
+					"name": "Mathjax",
+					"color": "2b9a3e",
+					"pattern": "^(MathJax[^.]*|TeX-MML-AM_CHTML)\\.[cm]?js$",
+					"icon": "/icons/files/mathjax.svg"
 				},
 				{
 					"fileNames": "pom.xml",
@@ -3318,6 +3479,13 @@
 					"color": "F13C6F",
 					"pattern": "^pom\\.xml$",
 					"icon": "/icons/files/maven.svg"
+				},
+				{
+					"fileNames": "*.maxpat,*.maxobj,*.maxproj,*.maxhelp,*.pat,*.mxt",
+					"name": "Max",
+					"color": "40b9ae",
+					"pattern": ".*\\.(max(pat|help|proj|obj)|pat|mxt)$",
+					"icon": "/icons/files/max.svg"
 				},
 				{
 					"fileNames": "*.maya,*.mel,*.mcfi,*.mcfp",
@@ -3334,6 +3502,13 @@
 					"icon": "/icons/files/mdx.svg"
 				},
 				{
+					"fileNames": "*.mediawiki,*.wiki",
+					"name": "MediaWiki",
+					"color": "e8ba06",
+					"pattern": ".*\\.((media)?wiki)$",
+					"icon": "/icons/files/mediawiki.svg"
+				},
+				{
 					"fileNames": "*.hg,.hgsub,.hgsubstate,.hgrc",
 					"name": "Mercurial",
 					"color": "89DDFF",
@@ -3348,11 +3523,32 @@
 					"icon": "/icons/files/mercurialignore.svg"
 				},
 				{
+					"fileNames": "*.moo",
+					"name": "Mercury",
+					"color": "4cadf2",
+					"pattern": ".*\\.moo$",
+					"icon": "/icons/files/mercury.svg"
+				},
+				{
 					"fileNames": "*.merlin",
 					"name": "Merlin",
 					"color": "42a5f5",
 					"pattern": ".*\\.merlin$",
 					"icon": "/icons/files/merlin.svg"
+				},
+				{
+					"fileNames": "meson.build,meson_options.txt",
+					"name": "Meson",
+					"color": "9575CD",
+					"pattern": "^(meson\\.build|meson_options\\.txt)$",
+					"icon": "/icons/files/meson.svg"
+				},
+				{
+					"fileNames": "*.metal,*.metallib,*.air",
+					"name": "Metal",
+					"color": "5ddeb6",
+					"pattern": ".*\\.(metal(lib)?|air)$",
+					"icon": "/icons/files/metal.svg"
 				},
 				{
 					"fileNames": "*.meteor",
@@ -3362,11 +3558,39 @@
 					"icon": "/icons/files/meteor.svg"
 				},
 				{
+					"fileNames": "*.mcfunction,*.mclevel,*.mcpack,*.mcworld,*.mcmod,*.mcmeta",
+					"name": "Minecraft",
+					"color": "20ab49",
+					"pattern": ".*\\.mc(function|level|pack|world|mod|meta)$",
+					"icon": "/icons/files/minecraft.svg"
+				},
+				{
+					"fileNames": "*.mzn,*.dzn",
+					"name": "Minizinc",
+					"color": "757575",
+					"pattern": ".*\\.(mzn|dzn)$",
+					"icon": "/icons/files/minizinc.svg"
+				},
+				{
 					"fileNames": "*.mint",
 					"name": "Mint",
 					"color": "43a047",
-					"pattern": ".*\\.mint",
+					"pattern": ".*\\.mint$",
 					"icon": "/icons/files/mint.svg"
+				},
+				{
+					"fileNames": "*.mir,*.mirah,*.druby,*.duby",
+					"name": "Mirah",
+					"color": "5293f7",
+					"pattern": ".*\\.(mir(ah)?|dr?uby)$",
+					"icon": "/icons/files/mirah.svg"
+				},
+				{
+					"fileNames": "*.mirc,*.mrc",
+					"name": "mIRC",
+					"color": "EF5350",
+					"pattern": ".*\\.(mi?rc)$",
+					"icon": "/icons/files/mirc.svg"
 				},
 				{
 					"fileNames": "*.mjml,*.mjmlslim",
@@ -3376,11 +3600,102 @@
 					"icon": "/icons/files/mjml.svg"
 				},
 				{
+					"fileNames": "mkdocs.yaml,.mkdocs.yml",
+					"name": "Mkdocs",
+					"color": "5C6BC0",
+					"pattern": "^\\.?mkdocs\\.ya?ml$",
+					"icon": "/icons/files/mkdocs.svg"
+				},
+				{
+					"fileNames": "*.mo",
+					"name": "Modelica",
+					"color": "c2132e",
+					"pattern": ".*\\.mo$",
+					"icon": "/icons/files/modelica.svg"
+				},
+				{
+					"fileNames": "modernizr.js,.modernizrrc,modernizr.custom.js,modernizr-dev.cjs",
+					"name": "Modernizr",
+					"color": "FFCA28",
+					"pattern": "^\\.?modernizr(rc)?\\.[cm]?js$|^modernizr([-.]custom|-\\d\\.\\d+)(\\.\\d+)?\\.[cm]?js$",
+					"icon": "/icons/files/modernizr.svg"
+				},
+				{
+					"fileNames": "*.modo,*.lxo",
+					"name": "Modo",
+					"color": "f4a938",
+					"pattern": ".*\\.(modo|lxo)$",
+					"icon": "/icons/files/modo.svg"
+				},
+				{
+					"fileNames": "*.mod,*.def,*.m2",
+					"name": "Modula 2",
+					"color": "990705",
+					"pattern": ".*\\.(mod|def|m2)$",
+					"icon": "/icons/files/modula2.svg"
+				},
+				{
+					"fileNames": "*.m3,*.i3,*.mg,*.ig",
+					"name": "Modula 3",
+					"color": "2979FF",
+					"pattern": ".*\\.(m[3g]|i[3g])$",
+					"icon": "/icons/files/modula3.svg"
+				},
+				{
+					"fileNames": "m3makefile,m3overrides",
+					"name": "Modula 3 Makefile",
+					"color": "2979FF",
+					"pattern": "^m3(makefile|overrides)$",
+					"icon": "/icons/files/modula3.svg"
+				},
+				{
+					"fileNames": "moleculer.config.js,moleculer.config.ts,moleculer.config.json",
+					"name": "Moleculer",
+					"color": "32ebb1",
+					"pattern": "^moleculer\\.config\\.([cm]?js|json|ts)$",
+					"icon": "/icons/files/moleculer.svg"
+				},
+				{
+					"fileNames": "moment.js,moment.min.js,moment-with-locales.cjs",
+					"name": "MomentJS",
+					"color": "50948b",
+					"pattern": "^moment(-with-locales)?(\\.min)?\\.[cm]?js$",
+					"icon": "/icons/files/moment.svg"
+				},
+				{
+					"fileNames": "*.monkey",
+					"name": "Monkey",
+					"color": "755333",
+					"pattern": ".*\\.monkey$",
+					"icon": "/icons/files/monkey.svg"
+				},
+				{
+					"fileNames": ".mtn-ignoree",
+					"name": "Monotone",
+					"color": "917aa3",
+					"pattern": "^\\.mtn-ignore$",
+					"icon": "/icons/files/monotone.svg"
+				},
+				{
+					"fileNames": "*.moho,*.mohoaction,*.mohobrush,*.mohoexport,*.mohoproj,*.mohostyle",
+					"name": "Moho",
+					"color": "ed8521",
+					"pattern": ".*\\.moho(action|brush|export|proj|style)?$",
+					"icon": "/icons/files/moho.svg"
+				},
+				{
 					"fileNames": "*.moon",
 					"name": "Moonscript",
 					"color": "fbc02d",
 					"pattern": ".*\\.moon$",
 					"icon": "/icons/files/moonscript.svg"
+				},
+				{
+					"fileNames": "mootools.js,mootools.min.js,mootools-nocompat.cjs",
+					"name": "Mootools",
+					"color": "6c788e",
+					"pattern": "^mootools[^.]*\\d+\\.\\d+(.\\d+)?[^.]*\\.[cm]?js$",
+					"icon": "/icons/files/mootools.svg"
 				},
 				{
 					"fileNames": "mocha.opts,.mocharc",
@@ -3404,10 +3719,31 @@
 					"icon": "/icons/files/mongodb.svg"
 				},
 				{
-					"fileNames": "*.mustache,*.handlebars,*.hbs,*.hamlbars,*.stache",
+					"fileNames": "*.mrb",
+					"name": "mRuby",
+					"color": "c32d00",
+					"pattern": ".*\\.mrb$",
+					"icon": "/icons/files/mruby.svg"
+				},
+				{
+					"fileNames": "*.mdf,*.ndf,*.ldf",
+					"name": "MSSQL",
+					"color": "f6251f",
+					"pattern": ".*\\.([mnl]df)$",
+					"icon": "/icons/files/msql.svg"
+				},
+				{
+					"fileNames": "*.mn,*.mnb",
+					"name": "Mupad",
+					"color": "dd7335",
+					"pattern": ".*\\.mnb?$",
+					"icon": "/icons/files/mupad.svg"
+				},
+				{
+					"fileNames": "*.mustache,*.handlebars,*.hbs,*.hamlbars,*.stache,*.emblem",
 					"name": "Mustache",
 					"color": "E79627",
-					"pattern": ".*\\.(mustache|handlebars|hbs|hamlbars|stache)$",
+					"pattern": ".*\\.(mustache|handlebars|hbs|hamlbars|stache|emblem)$",
 					"icon": "/icons/files/mustache.svg"
 				},
 				{
@@ -3416,6 +3752,20 @@
 					"color": "ffa726",
 					"pattern": ".*\\.mxml$",
 					"icon": "/icons/files/mxml.svg"
+				},
+				{
+					"fileNames": "*.nano,*.nanorc",
+					"name": "Nano",
+					"color": "AB47BC",
+					"pattern": ".*\\.(nano(rc)?)$",
+					"icon": "/icons/files/nano.svg"
+				},
+				{
+					"fileNames": "nanoc.yaml,nanoc.yml",
+					"name": "Nanoc",
+					"color": "d35623",
+					"pattern": "^nanoc\\.ya?ml$",
+					"icon": "/icons/files/nanoc.svg"
 				},
 				{
 					"fileNames": ".nest-cli.json",
@@ -3640,6 +3990,13 @@
 					"color": "f22301",
 					"pattern": ".*\\.(pls(ql)?|plb|pkb|pck)$",
 					"icon": "/icons/files/oracle.svg"
+				},
+				{
+					"fileNames": "*.pst,*.bcmx,*.oab,*.otm,*.oft,*.nk2",
+					"name": "Outlook",
+					"color": "006ebf",
+					"pattern": ".*\\.(pst|bcmx|oab|otm|oft|nk2)$",
+					"icon": "/icons/files/outlook.svg"
 				},
 				{
 					"fileNames": "paket.dependencies,paket.lock,paket.references,paket.local,paket.template",
@@ -3873,10 +4230,10 @@
 					"icon": "/icons/files/pnpm.svg"
 				},
 				{
-					"fileNames": "*.pod",
+					"fileNames": "*.pod,*.pod6,*.p6l,*.nqp",
 					"name": "Pod",
 					"color": "90A4AE",
-					"pattern": ".*\\.pod$",
+					"pattern": ".*\\.(pod6?|p6l|nqp)$",
 					"icon": "/icons/files/pod.svg"
 				},
 				{
@@ -4006,6 +4363,13 @@
 					"icon": "/icons/files/processing.svg"
 				},
 				{
+					"fileNames": "*.mpp,*.mpt",
+					"name": "Project",
+					"color": "317138",
+					"pattern": ".*\\.(mp[pt])$",
+					"icon": "/icons/files/project.svg"
+				},
+				{
 					"fileNames": "*.pro,*.prolog,*.yap",
 					"name": "Prolog",
 					"color": "f03e25",
@@ -4053,6 +4417,13 @@
 					"pattern": "^protractor(\\.conf(ig)?)?\\.js(on)?$",
 					"color": "de3b40",
 					"icon": "/icons/files/protractor.svg"
+				},
+				{
+					"fileNames": "*.puz,*.pub",
+					"name": "Publisher",
+					"color": "26A69A",
+					"pattern": ".*\\.(puz|pub)$",
+					"icon": "/icons/files/publisher.svg"
 				},
 				{
 					"fileNames": "pullapprove.yml,.pullapprove.yaml",
@@ -4153,10 +4524,10 @@
 					"icon": "/icons/files/quasar.svg"
 				},
 				{
-					"fileNames": "*.r",
+					"fileNames": "*.r,*.rd,*.rsx",
 					"name": "R",
 					"color": "497CE3",
-					"pattern": ".*\\.r$",
+					"pattern": ".*\\.(r|rd|rsx)$",
 					"icon": "/icons/files/r.svg"
 				},
 				{
@@ -4167,16 +4538,16 @@
 					"icon": "/icons/files/rmd.svg"
 				},
 				{
-					"fileNames": "*.rkt",
+					"fileNames": "*.rkt,*.rktd,*.rktl,*.scrbl",
 					"name": "Racket",
 					"color": "E57373",
-					"pattern": ".*\\.rkt",
+					"pattern": ".*\\.(rkt[dl]?|scrbl)$",
 					"icon": "/icons/files/racket.svg"
 				},
 				{
 					"fileNames": "*.raml",
 					"name": "Raml",
-					"color": "42a5f5",
+					"color": "72c3da",
 					"pattern": ".*\\.raml$",
 					"icon": "/icons/files/raml.svg"
 				},
@@ -4209,6 +4580,34 @@
 					"icon": "/icons/files/razor.svg"
 				},
 				{
+					"fileNames": "raphael.min.js,raphael.js,raphael.no-deps.mjs",
+					"name": "Raphael",
+					"color": "E57373",
+					"pattern": "^raphael(\\.min|\\.no-deps)*\\.[cm]?js$",
+					"icon": "/icons/files/raphael.svg"
+				},
+				{
+					"fileNames": "*.rsc,*.rascal",
+					"name": "Rascal",
+					"color": "FFEE58",
+					"pattern": ".*\\.(rsc|rascal)$",
+					"icon": "/icons/files/rascal.svg"
+				},
+				{
+					"fileNames": "razzle.config.js,razzle.config.yaml",
+					"name": "Razzle",
+					"color": "1E88E5",
+					"pattern": "^razzle\\.config.*",
+					"icon": "/icons/files/raphael.svg"
+				},
+				{
+					"fileNames": "*.Rdata,*.rds,*.rdx",
+					"name": "RData",
+					"color": "dc353b",
+					"pattern": ".*\\.(Rdata|rds|rdx)$",
+					"icon": "/icons/files/rdata.svg"
+				},
+				{
 					"fileNames": "*.rdoc",
 					"name": "RDoc",
 					"color": "7A8387",
@@ -4224,9 +4623,16 @@
 				},
 				{
 					"fileNames": "*.react-cli",
-					"name": "React",
+					"name": "React CLI",
 					"color": "26A2C1",
 					"pattern": ".*\\.react-cli$",
+					"icon": "/icons/files/react.svg"
+				},
+				{
+					"fileNames": "react.js,react-min.js,react.mjs",
+					"name": "React",
+					"color": "26A2C1",
+					"pattern": "^react(-[^.]*)?\\.[cm]?js$",
 					"icon": "/icons/files/react.svg"
 				},
 				{
@@ -4237,11 +4643,32 @@
 					"icon": "/icons/files/reason.svg"
 				},
 				{
+					"fileNames": "*.reason,*.rns,*.rsn,*.rx2,*.sxt",
+					"name": "Reason Studios",
+					"color": "ec4d10",
+					"pattern": ".*\\.(reason|rns|rsn|rx2|sxt)",
+					"icon": "/icons/files/reasonstudios.svg"
+				},
+				{
+					"fileNames": "*.rebol,*.eb,*.r2,*.r3",
+					"name": "Rebol",
+					"pattern": ".*\\.(reb(ol)?|r[23])$",
+					"color": "1b5d7b",
+					"icon": "/icons/files/rebol.svg"
+				},
+				{
+					"fileNames": "*.rpm,*.rpmmacros",
+					"name": "Red Hat",
+					"pattern": ".*\\.(rpm(macros)?)$",
+					"color": "eb1c24",
+					"icon": "/icons/files/redhat.svg"
+				},
+				{
 					"fileNames": "*.red",
 					"name": "Red",
 					"color": "EF5350",
 					"pattern": ".*\\.red",
-					"icon": "/icons/files/red.svg"
+					"icon": "/icons/files/red2.svg"
 				},
 				{
 					"fileNames": "*.rdb",
@@ -4300,6 +4727,34 @@
 					"icon": "/icons/files/redux-store.svg"
 				},
 				{
+					"fileNames": "*.reek",
+					"name": "Reek",
+					"pattern": ".*\\.reek$",
+					"color": "d41217",
+					"icon": "/icons/files/reek.svg"
+				},
+				{
+					"fileNames": "*.regex,*.regexp",
+					"name": "Regexp",
+					"color": "81C784",
+					"pattern": ".*\\.(regexp?)$",
+					"icon": "/icons/files/regex.svg"
+				},
+				{
+					"fileNames": "*.rehyperc,*.remarkrc,*.retextrc,.rehypeignore,.remarkignore,.retextignore",
+					"name": "Remark",
+					"color": "d90303",
+					"pattern": ".*\\.re(hype|mark|text)(rc|ignore).*$",
+					"icon": "/icons/files/remark.svg"
+				},
+				{
+					"fileNames": ".renovaterc,renovate.json",
+					"name": "Renovate",
+					"pattern": "(?!^renovate$)(\\.|^)renovate(rc)?(\\.json)?$",
+					"color": "f9c304",
+					"icon": "/icons/files/renovate.svg"
+				},
+				{
 					"fileNames": "*.rst",
 					"name": "Restructured",
 					"pattern": ".*\\.rst$",
@@ -4307,18 +4762,53 @@
 					"icon": "/icons/files/rst.svg"
 				},
 				{
+					"fileNames": "require.js,require.min.cjs,require-dev.mjs",
+					"name": "RequireJS",
+					"pattern": "^require([-.]min|dev)?\\.[cm]?js$",
+					"color": "39a1e7",
+					"icon": "/icons/files/requirejs.svg"
+				},
+				{
+					"fileNames": "*.rex,*.rexx,*.pprx",
+					"name": "Rexx",
+					"pattern": ".*\\.(rexx?|pprx)$",
+					"color": "c5092d",
+					"icon": "/icons/files/rexx.svg"
+				},
+				{
+					"fileNames": "*.3dm,*.rvb",
+					"name": "Rhino3D",
+					"pattern": ".*\\.(3dm|rvb)$",
+					"color": "BA68C8",
+					"icon": "/icons/files/rhino3d.svg"
+				},
+				{
+					"fileNames": "riemann.config",
+					"name": "Riemann",
+					"color": "ff5370",
+					"pattern": "^riemann\\.config$",
+					"icon": "/icons/files/riemann.svg"
+				},
+				{
+					"fileNames": "*.ring",
+					"name": "Ring",
+					"pattern": ".*\\.ring$",
+					"color": "BA68C8",
+					"icon": "/icons/files/ring.svg"
+				},
+				{
 					"fileNames": "*.riot,*.tag",
 					"name": "Riot",
 					"color": "ED1846",
 					"pattern": ".*\\.(riot|tag)$",
-					"icon": "/icons/files/riot.svg"
+					"icon": "/icons/files/riot2.svg"
 				},
 				{
 					"fileNames": "*.robot",
 					"name": "Robot",
 					"color": "FFCB6B",
 					"pattern": ".*\\.robot$",
-					"icon": "/icons/files/robot.svg"
+					"icon": "/icons/files/robot2.svg"
 				},
 				{
 					"fileNames": "rollup.js,rollup.conf.js,rollup.ts",
@@ -4349,6 +4839,20 @@
 					"icon": "/icons/files/rspec.svg"
 				},
 				{
+					"fileNames": "*.rproj",
+					"name": "RStudio",
+					"color": "72a5d4",
+					"pattern": ".*\\.rproj$",
+					"icon": "/icons/files/rstudio.svg"
+				},
+				{
+					"fileNames": "*.rss",
+					"name": "RSS",
+					"color": "f0a005",
+					"pattern": ".*\\.rss$",
+					"icon": "/icons/files/rss.svg"
+				},
+				{
 					"fileNames": "*.rubocop.yml",
 					"name": "Rubocop",
 					"color": "D7252C",
@@ -4370,10 +4874,10 @@
 					"icon": "/icons/files/ruby.svg"
 				},
 				{
-					"fileNames": "*.rs,*.rust",
+					"fileNames": "*.rs,*.rust,*.rlib",
 					"name": "Rust",
 					"color": "a72146",
-					"pattern": ".*\\.(rs|rust)$",
+					"pattern": ".*\\.(rs|rust|rlib)$",
 					"icon": "/icons/files/rust.svg"
 				},
 				{
@@ -4902,10 +5406,10 @@
 					"icon": "/icons/files/unibeautify.svg"
 				},
 				{
-					"fileNames": "*.unity,*.unity3d,*.unityproj,*.unitypackage,*.fbx,*.anim,*.asset,*.cubemap,*.mat,*.meta,*.prefab",
+					"fileNames": "*.unity,*.unity3d,*.unityproj,*.unitypackage,*.u3d,*.ply,*.fbx,*.anim,*.asset,*.cubemap,*.mat,*.meta,*.prefab",
 					"name": "Unity",
 					"color": "1976d2",
-					"pattern": ".*\\.(unity(3d|proj|package)?|fbx|anim|asset|cubemap|mat|meta|prefab)",
+					"pattern": ".*\\.(unity(3d|proj|package)?|fbx|u3d|ply|anim|asset|cubemap|mat|meta|prefab)",
 					"icon": "/icons/files/unity.svg"
 				},
 				{
@@ -4979,10 +5483,10 @@
 					"icon": "/icons/files/vim.svg"
 				},
 				{
-					"fileNames": "*.visio",
+					"fileNames": "*.vsdm,*.vsdx,*.vdx,*.vdw,*.vsd,*.vsw,*.vsx,*.vsl,*.vss,*.vst,*.vrd,*.vtx",
 					"name": "Visio",
 					"color": "82AAFF",
-					"pattern": ".*\\.visio$",
+					"pattern": ".*\\.(vsd[mx]|vd[wx]|vs[dwxlst]|vtx|vrd)$",
 					"icon": "/icons/files/visio.svg"
 				},
 				{
@@ -5483,10 +5987,10 @@
 					"icon": "/icons/files/video.svg"
 				},
 				{
-					"fileNames": "*.cljs,*.clj,*.cljc,*.cljx,*.clojure,*.hic",
+					"fileNames": "*.cljs,*.clj,*.cljc,*.cljx,*.clojure,*.hic,*.rg",
 					"name": "Clojure",
 					"color": "567dd1",
-					"pattern": ".*\\.(clj[cxs]?|clojure|hic)$",
+					"pattern": ".*\\.(clj[cxs]?|clojure|hic|rg)$",
 					"icon": "/icons/files/clojure.svg"
 				},
 				{
@@ -5539,10 +6043,10 @@
 					"icon": "/icons/files/json.svg"
 				},
 				{
-					"fileNames": "*.perl,*.pl,*.pm,*.plx,*.pm,*.al,*.ph,*.psgi",
+					"fileNames": "*.perl,*.pl,*.pl6,*.pm,*.plx,*.pm,*.pm6,*.al,*.ph,*.psgi",
 					"name": "Perl",
 					"color": "4DB6AC",
-					"pattern": ".*\\.(perl|plx?|pm|ph|al|psgi)$",
+					"pattern": ".*\\.(perl|pl[x6]?|pm6?|ph|al|psgi)$",
 					"icon": "/icons/files/perl.svg"
 				},
 				{
@@ -5560,10 +6064,10 @@
 					"icon": "/icons/files/python.svg"
 				},
 				{
-					"fileNames": "*.rb",
+					"fileNames": "*.rb,*.ruby,*.rabl",
 					"name": "Ruby",
 					"color": "D14748",
-					"pattern": ".*\\.rb$",
+					"pattern": ".*\\.(rb|ruby|rabl)$",
 					"icon": "/icons/files/ruby.svg"
 				},
 				{

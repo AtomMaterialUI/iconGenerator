@@ -43,11 +43,11 @@
 					"icon": "/alacritty.svg"
 				},
 				{
-					"folderNames": "android",
+					"folderNames": "android,androidApp",
 					"name": "android",
 					"folderColor": "8bc34a",
 					"iconColor": "dcedc8",
-					"pattern": "^android$",
+					"pattern": "^android(App)?$",
 					"icon": "/android.svg"
 				},
 				{
@@ -315,11 +315,11 @@
 					"icon": "/cvs.svg"
 				},
 				{
-					"folderNames": "db,migrate,database,repo,repos,repositories",
+					"folderNames": "db,migrate,database,repo,repos,repositories,repository",
 					"name": "db",
 					"folderColor": "7CB342",
 					"iconColor": "C5E1A5",
-					"pattern": "^(db|migrate|database|repos?|repositories)$",
+					"pattern": "^(db|migrate|database|repos?|repositories|repository)$",
 					"icon": "/db.svg"
 				},
 				{
@@ -443,11 +443,11 @@
 					"icon": "/env.svg"
 				},
 				{
-					"folderNames": "error,errors,prod,production",
+					"folderNames": "error,errors,prod,production,exception,exceptions",
 					"name": "error",
 					"folderColor": "ef5350",
 					"iconColor": "ffcdd2",
-					"pattern": "^(errors?|prod(uction)?)$",
+					"pattern": "^(errors?|exceptions?|prod(uction)?)$",
 					"icon": "/error.svg"
 				},
 				{
@@ -835,11 +835,11 @@
 					"icon": "/mocks.svg"
 				},
 				{
-					"folderNames": "modal,modals,portal,portals",
+					"folderNames": "modal,modals,portal,portals,usecase,usecases",
 					"name": "modals",
 					"folderColor": "8d6e63",
 					"iconColor": "D7CCC8",
-					"pattern": "^(modals?|portals?)$",
+					"pattern": "^(modals?|portals?|usecases?)$",
 					"icon": "/modals.svg"
 				},
 				{
@@ -1043,6 +1043,14 @@
 					"icon": "/ios.svg"
 				},
 				{
+					"folderNames": "ios,iosApp",
+					"name": "resourceIOS",
+					"folderColor": "78909c",
+					"iconColor": "cfd8dc",
+					"pattern": "^ios(App)?$",
+					"icon": "/ios.svg"
+				},
+				{
 					"folderNames": "review,reviews",
 					"name": "reviews",
 					"folderColor": "2196f3",
@@ -1107,11 +1115,11 @@
 					"icon": "/security.svg"
 				},
 				{
-					"folderNames": "server,http,request,requests,staging,qa",
+					"folderNames": "server,http,request,requests,staging,qa,backend",
 					"name": "server",
 					"folderColor": "FF8F00",
 					"iconColor": "FFECB3",
-					"pattern": "^(server|http|requests?|staging|qa)$",
+					"pattern": "^(server|http|requests?|staging|qa|backend)$",
 					"icon": "/server.svg"
 				},
 				{
@@ -1131,11 +1139,11 @@
 					"icon": "/shared.svg"
 				},
 				{
-					"folderNames": "src,source,sources,code",
+					"folderNames": "src,source,sources,code,buildSrc",
 					"name": "sources",
 					"folderColor": "5C6BC0",
 					"iconColor": "89ddff",
-					"pattern": "^(src|sources?|code)$",
+					"pattern": "^(src|sources?|code|buildSrc)$",
 					"icon": "/src.svg"
 				},
 				{
@@ -1347,11 +1355,11 @@
 					"icon": "/vim.svg"
 				},
 				{
-					"folderNames": "virtual,vm,vms,machine,machines",
+					"folderNames": "virtual,vm,vms,machine,machines,desktop",
 					"name": "vm",
 					"folderColor": "039be5",
 					"iconColor": "b3e5fc",
-					"pattern": "^(virtual|vms?|machines?)$",
+					"pattern": "^(virtual|vms?|machines?|desktop)$",
 					"icon": "/vm.svg"
 				},
 				{
