@@ -1,0 +1,1416 @@
+{
+	"associations": {
+		"associations": {
+			"regex": [
+				{
+					"folderNames": ".acre",
+					"name": "acre",
+					"folderColor": "5C6BC0",
+					"iconColor": "C5CAE9",
+					"pattern": "^\\.acre$",
+					"icon": "/acre.svg"
+				},
+				{
+					"folderNames": "addon,addons",
+					"name": "addons",
+					"folderColor": "7CB342",
+					"iconColor": "dcedc8",
+					"pattern": "^(addons?)$",
+					"icon": "/addon.svg"
+				},
+				{
+					"folderNames": "admin",
+					"name": "admin",
+					"folderColor": "00ad9f",
+					"iconColor": "b3e6e2",
+					"pattern": "^admin$",
+					"icon": "/netlify.svg"
+				},
+				{
+					"folderNames": ".agda",
+					"name": "agda",
+					"folderColor": "616161",
+					"iconColor": "f5f5f5",
+					"pattern": "^\\.agda$",
+					"icon": "/agda.svg"
+				},
+				{
+					"folderNames": "alacritty",
+					"name": "alacritty",
+					"folderColor": "ef5350",
+					"iconColor": "ffcdd2",
+					"pattern": "^alacritty$",
+					"icon": "/alacritty.svg"
+				},
+				{
+					"folderNames": "android",
+					"name": "android",
+					"folderColor": "8bc34a",
+					"iconColor": "dcedc8",
+					"pattern": "^android$",
+					"icon": "/android.svg"
+				},
+				{
+					"folderNames": "animation,animations,anims,anim",
+					"name": "animations",
+					"folderColor": "ec407a",
+					"iconColor": "f8bbd0",
+					"pattern": "^(animations?|anims?)$",
+					"icon": "/animations.svg"
+				},
+				{
+					"folderNames": "group_vars,host_vars,vars,roles",
+					"name": "ansible",
+					"folderColor": "ef5350",
+					"iconColor": "ffcdd2",
+					"pattern": "^(group_vars|host_vars|vars|roles)$",
+					"icon": "/ansible.svg"
+				},
+				{
+					"folderNames": "api,apis,rest,swagger",
+					"name": "api",
+					"folderColor": "FFF176",
+					"iconColor": "F57F17",
+					"pattern": "^(apis?|rest|swagger)$",
+					"icon": "/api.svg"
+				},
+				{
+					"folderNames": "app,application,apps,applications",
+					"name": "app",
+					"folderColor": "ef5350",
+					"iconColor": "ffcdd2",
+					"pattern": "^(apps?|applications?)$",
+					"icon": "/app.svg"
+				},
+				{
+					"folderNames": ".xcworkspace,.xcodeproj",
+					"name": "appstore",
+					"folderColor": "42a5f5",
+					"iconColor": "bbdefb",
+					"pattern": "^\\.(xcodeproj|xcworkspace)$",
+					"icon": "/appstore.svg"
+				},
+				{
+					"folderNames": ".artx,art,arts,wordart,wordarts",
+					"name": "arttext",
+					"folderColor": "a564ef",
+					"iconColor": "E1BEE7",
+					"pattern": "^(\\.artx|arts?|wordarts?)$",
+					"icon": "/arttext.svg"
+				},
+				{
+					"folderNames": ".atom,.atom-ci",
+					"name": "atom",
+					"folderColor": "689F38",
+					"iconColor": "E6EE9C",
+					"pattern": "^\\.atom(-ci)?$",
+					"icon": "/atom.svg"
+				},
+				{
+					"folderNames": "mp3,wav,music,musics,audio,sound,sounds",
+					"name": "audio",
+					"folderColor": "ef5350",
+					"iconColor": "ffcdd2",
+					"pattern": "^(mp3|wav|musics?|audio|sounds?)$",
+					"icon": "/audio.svg"
+				},
+				{
+					"folderNames": "archive,archives,jar,jars,zip,zips,backups,backup",
+					"name": "archives",
+					"folderColor": "795548",
+					"iconColor": "D7CCC8",
+					"pattern": "^(archives?|jars?|zips?|backups?)",
+					"icon": "/archive.svg"
+				},
+				{
+					"folderNames": "aurelia_project",
+					"name": "aurelia",
+					"folderColor": "f06292",
+					"iconColor": "F8BBD0",
+					"pattern": "^aurelia_project$",
+					"icon": "/aurelia.svg"
+				},
+				{
+					"folderNames": "aws,.aws",
+					"name": "aws",
+					"folderColor": "FF8F00",
+					"iconColor": "ffecb3",
+					"pattern": "^\\.?aws$",
+					"icon": "/aws.svg"
+				},
+				{
+					"folderNames": "azuredevops,azure-devops",
+					"name": "azuredevops",
+					"folderColor": "b3e5fc",
+					"iconColor": "0077db",
+					"pattern": "^(azuredevops?|azure-devops?)$",
+					"icon": "/azure-devops.svg"
+				},
+				{
+					"folderNames": ".bzr",
+					"name": "bazaar",
+					"folderColor": "009688",
+					"iconColor": "B2DFDB",
+					"pattern": "^.bzr$",
+					"icon": "/bazaar.svg"
+				},
+				{
+					"folderNames": "benchmark,benchmarks",
+					"name": "benchmark",
+					"folderColor": "009688",
+					"iconColor": "B2DFDB",
+					"pattern": "^benchmarks?$",
+					"icon": "/benchmark.svg"
+				},
+				{
+					"folderNames": "bower_components",
+					"name": "bower",
+					"folderColor": "F4511E",
+					"iconColor": "FFCCBC",
+					"pattern": "^bower_components$",
+					"icon": "/bower.svg"
+				},
+				{
+					"folderNames": ".cabal",
+					"name": "cabal",
+					"folderColor": "673AB7",
+					"iconColor": "c792ea",
+					"pattern": "^\\.cabal$",
+					"icon": "/cabal.svg"
+				},
+				{
+					"folderNames": "channel,channels",
+					"name": "channels",
+					"folderColor": "1E88E5",
+					"iconColor": "90CAF9",
+					"pattern": "^(channels?)$",
+					"icon": "/messages.svg"
+				},
+				{
+					"folderNames": ".chef,chef,recipe,recipes",
+					"name": "chef",
+					"folderColor": "EA7130",
+					"iconColor": "FFCCBC",
+					"pattern": "^(\\.?chef|recipes?)$",
+					"icon": "/chef.svg"
+				},
+				{
+					"folderNames": "ci,integration,integrations",
+					"name": "ci",
+					"folderColor": "0288d1",
+					"iconColor": "b3e5fc",
+					"pattern": "^(ci|integrations?)$",
+					"icon": "/ci.svg"
+				},
+				{
+					"folderNames": "client",
+					"name": "client",
+					"folderColor": "039BE5",
+					"iconColor": "b3e5fc",
+					"pattern": "^client$",
+					"icon": "/client.svg"
+				},
+				{
+					"folderNames": ".circleci",
+					"name": "circleci",
+					"folderColor": "546E7A",
+					"iconColor": "FAFAFA",
+					"pattern": "^\\.?circleci$",
+					"icon": "/circleci.svg"
+				},
+				{
+					"folderNames": "cluster,clusters,node,nodes",
+					"name": "cluster",
+					"folderColor": "26A69A",
+					"iconColor": "b3e5fc",
+					"pattern": "^(clusters?|nodes?)$",
+					"icon": "/cluster.svg"
+				},
+				{
+					"folderNames": "component,components,widget,widgets,element,elements,ui",
+					"name": "components",
+					"folderColor": "F9A825",
+					"iconColor": "FFECB3",
+					"pattern": "^(components?|widgets?|elements?|ui)$",
+					"icon": "/components.svg"
+				},
+				{
+					"folderNames": "config,conf,settings,.config,.conf,.settings",
+					"name": "config",
+					"folderColor": "00ACC1",
+					"iconColor": "80DEEA",
+					"pattern": "^\\.?(config|conf|settings)$",
+					"icon": "/config.svg"
+				},
+				{
+					"folderNames": "container,containers",
+					"name": "containers",
+					"folderColor": "1976D2",
+					"iconColor": "bbdefb",
+					"pattern": "^(containers?)$",
+					"icon": "/container.svg"
+				},
+				{
+					"folderNames": "content,contents,cont",
+					"name": "content",
+					"folderColor": "00BCD4",
+					"iconColor": "b2ebf2",
+					"pattern": "^(contents?|cont)$",
+					"icon": "/content.svg"
+				},
+				{
+					"folderNames": "constant,constants,const",
+					"name": "constants",
+					"folderColor": "607D8B",
+					"iconColor": "CFD8DC",
+					"pattern": "^(constants?|const)$",
+					"icon": "/constants.svg"
+				},
+				{
+					"folderNames": "controller,controllers,ctrl,ctrls",
+					"name": "controllers",
+					"folderColor": "C2185B",
+					"iconColor": "F48FB1",
+					"pattern": "^(controllers?|ctrls?)$",
+					"icon": "/controllers.svg"
+				},
+				{
+					"folderNames": "bin,core,support,io",
+					"name": "core",
+					"folderColor": "4DB6AC",
+					"iconColor": "E0F2F1",
+					"pattern": "^(bin|core|support|io)$",
+					"icon": "/core.svg"
+				},
+				{
+					"folderNames": "coverage",
+					"name": "coverage",
+					"folderColor": "689f38",
+					"iconColor": "dcedc8",
+					"pattern": "^coverage$",
+					"icon": "/coverage.svg"
+				},
+				{
+					"folderNames": "cron,scheduler",
+					"name": "cron",
+					"folderColor": "757575",
+					"iconColor": "FFEE58",
+					"pattern": "^(cron|scheduler)$",
+					"icon": "/serverless.svg"
+				},
+				{
+					"folderNames": "custom",
+					"name": "custom",
+					"folderColor": "ff7043",
+					"iconColor": "ffccbc",
+					"pattern": "^custom$",
+					"icon": "/custom.svg"
+				},
+				{
+					"folderNames": "CVS",
+					"name": "cvs",
+					"folderColor": "FBC02D",
+					"iconColor": "FFECB3",
+					"pattern": "^CVS$",
+					"icon": "/cvs.svg"
+				},
+				{
+					"folderNames": "db,migrate,database,repo,repos,repositories",
+					"name": "db",
+					"folderColor": "7CB342",
+					"iconColor": "C5E1A5",
+					"pattern": "^(db|migrate|database|repos?|repositories)$",
+					"icon": "/db.svg"
+				},
+				{
+					"folderNames": "debug,debugging",
+					"name": "debug",
+					"folderColor": "D32F2F",
+					"iconColor": "F48FB1",
+					"pattern": "^(debug|debugging)$",
+					"icon": "/debug.svg"
+				},
+				{
+					"folderNames": "delta,deltas,diff",
+					"name": "delta",
+					"folderColor": "EC407A",
+					"iconColor": "F8BBD0",
+					"pattern": "^(deltas?|diff)$",
+					"icon": "/delta.svg"
+				},
+				{
+					"folderNames": ".deno",
+					"name": "deno",
+					"folderColor": "5D4037",
+					"iconColor": "D7CCC8",
+					"pattern": "^\\.deno$",
+					"icon": "/deno.svg"
+				},
+				{
+					"folderNames": ".dependabot",
+					"name": "dependabot",
+					"folderColor": "039BE5",
+					"iconColor": "B3E5FC",
+					"pattern": "^\\.dependabot$",
+					"icon": "/dependabot.svg"
+				},
+				{
+					"folderNames": "deploy",
+					"name": "deploy",
+					"folderColor": "FF8F00",
+					"iconColor": "ffecb3",
+					"pattern": "^deploy$",
+					"icon": "/aws.svg"
+				},
+				{
+					"folderNames": ".devcontainer",
+					"name": "devcontainer",
+					"folderColor": "ff7043",
+					"iconColor": "ffccbc",
+					"pattern": "^\\.devcontainer$",
+					"icon": "/devcontainer.svg"
+				},
+				{
+					"folderNames": "dist,out,build,release",
+					"name": "dist",
+					"folderColor": "e57373",
+					"iconColor": "ffcdd2",
+					"pattern": "^(dist|out|build|release)$",
+					"icon": "/dist.svg"
+				},
+				{
+					"folderNames": "docker,.docker",
+					"name": "docker",
+					"folderColor": "039be5",
+					"iconColor": "b3e5fc",
+					"pattern": "^\\.?docker$",
+					"icon": "/docker.svg"
+				},
+				{
+					"folderNames": "doc,docs,documentation",
+					"name": "docs",
+					"folderColor": "0277bd",
+					"iconColor": "b3e5fc",
+					"pattern": "^(docs?|documentation)$",
+					"icon": "/docs.svg"
+				},
+				{
+					"folderNames": "download,downloads",
+					"name": "download",
+					"folderColor": "4caf50",
+					"iconColor": "c8e6c9",
+					"pattern": "^downloads?$",
+					"icon": "/download.svg"
+				},
+				{
+					"folderNames": "dropbox,.dropbox,.dropbox.cache",
+					"name": "dropbox",
+					"folderColor": "0277bd",
+					"iconColor": "b3e5fc",
+					"pattern": "^\\.?dropbox(\\.cache)?$",
+					"icon": "/dropbox.svg"
+				},
+				{
+					"folderNames": "dump,dumps,data",
+					"name": "dump",
+					"folderColor": "757575",
+					"iconColor": "bdbdbd",
+					"pattern": "^(dumps?|data)$",
+					"icon": "/dump.svg"
+				},
+				{
+					"folderNames": "e2e,scenario,scenarios",
+					"name": "e2e",
+					"folderColor": "00796B",
+					"iconColor": "e0f2f1",
+					"pattern": "^(e2e|scenarios?)$",
+					"icon": "/e2e.svg"
+				},
+				{
+					"folderNames": ".emacs.d",
+					"name": "emacs",
+					"folderColor": "9C27B0",
+					"iconColor": "E1BEE7",
+					"pattern": "^\\.emacs\\.d$",
+					"icon": "/emacs.svg"
+				},
+				{
+					"folderNames": "env,envs,environment,environments",
+					"name": "env",
+					"folderColor": "8BC34A",
+					"iconColor": "DCEDC8",
+					"pattern": "^(envs?|environments?)$",
+					"icon": "/env.svg"
+				},
+				{
+					"folderNames": "error,errors,prod,production",
+					"name": "error",
+					"folderColor": "ef5350",
+					"iconColor": "ffcdd2",
+					"pattern": "^(errors?|prod(uction)?)$",
+					"icon": "/error.svg"
+				},
+				{
+					"folderNames": "event,events",
+					"name": "events",
+					"folderColor": "66BB6A",
+					"iconColor": "C8E6C9",
+					"pattern": "^(events?)$",
+					"icon": "/events.svg"
+				},
+				{
+					"folderNames": "example,examples,ex,exs",
+					"name": "example",
+					"folderColor": "009688",
+					"iconColor": "b2dfdb",
+					"pattern": "^(examples?|exs?)$",
+					"icon": "/examples.svg"
+				},
+				{
+					"folderNames": "exclude,excludes,external",
+					"name": "exclude",
+					"folderColor": "ff8a65",
+					"iconColor": "fbe9e7",
+					"pattern": "^(excludes?|external)$",
+					"icon": "/exclude.svg"
+				},
+				{
+					"folderNames": ".expo,.expo-shared",
+					"name": "expo",
+					"folderColor": "01579b",
+					"iconColor": "9FA8DA",
+					"pattern": "^\\.expo(-shared)?$",
+					"icon": "/expo.svg"
+				},
+				{
+					"folderNames": "feature,features,feat,feats",
+					"name": "features",
+					"folderColor": "ef5350",
+					"iconColor": "ffcdd2",
+					"pattern": "^(features?|feats?)$",
+					"icon": "/rules.svg"
+				},
+				{
+					"folderNames": ".firebase",
+					"name": "firebase",
+					"folderColor": "fbc02d",
+					"iconColor": "fff9c4",
+					"pattern": "^\\.firebase$",
+					"icon": "/firebase.svg"
+				},
+				{
+					"folderNames": "fixture,fixtures,fabricator,fabricators,factory,factories",
+					"name": "fixtures",
+					"folderColor": "9E9D24",
+					"iconColor": "F0F4C3",
+					"pattern": "^(fixtures?|fabricators?|factory|factories)$",
+					"icon": "/fixtures.svg"
+				},
+				{
+					"folderNames": "flow,def,defs",
+					"name": "flow",
+					"folderColor": "37474F",
+					"iconColor": "fbc02d",
+					"pattern": "^(flow|defs?)$",
+					"icon": "/flow.svg"
+				},
+				{
+					"folderNames": "font,fonts",
+					"name": "fonts",
+					"folderColor": "607D8B",
+					"iconColor": "CFD8DC",
+					"pattern": "^fonts?$",
+					"icon": "/fonts.svg"
+				},
+				{
+					"folderNames": "function,functions,service,services,lambda,lambdas",
+					"name": "functions",
+					"folderColor": "039BE5",
+					"iconColor": "B3E5FC",
+					"pattern": "^(functions?|services?|lambdas?)$",
+					"icon": "/functions.svg"
+				},
+				{
+					"folderNames": "gen,generated,auto",
+					"name": "generated",
+					"folderColor": "EC407A",
+					"iconColor": "FCE4EC",
+					"pattern": "^(gen|generated|auto)$",
+					"icon": "/generated.svg"
+				},
+				{
+					"folderNames": ".git,.submodules",
+					"name": "git",
+					"folderColor": "ff7043",
+					"iconColor": "ffccbc",
+					"pattern": "^(\\.git|\\.submodules)$",
+					"icon": "/git.svg"
+				},
+				{
+					"folderNames": "github,.github",
+					"name": "github",
+					"folderColor": "546e7a",
+					"iconColor": "eceff1",
+					"pattern": "^\\.?github$",
+					"icon": "/github.svg"
+				},
+				{
+					"folderNames": "gitlab,.gitlab",
+					"name": "gitlab",
+					"folderColor": "e24329",
+					"iconColor": "FFCDD2",
+					"pattern": "^\\.?gitlab$",
+					"icon": "/gitlab.svg"
+				},
+				{
+					"folderNames": "global",
+					"name": "global",
+					"folderColor": "5c6bc0",
+					"iconColor": "c5cae9",
+					"pattern": "^global$",
+					"icon": "/global.svg"
+				},
+				{
+					"folderNames": ".gradle,gradle",
+					"name": "gradle",
+					"folderColor": "0097a7",
+					"iconColor": "b2ebf2",
+					"pattern": "^\\.?gradle$",
+					"icon": "/gradle.svg"
+				},
+				{
+					"folderNames": "graphql,gql,schema,schemas",
+					"name": "graphql",
+					"folderColor": "ec407a",
+					"iconColor": "f8bbd0",
+					"pattern": "^(graphql|gql|schemas?)$",
+					"icon": "/graphql.svg"
+				},
+				{
+					"folderNames": "grunt",
+					"name": "grunt",
+					"folderColor": "C17900",
+					"iconColor": "FFECB3",
+					"pattern": "^grunt$",
+					"icon": "/grunt.svg"
+				},
+				{
+					"folderNames": "guard,guards,dev,development",
+					"name": "guard",
+					"folderColor": "43a047",
+					"iconColor": "c8e6c9",
+					"pattern": "^(guards?|dev(elopment)?)$",
+					"icon": "/guard.svg"
+				},
+				{
+					"folderNames": "gulp",
+					"name": "gulp",
+					"folderColor": "ef5350",
+					"iconColor": "ffcdd2",
+					"pattern": "^gulp$",
+					"icon": "/gulp.svg"
+				},
+				{
+					"folderNames": "helper,helpers,help",
+					"name": "helper",
+					"folderColor": "afb42b",
+					"iconColor": "f0f4c3",
+					"pattern": "^(helpers?|help)$",
+					"icon": "/helper.svg"
+				},
+				{
+					"folderNames": "hooks,hook,triggers,trigger",
+					"name": "hooks",
+					"folderColor": "9575CD",
+					"iconColor": "D1C4E9",
+					"pattern": "^(hooks?|triggers?)",
+					"icon": "/hook.svg"
+				},
+				{
+					"folderNames": "i18n,lang,langs,language,languages,localization,locale,locales,translation,translations",
+					"name": "i18n",
+					"folderColor": "5c6bc0",
+					"iconColor": "c5cae9",
+					"pattern": "^(i18n|langs?|languages?|localization|locales?|translations?)$",
+					"icon": "/i18n.svg"
+				},
+				{
+					"folderNames": "icon,icons,ico,glyph,glyphs",
+					"name": "icons",
+					"folderColor": "009688",
+					"iconColor": "b2dfdb",
+					"pattern": "^(icons?|ico|glyphs?)$",
+					"icon": "/icons.svg"
+				},
+				{
+					"folderNames": ".idea",
+					"name": "idea",
+					"folderColor": "00BCD4",
+					"iconColor": "087CFA",
+					"pattern": "^\\.idea$",
+					"icon": "/idea.svg"
+				},
+				{
+					"folderNames": "image,images,img,medias,media",
+					"name": "images",
+					"folderColor": "009688",
+					"iconColor": "b2dfdb",
+					"pattern": "^(images?|img|medias?)$",
+					"icon": "/images.svg"
+				},
+				{
+					"folderNames": "includes,include,import,imports,concerns,concern,dep,deps",
+					"name": "include",
+					"folderColor": "039be5",
+					"iconColor": "b3e5fc",
+					"pattern": "^(includes?|imports?|concerns?|deps?)$",
+					"icon": "/include.svg"
+				},
+				{
+					"folderNames": "init,initializers,initializer,startup",
+					"name": "init",
+					"folderColor": "9575CD",
+					"iconColor": "D1C4E9",
+					"pattern": "^(init|initializers?|startup)$",
+					"icon": "/hook.svg"
+				},
+				{
+					"folderNames": ".nyc,.nyc-output,.nyc_output",
+					"name": "istanbul",
+					"folderColor": "FFB300",
+					"iconColor": "FFF9C4",
+					"pattern": "^\\.nyc[-_]output$",
+					"icon": "/istanbul.svg"
+				},
+				{
+					"folderNames": "javascript,javascripts,js",
+					"name": "javascript",
+					"folderColor": "F9A825",
+					"iconColor": "FFFFFF",
+					"pattern": "^(javascripts?|js)$",
+					"icon": "/js.svg"
+				},
+				{
+					"folderNames": "jinja",
+					"name": "jinja",
+					"folderColor": "607D8B",
+					"iconColor": "CFD8DC",
+					"pattern": "^jinja$",
+					"icon": "/jinja.svg"
+				},
+				{
+					"folderNames": "jobs,job,resque",
+					"name": "jobs",
+					"folderColor": "AB47BC",
+					"iconColor": "E1BEE7",
+					"pattern": "^(jobs?|resque)$",
+					"icon": "/job.svg"
+				},
+				{
+					"folderNames": "jsons,json,serializer,serializers",
+					"name": "json",
+					"folderColor": "fbc02d",
+					"iconColor": "fff9c4",
+					"pattern": "^(jsons?|serializers?)$",
+					"icon": "/json.svg"
+				},
+				{
+					"folderNames": "key,keys,cert,certs",
+					"name": "keys",
+					"folderColor": "BDBDBD",
+					"iconColor": "FFFFFF",
+					"pattern": "^(keys?|certs?)$",
+					"icon": "/keys.svg"
+				},
+				{
+					"folderNames": "kubernetes,k8s",
+					"name": "kubernetes",
+					"folderColor": "64b5f6",
+					"iconColor": "1976d2",
+					"pattern": "^(kubernetes|k8s)$",
+					"icon": "/kubernetes.svg"
+				},
+				{
+					"folderNames": "layout,layouts,_layout,_layouts",
+					"name": "layouts",
+					"folderColor": "303F9F",
+					"iconColor": "7986CB",
+					"pattern": "^_?layouts?$",
+					"icon": "/layouts.svg"
+				},
+				{
+					"folderNames": "less",
+					"name": "less",
+					"folderColor": "0277bd",
+					"iconColor": "b3e5fc",
+					"pattern": "^less$",
+					"icon": "/less.svg"
+				},
+				{
+					"folderNames": "log,logs",
+					"name": "logs",
+					"folderColor": "607D8B",
+					"iconColor": "B0BEC5",
+					"pattern": "^logs?$",
+					"icon": "/logs.svg"
+				},
+				{
+					"folderNames": "mailer,mailers,email,emails,mail,mails",
+					"name": "mailers",
+					"folderColor": "42a5f5",
+					"iconColor": "BBDEFB",
+					"pattern": "^(mailers?|emails?|mails?)$",
+					"icon": "/mailers.svg"
+				},
+				{
+					"folderNames": "md,markdown",
+					"name": "markdown",
+					"folderColor": "0277bd",
+					"iconColor": "b3e5fc",
+					"pattern": "^(md|markdown)$",
+					"icon": "/markdown.svg"
+				},
+				{
+					"folderNames": "maven",
+					"name": "maven",
+					"folderColor": "93254A",
+					"iconColor": "F13C6F",
+					"pattern": "^maven$",
+					"icon": "/maven.svg"
+				},
+				{
+					"folderNames": "map,maps,mapping,mappings,mapper,mappers",
+					"name": "maps",
+					"folderColor": "afb42b",
+					"iconColor": "f0f4c3",
+					"pattern": "^(maps?|mappings?|mappers?)$",
+					"icon": "/maps.svg"
+				},
+				{
+					"folderNames": "message,messages,msg,msgs",
+					"name": "messages",
+					"folderColor": "1E88E5",
+					"iconColor": "90CAF9",
+					"pattern": "^(messages?|msgs?)$",
+					"icon": "/messages.svg"
+				},
+				{
+					"folderNames": ".hg",
+					"name": "mercurial",
+					"folderColor": "03A9F4",
+					"iconColor": "89DDFF",
+					"pattern": "^\\.hg$",
+					"icon": "/mercurial.svg"
+				},
+				{
+					"folderNames": "meta,META-INF",
+					"name": "meta",
+					"folderColor": "00BCD4",
+					"iconColor": "B2EBF2",
+					"pattern": "^(meta|META-INF)$",
+					"icon": "/meta.svg"
+				},
+				{
+					"folderNames": ".meteor",
+					"name": "meteor",
+					"folderColor": "AC7B69",
+					"iconColor": "EFEBE9",
+					"pattern": "^\\.meteor$",
+					"icon": "/meteor.svg"
+				},
+				{
+					"folderNames": "middleware,middlewares,thunk,thunks",
+					"name": "middlewares",
+					"folderColor": "5c6bc0",
+					"iconColor": "c5cae9",
+					"pattern": "^(middlewares?|thunks?)$",
+					"icon": "/middleware.svg"
+				},
+				{
+					"folderNames": "mock,mocks,fake,fakes,stub,stubs",
+					"name": "mocks",
+					"folderColor": "8d6e63",
+					"iconColor": "BCAAA4",
+					"pattern": "^(mocks?|fakes?|stubs?)$",
+					"icon": "/mocks.svg"
+				},
+				{
+					"folderNames": "modal,modals,portal,portals",
+					"name": "modals",
+					"folderColor": "8d6e63",
+					"iconColor": "D7CCC8",
+					"pattern": "^(modals?|portals?)$",
+					"icon": "/modals.svg"
+				},
+				{
+					"folderNames": "model,models,struct,structs,class,classes",
+					"name": "models",
+					"folderColor": "00796B",
+					"iconColor": "80CBC4",
+					"pattern": "^(models?|structs?|class|classes)$",
+					"icon": "/models.svg"
+				},
+				{
+					"folderNames": ".netlify",
+					"name": "netlify",
+					"folderColor": "00ad9f",
+					"iconColor": "b3e6e2",
+					"pattern": "^\\.netlify",
+					"icon": "/netlify.svg"
+				},
+				{
+					"folderNames": "node_modules",
+					"name": "node_modules",
+					"folderColor": "8bc34a",
+					"iconColor": "dcedc8",
+					"pattern": "^node_modules$",
+					"icon": "/node.svg"
+				},
+				{
+					"folderNames": "notif,notification,notifications,flash",
+					"name": "notification",
+					"folderColor": "00B0FF",
+					"iconColor": "B3E5FC",
+					"pattern": "(notif|notifications?|flash)",
+					"icon": "/notification.svg"
+				},
+				{
+					"folderNames": "nuxt,.nuxt",
+					"name": "nuxt",
+					"folderColor": "546e7a",
+					"iconColor": "41b883",
+					"pattern": "(nuxt|.nuxt)",
+					"icon": "/nuxt.svg"
+				},
+				{
+					"folderNames": "other,misc,extra,extras",
+					"name": "other",
+					"folderColor": "795548",
+					"iconColor": "BCAAA4",
+					"pattern": "^(other|misc|extras?)$",
+					"icon": "/other.svg"
+				},
+				{
+					"folderNames": "package,packages,bundle,bundles,.bundle,.paket,module,modules",
+					"name": "packages",
+					"folderColor": "5C6BC0",
+					"iconColor": "C5CAE9",
+					"pattern": "^(packages?|\\.?bundles?|\\.paket|modules?)$",
+					"icon": "/packages.svg"
+				},
+				{
+					"folderNames": "php,phtml",
+					"name": "php",
+					"folderColor": "673AB7",
+					"iconColor": "89AAFF",
+					"pattern": "^(php|phtml)$",
+					"icon": "/php.svg"
+				},
+				{
+					"folderNames": "pipe,pipes,filter,filters",
+					"name": "pipe",
+					"folderColor": "00897b",
+					"iconColor": "b2dfdb",
+					"pattern": "^(pipes?|filters?)$",
+					"icon": "/pipe.svg"
+				},
+				{
+					"folderNames": "plugin,plugins,mu-plugins",
+					"name": "plugin",
+					"folderColor": "00796B",
+					"iconColor": "80CBC4",
+					"pattern": "^(mu-)?plugins?$",
+					"icon": "/plugin.svg"
+				},
+				{
+					"folderNames": "post,posts",
+					"name": "posts",
+					"folderColor": "D81B60",
+					"iconColor": "FFFDE7",
+					"pattern": "^posts?$",
+					"icon": "/posts.svg"
+				},
+				{
+					"folderNames": "project,projects",
+					"name": "projects",
+					"folderColor": "5C6BC0",
+					"iconColor": "C5CAE9",
+					"pattern": "^projects?$",
+					"icon": "/projects.svg"
+				},
+				{
+					"folderNames": ".prisma",
+					"name": "prisma",
+					"folderColor": "00BFA5",
+					"iconColor": "a7ffeb",
+					"pattern": "^\\.prisma$",
+					"icon": "/prisma.svg"
+				},
+				{
+					"folderNames": "private",
+					"name": "private",
+					"folderColor": "ff5252",
+					"iconColor": "ffcdd2",
+					"pattern": "^private$",
+					"icon": "/private.svg"
+				},
+				{
+					"folderNames": "provider,providers",
+					"name": "providers",
+					"folderColor": "757575",
+					"iconColor": "FFEE58",
+					"pattern": "^providers?$",
+					"icon": "/providers.svg"
+				},
+				{
+					"folderNames": "python",
+					"name": "python",
+					"folderColor": "3949AB",
+					"iconColor": "FFE0B2",
+					"pattern": "^python$",
+					"icon": "/python.svg"
+				},
+				{
+					"folderNames": "react,react_components,react-scripts",
+					"name": "react",
+					"folderColor": "00bcd4",
+					"iconColor": "E0F7FA",
+					"pattern": "^react[_-]?.*",
+					"icon": "/react.svg"
+				},
+				{
+					"folderNames": "action,actions",
+					"name": "redux-actions",
+					"folderColor": "ab47bc",
+					"iconColor": "e1bee7",
+					"pattern": "^actions?$",
+					"icon": "/redux-actions.svg"
+				},
+				{
+					"folderNames": "epic,epics",
+					"name": "redux-epics",
+					"folderColor": "64B5F6",
+					"iconColor": "BBDEFB",
+					"pattern": "^epics?$",
+					"icon": "/redux-epics.svg"
+				},
+				{
+					"folderNames": "reducer,reducers",
+					"name": "redux-reducers",
+					"folderColor": "689F38",
+					"iconColor": "dcedc8",
+					"pattern": "^reducers?$",
+					"icon": "/redux-reducers.svg"
+				},
+				{
+					"folderNames": "saga,sagas",
+					"name": "redux-sagas",
+					"folderColor": "ef5350",
+					"iconColor": "ffcdd2",
+					"pattern": "^sagas?$",
+					"icon": "/redux-sagas.svg"
+				},
+				{
+					"folderNames": "store,stores",
+					"name": "redux-stores",
+					"folderColor": "00ACC1",
+					"iconColor": "B2EBF2",
+					"pattern": "^stores?$",
+					"icon": "/redux-stores.svg"
+				},
+				{
+					"folderNames": "relay",
+					"name": "relay",
+					"folderColor": "F26B00",
+					"iconColor": "FFECB3",
+					"pattern": "^relay$",
+					"icon": "/relay.svg"
+				},
+				{
+					"folderNames": "res,resource,resources,asset,assets",
+					"name": "resource",
+					"folderColor": "8E24AA",
+					"iconColor": "CE93D8",
+					"pattern": "^(res|resources?|assets?)$",
+					"icon": "/resource.svg"
+				},
+				{
+					"folderNames": "Assets.xcassets,Base.lproj",
+					"name": "resourceIOS",
+					"folderColor": "78909c",
+					"iconColor": "cfd8dc",
+					"pattern": ".*\\.(xcassets|lproj)",
+					"icon": "/ios.svg"
+				},
+				{
+					"folderNames": "review,reviews",
+					"name": "reviews",
+					"folderColor": "2196f3",
+					"iconColor": "bbdefb",
+					"pattern": "^reviews?$",
+					"icon": "/reviews.svg"
+				},
+				{
+					"folderNames": "routes,router",
+					"name": "routes",
+					"folderColor": "607D8B",
+					"iconColor": "ECEFF1",
+					"pattern": "^(routes|router)$",
+					"icon": "/routes.svg"
+				},
+				{
+					"folderNames": "ruby,rubies,rb,gem,gems",
+					"name": "ruby",
+					"folderColor": "D14748",
+					"iconColor": "FFCDD2",
+					"pattern": "^(ruby|rubies|rb|gems?)$",
+					"icon": "/ruby.svg"
+				},
+				{
+					"folderNames": "validation,validations,validator,validators,rule,rules",
+					"name": "rules",
+					"folderColor": "ef5350",
+					"iconColor": "ffcdd2",
+					"pattern": "^(validations?|validators?|rules?)$",
+					"icon": "/rules.svg"
+				},
+				{
+					"folderNames": "sass,scss",
+					"name": "sass",
+					"folderColor": "f06292",
+					"iconColor": "fce4ec",
+					"pattern": "^(sass|scss)$",
+					"icon": "/sass.svg"
+				},
+				{
+					"folderNames": "screens,screen,screenshot,screenshots",
+					"name": "screens",
+					"folderColor": "009688",
+					"iconColor": "b2dfdb",
+					"pattern": "^(screens?|screenshots?)$",
+					"icon": "/screens.svg"
+				},
+				{
+					"folderNames": "script,scripts,selector,selectors",
+					"name": "scripts",
+					"folderColor": "546e7a",
+					"iconColor": "cfd8dc",
+					"pattern": "^(scripts?|selectors?)$",
+					"icon": "/scripts.svg"
+				},
+				{
+					"folderNames": "secure,security",
+					"name": "security",
+					"folderColor": "f9a825",
+					"iconColor": "fff9c4",
+					"pattern": "^(secure|security)$",
+					"icon": "/security.svg"
+				},
+				{
+					"folderNames": "server,http,request,requests,staging,qa",
+					"name": "server",
+					"folderColor": "FF8F00",
+					"iconColor": "FFECB3",
+					"pattern": "^(server|http|requests?|staging|qa)$",
+					"icon": "/server.svg"
+				},
+				{
+					"folderNames": ".serverless,serverless",
+					"name": "serverless",
+					"folderColor": "757575",
+					"iconColor": "FFEE58",
+					"pattern": "^\\.?serverless$",
+					"icon": "/serverless.svg"
+				},
+				{
+					"folderNames": "shared, common",
+					"name": "shared",
+					"folderColor": "66BB6A",
+					"iconColor": "C8E6C9",
+					"pattern": "^(shared|common)$",
+					"icon": "/shared.svg"
+				},
+				{
+					"folderNames": "src,source,sources,code",
+					"name": "sources",
+					"folderColor": "5C6BC0",
+					"iconColor": "89ddff",
+					"pattern": "^(src|sources?|code)$",
+					"icon": "/src.svg"
+				},
+				{
+					"folderNames": "sql,mysql,pgsql",
+					"name": "sql",
+					"folderColor": "0288D1",
+					"iconColor": "b2dfdb",
+					"pattern": "^(sql|mysql|pgsql)$",
+					"icon": "/sql.svg"
+				},
+				{
+					"folderNames": "stack,stacks,structure,structures",
+					"name": "stack",
+					"folderColor": "FFA726",
+					"iconColor": "ffe0b2",
+					"pattern": "^(structures?|stacks?)$",
+					"icon": "/stack.svg"
+				},
+				{
+					"folderNames": "stories,storybook,storybooks",
+					"name": "storybook",
+					"folderColor": "AD1457",
+					"iconColor": "F48FB1",
+					"pattern": "^(stories|storybooks?)$",
+					"icon": "/storybook.svg"
+				},
+				{
+					"folderNames": ".storybook",
+					"name": "storybookConfig",
+					"folderColor": "AD1457",
+					"iconColor": "F48FB1",
+					"pattern": "^\\.storybook$",
+					"icon": "/storybook.svg"
+				},
+				{
+					"folderNames": "css,style,styles,stylesheet,stylesheets",
+					"name": "styles",
+					"folderColor": "42a5f5",
+					"iconColor": "bbdefb",
+					"pattern": "^(css|styles?|stylesheets?)$",
+					"icon": "/styles.svg"
+				},
+				{
+					"folderNames": "styl,stylus",
+					"name": "stylus",
+					"folderColor": "AFB42B",
+					"iconColor": "f0f4c3",
+					"pattern": "^(styl|stylus)$",
+					"icon": "/stylus.svg"
+				},
+				{
+					"folderNames": ".sublime",
+					"name": "sublime",
+					"folderColor": "616161",
+					"iconColor": "FFA726",
+					"pattern": "^\\.sublime$",
+					"icon": "/sublime.svg"
+				},
+				{
+					"folderNames": "svg,svgs,svgicon,svgicons,graphic,graphics",
+					"name": "svg",
+					"folderColor": "ffb300",
+					"iconColor": "fff9c4",
+					"pattern": "^(svgs?|svgicons?|graphics?)$",
+					"icon": "/svg.svg"
+				},
+				{
+					"folderNames": ".svn",
+					"name": "svn",
+					"folderColor": "5C6BC0",
+					"iconColor": "C5CAE9",
+					"pattern": "^\\.svn$",
+					"icon": "/svn.svg"
+				},
+				{
+					"folderNames": "sync,synced",
+					"name": "sync",
+					"folderColor": "0288d1",
+					"iconColor": "b3e5fc",
+					"pattern": "^(sync|synced)$",
+					"icon": "/sync.svg"
+				},
+				{
+					"folderNames": "syntax,syntaxes,spellcheck",
+					"name": "syntax",
+					"folderColor": "ef5350",
+					"iconColor": "FFCDD2",
+					"pattern": "^(syntax|syntaxes|spellcheck)$",
+					"icon": "/syntax.svg"
+				},
+				{
+					"folderNames": "task,tasks,command,commands,console,consoles,.run",
+					"name": "tasks",
+					"folderColor": "795774",
+					"iconColor": "CE93D8",
+					"pattern": "^(tasks?|commands?|consoles?|.run)$",
+					"icon": "/tasks.svg"
+				},
+				{
+					"folderNames": "tmp,.tmp,temp,.temp,cache,.cache",
+					"name": "temp",
+					"folderColor": "8D6E63",
+					"iconColor": "D7CCC8",
+					"pattern": "^(\\.?tmp|\\.?temp|\\.?cache)$",
+					"icon": "/temp.svg"
+				},
+				{
+					"folderNames": "test,tests,spec,specs,unit,units",
+					"name": "tests",
+					"folderColor": "1DE9B6",
+					"iconColor": "00897B",
+					"pattern": "^(tests?|specs?|units?)$",
+					"icon": "/tests.svg"
+				},
+				{
+					"folderNames": ".tmBundle",
+					"name": "textmate",
+					"folderColor": "9C27B0",
+					"iconColor": "C792EA",
+					"pattern": "^\\.tmBundle$",
+					"icon": "/textmate.svg"
+				},
+				{
+					"folderNames": "theme,themes,color,colors,scheme,schemes,skin,skins",
+					"name": "themes",
+					"folderColor": "673AB7",
+					"iconColor": "BBDEFB",
+					"pattern": "^(themes?|colors?|schemes?|skins?)$",
+					"icon": "/themes.svg"
+				},
+				{
+					"folderNames": "types,type,typescript,typescripts,ts,interface,interfaces",
+					"name": "typescript",
+					"folderColor": "0288d1",
+					"iconColor": "90caf9",
+					"pattern": "^(types?|typescripts?|ts|interfaces?)$",
+					"icon": "/ts.svg"
+				},
+				{
+					"folderNames": "upload,uploads",
+					"name": "upload",
+					"folderColor": "ff7043",
+					"iconColor": "FFEBEE",
+					"pattern": "^uploads?$",
+					"icon": "/upload.svg"
+				},
+				{
+					"folderNames": "user,users,member,members,friend,friends,partner,partners",
+					"name": "users",
+					"folderColor": "ec407a",
+					"iconColor": "f8bbd0",
+					"pattern": "^(users?|members?|friends?|partners?)$",
+					"icon": "/users.svg"
+				},
+				{
+					"folderNames": "util,utils,tool,tools",
+					"name": "utils",
+					"folderColor": "78909C",
+					"iconColor": "F5F5F5",
+					"pattern": "^(utils?|tools?)$",
+					"icon": "/tools.svg"
+				},
+				{
+					"folderNames": ".vagrant,.vagrant.d",
+					"name": "vagrant",
+					"folderColor": "26A69A",
+					"iconColor": "B2DFDB",
+					"pattern": "^\\.vagrant(\\.d)?$",
+					"icon": "/vagrant.svg"
+				},
+				{
+					"folderNames": "vendor,vendors,lib,libs,Pod,Pods,stdlib",
+					"name": "vendors",
+					"folderColor": "6CAC23",
+					"iconColor": "A5D6A7",
+					"pattern": "^(vendors?|libs?|Pods?|stdlib)$",
+					"icon": "/lib.svg"
+				},
+				{
+					"folderNames": "videos,video,movie,movies",
+					"name": "video",
+					"folderColor": "7986CB",
+					"iconColor": "C5CAE9",
+					"pattern": "^(videos?|movies?)$",
+					"icon": "/video.svg"
+				},
+				{
+					"folderNames": "view,views,template,templates,page,pages",
+					"name": "views",
+					"folderColor": "FFB300",
+					"iconColor": "FFE0B2",
+					"pattern": "^(views?|templates?|pages?)$",
+					"icon": "/views.svg"
+				},
+				{
+					"folderNames": "viewmodel,viewModels",
+					"name": "viewModels",
+					"folderColor": "0288d1",
+					"iconColor": "b3e5fc",
+					"pattern": "^(view[mM]odels?)$",
+					"icon": "/viewmodel.svg"
+				},
+				{
+					"folderNames": "vim,.vim",
+					"name": "vim",
+					"folderColor": "6AAB20",
+					"iconColor": "F0F4C3",
+					"pattern": "^\\.?vim$",
+					"icon": "/vim.svg"
+				},
+				{
+					"folderNames": "virtual,vm,vms,machine,machines",
+					"name": "vm",
+					"folderColor": "039be5",
+					"iconColor": "b3e5fc",
+					"pattern": "^(virtual|vms?|machines?)$",
+					"icon": "/vm.svg"
+				},
+				{
+					"folderNames": "vscode,.vscode",
+					"name": "vscode",
+					"folderColor": "42A5F5",
+					"iconColor": "bbdefb",
+					"pattern": "^\\.?vscode$",
+					"icon": "/vscode.svg"
+				},
+				{
+					"folderNames": "vue",
+					"name": "vue",
+					"folderColor": "009688",
+					"iconColor": "41B883",
+					"pattern": "^vue$",
+					"icon": "/vue.svg"
+				},
+				{
+					"folderNames": "vuex",
+					"name": "vuex",
+					"folderColor": "009688",
+					"iconColor": "41B883",
+					"pattern": "^vuex$",
+					"icon": "/vuex.svg"
+				},
+				{
+					"folderNames": "public,static,web,www,wwwroot,public_html",
+					"name": "web",
+					"folderColor": "039be5",
+					"iconColor": "b3e5fc",
+					"pattern": "^(public(_html)?|static|web|www|wwwroot)$",
+					"icon": "/web.svg"
+				},
+				{
+					"folderNames": "webpack",
+					"name": "webpack",
+					"folderColor": "03a9f4",
+					"iconColor": "8ed6fb",
+					"pattern": "^webpack$",
+					"icon": "/webpack.svg"
+				},
+				{
+					"folderNames": "wp-admin,wp-content,wp-includes",
+					"name": "wordpress",
+					"folderColor": "21759b",
+					"iconColor": "e1f5fe",
+					"pattern": "^wp-(admin|content|includes)$",
+					"icon": "/wordpress.svg"
+				},
+				{
+					"folderNames": "yarn,.yarn",
+					"name": "yarn",
+					"folderColor": "039be5",
+					"iconColor": "b3e5fc",
+					"pattern": "^\\.?yarn$",
+					"icon": "/yarn.svg"
+				}
+			]
+		}
+	}
+}
