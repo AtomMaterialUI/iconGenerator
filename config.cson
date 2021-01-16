@@ -83,51 +83,6 @@ uses:  A loosely-defined "parent" from which to inherit properties not defined b
 
 fileIcons:
 
-	Galaxy:
-		icon: "galaxy"
-		match: /^galaxy\.ini$/i
-		colour: "medium-grey"
-		priority: 2
-
-	Galen:
-		icon: "galen"
-		match: [
-			[".gspec", "medium-blue", scope: /^text\.galen$/]
-			[".gtest", "medium-cyan", scope: /^text\.galen-t$/]
-		]
-
-	"GameMaker Language":
-		icon: "gml"
-		match: ".gml"
-		colour: "medium-green"
-
-	GAMS:
-		icon: "gams"
-		scope: /\.gams(-lst)?$/i
-		match: ".gms"
-		colour: "dark-red"
-
-	GAP:
-		icon: "gap"
-		match: [
-			[".gap", "auto-yellow", "gap"]
-			[".gi", "dark-blue"]
-			[".tst", "medium-orange"]
-		]
-
-	GAUSS:
-		icon: "gauss"
-		match: ".gss"
-		colour: "medium-orange"
-		scope: "gauss"
-
-	GDB:
-		icon: "gdb"
-		match: [
-			[".gdb", "auto-green", "gdb"]
-			["gdbinit", "auto-cyan"]
-		]
-
 	Gear:
 		icon: "gear"
 		match: [
@@ -153,12 +108,6 @@ fileIcons:
 			[".indent.pro", "medium-blue", priority: 2]
 			[/^\./, null, priority: 0]
 		]
-
-	Gears:
-		icon: "gears"
-		match: ".dll"
-		colour: "dark-orange"
-		signature: /^PMOCCMOC/
 
 	Generic:
 		icon: "code"
@@ -292,13 +241,6 @@ fileIcons:
 			[".zcml", "dark-pink"]
 		]
 
-	Genshi:
-		icon: "genshi"
-		scope: "genshi"
-		alias: /^xml\+(genshi|kid)$/i
-		match: ".kid"
-		colour: "medium-red"
-
 	GenStat:
 		icon: "genstat"
 		match: [
@@ -321,13 +263,6 @@ fileIcons:
 			[".gih", "medium-maroon"]
 			[".gpl", "medium-green"]
 			[".vbr", "medium-cyan"]
-		]
-
-	Git:
-		icon: "git"
-		match: [
-			[/^\.git|^\.keep$|\.mailmap$/i, "medium-red", scope: /\.git-(commit|config|rebase)$/i]
-			[/\.git(ignore|config|attributes)$/i, "medium-red", priority: 0.5]
 		]
 
 	"Git - Commit":

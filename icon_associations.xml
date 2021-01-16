@@ -1758,11 +1758,52 @@
                icon="/icons/files/futhark.svg" />
         <!--endregion-->
 
+        <!--region G-->
+        <regex fileNames="galaxy.ini"
+               name="Galaxy"
+               color="cfbe29"
+               pattern="^galaxy\.ini$"
+               icon="/icons/files/galaxy.svg" />
+        <regex fileNames="*.gspec,*.gtest"
+               name="Galen"
+               color="97d4f9"
+               pattern=".*\.g(spec|test)$"
+               icon="/icons/files/galen.svg" />
+        <regex fileNames="*.gml"
+               name="Gamemaker"
+               color="88cb45"
+               pattern=".*\.gml$"
+               icon="/icons/files/gamemaker.svg" />
+        <regex fileNames="*.gms"
+               name="GAMS"
+               color="f3961a"
+               pattern=".*\.gms$"
+               icon="/icons/files/gams.svg" />
+        <regex fileNames="*.gap,*.gi,*.tst"
+               name="GAP"
+               color="29B6F6"
+               pattern=".*\.(gap|gi|tst)$"
+               icon="/icons/files/gap.svg" />
+        <regex fileNames="*.gss"
+               name="GAUSS"
+               color="eb7820"
+               pattern=".*\.gss$"
+               icon="/icons/files/gss.svg" />
         <regex fileNames="gatsby.js,gatsby.config.js,gatsby.ts"
                name="Gatsby"
                color="663399"
                pattern="^gatsby.*\.(js|ts)"
                icon="/icons/files/gatsby.svg" />
+        <regex fileNames="*.gdb"
+               name="GDB"
+               color="AED581"
+               pattern=".*\.gdb$"
+               icon="/icons/files/gdb.svg" />
+        <regex fileNames="*.kid"
+               name="Genshi"
+               color="34d3fb"
+               pattern=".*\.kid$"
+               icon="/icons/files/genshi.svg" />
         <regex fileNames="*.ghostscript"
                name="GhostScript"
                color="7A8387"
@@ -1858,6 +1899,7 @@
                color="C74748"
                pattern="[gG]ulpfile.*"
                icon="/icons/files/gulpfile.svg" />
+        <!--endregion-->
 
         <!--region H -->
         <regex fileNames="*.objh,*.h,*.hp,*.hpp,*.tcc,*.hxx"
