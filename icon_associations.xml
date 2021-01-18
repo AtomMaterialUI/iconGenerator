@@ -3655,14 +3655,8 @@
                icon="/icons/files/snapshot.svg" />
         <regex fileNames="snowpack.config.js,snowpack.config.ts"
                name="Snowpack"
-               color="black"
                pattern="^snowpack\.config\.(js|ts)$"
                icon="/icons/files/snowpack.svg" />
-        <regex fileNames="snowpack.config.js,snowpack.config.ts"
-               name="Snowpack dark"
-               color="white"
-               pattern="^snowpack\.config\.(js|ts)$"
-               icon="/icons/files/snowpack_dark.svg" />
         <regex fileNames="*.sol"
                name="Solidity"
                color="0288d1"
