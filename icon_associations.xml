@@ -3795,6 +3795,10 @@
                color="F06292"
                pattern=".*\.snap$"
                icon="/icons/files/snapshot.svg" />
+        <regex fileNames="snowpack.config.js,snowpack.config.ts"
+               name="Snowpack"
+               pattern="^snowpack\.config\.(js|ts)$"
+               icon="/icons/files/snowpack.svg" />
         <regex fileNames="*.sol"
                name="Solidity"
                color="0288d1"
