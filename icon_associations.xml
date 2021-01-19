@@ -1548,12 +1548,12 @@
                color="7963E6"
                pattern=".*\.eslintrc(\.js(on)?|\.y(a)?ml)?$"
                icon="/icons/files/eslint.svg" />
-        <regex fileNames=".eslintignore"
-               name="ESLint"
-               color="7963E6"
-               pattern=".*\.eslintrc(\.js(on)?|\.y(a)?ml)?$"
-               icon="/icons/files/eslint.svg" />
         <regex fileNames=".eslintcache"
+               name="ESLint Cache"
+               color="808080"
+               pattern="^\.eslintcache$"
+               icon="/icons/files/eslintignore.svg" />
+        <regex fileNames=".eslintignore"
                name="ESLint Ignore"
                color="808080"
                pattern="^\.eslintignore$"
@@ -2637,7 +2637,7 @@
                color="E79627"
                pattern="^((BSD|GNU)?([mM])ake|mk)file$"
                icon="/icons/files/makefile.svg" />
-        <regex fileNames="*.mk,*.mak,*.make,*.mms,*.am,*.bb,*.pri"
+        <regex fileNames="*.mk,*.mak,*.make,*.mms,*.am,*.bb"
                name="Make"
                color="E79627"
                pattern=".*(mk|mak|make|mmk|mms|am|bb)$"
@@ -2785,7 +2785,7 @@
         <regex fileNames="modernizr.js,.modernizrrc,modernizr.custom.js,modernizr-dev.cjs"
                name="Modernizr"
                color="FFCA28"
-               pattern="^\.?modernizr(rc)?\.[cm]?js$|^modernizr([-.]custom|-\d\.\d+)(\.\d+)?\.[cm]?js$"
+               pattern="^\.?modernizr(rc)?(\.[cm]?js)?$|^modernizr([-.]custom|-\d\.\d+)(\.\d+)?\.[cm]?js$"
                icon="/icons/files/modernizr.svg" />
         <regex fileNames="*.modo,*.lxo"
                name="Modo"
@@ -2822,7 +2822,7 @@
                color="755333"
                pattern=".*\.monkey$"
                icon="/icons/files/monkey.svg" />
-        <regex fileNames=".mtn-ignoree"
+        <regex fileNames=".mtn-ignore"
                name="Monotone"
                color="917aa3"
                pattern="^\.mtn-ignore$"
@@ -4559,7 +4559,7 @@
                color="61DAFB"
                pattern=".*\.(jsx|tsx)$"
                icon="/icons/files/jsx.svg" />
-        <regex fileNames="*.js,*.es6,*.es,*.mjs,*.cjs"
+        <regex fileNames="*.js,*.es6,*.mjs,*.cjs"
                name="Javascript"
                color="FFCB6B"
                pattern=".*\.([cm]?js|es\d)$"
@@ -4579,7 +4579,7 @@
                color="FFCB6B"
                pattern=".*\.(py|ipy|python|py[pt3iwzc]|whl|pep)$"
                icon="/icons/files/python.svg" />
-        <regex fileNames="*.pyde,*.gypi,*.*.gyp,*.tac,*.xpy,*.smk,*.rpy"
+        <regex fileNames="*.pyde,*.gypi,*.gyp,*.tac,*.xpy,*.smk,*.rpy"
                name="Python 2"
                color="FFCB6B"
                pattern=".*\.(pyde|gypi?|tac|xpy|wsgi|smk|rpy)$"

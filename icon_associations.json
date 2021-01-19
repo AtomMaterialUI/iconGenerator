@@ -58,6 +58,20 @@
 					"icon": "/icons/files/readme.svg"
 				},
 				{
+					"fileNames": "COMMIT_EDITMSG, ATOM_COMMIT_EDITMSG",
+					"name": "Git Commit Message",
+					"pattern": "^.*COMMIT_EDITMSG$",
+					"color": "BA68C8",
+					"icon": "/icons/files/gitcommit.svg"
+				},
+				{
+					"fileNames": "MERGE_HEAD, MERGE_MODE, MERGE_MSG",
+					"name": "Git Merge",
+					"pattern": "^MERGE_(HEAD|MODE|MSG)$",
+					"color": "4FC3F7",
+					"icon": "/icons/files/gitmerge.svg"
+				},
+				{
 					"fileNames": "plugin.xml",
 					"name": "Plugin",
 					"pattern": "^plugin.xml$",
@@ -2389,6 +2403,48 @@
 					"icon": "/icons/files/futhark.svg"
 				},
 				{
+					"fileNames": "galaxy.ini",
+					"name": "Galaxy",
+					"color": "cfbe29",
+					"pattern": "^galaxy\\.ini$",
+					"icon": "/icons/files/galaxy.svg"
+				},
+				{
+					"fileNames": "*.gspec,*.gtest",
+					"name": "Galen",
+					"color": "97d4f9",
+					"pattern": ".*\\.g(spec|test)$",
+					"icon": "/icons/files/galen.svg"
+				},
+				{
+					"fileNames": "*.gml",
+					"name": "Gamemaker",
+					"color": "88cb45",
+					"pattern": ".*\\.gml$",
+					"icon": "/icons/files/gamemaker.svg"
+				},
+				{
+					"fileNames": "*.gms",
+					"name": "GAMS",
+					"color": "f3961a",
+					"pattern": ".*\\.gms$",
+					"icon": "/icons/files/gams.svg"
+				},
+				{
+					"fileNames": "*.gap,*.gi,*.tst",
+					"name": "GAP",
+					"color": "29B6F6",
+					"pattern": ".*\\.(gap|gi|tst)$",
+					"icon": "/icons/files/gap.svg"
+				},
+				{
+					"fileNames": "*.gss",
+					"name": "GAUSS",
+					"color": "eb7820",
+					"pattern": ".*\\.gss$",
+					"icon": "/icons/files/gss.svg"
+				},
+				{
 					"fileNames": "gatsby.js,gatsby.config.js,gatsby.ts",
 					"name": "Gatsby",
 					"color": "663399",
@@ -2396,11 +2452,32 @@
 					"icon": "/icons/files/gatsby.svg"
 				},
 				{
-					"fileNames": "*.ghostscript",
-					"name": "GhostScript",
-					"color": "7A8387",
-					"pattern": ".*\\.ghostscript$",
-					"icon": "/icons/files/ghostscript.svg"
+					"fileNames": "*.gdb",
+					"name": "GDB",
+					"color": "AED581",
+					"pattern": ".*\\.gdb$",
+					"icon": "/icons/files/gdb.svg"
+				},
+				{
+					"fileNames": "*.kid",
+					"name": "Genshi",
+					"color": "34d3fb",
+					"pattern": ".*\\.kid$",
+					"icon": "/icons/files/genshi.svg"
+				},
+				{
+					"fileNames": "*.gen,*.gpi",
+					"name": "Genstat",
+					"color": "46ab6c",
+					"pattern": ".*\\.(gen|gpi)$",
+					"icon": "/icons/files/genstat.svg"
+				},
+				{
+					"fileNames": "*.ebuild,*.eclass",
+					"name": "Gentoo",
+					"color": "9b91f4",
+					"pattern": ".*\\.(ebuild|eclass)$",
+					"icon": "/icons/files/gentoo.svg"
 				},
 				{
 					"fileNames": "*.gem,*.gemspec",
@@ -2424,6 +2501,20 @@
 					"icon": "/icons/files/preferences.svg"
 				},
 				{
+					"fileNames": "*.ghostscript",
+					"name": "GhostScript",
+					"color": "7A8387",
+					"pattern": ".*\\.ghostscript$",
+					"icon": "/icons/files/ghostscript.svg"
+				},
+				{
+					"fileNames": "*.xcf,*.ggr,*.gih,*.gpl,*.vbr",
+					"name": "GIMP",
+					"color": "a89b71",
+					"pattern": ".*\\.(xcf|ggr|gih|gpl|vbr)$",
+					"icon": "/icons/files/gimp.svg"
+				},
+				{
 					"fileNames": ".gitlab-ci.yml",
 					"name": "GitLab CI",
 					"color": "e24329",
@@ -2445,6 +2536,62 @@
 					"icon": "/icons/files/git.svg"
 				},
 				{
+					"fileNames": "*.glade",
+					"name": "Glade",
+					"color": "8ccb4b",
+					"pattern": ".*\\.glade$",
+					"icon": "/icons/files/glade.svg"
+				},
+				{
+					"fileNames": "glide.yaml,glide.yml",
+					"name": "Glide",
+					"color": "d0bdb0",
+					"pattern": "^glide\\.ya?ml$",
+					"icon": "/icons/files/glide.svg"
+				},
+				{
+					"fileNames": "*.gltf",
+					"name": "glTF",
+					"color": "82bf3e",
+					"pattern": ".*\\.gltf$",
+					"icon": "/icons/files/gltf.svg"
+				},
+				{
+					"fileNames": "*.glf",
+					"name": "Pointwise Glyph",
+					"color": "2160ad",
+					"pattern": ".*\\.glf$",
+					"icon": "/icons/files/pointwise.svg"
+				},
+				{
+					"fileNames": "*.glyphs",
+					"name": "Glyphs",
+					"color": "87f32e",
+					"pattern": ".*\\.glyphs$",
+					"icon": "/icons/files/glyphs.svg"
+				},
+				{
+					"fileNames": "*.gni,*.gn",
+					"name": "GN",
+					"color": "3F51B5",
+					"pattern": ".*\\.gni?$",
+					"icon": "/icons/files/gn.svg"
+				},
+				{
+					"fileNames": "*.gnome,*.gtk",
+					"name": "Gnome",
+					"color": "8D6E63",
+					"pattern": ".*\\.(gnome|gtk)$",
+					"icon": "/icons/files/gnome.svg"
+				},
+				{
+					"fileNames": "*.gp,*.plot,*.plt,*.gnuplot",
+					"name": "Gnuplot",
+					"color": "ed0305",
+					"pattern": ".*\\.(gp|plo?t|gnuplot)$",
+					"icon": "/icons/files/gnuplot.svg"
+				},
+				{
 					"fileNames": "go.mod,go.sub",
 					"name": "Go Config",
 					"color": "82AAFF",
@@ -2459,6 +2606,20 @@
 					"icon": "/icons/files/godot.svg"
 				},
 				{
+					"fileNames": "*.golo",
+					"name": "Golo",
+					"color": "ce2b27",
+					"pattern": ".*\\.(golo)$",
+					"icon": "/icons/files/golo.svg"
+				},
+				{
+					"fileNames": "*.gs,*.gst,*.gsx,*.vark",
+					"name": "Gosu",
+					"color": "3785c9",
+					"pattern": ".*\\.(gs[tx]?|vark)$",
+					"icon": "/icons/files/gosu.svg"
+				},
+				{
 					"fileNames": "*.gradle",
 					"name": "Gradle",
 					"color": "26A2C1",
@@ -2471,6 +2632,13 @@
 					"color": "26A2C1",
 					"pattern": "gradlew$",
 					"icon": "/icons/files/gradle.svg"
+				},
+				{
+					"fileNames": "*.gf",
+					"name": "Grammatical Framework",
+					"color": "ee5860",
+					"pattern": ".*\\.gf$",
+					"icon": "/icons/files/gf.svg"
 				},
 				{
 					"fileNames": "*.graphcool",
@@ -2501,10 +2669,24 @@
 					"icon": "/icons/files/graphviz.svg"
 				},
 				{
-					"fileNames": "gridsome.config.js,gridsome.server.js",
+					"fileNames": "*.gvdesign",
+					"name": "Gravit Designer",
+					"color": "ca175b",
+					"pattern": ".*\\.gvdesign$",
+					"icon": "/icons/files/gravit.svg"
+				},
+				{
+					"fileNames": "greenkeeper.json",
+					"name": "GreenKeeper",
+					"color": "95d13e",
+					"pattern": "^greenkeeper\\.json$",
+					"icon": "/icons/files/greenkeeper.svg"
+				},
+				{
+					"fileNames": "gridsome.config.js,gridsome.server.js,gridsome.client.ts",
 					"name": "Gridsome",
 					"color": "00a672",
-					"pattern": "^gridsome\\.(config|server)\\.js$",
+					"pattern": "^gridsome\\.(config|client|server)\\.[jt]s$",
 					"icon": "/icons/files/gridsome.svg"
 				},
 				{
@@ -4892,7 +5074,7 @@
 					"name": "RxJS",
 					"color": "B7178C",
 					"pattern": "rxjs\\.[jt]s$",
-					"icon": "/icons/files/rxjs-effects.svg"
+					"icon": "/icons/files/rxjs.svg"
 				},
 				{
 					"fileNames": "*.san",
@@ -5012,6 +5194,13 @@
 					"color": "F06292",
 					"pattern": ".*\\.snap$",
 					"icon": "/icons/files/snapshot.svg"
+				},
+				{
+					"fileNames": "snowpack.config.js,snowpack.config.ts",
+					"name": "Snowpack",
+					"color": "#000000",
+					"pattern": "^snowpack\\.config\\.(js|ts)$",
+					"icon": "/icons/files/snowpack.svg"
 				},
 				{
 					"fileNames": "*.sol",

@@ -25,11 +25,11 @@
  *
  */
 
-import {Logger} from './services/logger';
-import {ExamplesCommandArgs, ExamplesFlags} from './argsParsers/examplesArgsParser';
+import { Logger } from './services/logger';
+import { ExamplesCommandArgs, ExamplesFlags } from './argsParsers/examplesArgsParser';
 import * as fs from 'fs';
-import {deleteDirectoryRecursively} from './utils';
-import {FolderAssociation, FolderAssociations, IconAssociation, IconAssociations} from './types/associations';
+import { deleteDirectoryRecursively } from './utils';
+import { FolderAssociation, FolderAssociations, IconAssociation, IconAssociations } from './types/associations';
 
 export class ExampleGenerator {
   private readonly iconAssociations: IconAssociations;
@@ -37,9 +37,9 @@ export class ExampleGenerator {
   private unsupported: Array<IconAssociation | FolderAssociation> = [];
 
   constructor(private pargs: ExamplesCommandArgs,
-              private files: IconAssociation[],
-              private folders: FolderAssociation[],
-              private logger: Logger) {
+    private files: IconAssociation[],
+    private folders: FolderAssociation[],
+    private logger: Logger) {
 
     this.iconAssociations = this.parseIconAssociations();
     this.folderAssociations = this.parseFolderAssociations();
@@ -88,11 +88,11 @@ export class ExampleGenerator {
    */
   private parseIconAssociations(): IconAssociations {
     return this.files
-        .reduce((previous, current) => {
-          const obj = previous;
-          obj[current.name] = current;
-          return obj;
-        }, {});
+      .reduce((previous, current) => {
+        const obj = previous;
+        obj[current.name] = current;
+        return obj;
+      }, {});
   }
 
   /**
@@ -100,11 +100,11 @@ export class ExampleGenerator {
    */
   private parseFolderAssociations(): FolderAssociations {
     return this.folders
-        .reduce((previous, current) => {
-          const obj = previous;
-          obj[current.name] = current;
-          return obj;
-        }, {});
+      .reduce((previous, current) => {
+        const obj = previous;
+        obj[current.name] = current;
+        return obj;
+      }, {});
   }
 
   /**
@@ -123,10 +123,11 @@ export class ExampleGenerator {
       const files = iconAssociation.fileNames.split(',');
       files.forEach(fileName => {
         try {
-          this.logger.updateLog(`File ${fileName} for '${name}' successfully created!`);
-          fs.writeFileSync(fileName, null);
+          this.logger.updateLog(`Creating ${fileName} for '${name}'...`);
+          fs.writeFileSync(fileName, '');
           this.logger.updateLog(`Example file for '${name}' successfully created!`);
-        } catch (e) {
+        }
+        catch (e) {
           this.logger.error(`Something went wrong while creating the file(s) for '${name}' :\n${e}`);
         }
       });
@@ -150,10 +151,12 @@ export class ExampleGenerator {
       const folderAssociations = folderAssociation.folderNames.split(',');
       folderAssociations.forEach(folder => {
         try {
+          this.logger.updateLog(`Creating folder ${folder} for '${name}'...`);
           fs.mkdirSync(folder);
-          fs.writeFileSync(`${folder}/.keep`, null);
+          fs.writeFileSync(`${folder}/.keep`, '');
           this.logger.updateLog(`Example folder for '${name}' successfully created!`);
-        } catch (e) {
+        }
+        catch (e) {
           this.logger.error(`Something went wrong while creating the folder(s) for '${name}' :\n${e}`);
         }
       });
@@ -171,8 +174,8 @@ export class ExampleGenerator {
 
     // file, folder or all
     const noun = this.pargs.flag !== ExamplesFlags.ALL ?
-        this.pargs.flag.substring(0, this.pargs.flag.length - 1) :
-        this.pargs.flag;
+      this.pargs.flag.substring(0, this.pargs.flag.length - 1) :
+      this.pargs.flag;
 
     const verb = isMany ? 'were' : 'was';
 
@@ -180,9 +183,11 @@ export class ExampleGenerator {
     let msg = '';
     if (isMany) {
       msg = `${supported.join('\', \'')} ${noun}`;
-    } else if (supported.length === 0) {
+    }
+    else if (supported.length === 0) {
       msg = `zero ${noun}`;
-    } else {
+    }
+    else {
       msg = noun;
     }
 
