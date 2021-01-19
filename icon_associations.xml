@@ -3797,6 +3797,7 @@
                icon="/icons/files/snapshot.svg" />
         <regex fileNames="snowpack.config.js,snowpack.config.ts"
                name="Snowpack"
+               color="#000000"
                pattern="^snowpack\.config\.(js|ts)$"
                icon="/icons/files/snowpack.svg" />
         <regex fileNames="*.sol"
