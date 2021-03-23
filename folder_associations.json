@@ -227,11 +227,11 @@
 					"icon": "/cluster.svg"
 				},
 				{
-					"folderNames": "component,components,widget,widgets,element,elements,ui",
+					"folderNames": "component,components,widget,widgets,element,elements,ui,object,objects",
 					"name": "components",
 					"folderColor": "F9A825",
 					"iconColor": "FFECB3",
-					"pattern": "^(components?|widgets?|elements?|ui)$",
+					"pattern": "^(components?|widgets?|elements?|ui|objects?)$",
 					"icon": "/components.svg"
 				},
 				{

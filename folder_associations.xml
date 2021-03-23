@@ -202,11 +202,11 @@
                iconColor="b3e5fc"
                pattern="^(clusters?|nodes?)$"
                icon="/cluster.svg" />
-        <regex folderNames="component,components,widget,widgets,element,elements,ui"
+        <regex folderNames="component,components,widget,widgets,element,elements,ui,object,objects"
                name="components"
                folderColor="F9A825"
                iconColor="FFECB3"
-               pattern="^(components?|widgets?|elements?|ui)$"
+               pattern="^(components?|widgets?|elements?|ui|objects?)$"
                icon="/components.svg" />
         <regex folderNames="config,conf,settings,.config,.conf,.settings"
                name="config"
