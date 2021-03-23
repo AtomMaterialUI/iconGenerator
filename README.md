@@ -20,7 +20,7 @@ This is the icon generator for the [Atom Material File Icons Project](https://gi
 - `npm install`
 - `npm run example` to run the **Examples Generator**
 - `npm run wiki` to generate the **Wiki Pages**
-- `npm runn preview` to generate the **Preview Images**
+- `npm run preview` to generate the **Preview Images**
 
 ## Credits
 
