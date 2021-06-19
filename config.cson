@@ -83,40 +83,11 @@ uses:  A loosely-defined "parent" from which to inherit properties not defined b
 
 fileIcons:
 
-	Gear:
-		icon: "gear"
-		match: [
-			[/^\.htaccess$/i, "medium-red"]
-			[/^\.htpasswd$/i, "medium-orange"]
-			[/^\.env\./i, "dark-green"]
-			[/^\.lesshintrc$/i, "dark-yellow"]
-			[/^\.csscomb\.json$/i, "medium-yellow"]
-			[/^text\.enc$/, "dark-green"]
-			[".csslintrc", "medium-yellow"]
-			[".jsbeautifyrc", "medium-yellow"]
-			[".jshintrc", "medium-yellow"]
-			[".htmlhintrc", "medium-red"]
-			[".coffeelintignore", "medium-maroon"]
-			[".jscsrc", "medium-yellow"]
-			[".module", "medium-blue"]
-			[".codoopts", "medium-maroon"]
-			[".yardopts", "medium-red"]
-			[".arcconfig", "dark-blue"]
-			[".pairs", "dark-green"]
-			[".python-version", "dark-blue"]
-			[".lintstagedrc", "dark-orange"]
-			[".indent.pro", "medium-blue", priority: 2]
-			[/^\./, null, priority: 0]
-		]
-
 	Generic:
 		icon: "code"
 		generic: true
 		match: [
-			[".xml", "medium-blue", signature: /^<\?xml /]
 			[".rdf", "dark-red"]
-			[".config", "medium-blue"]
-			[/^_service$/, "medium-blue"]
 			[/^configure\.ac$/, "medium-red"]
 			[/^Settings\.StyleCop$/, "medium-green"]
 			[".4th", "medium-blue"]
@@ -126,7 +97,6 @@ fileIcons:
 			[".ash", "medium-cyan"]
 			[/\.asn1?$/i, "medium-cyan"]
 			[".axml", "dark-blue"]
-			[".bc", "dark-red", "baan"]
 			[".befunge", "medium-orange"]
 			[".bmx", "dark-blue"]
 			[".brs", "dark-blue", "brightscript"]
@@ -145,7 +115,6 @@ fileIcons:
 			[".ditamap", "dark-purple"]
 			[".ditaval", "medium-green"]
 			[".dotsettings", "dark-red"]
-			[".dtd", "medium-cyan", scope: "dtd", alias: /^(DTD|Document[\s_-]*Type[\s_-]*Definition)$/i]
 			[".dyl", "medium-blue"]
 			[".dylan", "medium-blue"]
 			[".eclxml", "dark-green"]
@@ -161,7 +130,6 @@ fileIcons:
 			[".fxml", "medium-maroon"]
 			[".grace", "medium-purple"]
 			[".grxml", "dark-orange"]
-			[".iml", "medium-red"]
 			[".intr", "dark-blue"]
 			[".ivy", "dark-green"]
 			[".jelly", "medium-yellow"]
@@ -173,16 +141,13 @@ fileIcons:
 			[".lid", "medium-purple"]
 			[".lp", "dark-purple"]
 			[".m4", "medium-red", "m4"]
-			[".manifest", "medium-blue"]
 			[".mask", "medium-red"]
 			[".mdpolicy", "dark-blue"]
 			[".menu", "medium-blue"]
-			[/\.ML$/, "medium-red"]
 			[/\.mq[45h]$/i, "dark-blue", scope: /(^|\.)mq[45](?=\.|$)/i]
 			[".mtml", "dark-blue"]
 			[".muf", "medium-orange"]
 			[".mumps", "medium-red"]
-			[".mxml", "dark-maroon"]
 			[".myt", "dark-blue"]
 			[".natvis", "dark-green"]
 			[".odd", "light-green"]
@@ -190,12 +155,9 @@ fileIcons:
 			[".omgrofl", "dark-purple"]
 			[".osm", "dark-purple"]
 			[".pig", "medium-pink"]
-			[".plist", "dark-cyan", scope: "plist"]
 			[".prg", "medium-red"]
-			[".proj", "dark-green"]
 			[".props", "medium-cyan"]
 			[".psc1", "light-blue"]
-			[".pt", "medium-red"]
 			[".qhelp", "medium-purple", alias: "Semmle", uses: "XML"]
 			[".resx", "medium-cyan"]
 			[".rl", "medium-red"]
@@ -212,7 +174,6 @@ fileIcons:
 			[".srdf", "medium-blue"]
 			[".st", "medium-blue"]
 			[".stellaris", "medium-blue", "stellaris"]
-			[".storyboard", "medium-green"]
 			[".tagx", "medium-purple"]
 			[".targets", "medium-red"]
 			[".tera", "medium-red"]
@@ -224,32 +185,18 @@ fileIcons:
 			[".webidl", "medium-red"]
 			[".wisp", "dark-cyan"]
 			[/\.wlp(4|ppp)$/i, "medium-blue", "wlp4"]
-			[".wsdl", "medium-red"]
 			[".wsf", "medium-blue"]
 			[".x3d", "medium-blue"]
 			[".xacro", "medium-red"]
-			[".xaml", "medium-blue"]
-			[".xib", "dark-purple"]
 			[".xlf", "dark-cyan"]
 			[".xliff", "medium-red"]
 			[".xmi", "medium-green"]
 			[".xproj", "dark-red"]
 			[".xsd", "dark-blue"]
-			[".xsl", "medium-cyan", "xsl"]
-			[".xslt", "dark-cyan"]
 			[".xul", "medium-orange"]
 			[".zcml", "dark-pink"]
 		]
 
-	HTML:
-		icon: "html5"
-		match: [
-			[".kit", "medium-green"]
-			[".isml", "medium-blue", "isml"]
-			[".latte", "medium-red", "latte"]
-			[".scaml", "dark-red", "scaml"]
-			[".vash", "medium-red", "vash"]
-		]
 
 	NAnt:
 		icon: "nant"
@@ -1587,155 +1534,3 @@ fileIcons:
 		match: /\.(typoscript|tsconfig)$/i
 		colour: "medium-orange"
 		alias: "typo3"
-
-	V:
-		icon: "v"
-		priority: 0.9 # HACK
-		match: [
-			[".v", "medium-blue", scope: "v", interpreter: /^v$/i]
-			[".vh", "dark-blue"]
-		]
-
-	V8:
-		icon: "v8"
-		match: [
-			[/^([dv]8|v8[-_.][^.]*|mksnapshot|mkpeephole)$/i, "medium-blue", priority: 0]
-			[/^\.v8flags\b/, "medium-blue"]
-			[/^\.c8rc(\.json)?$/i, "dark-blue", priority: 2, interpreter: "c8", uses: "JSON"]
-		]
-
-	Vagrant:
-		icon: "vagrant"
-		match: /^Vagrantfile$/i
-		colour: "medium-cyan"
-
-	Vala:
-		icon: "vala"
-		match: [
-			[".vala", "medium-purple", "vala"]
-			[".vapi", "dark-purple"]
-		]
-
-	"Valve Source Engine":
-		icon: "source"
-		match: [
-			[".bsp", "medium-orange", alias: "Binary Space Partition", signature: /^VBSP/]
-			[".vpk", "medium-red", alias: /^Valve (Package|Pak)$/i, signature: /^4\x12\xAAU./]
-			[".vtfx", "dark-red", signature: /^VTFX/]
-			[".vmt", "medium-blue", alias: "Valve Material Type", scope: "vmt"]
-			[".vtf", "dark-blue", alias: /^Valve Texture (File|Format)$/i, signature: /^VTF\0|^\0FTV/]
-			[".vmf", "medium-maroon", alias: /^Valve Map (File|Format)$/i, uses: "XML"]
-			[".res", "medium-cyan", alias: /^Resource List$/i]
-		]
-
-	VCL: # (Varnish Configuration Language)
-		icon: "varnish"
-		scope: /(^|\.)(varnish|vcl)(\.|$)/i
-		match: ".vcl"
-		colour: "dark-blue"
-
-	Velocity:
-		icon: "velocity"
-		match: ".vm"
-		colour: "dark-blue"
-		scope: "velocity"
-
-	Verilog:
-		icon: "verilog"
-		match: [
-			[".v", "dark-green", scope: "verilog", interpreter: /^(vvp|iverilog)$/i]
-			[".veo", "medium-red"]
-		]
-
-	VHDL:
-		icon: "vhdl"
-		match: [
-			[".vhdl", "dark-green", "vhdl"]
-			[".vhf", "dark-blue"]
-			[".vhi", "medium-blue"]
-			[".vho", "dark-purple"]
-			[".vhs", "medium-purple"]
-			[".vht", "dark-red"]
-			[".vhw", "dark-orange"]
-		]
-
-
-	Vim:
-		icon: "vim"
-		match: [
-			[/\.(vim|[gn]?vimrc)$/i, "medium-green", scope: "viml", alias: /^(VimL?|NVim|Vim\s*Script)$/i, interpreter: /Vim?/i]
-			[/^[.gn_]?vim(rc|info)$/i, "dark-green"]
-			[".vmb", "dark-green", alias: "Vimball", signature: /^UseVimball/m]
-		]
-
-	VirtualBox:
-		icon: "virtualbox"
-		match: [
-			[".ova", "medium-blue"]
-			[".ovf", "medium-purple"]
-			[".vhd", "medium-green"]
-			[".vhdx", "dark-green", signature: /^vhdxfile/]
-			[".vbox_version", "auto-blue"]
-			[/\.vbox(-prev)?$/i, "auto-blue"]
-		]
-
-	"Visual Studio":
-		icon: "vs"
-		match: [
-			[/\.(vba?|fr[mx]|bas)$/i, "medium-blue", scope: "vbnet", alias: /^vb\.?net$/i]
-			[".vbhtml", "medium-red"]
-			[".vbs", "medium-green"]
-			[".vsix", "medium-cyan"]
-			[".csproj", "dark-blue"]
-			[".vbproj", "dark-red"]
-			[/\.vcx?proj(\.[-\w]+)*$/i, "dark-purple", priority: 2]
-			[/\.vssettings(\.json)?$/i, "dark-green", priority: 2]
-			[/\.vscodeignore(\.json)?$/i, "medium-blue", priority: 2]
-			[".vstemplate", "medium-purple"]
-			[".vsixmanifest", "dark-orange"]
-			[".code-workspace", "dark-blue", uses: "JSON"]
-			[".builds", "medium-maroon"]
-			[".dbproj", "dark-purple"]
-			[".lsproj", "light-cyan"]
-			[".modelproj", "dark-red"]
-			[".sln", "medium-orange"]
-			[".njsproj", "light-red"]
-			[".sqlproj", "medium-orange", uses: "XML"]
-			[".vcxitems", "auto-purple"]
-			[".wmaproj", "medium-maroon"]
-		]
-
-	VMware:
-		icon: "vmware"
-		match: [
-			[".vmdk", "auto-orange"]
-			[".nvram", "auto-blue"]
-			[".vmsd", "medium-green"]
-			[".vmsn", "medium-green"]
-			[".vmss", "auto-blue"]
-			[".vmtm", "auto-red"]
-			[".vmx", "auto-orange"]
-			[".vmxf", "auto-orange"]
-		]
-
-	VSTS:
-		icon: "vsts"
-		priority: 2
-		match: /^\.vsts-ci\.ya?ml$/i
-		colour: "medium-blue"
-
-	Vue:
-		icon: "vue"
-		scope: "vue"
-		match: [
-			[".vue", "light-green"]
-			[/^vue\.config\.[cm]?js$/i, "light-green", priority: 2]
-		]
-
-	Vyper:
-		icon: "vyper"
-		match: ".vy"
-		colour: "medium-grey"
-		interpreter: "vyper"
-		scope: "vyper"
-
