@@ -198,191 +198,7 @@ fileIcons:
 		]
 
 
-	NAnt:
-		icon: "nant"
-		scope: "nant-build"
-		match: ".build"
-		colour: "medium-orange"
 
-	NASM: # Netwide Assembler
-		icon: "nasm"
-		match: ".nasm"
-		colour: "dark-blue"
-
-	"NCAR Command Language (NCL)":
-		icon: "earth"
-		scope: "ncl"
-		match: ".ncl"
-		colour: "medium-green"
-
-	NDepend:
-		icon: "ndepend"
-		match: /\.nd?proj$/i
-		colour: "medium-blue"
-
-	Neko:
-		icon: "neko"
-		match: [
-			[".neko", "medium-orange", "neko"]
-			[/^run\.n$/, "dark-orange", priority: 2]
-		]
-
-	Neo4J:
-		icon: "neo4j"
-		match: /\.cyp(her)?$/i
-		colour: "auto-blue"
-		scope: "neo4j"
-
-	Nessus:
-		icon: "nessus"
-		match: ".nasl"
-		colour: "auto-cyan"
-		scope: "nasl"
-		interpreter: "nasl"
-
-	NetLinx:
-		icon: "amx"
-		match: [
-			[".axs", "medium-blue"]
-			[".axi", "dark-blue"]
-		]
-
-	NetLogo:
-		icon: "netlogo"
-		match: ".nlogo"
-		colour: "medium-red"
-
-	Netlify:
-		icon: "netlify"
-		priority: 2
-		match: /^netlify\.toml$/i
-		colour: "dark-blue"
-
-	NewRelic:
-		icon: "newrelic"
-		priority: 2
-		match: /^newrelic\.yml/i
-		colour: "medium-cyan"
-
-	Nextflow:
-		icon: "nextflow"
-		match: [
-			[".nf", "medium-green", "nextflow"]
-			[/^nextflow\.config$/i, "dark-green", priority: 2]
-		]
-
-	NextJS:
-		icon: "nextjs"
-		priority: 2
-		match: /^next\.config\.[cm]?js$/i
-		colour: "dark-grey"
-
-	NestJS:
-		icon: "nestjs"
-		priority: 2
-		match: /^nestconfig\.json$/i
-		colour: "medium-red"
-
-	Netpbm:
-		icon: "image"
-		uses: "Text"
-		priority: 0.75 # Rare
-		match: [
-			[".pbm", "medium-pink", alias: "Portable Bitmap",  mime: "image/x‑portable‑bitmap"]
-			[".pgm", "medium-grey", alias: "Portable Graymap", mime: "image/x‑portable‑graymap"]
-			[".ppm", "dark-maroon", alias: "Portable Pixmap",  mime: "image/x‑portable‑pixmap"]
-			[".pnm", "medium-blue", alias: "Portable Anymap",  mime: "image/x‑portable‑anymap"]
-		]
-
-	NGINX:
-		icon: "nginx"
-		priority: 2
-		match: [
-			[/^nginx(\.[-\w]+)*\.conf$/i, "dark-green"]
-			[".nginxconf", "medium-green", scope: "nginx", alias: "nginx configuration file"]
-		]
-
-	Nib:
-		icon: "nib"
-		match: ".nib"
-		colour: "dark-orange"
-
-	Nickle:
-		icon: "nickle"
-		match: ".5c"
-		colour: "auto-grey"
-		interpreter: "nickle"
-		scope: "nickle"
-
-	Nightwatch:
-		icon: "nightwatch"
-		match: /^nightwatch\.conf(ig)?\.[cm]?js$/i
-		colour: "dark-maroon"
-		priority: 2
-
-	Nim:
-		icon: "nimrod"
-		scope: "nim"
-		match: /\.nim(rod)?$/i
-		colour: "medium-green"
-		alias: "Nimrod"
-
-	Nimble:
-		icon: "nimble"
-		match: ".nimble"
-		colour: "medium-grey"
-		uses: "Nim"
-
-	Ninja:
-		icon: "shuriken"
-		match: [
-			[".ninja", "medium-blue", "ninja"]
-			[".ninja.d", "dark-cyan", priority: 2]
-		]
-
-	"Nintendo 64":
-		icon: "n64"
-		uses: "Binary"
-		match: [
-			[".n64", "dark-cyan"]
-			[".z64", "dark-green"]
-		]
-
-	Nit:
-		icon: "nit"
-		scope: "nit"
-		match: ".nit"
-		colour: "dark-green"
-
-	Nix:
-		icon: "nix"
-		scope: "nix"
-		alias: "nixos"
-		match: ".nix"
-		colour: "medium-cyan"
-
-	Nmap:
-		icon: "nmap"
-		scope: "nmap"
-		match: ".nse"
-		colour: "dark-blue"
-
-	NodeJS:
-		icon: "node"
-		match: [
-			[".njs", "medium-green"]
-			[".nvmrc", "medium-green"]
-			[".node", "dark-green"]
-			[".node-version", "dark-green"]
-			[/^BUNDLED_NODE_VERSION$/, "dark-green"]
-			[".node_repl_history", "dark-green"]
-		]
-
-	Nodemon:
-		icon: "nodemon"
-		priority: 2
-		match: /^nodemon\.json$|\.nodemonignore$/i
-		colour: "medium-green"
 
 	Nomad:
 		icon: "nomad"
@@ -1050,11 +866,6 @@ fileIcons:
 			[".sthlp", "medium-purple"]
 		]
 
-	Stencil:
-		icon: "stencil"
-		match: ".stencil"
-		colour: "medium-orange"
-		scope: "stencil"
 
 	StdlibJS:
 		icon: "stdlibjs"
@@ -1116,11 +927,6 @@ fileIcons:
 		match: /^\.stylish-haskell\.ya?ml$/i
 		colour: "medium-purple"
 
-	Stylus:
-		icon: "stylus"
-		scope: "stylus"
-		match: /\.(styl|stylus)$/i
-		colour: "medium-green"
 
 	"Sublime Text":
 		icon: "sublime"
@@ -1136,12 +942,6 @@ fileIcons:
 		match: ".scd"
 		colour: "medium-red"
 
-	SVG:
-		icon: "svg"
-		scope: "svg"
-		match: ".svg"
-		colour: "dark-yellow"
-
 	Swagger:
 		icon: "swagger"
 		colour: "medium-green"
@@ -1150,18 +950,6 @@ fileIcons:
 			[".swagger-codegen-ignore", "dark-green"]
 		]
 
-	Swift:
-		icon: "swift"
-		scope: "swift"
-		match: ".swift"
-		colour: "medium-orange"
-
-	Svelte:
-		icon: "svelte"
-		scope: "svelte"
-		match: ".svelte"
-		colour: "medium-orange"
-		uses: "HTML"
 
 	SystemVerilog:
 		icon: "sysverilog"
@@ -1233,12 +1021,6 @@ fileIcons:
 			[".tt3", "medium-purple"]
 		]
 
-	Tern:
-		icon: "tern"
-		match: [
-			[".tern-project", "medium-blue"]
-			[".tern-config", "medium-purple"]
-		]
 
 	Terraform:
 		icon: "terraform"
@@ -1390,11 +1172,6 @@ fileIcons:
 			[".uop", "medium-purple"]
 		]
 
-	Textile:
-		icon: "textile"
-		scope: "textile"
-		match: ".textile"
-		colour: "medium-orange"
 
 	TextMate:
 		icon: "textmate"
@@ -1448,22 +1225,6 @@ fileIcons:
 		priority: 2
 		scope: "tmux"
 
-	TOML:
-		icon: "toml"
-		match: ".toml"
-		colour: "medium-green"
-		scope: "toml"
-
-	TortoiseSVN:
-		icon: "tortoise"
-		match: /^.tgitconfig$/i
-		colour: "medium-red"
-
-	Travis:
-		icon: "travis"
-		priority: 2
-		match: /^\.travis/i
-		colour: "medium-red"
 
 	Truffle:
 		icon: "truffle"
@@ -1471,11 +1232,6 @@ fileIcons:
 		match: /^\.?truffle\.[cm]?js$/i
 		colour: "auto-maroon"
 
-	TSX: # React/Typescript
-		icon: "tsx"
-		scope: "tsx"
-		match: ".tsx"
-		colour: "light-blue"
 
 	"TTCN-3":
 		icon: "ttcn3"
@@ -1489,11 +1245,6 @@ fileIcons:
 		match: ".tu"
 		colour: "medium-red"
 
-	Twig:
-		icon: "twig"
-		scope: "twig"
-		match: ".twig"
-		colour: "medium-green"
 
 	TwineScript:
 		icon: "twine"
@@ -1515,19 +1266,6 @@ fileIcons:
 		match: /^typedoc\.json$/i
 		colour: "dark-purple"
 
-	TypeScript:
-		icon: "ts"
-		scope: "ts"
-		alias: /^(ts|Type[-\s]*Script)$/i
-		match: ".ts"
-		colour: "medium-blue"
-		interpreter: /\b(deno|tsc|ts-node)$/
-
-	Typings:
-		icon: "typings"
-		priority: 2
-		match: /^typings\.json$/i
-		colour: "medium-maroon"
 
 	TypoScript:
 		icon: "typo3"
