@@ -1959,6 +1959,11 @@
                color="26A2C1"
                pattern=".*\.gradle$"
                icon="/icons/files/gradle.svg" />
+        <regex fileNames="*.gradle.kts"
+               name="Gradle KTS"
+               color="26A2C1"
+               pattern=".*\.gradle\.kts$"
+               icon="/icons/files/gradle.svg" />
         <regex fileNames="gradlew"
                name="Gradlew"
                color="26A2C1"
