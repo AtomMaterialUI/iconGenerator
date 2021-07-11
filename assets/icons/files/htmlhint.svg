@@ -1,8 +1,34 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32" width="16px" height="16px" fill="#E44F26">
+<!--
+  - The MIT License (MIT)
+  -
+  - Copyright (c) 2015-2021 Elior "Mallowigi" Boukhobza
+  -
+  - Permission is hereby granted, free of charge, to any person obtaining a copy
+  - of this software and associated documentation files (the "Software"), to deal
+  - in the Software without restriction, including without limitation the rights
+  - to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+  - copies of the Software, and to permit persons to whom the Software is
+  - furnished to do so, subject to the following conditions:
+  -
+  - The above copyright notice and this permission notice shall be included in all
+  - copies or substantial portions of the Software.
+  -
+  - THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+  - IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+  - FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+  - AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+  - LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+  - OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+  - SOFTWARE.
+  -
+  -
+  -->
+
+<svg big="true" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32" width="16px" height="16px" fill="#E44F26">
     <polygon
             points="10.04 18.875 2.049 14.759 2.049 13.228 10.04 9.111 10.04 11.492 5.052 13.993 10.04 16.493 10.04 18.875"
     />
-    <polygon points="17.313 19.07 15.03 19.07 19.573 7.267 21.872 7.267 17.313 19.07"/>
+    <polygon points="17.313 19.07 15.03 19.07 19.573 7.267 21.872 7.267 17.313 19.07" />
     <polygon
             points="21.96 18.872 21.96 16.492 26.983 13.993 21.96 11.494 21.96 9.113 29.951 13.212 29.951 14.774 21.96 18.872"
     />
