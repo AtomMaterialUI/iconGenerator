@@ -951,96 +951,11 @@ fileIcons:
 		]
 
 
-	SystemVerilog:
-		icon: "sysverilog"
-		match: [
-			[".sv", "auto-blue"]
-			[".svh", "auto-green"]
-			[".vh", "auto-cyan"]
-		]
-
-	"Table of Contents":
-		icon: "toc"
-		scope: "toc"
-		priority: 2
-		match: ".toc"
-		colour: "auto-cyan"
-
-	Tagfile: # CTags
-		icon: "tag"
-		match: [
-			[/\.?c?tags$/i, "medium-blue"]
-			[/\.gemtags/i, "medium-red"]
-			[/\.hgtags$|^localtags$/i, "medium-cyan"]
-			[/^\.atom-socket-.+\.\d$/, "medium-green", priority: 2]
-			[".pid", "medium-orange"]
-			[".tld", "medium-maroon", uses: "XML"]
-			[/(\.|^)sha(256|sum)?$/i, "medium-green"]
-		]
-
-	Tailwind:
-		icon: "tailwind"
-		match: /^\.?tailwind(\.config)?\.([cm]?js|ts|coffee)$/i
-		colour: "medium-cyan"
-		priority: 2
-
-	Tcl:
-		icon: "tcl"
-		match: [
-			[".tcl", "dark-orange", scope: "tcl", interpreter: /tclsh|wish/]
-			[".adp", "medium-orange"]
-			[".tm", "medium-red"]
-			[".exp", "dark-blue"]
-			[/^\.tkcvs/i, "medium-cyan"]
-			[/^\.tkdiffrc$/, "dark-red"]
-		]
-
-	Tea:
-		icon: "coffee"
-		scope: "tea"
-		match: ".tea"
-		colour: "medium-orange"
-
-	"Team Foundation Server":
-		icon: "tfs"
-		match: ".tfignore"
-		colour: "dark-purple"
-		alias: "tfs"
-
-	Telegram:
-		icon: "telegram"
-		match: [
-			[".tl", "medium-blue", scope: "tl", alias: /Type\s*Language/i]
-			[".xps", "light-blue"] # Microsoft XPS Viewer: Unrelated, but similar icon
-		]
-
-	"Template Toolkit":
-		icon: "tt"
-		match: [
-			[/\.tt2?$/i, "medium-blue"]
-			[".tt3", "medium-purple"]
-		]
-
-
-	Terraform:
-		icon: "terraform"
-		match: [
-			[/\.tf(vars)?$/i, "dark-purple", scope: /\.terra(form)?$/i]
-			[".tf.json", "medium-yellow", priority: 2]
-			[/\.tfstate(\.backup)?$/i, "medium-cyan"]
-		]
-
 	Terser:
 		icon: "terser"
 		match: /^\.(terser|uglify)rc(\.\w+)?$/i
 		colour: "medium-orange"
 		priority: 2
-
-	"Test, CoffeeScript":
-		icon: "test-coffee"
-		match: /[._-](spec|test)s?\.((lit)?coffee|iced|cjsx)$/i
-		colour: "auto-maroon"
-		priority: 1.5
 
 	"Test, Generic":
 		icon: "test-generic"
@@ -1050,95 +965,7 @@ fileIcons:
 			[".xspec", "dark-green"]
 		]
 
-	"Test, Go":
-		icon: "test-go"
-		match: /[._-](spec|test)s?\.go$/i
-		colour: "auto-cyan"
-		priority: 1.5
 
-	"Test, Haskell":
-		icon: "test-hs"
-		match: /[._-](spec|test)s?\.(hsc?|c2hs|lhs)$/i
-		colour: "auto-purple"
-		priority: 1.5
-
-	"Test, JavaScript":
-		icon: "test-js"
-		priority: 1.5
-		match: [
-			[/[._-](spec|test)s?\.([_s]?js|js[bms]|es\d*)$/i, "auto-yellow"]
-			[/[._-](spec|test)s?\.mjs$/i, "auto-blue"]
-			[/[._-](spec|test)s?\.cjs$/i, "auto-green"]
-			[/([\\\/])(?:(spec|test)s?|t)\1(?:\d+[-.])+(?!-)[^.\\\/]+\.js$/i, "auto-yellow", matchPath: true]
-			[/([\\\/])(?:(spec|test)s?|t)\1(?:\d+[-.])+(?!-)[^.\\\/]+\.mjs$/i, "auto-yellow", matchPath: true]
-			[/([\\\/])(?:(spec|test)s?|t)\1(?:\d+[-.])+(?!-)[^.\\\/]+\.cjs$/i, "auto-yellow", matchPath: true]
-		]
-
-	"Test, Perl":
-		icon: "test-perl"
-		match: [
-			[".t", "auto-blue"]
-			[/([\\\x2F])t\1(?:(?!\1).)+\.t$/i, "auto-blue", priority: 1.5, matchPath: true]
-			[/([\\\x2F])(test|spec)s?(\1((?!\1).)+)*\1((?!\1).)+[._-](spec|test)s?\.p(er)?l$/i, "auto-blue", priority: 1.5, matchPath: true]
-		]
-
-	"Test, Python":
-		icon: "test-python"
-		match: [
-			[/[._-](spec|test)s?\.py(3|thon)?/i, "dark-blue", priority: 1.5]
-			[/([\\\x2F])(test|spec)s?(\1((?!\1).)+)*\1(((?!\1).)+[._-](?:spec|test)s?|(?:spec|test)s?[._-].+)\.py(3|thon)?$/i, "dark-blue", priority: 1.5, matchPath: true]
-		]
-
-	"Test, React":
-		icon: "test-react"
-		priority: 1.5
-		match: [
-			[/[._-](spec|test)s?\.(jsx|react\.[cm]?js)$/, "auto-blue"]
-			[/([\\\/])(spec|test)s?\1(?:\d+[-.])+(?!-)[^.\\\/]+\.(jsx|react\.[cm]?js)$/i, "auto-blue", matchPath: true]
-		]
-
-	"Test, Ruby":
-		icon: "test-ruby"
-		match: [
-			[/[._-](spec|test)s?\.(rb|ruby)$/i, "auto-red", priority: 2]
-			[/([\\\x2F])(t|tests?|specs?)\1+(?:(?!\1).)*\.(rb|ruby)$/, "auto-red", priority: 2, matchPath: true]
-		]
-
-	"Test, Rust":
-		icon: "test-rust"
-		match: /[._-](spec|test)s?\.rs$/i
-		colour: "auto-maroon"
-		priority: 1.5
-
-	"Test, TypeScript":
-		icon: "test-ts"
-		priority: 1.5
-		match: [
-			[/[._-](spec|test)s?\.ts$/i, "auto-blue"]
-			[/[._-](spec|test)s?\.tsx$/i, ["light-blue", "medium-blue"]]
-			[/([\\\/])(spec|test)s?\1(?:\d+[-.])+(?!-)[^.\\\/]+\.ts$/i, "auto-blue", matchPath: true]
-			[/([\\\/])(spec|test)s?\1(?:\d+[-.])+(?!-)[^.\\\/]+\.tsx$/i, ["light-blue", "medium-blue"], matchPath: true]
-		]
-
-	TeX:
-		icon: "tex"
-		match: [
-			[".tex", "auto-blue", scope: /(^|\.)latex(\.|$)/i, alias: "latex"]
-			[".ltx", "auto-blue"]
-			[".aux", "auto-green"]
-			[".sty", "auto-red", scope: /(^|\.)tex(\.|$)/i]
-			[".dtx", "auto-maroon"]
-			[".cls", "auto-orange"]
-			[".ins", "auto-green"]
-			[".lbx", "auto-blue"]
-			[".mkiv", "auto-orange"]
-			[".mkvi", "auto-orange"]
-			[".mkii", "auto-orange"]
-			[".pgf", "auto-purple", "pgf"]
-			[".tikz", "auto-purple", "tikz"]
-			[/\.(texi(nfo)?|txi)$/i, "auto-red", "texinfo"]
-			[/^hyphen(ex)?\.(cs|den|det|fr|sv|us)$/, "auto-red", priority: 2]
-		]
 
 	Text:
 		icon: "icon-file-text"
@@ -1173,25 +1000,6 @@ fileIcons:
 		]
 
 
-	TextMate:
-		icon: "textmate"
-		match: [
-			[".tmcg", "medium-green", scope: "tmcg"]
-			[".tmLanguage", "dark-purple"]
-			[".tmCommand", "medium-blue"]
-			[".tmPreferences", "dark-blue"]
-			[".tmSnippet", "dark-orange"]
-			[".tmTheme", "medium-pink"]
-			[".tmMacro", "medium-maroon"]
-			[".yaml-tmlanguage", "medium-orange"]
-			[".JSON-tmLanguage", "medium-purple"]
-		]
-
-	Theme:
-		icon: "icon-paintcan"
-		noSuffix: true
-		match: ".theme"
-		colour: "medium-purple"
 
 	Thor:
 		icon: "thor"
