@@ -554,10 +554,10 @@
                color="F59F29"
                pattern="^\.(babelrc(\.js)?|languagebabel|babel)$"
                icon="/icons/files/babel.svg" />
-        <regex fileNames="babel.json,babel.config.json"
+        <regex fileNames="babel.json,babel.config.json,babel.config.js"
                name="Babel Config"
                color="F59F29"
-               pattern="^babel(\.[\w\-]+)?\.json$"
+               pattern="^babel(\.[\w\-]+)?\.js(on)$"
                icon="/icons/files/babel.svg" />
         <regex fileNames="backbone.js,backbone.min.js"
                name="Backbone"
@@ -1573,10 +1573,10 @@
                color="e55151"
                pattern="^\.esdoc\.([cm]?js|json)$"
                icon="/icons/files/esdoc.svg" />
-        <regex fileNames=".eslintrc,.eslintrc.js,.eslintrc.json,.eslintrc.yml"
+        <regex fileNames=".eslintrc,.eslintrc.js,.eslintrc.cjs,.eslintrc.json,.eslintrc.yml"
                name="ESLint"
                color="7963E6"
-               pattern=".*\.eslintrc(\.js(on)?|\.y(a)?ml)?$"
+               pattern=".*\.eslintrc(\.(c)js(on)?|\.y(a)?ml)?$"
                icon="/icons/files/eslint.svg" />
         <regex fileNames=".eslintcache"
                name="ESLint Cache"
@@ -4884,8 +4884,8 @@
         <!--endregion-->
 
         <!--<regex fileNames=""
- name="Any" 
-pattern="" 
+ name="Any"
+pattern=""
 icon="/icons/files/default.svg"/>-->
     </associations>
 </associations>
