@@ -41,6 +41,11 @@
               icon="/icons/files/svg.svg" />
 
         <!-- region Custom -->
+        <regex fileNames="main.yml,workflow.yaml"
+               name="GitHub Actions"
+               pattern="(main|workflow)\.ya?ml$"
+               color="78909C"
+               icon="/icons/files/github.svg" />
         <regex fileNames="CODE_OF_CONDUCT.md,CODE_OF_CONDUCT.txt"
                name="Github CODE"
                pattern="^CODE_OF_CONDUCT\.(md|txt)$"
@@ -2623,6 +2628,11 @@
                color="7A8387"
                pattern=".*\.log(\.[0-9]+)?"
                icon="/icons/files/log.svg" />
+        <regex fileNames="*.rpt,*.bug-report,*.fdl,*.tests"
+               name="Log (2)"
+               color="7A8387"
+               pattern=".*\.(rpt|bug-report|fdl|tests)?"
+               icon="/icons/files/log.svg" />
         <regex fileNames="*.logtalk,*.lgt"
                name="Logtalk"
                color="7986CB"
@@ -2911,6 +2921,11 @@
                color="90A959"
                pattern=".*\.(mongodb|bson)$"
                icon="/icons/files/mongodb.svg" />
+        <regex fileNames="*.more,*.msg,*.utf8"
+               name="More"
+               color="7A8387"
+               pattern=".*\.(more|msg|utf8)?"
+               icon="/icons/files/log.svg" />
         <regex fileNames="*.mrb"
                name="mRuby"
                color="c32d00"
@@ -3086,7 +3101,7 @@
                icon="/icons/files/shruiken.svg" />
         <regex fileNames="*.nmap,*.nse"
                name="Nmap"
-               color="#71b9d0"
+               color="71b9d0"
                pattern=".*\.(nmap|nse)$"
                icon="/icons/files/nmap.svg" />
         <regex fileNames="server.js,server.ts,app.js,app.ts,app.es6,main.js,main.ts,main.es6"
@@ -4016,6 +4031,11 @@
                color="455A64"
                pattern=".*\.sublime-.*"
                icon="/icons/files/sublime.svg" />
+        <regex fileNames="*.srt,*.sub"
+               name="Subtitles"
+               pattern=".*\.(srt|sub)$"
+               color="9575CD"
+               icon="/icons/files/subtitle.svg" />
         <regex fileNames="*.scd"
                name="SuperCollider"
                pattern=".*\.scd$"
@@ -4070,7 +4090,7 @@
         <!--region T -->
         <regex fileNames="config.toc"
                name="Table of Contents"
-               color="#66BB6A"
+               color="66BB6A"
                pattern=".*\.tcl$"
                icon="/icons/files/toc.svg" />
         <regex fileNames="*.tags,*.ctags,*.gemtags,*.hgtags,*.localtags"
@@ -4113,10 +4133,15 @@
                color="26A69A"
                pattern=".*\.(tf|tfstate|tfvars)(\.json)?$"
                icon="/icons/files/terraform.svg" />
-        <regex fileNames="*.tex,*.cls,*.sty,*.dtx,*.ltx"
+        <regex fileNames="*.terserrc,*.uglifyrc.json,*.terserrc.conf"
+               name="Terser"
+               color="f54339"
+               pattern=".*\.(terser|uglify)rc(\.\w+)?$"
+               icon="/icons/files/terser.svg" />
+        <regex fileNames="*.tex,*.cls,*.sty,*.dtx,*.ltx,*.etx"
                name="TeX"
                color="4E85F4"
-               pattern=".*\.(tex|cls|sty|dtx|ltx)$"
+               pattern=".*\.(tex|cls|sty|dtx|ltx|etx)$"
                icon="/icons/files/tex.svg" />
         <regex fileNames="*.tern-config,*.tern-project"
                name="Tern"
@@ -4203,6 +4228,36 @@
                color="C792EA"
                pattern=".*\.tm(cg|Preferences|Theme|Language|Command|Snippet|Macro)"
                icon="/icons/files/textmate.svg" />
+        <regex fileNames="*.thor"
+               name="Thor"
+               color="FFD54F"
+               pattern=".*\.thor$"
+               icon="/icons/files/thor.svg" />
+        <regex fileNames="*.tipe"
+               name="Tipe"
+               color="BB85FC"
+               pattern=".*\.tipe$"
+               icon="/icons/files/tipe.svg" />
+        <regex fileNames="*.tla"
+               name="TLA+"
+               color="FFF176"
+               pattern=".*\.tla$"
+               icon="/icons/files/tla.svg" />
+        <regex fileNames="*.tmux.conf,test_tmux.conf,tmux.conf"
+               name="Tmux"
+               color="81C784"
+               pattern="(\.|_|^)tmux\.conf$"
+               icon="/icons/files/tmux.svg" />
+        <regex fileNames=".truffle.cjs,.truffle.js,.truffle.mjs"
+               name="Truffle"
+               color="A1887F"
+               pattern="^\.truffle\.[cm]?js$"
+               icon="/icons/files/truffle.svg" />
+        <regex fileNames="*.ttcn,*.ttcn3"
+               name="TTCN-3"
+               color="BA68C8"
+               pattern=".*\.ttcn3?$"
+               icon="/icons/files/ttcn.svg" />
         <regex fileNames="tomcat.conf,tomcat.java"
                name="Tomcat"
                color="FFCB6B"
@@ -4238,16 +4293,31 @@
                color="F07178"
                pattern=".*\.travis\.yml$"
                icon="/icons/files/travis.svg" />
-        <regex fileNames="*.t"
+        <regex fileNames="*.tu"
                name="Turing"
                color="4DD0E1"
-               pattern=".*\.t$"
+               pattern=".*\.tu$"
                icon="/icons/files/turing.svg" />
         <regex fileNames="*.twig"
                name="Twig"
                color="6AAB20"
                pattern=".*\.twig$"
                icon="/icons/files/twig.svg" />
+        <regex fileNames="*.tw"
+               name="TwineScript"
+               color="6AE596"
+               pattern=".*\.tw$"
+               icon="/icons/files/twine.svg" />
+        <regex fileNames="*.txl"
+               name="TXL"
+               color="2878B8"
+               pattern=".*\.txl$"
+               icon="/icons/files/txl.svg" />
+        <regex fileNames="typedoc.json"
+               name="TypeDoc"
+               color="9600FF"
+               pattern="^typedoc\.json$"
+               icon="/icons/files/typedoc.svg" />
         <regex fileNames="*.d.ts"
                name="Typescript Defs"
                color="0288d1"
@@ -4258,6 +4328,11 @@
                color="7A8387"
                pattern="^typings\.json$"
                icon="/icons/files/typings.svg" />
+        <regex fileNames="*.typoscript"
+               name="TypoScript"
+               color="F78704"
+               pattern=".*\.typoscript$"
+               icon="/icons/files/typo3.svg" />
         <!--endregion-->
 
         <!--region U -->
@@ -4286,6 +4361,11 @@
                color="1976d2"
                pattern=".*\.(unity(3d|proj|package)?|fbx|u3d|ply|anim|asset|cubemap|mat|meta|prefab)"
                icon="/icons/files/unity.svg" />
+        <regex fileNames="*.uos,*.uof,*.uot,*.uop"
+               name="Uniform Office"
+               pattern=".*\.uo[ftsp]$"
+               color="E79627"
+               icon="/icons/files/openoffice.svg" />
         <regex fileNames="*.uno"
                name="UNO"
                pattern=".*\.uno$"
@@ -4884,10 +4964,10 @@
                color="BB80B3"
                pattern=".*\.(php[st]?)$"
                icon="/icons/files/php.svg" />
-        <regex fileNames="*.txt,*.rtf"
+        <regex fileNames="*.txt,*.rtf,*.abt,*.ans,*.brf,*.dri,*.no"
                name="Text"
                color="E79627"
-               pattern=".*\.(txt|rtf)$"
+               pattern=".*\.(txt|rtf|abt|ans|brf|dri|no)$"
                icon="/icons/files/text.svg" />
         <regex fileNames="*.ts,*.tslint"
                name="TypeScript"
@@ -4924,9 +5004,5 @@
                icon="/icons/files/yaml.svg" />
         <!--endregion-->
 
-        <!--<regex fileNames=""
- name="Any"
-pattern=""
-icon="/icons/files/default.svg"/>-->
     </associations>
 </associations>
