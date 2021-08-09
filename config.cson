@@ -485,33 +485,6 @@ fileIcons:
 		match: ".sas"
 		colour: "medium-blue"
 
-	Sass:
-		icon: "sass"
-		match: [
-			[".scss", "light-pink", "scss"]
-			[".sass", "dark-pink", "sass"]
-			[/^\.sassrc(\.[cm]?js)?$/i, "auto-yellow", priority: 2, uses: "JavaScript"]
-		]
-
-	SBT:
-		icon: "sbt"
-		match: ".sbt"
-		colour: "dark-purple"
-
-	Scala:
-		icon: "scala"
-		match: [
-			[/\.(sc|scala)$/i, "medium-red", "scala"]
-			[".kojo", "medium-green"]
-		]
-
-	Scheme:
-		icon: "scheme"
-		match: [
-			[".scm", "medium-red", scope: "scheme", interpreter: /guile|bigloo|chicken/]
-			[".sld", "medium-blue"]
-			[".sps", "medium-purple"]
-		]
 
 	Scilla:
 		icon: "scilla"
@@ -551,11 +524,6 @@ fileIcons:
 		match: ".self"
 		colour: "dark-blue"
 
-	"Semantic Release":
-		icon: "semrelease"
-		priority: 2
-		match: /^\.releaserc(\.(ya?ml|[cm]?js|json))?$/i
-		colour: "medium-grey"
 
 	Sencha:
 		icon: "sencha"
@@ -654,11 +622,6 @@ fileIcons:
 		match: /^shippable\.ya?ml$/i
 		colour: "medium-cyan"
 
-	Shopify:
-		icon: "shopify"
-		match: ".liquid"
-		colour: "medium-green"
-
 	Sieve:
 		icon: "filter"
 		match: ".sieve"
@@ -672,16 +635,6 @@ fileIcons:
 		match: ".sigils"
 		colour: "dark-red"
 
-	SilverStripe:
-		icon: "silverstripe"
-		scope: /(^|\.)ss(template)?(\.|$)/i
-		match: ".ss"
-		colour: "medium-blue"
-
-	Sketch:
-		icon: "sketch"
-		match: ".sketch"
-		colour: "medium-orange"
 
 	"SketchUp LayOut":
 		icon: "sketchup-lo"
@@ -710,11 +663,6 @@ fileIcons:
 		match: ".sl"
 		colour: "dark-blue"
 
-	Smarty:
-		icon: "smarty"
-		scope: "smarty"
-		match: ".tpl"
-		colour: "auto-yellow"
 
 	Snapcraft:
 		icon: "snapcraft"
@@ -745,12 +693,6 @@ fileIcons:
 		priority: 2
 		match: /^\.solidarity(\.json)?$/i
 		colour: "dark-red"
-
-	Solidity:
-		icon: "solidity"
-		match: /\.sol(idity)?$/i
-		scope: "solidity"
-		colour: "dark-cyan"
 
 	Sophia:
 		icon: "sophia"
@@ -799,33 +741,6 @@ fileIcons:
 			[".hqf", "dark-red"]
 		]
 
-	SQL:
-		icon: "sql"
-		match: [
-			[/\.(my)?sql$/i, "medium-orange", "sql"]
-			[".ddl", "medium-blue"]
-			[".udf", "medium-green"]
-			[".hql", "medium-red"]
-			[".viw", "dark-cyan"]
-			[".prc", "dark-blue"]
-			[".cql", "dark-blue"]
-			[".db2", "medium-purple"]
-
-# Informix 4GL
-			[".4gl", "medium-blue", scope: /4GL(\.|$)/i]
-			[".per", "medium-cyan"]
-			[".spsql", "medium-green"]
-		]
-
-	SQLite:
-		icon: "sqlite"
-		match: [
-			[".sqlite", "medium-blue"]
-			[".sqlite3", "dark-blue", signature: /^SQLite format 3/]
-			[".db", "medium-purple"]
-			[".db3", "dark-purple"]
-		]
-
 	Squirrel:
 		icon: "squirrel"
 		match: [
@@ -833,38 +748,12 @@ fileIcons:
 			[".gnut", "medium-red"]
 		]
 
-	"SSH keys":
-		icon: "key"
-		match: [
-			[".pub", "medium-yellow"]
-			[".pem", "medium-orange"]
-			[".key", "medium-blue"]
-			[".crt", "medium-blue"]
-			[".der", "medium-purple"]
-			[/^id_rsa/, "medium-red"]
-			[/\.glyphs\d*License$/i, "medium-green"]
-			[/^(master\.)?passwd$/i, "dark-green"]
-			[/^git-credential-osxkeychain$/i, "medium-green"]
-			[/\.ssh[\/\\][^/\\\s]+$/, "dark-blue", matchPath: true, priority: 0]
-		]
 
 	Stan:
 		icon: "stan"
 		scope: "stan"
 		match: ".stan"
 		colour: "medium-red"
-
-	Stata:
-		icon: "stata"
-		match: [
-			[".do", "medium-blue", "stata"]
-			[".ado", "dark-blue"]
-			[".doh", "light-blue"]
-			[".ihlp", "medium-cyan"]
-			[".mata", "dark-cyan", "mata"]
-			[".matah", "light-cyan"]
-			[".sthlp", "medium-purple"]
-		]
 
 
 	StdlibJS:
@@ -875,13 +764,7 @@ fileIcons:
 			[/^stdlib(-.+)?\.[cm]?js\.gz$/i, "medium-blue"]
 		]
 
-	Storybook:
-		icon: "storybook"
-		priority: 2
-		match: [
-			[/\.(story|stories)\.([cm]?js|jsx)$/i, "medium-orange"]
-			[/\.(story|stories)\.tsx?$/i, "medium-blue"]
-		]
+
 
 	Storyist:
 		icon: "storyist"
@@ -912,14 +795,6 @@ fileIcons:
 			[".sc.tsx", "light-blue"]
 		]
 
-	Stylelint:
-		icon: "stylelint"
-		priority: 2
-		match: [
-			[/^\.stylelintrc(\.|$)/i, "medium-purple"]
-			[/^stylelint\.config\.[cm]?js$/i, "auto-yellow"]
-			[/\.stylelint(ignore|cache)$/i, "dark-blue"]
-		]
 
 	"Stylish Haskell":
 		icon: "stylishhaskell"
@@ -927,20 +802,6 @@ fileIcons:
 		match: /^\.stylish-haskell\.ya?ml$/i
 		colour: "medium-purple"
 
-
-	"Sublime Text":
-		icon: "sublime"
-		match: [
-			[/\.(stTheme|sublime[-_](build|commands|completions|keymap|macro|menu|mousemap|project|settings|theme|workspace|metrics|session|snippet))$/i, "medium-orange"]
-			[".sublime-syntax", "dark-orange"]
-		]
-
-	SuperCollider:
-		icon: "scd"
-		scope: "supercollider"
-		interpreter: /sclang|scsynth/
-		match: ".scd"
-		colour: "medium-red"
 
 	Swagger:
 		icon: "swagger"
