@@ -3124,6 +3124,21 @@
                color="808080"
                pattern="^\.nodemonignore$"
                icon="/icons/files/nodemonignore.svg" />
+        <regex fileNames="*.nomad"
+               name="Nomad"
+               color="00ca8e"
+               pattern=".*\.nomad$"
+               icon="/icons/files/nomad.svg" />
+        <regex fileNames="*.noon"
+               name="Noon"
+               color="757575"
+               pattern=".*\.noon$"
+               icon="/icons/files/noon.svg" />
+        <regex fileNames="normalize.min.css,normalize.min.less,normalize.scss,normalize.styl"
+               name="Normalize"
+               color="dc665c"
+               pattern="^normalize(\.min)?\.(css|less|scss|styl)$"
+               icon="/icons/files/normalize.svg" />
         <regex fileNames="*.scratch,*.note"
                name="Note"
                color="ab7967"
@@ -3159,16 +3174,26 @@
                color="808080"
                pattern="^\.npmignore$"
                icon="/icons/files/npmignore.svg" />
-        <regex fileNames="*.nsis"
+        <regex fileNames="*.nsis,*.nsi"
                name="NSIS"
                color="8069F3"
                pattern=".*\.nsis?$"
                icon="/icons/files/nsis.svg" />
-        <regex fileNames="*.nvmrc,*.esmrc"
-               name="NVM"
-               color="73B923"
-               pattern=".*\.(nvmrc|esmrc)$"
-               icon="/icons/files/nodejs.svg" />
+        <regex fileNames=".nsrirc.json,.nsrirc.config.js,.nsrirc.config.yaml,.integrity.json,.integrity.config.cjs"
+               name="NSRI"
+               color="AED581"
+               pattern="^\.(nsrirc|integrity)(\.(json|(config\.)?[cm]?js|ya?ml))?$"
+               icon="/icons/files/nsri.svg" />
+        <regex fileNames="*.nu,Nukefile"
+               name="Nuke"
+               color="4DB6AC"
+               pattern="^(.*\.nu|Nukefile)$"
+               icon="/icons/files/nu.svg" />
+        <regex fileNames="*.numpy,*.numpyw,*.numsc"
+               name="NumPy"
+               color="42A5F5"
+               pattern=".*\.(numpyw?|numsc)$"
+               icon="/icons/files/numpy.svg" />
         <regex fileNames="*.nuclide"
                name="Nuclide"
                color="BB80B3"
@@ -3189,17 +3214,28 @@
                color="41b883"
                pattern=".*nuxt\.config\.(js|ts)"
                icon="/icons/files/nuxt.svg" />
+        <regex fileNames="*.nvmrc,*.esmrc"
+               name="NVM"
+               color="73B923"
+               pattern=".*\.(nvmrc|esmrc)$"
+               icon="/icons/files/nodejs.svg" />
+        <regex fileNames="*.nxc"
+               name="NXC"
+               color="FFB74D"
+               pattern=".*\.nxc$"
+               icon="/icons/files/nxc.svg" />
         <!--endregion-->
 
+        <!--region O -->
         <regex fileNames="*.mm,*.m"
                name="Objective-C"
                pattern=".*\.mm?$"
                color="7986CB"
                icon="/icons/files/objc.svg" />
-        <regex fileNames="*.ocaml,*.ml,*.mli,*.cmx,*.ocamllex,*.ocamlyacc"
+        <regex fileNames="*.ocaml,*.ml,*.mli,*.ml4,*.mly,*.mll,*.cmx,*.ocamllex,*.ocamlyacc"
                name="OCaml"
                color="E44F31"
-               pattern=".*\.(ocaml|ml|mli|cmx|ocamllex|ocamlyacc)$"
+               pattern=".*\.(ocaml|ml|ml[i4ly]|cmx|ocamllex|ocamlyacc)$"
                icon="/icons/files/ocaml.svg" />
         <regex fileNames="*.one,*.onenote"
                name="OneNote"
@@ -3211,10 +3247,15 @@
                color="D4E157"
                pattern="openapi\.(json|ya?ml)$"
                icon="/icons/files/openapi.svg" />
-        <regex fileNames="*.odf,*.ods"
+        <regex fileNames="*.odf,*.ods,*.odt,*.odp,*.odg,*.odf,*.odb,*.fodt,*.fods,*.fodp,*.fodg"
                name="OpenOffice"
                color="E79627"
-               pattern=".*\.(odf|ods)$"
+               pattern=".*\.(f?od[fstpgfb])$"
+               icon="/icons/files/openoffice.svg" />
+        <regex fileNames="*.ott,*.ots,*.otp,*.otg"
+               name="OpenOffice (2)"
+               color="E79627"
+               pattern=".*\.(ot[tspg])$"
                icon="/icons/files/openoffice.svg" />
         <regex fileNames="*.pls,*.plsql,*.plb,*.pkb,*.pck"
                name="Oracle PLSQL"
@@ -3226,6 +3267,7 @@
                color="006ebf"
                pattern=".*\.(pst|bcmx|oab|otm|oft|nk2)$"
                icon="/icons/files/outlook.svg" />
+        <!--endregion-->
 
         <!--region P-->
         <regex fileNames="paket.dependencies,paket.lock,paket.references,paket.local,paket.template"

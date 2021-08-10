@@ -198,93 +198,6 @@ fileIcons:
 		]
 
 
-
-
-	Nomad:
-		icon: "nomad"
-		match: ".nomad"
-		colour: "medium-green"
-
-	Noon:
-		icon: "noon"
-		match: ".noon"
-		colour: "dark-grey"
-		scope: "noon"
-		interpreter: "noon"
-
-	Normalize:
-		icon: "normalize"
-		priority: 2
-		match: /^normalize(\.min)?\.(css|less|scss|styl)$/i
-		colour: "medium-red"
-
-	NPM:
-		icon: "npm"
-		priority: 2
-		match: /^(package\.json|\.npmignore|\.?npmrc|npm-debug\.log|npm-shrinkwrap\.json|package-lock\.json)$/i
-		colour: "medium-red"
-		scope: /\.ini\.npmrc\b/
-
-	NSIS:
-		icon: "nsis"
-		match: [
-			[".nsi", "medium-purple", "nsis"]
-			[".nsh", "dark-cyan"]
-		]
-
-	"NSRI Config":
-		icon: "nsri"
-		priority: 2
-		match: [
-			[/^\.nsrirc(\.(json|(config\.)?[cm]?js|ya?ml))?$/i, "medium-green"]
-			[/^\.nsriignore(\.(json|(config\.)?[cm]?js|ya?ml))?$/i, "dark-green"]
-		]
-
-	"NSRI Integrity":
-		icon: "nsri-alt"
-		match: ".integrity.json"
-		colour: "medium-green"
-		priority: 2
-
-	Nu:
-		icon: "recycle"
-		match: [
-			[".nu", "light-green", scope: "nu", alias: "nush", interpreter: "nush"]
-			[/^Nukefile$/, "dark-green"]
-		]
-
-	NuGet:
-		icon: "nuget"
-		match: [
-			[".nuspec", "medium-blue"]
-			[".pkgproj", "dark-purple"]
-		]
-
-	NumPy:
-		icon: "numpy"
-		match: [
-			[".numpy", "dark-blue"]
-			[".numpyw", "medium-blue"]
-			[".numsc", "medium-orange"]
-		]
-
-	Nunjucks:
-		icon: "nunjucks"
-		match: /\.(nunjucks|njk)$/i
-		colour: "dark-green"
-
-	Nuxt:
-		icon: "nuxt"
-		priority: 2
-		match: /^nuxt\.config\.[jt]s$/i
-		colour: "medium-cyan"
-
-	NXC: # Not eXactly C
-		icon: "nxc"
-		match: ".nxc"
-		scope: "nxc"
-		colour: "medium-orange"
-
 	Oberon:
 		icon: "oberon"
 		match: ".ob2"
@@ -292,31 +205,12 @@ fileIcons:
 		scope: "oberon"
 		uses: "Modula-2"
 
-	"Objective-C":
-		icon: "objc"
-		match: [
-			[/\.mm?$/i, "medium-blue", scope: /\.objc(pp)?$/i, alias: /^(Obj-?C|ObjectiveC)(\+\+)?$/i]
-			[".pch", "dark-red"]
-			[".x", "dark-green"]
-		]
 
 	"Objective-J":
 		icon: "objj"
 		match: [
 			[".j", "dark-orange", scope: "objj", alias: /^(Obj-?J|ObjectiveJ)$/i]
 			[".sj", "dark-red"]
-		]
-
-	OCaml:
-		icon: "ocaml"
-		match: [
-			[".ml", "medium-orange", scope: "ocaml", interpreter: /ocaml(run|script)?/]
-			[".mli", "dark-orange"]
-			[".eliom", "medium-red"]
-			[".eliomi", "dark-red"]
-			[".ml4", "medium-green"]
-			[".mll", "dark-green", "ocamllex"]
-			[".mly", "dark-yellow", "menhir"]
 		]
 
 	Octave:
@@ -371,25 +265,6 @@ fileIcons:
 		match: [
 			[/\.(vert|vrx|vertex|vsh(ader)?)$/i, "medium-blue", alias: /^Vertex[-_\s]*(Shader|Program)?$/i]
 			[/\.(fra?g|fp|fsh|fshader)$/i, "medium-red", alias: /^Fragment[-_\s]*(Shader|Program)?$/i]
-		]
-
-	OpenOffice:
-		icon: "openoffice"
-		match: [
-			[".odt", "medium-blue"]
-			[".ott", "dark-blue"]
-			[".fodt", "dark-purple"]
-			[".ods", "medium-green"]
-			[".ots", "dark-green"]
-			[".fods", "dark-cyan"]
-			[".odp", "medium-purple"]
-			[".otp", "dark-pink"]
-			[".fodp", "medium-pink"]
-			[".odg", "medium-red"]
-			[".otg", "dark-red"]
-			[".fodg", "dark-orange"]
-			[".odf", "medium-maroon"]
-			[".odb", "light-pink"]
 		]
 
 	"Open Policy Agent":
