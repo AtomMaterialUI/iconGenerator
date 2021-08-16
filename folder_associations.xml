@@ -105,6 +105,11 @@
                iconColor="E6EE9C"
                pattern="^\.atom(-ci)?$"
                icon="/atom.svg" />
+        <regex fileNames=".action,.caction,.definition,.workflow"
+               name="automator"
+               color="64D2F2"
+               pattern="^\.(c?action|definition|workflow)$"
+               icon="/icons/files/automator.svg" />
         <regex folderNames="mp3,wav,music,musics,audio,sound,sounds"
                name="audio"
                folderColor="ef5350"
@@ -140,8 +145,8 @@
         <!--region B-->
         <regex folderNames=".bzr"
                name="bazaar"
-               folderColor="009688"
-               iconColor="B2DFDB"
+               folderColor="FFA000"
+               iconColor="FFECB3"
                pattern="^.bzr$"
                icon="/bazaar.svg" />
         <regex folderNames="benchmark,benchmarks"
@@ -150,12 +155,30 @@
                iconColor="B2DFDB"
                pattern="^benchmarks?$"
                icon="/benchmark.svg" />
+        <regex folderNames=".bitcoin"
+               name="bitcoin"
+               folderColor="FFA000"
+               iconColor="FFECB3"
+               pattern="^\.bitcoin$"
+               icon="/bitcoin.svg" />
+        <regex folderNames="bloc,blocs"
+               name="bloc"
+               folderColor="039BE5"
+               iconColor="b3e5fc"
+               pattern="^blocs?$"
+               icon="/bloc.svg" />
         <regex folderNames="bower_components"
                name="bower"
                folderColor="F4511E"
                iconColor="FFCCBC"
                pattern="^bower_components$"
                icon="/bower.svg" />
+        <regex folderNames=".buildkite"
+               name="buildkite"
+               folderColor="689f38"
+               iconColor="dcedc8"
+               pattern="^\.buildkite$"
+               icon="/buildkite.svg" />
         <!--endregion-->
 
         <!--region C -->
@@ -201,6 +224,12 @@
                iconColor="b3e5fc"
                pattern="^(clusters?|nodes?)$"
                icon="/cluster.svg" />
+        <regex folderNames="cnab"
+               name="cnab"
+               folderColor="009688"
+               iconColor="B2DFDB"
+               pattern="^cnab$"
+               icon="/cnab.svg" />
         <regex folderNames="component,components,widget,widgets,element,elements,ui"
                name="components"
                folderColor="F9A825"
@@ -255,6 +284,12 @@
                iconColor="FFEE58"
                pattern="^(cron|scheduler)$"
                icon="/serverless.svg" />
+        <regex folderNames="cubit,cubits"
+               name="cubit"
+               folderColor="00BCD4"
+               iconColor="b2ebf2"
+               pattern="^cubits?$"
+               icon="/cubit.svg" />
         <regex folderNames="custom"
                name="custom"
                folderColor="ff7043"
@@ -348,12 +383,24 @@
                iconColor="b3e5fc"
                pattern="^\.?dropbox(\.cache)?$"
                icon="/dropbox.svg" />
+        <regex folderNames=".dub"
+               name="dub"
+               folderColor="D32F2F"
+               iconColor="F48FB1"
+               pattern="^\.dub$"
+               icon="/dub.svg" />
         <regex folderNames="dump,dumps,data"
                name="dump"
                folderColor="757575"
                iconColor="bdbdbd"
                pattern="^(dumps?|data)$"
                icon="/dump.svg" />
+        <regex folderNames=".dvc"
+               name="dvc"
+               folderColor="039be5"
+               iconColor="b3e5fc"
+               pattern="^\.dvc$"
+               icon="/dvc.svg" />
         <!--endregion-->
 
         <!--region E-->
