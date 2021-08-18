@@ -616,7 +616,7 @@
         <regex fileNames="*.feature.php"
                name="Behat"
                color="39ADB5"
-               pattern=".*\.feature(\.php)$"
+               pattern=".*\.feature\.php$"
                icon="/icons/files/behat.svg" />
         <regex fileNames="behat.yml,behat.config.yml"
                name="Behat Config"
@@ -1186,6 +1186,11 @@
                color="9ccc65"
                pattern="(CREDITS|credits).*"
                icon="/icons/files/credits.svg" />
+        <regex fileNames="*.cpc"
+               name="CpcdosC+"
+               pattern="^.*\.cpc$"
+               color="64B5F6"
+               icon="/icons/files/cpcdocs.svg" />
         <regex fileNames="*.creole"
                name="Creole"
                pattern="^.*\.creole$"
@@ -1206,10 +1211,10 @@
                pattern="^.*\.(orc|udo|csc|sco)$"
                color="343433"
                icon="/icons/files/csound.svg" />
-        <regex fileNames="*.css"
+        <regex fileNames="*.css,*.tss"
                name="CSS"
                color="1E9CEF"
-               pattern=".*\.css$"
+               pattern=".*\.(css|tss)$"
                icon="/icons/files/css.svg" />
         <regex fileNames=".csscomb.json"
                name="CSSComb"
@@ -1304,6 +1309,11 @@
                color="f08a43"
                pattern="^d3(\.v\d+)?[^.]*\.[cm]?js"
                icon="/icons/files/d3.svg" />
+        <regex fileNames="*.dfy,*.dafny"
+               name="Dafny"
+               color="ffec4f"
+               pattern=".*\.(dfy|dafny)$"
+               icon="/icons/files/dafny.svg" />
         <regex fileNames="*.dnh"
                name="Danmufuku"
                color="42a5f5"
@@ -1334,11 +1344,6 @@
                color="049cd8"
                pattern=".*\.dwl$"
                icon="/icons/files/dataweave.svg" />
-        <regex fileNames="*.db,*.dbi,*.ddl,*.dict,*.od,*.schema,*.db2,*.db3"
-               name="DB"
-               color="F78C6C"
-               pattern=".*\.(dbi?|ddl|dict|od|schema|db[23])$"
-               icon="/icons/files/db.svg" />
         <regex fileNames="*.dbproj,*.sqlproj"
                name="DB Project"
                color="4DB6AC"
@@ -1359,10 +1364,15 @@
                color="eb2734"
                pattern=".*\.(delphi|dfm|dof|dpr)$"
                icon="/icons/files/delphi.svg" />
-        <regex fileNames="Dependencies"
+        <regex fileNames="DEPS,Dependencies"
                name="Deps"
                color="81D4FA"
-               pattern="^DEPS$"
+               pattern="^(DEPS|Dependencies)$"
+               icon="/icons/files/deps.svg" />
+        <regex fileNames="*.deps,*.pydeps"
+               name="Deps (2)"
+               color="81D4FA"
+               pattern=".*\.(deps|pydeps)"
                icon="/icons/files/deps.svg" />
         <regex fileNames="devcontainer.json"
                name="DevContainer"
@@ -2437,10 +2447,10 @@
                color="4DB6AC"
                pattern=".*\.json5$"
                icon="/icons/files/json5.svg" />
-        <regex fileNames="*.jsonld"
+        <regex fileNames="*.jsonld,*.ldjson,*.jsonl"
                name="JSON LD"
                color="6F74DD"
-               pattern=".*\.jsonld$"
+               pattern=".*\.(jsonld|ldjson|jsonl)$"
                icon="/icons/files/jsonld.svg" />
         <regex fileNames="*.jsonnet,*.libsonnet"
                name="Jsonnet"
@@ -3765,6 +3775,11 @@
                color="FFCB6B"
                pattern="^(python-?config\.json|pyproject\.toml)$"
                icon="/icons/files/pythonconfig.svg" />
+        <regex fileNames="poetry.lock,.coveragerc,MANIFEST.in,.python-version"
+               name="Python Config (2)"
+               color="FFCB6B"
+               pattern="^(poetry\.lock|MANIFEST\.in|\.python-version|\.coveragerc)$"
+               icon="/icons/files/pythonconfig.svg" />
         <regex fileNames=".python-version,.pythonversion"
                name="Python Version"
                color="FFCB6B"
@@ -4218,6 +4233,11 @@
                name="Shell (2)"
                color="AA759F"
                pattern=".*\.(csh|ksh|mksh|pdksh)(rc)?$"
+               icon="/icons/files/shell.svg" />
+        <regex fileNames=".irb-history,.bash_history,.lesshst"
+               name="Shell History"
+               color="AA759F"
+               pattern="\.((irb-|bash_|fish)history|lesshst)$"
                icon="/icons/files/shell.svg" />
         <regex fileNames="shipitfile.cjs,shipitfile.js,shipitfile.mjs"
                name="Shipit"
@@ -5267,10 +5287,10 @@
         <!--endregion-->
 
         <!--region Audio -->
-        <regex fileNames="*.mp3,*.aac,*.aiff,*.au,*.flac,*.m4a,*.mpc,*.mp,*.mka"
+        <regex fileNames="*.mp3,*.aac,*.aiff,*.au,*.flac,*.m4a,*.mpc,*.mp,*.mka,*.son"
                name="Audio"
                color="D52A29"
-               pattern=".*\.(mp3|aac|aiff|au|flac|m4a|mpc|mp|mka)$"
+               pattern=".*\.(mp3|aac|aiff|au|flac|m4a|mpc|mp|mka|son)$"
                icon="/icons/files/audio.svg" />
         <regex fileNames="*.mpp,*.ogg,*.oga,*.opus,*.ra,*.rm,*.wav,*.wma,*.snd,*.mid,*.cda"
                name="Audio (2)"
@@ -5338,10 +5358,10 @@
                color="FFCB6B"
                pattern=".*\.([cm]?js|es\d)$"
                icon="/icons/files/js.svg" />
-        <regex fileNames="*.json,*.cson,*.jsonc,*.rsj"
+        <regex fileNames="*.json,*.cson,*.jsonc,*.rsj,*.rdjson,*.ejson,*.ston"
                name="JSON"
                color="92AA5D"
-               pattern=".*\.(json|cson|jsonc|rsj)$"
+               pattern=".*\.(json|cson|jsonc|rsj|ndjson|ejson|ston)$"
                icon="/icons/files/json.svg" />
         <regex fileNames="*.perl,*.pl,*.pl6,*.pm,*.plx,*.pm,*.pm6,*.al,*.ph,*.psgi"
                name="Perl"
@@ -5381,6 +5401,21 @@
         <!--endregion-->
 
         <!--region Least priority -->
+        <regex fileNames="*.db,*.dbi,*.ddl,*.dic,*.dict,*.od,*.schema,*.db2,*.db3,*.edn,*.sy,*.2da"
+               name="DB"
+               color="F78C6C"
+               pattern=".*\.(dbi?|ddl|dict?|od|schema|db[23]|edn|sy|2da)$"
+               icon="/icons/files/db.svg" />
+        <regex fileNames="*.aff,*.fea,*.cbor,*.pytb,*.son,*.syntax,*.tgn,*.od,*.onlydata,*.eign"
+               name="DB (2)"
+               color="F78C6C"
+               pattern=".*\.(aff|fea|cbor|pytb|son|syntax|tgn|od|onlydata|eign)$"
+               icon="/icons/files/db.svg" />
+        <regex fileNames="*.termcap,*.terminfo,*.icondb.js"
+               name="DB (3)"
+               color="F78C6C"
+               pattern=".*\.(term(cap|info)|icondb\.js)$"
+               icon="/icons/files/db.svg" />
         <regex fileNames="*.ttf,*.ttc,*.pfb,*.pfm,*.otf,*.dfont,*.pfa,*.afm,*.eot,*.woff,*.woff2"
                name="Font"
                pattern=".*\.(ttf|ttc|pfb|pfm|otf|dfont|pfa|afm|eot|woff2?)$"
