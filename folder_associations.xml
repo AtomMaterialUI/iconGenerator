@@ -704,6 +704,12 @@
                iconColor="f0f4c3"
                pattern="^(maps?|mappings?|mappers?)$"
                icon="/maps.svg" />
+        <regex folderNames=".appex,.bundle,.ccl,.component,.framework,.ideplugin,.kext,.mdimporter,.osax,.osirixplugin,.qlgenerator"
+               name="macoslib"
+               folderColor="546e7a"
+               iconColor="80CBC4"
+               pattern="^\.(appex|bundle|ccl|component|framework|framework|ideplugin|kext|mdimporter|osax|(osirix)?plugin|qlgenerator)$"
+               icon="/osx.svg" />
         <regex folderNames="message,messages,msg,msgs"
                name="messages"
                folderColor="1E88E5"
@@ -1193,6 +1199,12 @@
                iconColor="8ed6fb"
                pattern="^webpack$"
                icon="/webpack.svg" />
+        <regex folderNames=".wine"
+               name="wine"
+               folderColor="93254A"
+               iconColor="F13C6F"
+               pattern="^\.wine$"
+               icon="/wine.svg" />
         <regex folderNames="wp-admin,wp-content,wp-includes"
                name="wordpress"
                folderColor="21759b"
