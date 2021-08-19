@@ -1647,7 +1647,7 @@
                color="E79627"
                pattern="^Cask(file)?$"
                icon="/icons/files/emacs.svg" />
-        <regex fileNames="*.eml*.mbox,*.mail"
+        <regex fileNames="*.eml,*.mbox,*.mail"
                name="Email"
                color="BBDEFB"
                pattern=".*\.(eml|mbox|mail)$"
@@ -2542,6 +2542,11 @@
                color="ffca2f"
                pattern="\.?jsconfig.*\.(js|json)$"
                icon="/icons/files/jsconfig.svg" />
+        <regex fileNames=".jscpd.json,.jscpd.html,.jscpd.xml"
+               name="jscpd"
+               color="b200b2"
+               pattern="\.jscpd(\.json|\.html|\.xml)$"
+               icon="/icons/files/jscpd.svg" />
         <regex fileNames="*.json5"
                name="JSON5"
                color="4DB6AC"
@@ -2585,6 +2590,11 @@
         <!--endregion-->
 
         <!--region K -->
+        <regex fileNames="*.ksy"
+               name="Kaitai"
+               color="773b37"
+               pattern=".*\.ksy$"
+               icon="/icons/files/kaitai.svg" />
         <regex fileNames="karma.conf.js,karma.conf.ts,karma.config.coffee"
                name="Karma"
                color="6AAB20"
@@ -2610,6 +2620,11 @@
                color="26a69a"
                pattern=".*\.(key|pem|gpg|pub|der|ssh|passwd|kdbx)"
                icon="/icons/files/key.svg" />
+        <regex fileNames="*.hypr,*.hypr.live"
+               name="Kibo"
+               color="ffd003"
+               pattern=".*\.hypr(\.live)?$"
+               icon="/icons/files/kibo.svg" />
         <regex fileNames="*.kicad_pcb,*.kicad_pcb-bak,*.kicad_mod,*.kicad_wks"
                name="KiCad"
                color="7986CB"
@@ -2645,11 +2660,6 @@
                color="D52A29"
                pattern="^knockout(.*)\.js$"
                icon="/icons/files/knockout.svg" />
-        <regex fileNames="*.kt,*.kts,*.ktm,*.kotlin"
-               name="Kotlin"
-               color="497CE3"
-               pattern=".*\.(kt|kts|ktm|kotlin)$"
-               icon="/icons/files/kotlin.svg" />
         <regex fileNames="kubernetes.yml,kubernetes.dev.yaml"
                name="Kubernetes"
                color="64B5F6"
@@ -2665,19 +2675,34 @@
                color="64B5F6"
                pattern="^\.?kazelcfg\.json$"
                icon="/icons/files/kubernetes.svg" />
+        <regex fileNames="*.csl,*.kusto"
+               name="Kusto"
+               color="54abce"
+               pattern=".*\.(csl|kusto)$"
+               icon="/icons/files/kusto.svg" />
         <!--endregion-->
 
         <!--region L-->
-        <regex fileNames="*.lvproj"
+        <regex fileNames="*.lvproj,*.lvlib"
                name="LabVIEW"
                color="ffd500"
-               pattern=".*\.lvproj$"
+               pattern=".*\.lv(proj|lib)$"
                icon="/icons/files/labview.svg" />
+        <regex fileNames="*.lark"
+               name="Lark"
+               color="3c75ff"
+               pattern=".*\.lark$"
+               icon="/icons/files/lark.svg" />
         <regex fileNames="*.las,*.lasso,*.ldml,*.lasso8,*.lasso9,*.lassoapp"
                name="Lasso"
                color="0571ae"
                pattern=".*\.(las|ldml|lasso([89]|app)?)$"
                icon="/icons/files/lasso.svg" />
+        <regex fileNames="*.lat"
+               name="Latino"
+               color="0f9eca"
+               pattern=".*\.lat$"
+               icon="/icons/files/latino.svg" />
         <regex fileNames="leaflet.draw-src.js,leaflet.draw.css,leaflet.spin.css,leaflet.src.js,wicket-leaflet.mjs"
                name="Leaflet"
                color="b7e363"
@@ -2713,16 +2738,21 @@
                color="1E9CEF"
                pattern=".*\.less$"
                icon="/icons/files/less.svg" />
-        <regex fileNames="*.lex,*.flex"
+        <regex fileNames="*.l,*.x,*.lex,*.flex,*.lexer"
                name="Lex"
                color="b94e9e"
-               pattern=".*\.(lex|flex)$"
+               pattern=".*\.(l|x|lex|flex|lexer)$"
                icon="/icons/files/lex.svg" />
         <regex fileNames="*.lfe"
                name="LFE"
                color="497649"
                pattern=".*\.lfe$"
                icon="/icons/files/lfe.svg" />
+        <regex fileNames="lgtm.yml,.lgtm.yaml"
+               name="LGTM"
+               color="5E35B1"
+               pattern="^\.?lgtm\.ya?ml$"
+               icon="/icons/files/lgtm.svg" />
         <regex fileNames="*.lib,*.bib,*.s"
                name="Lib"
                color="8bc34a"
@@ -2738,6 +2768,11 @@
                color="F5C076"
                pattern="^(licence|LICENCE)(\.(txt|md))?$"
                icon="/icons/files/license.svg" />
+        <regex fileNames=".lighthouserc.json,.lighthouserc.js,lighthouserc.yaml"
+               name="Lighthouse"
+               color="1a45c5"
+               pattern="^\.?lighthouserc\.(json|js|ya?ml)$"
+               icon="/icons/files/lighthouse.svg" />
         <regex fileNames="*.lwo,*.lws"
                name="Lightwave"
                color="00befe"
@@ -2758,6 +2793,11 @@
                color="64B5F6"
                pattern=".*\.(url|lnk|alias)$"
                icon="/icons/files/link.svg" />
+        <regex fileNames="*.linq"
+               name="LINQPad"
+               color="861f4a"
+               pattern=".*\.linq$"
+               icon="/icons/files/linqpad.svg" />
         <regex fileNames="*.lintstagedrc.json,*.lintstagedrc.yml"
                name="Lint Staged"
                color="713a27"
@@ -2836,6 +2876,11 @@
         <!--endregion-->
 
         <!--region M -->
+        <regex fileNames="*.m2"
+               name="Macaulay2"
+               color="90e0ff"
+               pattern=".*\.m2$"
+               icon="/icons/files/macaulay.svg" />
         <regex fileNames="*.mage"
                name="Magento"
                color="eb6007"
@@ -2956,6 +3001,11 @@
                color="42a5f5"
                pattern=".*\.merlin$"
                icon="/icons/files/merlin.svg" />
+        <regex fileNames="*.mermaid,*.mmd"
+               name="Mermaid"
+               color="42b983"
+               pattern=".*\.(mmd|mermaid)$"
+               icon="/icons/files/mermaid.svg" />
         <regex fileNames="meson.build,meson_options.txt"
                name="Meson"
                color="9575CD"
@@ -2966,6 +3016,11 @@
                color="5ddeb6"
                pattern=".*\.(metal(lib)?|air)$"
                icon="/icons/files/metal.svg" />
+        <regex fileNames="*.mp,*.mf"
+               name="Metapost"
+               color="a9a9a9"
+               pattern=".*\.(mp|mf)$"
+               icon="/icons/files/metapost.svg" />
         <regex fileNames="*.meteor"
                name="Meteor"
                color="AC7B69"
@@ -3021,15 +3076,20 @@
                color="FFCA28"
                pattern="^\.?modernizr(rc)?(\.[cm]?js)?$|^modernizr([-.]custom|-\d\.\d+)(\.\d+)?\.[cm]?js$"
                icon="/icons/files/modernizr.svg" />
+        <regex fileNames="web-dev-server.config.js,web-test-runner.config.cjs"
+               name="ModernWeb"
+               color="2c6fa3"
+               pattern="^web-(dev-server|test-runner)\.config\.([cm]?js)$"
+               icon="/icons/files/modernweb.svg" />
         <regex fileNames="*.modo,*.lxo"
                name="Modo"
                color="f4a938"
                pattern=".*\.(modo|lxo)$"
                icon="/icons/files/modo.svg" />
-        <regex fileNames="*.mod,*.def,*.m2"
+        <regex fileNames="*.mod,*.def"
                name="Modula 2"
                color="990705"
-               pattern=".*\.(mod|def|m2)$"
+               pattern=".*\.(mod|def)$"
                icon="/icons/files/modula2.svg" />
         <regex fileNames="*.m3,*.i3,*.mg,*.ig"
                name="Modula 3"
@@ -4464,6 +4524,11 @@
                color="6255B0"
                pattern=".*\.rbi$"
                icon="/icons/files/sorbet.svg" />
+        <regex fileNames="*.map,*.mapping,*.enigma,*.cidmap,*.tiny,*.tinyv2,*.match"
+               name="Sourcemap"
+               color="F06292"
+               pattern=".*\.(map|mapping|enigma|cidmap|tiny(v2)?|match)$"
+               icon="/icons/files/sourcemap.svg" />
         <regex fileNames="spacemacs,.spacemacs"
                name="Spacemacs"
                color="725988"
@@ -5483,6 +5548,11 @@
                color="92AA5D"
                pattern=".*\.(json|cson|jsonc|rsj|ndjson|ejson|ston)$"
                icon="/icons/files/json.svg" />
+        <regex fileNames="*.kt,*.kts,*.ktm,*.kotlin"
+               name="Kotlin"
+               color="497CE3"
+               pattern=".*\.(kt|kts|ktm|kotlin)$"
+               icon="/icons/files/kotlin.svg" />
         <regex fileNames="*.perl,*.pl,*.pl6,*.pm,*.plx,*.pm,*.pm6,*.al,*.ph,*.psgi"
                name="Perl"
                color="4DB6AC"
@@ -5546,10 +5616,10 @@
                color="D52B2A"
                pattern=".*\.lock$"
                icon="/icons/files/lock.svg" />
-        <regex fileNames="*.md,*.markdown,*.mson,*.mdown,*.mkdown,*.mkd,*.pmd"
+        <regex fileNames="*.md,*.markdown,*.mson,*.mdown,*.mkdown,*.mkd,*.pmd,*.jmd"
                name="Markdown"
                color="EA7130"
-               pattern=".*\.(md|markdown|mson|mk?down|mkd|pmd)$"
+               pattern=".*\.(md|markdown|mson|mk?down|mkd|pmd|jmd)$"
                icon="/icons/files/markdown.svg" />
         <regex fileNames="*.xml,*.fxml,*.jrxml,*.jnlp,*.pom,*.rng,*.tld,*.wsdl,*.xsd,*.xsl,*.xslt,*.xul"
                name="XML"
