@@ -1496,6 +1496,12 @@
                color="42A5F5"
                pattern="^dependabot\.ya?ml$"
                icon="/icons/files/dependabot.svg" />
+        <regex fileNames="detekt-config.yml,detekt-config.yaml,detekt.yaml"
+               name="Detekt"
+               color="7942EE"
+               url="https://detekt.github.io/detekt/"
+               pattern="^detekt(-config)?\.ya?ml$"
+               icon="/icons/files/detekt.svg" />
         <regex fileNames="devcontainer.json"
                name="DevContainer"
                color="5590bf"
