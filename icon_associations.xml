@@ -1924,6 +1924,12 @@
         <!--endregion-->
 
         <!--region E -->
+        <regex fileNames="*.E"
+               name="E"
+               color="dcde24"
+               pattern=".*\.E$"
+               url="http://erights.org/"
+               icon="/icons/files/e.svg" />
         <regex fileNames="*.eup"
                name="Eagle"
                color="d50325"
@@ -1962,15 +1968,15 @@
                icon="/icons/files/eclipse.svg" />
         <regex fileNames="*.edge"
                name="Edge"
-               color="FB2F51"
-               url="https://docs.adonisjs.com/guides/views/introduction"
+               color="d8563a"
+               url="https://github.com/edge-js/edge"
                pattern=".*\.edge$"
-               icon="/icons/files/adonis.svg" />
-        <regex fileNames="*.epj"
+               icon="/icons/files/edge.svg" />
+        <regex fileNames="config.default.js,config.prod.js,config.test.js,config.local.js"
                name="Egg"
                color="26A69A"
                url="https://eggjs.org/en/"
-               pattern="^egg\.json$"
+               pattern="^config\.(default|prod|test|local|unittest)\.js"
                icon="/icons/files/egg.svg" />
         <regex fileNames=".compilerc,.compilerc.json"
                name="Electron"
@@ -1990,11 +1996,11 @@
                url="https://editorconfig.org/"
                pattern="^\.(editorconfig|ecrc)$"
                icon="/icons/files/editorconfig.svg" />
-        <regex fileNames="*.e"
+        <regex fileNames="*.e,*.ecf"
                name="Eiffel"
                color="4FC3F7"
                url="https://www.eiffel.org/doc/eiffel/Learning_Eiffel"
-               pattern=".*\.e$"
+               pattern=".*\.(e|ecf)$"
                icon="/icons/files/eiffel.svg" />
         <regex fileNames="*.ejs"
                name="EJS"
@@ -2002,6 +2008,12 @@
                url="https://ejs.co/"
                pattern=".*\.ejs$"
                icon="/icons/files/ejs.svg" />
+        <regex fileNames="*.es"
+               name="ElasticSearch"
+               color="26A2C1"
+               url="https://www.elastic.co/"
+               pattern=".*\.es$"
+               icon="/icons/files/elastic.svg" />
         <regex fileNames="*.ex,*.eex,*.exs,*.elixir,*.leex"
                name="Elixir"
                color="C792EA"
