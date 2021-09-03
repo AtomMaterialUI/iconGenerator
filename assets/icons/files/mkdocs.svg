@@ -24,9 +24,11 @@
   -
   -->
 
-<svg big="true" xmlns="http://www.w3.org/2000/svg" fill="#5C6BC0" viewBox="0 0 89 89" width="16px" height="16px">
-    <path d="M3.136 17.387v42.932l42.932 21.467L3.136 17.387z"></path>
-    <path fill-opacity=".5" d="M21.91 8l42.933 64.398-18.775 9.388L3.136 17.387 21.91 8z"></path>
-    <path d="M67.535 17.387L40.273 35.543l21.878 32.818 5.384 2.691V17.387z"></path>
-    <path fill-opacity=".25" d="M67.535 17.387v53.666l18.774-9.388V8l-18.774 9.387z"></path>
+<svg big="true" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 89 89" width="16px" height="16px">
+    <g fill="#5C6BC0">
+        <path d="M3.136 17.387v42.932l42.932 21.467L3.136 17.387z"></path>
+        <path fill-opacity=".5" d="M21.91 8l42.933 64.398-18.775 9.388L3.136 17.387 21.91 8z"></path>
+        <path d="M67.535 17.387L40.273 35.543l21.878 32.818 5.384 2.691V17.387z"></path>
+        <path fill-opacity=".25" d="M67.535 17.387v53.666l18.774-9.388V8l-18.774 9.387z"></path>
+    </g>
 </svg>
