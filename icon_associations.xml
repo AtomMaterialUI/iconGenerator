@@ -6375,6 +6375,7 @@
         <regex fileNames=".watchmanconfig,watchman.json"
                name="Watchman"
                color="7986CB"
+               url="https://facebook.github.io/watchman/"
                pattern="(\.watchmanconfig|^watchman\.json)$"
                icon="/icons/files/watchman.svg" />
         <regex fileNames="*.wc3,*.jass,*.zn"
@@ -6584,12 +6585,24 @@
                pattern=".*\.xsp(-config|\.metadata)$"
                url="http://xpages.info/XPagesHome.nsf/Home.xsp"
                icon="/icons/files/xpages.svg" />
+        <regex fileNames="*.xquery"
+               name="XQuery"
+               color="f1662a"
+               pattern=".*\.xquery$"
+               url="https://www.w3.org/XML/Query/"
+               icon="/icons/files/xquery.svg" />
         <regex fileNames="*.xpl,*.xproc"
                name="XProc"
                color="7891c8"
                pattern=".*\.(xpl|xproc)$"
                url="https://xproc.org/"
                icon="/icons/files/xproc.svg" />
+        <regex fileNames="xubuntu.iso,xubuntu.deb"
+               name="XUbuntu"
+               color="0042a5"
+               pattern="xubuntu.*$"
+               url="https://xubuntu.org/"
+               icon="/icons/files/xubuntu.svg" />
         <!--endregion-->
 
         <!--region Y-->
@@ -6641,6 +6654,12 @@
                url="https://yardoc.org/"
                pattern="\.yardopts$"
                icon="/icons/files/yard.svg" />
+        <regex fileNames="*.yasm"
+               name="YASM"
+               color="4DB6AC"
+               url="http://yasm.tortall.net/"
+               pattern=".*\.yasm$"
+               icon="/icons/files/yasm.svg" />
         <regex fileNames=".yo-rc.json"
                name="Yeoman"
                color="F78C6C"
