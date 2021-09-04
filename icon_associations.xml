@@ -5375,6 +5375,12 @@
                url="https://scrutinizer-ci.com/"
                pattern="^\.scrutinizer\.ya?ml$"
                icon="/icons/files/scrutinizer.svg" />
+        <regex fileNames="*.sdl"
+               name="SDLang"
+               color="4488d3"
+               url="http://sdlang.org/"
+               pattern=".*\.sdl$"
+               icon="/icons/files/sdlang.svg" />
         <regex fileNames="*.secret,*.secrets,*.safe"
                name="Secrets"
                color="BDBDBD"
@@ -5518,12 +5524,24 @@
                url="https://opensource.zalando.com/skipper/"
                pattern=".*\.eskip$"
                icon="/icons/files/skipper.svg" />
+        <regex fileNames="*.slang"
+               name="Slang"
+               color="b7162c"
+               url="https://github.com/jeromegn/slang"
+               pattern=".*\.slang$"
+               icon="/icons/files/slang.svg" />
         <regex fileNames="*.sl"
                name="Slash"
                color="307DFE"
                url="https://github.com/slash-lang/slash"
                pattern=".*\.sl$"
                icon="/icons/files/slash.svg" />
+        <regex fileNames="*.ice"
+               name="Slice"
+               color="447cd2"
+               url="https://doc.zeroc.com/ice/3.7/the-slice-language"
+               pattern=".*\.ice$"
+               icon="/icons/files/slice.svg" />
         <regex fileNames="*.slim"
                name="Slim"
                color="fb9d38"
@@ -5557,7 +5575,7 @@
         <regex fileNames="*.snort"
                name="Snort"
                color="F7A9AB"
-               url="snort.org"
+               url="https://www.snort.org/"
                pattern=".*\.snort$"
                icon="/icons/files/snort.svg" />
         <regex fileNames="snowpack.config.js,snowpack.config.ts"
@@ -5608,12 +5626,24 @@
                url="https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/SourceMap"
                pattern=".*\.(map|mapping|enigma|cidmap|tiny(v2)?|match)$"
                icon="/icons/files/sourcemap.svg" />
+        <regex fileNames="*.spe"
+               name="SpaceEngine"
+               color="4780f5"
+               url="http://spaceengine.org/"
+               pattern=".*\.spe$"
+               icon="/icons/files/spaceengine.svg" />
         <regex fileNames="spacemacs,.spacemacs"
                name="Spacemacs"
                color="725988"
                url="https://github.com/syl20bnr/spacemacs"
                pattern="(^|\.)spacemacs$"
                icon="/icons/files/spacemacs.svg" />
+        <regex fileNames="*.rq"
+               name="SparQL"
+               color="0c479c"
+               url="https://www.w3.org/TR/rdf-sparql-query/"
+               pattern="^.*\.rq$"
+               icon="/icons/files/sparql.svg" />
         <regex fileNames="reference.conf,application.conf"
                name="Spray"
                color="3096b4"
@@ -5758,6 +5788,12 @@
                color="90A4AE"
                url="https://supercollider.github.io/"
                icon="/icons/files/scd.svg" />
+        <regex fileNames="*.sss"
+               name="SugarSS"
+               color="2dcc9f"
+               pattern=".*\.sss$"
+               url="https://github.com/postcss/sugarss"
+               icon="/icons/files/sss.svg" />
         <regex fileNames="*.svelte"
                name="Svelte"
                color="ff5722"
@@ -5800,17 +5836,23 @@
                pattern=".*\.swift$"
                url="https://developer.apple.com/swift/"
                icon="/icons/files/swift.svg" />
+        <regex fileNames="package.pins"
+               name="Swift Lock"
+               color="D52B2A"
+               pattern="package\.pins$"
+               url="https://developer.apple.com/swift/"
+               icon="/icons/files/lock.svg" />
         <regex fileNames="*.swig"
                name="Swig"
                color="79919C"
                pattern=".*\.swig$"
-               url="https://twig.symfony.com/"
+               url="http://node-swig.github.io/swig-templates/"
                icon="/icons/files/swig.svg" />
-        <regex fileNames="*.symfony"
+        <regex fileNames="symfony.lock"
                name="Symfony"
                color="6AAB20"
                url="https://symfony.com/"
-               pattern=".*\.symfony"
+               pattern="^symfony\.lock$"
                icon="/icons/files/symfony.svg" />
         <!--endregion-->
 
@@ -6839,10 +6881,10 @@
         <!--endregion-->
 
         <!--region Config -->
-        <regex fileNames="*.ld,*.ldif,*.lds,*.ld,*.ini,*.cnf,*.config,*.cfg,*.mcf,*.sdl,*.kys"
+        <regex fileNames="*.ld,*.ldif,*.lds,*.ld,*.ini,*.cnf,*.config,*.cfg,*.mcf,*.kys"
                name="Preferences"
                color="E79627"
-               pattern=".*\.(ldif|lds?|ini|cnf|config|cfg|mcf|sdl|kys)$"
+               pattern=".*\.(ldif|lds?|ini|cnf|config|cfg|mcf|kys)$"
                icon="/icons/files/preferences.svg" />
         <regex fileNames="*.env,*.env.dev,*.env.prod"
                name="Envs"
