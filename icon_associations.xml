@@ -94,9 +94,9 @@
                pattern=".*\.(jpg|a?png|jpeg|gif|bmp|bpg|djvu|dpx|jps|jng|jxr)"
                color="92AC5A"
                icon="/icons/files/image.svg" />
-        <regex fileNames="*.webp,*.ico,*.dcm,*.ecw,*.fig,*.hdp,*.hdr,*.heif,*.heic,*.icns,*.iff"
+        <regex fileNames="*.ico,*.dcm,*.ecw,*.fig,*.hdp,*.hdr,*.heif,*.heic,*.icns,*.iff"
                name="Images (2)"
-               pattern=".*\.(webp|ico|dcm|ecw|fig|hdp|hdr|heic|heif|icns|iff)$"
+               pattern=".*\.(ico|dcm|ecw|fig|hdp|hdr|heic|heif|icns|iff)$"
                color="92AC5A"
                icon="/icons/files/image.svg" />
         <regex fileNames="*.pcx,*.pict,*.pxr,*.raw,*.sgi,*.tga,*.tiff,*.vsdx,*.wbm,*.wbmp,*.pxm,*.pxb,*.pxs"
@@ -174,10 +174,10 @@
                pattern=".*\.(ada|adb|ads)$"
                url="https://www.adacore.com/about-ada"
                icon="/icons/files/ada.svg" />
-        <regex fileNames="*.fla"
+        <regex fileNames="*.fla,*.xfl"
                name="Adobe Animate"
                color="ff4a19"
-               pattern=".*\.fla$"
+               pattern=".*\.(fla|xfl)$"
                url="https://www.adobe.com/il_en/products/catalog.html"
                icon="/icons/files/animate.svg" />
         <regex fileNames="*.aep,*.aet"
@@ -6444,6 +6444,12 @@
                pattern=".*\.wpy$"
                url="https://wepyjs.gitee.io/wepy-docs/"
                icon="/icons/files/wepy.svg" />
+        <regex fileNames="*.webp"
+               name="WebP"
+               color="4e9a06"
+               pattern=".*\.webp$"
+               url="https://developers.google.com/speed/webp"
+               icon="/icons/files/webp.svg" />
         <regex fileNames="wercker.yaml,wercker.yml"
                name="Wercker"
                color="3abcee"
@@ -6504,12 +6510,36 @@
                pattern="workbox-config\.[jt]s$"
                url="https://developers.google.com/web/tools/workbox"
                icon="/icons/files/workbox.svg" />
+        <regex fileNames="wpml-config.xml"
+               name="WPML"
+               color="33879e"
+               url="https://wpml.org/"
+               pattern="^wpml-config\.xml$"
+               icon="/icons/files/wpml.svg" />
         <regex fileNames="*.wurst"
                name="WurstScript"
                color="40babe"
                url="https://wurstlang.org/"
                pattern=".*\.wurst$"
                icon="/icons/files/wurst.svg" />
+        <regex fileNames="*.wxss,*.wxs,*.wxml"
+               name="WeiXin Styles"
+               color="29a8de"
+               url="https://developers.weixin.qq.com/"
+               pattern=".*\.wxss$"
+               icon="/icons/files/wxss.svg" />
+        <regex fileNames="*.wxml"
+               name="WeiXin Markup"
+               color="F4BF75"
+               url="https://developers.weixin.qq.com/"
+               pattern=".*\.wxml$"
+               icon="/icons/files/wxml.svg" />
+        <regex fileNames="*.wxs"
+               name="WeiXin Service"
+               color="04c160"
+               url="https://developers.weixin.qq.com/"
+               pattern=".*\.wxs$"
+               icon="/icons/files/wxs.svg" />
         <!--endregion-->
 
         <!--region X-->
