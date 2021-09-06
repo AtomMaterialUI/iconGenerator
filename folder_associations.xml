@@ -311,11 +311,11 @@
         <!--endregion-->
 
         <!--region D-->
-        <regex folderNames="db,migrate,database,repo,repos,repositories,repository"
+        <regex folderNames="db,migrate,migrations,database,repo,repos,repositories,repository"
                name="db"
                folderColor="7CB342"
                iconColor="C5E1A5"
-               pattern="^(db|migrate|database|repos?|repositories|repository)$"
+               pattern="^(db|migrat(e|ions)|database|repos?|repositories|repository)$"
                icon="/db.svg" />
         <regex folderNames="debug,debugging"
                name="debug"
@@ -833,11 +833,11 @@
                iconColor="C5CAE9"
                pattern="^projects?$"
                icon="/projects.svg" />
-        <regex folderNames=".prisma"
+        <regex folderNames=".prisma,prisma"
                name="prisma"
                folderColor="00BFA5"
                iconColor="a7ffeb"
-               pattern="^\.prisma$"
+               pattern="^\.?prisma$"
                icon="/prisma.svg" />
         <regex folderNames="private"
                name="private"
