@@ -1367,7 +1367,7 @@
 					"fileNames": "*.dm",
 					"name": "Byond",
 					"color": "42A5F5",
-					"url": "http://www.byond.com/?",
+					"url": "http://www.byond.com/",
 					"pattern": ".*\\.dm$",
 					"icon": "/icons/files/byond.svg"
 				},
@@ -1527,7 +1527,7 @@
 					"fileNames": "CHANGELOG,CHANGELOG.md,changelog.md,CHANGELOG.txt",
 					"name": "Changelog",
 					"color": "7A8387",
-					"pattern": "^(CHANGELOG|changelog)(\\.(md|txt))?",
+					"pattern": "^(CHANGELOG|changelog)(\\.(md|txt))?$",
 					"icon": "/icons/files/log.svg"
 				},
 				{
@@ -1701,7 +1701,7 @@
 					"name": "CMakelists",
 					"color": "497CE3",
 					"url": "https://cmake.org/",
-					"pattern": "^CMakeLists(\\.txt)?",
+					"pattern": "^CMakeLists(\\.txt)?$",
 					"icon": "/icons/files/cmake.svg"
 				},
 				{
@@ -4911,7 +4911,7 @@
 					"name": "Log",
 					"color": "7A8387",
 					"url": "https://en.wikipedia.org/wiki/Log_file",
-					"pattern": ".*\\.log(\\.[0-9]+)?",
+					"pattern": ".*\\.log(\\.[0-9]+)?$",
 					"icon": "/icons/files/log.svg"
 				},
 				{
@@ -4919,7 +4919,7 @@
 					"name": "Log (2)",
 					"color": "7A8387",
 					"url": "https://en.wikipedia.org/wiki/Log_file",
-					"pattern": ".*\\.(rpt|bug-report|fdl|tests)?",
+					"pattern": ".*\\.(rpt|bug-report|fdl|tests)$",
 					"icon": "/icons/files/log.svg"
 				},
 				{
@@ -5463,7 +5463,7 @@
 					"name": "More",
 					"color": "7A8387",
 					"url": "https://www.techonthenet.com/linux/commands/more.php",
-					"pattern": ".*\\.(more|msg|utf8)?",
+					"pattern": ".*\\.(more|msg|utf8)$",
 					"icon": "/icons/files/log.svg"
 				},
 				{
@@ -7246,7 +7246,7 @@
 					"name": "ReasonML",
 					"color": "D52A29",
 					"url": "https://reasonml.github.io/",
-					"pattern": ".*\\.rei?",
+					"pattern": ".*\\.rei?$",
 					"icon": "/icons/files/reason.svg"
 				},
 				{
@@ -8315,7 +8315,7 @@
 					"name": "Svelte Config",
 					"color": "A1887F",
 					"url": "https://svelte.dev/",
-					"pattern": "svelte\\.config\\.js(on)?",
+					"pattern": "svelte\\.config\\.js(on)?$",
 					"icon": "/icons/files/svelte.svg"
 				},
 				{
@@ -8323,7 +8323,7 @@
 					"name": "SVN",
 					"color": "497CE3",
 					"url": "https://subversion.apache.org/",
-					"pattern": "^\\.svn(ignore)?",
+					"pattern": "^\\.svn(ignore)?$",
 					"icon": "/icons/files/svn.svg"
 				},
 				{
