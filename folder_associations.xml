@@ -105,9 +105,10 @@
                iconColor="E6EE9C"
                pattern="^\.atom(-ci)?$"
                icon="/atom.svg" />
-        <regex fileNames=".action,.caction,.definition,.workflow"
+        <regex folderNames=".action,.caction,.definition,.workflow"
                name="automator"
-               color="64D2F2"
+               folderColor="b3e5fc"
+               iconColor="0077db"
                pattern="^\.(c?action|definition|workflow)$"
                icon="/automator.svg" />
         <regex folderNames="mp3,wav,music,musics,audio,sound,sounds,.mp3,_wav,_musics,.audio,.sounds"
