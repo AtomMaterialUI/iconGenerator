@@ -26,9 +26,9 @@
  */
 
 import yargs from 'yargs';
-import {Logger} from '../services/logger';
-import {ExamplesFlags} from './examplesArgsParser';
-import {CommandArgs} from '../types/associations';
+import { Logger } from '../services/logger';
+import { ExamplesFlags } from './examplesArgsParser';
+import { CommandArgs } from '../types/associations';
 
 export enum PreviewAllowedOutputs {
   FILE = 'file',
@@ -87,24 +87,24 @@ export class PreviewArgsParser {
    */
   constructor(private logger: Logger) {
     yargs
-        .usage('Usage: $0 <command> [options]')
-        .command('all', 'Generates the preview image for files and folders')
-        .command('files', 'Generates the preview image for files')
-        .command('folders', 'Generates the preview image for folders')
-        .demandCommand(1, 'Missing command')
-        .recommendCommands()
-        .options(this.options)
-        .choices('out', this.allowedOutputs)
-        .help()
-        .version()
-        .alias('h', 'help')
-        .alias('v', 'version')
-        .check((argv => this.validate(argv)))
-        .strict();
+      .usage('Usage: $0 <command> [options]')
+      .command('all', 'Generates the preview image for files and folders')
+      .command('files', 'Generates the preview image for files')
+      .command('folders', 'Generates the preview image for folders')
+      .demandCommand(1, 'Missing command')
+      .recommendCommands()
+      .options(this.options)
+      .choices('out', this.allowedOutputs)
+      .help()
+      .version()
+      .alias('h', 'help')
+      .alias('v', 'version')
+      .check((argv => this.validate(argv)))
+      .strict();
   }
 
   parse(): PreviewCommandArgs {
-    const pargs: yargs.Arguments<yargs.Omit<{}, keyof any> & InferredArgs> = yargs.parse(process.argv.slice(2));
+    const pargs: any = yargs.parse(process.argv.slice(2));
 
     return {
       command: pargs._[0] as ExamplesFlags,

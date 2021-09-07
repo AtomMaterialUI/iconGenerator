@@ -25,7 +25,7 @@
  *
  */
 
-import {Logger} from '../services/logger';
+import { Logger } from '../services/logger';
 import yargs from 'yargs';
 
 /**
@@ -81,21 +81,21 @@ export class ExamplesArgsParser {
    */
   constructor(private logger: Logger) {
     yargs
-        .usage('Usage: $0 <flag> [space separated icon names]')
-        .options(this.options)
-        .group(this.optionsKeys, 'Options')
-        .alias('h', 'help')
-        .alias('v', 'version')
-        .epilogue(`Providing the icon names after '--files' or '--folders', restricts the examples generator to that icons only`)
-        .check((argv => this.validate(argv)))
-        .strict();
+      .usage('Usage: $0 <flag> [space separated icon names]')
+      .options(this.options)
+      .group(this.optionsKeys, 'Options')
+      .alias('h', 'help')
+      .alias('v', 'version')
+      .epilogue(`Providing the icon names after '--files' or '--folders', restricts the examples generator to that icons only`)
+      .check((argv => this.validate(argv)))
+      .strict();
   }
 
   /**
    * Returns the arguments
    */
   parse(): ExamplesCommandArgs {
-    const pargs = yargs.argv;
+    const pargs: any = yargs.argv;
     return {
       flag: this.getFlag(pargs),
       icons: pargs._, // the rest of the args
@@ -121,9 +121,15 @@ export class ExamplesArgsParser {
    * @param argv
    */
   private getFlag(argv: yargs.Arguments<yargs.Omit<{}, keyof any> & InferredArgs>): ExamplesFlags {
-    if (argv.all) return ExamplesFlags.ALL;
-    if (argv.files) return ExamplesFlags.FILES;
-    if (argv.folders) return ExamplesFlags.FOLDERS;
+    if (argv.all) {
+      return ExamplesFlags.ALL;
+    }
+    if (argv.files) {
+      return ExamplesFlags.FILES;
+    }
+    if (argv.folders) {
+      return ExamplesFlags.FOLDERS;
+    }
     this.errorHandler('Invalid flag');
   }
 
