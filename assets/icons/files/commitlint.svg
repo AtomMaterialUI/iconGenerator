@@ -24,7 +24,7 @@
   -
   -->
 
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32" width="16px" height="16px">
+<svg big="true" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32" width="16px" height="16px">
     <g fill="#50b2dd">
         <path d="M20.869,17.282H30v1.343H20.869Zm5.382,2.687L28.985,24H27.441l-2-2.627L23.428,24H21.883l2.735-4.031Z"
               style="fill:#ce3d40" />
