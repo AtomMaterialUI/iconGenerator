@@ -24,7 +24,6 @@
   -
   -->
 
-<svg big="true" version="1.1" xmlns="http://www.w3.org/2000/svg"
-     width="16px" height="16px" viewBox="0 0 512 512">
+<svg big="true" version="1.1" xmlns="http://www.w3.org/2000/svg" width="16px" height="16px" viewBox="0 0 512 512">
     <polygon fill="#ab61f2" points="300.5217285,431.3043518 512,80.6956558 211.4782562,80.6956558 0,431.3043518 " />
 </svg>

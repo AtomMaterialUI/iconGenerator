@@ -29,8 +29,7 @@
     <path d="m10 4h-6c-1.11 0-2 .89-2 2v12c0 1.097.903 2 2 2h16c1.097 0 2-.903 2-2v-10c0-1.11-.9-2-2-2h-8l-2-2z"
           fill="#ec407a" fill-rule="nonzero" />
     <g transform="matrix(.038304 0 0 .038304 9.4797 7.6537)" fill="#f8bbd0" stroke="#f8bbd0" stroke-miterlimit="1.4142"
-       stroke-width="9.6811">
-        <g><rect transform="matrix(-.866 -.5 .5 -.866 163.32 363.31)" x="122" y="-.4" width="16.6" height="320.3"/></g>
+       stroke-width="9.6811">   <g><rect transform="matrix(-.866 -.5 .5 -.866 163.32 363.31)" x="122" y="-.4" width="16.6" height="320.3"/></g>
         <g><rect x="39.8" y="272.2" width="320.3" height="16.6"/></g>
         <g><rect transform="matrix(-.866 -.5 .5 -.866 83.069 663.34)" x="37.9" y="312.2" width="185" height="16.6"/></g>
         <g><rect transform="matrix(-.866 -.5 .5 -.866 463.34 283.07)" x="177.1" y="71.1" width="185" height="16.6"/></g>

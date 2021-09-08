@@ -24,8 +24,8 @@
   -
   -->
 
-<svg big="true" version="1.1" xmlns="http://www.w3.org/2000/svg" width="16px"
-     height="16px" viewBox="0 0 512 512" preserveAspectRatio="xMidYMid meet">
+<svg big="true" version="1.1" xmlns="http://www.w3.org/2000/svg" width="16px" height="16px" viewBox="0 0 512 512"
+     preserveAspectRatio="xMidYMid meet">
     <g fill="#AC7B69">
         <path d="M0 4.991l438.476 464.452c0 0 14.938 10.536 26.361-1.756s2.636-24.584 2.636-24.584l-467.473-438.113z"></path>
         <path d="M138.836 48.89l333.909 359.972c0 0 14.938 10.536 26.361-1.756s2.636-24.584 2.636-24.584l-362.907-333.633z"></path>

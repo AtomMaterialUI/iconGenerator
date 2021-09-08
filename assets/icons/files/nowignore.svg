@@ -25,8 +25,7 @@
   -->
 
 <svg big="true" version="1.1" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" width="16px" height="16px">
-    <g transform="matrix(.49799 0 0 .49799 -309.62 -27.09)" fill-rule="evenodd" stroke="#808080"
-       themed="true">
+    <g transform="matrix(.49799 0 0 .49799 -309.62 -27.09)" fill-rule="evenodd" stroke="#808080" themed="true">
         <g transform="translate(628,63)">
             <g style="fill:none;stroke-width:2">
                 <polygon points="0 31.997 17.844 .046641 35.689 31.997" />

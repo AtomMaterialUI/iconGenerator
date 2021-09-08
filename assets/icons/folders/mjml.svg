@@ -24,14 +24,11 @@
   -
   -->
 
-<svg big="true" version="1.1" xmlns="http://www.w3.org/2000/svg"
-     viewBox="0 0 24 24" width="16px" height="16px" xml:space="preserve">
-     <path d="m10 4h-6c-1.11 0-2 0.89-2 2v12c0 1.097 0.903 2 2 2h16c1.097 0 2-0.903 2-2v-10c0-1.11-0.9-2-2-2h-8l-2-2z"
-           fill="#F26B00" fill-rule="nonzero" />
+<svg big="true" version="1.1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="16px" height="16px"
+     xml:space="preserve"><path d="m10 4h-6c-1.11 0-2 0.89-2 2v12c0 1.097 0.903 2 2 2h16c1.097 0 2-0.903 2-2v-10c0-1.11-0.9-2-2-2h-8l-2-2z"      fill="#F26B00" fill-rule="nonzero" />
     <g transform="matrix(.78524 0 0 .78524 11.024 15.241)" fill="#FFE0B2">
-    <g transform="matrix(1.0221 0 0 1.0221 -1.3771 -1.2585) scale(0.13) translate(0 -30)">
-        <path class="st0"
-              d="m14.5 0h57.3c8 0 14.5 6.5 14.5 14.5s-6.5 14.5-14.5 14.5h-57.3c-8 0-14.5-6.5-14.5-14.5s6.5-14.5 14.5-14.5z" />
+    <g transform="matrix(1.0221 0 0 1.0221 -1.3771 -1.2585) scale(0.13) translate(0 -30)">   <path class="st0"
+                                                                                                   d="m14.5 0h57.3c8 0 14.5 6.5 14.5 14.5s-6.5 14.5-14.5 14.5h-57.3c-8 0-14.5-6.5-14.5-14.5s6.5-14.5 14.5-14.5z" />
         <ellipse class="st0" cx="109.2" cy="14.5" rx="14.8" ry="14.5" />
         <path class="st0"
               d="m52.6 43.3h56.6c8-.6 14.9 5.5 15.5 13.5s-5.5 14.9-13.5 15.5h-1.4-57.2c-8 .6-14.9-5.5-15.5-13.5s5.5-14.9 13.5-15.5h1.4z" />

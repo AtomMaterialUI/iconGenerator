@@ -24,8 +24,7 @@
   -
   -->
 
-<svg big="true" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 66 57"
-     width="16px" height="16px">
+<svg big="true" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 66 57" width="16px" height="16px">
     <path d="M14.4 30.345l1.6-2.757 8 13.793H8l6.4-11.035L8 41.38 0 27.588 16 0h16l-3.2 5.518L32 0l8 13.793H8l8 13.795zm21.847 17.506L32 55.176 24 41.38h16l-3.753 6.472L40 41.38l8 13.796H32zM48 27.588l8-13.793 8 13.793zM24 13.793l-8 13.795-8-13.795zM32 0h16l8 13.793H40zm24 13.793l-8 13.795-8-13.793zM8 41.38h16l8 13.796H16zm16.465-13.794l4-6.897h8l4 6.897-4 6.897h-8z"
           stroke="none" fill="#33a49a" />
 </svg>

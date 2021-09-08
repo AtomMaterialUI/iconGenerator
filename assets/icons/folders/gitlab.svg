@@ -24,15 +24,13 @@
   -
   -->
 
-<svg big="true" clip-rule="evenodd" fill-rule="evenodd" stroke-linejoin="round"
-     stroke-miterlimit="1.4142" version="1.1" viewBox="0 0 24 24"
-     width="16px" height="16px"
-     xml:space="preserve" xmlns="http://www.w3.org/2000/svg">
+<svg big="true" clip-rule="evenodd" fill-rule="evenodd" stroke-linejoin="round" stroke-miterlimit="1.4142" version="1.1"
+     viewBox="0 0 24 24" width="16px" height="16px" xml:space="preserve" xmlns="http://www.w3.org/2000/svg">
     <path d="m10 4h-6c-1.11 0-2 .89-2 2v12c0 1.097.903 2 2 2h16c1.097 0 2-.903 2-2v-10c0-1.11-.9-2-2-2h-8l-2-2z"
           fill="#e24329" />
 
-    <g fill="#FFCDD2" transform="scale(0.5) translate(18 18)">
-        <polygon points="16 28.896 16 28.896 21.156 13.029 10.844 13.029 16 28.896" />
+    <g fill="#FFCDD2" transform="scale(0.5) translate(18 18)">   <polygon
+            points="16 28.896 16 28.896 21.156 13.029 10.844 13.029 16 28.896" />
         <polygon points="16 28.896 10.844 13.029 3.619 13.029 16 28.896" />
         <path d="M3.619,13.029h0L2.052,17.851a1.067,1.067,0,0,0,.388,1.193L16,28.9,3.619,13.029Z" />
         <path d="M3.619,13.029h7.225L7.739,3.473a.534.534,0,0,0-1.015,0L3.619,13.029Z" />

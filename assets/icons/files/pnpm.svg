@@ -24,8 +24,7 @@
   -
   -->
 
-<svg big="true" version="1.1" viewBox="0 0 300 300"
-     width="16px" height="16px" xmlns="http://www.w3.org/2000/svg"
+<svg big="true" version="1.1" viewBox="0 0 300 300" width="16px" height="16px" xmlns="http://www.w3.org/2000/svg"
      fill-rule="evenodd" clip-rule="evenodd" stroke-linejoin="round" stroke-miterlimit="2">
     <g fill-rule="nonzero" fill="#f9ad00">
         <path d="M195.015 30h75v75h-75zM112.5 30h75v75h-75zM30 30h75v75H30zM195.015 112.5h75v75h-75z" />
