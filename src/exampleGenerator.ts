@@ -36,9 +36,9 @@ export class ExampleGenerator {
   private unsupported: Array<IconAssociation | FolderAssociation> = [];
 
   constructor(private pargs: ExamplesCommandArgs,
-    private files: IconAssociation[],
-    private folders: FolderAssociation[],
-    private logger: Logger) {
+              private files: IconAssociation[],
+              private folders: FolderAssociation[],
+              private logger: Logger) {
 
     this.iconAssociations = this.parseIconAssociations();
     this.folderAssociations = this.parseFolderAssociations();
