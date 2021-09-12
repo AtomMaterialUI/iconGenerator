@@ -2710,6 +2710,12 @@
                url="https://glade.gnome.org/"
                pattern=".*\.glade$"
                icon="/icons/files/glade.svg" />
+        <regex fileNames="*.gleam"
+               name="Gleam"
+               color="ffaff3"
+               url="https://gleam.run/"
+               pattern=".*\.gleam$"
+               icon="/icons/files/gleam.svg" />
         <regex fileNames="glide.yaml,glide.yml"
                name="Glide"
                color="d0bdb0"

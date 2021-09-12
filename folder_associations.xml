@@ -894,11 +894,11 @@
         <!--endregion-->
 
         <!--region P-->
-        <regex folderNames="package,packages,bundle,bundles,.bundle,.paket,module,modules,_package,.packages,_bundles,.bundles,_paket,_modules,.module"
+        <regex folderNames="package,packages,bundle,bundles,.bundle,.paket,module,modules,_package,.packages,_bundles,.bundles,_paket,_modules,.module,pkg"
                name="packages"
                folderColor="5C6BC0"
                iconColor="C5CAE9"
-               pattern="^[\._]?(packages?|bundles?|paket|modules?)$"
+               pattern="^[\._]?(packages?|bundles?|paket|modules?|pkg)$"
                icon="/packages.svg" />
         <regex folderNames="php,phtml,_php,.php,.phtml"
                name="php"
@@ -1053,6 +1053,12 @@
                iconColor="ffcdd2"
                pattern="^[\._]?(validations?|validators?|rules?)$"
                icon="/rules.svg" />
+        <regex folderNames="rust,_rust,.cargo,_cargo"
+               name="rust"
+               folderColor="D14748"
+               iconColor="FFCDD2"
+               pattern="^[\._]?(rust|cargo)$"
+               icon="/rust.svg" />
         <!--endregion-->
 
         <!--region S-->
