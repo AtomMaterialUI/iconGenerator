@@ -618,6 +618,12 @@
         <!--endregion-->
 
         <!--region H-->
+        <regex folderNames="hasura,.hasura,_hasura"
+               name="hasura"
+               folderColor="0288d1"
+               iconColor="B2EBF2"
+               pattern="^[\._]?hasura$"
+               icon="/hasura.svg" />
         <regex folderNames="haxe,haxelib,haxe_libraries,.haxelib,_haxe_libraries,_haxe"
                name="haxelib"
                folderColor="ff7043"
