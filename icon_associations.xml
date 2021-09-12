@@ -168,6 +168,12 @@
                pattern="^acre\.config$"
                url="https://github.com/the-carlisle-group/Acre-Desktop"
                icon="/icons/files/acre.svg" />
+        <regex fileNames=".actrc"
+               name="Act"
+               color="4FC3F7"
+               pattern="^\.actrc$"
+               url="https://github.com/nektos/act"
+               icon="/icons/files/act.svg" />
         <regex fileNames="*.as,*.as3,*.jsfl"
                name="ActionScript"
                color="EA3D3C"
@@ -6640,6 +6646,12 @@
                url="https://github.com/thorlang"
                pattern=".*\.thor$"
                icon="/icons/files/thor.svg" />
+        <regex fileNames="thunderclient.json,thunder-tests.json,thunder-collection.js,thunder-collection_Web.json"
+               name="ThunderClient"
+               color="924e96"
+               url="https://www.thunderclient.io/"
+               pattern="^thunder(client|-tests|-collection).*\.(js|json)$"
+               icon="/icons/files/thunderclient.svg" />
         <regex fileNames="Tiltfile,tiltfile"
                name="Tilt"
                color="70d37b"
