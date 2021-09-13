@@ -81,6 +81,11 @@
                pattern="^MERGE_(HEAD|MODE|MSG)$"
                color="4FC3F7"
                icon="/icons/files/gitmerge.svg" />
+        <regex fileNames="INSTALL,install,INSTALL.md,install.txt"
+               name="INSTALL"
+               pattern="^(INSTALL|install)(\.(md|txt))?$"
+               color="26A69A"
+               icon="/icons/files/install.svg" />
         <regex fileNames="plugin.xml"
                name="Plugin"
                pattern="^plugin.xml$"
@@ -112,6 +117,12 @@
         <!--endregion-->
 
         <!--region 0-9 -->
+        <regex fileNames=".eleventy.js,.11ty.js,.eleventyignore,.11tyignore"
+               name="11ty"
+               color="292929"
+               url="https://www.11ty.dev/"
+               pattern=".*\.(eleventy|11ty)(\.js|ignore)$"
+               icon="/icons/files/11ty.svg" />
         <regex fileNames="*.bsl,*.mdo,*.sdbl,*.os"
                name="1C"
                color="FFB74D"
@@ -7265,11 +7276,11 @@
                pattern=".*\.wl[st]?$"
                url="https://www.wolfram.com/language/"
                icon="/icons/files/wolfram.svg" />
-        <regex fileNames="wp-admin.php,wp-login.php,wp-config.php"
+        <regex fileNames="wp-admin.php,wp-login.php,wp-config.php,wp-env.json,wp-cli.yaml"
                name="Wordpress"
                color="2a7ac9"
                url="https://wordpress.com/"
-               pattern="^wp-.*\.php$"
+               pattern="^wp-.*\.(php|json|ya?ml)$"
                icon="/icons/files/wordpress.svg" />
         <regex fileNames="workbox-config.js,workbox-config.ts"
                name="Workbox"

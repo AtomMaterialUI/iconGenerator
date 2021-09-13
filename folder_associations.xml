@@ -1197,11 +1197,11 @@
         <!--endregion-->
 
         <!--region T-->
-        <regex folderNames="cli,task,tasks,command,commands,console,consoles,.run,.cli,.tasks,_commands,_cli,_consoles,.command"
+        <regex folderNames="cli,task,tasks,command,commands,console,consoles,.run,.cli,.tasks,_commands,_cli,_consoles,.command,workflows,.workflows,_workflow"
                name="tasks"
                folderColor="795774"
                iconColor="CE93D8"
-               pattern="^[\._]?(cli|tasks?|commands?|consoles?|.run)$"
+               pattern="^[\._]?(cli|tasks?|commands?|consoles?|.run|workflows?)$"
                icon="/tasks.svg" />
         <regex folderNames="tmp,.tmp,temp,.temp,cache,.cache,_tmp,_cache,_temp"
                name="temp"
