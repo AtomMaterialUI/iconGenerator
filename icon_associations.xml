@@ -31,14 +31,6 @@
               type="Database Element"
               color="E57373"
               icon="/icons/files/db.svg" />
-        <type name="Images"
-              type="Images"
-              color="92AC5A"
-              icon="/icons/files/image.svg" />
-        <type name="SVG"
-              type="SVG"
-              color="FFB62C"
-              icon="/icons/files/svg.svg" />
 
         <!-- region Custom -->
         <regex fileNames="main.yml,workflow.yaml"
@@ -92,29 +84,6 @@
                color="66BB6A"
                icon="/icons/files/plugin.svg" />
         <!-- endregion -->
-
-        <!--region Images-->
-        <regex fileNames="*.jpg,*.jpeg,*.png,*.apng,*.gif,*.bmp,*.bpg,*.djvu,*.dpx,*.jps,*.jng,*.jxr"
-               name="Images"
-               pattern=".*\.(jpg|a?png|jpeg|gif|bmp|bpg|djvu|dpx|jps|jng|jxr)"
-               color="92AC5A"
-               icon="/icons/files/image.svg" />
-        <regex fileNames="*.ico,*.dcm,*.ecw,*.hdp,*.hdr,*.heif,*.heic,*.icns,*.iff"
-               name="Images (2)"
-               pattern=".*\.(ico|dcm|ecw|hdp|hdr|heic|heif|icns|iff)$"
-               color="92AC5A"
-               icon="/icons/files/image.svg" />
-        <regex fileNames="*.pcx,*.pict,*.pxr,*.raw,*.sgi,*.tga,*.tiff,*.vsdx,*.wbm,*.wbmp,*.pxm,*.pxb,*.pxs"
-               name="Images (3)"
-               pattern=".*\.(pcx|pict|pxr|raw|sgi|tga|tiff|vsdx|wbmp?|px[mbgs])$"
-               color="92AC5A"
-               icon="/icons/files/image.svg" />
-        <regex fileNames="*.svg"
-               name="SVG"
-               pattern=".*\.svg"
-               color="FFB62C"
-               icon="/icons/files/svg.svg" />
-        <!--endregion-->
 
         <!--region 0-9 -->
         <regex fileNames=".eleventy.js,.11ty.js,.eleventyignore,.11tyignore"
@@ -7567,6 +7536,62 @@
                url="https://github.com/CraftTweaker/ZenScript"
                pattern="^.*\.zsrc\.json$"
                icon="/icons/files/zenscript.svg" />
+        <!--endregion-->
+
+        <!--region Images-->
+        <regex fileNames="*.jpg,*.jpeg"
+               name="Images (JPG)"
+               pattern=".*\.jpe?g$"
+               color="7986CB"
+               icon="/icons/files/jpg.svg" />
+        <regex fileNames="*.gif,*.gifv"
+               name="Images (GIF)"
+               pattern=".*\.gifv?$"
+               color="FFEE58"
+               icon="/icons/files/gif.svg" />
+        <regex fileNames="*.png,*.apng"
+               name="Images (PNG)"
+               pattern=".*\.a?png$"
+               color="F06292"
+               icon="/icons/files/png.svg" />
+        <regex fileNames="*.ico,*.icns,*.icon,*.icl,*.iconpackage"
+               name="Icons"
+               pattern=".*\.(icon?|icl|icns|iconpackage)$"
+               color="26A69A"
+               icon="/icons/files/icon.svg" />
+        <regex fileNames="*.bpm,*.jbmp,*.wbmp"
+               name="Images (BMP)"
+               pattern=".*\.[jw]?bmp$"
+               color="EF5350"
+               icon="/icons/files/bmp.svg" />
+        <regex fileNames="*.bpg,*.djvu,*.dpx,*.jps,*.jng,*.jxr"
+               name="Images"
+               pattern=".*\.(bpg|djvu|dpx|jps|jng|jxr)"
+               color="92AC5A"
+               icon="/icons/files/image.svg" />
+        <regex fileNames="*.dcm,*.ecw,*.hdp,*.hdr,*.heif,*.heic,*.iff"
+               name="Images (2)"
+               pattern=".*\.(dcm|ecw|hdp|hdr|heic|heif|iff)$"
+               color="92AC5A"
+               icon="/icons/files/image.svg" />
+        <regex fileNames="*.pcx,*.pict,*.pxr,*.raw,*.sgi,*.tga,*.tiff,*.vsdx,*.wbm,*.wbmp,*.pxm,*.pxb,*.pxs"
+               name="Images (3)"
+               pattern=".*\.(pcx|pict|pxr|raw|sgi|tga|tiff|vsdx|wbmp?|px[mbgs])$"
+               color="92AC5A"
+               icon="/icons/files/image.svg" />
+        <regex fileNames="*.svg,*.svgz"
+               name="SVG"
+               pattern=".*\.svgz?$"
+               color="FFB62C"
+               icon="/icons/files/svg.svg" />
+        <type name="Images"
+              type="Images"
+              color="92AC5A"
+              icon="/icons/files/image.svg" />
+        <type name="SVG"
+              type="SVG"
+              color="FFB62C"
+              icon="/icons/files/svg.svg" />
         <!--endregion-->
 
         <!--region Config -->
