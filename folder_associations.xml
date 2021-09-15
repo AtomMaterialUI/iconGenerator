@@ -297,11 +297,11 @@
                iconColor="F48FB1"
                pattern="^[\._]?(controllers?|ctrls?)$"
                icon="/controllers.svg" />
-        <regex folderNames="bin,core,support,io,.bin,.core,_support,_io"
+        <regex folderNames="bin,core,support,io,.bin,.core,_support,_io,binary,_binary"
                name="core"
                folderColor="4DB6AC"
                iconColor="E0F2F1"
-               pattern="^[\._]?(bin|core|support|io)$"
+               pattern="^[\._]?(bin|core|support|io|binary)$"
                icon="/core.svg" />
         <regex folderNames="coverage,.coverage,_coverage"
                name="coverage"
@@ -669,11 +669,11 @@
                iconColor="087CFA"
                pattern="^[\._]?idea$"
                icon="/idea.svg" />
-        <regex folderNames="image,images,img,medias,media,.images,_img,_media,.medias"
+        <regex folderNames="image,images,img,medias,media,.images,_img,_media,.medias,pic,.pics,_pictures"
                name="images"
                folderColor="009688"
                iconColor="b2dfdb"
-               pattern="^[\._]?(images?|img|medias?)$"
+               pattern="^[\._]?(images?|img|medias?|pics?|pictures?)$"
                icon="/images.svg" />
         <regex folderNames="inc,includes,include,import,imports,concerns,concern,dep,deps,.inc,.include,_includes,.import,_imports,.concerns,_deps,.dependencies"
                name="include"

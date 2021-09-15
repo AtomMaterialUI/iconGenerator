@@ -33,9 +33,9 @@
               icon="/icons/files/db.svg" />
 
         <!-- region Custom -->
-        <regex fileNames="main.yml,workflow.yaml"
+        <regex fileNames="main.yml,workflow.yaml,ci.yaml"
                name="GitHub Actions"
-               pattern="(main|workflow)\.ya?ml$"
+               pattern="(main|workflow|ci)\.ya?ml$"
                color="78909C"
                icon="/icons/files/github.svg" />
         <regex fileNames="CODE_OF_CONDUCT.md,CODE_OF_CONDUCT.txt"
@@ -73,11 +73,16 @@
                pattern="^MERGE_(HEAD|MODE|MSG)$"
                color="4FC3F7"
                icon="/icons/files/gitmerge.svg" />
-        <regex fileNames="INSTALL,install,INSTALL.md,install.txt"
+        <regex fileNames="INSTALL,install,INSTALL.md,install.txt,install.yml"
                name="INSTALL"
-               pattern="^(INSTALL|install)(\.(md|txt))?$"
+               pattern="^(INSTALL|install)(\.(md|txt|ya?ml))?$"
                color="26A69A"
                icon="/icons/files/install.svg" />
+        <regex fileNames="FUNDING,funding,FUNDING.md,funding.txt,FUNDING.yml,funding.yaml"
+               name="FUNDING"
+               pattern="^(FUNDING|funding)(\.(md|txt|ya?ml))?$"
+               color="F06292"
+               icon="/icons/files/funding.svg" />
         <regex fileNames="plugin.xml"
                name="Plugin"
                pattern="^plugin.xml$"
@@ -625,6 +630,12 @@
                pattern="^astro\.config\.([cm]?js|ts)$"
                url="https://astro.build/"
                icon="/icons/files/astro.svg" />
+        <regex fileNames="artisan,artisan.php"
+               name="Artisan"
+               color="f52d21"
+               url="https://laravel.com/docs/8.x/artisan"
+               pattern="artisan(\.php)?$"
+               icon="/icons/files/laravel.svg" />
         <regex fileNames=".astylerc"
                name="Artistic Style"
                color="42A5F5"
@@ -5792,6 +5803,12 @@
                url="https://robotframework.org/"
                pattern=".*\.robot$"
                icon="/icons/files/robot2.svg" />
+        <regex fileNames="ROBOTS.txt,robots.txt,ROBOTS,robots"
+               name="Robots"
+               color="42A5F5"
+               url="https://datatracker.ietf.org/doc/html/draft-rep-wg-topic-00"
+               pattern="robots(\.txt)?$"
+               icon="/icons/files/robots.svg" />
         <regex fileNames="rollup.js,rollup.conf.js,rollup.ts"
                name="Rollup"
                color="FF5370"
