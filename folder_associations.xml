@@ -787,7 +787,7 @@
                name="macoslib"
                folderColor="546e7a"
                iconColor="80CBC4"
-               pattern="^\.(appex|bundle|ccl|component|framework|framework|ideplugin|kext|mdimporter|osax|(osirix)?plugin|qlgenerator)$"
+               pattern="^\.(appex|bundle|ccl|component|framework|ideplugin|kext|mdimporter|osax|(osirix)?plugin|qlgenerator)$"
                icon="/osx.svg" />
         <regex folderNames="message,messages,msg,msgs,.msg,_msgs,_messages,.messages"
                name="messages"

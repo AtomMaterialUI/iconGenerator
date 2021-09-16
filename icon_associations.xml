@@ -4892,7 +4892,7 @@
                name="OpenOffice"
                color="E79627"
                url="https://www.openoffice.org/"
-               pattern=".*\.(f?od[fstpgfb])$"
+               pattern=".*\.(f?od[fstpgb])$"
                icon="/icons/files/openoffice.svg" />
         <regex fileNames="*.ott,*.ots,*.otp,*.otg"
                name="OpenOffice (2)"
@@ -7876,9 +7876,9 @@
                color="F78C6C"
                pattern=".*\.(term(cap|info)|icondb\.js)$"
                icon="/icons/files/db.svg" />
-        <regex fileNames="*.ttf,*.ttc,*.pfb,*.pfm,*.otf,*.dfont,*.pfa,*.eot,*.woff,*.woff2,*.tfm,*.dfont"
+        <regex fileNames="*.ttf,*.ttc,*.pfb,*.pfm,*.otf,*.dfont,*.pfa,*.eot,*.woff,*.woff2,*.tfm"
                name="Font"
-               pattern=".*\.(ttf|ttc|pfb|pfm|otf|dfont|pfa|eot|woff2?|tfm|dfont)$"
+               pattern=".*\.(ttf|ttc|pfb|pfm|otf|dfont|pfa|eot|woff2?|tfm)$"
                color="7A8387"
                url="https://en.wikipedia.org/wiki/OpenType"
                icon="/icons/files/font.svg" />
