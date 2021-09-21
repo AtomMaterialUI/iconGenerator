@@ -95,7 +95,7 @@
                name="11ty"
                color="292929"
                url="https://www.11ty.dev/"
-               pattern=".*\.(eleventy|11ty)(\.js|ignore)$"
+               pattern=".*\.(eleventy|11ty)(\.[cm]?js|ignore)$"
                icon="/icons/files/11ty.svg" />
         <regex fileNames="*.bsl,*.mdo,*.sdbl,*.os"
                name="1C"
@@ -510,7 +510,7 @@
         <regex fileNames="apollo.config.js"
                name="Apollo"
                color="7156d9"
-               pattern="^apollo\.config\.js$"
+               pattern="^apollo\.config\.[cm]?js$"
                url="https://www.apollographql.com/"
                icon="/icons/files/apollo.svg" />
         <regex fileNames="appcelerator.js,appcelerator.ts"
@@ -687,7 +687,7 @@
         <regex fileNames="aurelia.js,aurelia.json,aureliafile.json"
                name="Aurelia"
                color="F13C6F"
-               pattern="^aurelia(file)?\.js(on)?$"
+               pattern="^aurelia(file)?\.[cm]?js(on)?$"
                url="https://aurelia.io/"
                icon="/icons/files/aurelia.svg" />
         <regex fileNames="AUTHORS,AUTHORS.md,AUTHORS.txt"
@@ -750,7 +750,7 @@
                name="Babel"
                color="F59F29"
                url="https://babeljs.io/"
-               pattern="^\.(babelrc(\.js)?|languagebabel|babel)$"
+               pattern="^\.(babelrc(\.[cm]?js)?|languagebabel|babel)$"
                icon="/icons/files/babel.svg" />
         <regex fileNames="babel.json,babel.config.json,babel.config.js,babel.config.mjs,babel.config.cjs"
                name="Babel Config"
@@ -833,7 +833,7 @@
                name="BEM"
                color="A1887F"
                url="http://getbem.com/"
-               pattern="\.bemjson(\.js)?$"
+               pattern="\.bemjson(\.[cm]?js)?$"
                icon="/icons/files/bem.svg" />
         <regex fileNames="*.cbx,*.bbx,*.bbl,*.bib,*.bst"
                name="BibTex"
@@ -1433,13 +1433,13 @@
                name="Commitlint"
                color="50B2DD"
                url="https://commitlint.js.org/#/"
-               pattern=".*\.commitlintrc(\.js(on)?|\.ya?ml)?$"
+               pattern=".*\.commitlintrc(\.[cm]?js(on)?|\.ya?ml)?$"
                icon="/icons/files/commitlint.svg" />
         <regex fileNames="commitlint.config.js"
                name="Commitlint Config"
                color="50B2DD"
                url="https://commitlint.js.org/#/"
-               pattern="^commitlint\.config\.js$"
+               pattern="^commitlint\.config\.[cm]?js$"
                icon="/icons/files/commitlint.svg" />
         <regex fileNames="config.rb"
                name="Compass"
@@ -2100,7 +2100,7 @@
                name="Egg"
                color="26A69A"
                url="https://eggjs.org/en/"
-               pattern="^config\.(default|prod|test|local|unittest)\.js"
+               pattern="^config\.(default|prod|test|local|unittest)\.[cm]?js"
                icon="/icons/files/egg.svg" />
         <regex fileNames=".compilerc,.compilerc.json"
                name="Electron"
@@ -2117,7 +2117,7 @@
         <regex fileNames="forge.config.js,.forge.config.js"
                name="Electron Forge"
                color="67d7f3"
-               pattern="(^|\.)forge\.config\.js$"
+               pattern="(^|\.)forge\.config\.[cm]?js$"
                url="https://www.electronforge.io/configuration"
                icon="/icons/files/electron.svg" />
         <regex fileNames=".appdata.xml"
@@ -2926,11 +2926,11 @@
                url="https://haml.info/"
                pattern=".*\.haml(c|.deface)?$"
                icon="/icons/files/haml.svg" />
-        <regex fileNames="config.yaml,hasura.config.yml"
+        <regex fileNames="hasura.config.yml"
                name="Hasura Config"
                color="1EB4D4"
                url="https://hasura.io/"
-               pattern="^(hasura\.)?config\.ya?ml$"
+               pattern="^hasura\.config\.ya?ml$"
                icon="/icons/files/hasura.svg" />
         <regex fileNames="tables.yaml,actions.yaml,remote_schemas.yml,cron_triggers.yml,allow_list.yaml,query_collections.yml,version.yaml"
                name="Hasura"
@@ -3316,7 +3316,7 @@
                name="Jade/Pug Lint"
                color="E79627"
                url="https://pugjs.org/api/getting-started.html"
-               pattern="^\.(jade|pug)-lintrc(\.js(on)?)?$"
+               pattern="^\.(jade|pug)-lintrc(\.[cm]?js(on)?)?$"
                icon="/icons/files/pug.svg" />
         <regex fileNames="*.jake"
                name="Jake"
@@ -3328,7 +3328,7 @@
                name="Jakefile"
                color="FFB74D"
                url="https://jakejs.com/"
-               pattern="^([jJ])akefile(\.js)?$"
+               pattern="^([jJ])akefile(\.[cm]?js)?$"
                icon="/icons/files/jake.svg" />
         <regex fileNames="*.janet"
                name="Janet"
@@ -3604,7 +3604,7 @@
                name="Knockout"
                color="D52A29"
                url="https://knockoutjs.com/"
-               pattern="^knockout(.*)\.js$"
+               pattern="^knockout(.*)\.[cm]?js$"
                icon="/icons/files/knockout.svg" />
         <regex fileNames="kubernetes.yml,kubernetes.dev.yaml"
                name="Kubernetes"
@@ -3780,7 +3780,7 @@
                name="Lint Staged Config"
                color="713a27"
                url="https://github.com/okonet/lint-staged"
-               pattern="^lint-staged\.config\.js$"
+               pattern="^lint-staged\.config\.[cm]?js$"
                icon="/icons/files/lint-staged.svg" />
         <regex fileNames="*.liquid"
                name="Liquid"
@@ -3939,7 +3939,7 @@
                name="MarkoJS"
                color="2196f3"
                url="https://markojs.com/"
-               pattern=".*\.marko(\.js)?$"
+               pattern=".*\.marko(\.[cm]?js)?$"
                icon="/icons/files/marko.svg" />
         <regex fileNames="*.shtml,*.dhtml,*.dtd"
                name="Markup"
@@ -5057,7 +5057,7 @@
                name="Percy"
                color="9e66bf"
                url="https://percy.io/"
-               pattern="^\.percy(rc|\.ya?ml|\.js(on)?)$"
+               pattern="^\.percy(rc|\.ya?ml|\.[cm]?js(on)?)$"
                icon="/icons/files/percy.svg" />
         <regex fileNames="perlconfig.json,perl5config.json,perl6config.json,perl-config.json"
                name="Perl Config"
@@ -5213,7 +5213,7 @@
                name="Pnpmfile"
                color="f9ad00"
                url="https://pnpm.io/"
-               pattern="^pnpmfile\.js"
+               pattern="^pnpmfile\.[cm]?js"
                icon="/icons/files/pnpm.svg" />
         <regex fileNames="*.pod,*.pod6,*.p6l,*.nqp"
                name="Pod"
@@ -5259,7 +5259,7 @@
                icon="/icons/files/postcss.svg" />
         <regex fileNames=".postcssrc,postcss.config.js,postcss.config.json"
                name="PostCSS Config"
-               pattern="^(\.postcssrc|postcss\.config\.js(on)?)$"
+               pattern="^(\.postcssrc|postcss\.config\.[cm]?js(on)?)$"
                color="D33534"
                url="https://postcss.org/"
                icon="/icons/files/postcss.svg" />
@@ -5315,7 +5315,7 @@
                name="Prettier Config"
                color="EE6292"
                url="https://prettier.io/"
-               pattern="^prettier\.config\.js$"
+               pattern="^prettier\.config\.[cm]?js$"
                icon="/icons/files/prettier.svg" />
         <regex fileNames=".prettierignore"
                name="Prettier Ignore"
@@ -5391,7 +5391,7 @@
                icon="/icons/files/protobuf.svg" />
         <regex fileNames="protractor.js,protractor.json,protractor.conf.js,protractor.config.json"
                name="Protractor"
-               pattern="^protractor(\.conf(ig)?)?\.js(on)?$"
+               pattern="^protractor(\.conf(ig)?)?\.[cm]?js(on)?$"
                url="https://www.protractortest.org/#/"
                color="de3b40"
                icon="/icons/files/protractor.svg" />
@@ -5958,7 +5958,7 @@
                name="Sapper"
                color="159497"
                url="https://sapper.svelte.dev/"
-               pattern="sapper\.js$"
+               pattern="sapper\.[cm]?js$"
                icon="/icons/files/sapper.svg" />
         <regex fileNames="*.sbt"
                name="SBT"
@@ -6040,7 +6040,7 @@
                icon="/icons/files/semantic-release.svg" />
         <regex fileNames="release.config.js"
                name="Semantic Release Config"
-               pattern="^release\.config\.js$"
+               pattern="^release\.config\.[cm]?js$"
                color="455a64"
                url="https://github.com/semantic-release"
                icon="/icons/files/semantic-release.svg" />
@@ -6387,7 +6387,7 @@
                icon="/icons/files/storybook.svg" />
         <regex fileNames=".stylelintrc,stylelint.config.js,stylelint.config.json,.stylelintrc.js,.stylelintrc.json,.stylelintrc.yaml"
                name="Stylelint"
-               pattern="^(\.stylelintrc(\.([cm]?js|json|ya?ml))?|stylelint\.config\.js(on)?)$"
+               pattern="^(\.stylelintrc(\.([cm]?js|json|ya?ml))?|stylelint\.config\.[cm]?js(on)?)$"
                color="7A8387"
                url="https://stylelint.io/"
                icon="/icons/files/stylelint.svg" />
@@ -6461,7 +6461,7 @@
                name="Svelte Config"
                color="A1887F"
                url="https://svelte.dev/"
-               pattern="svelte\.config\.js(on)?$"
+               pattern="svelte\.config\.[cm]?js(on)?$"
                icon="/icons/files/svelte.svg" />
         <regex fileNames=".svn,.svnignore"
                name="SVN"
@@ -6814,7 +6814,7 @@
                name="TypeDoc"
                color="9600FF"
                url="https://typedoc.org/"
-               pattern="^typedoc\.js(on)?$"
+               pattern="^typedoc\.[cm]?js(on)?$"
                icon="/icons/files/typedoc.svg" />
         <regex fileNames="*.d.ts"
                name="Typescript Defs"
@@ -7874,7 +7874,7 @@
         <regex fileNames="*.termcap,*.terminfo,*.icondb.js"
                name="DB (3)"
                color="F78C6C"
-               pattern=".*\.(term(cap|info)|icondb\.js)$"
+               pattern=".*\.(term(cap|info)|icondb\.[cm]?js)$"
                icon="/icons/files/db.svg" />
         <regex fileNames="*.ttf,*.ttc,*.pfb,*.pfm,*.otf,*.dfont,*.pfa,*.eot,*.woff,*.woff2,*.tfm"
                name="Font"
