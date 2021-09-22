@@ -696,6 +696,12 @@
         <!--endregion-->
 
         <!--region J-->
+        <regex folderNames="java,jdk,.java,_java,.jdk,_jdk"
+               name="java"
+               folderColor="AB47BC"
+               iconColor="E1BEE7"
+               pattern="^[\._]?(java|jdk)$"
+               icon="/java.svg" />
         <regex folderNames="javascript,javascripts,js,.js,_javascript,.javascript"
                name="javascript"
                folderColor="F9A825"
@@ -762,6 +768,12 @@
                iconColor="B0BEC5"
                pattern="^[\._]?logs?$"
                icon="/logs.svg" />
+        <regex folderNames="lua,_lua,.lua"
+               name="lua"
+               folderColor="0288d1"
+               iconColor="90caf9"
+               pattern="^[\._]?lua$"
+               icon="/lua.svg" />
         <!--endregion-->
 
         <!--region M-->
@@ -918,6 +930,12 @@
                iconColor="C5CAE9"
                pattern="^[\._]?(packages?|bundles?|paket|modules?|pkg)$"
                icon="/packages.svg" />
+        <regex folderNames="perl,.perl,_perl,pl,.pl,_pl"
+               name="perl"
+               folderColor="00897b"
+               iconColor="b2dfdb"
+               pattern="^[\._]?(perl|pl)$"
+               icon="/perl.svg" />
         <regex folderNames="php,phtml,_php,.php,.phtml"
                name="php"
                folderColor="673AB7"
