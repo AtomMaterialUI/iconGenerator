@@ -447,11 +447,11 @@
         <!--endregion-->
 
         <!--region E-->
-        <regex folderNames="e2e,scenario,scenarios"
+        <regex folderNames="e2e,scenario,scenarios,.e2e,_e2e,.scenarios,_scenario"
                name="e2e"
                folderColor="00796B"
                iconColor="e0f2f1"
-               pattern="^(e2e|scenarios?)$"
+               pattern="^[\._]?(e2e|scenarios?)$"
                icon="/e2e.svg" />
         <regex folderNames="elastic,.elasticbeanstalk,elasticbeanstalk,_elastic,.eb-extensions"
                name="elastic"
@@ -459,7 +459,7 @@
                iconColor="fff9c4"
                pattern="^[\._]?(elastic(beanstalk)?|eb-extensions?)$"
                icon="/elastic.svg" />
-        <regex folderNames="electron"
+        <regex folderNames="electron,.electron,_electron"
                name="electron"
                folderColor="039BE5"
                iconColor="B3E5FC"
@@ -471,17 +471,17 @@
                iconColor="E1BEE7"
                pattern="^\.emacs\.d$"
                icon="/emacs.svg" />
-        <regex folderNames="env,envs,environment,environments"
+        <regex folderNames="env,envs,environment,environments,.env,_env,.environment,_environments"
                name="env"
                folderColor="8BC34A"
                iconColor="DCEDC8"
-               pattern="^(envs?|environments?)$"
+               pattern="^[\._]?(envs?|environments?)$"
                icon="/env.svg" />
-        <regex folderNames="error,errors,prod,production,exception,exceptions"
+        <regex folderNames="error,errors,prod,production,exception,exceptions,.error,_error,_errors,.prod,_production,.exception,_exceptions"
                name="error"
                folderColor="ef5350"
                iconColor="ffcdd2"
-               pattern="^(errors?|exceptions?|prod(uction)?)$"
+               pattern="^[\._]?(errors?|exceptions?|prod(uction)?)$"
                icon="/error.svg" />
         <regex folderNames="event,events,.event,_events,.events"
                name="events"
@@ -489,17 +489,17 @@
                iconColor="C8E6C9"
                pattern="^[\._]?(events?)$"
                icon="/events.svg" />
-        <regex folderNames="example,examples,ex,exs"
+        <regex folderNames="example,examples,ex,exs,.example,_examples,.ex,_exs"
                name="example"
                folderColor="009688"
                iconColor="b2dfdb"
-               pattern="^(examples?|exs?)$"
+               pattern="^[\._]?(examples?|exs?)$"
                icon="/examples.svg" />
-        <regex folderNames="exclude,excludes,external"
+        <regex folderNames="exclude,excludes,external,output,.exclude,_excludes,.external,_external,.output"
                name="exclude"
                folderColor="ff8a65"
                iconColor="fbe9e7"
-               pattern="^(excludes?|external)$"
+               pattern="^[\._]?(excludes?|external|output)$"
                icon="/exclude.svg" />
         <regex folderNames=".expo,.expo-shared"
                name="expo"
@@ -675,11 +675,11 @@
                iconColor="b2dfdb"
                pattern="^[\._]?(images?|img|medias?|pics?|pictures?)$"
                icon="/images.svg" />
-        <regex folderNames="inc,includes,include,import,imports,concerns,concern,dep,deps,.inc,.include,_includes,.import,_imports,.concerns,_deps,.dependencies"
+        <regex folderNames="inc,includes,include,import,imports,input,concerns,concern,dep,deps,.inc,.include,_includes,.import,_imports,.concerns,_deps,.dependencies,_input"
                name="include"
                folderColor="039be5"
                iconColor="b3e5fc"
-               pattern="^[\._]?(inc(ludes?)?|imports?|concerns?|deps?|dependencies)$"
+               pattern="^[\._]?(inc(ludes?)?|imports?|input|concerns?|deps?|dependencies)$"
                icon="/include.svg" />
         <regex folderNames="init,initializers,initializer,startup,.init,_initializers,.startup,.initializer"
                name="init"
