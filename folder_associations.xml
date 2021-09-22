@@ -1281,11 +1281,11 @@
                iconColor="FFE0B2"
                pattern="^[\._]?(views?|templates?|pages?)$"
                icon="/views.svg" />
-        <regex folderNames="viewmodel,viewModels,_viewModel,.viewmodels"
+        <regex folderNames="viewmodel,viewModels,_viewModel,.viewmodels,crud,.crud,_crud"
                name="viewModels"
                folderColor="0288d1"
                iconColor="b3e5fc"
-               pattern="^[\._]?(view[mM]odels?)$"
+               pattern="^[\._]?(view[mM]odels?|crud)$"
                icon="/viewmodel.svg" />
         <regex folderNames="vim,.vim,_vim"
                name="vim"
