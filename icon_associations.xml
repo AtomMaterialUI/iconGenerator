@@ -1321,6 +1321,12 @@
                url="https://en.wikipedia.org/wiki/CNAME_record"
                pattern="^CNAME$"
                icon="/icons/files/cname.svg" />
+        <regex fileNames=".coarc,.coafile"
+               name="Coala"
+               pattern="^\.(coarc|coafile)$"
+               color="90a4ae"
+               url="http://docs.coala.io/en/latest/index.html"
+               icon="/icons/files/coala.svg" />
         <regex fileNames="*.cob,*.ccp,*.cobol,*.cbl,*.cpy"
                name="COBOL"
                color="7E57C2"
@@ -4999,6 +5005,12 @@
                url="https://www.creationkit.com/fallout4/index.php?title=Papyrus_Introduction"
                pattern=".*\.(psc|pex)$"
                icon="/icons/files/papyrus.svg" />
+        <regex fileNames=".parcelrc"
+               name="Parcel"
+               color="ffa726"
+               url="https://parceljs.org/"
+               pattern="^\.parcelrc$"
+               icon="/icons/files/parcel.svg" />
         <regex fileNames="*.parrot,*.pasm,*.pir"
                name="Parrot"
                color="01a8f0"
@@ -7268,6 +7280,12 @@
                url="https://wordpress.com/"
                pattern="^wp-.*\.(php|json|ya?ml)$"
                icon="/icons/files/wordpress.svg" />
+        <regex fileNames=".distignore"
+               name="Wordpress Distignore"
+               color="808080"
+               url="https://developer.wordpress.org/cli/commands/dist-archive/"
+               pattern="^\.distignore$"
+               icon="/icons/files/wordpressignore.svg" />
         <regex fileNames="workbox-config.js,workbox-config.ts"
                name="Workbox"
                color="FF8A65"

@@ -729,6 +729,12 @@
                iconColor="FFFFFF"
                pattern="^[\._]?(keys?|certs?)$"
                icon="/keys.svg" />
+        <regex folderNames="kotlin,.kotlin,_kotlin,kt,_kt"
+               name="kotlin"
+               folderColor="7E57C2"
+               iconColor="E1BEE7"
+               pattern="^[\._]?(kotlin|kt)$"
+               icon="/kotlin.svg" />
         <regex folderNames="kubernetes,k8s,kube,kuber,minikube,.kubernetes,_k8s,.minikube,.kuber,_kube"
                name="kubernetes"
                folderColor="64b5f6"
