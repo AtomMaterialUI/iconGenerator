@@ -83,6 +83,11 @@
                pattern="^(FUNDING|funding)(\.(md|txt|ya?ml))?$"
                color="F06292"
                icon="/icons/files/funding.svg" />
+        <regex fileNames="stale.yml,stale.yaml"
+               name="Stalebot"
+               pattern="^stale\.ya?ml$"
+               color="808080"
+               icon="/icons/files/stalebot.svg" />
         <regex fileNames="plugin.xml"
                name="Plugin"
                pattern="^plugin.xml$"
@@ -1285,6 +1290,12 @@
                url="https://github.com/click-lang/click"
                pattern=".*\.click$"
                icon="/icons/files/click.svg" />
+        <regex fileNames="*.clio"
+               name="Clio"
+               color="cb2a41"
+               url="https://clio-lang.org/"
+               pattern=".*\.clio$"
+               icon="/icons/files/clio.svg" />
         <regex fileNames="*.clp"
                name="CLIPS"
                color="66BB6A"
