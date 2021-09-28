@@ -4293,6 +4293,12 @@
                url="https://www.msweet.org/mxml/"
                pattern=".*\.mxml$"
                icon="/icons/files/mxml.svg" />
+        <regex fileNames="mybatis.xml,mybatis-config.xml"
+               name="MyBatis"
+               color="cb0000"
+               url="https://mybatis.org/mybatis-3/"
+               pattern="^mybatis.*\.xml$"
+               icon="/icons/files/mybatis.svg" />
         <!--endregion-->
 
         <!--region N -->
