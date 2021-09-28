@@ -93,6 +93,11 @@
                pattern="^plugin.xml$"
                color="66BB6A"
                icon="/icons/files/plugin.svg" />
+        <regex fileNames="MaterialThemeBundle.properties,atom.bundle.properties"
+               name="Bundle properties"
+               pattern=".*[bB]undle\.properties$"
+               color="7986cb"
+               icon="/icons/files/i18n.svg" />
         <!-- endregion -->
 
         <!--region 0-9 -->
