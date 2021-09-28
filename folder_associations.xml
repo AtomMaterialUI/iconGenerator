@@ -93,6 +93,12 @@
                iconColor="bbdefb"
                pattern="^\.(xcodeproj|xcworkspace)$"
                icon="/appstore.svg" />
+        <regex folderNames="article,articles,.article,.articles,_articles"
+               name="article"
+               folderColor="1dacd6"
+               iconColor="b3e5fc"
+               pattern="^\.articles?$"
+               icon="/article.svg" />
         <regex folderNames=".artx,art,arts,wordart,wordarts"
                name="arttext"
                folderColor="a564ef"
@@ -150,6 +156,12 @@
         <!--endregion-->
 
         <!--region B-->
+        <regex folderNames="base,abstract,.base,.abstract,_bases,_abstracts,parent,.parent,_parents"
+               name="base"
+               folderColor="cd9575"
+               iconColor="#FFE0B2"
+               pattern="^[\._]?(bases?|abstract|parents?)$"
+               icon="/base.svg" />
         <regex folderNames=".bzr,_bzr,bzr"
                name="bazaar"
                folderColor="FFA000"
@@ -207,6 +219,12 @@
                iconColor="FFCDD2"
                pattern="^[\._]?cake$"
                icon="/cake.svg" />
+        <regex folderNames="cart,carts,.cart,.carts,_cart"
+               name="cart"
+               folderColor="FFA000"
+               iconColor="FFECB3"
+               pattern="^[\._]?carts?$"
+               icon="/cart.svg" />
         <regex folderNames="channel,channels,.channel,_channels"
                name="channels"
                folderColor="1E88E5"
@@ -273,6 +291,12 @@
                iconColor="80DEEA"
                pattern="^[\._]?(config|conf|settings)$"
                icon="/config.svg" />
+        <regex folderNames="connect,_connect,connection,.connections,_connections"
+               name="connection"
+               folderColor="00acc1"
+               iconColor="b2ebf2"
+               pattern="^[\._]?(connect|connections?)$"
+               icon="/connection.svg" />
         <regex folderNames="container,containers,.container,_containers"
                name="containers"
                folderColor="1976D2"
@@ -636,6 +660,12 @@
                iconColor="f0f4c3"
                pattern="^[\._]?(helpers?|help)$"
                icon="/helper.svg" />
+        <regex folderNames="home,.home,_home"
+               name="home"
+               folderColor="8D6E63"
+               iconColor="#BCAAA4"
+               pattern="^[\._]?home$"
+               icon="/home.svg" />
         <regex folderNames="hooks,hook,triggers,trigger,.hook,_hooks,_triggers"
                name="hooks"
                folderColor="9575CD"
@@ -735,6 +765,12 @@
                iconColor="FFFFFF"
                pattern="^[\._]?(keys?|certs?)$"
                icon="/keys.svg" />
+        <regex folderNames="kv,.kv,_kv,kivy,.kivy,_kivy"
+               name="kivy"
+               folderColor="78909C"
+               iconColor="#CFD8DC"
+               pattern="^[\._]?(kv|kivy)$"
+               icon="/kivy.svg" />
         <regex folderNames="kotlin,.kotlin,_kotlin,kt,_kt"
                name="kotlin"
                folderColor="7E57C2"
@@ -843,6 +879,12 @@
                iconColor="FFE0B2"
                pattern="^[\._]?mjml$"
                icon="/mjml.svg" />
+        <regex folderNames="mobile,mobiles,.mobile,_mobiles,portable,_portable,portables,.portables"
+               name="mobile"
+               folderColor="ff5252"
+               iconColor="ffcdd2"
+               pattern="^[\._]?(mobiles?|portables?)$"
+               icon="/mobile.svg" />
         <regex folderNames="mock,mocks,fake,fakes,stub,stubs,.mock,_mocks,.fakes,_fakes,.stub,_stubs"
                name="mocks"
                folderColor="8d6e63"
@@ -984,6 +1026,12 @@
                iconColor="ffcdd2"
                pattern="^[\._]?private$"
                icon="/private.svg" />
+        <regex folderNames=".project,project,_project,projects,_projects"
+               name="project"
+               folderColor="00BFA5"
+               iconColor="a7ffeb"
+               pattern="^[\._]?projects?$"
+               icon="/project.svg" />
         <regex folderNames="provider,providers,_providers,.providers"
                name="providers"
                folderColor="757575"
@@ -997,6 +1045,15 @@
                pattern="^[\._]?(python|py|venv|virtualenv)$"
                icon="/python.svg" />
         <!--endregion-->
+
+        <!-- region Q -->
+        <regex folderNames="quasar,.quasar,_quasar"
+               name="quasar"
+               folderColor="1976D2"
+               iconColor="bbdefb"
+               pattern="^[\._]?quasar$"
+               icon="/quasar.svg" />
+        <!-- endregion -->
 
         <!--region R-->
         <regex folderNames="react,react_components,react-scripts,_react,.react,_react_components,.react-scripts"
@@ -1110,6 +1167,12 @@
                iconColor="fce4ec"
                pattern="^[\._]?(sass|scss)$"
                icon="/sass.svg" />
+        <regex folderNames="scala,_scala,.scala"
+               name="scala"
+               folderColor="f44336"
+               iconColor="ffcdd2"
+               pattern="^[\._]?scala$"
+               icon="/scala.svg" />
         <regex folderNames="screens,screen,screenshot,screenshots,.screens,_screens,.screenshots,_screenshot"
                name="screens"
                folderColor="009688"
@@ -1170,6 +1233,12 @@
                iconColor="ffe0b2"
                pattern="^[\._]?(structures?|stacks?)$"
                icon="/stack.svg" />
+        <regex folderNames="stencil,.stencil,_stencil"
+               name="stencil"
+               folderColor="9C27B0"
+               iconColor="C792EA"
+               pattern="^[\._]?stencil$"
+               icon="/stencil.svg" />
         <regex folderNames="stories,storybook,storybooks,.stories,.storybook,_storybook,__stories__"
                name="storybook"
                folderColor="AD1457"
@@ -1194,6 +1263,12 @@
                iconColor="FFA726"
                pattern="^[\._]?sublime$"
                icon="/sublime.svg" />
+        <regex folderNames="svelte,.svelte,_svelte,sapper,.sapper,_sapper"
+               name="svelte"
+               folderColor="F26B00"
+               iconColor="FFE0B2"
+               pattern="^[\._]?(svelte|sapper)$"
+               icon="/svelte.svg" />
         <regex folderNames="svg,svgs,svgicon,svgicons,graphic,graphics,.svg,_svg,_svgicons,.graphics,_graphic"
                name="svg"
                folderColor="ffb300"
@@ -1227,6 +1302,12 @@
                iconColor="CE93D8"
                pattern="^[\._]?(cli|tasks?|commands?|consoles?|.run|workflows?)$"
                icon="/tasks.svg" />
+        <regex folderNames="tech,.tech,technology,_technology,technologies,.technologies"
+               name="tech"
+               folderColor="8a2be2"
+               iconColor="c695f9"
+               pattern="^[\._]?(tech(nology|nologies)?)$"
+               icon="/tech.svg" />
         <regex folderNames="tmp,.tmp,temp,.temp,cache,.cache,_tmp,_cache,_temp"
                name="temp"
                folderColor="8D6E63"
@@ -1239,6 +1320,12 @@
                iconColor="00897B"
                pattern="^[\._]?(tests?|specs?|units?|__tests?__)$"
                icon="/tests.svg" />
+        <regex folderNames="terraform,.terraform,_terraform"
+               name="terraform"
+               folderColor="108775"
+               iconColor="b2dfdb"
+               pattern="^[\._]?terraform$"
+               icon="/terraform.svg" />
         <regex folderNames=".tmBundle"
                name="textmate"
                folderColor="9C27B0"
@@ -1293,6 +1380,12 @@
                iconColor="A5D6A7"
                pattern="^[\._]?(vendors?|libs?|Pods?|stdlib)$"
                icon="/lib.svg" />
+        <regex folderNames="venv,.venv,virtualenv,.virtualenv,_virtualenv"
+               name="venv"
+               folderColor="2196F3"
+               iconColor="90CAF9"
+               pattern="^[\._]?(venv|virtualenv)$"
+               icon="/venv.svg" />
         <regex folderNames="videos,video,movie,movies,.video,_videos,_movie,.movies"
                name="video"
                folderColor="7986CB"
@@ -1341,6 +1434,12 @@
                iconColor="41B883"
                pattern="^[\._]?vue$"
                icon="/vue.svg" />
+        <regex folderNames="vuepress,.vuepress,_vuepress"
+               name="vuepress"
+               folderColor="41b883"
+               iconColor="e8f5e9"
+               pattern="^[\._]?vuepress$"
+               icon="/vuepress.svg" />
         <regex folderNames="vuex,.vuex,_vuex"
                name="vuex"
                folderColor="009688"
