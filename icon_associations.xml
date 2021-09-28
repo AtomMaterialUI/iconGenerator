@@ -1904,7 +1904,7 @@
                color="1e9cef"
                url="https://www.docker.com/"
                pattern="^docker-compose(.*)\.(yml|yaml)$"
-               icon="/icons/files/docker.svg" />
+               icon="/icons/files/dockercompose.svg" />
         <regex fileNames=".dockerignore,.Dockerignore"
                name="Docker Ignore"
                color="808080"
@@ -6335,6 +6335,12 @@
                url="https://www.w3.org/TR/rdf-sparql-query/"
                pattern="^.*\.rq$"
                icon="/icons/files/sparql.svg" />
+        <regex fileNames=".spectral.yml,.spectral.yaml"
+               name="Spectral"
+               color="9c27b0"
+               url="https://stoplight.io/open-source/spectral/"
+               pattern="^\.spectral\.ya?ml$"
+               icon="/icons/files/spectral.svg" />
         <regex fileNames="reference.conf,application.conf"
                name="Spray"
                color="3096b4"
@@ -6497,11 +6503,11 @@
                pattern=".*\.sss$"
                url="https://github.com/postcss/sugarss"
                icon="/icons/files/sss.svg" />
-        <regex fileNames="*.svelte"
+        <regex fileNames="*.svelte,*.svx"
                name="Svelte"
                color="ff5722"
                url="https://svelte.dev/"
-               pattern=".*\.svelte"
+               pattern=".*\.(svelte|svx)"
                icon="/icons/files/svelte.svg" />
         <regex fileNames="svelte.config.js,svelte.config.json"
                name="Svelte Config"

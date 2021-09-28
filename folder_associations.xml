@@ -1197,11 +1197,11 @@
                iconColor="FFECB3"
                pattern="^[\._]?(server|http|requests?|staging|qa|backend)$"
                icon="/server.svg" />
-        <regex folderNames=".serverless,serverless,_serverless"
+        <regex folderNames=".serverless,serverless,_serverless,.infra,infrastructure,infra,_infrastructure"
                name="serverless"
                folderColor="757575"
                iconColor="FFEE58"
-               pattern="^[\._]?serverless$"
+               pattern="^[\._]?(serverless|infra(structure)?)$"
                icon="/serverless.svg" />
         <regex folderNames="shared,common,_shared,.common,_common"
                name="shared"
