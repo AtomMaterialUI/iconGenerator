@@ -951,6 +951,14 @@
                iconType="FILE"
                pattern=".*\.au3$"
                icon="/icons/files/autoit.svg" />
+        <regex fileNames="ava.config.js,ava.config.ts,ava.config.mjs,ava.config.cjs"
+               name="Ava"
+               color="7986CB"
+               url="https://github.com/avajs/ava"
+               priority="100"
+               iconType="FILE"
+               pattern="^ava\.config\.([cm]?js|ts)$"
+               icon="/icons/files/ava.svg" />
         <regex fileNames="*.avif"
                name="Avif"
                color="f8a900"
@@ -1089,6 +1097,14 @@
                iconType="FILE"
                pattern="(\.bazelrc|bazel\.rc)$"
                icon="/icons/files/bazel.svg" />
+        <regex fileNames="*.bc,*.dc,.dcrc"
+               name="BC"
+               color="2f89ab"
+               url="https://en.wikipedia.org/wiki/Bc_(programming_language)"
+               priority="100"
+               iconType="FILE"
+               pattern=".*\.(bc|dc(rc)?)$"
+               icon="/icons/files/bc.svg" />
         <regex fileNames="javaBean.java,javabean.java"
                name="Bean"
                color="AB7967"
@@ -3621,7 +3637,7 @@
                url="https://git-scm.com/"
                priority="100"
                iconType="FILE"
-               pattern="^\.gitignore"
+               pattern="^\.(gitignore|keep|lfsconfig)"
                icon="/icons/files/gitignore.svg" />
         <regex fileNames=".gitpod.yml"
                name="GitPod"
@@ -5655,7 +5671,7 @@
                url="https://mootools.net/"
                priority="100"
                iconType="FILE"
-               pattern="^mootools[^.]*\d+\.\d+(.\d+)?[^.]*\.[cm]?js$"
+               pattern="^mootools[^.]*\d+\.\d+(\.\d+)?[^.]*\.[cm]?js$"
                icon="/icons/files/mootools.svg" />
         <regex fileNames="*.more,*.msg,*.utf8"
                name="More"
