@@ -10273,13 +10273,13 @@
         <!--endregion-->
 
         <!--region Binaries -->
-        <regex fileNames="ls,cd,myapp,run"
-               name="Binary"
-               color="7C95A1"
-               priority="1"
-               iconType="FILE"
-               pattern="^[^.]+$"
-               icon="/icons/files/binary.svg" />
+        <!--        <regex fileNames="ls,cd,myapp,run"-->
+        <!--               name="Binary"-->
+        <!--               color="7C95A1"-->
+        <!--               priority="1"-->
+        <!--               iconType="FILE"-->
+        <!--               pattern="^[^.]+$"-->
+        <!--               icon="/icons/files/binary.svg" />-->
         <regex fileNames="*.axf,*.elf,*.la,*.objdump,*.bsdiff,*.bin,*.dat,*.pak,*.db-journal"
                name="Binary (2)"
                color="7C95A1"
