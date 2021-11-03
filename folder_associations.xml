@@ -1175,13 +1175,13 @@
                iconType="FOLDER"
                pattern="^[\._]?(modals?|portals?|usecases?|dialogs?)$"
                icon="/modals.svg" />
-        <regex folderNames="model,models,struct,structs,class,classes,.models,_models,_struct,.struct,.class,_classes,entity,.entity,entities,_entities,dto,.dto,_dto"
+        <regex folderNames="model,models,struct,structs,class,classes,.models,_models,_struct,.struct,.class,_classes,entity,.entity,entities,_entities,dto,.dto,_dto,object,objects,_objects"
                name="models"
                folderColor="00796B"
                iconColor="80CBC4"
                priority="100"
                iconType="FOLDER"
-               pattern="^[\._]?(models?|structs?|class|classes|entity|entities|dto)$"
+               pattern="^[\._]?(models?|structs?|class|classes|entity|entities|dto|objects?)$"
                icon="/models.svg" />
         <regex folderNames="molecule,molecules,.molecules,_molecules"
                name="molecules"
