@@ -453,13 +453,13 @@
 					"icon": "/container.svg"
 				},
 				{
-					"folderNames": "content,contents,cont,.cont,_contents,.contents",
+					"folderNames": "content,contents,cont,.cont,_contents,.contents,context,.context,_context",
 					"name": "content",
 					"folderColor": "00BCD4",
 					"iconColor": "b2ebf2",
 					"priority": "100",
 					"iconType": "FOLDER",
-					"pattern": "^[\\._]?(contents?|cont)$",
+					"pattern": "^[\\._]?(contents?|cont|context)$",
 					"icon": "/content.svg"
 				},
 				{
@@ -1393,13 +1393,13 @@
 					"icon": "/modals.svg"
 				},
 				{
-					"folderNames": "model,models,struct,structs,class,classes,.models,_models,_struct,.struct,.class,_classes,entity,.entity,entities,_entities,dto,.dto,_dto",
+					"folderNames": "model,models,struct,structs,class,classes,.models,_models,_struct,.struct,.class,_classes,entity,.entity,entities,_entities,dto,.dto,_dto,object,objects,_objects",
 					"name": "models",
 					"folderColor": "00796B",
 					"iconColor": "80CBC4",
 					"priority": "100",
 					"iconType": "FOLDER",
-					"pattern": "^[\\._]?(models?|structs?|class|classes|entity|entities|dto)$",
+					"pattern": "^[\\._]?(models?|structs?|class|classes|entity|entities|dto|objects?)$",
 					"icon": "/models.svg"
 				},
 				{
@@ -1721,6 +1721,16 @@
 					"iconType": "FOLDER",
 					"pattern": "^[\\._]?relay$",
 					"icon": "/relay.svg"
+				},
+				{
+					"folderNames": "resolver,resolvers,.resolver,_resolvers",
+					"name": "resolvers",
+					"folderColor": "43a047",
+					"iconColor": "c8e6c9",
+					"priority": "100",
+					"iconType": "FOLDER",
+					"pattern": "^[\\._]?resolvers?$",
+					"icon": "/redux-reducers.svg"
 				},
 				{
 					"folderNames": "res,resource,resources,asset,assets,.res,_res,_resources,.assets,_assets",

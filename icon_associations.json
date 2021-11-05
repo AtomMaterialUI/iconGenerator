@@ -1169,6 +1169,16 @@
 					"icon": "/icons/files/autoit.svg"
 				},
 				{
+					"fileNames": "ava.config.js,ava.config.ts,ava.config.mjs,ava.config.cjs",
+					"name": "Ava",
+					"color": "7986CB",
+					"url": "https://github.com/avajs/ava",
+					"priority": "100",
+					"iconType": "FILE",
+					"pattern": "^ava\\.config\\.([cm]?js|ts)$",
+					"icon": "/icons/files/ava.svg"
+				},
+				{
 					"fileNames": "*.avif",
 					"name": "Avif",
 					"color": "f8a900",
@@ -1336,6 +1346,16 @@
 					"iconType": "FILE",
 					"pattern": "(\\.bazelrc|bazel\\.rc)$",
 					"icon": "/icons/files/bazel.svg"
+				},
+				{
+					"fileNames": "*.bc,*.dc,.dcrc",
+					"name": "BC",
+					"color": "2f89ab",
+					"url": "https://en.wikipedia.org/wiki/Bc_(programming_language)",
+					"priority": "100",
+					"iconType": "FILE",
+					"pattern": ".*\\.(bc|dc(rc)?)$",
+					"icon": "/icons/files/bc.svg"
 				},
 				{
 					"fileNames": "javaBean.java,javabean.java",
@@ -4485,7 +4505,7 @@
 					"url": "https://git-scm.com/",
 					"priority": "100",
 					"iconType": "FILE",
-					"pattern": "^\\.gitignore",
+					"pattern": "^\\.(gitignore|keep|lfsconfig)",
 					"icon": "/icons/files/gitignore.svg"
 				},
 				{
@@ -5244,6 +5264,16 @@
 					"priority": "100",
 					"iconType": "FILE",
 					"pattern": ".*\\.(pot|po|mo|strings)$",
+					"icon": "/icons/files/i18n.svg"
+				},
+				{
+					"fileNames": "en.js,fr.json,en_US.yml,de_DE.yaml,be.json",
+					"name": "i18n Languages",
+					"color": "7986cb",
+					"url": "https://en.wikipedia.org/wiki/Internationalization_and_localization",
+					"priority": "100",
+					"iconType": "FILE",
+					"pattern": "^[a-zA-Z]{2}(_[a-zA-Z]{2})*\\.(js|ts|json|ya?ml)$",
 					"icon": "/icons/files/i18n.svg"
 				},
 				{
@@ -6831,6 +6861,16 @@
 					"icon": "/icons/files/mlang.svg"
 				},
 				{
+					"fileNames": "*.mobx.js,*.mobx.ts,*.observable.cjs,*.observable.mjs",
+					"name": "MobX",
+					"color": "EA6618",
+					"url": "https://mobx.js.org/README.html",
+					"priority": "100",
+					"iconType": "FILE",
+					"pattern": ".*\\.(mobx|observable)\\.[cm]?(js|ts)$",
+					"icon": "/icons/files/mobx.svg"
+				},
+				{
 					"fileNames": "mocha.opts,.mocharc",
 					"name": "Mocha",
 					"color": "ab7967",
@@ -6849,6 +6889,16 @@
 					"iconType": "FILE",
 					"pattern": "^\\.mocha\\.(js|json|yml)$",
 					"icon": "/icons/files/mocha.svg"
+				},
+				{
+					"fileNames": "*.mock.js,*.mock.ts,*.spy.dart,*.spy.cjs,*.stub.mjs,*.spy.rb,*.mock.java,*.spy.kt,*.stub.pl,*.mock.py",
+					"name": "Spy/Mock/Stub",
+					"color": "8d6e63",
+					"url": "https://en.wikipedia.org/wiki/Mock_object",
+					"priority": "100",
+					"iconType": "FILE",
+					"pattern": ".*\\.(mock|stub|spy)\\.([cm]?js|ts|dart|java|kt|rb|pl|py)$",
+					"icon": "/icons/files/mock.svg"
 				},
 				{
 					"fileNames": "*.mo",
@@ -7007,7 +7057,7 @@
 					"url": "https://mootools.net/",
 					"priority": "100",
 					"iconType": "FILE",
-					"pattern": "^mootools[^.]*\\d+\\.\\d+(.\\d+)?[^.]*\\.[cm]?js$",
+					"pattern": "^mootools[^.]*\\d+\\.\\d+(\\.\\d+)?[^.]*\\.[cm]?js$",
 					"icon": "/icons/files/mootools.svg"
 				},
 				{
@@ -8818,6 +8868,16 @@
 					"iconType": "FILE",
 					"pattern": "^\\.pre-commit\\b.*\\.ya?ml$",
 					"icon": "/icons/files/precommit.svg"
+				},
+				{
+					"fileNames": "preact.config.js,preact.config.ts,preact.config.mjs,preact.config.cjs",
+					"name": "Preact",
+					"color": "673ab8",
+					"url": "https://preactjs.com/",
+					"priority": "100",
+					"iconType": "FILE",
+					"pattern": "^preact\\.config\\.([cm]js|ts)$",
+					"icon": "/icons/files/preact.svg"
 				},
 				{
 					"fileNames": ".prettierrc.js,.prettierrc.json,.prettierrc.yml",
@@ -11034,7 +11094,7 @@
 					"color": "E79627",
 					"priority": "100",
 					"iconType": "FILE",
-					"pattern": ".*\\.?(test|spec)\\.[cm]?(js|es6)$",
+					"pattern": ".*\\.?(test|spec)\\.[cm](js|es6)$",
 					"icon": "/icons/files/testjs.svg"
 				},
 				{
@@ -12695,15 +12755,6 @@
 					"iconType": "FILE",
 					"pattern": "^\\.git.*",
 					"icon": "/icons/files/git.svg"
-				},
-				{
-					"fileNames": "ls,cd,myapp,run",
-					"name": "Binary",
-					"color": "7C95A1",
-					"priority": "1",
-					"iconType": "FILE",
-					"pattern": "^[^.]+$",
-					"icon": "/icons/files/binary.svg"
 				},
 				{
 					"fileNames": "*.axf,*.elf,*.la,*.objdump,*.bsdiff,*.bin,*.dat,*.pak,*.db-journal",
