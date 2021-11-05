@@ -28,7 +28,7 @@
   "license": "ISC",
   "devDependencies": {
     "@types/node": "14.17.30",
-    "@types/yargs": "17.0.4",
+    "@types/yargs": "17.0.5",
     "nodegit": "0.27.0",
     "puppeteer": "11.0.0",
     "rimraf": "3.0.2",
