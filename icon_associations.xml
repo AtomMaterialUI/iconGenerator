@@ -8943,7 +8943,7 @@
                color="E79627"
                priority="100"
                iconType="FILE"
-               pattern=".*\.?(test|spec)\.[cm](js|es6)$"
+               pattern=".*\.?(test|spec)\.[cm]?(js|es6)$"
                icon="/icons/files/testjs.svg" />
         <regex fileNames="*.test.perl,*.spec.pl,*.test.pl6,*.test.pm6,*.spec.ph"
                name="Test Perl"
