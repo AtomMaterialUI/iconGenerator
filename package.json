@@ -30,7 +30,7 @@
   "devDependencies": {
     "@types/node": "16.11.11",
     "@types/yargs": "17.0.5",
-    "nodegit": "0.28.0-alpha.9",
+    "nodegit": "0.28.0-alpha.10",
     "puppeteer": "12.0.1",
     "rimraf": "3.0.2",
     "ts-node-dev": "1.1.8",
