@@ -126,6 +126,20 @@
                pattern=".*[bB]undle\.properties$"
                color="7986cb"
                icon="/icons/files/i18n.svg" />
+        <regex fileNames="MaterialThemeBundle.java"
+               name="Java Bundles"
+               priority="1000"
+               iconType="FILE"
+               pattern=".*[bB]undle\.java$"
+               color="c792ea"
+               icon="/icons/files/i18nJava.svg" />
+        <regex fileNames="MaterialThemeBundle.kt"
+               name="Kotlin Bundles"
+               priority="1000"
+               iconType="FILE"
+               pattern=".*[bB]undle\.kt$"
+               color="497CE3"
+               icon="/icons/files/i18nKotlin.svg" />
         <!-- endregion -->
 
         <!--region 0-9 -->
