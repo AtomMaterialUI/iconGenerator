@@ -35,11 +35,11 @@
               icon="/icons/files/db.svg" />
 
         <!-- region Custom -->
-        <regex fileNames="main.yml,workflow.yaml,ci.yaml"
+        <regex fileNames="main.yml,workflow.yaml,ci.yaml,config.yml"
                name="GitHub Actions"
                priority="1000"
                iconType="FILE"
-               pattern="(main|workflow|ci|release|build)\.ya?ml$"
+               pattern="(main|workflow|ci|release|build|config)\.ya?ml$"
                color="78909C"
                icon="/icons/files/github.svg" />
         <regex fileNames="CODE_OF_CONDUCT.md,CODE_OF_CONDUCT.txt"
@@ -1103,6 +1103,14 @@
                iconType="FILE"
                pattern=".*\.(bzl|bazel)$"
                icon="/icons/files/bazel.svg" />
+        <regex fileNames=".bazelignore"
+               name="Bazel Ignore"
+               color="808080"
+               url="https://bazel.build/"
+               priority="100"
+               iconType="FILE"
+               pattern="\.bazelignore$"
+               icon="/icons/files/bazelignore.svg" />
         <regex fileNames=".bazelrc,bazel.rc"
                name="Bazel Config"
                color="6AAB20"
@@ -2278,13 +2286,13 @@
                iconType="FILE"
                pattern=".*\.csproj$"
                icon="/icons/files/csproj.svg" />
-        <regex fileNames="*.vcxproj"
+        <regex fileNames="*.vcxproj,*.vcxproj.filters"
                name="C++ Project"
                color="4DB6AC"
                url="https://www.cplusplus.com/"
                priority="100"
                iconType="FILE"
-               pattern=".*\.vcxproj$"
+               pattern=".*\.vcxproj(\.filters)?$"
                icon="/icons/files/vcxproj.svg" />
         <!--endregion-->
 
@@ -2557,13 +2565,13 @@
                iconType="FILE"
                pattern="\.doclets\.ya?ml$"
                icon="/icons/files/doclets.svg" />
-        <regex fileNames="Dockerfile,dockerfile,dev.dockerfile,prodDockerfile"
+        <regex fileNames="Dockerfile,dockerfile,dev.dockerfile,prodDockerfile,Dockerfile.dev"
                name="Docker"
                color="1e9cef"
                url="https://www.docker.com/"
                priority="100"
                iconType="FILE"
-               pattern=".*\.?[dD]ockerfile$"
+               pattern=".*[dD]ockerfile.*$"
                icon="/icons/files/docker.svg" />
         <regex fileNames="docker-compose.yml,docker-compose.yaml,docker-compose.dev.yml"
                name="DockerCompose"
@@ -3765,13 +3773,13 @@
                iconType="FILE"
                pattern=".*\.(gp|plo?t|gnuplot)$"
                icon="/icons/files/gnuplot.svg" />
-        <regex fileNames="go.mod,go.sub"
+        <regex fileNames="go.mod,go.sub,go.sum"
                name="Go Config"
                color="82AAFF"
                url="https://pkg.go.dev/go.uber.org/config"
                priority="100"
                iconType="FILE"
-               pattern="^go\.(mod|sub)$"
+               pattern="^go\.(mod|sub|sum)$"
                icon="/icons/files/go.svg" />
         <regex fileNames="*.gohtml,*.tmpl"
                name="Go Template"
@@ -4245,6 +4253,14 @@
                priority="100"
                iconType="FILE"
                pattern=".*\.huskyrc(\.[cm]?js|\.json|\.ya?ml)?$"
+               icon="/icons/files/husky.svg" />
+        <regex fileNames="pre-commit,post-commit,pre-push,post-push,pre-merge,post-merge"
+               name="Husky Hooks"
+               color="7f7f7f"
+               url="https://typicode.github.io/husky/#/"
+               priority="100"
+               iconType="FILE"
+               pattern="^(pre|post)-(checkout|commit|merge|rebase|push)(\.sh)?"
                icon="/icons/files/husky.svg" />
         <regex fileNames="*.hy"
                name="HY"
@@ -6424,6 +6440,14 @@
                priority="100"
                iconType="FILE"
                pattern=".*\.(nupkg|nuspec|snupkg|psmdcp)$"
+               icon="/icons/files/nuget.svg" />
+        <regex fileNames="nuget.config"
+               name="NuGet Config"
+               color="AB7967"
+               url="https://www.nuget.org/"
+               priority="100"
+               iconType="FILE"
+               pattern="nuget\.config$"
                icon="/icons/files/nuget.svg" />
         <regex fileNames="*.njk,*.nunjucks,*.nunj"
                name="Nunjucks"
@@ -9581,13 +9605,13 @@
                iconType="FILE"
                pattern=".*\.vbproj$"
                icon="/icons/files/vbproj.svg" />
-        <regex fileNames="*.vssettings,*.vstemplate,*.lsproj,*.modelproj,*.njsproj,*.wmaproj,*.sln,*.suo"
+        <regex fileNames="*.vssettings,*.vstemplate,*.vsconfig,*.lsproj,*.modelproj,*.njsproj,*.wmaproj,*.sln,*.suo,*.rc"
                name="Visual Studio"
                color="7963E6"
                url="https://visualstudio.microsoft.com/"
                priority="100"
                iconType="FILE"
-               pattern=".*\.(vssettings|vstemplate|lsproj|modelproj|njsproj|wmaproj|sln|suo)$"
+               pattern=".*\.(vssettings|vsconfig|vstemplate|lsproj|modelproj|njsproj|wmaproj|sln|suo|rc)$"
                icon="/icons/files/vs.svg" />
         <regex fileNames="vite.config.js,vite.config.ts"
                name="Vite"
@@ -10384,12 +10408,12 @@
         <!--endregion-->
 
         <!--region Config -->
-        <regex fileNames="*.ld,*.ldif,*.lds,*.ld,*.ini,*.cnf,*.config,*.cfg,*.mcf,*.kys"
+        <regex fileNames="*.ld,*.ldif,*.lds,*.ld,*.ini,*.cnf,*.config,*.cfg,*.mcf,*.kys,*.props"
                name="Preferences"
                color="E79627"
                priority="10"
                iconType="FILE"
-               pattern=".*\.(ldif|lds?|ini|cnf|config|cfg|mcf|kys)$"
+               pattern=".*\.(ldif|lds?|ini|cnf|config|cfg|mcf|kys|props)$"
                icon="/icons/files/preferences.svg" />
         <regex fileNames="*.env,*.env.dev,*.env.prod"
                name="Envs"
