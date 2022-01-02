@@ -1,7 +1,7 @@
 <!--
   ~ The MIT License (MIT)
   ~
-  ~ Copyright (c) 2015-2021 Elior "Mallowigi" Boukhobza
+  ~ Copyright (c) 2015-2022 Elior "Mallowigi" Boukhobza
   ~
   ~ Permission is hereby granted, free of charge, to any person obtaining a copy
   ~ of this software and associated documentation files (the "Software"), to deal
@@ -5196,13 +5196,13 @@
                iconType="FILE"
                pattern=".*\.log(\.[0-9]+)?$"
                icon="/icons/files/log.svg" />
-        <regex fileNames="*.rpt,*.bug-report,*.fdl,*.tests"
+        <regex fileNames="*.rpt,*.bug-report,*.fdl"
                name="Log (2)"
                color="7A8387"
                url="https://en.wikipedia.org/wiki/Log_file"
                priority="100"
                iconType="FILE"
-               pattern=".*\.(rpt|bug-report|fdl|tests)$"
+               pattern=".*\.(rpt|bug-report|fdl)$"
                icon="/icons/files/log.svg" />
         <regex fileNames="*.logtalk,*.lgt"
                name="Logtalk"
