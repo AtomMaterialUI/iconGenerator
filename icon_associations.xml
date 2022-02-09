@@ -3845,13 +3845,13 @@
                iconType="FILE"
                pattern=".*\.gradle\.kts$"
                icon="/icons/files/gradle.svg" />
-        <regex fileNames="gradlew"
+        <regex fileNames="gradlew,gradlew.bat"
                name="Gradlew"
                color="26A2C1"
                url="https://gradle.org/"
                priority="100"
                iconType="FILE"
-               pattern="gradlew$"
+               pattern="^gradlew(\.bat)?$"
                icon="/icons/files/gradle.svg" />
         <regex fileNames="*.grain"
                name="Grain"
