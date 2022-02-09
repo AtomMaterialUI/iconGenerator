@@ -5431,12 +5431,12 @@
                iconType="FILE"
                pattern="^(MathJax[^.]*|TeX-MML-AM_CHTML)\.[cm]?js$"
                icon="/icons/files/mathjax.svg" />
-        <regex fileNames="pom.xml"
+        <regex fileNames="pom.xml,.flattened-pom.xml"
                name="Maven"
                color="F13C6F"
                priority="100"
                iconType="FILE"
-               pattern="^pom\.xml$"
+               pattern="^(\.flattened-)?pom\.xml$"
                url="https://maven.apache.org/"
                icon="/icons/files/maven.svg" />
         <regex fileNames="*.maxpat,*.maxobj,*.maxproj,*.maxhelp,*.pat,*.mxt"
