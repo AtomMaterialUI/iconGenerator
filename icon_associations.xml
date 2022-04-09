@@ -10860,12 +10860,12 @@
         <!--endregion-->
 
         <!--region Least priority -->
-        <regex fileNames="*.class,*.o,*.out,*.ko,*.pyo,*.pyc"
-               name="Class"
+        <regex fileNames="*.o,*.out,*.ko,*.pyo,*.pyc"
+               name="Binary Object"
                color="7A8387"
                priority="1"
                iconType="FILE"
-               pattern=".*\.(class|o|out|ko|py[oc])$"
+               pattern=".*\.(o|out|ko|py[oc])$"
                icon="/icons/files/class.svg" />
         <regex fileNames="*.db,*.dbi,*.ddl,*.dic,*.dict,*.od,*.schema,*.db2,*.db3,*.edn,*.sy,*.2da"
                name="DB"
