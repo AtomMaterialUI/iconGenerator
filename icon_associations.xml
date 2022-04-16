@@ -949,6 +949,13 @@
                iconType="FILE"
                pattern="^(AUTHORS|authors)(\.(md|txt))?$"
                icon="/icons/files/authors.svg"/>
+        <regex fileNames=".all-contributorsrc"
+               name="Contributors"
+               color="F78AE0"
+               priority="100"
+               iconType="FILE"
+               pattern="\.all-?contributorsrc$"
+               icon="/icons/files/authors.svg"/>
         <regex fileNames="*.ahk,*.ahkl"
                name="AutoHotKey"
                color="6AAB20"
@@ -4850,6 +4857,13 @@
                priority="100"
                iconType="FILE"
                pattern=".*\.(key|pem|gpg|pub|der|ssh|passwd|kdbx)"
+               icon="/icons/files/key.svg"/>
+        <regex fileNames="publishToken,publishToken.xml,publishToken.txt,publishToken.md"
+               name="PublishToken"
+               color="26a69a"
+               priority="100"
+               iconType="FILE"
+               pattern="publishToken.*"
                icon="/icons/files/key.svg"/>
         <regex fileNames="*.hypr,*.hypr.live"
                name="Kibo"
