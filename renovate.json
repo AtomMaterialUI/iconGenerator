@@ -8,15 +8,23 @@
   "prConcurrentLimit": 6,
   "packageRules": [
     {
+      "description": "Automatically merge minor and patch-level updates",
       "matchUpdateTypes": [
         "minor",
         "patch",
         "pin",
         "digest"
       ],
+      "groupName": "Packages",
+      "groupSlug": "packages",
       "semanticCommitType": "chore",
       "automerge": true,
-      "semanticCommits": true
+      "automergeType": "branch",
+      "semanticCommits": true,
+      "schedule": "on friday and saturday",
+      "labels": [
+        "deps"
+      ]
     },
     {
       "matchPackagePatterns": [

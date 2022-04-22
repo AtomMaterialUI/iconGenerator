@@ -18,6 +18,7 @@ This is the icon generator for the [Atom Material File Icons Project](https://gi
 ## Usage
 
 - `npm install`
+  - **NOTE**: On Mac M1, you need node v12 to be able to install `node-gyp`
 - `npm run example` to run the **Examples Generator**
 - `npm run wiki` to generate the **Wiki Pages**
 - `npm runn preview` to generate the **Preview Images**
