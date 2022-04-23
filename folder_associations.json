@@ -93,25 +93,25 @@
 					"icon": "/api.svg"
 				},
 				{
-					"folderNames": "app,application,apps,applications,.app,.application,_app,_application",
-					"name": "app",
-					"folderColor": "ef5350",
-					"iconColor": "ffcdd2",
-					"priority": "100",
-					"iconType": "FOLDER",
-					"pattern": "^[\\._]?(apps?|applications?)$",
-					"icon": "/app.svg"
-				},
-				{
-                  "folderNames": ".xcworkspace,.xcodeproj",
-                  "name": "appstore",
-                  "folderColor": "42a5f5",
-                  "iconColor": "bbdefb",
+                  "folderNames": "app,application,apps,applications,.app,.application,_app,_application",
+                  "name": "app",
+                  "folderColor": "ef5350",
+                  "iconColor": "ffcdd2",
                   "priority": "100",
                   "iconType": "FOLDER",
-                  "pattern": "^\\.(xcodeproj|xcworkspace)$",
-                  "icon": "/appstore.svg"
+                  "pattern": "^[\\._]?(apps?|applications?)$",
+                  "icon": "/app.svg"
                 },
+              {
+                "folderNames": ".xcworkspace,.xcodeproj",
+                "name": "appstore",
+                "folderColor": "42a5f5",
+                "iconColor": "bbdefb",
+                "priority": "100",
+                "iconType": "FOLDER",
+                "pattern": "^\\.(xcodeproj|xcworkspace)$",
+                "icon": "/appstore.svg"
+              },
               {
                 "folderNames": "archetypes,archetype,_archetype,_archetypes,schematic,_schematics",
                 "name": "archetype",
@@ -143,16 +143,16 @@
                 "icon": "/article.svg"
               },
               {
-					"folderNames": ".artx,art,arts,wordart,wordarts",
-					"name": "arttext",
-					"folderColor": "a564ef",
-					"iconColor": "E1BEE7",
-					"priority": "100",
-					"iconType": "FOLDER",
-					"pattern": "^(\\.artx|arts?|wordarts?)$",
-					"icon": "/arttext.svg"
-				},
-				{
+                "folderNames": ".artx,art,arts,wordart,wordarts",
+                "name": "arttext",
+                "folderColor": "a564ef",
+                "iconColor": "E1BEE7",
+                "priority": "100",
+                "iconType": "FOLDER",
+                "pattern": "^(\\.artx|arts?|wordarts?)$",
+                "icon": "/arttext.svg"
+              },
+              {
 					"folderNames": "atom,atoms,.atom,.atom-ci,.atoms,_atom,_atoms",
 					"name": "atom",
 					"folderColor": "689F38",
@@ -493,25 +493,25 @@
 					"icon": "/controllers.svg"
 				},
 				{
-					"folderNames": "bin,core,support,io,.bin,.core,_support,_io,binary,_binary",
-					"name": "core",
-					"folderColor": "4DB6AC",
-					"iconColor": "E0F2F1",
-					"priority": "100",
-					"iconType": "FOLDER",
-					"pattern": "^[\\._]?(bin|core|support|io|binary)$",
-					"icon": "/core.svg"
-				},
-				{
-                  "folderNames": "coverage,.coverage,_coverage",
-                  "name": "coverage",
-                  "folderColor": "689f38",
-                  "iconColor": "dcedc8",
+                  "folderNames": "bin,core,support,io,.bin,.core,_support,_io,binary,_binary",
+                  "name": "core",
+                  "folderColor": "4DB6AC",
+                  "iconColor": "E0F2F1",
                   "priority": "100",
                   "iconType": "FOLDER",
-                  "pattern": "^[\\._]?coverage$",
-                  "icon": "/coverage.svg"
+                  "pattern": "^[\\._]?(bin|core|support|io|binary)$",
+                  "icon": "/core.svg"
                 },
+              {
+                "folderNames": "coverage,.coverage,_coverage",
+                "name": "coverage",
+                "folderColor": "689f38",
+                "iconColor": "dcedc8",
+                "priority": "100",
+                "iconType": "FOLDER",
+                "pattern": "^[\\._]?coverage$",
+                "icon": "/coverage.svg"
+              },
               {
                 "folderNames": "crate,crates,.crate,_crates",
                 "name": "crates",
@@ -533,16 +533,16 @@
                 "icon": "/serverless.svg"
               },
               {
-					"folderNames": "cubit,cubits,.cubit,_cubits",
-					"name": "cubit",
-					"folderColor": "00BCD4",
-					"iconColor": "b2ebf2",
-					"priority": "100",
-					"iconType": "FOLDER",
-					"pattern": "^[\\._]?cubits?$",
-					"icon": "/cubit.svg"
-				},
-				{
+                "folderNames": "cubit,cubits,.cubit,_cubits",
+                "name": "cubit",
+                "folderColor": "00BCD4",
+                "iconColor": "b2ebf2",
+                "priority": "100",
+                "iconType": "FOLDER",
+                "pattern": "^[\\._]?cubits?$",
+                "icon": "/cubit.svg"
+              },
+              {
 					"folderNames": "custom,.custom,_custom",
 					"name": "custom",
 					"folderColor": "ff7043",
@@ -823,25 +823,25 @@
 					"icon": "/examples.svg"
 				},
 				{
-					"folderNames": "exclude,excludes,external,output,.exclude,_excludes,.external,_external,.output",
-					"name": "exclude",
-					"folderColor": "ff8a65",
-					"iconColor": "fbe9e7",
-					"priority": "100",
-					"iconType": "FOLDER",
-					"pattern": "^[\\._]?(excludes?|external|output)$",
-					"icon": "/exclude.svg"
-				},
-				{
-                  "folderNames": ".expo,.expo-shared",
-                  "name": "expo",
-                  "folderColor": "01579b",
-                  "iconColor": "9FA8DA",
+                  "folderNames": "exclude,excludes,external,output,.exclude,_excludes,.external,_external,.output",
+                  "name": "exclude",
+                  "folderColor": "ff8a65",
+                  "iconColor": "fbe9e7",
                   "priority": "100",
                   "iconType": "FOLDER",
-                  "pattern": "^\\.expo(-shared)?$",
-                  "icon": "/expo.svg"
+                  "pattern": "^[\\._]?(excludes?|external|output)$",
+                  "icon": "/exclude.svg"
                 },
+              {
+                "folderNames": ".expo,.expo-shared",
+                "name": "expo",
+                "folderColor": "01579b",
+                "iconColor": "9FA8DA",
+                "priority": "100",
+                "iconType": "FOLDER",
+                "pattern": "^\\.expo(-shared)?$",
+                "icon": "/expo.svg"
+              },
               {
                 "folderNames": "fastlane,.fastlane,_fastlane",
                 "name": "fastlane",
@@ -863,16 +863,16 @@
                 "icon": "/rules.svg"
               },
               {
-					"folderNames": ".firebase,firebase,_firebase",
-					"name": "firebase",
-					"folderColor": "fbc02d",
-					"iconColor": "fff9c4",
-					"priority": "100",
-					"iconType": "FOLDER",
-					"pattern": "^[\\._]?firebase$",
-					"icon": "/firebase.svg"
-				},
-				{
+                "folderNames": ".firebase,firebase,_firebase",
+                "name": "firebase",
+                "folderColor": "fbc02d",
+                "iconColor": "fff9c4",
+                "priority": "100",
+                "iconType": "FOLDER",
+                "pattern": "^[\\._]?firebase$",
+                "icon": "/firebase.svg"
+              },
+              {
 					"folderNames": "fixture,fixtures,fabricator,fabricators,factory,factories,.factories,.fixtures,_fixtures,_fabricator,.factory",
 					"name": "fixtures",
 					"folderColor": "9E9D24",
@@ -1102,16 +1102,16 @@
 					"pattern": "^[\\._]?(icons?|ico|glyphs?|favicons?)$",
 					"icon": "/icons.svg"
 				},
-				{
-					"folderNames": ".idea,_idea,idea",
-					"name": "idea",
-					"folderColor": "00BCD4",
-					"iconColor": "087CFA",
-					"priority": "100",
-					"iconType": "FOLDER",
-					"pattern": "^[\\._]?idea$",
-					"icon": "/idea.svg"
-				},
+              {
+                "folderNames": ".idea,_idea,idea",
+                "name": "idea",
+                "folderColor": "00BCD4",
+                "iconColor": "087CFA",
+                "priority": "100",
+                "iconType": "FOLDER",
+                "pattern": "^[\\._]?idea$",
+                "icon": "/idea.svg"
+              },
               {
                 "folderNames": "image,images,img,medias,media,.images,_img,_media,.medias,pic,.pics,_pictures,gallery",
                 "name": "images",
@@ -1122,16 +1122,16 @@
                 "pattern": "^[\\._]?(images?|img|medias?|pics?|pictures?|gallery)$",
                 "icon": "/images.svg"
               },
-				{
-					"folderNames": "inc,includes,include,import,imports,input,concerns,concern,dep,deps,.inc,.include,_includes,.import,_imports,.concerns,_deps,.dependencies,_input",
-					"name": "include",
-					"folderColor": "039be5",
-					"iconColor": "b3e5fc",
-					"priority": "100",
-					"iconType": "FOLDER",
-					"pattern": "^[\\._]?(inc(ludes?)?|imports?|input|concerns?|deps?|dependencies)$",
-					"icon": "/include.svg"
-				},
+              {
+                "folderNames": "inc,includes,include,import,imports,input,concerns,concern,dep,deps,.inc,.include,_includes,.import,_imports,.concerns,_deps,.dependencies,_input",
+                "name": "include",
+                "folderColor": "039be5",
+                "iconColor": "b3e5fc",
+                "priority": "100",
+                "iconType": "FOLDER",
+                "pattern": "^[\\._]?(inc(ludes?)?|imports?|input|concerns?|deps?|dependencies)$",
+                "icon": "/include.svg"
+              },
 				{
 					"folderNames": "init,initializers,initializer,startup,.init,_initializers,.startup,.initializer",
 					"name": "init",
@@ -1153,25 +1153,25 @@
 					"icon": "/istanbul.svg"
 				},
 				{
-					"folderNames": "java,jdk,.java,_java,.jdk,_jdk",
-					"name": "java",
-					"folderColor": "AB47BC",
-					"iconColor": "E1BEE7",
-					"priority": "100",
-					"iconType": "FOLDER",
-					"pattern": "^[\\._]?(java|jdk)$",
-					"icon": "/java.svg"
-				},
-				{
-                  "folderNames": "javascript,javascripts,js,.js,_javascript,.javascript",
-                  "name": "javascript",
-                  "folderColor": "F9A825",
-                  "iconColor": "FFFFFF",
+                  "folderNames": "java,jdk,.java,_java,.jdk,_jdk",
+                  "name": "java",
+                  "folderColor": "AB47BC",
+                  "iconColor": "E1BEE7",
                   "priority": "100",
                   "iconType": "FOLDER",
-                  "pattern": "^[\\._]?(javascripts?|js)$",
-                  "icon": "/js.svg"
+                  "pattern": "^[\\._]?(java|jdk)$",
+                  "icon": "/java.svg"
                 },
+              {
+                "folderNames": "javascript,javascripts,js,.js,_javascript,.javascript",
+                "name": "javascript",
+                "folderColor": "F9A825",
+                "iconColor": "FFFFFF",
+                "priority": "100",
+                "iconType": "FOLDER",
+                "pattern": "^[\\._]?(javascripts?|js)$",
+                "icon": "/js.svg"
+              },
               {
                 "folderNames": "jest,.jest,_jest",
                 "name": "jest",
@@ -1193,16 +1193,16 @@
                 "icon": "/jinja.svg"
               },
               {
-					"folderNames": "jobs,job,resque,.jobs,_jobs,.resque,_resque",
-					"name": "jobs",
-					"folderColor": "AB47BC",
-					"iconColor": "E1BEE7",
-					"priority": "100",
-					"iconType": "FOLDER",
-					"pattern": "^[\\._]?(jobs?|resque)$",
-					"icon": "/job.svg"
-				},
-				{
+                "folderNames": "jobs,job,resque,.jobs,_jobs,.resque,_resque",
+                "name": "jobs",
+                "folderColor": "AB47BC",
+                "iconColor": "E1BEE7",
+                "priority": "100",
+                "iconType": "FOLDER",
+                "pattern": "^[\\._]?(jobs?|resque)$",
+                "icon": "/job.svg"
+              },
+              {
 					"folderNames": "jsons,json,serializer,serializers,.json,_json,.serializers,_serializers",
 					"name": "json",
 					"folderColor": "fbc02d",
@@ -1233,25 +1233,25 @@
 					"icon": "/kivy.svg"
 				},
 				{
-					"folderNames": "kotlin,.kotlin,_kotlin,kt,_kt",
-					"name": "kotlin",
-					"folderColor": "7E57C2",
-					"iconColor": "E1BEE7",
-					"priority": "100",
-					"iconType": "FOLDER",
-					"pattern": "^[\\._]?(kotlin|kt)$",
-					"icon": "/kotlin.svg"
-				},
-				{
-                  "folderNames": "kubernetes,k8s,kube,kuber,minikube,.kubernetes,_k8s,.minikube,.kuber,_kube",
-                  "name": "kubernetes",
-                  "folderColor": "64b5f6",
-                  "iconColor": "1976d2",
+                  "folderNames": "kotlin,.kotlin,_kotlin,kt,_kt",
+                  "name": "kotlin",
+                  "folderColor": "7E57C2",
+                  "iconColor": "E1BEE7",
                   "priority": "100",
                   "iconType": "FOLDER",
-                  "pattern": "^[\\._]?(kubernetes|k8s|kuber?|minikube)$",
-                  "icon": "/kubernetes.svg"
+                  "pattern": "^[\\._]?(kotlin|kt)$",
+                  "icon": "/kotlin.svg"
                 },
+              {
+                "folderNames": "kubernetes,k8s,kube,kuber,minikube,.kubernetes,_k8s,.minikube,.kuber,_kube",
+                "name": "kubernetes",
+                "folderColor": "64b5f6",
+                "iconColor": "1976d2",
+                "priority": "100",
+                "iconType": "FOLDER",
+                "pattern": "^[\\._]?(kubernetes|k8s|kuber?|minikube)$",
+                "icon": "/kubernetes.svg"
+              },
               {
                 "folderNames": "kustomize,.kustomize,kustomizations,_kustomization,.kustomizations",
                 "name": "kustomize",
@@ -1273,16 +1273,16 @@
                 "icon": "/layouts.svg"
               },
               {
-					"folderNames": "less,.less,_less",
-					"name": "less",
-					"folderColor": "0277bd",
-					"iconColor": "b3e5fc",
-					"priority": "100",
-					"iconType": "FOLDER",
-					"pattern": "^[\\._]?less$",
-					"icon": "/less.svg"
-				},
-				{
+                "folderNames": "less,.less,_less",
+                "name": "less",
+                "folderColor": "0277bd",
+                "iconColor": "b3e5fc",
+                "priority": "100",
+                "iconType": "FOLDER",
+                "pattern": "^[\\._]?less$",
+                "icon": "/less.svg"
+              },
+              {
 					"folderNames": "log,logs,.log,_logs",
 					"name": "logs",
 					"folderColor": "607D8B",
@@ -1683,25 +1683,25 @@
 					"icon": "/quasar.svg"
 				},
 				{
-					"folderNames": "react,react_components,react-scripts,_react,.react,_react_components,.react-scripts",
-					"name": "react",
-					"folderColor": "00bcd4",
-					"iconColor": "E0F7FA",
-					"priority": "100",
-					"iconType": "FOLDER",
-					"pattern": "^[\\._]?react?.*",
-					"icon": "/react.svg"
-				},
-				{
-                  "folderNames": "redis,.redis,_redis",
-                  "name": "redis",
-                  "folderColor": "ef5350",
-                  "iconColor": "ffcdd2",
+                  "folderNames": "react,react_components,react-scripts,_react,.react,_react_components,.react-scripts",
+                  "name": "react",
+                  "folderColor": "00bcd4",
+                  "iconColor": "E0F7FA",
                   "priority": "100",
                   "iconType": "FOLDER",
-                  "pattern": "^[\\._]?redis$",
+                  "pattern": "^[\\._]?react?.*",
                   "icon": "/react.svg"
                 },
+              {
+                "folderNames": "redis,.redis,_redis",
+                "name": "redis",
+                "folderColor": "ef5350",
+                "iconColor": "ffcdd2",
+                "priority": "100",
+                "iconType": "FOLDER",
+                "pattern": "^[\\._]?redis$",
+                "icon": "/react.svg"
+              },
               {
                 "folderNames": "coil,recoil,.coil,_recoil",
                 "name": "recoil",
@@ -1724,16 +1724,16 @@
               },
               {
                 "folderNames": "action,actions,.action,_actions",
-					"name": "redux-actions",
-					"folderColor": "ab47bc",
-					"iconColor": "e1bee7",
-					"priority": "100",
-					"iconType": "FOLDER",
-					"pattern": "^[\\._]?actions?$",
-					"icon": "/redux-actions.svg"
-				},
-				{
-					"folderNames": "epic,epics,.epic,_epics",
+                "name": "redux-actions",
+                "folderColor": "ab47bc",
+                "iconColor": "e1bee7",
+                "priority": "100",
+                "iconType": "FOLDER",
+                "pattern": "^[\\._]?actions?$",
+                "icon": "/redux-actions.svg"
+              },
+              {
+                "folderNames": "epic,epics,.epic,_epics",
 					"name": "redux-epics",
 					"folderColor": "64B5F6",
 					"iconColor": "BBDEFB",
@@ -1892,16 +1892,16 @@
 					"pattern": "^[\\._]?scala$",
 					"icon": "/scala.svg"
 				},
-				{
-					"folderNames": "screens,screen,screenshot,screenshots,.screens,_screens,.screenshots,_screenshot",
-					"name": "screens",
-					"folderColor": "009688",
-					"iconColor": "b2dfdb",
-					"priority": "100",
-					"iconType": "FOLDER",
-					"pattern": "^[\\._]?(screens?|screenshots?)$",
-					"icon": "/screens.svg"
-				},
+              {
+                "folderNames": "screens,screen,screenshot,screenshots,.screens,_screens,.screenshots,_screenshot",
+                "name": "screens",
+                "folderColor": "009688",
+                "iconColor": "b2dfdb",
+                "priority": "100",
+                "iconType": "FOLDER",
+                "pattern": "^[\\._]?(screens?|screenshots?)$",
+                "icon": "/screens.svg"
+              },
               {
                 "folderNames": "script,scripts,selector,selectors,.script,_scripts,_selectors,.selectors,polyfill,.polyfills",
                 "name": "scripts",
@@ -1912,16 +1912,16 @@
                 "pattern": "^[\\._]?(scripts?|selectors?|polyfills?)$",
                 "icon": "/scripts.svg"
               },
-				{
-					"folderNames": "secure,security,.secure,_security,_secure,.security",
-					"name": "security",
-					"folderColor": "f9a825",
-					"iconColor": "fff9c4",
-					"priority": "100",
-					"iconType": "FOLDER",
-					"pattern": "^[\\._]?(secure|security)$",
-					"icon": "/security.svg"
-				},
+              {
+                "folderNames": "secure,security,.secure,_security,_secure,.security",
+                "name": "security",
+                "folderColor": "f9a825",
+                "iconColor": "fff9c4",
+                "priority": "100",
+                "iconType": "FOLDER",
+                "pattern": "^[\\._]?(secure|security)$",
+                "icon": "/security.svg"
+              },
 				{
 					"folderNames": "server,http,request,requests,staging,qa,backend,_server,.server,.http,_request,.requests,_staging,_qa,.backend,_backend",
 					"name": "server",
@@ -1952,16 +1952,16 @@
 					"pattern": "^[\\._]?(shared|common)$",
 					"icon": "/shared.svg"
 				},
-				{
-					"folderNames": "src,source,sources,code,buildSrc,.src,_src,_source,.sources,.code,_code,.buildSrc",
-					"name": "sources",
-					"folderColor": "5C6BC0",
-					"iconColor": "89ddff",
-					"priority": "100",
-					"iconType": "FOLDER",
-					"pattern": "^[\\._]?(src|sources?|code|buildSrc)$",
-					"icon": "/src.svg"
-				},
+              {
+                "folderNames": "src,source,sources,code,buildSrc,.src,_src,_source,.sources,.code,_code,.buildSrc",
+                "name": "sources",
+                "folderColor": "5C6BC0",
+                "iconColor": "89ddff",
+                "priority": "100",
+                "iconType": "FOLDER",
+                "pattern": "^[\\._]?(src|sources?|code|buildSrc)$",
+                "icon": "/src.svg"
+              },
               {
                 "folderNames": "sql,mysql,pgsql,maria,.sql,_sql,_mysql,.pgsql,.maria,_mariadb,query,queries",
                 "name": "sql",
@@ -1972,36 +1972,36 @@
                 "pattern": "^[\\._]?(sql|mysql|pgsql|maria(db)?|query|queries)$",
                 "icon": "/sql.svg"
               },
+              {
+                "folderNames": "sso.sso,_sso",
+                "name": "sso",
+                "folderColor": "26A69A",
+                "iconColor": "B2DFDB",
+                "priority": "100",
+                "iconType": "FOLDER",
+                "pattern": "^[\\._]?sso$",
+                "icon": "/sso.svg"
+              },
 				{
-					"folderNames": "sso.sso,_sso",
-					"name": "sso",
-					"folderColor": "26A69A",
-					"iconColor": "B2DFDB",
-					"priority": "100",
-					"iconType": "FOLDER",
-					"pattern": "^[\\._]?sso$",
-					"icon": "/sso.svg"
-				},
-				{
-					"folderNames": "stack,stacks,structure,structures,_stack,.stacks,.structures,_structure",
-					"name": "stack",
-					"folderColor": "FFA726",
-					"iconColor": "ffe0b2",
-					"priority": "100",
-					"iconType": "FOLDER",
-					"pattern": "^[\\._]?(structures?|stacks?)$",
-					"icon": "/stack.svg"
-				},
-				{
-                  "folderNames": "stencil,.stencil,_stencil",
-                  "name": "stencil",
-                  "folderColor": "9C27B0",
-                  "iconColor": "C792EA",
+                  "folderNames": "stack,stacks,structure,structures,_stack,.stacks,.structures,_structure",
+                  "name": "stack",
+                  "folderColor": "FFA726",
+                  "iconColor": "ffe0b2",
                   "priority": "100",
                   "iconType": "FOLDER",
-                  "pattern": "^[\\._]?stencil$",
-                  "icon": "/stencil.svg"
+                  "pattern": "^[\\._]?(structures?|stacks?)$",
+                  "icon": "/stack.svg"
                 },
+              {
+                "folderNames": "stencil,.stencil,_stencil",
+                "name": "stencil",
+                "folderColor": "9C27B0",
+                "iconColor": "C792EA",
+                "priority": "100",
+                "iconType": "FOLDER",
+                "pattern": "^[\\._]?stencil$",
+                "icon": "/stencil.svg"
+              },
               {
                 "folderNames": "storage,storages,_storage,.storage,packet,packets,_packets,bucket,buckets,.bucket",
                 "name": "storage",
@@ -2043,25 +2043,25 @@
                 "icon": "/styles.svg"
               },
               {
-					"folderNames": "styl,stylus,.styl,_styl,_stylus,.stylus",
-					"name": "stylus",
-					"folderColor": "AFB42B",
-					"iconColor": "f0f4c3",
-					"priority": "100",
-					"iconType": "FOLDER",
-					"pattern": "^[\\._]?(styl|stylus)$",
-					"icon": "/stylus.svg"
-				},
-				{
-                  "folderNames": ".sublime,.sublime,_sublime",
-                  "name": "sublime",
-                  "folderColor": "616161",
-                  "iconColor": "FFA726",
-                  "priority": "100",
-                  "iconType": "FOLDER",
-                  "pattern": "^[\\._]?sublime$",
-                  "icon": "/sublime.svg"
-                },
+                "folderNames": "styl,stylus,.styl,_styl,_stylus,.stylus",
+                "name": "stylus",
+                "folderColor": "AFB42B",
+                "iconColor": "f0f4c3",
+                "priority": "100",
+                "iconType": "FOLDER",
+                "pattern": "^[\\._]?(styl|stylus)$",
+                "icon": "/stylus.svg"
+              },
+              {
+                "folderNames": ".sublime,.sublime,_sublime",
+                "name": "sublime",
+                "folderColor": "616161",
+                "iconColor": "FFA726",
+                "priority": "100",
+                "iconType": "FOLDER",
+                "pattern": "^[\\._]?sublime$",
+                "icon": "/sublime.svg"
+              },
               {
                 "folderNames": ".supabase,supabase,_supabase",
                 "name": "supabase",
@@ -2083,16 +2083,16 @@
                 "icon": "/svelte.svg"
               },
               {
-					"folderNames": "svg,svgs,svgicon,svgicons,graphic,graphics,.svg,_svg,_svgicons,.graphics,_graphic",
-					"name": "svg",
-					"folderColor": "ffb300",
-					"iconColor": "fff9c4",
-					"priority": "100",
-					"iconType": "FOLDER",
-					"pattern": "^[\\._]?(svgs?|svgicons?|graphics?)$",
-					"icon": "/svg.svg"
-				},
-				{
+                "folderNames": "svg,svgs,svgicon,svgicons,graphic,graphics,.svg,_svg,_svgicons,.graphics,_graphic",
+                "name": "svg",
+                "folderColor": "ffb300",
+                "iconColor": "fff9c4",
+                "priority": "100",
+                "iconType": "FOLDER",
+                "pattern": "^[\\._]?(svgs?|svgicons?|graphics?)$",
+                "icon": "/svg.svg"
+              },
+              {
 					"folderNames": ".svn",
 					"name": "svn",
 					"folderColor": "5C6BC0",
@@ -2112,16 +2112,16 @@
 					"pattern": "^[\\._]?(sync|synced)$",
 					"icon": "/sync.svg"
 				},
-				{
-					"folderNames": "syntax,syntaxes,spellcheck,.syntax,_syntax,_syntaxes,.spellcheck,_spellcheck",
-					"name": "syntax",
-					"folderColor": "ef5350",
-					"iconColor": "FFCDD2",
-					"priority": "100",
-					"iconType": "FOLDER",
-					"pattern": "^[\\._]?(syntax|syntaxes|spellcheck)$",
-					"icon": "/syntax.svg"
-				},
+              {
+                "folderNames": "syntax,syntaxes,spellcheck,.syntax,_syntax,_syntaxes,.spellcheck,_spellcheck",
+                "name": "syntax",
+                "folderColor": "ef5350",
+                "iconColor": "FFCDD2",
+                "priority": "100",
+                "iconType": "FOLDER",
+                "pattern": "^[\\._]?(syntax|syntaxes|spellcheck)$",
+                "icon": "/syntax.svg"
+              },
               {
                 "folderNames": "cli,task,tasks,command,commands,cmd,console,consoles,.run,.cli,.tasks,_commands,_cli,_consoles,.command,workflows,.workflows,_workflow",
                 "name": "tasks",
@@ -2132,16 +2132,16 @@
                 "pattern": "^[\\._]?(cli|tasks?|commands?|cmd|consoles?|.run|workflows?)$",
                 "icon": "/tasks.svg"
               },
-				{
-					"folderNames": "tech,.tech,technology,_technology,technologies,.technologies",
-					"name": "tech",
-					"folderColor": "8a2be2",
-					"iconColor": "c695f9",
-					"priority": "100",
-					"iconType": "FOLDER",
-					"pattern": "^[\\._]?(tech(nology|nologies)?)$",
-					"icon": "/tech.svg"
-				},
+              {
+                "folderNames": "tech,.tech,technology,_technology,technologies,.technologies",
+                "name": "tech",
+                "folderColor": "8a2be2",
+                "iconColor": "c695f9",
+                "priority": "100",
+                "iconType": "FOLDER",
+                "pattern": "^[\\._]?(tech(nology|nologies)?)$",
+                "icon": "/tech.svg"
+              },
 				{
 					"folderNames": "tmp,.tmp,temp,.temp,cache,.cache,_tmp,_cache,_temp",
 					"name": "temp",
@@ -2373,25 +2373,25 @@
 					"icon": "/web.svg"
 				},
 				{
-					"folderNames": "webpack,.webpack,_webpack",
-					"name": "webpack",
-					"folderColor": "03a9f4",
-					"iconColor": "8ed6fb",
-					"priority": "100",
-					"iconType": "FOLDER",
-					"pattern": "^[\\._]?webpack$",
-					"icon": "/webpack.svg"
-				},
-				{
-                  "folderNames": ".wine",
-                  "name": "wine",
-                  "folderColor": "93254A",
-                  "iconColor": "F13C6F",
+                  "folderNames": "webpack,.webpack,_webpack",
+                  "name": "webpack",
+                  "folderColor": "03a9f4",
+                  "iconColor": "8ed6fb",
                   "priority": "100",
                   "iconType": "FOLDER",
-                  "pattern": "^\\.wine$",
-                  "icon": "/wine.svg"
+                  "pattern": "^[\\._]?webpack$",
+                  "icon": "/webpack.svg"
                 },
+              {
+                "folderNames": ".wine",
+                "name": "wine",
+                "folderColor": "93254A",
+                "iconColor": "F13C6F",
+                "priority": "100",
+                "iconType": "FOLDER",
+                "pattern": "^\\.wine$",
+                "icon": "/wine.svg"
+              },
               {
                 "folderNames": "woocommerce,.woocommerce,_woocommerce",
                 "name": "woocommerce",
