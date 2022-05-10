@@ -25,6 +25,7 @@
   -->
 
 <svg big="true" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" fill-rule="evenodd" clip-rule="evenodd"
+     width="16px" height="16px"
      stroke-linejoin="round" stroke-miterlimit="2">
     <g fill="#00a672">
         <path d="M22 12c0-5.519-4.481-10-10-10S2 6.481 2 12s4.481 10 10 10 10-4.481 10-10z" />
