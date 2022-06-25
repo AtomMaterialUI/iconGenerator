@@ -25,7 +25,7 @@
   -->
 
 <svg big="true" width="16px" height="16px" viewBox="0 0 200 200" version="1.1" xmlns="http://www.w3.org/2000/svg"
-     fill="#58cf9d">
+     fill="#58cf9d" iconColor="Cypress">
     <defs>
         <mask id="Mask">
             <circle cx="90" cy="90" r="86" fill="white"></circle>
