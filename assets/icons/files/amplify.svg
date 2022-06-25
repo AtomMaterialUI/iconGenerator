@@ -22,7 +22,8 @@
   -  SOFTWARE.
   -->
 
-<svg big="true" width="16px" height="16px" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" fill="#FFAF38">
+<svg big="true" width="16px" height="16px" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" fill="#FFAF38"
+     iconColor="Amplify">
     <path fill-rule="evenodd" clip-rule="evenodd"
           d="M6.01283 12.467L7.69447 9.55513L9.13826 12.0569L6.32436 16.9293H11.9501L13.3879 19.4206H2L6.01283 12.467ZM8.45324 8.23829L9.83948 5.83628L17.6848 19.4206H14.9065L8.45324 8.23829ZM10.6111 4.5H13.3857L22 19.4206H19.2219L10.6111 4.5Z"
     />

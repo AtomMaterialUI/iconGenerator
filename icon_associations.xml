@@ -432,7 +432,7 @@
                iconType="FILE"
                pattern="^AndroidManifest\.xml$"
                url="https://developer.android.com/"
-               icon="/icons/files/android.svg"/>
+               icon="/icons/files/androidManifest.svg"/>
         <regex fileNames="MainActivity.java"
                name="Android Main"
                iconColor="6AAB20"
@@ -443,12 +443,12 @@
                icon="/icons/files/android.svg"/>
         <regex fileNames="*.smali,*.rsh,*.webarchivexml"
                name="Android Smali"
-               iconColor="6AAB20"
+               iconColor="FFB74D"
                priority="100"
                iconType="FILE"
                pattern=".*\.(smali|rsh|webarchivexml)$"
                url="https://developer.android.com/"
-               icon="/icons/files/android.svg"/>
+               icon="/icons/files/androidSmali.svg"/>
         <regex fileNames="*.acs,*.angelscript"
                name="AngelScript"
                iconColor="F06292"
@@ -464,7 +464,7 @@
                iconType="FILE"
                pattern="^\.?angular(-cli)?\.json$"
                url="https://angular.io/"
-               icon="/icons/files/angular.svg"/>
+               icon="/icons/files/angularCli.svg"/>
         <regex fileNames="angular.js,angular.min.js"
                name="AngularJS"
                iconColor="E53935"
@@ -472,7 +472,7 @@
                iconType="FILE"
                pattern="^angular\.(min\.)?js$"
                url="https://angularjs.org/"
-               icon="/icons/files/angular.svg"/>
+               icon="/icons/files/angularjs.svg"/>
         <regex fileNames="*.ng.html,*.ng.js,*.ng-template"
                name="Angular"
                iconColor="E53935"
@@ -555,7 +555,7 @@
                icon="/icons/files/angularservice.svg"/>
         <regex fileNames="*.page.js,*.page.ts,*.page.dart"
                name="Angular Page Ionic"
-               iconColor="F06292"
+               iconColor="82AAFF"
                priority="100"
                iconType="FILE"
                pattern=".*\.page\.(dart|[tj]s)$"
@@ -576,7 +576,7 @@
                iconType="FILE"
                pattern="^app-routing\.module\.(dart|[tj]s)$"
                url="https://angular.io/"
-               icon="/icons/files/angularrouting.svg"/>
+               icon="/icons/files/angularapprouting.svg"/>
         <regex fileNames="*.resolver.js,*.resolver.ts,*.resolver.dart"
                name="Angular Resolver"
                iconColor="43A047"
@@ -592,7 +592,7 @@
                priority="100"
                iconType="FILE"
                pattern="^.*\.?ng-tailwind\.(dart|[tj]s)$"
-               icon="/icons/files/tailwindcss.svg"/>
+               icon="/icons/files/angulartailwind.svg"/>
         <regex fileNames="*.anime,*.animestudio"
                name="Anime Studio"
                priority="100"
@@ -648,7 +648,7 @@
                iconType="FILE"
                pattern="^(apache2?|httpd).*\.conf$"
                url="https://httpd.apache.org/docs/2.4/configuring.html"
-               icon="/icons/files/apache.svg"/>
+               icon="/icons/files/apacheconf.svg"/>
         <regex fileNames=".apacheconf"
                name="Apache Conf-"
                iconColor="F44336"
@@ -656,7 +656,7 @@
                iconType="FILE"
                pattern="^\.apacheconf$"
                url="https://httpd.apache.org/docs/2.4/configuring.html"
-               icon="/icons/files/apache.svg"/>
+               icon="/icons/files/apacheconf.svg"/>
         <regex fileNames="*.vhost,*.thrift"
                name="Apache"
                iconColor="F44336"
@@ -691,12 +691,12 @@
                icon="/icons/files/apiextractor.svg"/>
         <regex fileNames="*.apk"
                name="APK"
-               iconColor="6AAB20"
+               iconColor="90A4AE"
                priority="100"
                iconType="FILE"
                pattern=".*\.apk$"
                url="https://en.wikipedia.org/wiki/Android_application_package"
-               icon="/icons/files/android.svg"/>
+               icon="/icons/files/apk.svg"/>
         <regex fileNames="*.apl,*.apla,*.aplc,*.aplf,*.apli,*.apln,*.aplo"
                name="APL"
                iconColor="4DD0E1"
@@ -768,7 +768,7 @@
                iconType="FILE"
                pattern="(pacman\.conf|pamac\.conf)$"
                url="https://archlinux.org/"
-               icon="/icons/files/archlinux.svg"/>
+               icon="/icons/files/pacman.svg"/>
         <regex fileNames="*.ino"
                name="Arduino"
                iconColor="00979c"
@@ -864,12 +864,12 @@
                icon="/icons/files/astro.svg"/>
         <regex fileNames="astro.config.js,astro.config.ts"
                name="Astro Config"
-               iconColor="6c1cd6"
+               iconColor="9575CD"
                priority="100"
                iconType="FILE"
                pattern="^astro\.config\.([cm]?js|ts)$"
                url="https://astro.build/"
-               icon="/icons/files/astro.svg"/>
+               icon="/icons/files/astroconfig.svg"/>
         <regex fileNames="artisan,artisan.php"
                name="Artisan"
                iconColor="f52d21"
@@ -877,7 +877,7 @@
                priority="100"
                iconType="FILE"
                pattern="artisan(\.php)?$"
-               icon="/icons/files/laravel.svg"/>
+               icon="/icons/files/artisan.svg"/>
         <regex fileNames=".astylerc"
                name="Artistic Style"
                iconColor="42A5F5"
@@ -963,7 +963,7 @@
                priority="100"
                iconType="FILE"
                pattern="\.all-?contributorsrc$"
-               icon="/icons/files/authors.svg"/>
+               icon="/icons/files/contributors.svg"/>
         <regex fileNames="*.ahk,*.ahkl"
                name="AutoHotKey"
                iconColor="6AAB20"
@@ -1030,12 +1030,12 @@
                icon="/icons/files/azure.svg"/>
         <regex fileNames="azure-pipelines.yml"
                name="Azure Pipelines"
-               iconColor="64b5f6"
+               iconColor="4DD0E1"
                url="https://azure.microsoft.com/en-us/services/devops/pipelines/"
                priority="100"
                iconType="FILE"
                pattern="^azure-pipelines\.ya?ml$"
-               icon="/icons/files/azure.svg"/>
+               icon="/icons/files/azurepipelines.svg"/>
         <!--endregion-->
 
         <!--region B -->
