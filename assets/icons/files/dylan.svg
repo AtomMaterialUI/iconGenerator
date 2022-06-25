@@ -24,25 +24,39 @@
   -
   -->
 
-<svg big="true" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32">
-    <g fill="#f24b08">
-        <rect x="16" y="9" width="7" height="7" />
-        <rect x="23" y="2" width="7" height="7" />
-        <rect x="2" y="23" width="7" height="7" />
-        <rect x="9" y="16" width="7" height="7" />
-        <rect x="16" y="23" width="7" height="7" />
-        <rect x="23" y="16" width="7" height="7" />
-        <rect x="2" y="9" width="7" height="7" />
-        <rect x="9" y="2" width="7" height="7" />
+<svg big="true" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32" width="16px" height="16px">
+    <defs>
+        <mask id="Mask">
+            <g fill="#000">
+                <rect x="9" y="23" width="7" height="7"/>
+                <rect x="2" y="16" width="7" height="7"/>
+                <rect x="23" y="9" width="7" height="7"/>
+                <rect x="16" y="2" width="7" height="7"/>
+                <rect x="23" y="23" width="7" height="7"/>
+                <rect x="16" y="16" width="7" height="7"/>
+                <rect x="9" y="9" width="7" height="7"/>
+                <rect x="2" y="2" width="7" height="7"/>
+            </g>
+        </mask>
+    </defs>
+    <g fill="#f24b08" iconColor="Dylan">
+        <rect x="16" y="9" width="7" height="7"/>
+        <rect x="23" y="2" width="7" height="7"/>
+        <rect x="2" y="23" width="7" height="7"/>
+        <rect x="9" y="16" width="7" height="7"/>
+        <rect x="16" y="23" width="7" height="7"/>
+        <rect x="23" y="16" width="7" height="7"/>
+        <rect x="2" y="9" width="7" height="7"/>
+        <rect x="9" y="2" width="7" height="7"/>
     </g>
-    <g fill="#2c8e9a">
-        <rect x="9" y="23" width="7" height="7" />
-        <rect x="2" y="16" width="7" height="7" />
-        <rect x="23" y="9" width="7" height="7" />
-        <rect x="16" y="2" width="7" height="7" />
-        <rect x="23" y="23" width="7" height="7" />
-        <rect x="16" y="16" width="7" height="7" />
-        <rect x="9" y="9" width="7" height="7" />
-        <rect x="2" y="2" width="7" height="7" />
+    <g mask="url(#Mask)">
+        <rect x="9" y="23" width="7" height="7"/>
+        <rect x="2" y="16" width="7" height="7"/>
+        <rect x="23" y="9" width="7" height="7"/>
+        <rect x="16" y="2" width="7" height="7"/>
+        <rect x="23" y="23" width="7" height="7"/>
+        <rect x="16" y="16" width="7" height="7"/>
+        <rect x="9" y="9" width="7" height="7"/>
+        <rect x="2" y="2" width="7" height="7"/>
     </g>
 </svg>
