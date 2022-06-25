@@ -1049,12 +1049,12 @@
                icon="/icons/files/babel.svg"/>
         <regex fileNames="babel.json,babel.config.json,babel.config.js,babel.config.mjs,babel.config.cjs"
                name="Babel Config"
-               iconColor="F59F29"
+               iconColor="FF7043"
                url="https://babeljs.io/"
                priority="100"
                iconType="FILE"
                pattern="^babel(\.[\w\-]+)?\.[cm]?js(on)?$"
-               icon="/icons/files/babel.svg"/>
+               icon="/icons/files/babelconfig.svg"/>
         <regex fileNames="baboon.json,baboon.config.json,baboon.config.js,baboon.config.mjs,baboon.config.cjs"
                name="Baboon"
                iconColor="917053"
@@ -1101,7 +1101,7 @@
                priority="100"
                iconType="FILE"
                pattern=".*\.(bas|vb|vbs)$"
-               icon="/icons/files/vs.svg"/>
+               icon="/icons/files/basic.svg"/>
         <regex fileNames="*.bats"
                name="Bats"
                iconColor="3d3d3d"
@@ -1141,7 +1141,7 @@
                priority="100"
                iconType="FILE"
                pattern="(\.bazelrc|bazel\.rc)$"
-               icon="/icons/files/bazel.svg"/>
+               icon="/icons/files/bazelconfig.svg"/>
         <regex fileNames="*.bc,*.dc,.dcrc"
                name="BC"
                iconColor="2f89ab"
@@ -1168,12 +1168,12 @@
                icon="/icons/files/behat.svg"/>
         <regex fileNames="behat.yml,behat.config.yml"
                name="Behat Config"
-               iconColor="39ADB5"
+               iconColor="42A5F5"
                url="https://docs.behat.org/en/latest/"
                priority="100"
                iconType="FILE"
                pattern="behat(\..*)*\.ya?ml$"
-               icon="/icons/files/behat.svg"/>
+               icon="/icons/files/behatconfig.svg"/>
         <regex fileNames=".bemjson,.bemjson.js"
                name="BEM"
                iconColor="A1887F"
@@ -1341,7 +1341,7 @@
                priority="100"
                iconType="FILE"
                pattern="^\.bootstraprc$"
-               icon="/icons/files/bootstrap.svg"/>
+               icon="/icons/files/bootstraprc.svg"/>
         <regex fileNames="*.bsq"
                name="Bosque"
                iconColor="6da843"
@@ -1384,7 +1384,7 @@
                icon="/icons/files/brakeman.svg"/>
         <regex fileNames="Brewfile"
                name="Brewfile"
-               iconColor="8D6E63"
+               iconColor="FFB74D"
                url="https://brew.sh/"
                priority="100"
                iconType="FILE"
