@@ -24,7 +24,7 @@
   ~
   -->
 
-<!--suppress LongLine -->
+<!--suppress ALL -->
 <associations>
     <associations>
         <type name="Database"
@@ -40,42 +40,42 @@
                priority="1000"
                iconType="FILE"
                pattern="(main|workflow|ci|release|build|config)\.ya?ml$"
-               iconColor="78909C"
-               icon="/icons/files/github.svg"/>
+               iconColor="497CE3"
+               icon="/icons/files/githubActions.svg"/>
         <regex fileNames="CODE_OF_CONDUCT.md,CODE_OF_CONDUCT.txt"
                name="Github CODE"
                priority="1000"
                iconType="FILE"
                pattern="^CODE_OF_CONDUCT\.(md|txt)$"
-               iconColor="78909C"
-               icon="/icons/files/github.svg"/>
+               iconColor="FFEE58"
+               icon="/icons/files/githubCode.svg"/>
         <regex fileNames="CONTRIBUTING.md,CONTRIBUTING.txt"
                name="Github CONTRIBUTING"
                priority="1000"
                iconType="FILE"
                pattern="^CONTRIBUTING\.(md|txt)$"
-               iconColor="78909C"
-               icon="/icons/files/github.svg"/>
+               iconColor="d92f3c"
+               icon="/icons/files/githubContributing.svg"/>
         <regex fileNames="COMMIT_MESSAGE_CONVENTION.md"
                name="Github COMMIT"
                priority="1000"
                iconType="FILE"
                pattern="^COMMIT_MESSAGE_CONVENTION\.(md|txt)$"
-               iconColor="78909C"
-               icon="/icons/files/github.svg"/>
+               iconColor="f3961a"
+               icon="/icons/files/githubCommit.svg"/>
         <regex fileNames="TEMPLATE.md,TEMPLATE.txt"
                name="Github TEMPLATE"
                priority="1000"
                iconType="FILE"
                pattern=".*TEMPLATE\.(md|txt)$"
-               iconColor="78909C"
+               iconColor="46ab6c"
                icon="/icons/files/github.svg"/>
         <regex fileNames="README.md,README.txt"
                name="README"
                priority="1000"
                iconType="FILE"
                pattern="^(README|readme)(\.(md|txt))?$"
-               iconColor="78909C"
+               iconColor="E4E5E6"
                icon="/icons/files/readme.svg"/>
         <regex fileNames="COMMIT_EDITMSG, ATOM_COMMIT_EDITMSG"
                name="Git Commit Message"
@@ -124,8 +124,8 @@
                priority="1000"
                iconType="FILE"
                pattern=".*[bB]undle\.properties$"
-               iconColor="7986cb"
-               icon="/icons/files/i18n.svg"/>
+               iconColor="00ACC1"
+               icon="/icons/files/i18nProperties.svg"/>
         <regex fileNames="MaterialThemeBundle.java"
                name="Java Bundles"
                priority="1000"
