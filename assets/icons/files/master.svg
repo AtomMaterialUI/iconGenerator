@@ -23,7 +23,7 @@
   -->
 
 <svg big="true" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="16px" height="16px"
-     viewBox="0 0 264 140" fill="#e6a345">
+     viewBox="0 0 264 140" fill="#e6a345" iconColor="Master UI">
     <g>
         <path d="M627.515,186.018c-6.912-12.234-12.726-14.051-18.394-14.051-8.322,0-14.105,7.694-17.8,14.522L576.555,216.8l4.021,6.6a55.07,55.07,0,0,0,74.1,23.251l3.836-2Z"
               transform="translate(-394.275 -109.401)"/>

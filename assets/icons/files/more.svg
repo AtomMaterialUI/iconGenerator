@@ -24,7 +24,7 @@
   -
   -->
 
-<svg big="true" version="1.1" viewBox="0 0 24 24" width="16px" height="16px" xmlns="http://www.w3.org/2000/svg">
-    <path fill="#ffca28" iconColor="Nim"
-          d="m4.3831 15.808-2.1763-11.969 5.9847 7.6169 3.8085-7.6169 3.8085 7.6169 5.9847-7.6169-2.1763 11.969h-15.234m15.234 3.2644a1.0881 1.0881 0 0 1 -1.0881 1.0881h-13.058a1.0881 1.0881 0 0 1 -1.0881 -1.0881v-1.0881h15.234z"/>
+<svg big="true" xmlns="http://www.w3.org/2000/svg" version="1.1" width="16px" height="16px" viewBox="0 0 24 24">
+    <path fill="#7A8387" iconColor="More"
+          d="M13,9H18.5L13,3.5V9M6,2H14L20,8V20A2,2 0 0,1 18,22H6C4.89,22 4,21.1 4,20V4C4,2.89 4.89,2 6,2M15,18V16H6V18H15M18,14V12H6V14H18Z"/>
 </svg>

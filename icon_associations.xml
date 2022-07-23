@@ -4396,7 +4396,7 @@
                name="i18n Languages"
                iconColor="7986cb"
                url="https://en.wikipedia.org/wiki/Internationalization_and_localization"
-               priority="100"
+               priority="90"
                iconType="FILE"
                pattern="^[a-zA-Z]{2}(_[a-zA-Z]{2})*\.(js|ts|json|ya?ml)$"
                icon="/icons/files/i18nlang.svg"/>
@@ -5434,8 +5434,8 @@
                url="https://www.gnu.org/software/make/manual/make.html"
                priority="100"
                iconType="FILE"
-               pattern=".*(mk|mak|make|mmk|mms|am|bb)$"
-               icon="/icons/files/makefile.svg"/>
+               pattern=".*\.(mk|mak|make|mmk|mms|am|bb)$"
+               icon="/icons/files/make.svg"/>
         <regex fileNames="*.mako,*.mao"
                name="Mako"
                iconColor="0064A6"
@@ -5915,7 +5915,7 @@
                priority="100"
                iconType="FILE"
                pattern=".*\.(more|msg|utf8)$"
-               icon="/icons/files/log.svg"/>
+               icon="/icons/files/more.svg"/>
         <regex fileNames="*.mrb"
                name="mRuby"
                iconColor="c32d00"
@@ -6097,12 +6097,12 @@
                icon="/icons/files/nest.svg"/>
         <regex fileNames=".nestconfig.json,nestconfig.json"
                name="Nest Config"
-               iconColor="ea2845"
+               iconColor="BDBDBD"
                url="https://nestjs.com/"
                priority="100"
                iconType="FILE"
                pattern="\.?nestconfig\.json"
-               icon="/icons/files/nest.svg"/>
+               icon="/icons/files/nestconfig.svg"/>
         <regex fileNames="*.adapter.js,*.adapter.ts"
                name="Nest Adapter"
                iconColor="78909C"
@@ -6113,7 +6113,7 @@
                icon="/icons/files/nestadapter.svg"/>
         <regex fileNames="*.controller.js,*.controller.ts"
                name="Nest Controller"
-               iconColor="EC407A"
+               iconColor="03A9F4"
                url="https://nestjs.com/"
                priority="100"
                iconType="FILE"
@@ -6192,7 +6192,7 @@
                pattern=".*\.pipe\.[tj]s$"
                icon="/icons/files/nestpipe.svg"/>
         <regex fileNames="*.provider.js,*.provider.ts"
-               name="Nest Pipe"
+               name="Nest Provider"
                iconColor="757575"
                url="https://nestjs.com/"
                priority="100"
@@ -6200,7 +6200,7 @@
                pattern=".*\.provider\.[tj]s$"
                icon="/icons/files/nestprovider.svg"/>
         <regex fileNames="*.schema.js,*.schema.ts"
-               name="Nest Strategy"
+               name="Nest Schema"
                iconColor="81C784"
                url="https://nestjs.com/"
                priority="100"
@@ -6281,12 +6281,12 @@
                icon="/icons/files/nextflow.svg"/>
         <regex fileNames="nextflow.config.js"
                name="NextFlow Config"
-               iconColor="34ae61"
+               iconColor="8D6E63"
                url="https://www.nextflow.io/"
                priority="100"
                iconType="FILE"
                pattern="^nextflow\.config\.[cm]?js$"
-               icon="/icons/files/nextflow.svg"/>
+               icon="/icons/files/nextflowconfig.svg"/>
         <regex fileNames="next.config.js,next.config.mjs,next.config.cjs"
                name="Next JS"
                iconColor="90A4AE"
@@ -6438,7 +6438,7 @@
                priority="100"
                iconType="FILE"
                pattern=".*\.(node(-version)?|njs)$"
-               icon="/icons/files/nodejs.svg"/>
+               icon="/icons/files/nodeversion.svg"/>
         <regex fileNames="nodemon.json,.nodemon.json"
                name="Nodemon"
                iconColor="D52A29"
@@ -6605,7 +6605,7 @@
                priority="100"
                iconType="FILE"
                pattern="nuget\.config$"
-               icon="/icons/files/nuget.svg"/>
+               icon="/icons/files/nugetconfig.svg"/>
         <regex fileNames="*.njk,*.nunjucks,*.nunj"
                name="Nunjucks"
                iconColor="388E3C"
@@ -6624,12 +6624,12 @@
                icon="/icons/files/nuxt.svg"/>
         <regex fileNames="*.nvmrc,*.esmrc"
                name="NVM"
-               iconColor="73B923"
+               iconColor="f4dd4b"
                url="https://github.com/nvm-sh/nvm"
                priority="100"
                iconType="FILE"
                pattern=".*\.(nvmrc|esmrc)$"
-               icon="/icons/files/nodejs.svg"/>
+               icon="/icons/files/nvm.svg"/>
         <regex fileNames="*.nss,*.ncs,*.ndb"
                name="NWScript"
                iconColor="a2a8f6"
@@ -6643,7 +6643,7 @@
                iconColor="143157"
                priority="100"
                iconType="FILE"
-               pattern="^nx\.json$"
+               pattern="^(nx|workspace|project)\.json$"
                url="https://nx.dev/"
                icon="/icons/files/nx.svg"/>
         <regex fileNames="*.nxc"
