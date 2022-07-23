@@ -6832,7 +6832,7 @@
                iconType="FILE"
                pattern=".*\.(frag?|fp|fsh|fshader)$"
                url="https://www.khronos.org/opengl/wiki/Fragment_Shader"
-               icon="/icons/files/opengl.svg"/>
+               icon="/icons/files/shader.svg"/>
         <regex fileNames="*.things"
                name="OpenHAB"
                iconColor="e64a19"
@@ -7091,7 +7091,7 @@
                priority="100"
                iconType="FILE"
                pattern="^perl[56]?-?config\.json$"
-               icon="/icons/files/perl.svg"/>
+               icon="/icons/files/perlconfig.svg"/>
         <regex fileNames=".p4"
                name="Perforce Helix"
                iconColor="00aeef"
@@ -7267,7 +7267,7 @@
                priority="100"
                iconType="FILE"
                pattern="^playwright\.config\.([cm]?js|ts)$"
-               icon="/icons/files/platformio.svg"/>
+               icon="/icons/files/playwright.svg"/>
         <regex fileNames="*.plist"
                name="PList"
                iconColor="2AA3C1"
@@ -7307,7 +7307,7 @@
                priority="100"
                iconType="FILE"
                pattern="^pnpmfile\.[cm]?js"
-               icon="/icons/files/pnpm.svg"/>
+               icon="/icons/files/pnpmfile.svg"/>
         <regex fileNames="*.pod,*.pod6,*.p6l,*.nqp"
                name="Pod"
                iconColor="90A4AE"
@@ -7339,7 +7339,7 @@
                priority="100"
                iconType="FILE"
                pattern="^polymer\.json$"
-               icon="/icons/files/polymer.svg"/>
+               icon="/icons/files/polymerconf.svg"/>
         <regex fileNames="*.polymer"
                name="Polymer"
                iconColor="ff4081"
@@ -7459,7 +7459,7 @@
                priority="100"
                iconType="FILE"
                pattern="^prettier\.config\.[cm]?js$"
-               icon="/icons/files/prettier.svg"/>
+               icon="/icons/files/prettierconfig.svg"/>
         <regex fileNames=".prettierignore"
                name="Prettier Ignore"
                iconColor="808080"
@@ -7475,7 +7475,7 @@
                priority="100"
                iconType="FILE"
                pattern="prisma\.yml"
-               icon="/icons/files/prisma.svg"/>
+               icon="/icons/files/prismaconfig.svg"/>
         <regex fileNames="*.prisma"
                name="Prisma"
                iconColor="00bfa5"
@@ -7683,7 +7683,7 @@
                priority="100"
                iconType="FILE"
                pattern="^\.python-?version$"
-               icon="/icons/files/pythonconfig.svg"/>
+               icon="/icons/files/pythonversion.svg"/>
         <regex fileNames=".pyup.yml,.pyup.yaml"
                name="PyUp"
                iconColor="15aac7"
