@@ -1,6 +1,6 @@
 <svg big="true" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1"
      viewBox="450 -60 600 600" width="16px" height="16px"
-     xml:space="preserve" fill="#90CAF9">
+     xml:space="preserve" fill="#90CAF9" iconColor="Liquibase Properties">
     <g>
         <ellipse class="st0" cx="750.3" cy="72.6" rx="180.9" ry="72.6"></ellipse>
         <path d="M754.4,391.3C696.6,405.1,637,419.4,599,444.6c-19-11.8-29.7-25.4-29.7-38.4c0-57.4,95.9-79.1,188.6-100.1 c66.8-15.1,135-30.6,173.2-61.7v50.6C931.2,348.9,841.3,370.5,754.4,391.3z"></path>
