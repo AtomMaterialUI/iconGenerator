@@ -2375,7 +2375,7 @@
                priority="100"
                iconType="FILE"
                pattern=".*\.dnh$"
-               icon="/icons/files/yang.svg"/>
+               icon="/icons/files/danmakufu.svg"/>
         <regex fileNames="*.dal"
                name="Dal"
                iconColor="828282"
@@ -8138,6 +8138,14 @@
                iconType="FILE"
                pattern=".*([rR])educers?\.(js|ts)$"
                icon="/icons/files/redux-reducer.svg"/>
+        <regex fileNames="slice.js,slice.ts,mySlice.js,mySlices.js,my-slices.js"
+               name="Redux Slice"
+               iconColor="ba8fff"
+               url="https://redux-toolkit.js.org/"
+               priority="100"
+               iconType="FILE"
+               pattern=".*([sS])lices?\.(js|ts)$"
+               icon="/icons/files/redux-slice.svg"/>
         <regex fileNames="store.js,store.ts,myStore.js,myStores.js,my-stores.js"
                name="Redux Store"
                iconColor="26C6DA"
@@ -9799,7 +9807,7 @@
                priority="100"
                iconType="FILE"
                pattern=".unibeautifyrc(\.(ya?ml|json|[cm]?js))?$"
-               icon="/icons/files/unibeautify.svg"/>
+               icon="/icons/files/unibeautifyrc.svg"/>
         <regex fileNames="unibeautifyrc.config.js,unibeautify.config.json,unibeautify.config.yaml"
                name="Unibeautify Config"
                iconColor="57afed"
@@ -9823,7 +9831,7 @@
                pattern=".*\.uo[ftsp]$"
                iconColor="E79627"
                url="https://en.wikipedia.org/wiki/Uniform_Office_Format"
-               icon="/icons/files/openoffice.svg"/>
+               icon="/icons/files/uos.svg"/>
         <regex fileNames="unlicense,UNLICENSE,UNLICENCE.txt,unlicence.md"
                name="Unlicense"
                iconColor="808080"
@@ -10447,7 +10455,7 @@
                iconType="FILE"
                pattern=".*\.xcodeproj$"
                url="https://developer.apple.com/xcode/"
-               icon="/icons/files/appstore.svg"/>
+               icon="/icons/files/xcode.svg"/>
         <regex fileNames="*.xcplayground,*.xcworkspace,*.xcworkspacedata,*.xcplugindata,*.xcscheme,*.xcsettings,*.xcuserstate"
                name="XCode Files"
                iconColor="2196F3"
@@ -10463,7 +10471,7 @@
                iconType="FILE"
                pattern=".*\.mode\dv3$"
                url="https://github.com/nicklanasa/xcode-mode"
-               icon="/icons/files/appstore.svg"/>
+               icon="/icons/files/xcode.svg"/>
         <regex fileNames="*.xib"
                name="Xib"
                iconColor="AB7967"
@@ -10602,7 +10610,7 @@
                priority="100"
                iconType="FILE"
                pattern="^\.yarn(clean|-metadata|-integrity)$"
-               icon="/icons/files/yarn.svg"/>
+               icon="/icons/files/yarnclean.svg"/>
         <regex fileNames=".yardopts"
                name="Yard"
                iconColor="3aaae9"
@@ -10678,6 +10686,14 @@
                iconType="FILE"
                pattern="^now\.json$"
                icon="/icons/files/zeit.svg"/>
+        <regex fileNames="now.json"
+               name="Zeit Now Ignore"
+               iconColor="808080"
+               url="https://vercel.com/"
+               priority="100"
+               iconType="FILE"
+               pattern="^now\.json$"
+               icon="/icons/files/zeitignore.svg"/>
         <regex fileNames="*.zep,*.zephir"
                name="Zephir"
                iconColor="705499"
@@ -10741,7 +10757,7 @@
                priority="100"
                iconType="FILE"
                pattern="^.*\.zsrc\.json$"
-               icon="/icons/files/zenscript.svg"/>
+               icon="/icons/files/zsrc.svg"/>
         <!--endregion-->
 
         <!--region Images-->
