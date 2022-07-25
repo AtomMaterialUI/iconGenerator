@@ -2999,6 +2999,14 @@
                iconType="FILE"
                pattern=".*\.es$"
                icon="/icons/files/elastic.svg"/>
+        <regex fileNames="elasticsearch.yml"
+               name="ElasticSearch Config"
+               iconColor="26A2C1"
+               url="https://www.elastic.co/"
+               priority="100"
+               iconType="FILE"
+               pattern="^elasticsearch\.ya/ml$"
+               icon="/icons/files/elasticconf.svg"/>
         <regex fileNames="*.ex,*.eex,*.exs,*.elixir,*.leex,*.heex"
                name="Elixir"
                iconColor="C792EA"
