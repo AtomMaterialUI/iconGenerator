@@ -50,7 +50,7 @@
                priority="100"
                iconType="FOLDER"
                pattern="^[\._]?admins?$"
-               icon="/netlify.svg"/>
+               icon="/admin.svg"/>
         <regex folderNames=".agda,_agda,agda"
                name="Agda"
                folderColor="616161"
@@ -1259,7 +1259,7 @@
 
         <!--region N-->
         <regex folderNames=".netlify,netlify,_netlify"
-               name="netlify"
+               name="Netlify"
                folderColor="00ad9f"
                folderIconColor="b3e6e2"
                priority="100"
@@ -1267,7 +1267,7 @@
                pattern="^[\._]?netlify"
                icon="/netlify.svg"/>
         <regex folderNames="next,.next,_next"
-               name="next"
+               name="Next"
                folderColor="607D8B"
                folderIconColor="ECEFF1"
                priority="100"
@@ -1275,7 +1275,7 @@
                pattern="^[\._]?next$"
                icon="/next.svg"/>
         <regex folderNames="node_modules,.node_modules,_node_modules"
-               name="node_modules"
+               name="Node Modules"
                folderColor="8bc34a"
                folderIconColor="dcedc8"
                priority="100"
@@ -1283,7 +1283,7 @@
                pattern="^[\._]?node_modules$"
                icon="/node.svg"/>
         <regex folderNames="notif,notification,notifications,flash,.notif,_notifications,.flash,_flash"
-               name="notification"
+               name="Notifications"
                folderColor="00B0FF"
                folderIconColor="B3E5FC"
                priority="100"
@@ -1291,7 +1291,7 @@
                pattern="[\._]?(notif|notifications?|flash)"
                icon="/notification.svg"/>
         <regex folderNames="nuget,.nuget,_nuget"
-               name="nuget"
+               name="NuGet"
                folderColor="795548"
                folderIconColor="BCAAA4"
                priority="100"
@@ -1299,7 +1299,7 @@
                pattern="^[\._]?nuget$"
                icon="/nuget.svg"/>
         <regex folderNames="nuxt,.nuxt,_nuxt"
-               name="nuxt"
+               name="Nuxt"
                folderColor="546e7a"
                folderIconColor="41b883"
                priority="100"
@@ -1310,7 +1310,7 @@
 
         <!--region O-->
         <regex folderNames="other,misc,extra,extras,.other,_other,_misc,.misc,_extra,.extras"
-               name="other"
+               name="Other"
                folderColor="795548"
                folderIconColor="BCAAA4"
                priority="100"
@@ -1321,7 +1321,7 @@
 
         <!--region P-->
         <regex folderNames="package,packages,bundle,bundles,.bundle,.paket,module,modules,_package,.packages,_bundles,.bundles,_paket,_modules,.module,pkg"
-               name="packages"
+               name="Packages"
                folderColor="5C6BC0"
                folderIconColor="C5CAE9"
                priority="100"
@@ -1329,7 +1329,7 @@
                pattern="^[\._]?(packages?|bundles?|paket|modules?|pkg)$"
                icon="/packages.svg"/>
         <regex folderNames="perl,.perl,_perl,pl,.pl,_pl"
-               name="perl"
+               name="Perl"
                folderColor="00897b"
                folderIconColor="b2dfdb"
                priority="100"
@@ -1337,7 +1337,7 @@
                pattern="^[\._]?(perl|pl)$"
                icon="/perl.svg"/>
         <regex folderNames="php,phtml,_php,.php,.phtml"
-               name="php"
+               name="PHP"
                folderColor="673AB7"
                folderIconColor="89AAFF"
                priority="100"
@@ -1345,7 +1345,7 @@
                pattern="^[\._]?(php|phtml)$"
                icon="/php.svg"/>
         <regex folderNames="pipe,pipes,filter,filters,.pipes,_pipes,_filter,.filterss"
-               name="pipe"
+               name="Pipe"
                folderColor="00897b"
                folderIconColor="b2dfdb"
                priority="100"
@@ -1353,7 +1353,7 @@
                pattern="^[\._]?(pipes?|filters?)$"
                icon="/pipe.svg"/>
         <regex folderNames=".pio,.pioenv,.pioenvs"
-               name="platform.io"
+               name="Platform.io"
                folderColor="F26B00"
                folderIconColor="FFE0B2"
                priority="100"
@@ -1361,7 +1361,7 @@
                pattern="^\.pio(envs?)?$"
                icon="/platformio.svg"/>
         <regex folderNames="plugin,plugins,mu-plugins,extension,extensions,.plugin,.plugins,_plugins,.extension,.extensions"
-               name="plugin"
+               name="Plugins"
                folderColor="00796B"
                folderIconColor="80CBC4"
                priority="100"
@@ -1369,7 +1369,7 @@
                pattern="^[\._]?((mu-)?plugins?|extensions?)$"
                icon="/plugin.svg"/>
         <regex folderNames="post,posts,.post,_post,_posts"
-               name="posts"
+               name="Posts"
                folderColor="D81B60"
                folderIconColor="FFFDE7"
                priority="100"
@@ -1377,7 +1377,7 @@
                pattern="^[\._]?posts?$"
                icon="/posts.svg"/>
         <regex folderNames="project,projects,.projects,_projects"
-               name="projects"
+               name="Projects"
                folderColor="5C6BC0"
                folderIconColor="C5CAE9"
                priority="100"
@@ -1385,7 +1385,7 @@
                pattern="^[\._]?projects?$"
                icon="/projects.svg"/>
         <regex folderNames=".prisma,prisma,_prisma"
-               name="prisma"
+               name="Prisma"
                folderColor="00BFA5"
                folderIconColor="a7ffeb"
                priority="100"
@@ -1393,7 +1393,7 @@
                pattern="^[\._]?prisma$"
                icon="/prisma.svg"/>
         <regex folderNames="private,.private,_private"
-               name="private"
+               name="Private"
                folderColor="ff5252"
                folderIconColor="ffcdd2"
                priority="100"
@@ -1401,7 +1401,7 @@
                pattern="^[\._]?private$"
                icon="/private.svg"/>
         <regex folderNames=".project,project,_project,projects,_projects"
-               name="project"
+               name="Projects"
                folderColor="00BFA5"
                folderIconColor="a7ffeb"
                priority="100"
@@ -1409,7 +1409,7 @@
                pattern="^[\._]?projects?$"
                icon="/project.svg"/>
         <regex folderNames="provider,providers,_providers,.providers"
-               name="providers"
+               name="Providers"
                folderColor="757575"
                folderIconColor="FFEE58"
                priority="100"
@@ -1417,7 +1417,7 @@
                pattern="^[\._]?providers?$"
                icon="/providers.svg"/>
         <regex folderNames="python,py,.py,_py,_python,.venv,_venv,.virtualenv"
-               name="python"
+               name="Python"
                folderColor="3949AB"
                folderIconColor="FFE0B2"
                priority="100"
