@@ -1439,7 +1439,7 @@
 
         <!--region R-->
         <regex folderNames="react,react_components,react-scripts,_react,.react,_react_components,.react-scripts"
-               name="react"
+               name="React"
                folderColor="00bcd4"
                folderIconColor="E0F7FA"
                priority="100"
@@ -1447,15 +1447,15 @@
                pattern="^[\._]?react?.*"
                icon="/react.svg"/>
         <regex folderNames="redis,.redis,_redis"
-               name="redis"
+               name="Redis"
                folderColor="ef5350"
                folderIconColor="ffcdd2"
                priority="100"
                iconType="FOLDER"
                pattern="^[\._]?redis$"
-               icon="/react.svg"/>
+               icon="/redis.svg"/>
         <regex folderNames="coil,recoil,.coil,_recoil"
-               name="recoil"
+               name="Recoil"
                folderColor="42A5F5"
                folderIconColor="b3e5fc"
                priority="100"
@@ -1463,7 +1463,7 @@
                pattern="^[\._]?(recoil|coil)$"
                icon="/recoil.svg"/>
         <regex folderNames="redux,.redux,_redux,organisms,_organisms,flux,.flux"
-               name="redux"
+               name="Redux"
                folderColor="7E57C2"
                folderIconColor="D1C4E9"
                priority="100"
@@ -1471,7 +1471,7 @@
                pattern="^[\._]?(redux|organisms?|flux)$"
                icon="/redux.svg"/>
         <regex folderNames="action,actions,.action,_actions"
-               name="redux-actions"
+               name="Redux Actions"
                folderColor="ab47bc"
                folderIconColor="e1bee7"
                priority="100"
@@ -1479,7 +1479,7 @@
                pattern="^[\._]?actions?$"
                icon="/redux-actions.svg"/>
         <regex folderNames="epic,epics,.epic,_epics"
-               name="redux-epics"
+               name="Redux Epics"
                folderColor="64B5F6"
                folderIconColor="BBDEFB"
                priority="100"
@@ -1487,7 +1487,7 @@
                pattern="^[\._]?epics?$"
                icon="/redux-epics.svg"/>
         <regex folderNames="reducer,reducers,.reducer,_reducers"
-               name="redux-reducers"
+               name="Redux Reducers"
                folderColor="689F38"
                folderIconColor="dcedc8"
                priority="100"
@@ -1495,7 +1495,7 @@
                pattern="^[\._]?reducers?$"
                icon="/redux-reducers.svg"/>
         <regex folderNames="saga,sagas,.saga,_sagas"
-               name="redux-sagas"
+               name="Redux Sagas"
                folderColor="ef5350"
                folderIconColor="ffcdd2"
                priority="100"
@@ -1503,7 +1503,7 @@
                pattern="^[\._]?sagas?$"
                icon="/redux-sagas.svg"/>
         <regex folderNames="store,stores,.store,_stores"
-               name="redux-stores"
+               name="Redux Stores"
                folderColor="00ACC1"
                folderIconColor="B2EBF2"
                priority="100"
@@ -1511,7 +1511,7 @@
                pattern="^[\._]?stores?$"
                icon="/redux-stores.svg"/>
         <regex folderNames="relay,.relay,_relay"
-               name="relay"
+               name="Relay"
                folderColor="F26B00"
                folderIconColor="FFECB3"
                priority="100"
@@ -1519,15 +1519,15 @@
                pattern="^[\._]?relay$"
                icon="/relay.svg"/>
         <regex folderNames="resolver,resolvers,.resolver,_resolvers"
-               name="resolvers"
+               name="Resolvers"
                folderColor="43a047"
                folderIconColor="c8e6c9"
                priority="100"
                iconType="FOLDER"
                pattern="^[\._]?resolvers?$"
-               icon="/redux-reducers.svg"/>
+               icon="/resolver.svg"/>
         <regex folderNames="res,resource,resources,asset,assets,.res,_res,_resources,.assets,_assets"
-               name="resource"
+               name="Resources"
                folderColor="8E24AA"
                folderIconColor="CE93D8"
                priority="100"
@@ -1535,7 +1535,7 @@
                pattern="^[\._]?(res|resources?|assets?)$"
                icon="/resource.svg"/>
         <regex folderNames="review,reviews,.review,.reviews,_reviews"
-               name="reviews"
+               name="Reviews"
                folderColor="2196f3"
                folderIconColor="bbdefb"
                priority="100"
@@ -1543,7 +1543,7 @@
                pattern="^[\._]?reviews?$"
                icon="/reviews.svg"/>
         <regex folderNames="routes,router,routing,_routes,.router,.routing"
-               name="routes"
+               name="Routes"
                folderColor="607D8B"
                folderIconColor="ECEFF1"
                priority="100"
@@ -1551,7 +1551,7 @@
                pattern="^[\._]?(routes|router|routing)$"
                icon="/routes.svg"/>
         <regex folderNames="ruby,rubies,rb,gem,gems,.ruby,_ruby,_gems,.gems,.rb,_rb"
-               name="ruby"
+               name="Ruby"
                folderColor="D14748"
                folderIconColor="FFCDD2"
                priority="100"
@@ -1559,7 +1559,7 @@
                pattern="^[\._]?(ruby|rubies|rb|gems?)$"
                icon="/ruby.svg"/>
         <regex folderNames="validation,validations,validator,validators,rule,rules,.validation,_validations,_validators,.rules,_rules"
-               name="rules"
+               name="Rules"
                folderColor="ef5350"
                folderIconColor="ffcdd2"
                priority="100"
@@ -1567,7 +1567,7 @@
                pattern="^[\._]?(validations?|validators?|rules?)$"
                icon="/rules.svg"/>
         <regex folderNames="rust,_rust,.cargo,_cargo"
-               name="rust"
+               name="Rust"
                folderColor="D14748"
                folderIconColor="FFCDD2"
                priority="100"
