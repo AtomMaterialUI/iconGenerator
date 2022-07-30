@@ -493,7 +493,7 @@
 
         <!--region D-->
         <regex folderNames="dapr,.dapr,_dapr"
-               name="dapr"
+               name="Dapr"
                folderColor="01579b"
                folderIconColor="9FA8DA"
                priority="100"
@@ -501,7 +501,7 @@
                pattern="^[\._]?dapr$"
                icon="/dapr.svg"/>
         <regex folderNames="db,migrate,migrations,database,repo,repos,repositories,repository,.db,_db,_migrate,.migrations,.database,_database,.repos,_repos,_repository"
-               name="db"
+               name="DB"
                folderColor="7CB342"
                folderIconColor="C5E1A5"
                priority="100"
@@ -509,7 +509,7 @@
                pattern="^[\._]?(db|migrat(e|ions)|database|repos?|repositories|repository)$"
                icon="/db.svg"/>
         <regex folderNames="deb,debian,.deb,.debian,_deb,_debian"
-               name="debian"
+               name="Debian"
                folderColor="EC407A"
                folderIconColor="FCE4EC"
                priority="100"
@@ -517,7 +517,7 @@
                pattern="^[\._]?(deb|debian)$"
                icon="/debian.svg"/>
         <regex folderNames="debug,debugging,_debug,.debug,_debugging"
-               name="debug"
+               name="Debug"
                folderColor="D32F2F"
                folderIconColor="F48FB1"
                priority="100"
@@ -525,7 +525,7 @@
                pattern="^[\._]?(debug|debugging)$"
                icon="/debug.svg"/>
         <regex folderNames="delta,deltas,diff,.delta,_delta,.deltas,_diff,.diff"
-               name="delta"
+               name="Delta"
                folderColor="EC407A"
                folderIconColor="F8BBD0"
                priority="100"
@@ -533,7 +533,7 @@
                pattern="^[\._]?(deltas?|diff)$"
                icon="/delta.svg"/>
         <regex folderNames=".deno,deno,_deno"
-               name="deno"
+               name="Deno"
                folderColor="5D4037"
                folderIconColor="D7CCC8"
                priority="100"
@@ -541,7 +541,7 @@
                pattern="^[\._]?deno$"
                icon="/deno.svg"/>
         <regex folderNames=".dependabot"
-               name="dependabot"
+               name="Dependabot"
                folderColor="039BE5"
                folderIconColor="B3E5FC"
                priority="100"
@@ -549,15 +549,15 @@
                pattern="^\.dependabot$"
                icon="/dependabot.svg"/>
         <regex folderNames="deploy,.deploy,deploys,_deploys"
-               name="deploy"
+               name="Deploy"
                folderColor="FF8F00"
                folderIconColor="ffecb3"
                priority="100"
                iconType="FOLDER"
                pattern="^[\._]?deploys?$"
-               icon="/aws.svg"/>
+               icon="/deploy.svg"/>
         <regex folderNames=".devcontainer"
-               name="devcontainer"
+               name="DevContainer"
                folderColor="ff7043"
                folderIconColor="ffccbc"
                priority="100"
@@ -565,7 +565,7 @@
                pattern="^\.devcontainer$"
                icon="/devcontainer.svg"/>
         <regex folderNames="dist,out,build,release,_out,.out,.dist,_dist,_build,.build,.release,_release"
-               name="dist"
+               name="Dist"
                folderColor="e57373"
                folderIconColor="ffcdd2"
                priority="100"
@@ -573,7 +573,7 @@
                pattern="^[\._]?(dist|out|build|release)$"
                icon="/dist.svg"/>
         <regex folderNames="docker,.docker,_docker"
-               name="docker"
+               name="Docker"
                folderColor="039be5"
                folderIconColor="b3e5fc"
                priority="100"
@@ -581,7 +581,7 @@
                pattern="^[\._]?docker$"
                icon="/docker.svg"/>
         <regex folderNames="doc,docs,documentation,.doc,_doc,_docs,.documentation"
-               name="docs"
+               name="Docs"
                folderColor="0277bd"
                folderIconColor="b3e5fc"
                priority="100"
@@ -589,7 +589,7 @@
                pattern="^[\._]?(docs?|documentation)$"
                icon="/docs.svg"/>
         <regex folderNames="download,downloads,dl,.dl,_dl,_downloads"
-               name="download"
+               name="Downloads"
                folderColor="4caf50"
                folderIconColor="c8e6c9"
                priority="100"
@@ -597,7 +597,7 @@
                pattern="^[\._]?(dl|downloads?)$"
                icon="/download.svg"/>
         <regex folderNames="dropbox,.dropbox,.dropbox.cache,_dropbox"
-               name="dropbox"
+               name="Dropbox"
                folderColor="0277bd"
                folderIconColor="b3e5fc"
                priority="100"
@@ -605,7 +605,7 @@
                pattern="^\[\._]?dropbox(\.cache)?$"
                icon="/dropbox.svg"/>
         <regex folderNames=".dub,dub,_dub"
-               name="dub"
+               name="Dub"
                folderColor="D32F2F"
                folderIconColor="F48FB1"
                priority="100"
@@ -613,7 +613,7 @@
                pattern="^[\._]?dub$"
                icon="/dub.svg"/>
         <regex folderNames="dump,dumps,data,_dump,.dumps,_data,.data"
-               name="dump"
+               name="Dump"
                folderColor="757575"
                folderIconColor="bdbdbd"
                priority="100"
@@ -621,7 +621,7 @@
                pattern="^[\._]?(dumps?|data)$"
                icon="/dump.svg"/>
         <regex folderNames=".dvc,dvc,_dvc"
-               name="dvc"
+               name="DVC"
                folderColor="039be5"
                folderIconColor="b3e5fc"
                priority="100"
