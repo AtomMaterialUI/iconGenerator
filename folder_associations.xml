@@ -865,7 +865,7 @@
 
         <!--region H-->
         <regex folderNames="hasura,.hasura,_hasura"
-               name="hasura"
+               name="Hasura"
                folderColor="0288d1"
                folderIconColor="B2EBF2"
                priority="100"
@@ -873,7 +873,7 @@
                pattern="^[\._]?hasura$"
                icon="/hasura.svg"/>
         <regex folderNames="haxe,haxelib,haxe_libraries,.haxelib,_haxe_libraries,_haxe"
-               name="haxelib"
+               name="Haxe"
                folderColor="ff7043"
                folderIconColor="ffccbc"
                priority="100"
@@ -881,7 +881,7 @@
                pattern="^[\._]?haxe(lib|_libraries)?$"
                icon="/haxelib.svg"/>
         <regex folderNames="helper,helpers,help,.help,_help,.helpers"
-               name="helper"
+               name="Helpers"
                folderColor="afb42b"
                folderIconColor="f0f4c3"
                priority="100"
@@ -889,7 +889,7 @@
                pattern="^[\._]?(helpers?|help)$"
                icon="/helper.svg"/>
         <regex folderNames="home,.home,_home"
-               name="home"
+               name="Home"
                folderColor="8D6E63"
                folderIconColor="#BCAAA4"
                priority="100"
@@ -897,7 +897,7 @@
                pattern="^[\._]?home$"
                icon="/home.svg"/>
         <regex folderNames="hooks,hook,triggers,trigger,.hook,_hooks,_triggers"
-               name="hooks"
+               name="Hooks"
                folderColor="9575CD"
                folderIconColor="D1C4E9"
                priority="100"
@@ -905,7 +905,7 @@
                pattern="^[\._]?(hooks?|triggers?)"
                icon="/hook.svg"/>
         <regex folderNames="husky,.husky,_husky"
-               name="husky"
+               name="Husky"
                folderColor="607D8B"
                folderIconColor="ECEFF1"
                priority="100"
@@ -991,7 +991,7 @@
 
         <!--region J-->
         <regex folderNames="java,jdk,.java,_java,.jdk,_jdk"
-               name="java"
+               name="Java"
                folderColor="AB47BC"
                folderIconColor="E1BEE7"
                priority="100"
@@ -999,7 +999,7 @@
                pattern="^[\._]?(java|jdk)$"
                icon="/java.svg"/>
         <regex folderNames="javascript,javascripts,js,.js,_javascript,.javascript"
-               name="javascript"
+               name="JavaScript"
                folderColor="F9A825"
                folderIconColor="FFFFFF"
                priority="100"
@@ -1007,7 +1007,7 @@
                pattern="^[\._]?(javascripts?|js)$"
                icon="/js.svg"/>
         <regex folderNames="jest,.jest,_jest"
-               name="jest"
+               name="Jest"
                folderColor="D81B60"
                folderIconColor="F8BBD0"
                priority="100"
@@ -1015,7 +1015,7 @@
                pattern="^[\._]?jest$"
                icon="/jest.svg"/>
         <regex folderNames="jinja,.jinja,_jinja"
-               name="jinja"
+               name="Jinja"
                folderColor="607D8B"
                folderIconColor="CFD8DC"
                priority="100"
@@ -1023,7 +1023,7 @@
                pattern="^[\._]?jinja$"
                icon="/jinja.svg"/>
         <regex folderNames="jobs,job,resque,.jobs,_jobs,.resque,_resque"
-               name="jobs"
+               name="Jobs"
                folderColor="AB47BC"
                folderIconColor="E1BEE7"
                priority="100"
@@ -1031,7 +1031,7 @@
                pattern="^[\._]?(jobs?|resque)$"
                icon="/job.svg"/>
         <regex folderNames="jsons,json,serializer,serializers,.json,_json,.serializers,_serializers"
-               name="json"
+               name="JSON"
                folderColor="fbc02d"
                folderIconColor="fff9c4"
                priority="100"
@@ -1042,7 +1042,7 @@
 
         <!--region K-->
         <regex folderNames="key,keys,cert,certs,_keys,.keys,.certs,_cert"
-               name="keys"
+               name="Keys"
                folderColor="BDBDBD"
                folderIconColor="FFFFFF"
                priority="100"
@@ -1050,7 +1050,7 @@
                pattern="^[\._]?(keys?|certs?)$"
                icon="/keys.svg"/>
         <regex folderNames="kv,.kv,_kv,kivy,.kivy,_kivy"
-               name="kivy"
+               name="KiVy"
                folderColor="78909C"
                folderIconColor="#CFD8DC"
                priority="100"
@@ -1058,7 +1058,7 @@
                pattern="^[\._]?(kv|kivy)$"
                icon="/kivy.svg"/>
         <regex folderNames="kotlin,.kotlin,_kotlin,kt,_kt"
-               name="kotlin"
+               name="Kotlin"
                folderColor="7E57C2"
                folderIconColor="E1BEE7"
                priority="100"
@@ -1066,7 +1066,7 @@
                pattern="^[\._]?(kotlin|kt)$"
                icon="/kotlin.svg"/>
         <regex folderNames="kubernetes,k8s,kube,kuber,minikube,.kubernetes,_k8s,.minikube,.kuber,_kube"
-               name="kubernetes"
+               name="Kubernetes"
                folderColor="64b5f6"
                folderIconColor="1976d2"
                priority="100"
@@ -1074,7 +1074,7 @@
                pattern="^[\._]?(kubernetes|k8s|kuber?|minikube)$"
                icon="/kubernetes.svg"/>
         <regex folderNames="kustomize,.kustomize,kustomizations,_kustomization,.kustomizations"
-               name="kustomize"
+               name="Kustomize"
                folderColor="01579B"
                folderIconColor="B3E5FC"
                priority="100"
@@ -1085,7 +1085,7 @@
 
         <!--region L-->
         <regex folderNames="layout,layouts,_layout,_layouts,.layout,.layouts"
-               name="layouts"
+               name="Layouts"
                folderColor="303F9F"
                folderIconColor="7986CB"
                priority="100"
@@ -1093,7 +1093,7 @@
                pattern="^[\._]?layouts?$"
                icon="/layouts.svg"/>
         <regex folderNames="less,.less,_less"
-               name="less"
+               name="Less"
                folderColor="0277bd"
                folderIconColor="b3e5fc"
                priority="100"
@@ -1101,7 +1101,7 @@
                pattern="^[\._]?less$"
                icon="/less.svg"/>
         <regex folderNames="log,logs,.log,_logs"
-               name="logs"
+               name="Logs"
                folderColor="607D8B"
                folderIconColor="B0BEC5"
                priority="100"
@@ -1109,7 +1109,7 @@
                pattern="^[\._]?logs?$"
                icon="/logs.svg"/>
         <regex folderNames="lua,_lua,.lua"
-               name="lua"
+               name="Lua"
                folderColor="0288d1"
                folderIconColor="90caf9"
                priority="100"
