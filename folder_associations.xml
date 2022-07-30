@@ -640,7 +640,7 @@
                pattern="^[\._]?(e2e|scenarios?)$"
                icon="/e2e.svg"/>
         <regex folderNames="elastic,.elasticbeanstalk,elasticbeanstalk,_elastic,.eb-extensions"
-               name="elastic"
+               name="Elastic"
                folderColor="fbc02d"
                folderIconColor="fff9c4"
                priority="100"
@@ -648,7 +648,7 @@
                pattern="^[\._]?(elastic(beanstalk)?|eb-extensions?)$"
                icon="/elastic.svg"/>
         <regex folderNames="electron,.electron,_electron"
-               name="electron"
+               name="Electron"
                folderColor="039BE5"
                folderIconColor="B3E5FC"
                priority="100"
@@ -656,7 +656,7 @@
                pattern="^[\._]?electron$"
                icon="/electron.svg"/>
         <regex folderNames=".emacs.d"
-               name="emacs"
+               name="Emacs"
                folderColor="9C27B0"
                folderIconColor="E1BEE7"
                priority="100"
@@ -664,7 +664,7 @@
                pattern="^\.emacs\.d$"
                icon="/emacs.svg"/>
         <regex folderNames="env,envs,environment,environments,.env,_env,.environment,_environments"
-               name="env"
+               name="Env"
                folderColor="8BC34A"
                folderIconColor="DCEDC8"
                priority="100"
@@ -672,7 +672,7 @@
                pattern="^[\._]?(envs?|environments?)$"
                icon="/env.svg"/>
         <regex folderNames="error,errors,prod,production,exception,exceptions,.error,_error,_errors,.prod,_production,.exception,_exceptions"
-               name="error"
+               name="Error"
                folderColor="ef5350"
                folderIconColor="ffcdd2"
                priority="100"
@@ -680,7 +680,7 @@
                pattern="^[\._]?(errors?|exceptions?|prod(uction)?)$"
                icon="/error.svg"/>
         <regex folderNames="event,events,.event,_events,.events"
-               name="events"
+               name="Events"
                folderColor="66BB6A"
                folderIconColor="C8E6C9"
                priority="100"
@@ -688,7 +688,7 @@
                pattern="^[\._]?(events?)$"
                icon="/events.svg"/>
         <regex folderNames="example,examples,ex,exs,.example,_examples,.ex,_exs"
-               name="example"
+               name="Examples"
                folderColor="009688"
                folderIconColor="b2dfdb"
                priority="100"
@@ -696,7 +696,7 @@
                pattern="^[\._]?(examples?|exs?)$"
                icon="/examples.svg"/>
         <regex folderNames="exclude,excludes,external,output,.exclude,_excludes,.external,_external,.output"
-               name="exclude"
+               name="Exclude"
                folderColor="ff8a65"
                folderIconColor="fbe9e7"
                priority="100"
@@ -704,7 +704,7 @@
                pattern="^[\._]?(excludes?|external|output)$"
                icon="/exclude.svg"/>
         <regex folderNames=".expo,.expo-shared"
-               name="expo"
+               name="Expo"
                folderColor="01579b"
                folderIconColor="9FA8DA"
                priority="100"
@@ -715,7 +715,7 @@
 
         <!--region F-->
         <regex folderNames="fastlane,.fastlane,_fastlane"
-               name="fastlane"
+               name="Fastlane"
                folderColor="1e88e5"
                folderIconColor="e3f2fd"
                priority="100"
@@ -723,15 +723,15 @@
                pattern="^[\._]?(fastlane)$"
                icon="/fastlane.svg"/>
         <regex folderNames="feature,features,feat,feats,.feature,_feat,_feats,.feats"
-               name="features"
+               name="Features"
                folderColor="ef5350"
                folderIconColor="ffcdd2"
                priority="100"
                iconType="FOLDER"
                pattern="^[\._]?(features?|feats?)$"
-               icon="/rules.svg"/>
+               icon="/features.svg"/>
         <regex folderNames=".firebase,firebase,_firebase"
-               name="firebase"
+               name="Firebase"
                folderColor="fbc02d"
                folderIconColor="fff9c4"
                priority="100"
@@ -739,7 +739,7 @@
                pattern="^[\._]?firebase$"
                icon="/firebase.svg"/>
         <regex folderNames="fixture,fixtures,fabricator,fabricators,factory,factories,.factories,.fixtures,_fixtures,_fabricator,.factory"
-               name="fixtures"
+               name="Fixtures"
                folderColor="9E9D24"
                folderIconColor="F0F4C3"
                priority="100"
@@ -747,7 +747,7 @@
                pattern="^[\._]?(fixtures?|fabricators?|factory|factories)$"
                icon="/fixtures.svg"/>
         <regex folderNames="flow,def,defs,.flow,_flow,_def,.defs"
-               name="flow"
+               name="Flow"
                folderColor="37474F"
                folderIconColor="fbc02d"
                priority="100"
@@ -755,7 +755,7 @@
                pattern="^[\._]?(flow|defs?)$"
                icon="/flow.svg"/>
         <regex folderNames="font,fonts,.fonts,_fonts"
-               name="fonts"
+               name="Fonts"
                folderColor="607D8B"
                folderIconColor="CFD8DC"
                priority="100"
@@ -763,7 +763,7 @@
                pattern="^[\._]?fonts?$"
                icon="/fonts.svg"/>
         <regex folderNames="function,functions,service,services,lambda,lambdas,.functions,_functions,_lambda,.lambda,.services,_services"
-               name="functions"
+               name="Functions"
                folderColor="039BE5"
                folderIconColor="B3E5FC"
                priority="100"
@@ -774,7 +774,7 @@
 
         <!--region G-->
         <regex folderNames="gcp,gcloud,.gcp,_gcp,.gcloud,_gcloud"
-               name="gcloud"
+               name="Google Cloud"
                folderColor="ef5350"
                folderIconColor="ffcdd2"
                priority="100"
@@ -782,7 +782,7 @@
                pattern="^[\._]?(gcp|gcloud)$"
                icon="/gcloud.svg"/>
         <regex folderNames="gen,generated,auto,.gen,_gen,_generated,_auto,.auto,target,.targets,_target"
-               name="generated"
+               name="Generated"
                folderColor="EC407A"
                folderIconColor="FCE4EC"
                priority="100"
@@ -790,7 +790,7 @@
                pattern="^[\._]?(gen|generated|auto|targets?)$"
                icon="/generated.svg"/>
         <regex folderNames=".git,.submodules"
-               name="git"
+               name="Git"
                folderColor="ff7043"
                folderIconColor="ffccbc"
                priority="100"
@@ -798,7 +798,7 @@
                pattern="^(\.git|\.submodules)$"
                icon="/git.svg"/>
         <regex folderNames="github,.github,_github"
-               name="github"
+               name="GitHub"
                folderColor="546e7a"
                folderIconColor="eceff1"
                priority="100"
@@ -806,7 +806,7 @@
                pattern="^[\._]?github$"
                icon="/github.svg"/>
         <regex folderNames="gitlab,.gitlab,_gitlab"
-               name="gitlab"
+               name="GitLab"
                folderColor="e24329"
                folderIconColor="FFCDD2"
                priority="100"
@@ -814,7 +814,7 @@
                pattern="^[\._]?gitlab$"
                icon="/gitlab.svg"/>
         <regex folderNames="global,.global,_global"
-               name="global"
+               name="Global"
                folderColor="5c6bc0"
                folderIconColor="c5cae9"
                priority="100"
@@ -822,7 +822,7 @@
                pattern="^[\._]?global$"
                icon="/global.svg"/>
         <regex folderNames=".gradle,gradle,_gradle"
-               name="gradle"
+               name="Gradle"
                folderColor="0097a7"
                folderIconColor="b2ebf2"
                priority="100"
@@ -830,7 +830,7 @@
                pattern="^[\._]?gradle$"
                icon="/gradle.svg"/>
         <regex folderNames="graphql,gql,schema,schemas,.graphql,_graphql,_gql,.schemas,_schemas"
-               name="graphql"
+               name="GraphQL"
                folderColor="ec407a"
                folderIconColor="f8bbd0"
                priority="100"
@@ -838,7 +838,7 @@
                pattern="^[\._]?(graphql|gql|schemas?)$"
                icon="/graphql.svg"/>
         <regex folderNames="grunt,.grunt,_grunt"
-               name="grunt"
+               name="Grunt"
                folderColor="C17900"
                folderIconColor="FFECB3"
                priority="100"
@@ -846,7 +846,7 @@
                pattern="^[\._]?grunt$"
                icon="/grunt.svg"/>
         <regex folderNames="guard,guards,dev,development,_guard,.guards,.dev,_dev,.development"
-               name="guard"
+               name="Guard"
                folderColor="43a047"
                folderIconColor="c8e6c9"
                priority="100"
@@ -854,7 +854,7 @@
                pattern="^[\._]?(guards?|dev(elopment)?)$"
                icon="/guard.svg"/>
         <regex folderNames="gulp,.gulp,_gulp"
-               name="gulp"
+               name="Gulp"
                folderColor="ef5350"
                folderIconColor="ffcdd2"
                priority="100"
