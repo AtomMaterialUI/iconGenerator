@@ -1883,7 +1883,7 @@
                pattern="^[\._]?vagrant(\.d)?$"
                icon="/vagrant.svg"/>
         <regex folderNames="vendor,vendors,lib,libs,Pod,Pods,stdlib,.vendor,_vendor,.vendors,.lib,_lib,.Pods,_Pod,.stdlib,_stdlib"
-               name="vendors"
+               name="Vendors"
                folderColor="6CAC23"
                folderIconColor="A5D6A7"
                priority="100"

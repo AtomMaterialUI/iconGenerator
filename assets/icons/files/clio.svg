@@ -24,7 +24,7 @@
   -
   -->
 
-<svg width="16px" height="16px" viewBox="0 0 512 512" xmlns="http://www.w3.org/2000/svg">
+<svg big="true" width="16px" height="16px" viewBox="0 0 512 512" xmlns="http://www.w3.org/2000/svg">
     <g transform="translate(-128,640) scale(0.150000,-0.150000)" fill="#cb2a41" iconColor="Clio" stroke="none">
         <path d="M3145 2998 c-38 -34 -70 -65 -70 -69 0 -9 328 -371 422 -466 l63 -63
  -440 0 -440 0 0 -13 c0 -7 13 -51 28 -97 l29 -85 411 -3 410 -2 -115 -118
