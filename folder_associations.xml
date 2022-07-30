@@ -1412,7 +1412,7 @@
 
         <!-- region Q -->
         <regex folderNames="quasar,.quasar,_quasar"
-               name="quasar"
+               name="Quasar"
                folderColor="1976D2"
                folderIconColor="bbdefb"
                priority="100"
@@ -1982,7 +1982,7 @@
 
         <!--region W-->
         <regex folderNames="public,static,web,www,wwwroot,public_html,.public,_public_html,.static,_static,.web,_www,.www,.wwwroot,_wwwroot"
-               name="web"
+               name="Web"
                folderColor="039be5"
                folderIconColor="b3e5fc"
                priority="100"
@@ -1990,7 +1990,7 @@
                pattern="^[\._]?(public(_html)?|static|web|www|wwwroot)$"
                icon="/web.svg"/>
         <regex folderNames="webpack,.webpack,_webpack"
-               name="webpack"
+               name="Webpack"
                folderColor="03a9f4"
                folderIconColor="8ed6fb"
                priority="100"
@@ -1998,7 +1998,7 @@
                pattern="^[\._]?webpack$"
                icon="/webpack.svg"/>
         <regex folderNames=".wine"
-               name="wine"
+               name="Wine"
                folderColor="93254A"
                folderIconColor="F13C6F"
                priority="100"
@@ -2006,7 +2006,7 @@
                pattern="^\.wine$"
                icon="/wine.svg"/>
         <regex folderNames="woocommerce,.woocommerce,_woocommerce"
-               name="woocommerce"
+               name="WooCommerce"
                folderColor="7f54b3"
                folderIconColor="d7cae8"
                priority="100"
@@ -2014,7 +2014,7 @@
                pattern="^[\._]?woocommerce$"
                icon="/woocommerce.svg"/>
         <regex folderNames="wp-admin,wp-content,wp-includes,.wp-admin,_wp-content,.wp-includes"
-               name="wordpress"
+               name="WordPress"
                folderColor="21759b"
                folderIconColor="e1f5fe"
                priority="100"
@@ -2025,7 +2025,7 @@
 
         <!--region X-->
         <regex folderNames="xstate,_xstate,machine,_machine,.machines"
-               name="xstate"
+               name="XState"
                folderColor="009CB9"
                folderIconColor="e1f5fe"
                priority="100"
@@ -2036,7 +2036,7 @@
 
         <!--region Y-->
         <regex folderNames="yarn,.yarn,_yarn"
-               name="yarn"
+               name="Yarn"
                folderColor="039be5"
                folderIconColor="b3e5fc"
                priority="100"
