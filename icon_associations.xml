@@ -338,7 +338,7 @@
                icon="/icons/files/affinity.svg"/>
         <regex fileNames="*.agda,*.lagda"
                name="Agda"
-               iconColor="212121"
+               iconColor="BDBDBD"
                priority="100"
                iconType="FILE"
                pattern=".*\.l?agda$"
