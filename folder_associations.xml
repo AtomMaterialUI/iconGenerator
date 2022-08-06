@@ -602,7 +602,7 @@
                folderIconColor="b3e5fc"
                priority="100"
                iconType="FOLDER"
-               pattern="^\[\._]?dropbox(\.cache)?$"
+               pattern="^[\._]?dropbox(\.cache)?$"
                icon="/dropbox.svg"/>
         <regex folderNames=".dub,dub,_dub"
                name="Dub"
@@ -969,7 +969,7 @@
                folderIconColor="FFF9C4"
                priority="100"
                iconType="FOLDER"
-               pattern="^\.nyc[-_]output$"
+               pattern="^\.nyc([-_]output)?$"
                icon="/istanbul.svg"/>
         <regex folderNames="Assets.xcassets,Base.lproj"
                name="iOS"
@@ -1344,7 +1344,7 @@
                iconType="FOLDER"
                pattern="^[\._]?(php|phtml)$"
                icon="/php.svg"/>
-        <regex folderNames="pipe,pipes,filter,filters,.pipes,_pipes,_filter,.filterss"
+        <regex folderNames="pipe,pipes,filter,filters,.pipes,_pipes,_filter,.filters"
                name="Pipe"
                folderColor="00897b"
                folderIconColor="b2dfdb"
