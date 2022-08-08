@@ -3957,7 +3957,7 @@
                icon="/icons/files/gradlew.svg"/>
         <regex fileNames="*.grain"
                name="Grain"
-               iconColor="#f78c6b"
+               iconColor="f78c6b"
                url="https://grain-lang.org/"
                priority="100"
                iconType="FILE"
@@ -5009,7 +5009,7 @@
                icon="/icons/files/kitchenci.svg"/>
         <regex fileNames=".kiteignore"
                name="Kite"
-               iconColor="#3ab4c2"
+               iconColor="3ab4c2"
                url="https://www.kite.com/"
                priority="100"
                iconType="FILE"
@@ -7899,7 +7899,7 @@
                icon="/icons/files/railsroutes.svg"/>
         <regex fileNames="users_schema.rb"
                name="Rails Schema"
-               iconColor="#4FC3F7"
+               iconColor="4FC3F7"
                priority="100"
                iconType="FILE"
                pattern=".*_schema\.rb$"
