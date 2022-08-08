@@ -159,12 +159,12 @@
                pattern=".*\.(bsl|sdbl|os|mdo)$"
                url="https://1c-dn.com/1c_enterprise/1c_programming_language/"
                icon="/icons/files/1c.svg"/>
-        <regex fileNames="*.stl,*.obj,*.x,*.dxf,*.ac,*.shader,*.geo,*.c4d,*.tesc,*.tese,*.cginc,*.dxf,*.jas"
+        <regex fileNames="*.stl,*.obj,*.x,*.dxf,*.ac,*.shader,*.geo,*.c4d,*.tesc,*.tese,*.cginc,*.dxf"
                name="3D"
                iconColor="29b6f6"
                priority="100"
                iconType="FILE"
-               pattern=".*\.(stl|obj|dxf|ac|shader|geo|c4d|tes[ce]|cginc|jas|x)$"
+               pattern=".*\.(stl|obj|dxf|ac|shader|geo|c4d|tes[ce]|cginc|x)$"
                icon="/icons/files/3d.svg"/>
         <regex fileNames="*.3dm,*.3dmodel"
                name="3D Model"
