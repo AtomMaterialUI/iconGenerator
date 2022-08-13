@@ -73,7 +73,7 @@ export class FoldersKotlinGenerator extends BaseKotlinGenerator {
     let mdText = '';
 
     const iconName = folderAssociation.name.toUpperCase().replace(/[\s().-]/g, '_');
-    mdText += `"${iconName}" to IconLoader.findIcon("${folderAssociation.icon}", IconAssociations.javaClass)!!,\n`;
+    mdText += `"${iconName}" to IconLoader.findIcon("/icons/folders${folderAssociation.icon}", FolderIconAssociations.javaClass)!!,\n`;
     return mdText;
   }
 }
