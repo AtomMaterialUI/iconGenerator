@@ -6565,6 +6565,14 @@
                iconType="FILE"
                pattern="^package-lock\.json$"
                icon="/icons/files/npmlock.svg"/>
+        <regex fileNames="npm-shrinkwrap.json"
+               name="NPM ShrinkWrap"
+               iconColor="D52B2A"
+               url="https://www.npmjs.com/"
+               priority="100"
+               iconType="FILE"
+               pattern="^npm-shrinkwrap\.json$"
+               icon="/icons/files/npmshrinkwrap.svg"/>
         <regex fileNames=".npmrc"
                name="NPMFiles"
                iconColor="D14748"
