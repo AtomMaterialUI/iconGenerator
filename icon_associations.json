@@ -182,12 +182,12 @@
 					"icon": "/icons/files/1c.svg"
 				},
 				{
-					"fileNames": "*.stl,*.obj,*.x,*.dxf,*.ac,*.shader,*.geo,*.c4d,*.tesc,*.tese,*.cginc,*.dxf,*.jas",
+					"fileNames": "*.stl,*.obj,*.x,*.dxf,*.ac,*.shader,*.geo,*.c4d,*.tesc,*.tese,*.cginc,*.dxf",
 					"name": "3D",
 					"iconColor": "29b6f6",
 					"priority": "100",
 					"iconType": "FILE",
-					"pattern": ".*\\.(stl|obj|dxf|ac|shader|geo|c4d|tes[ce]|cginc|jas|x)$",
+					"pattern": ".*\\.(stl|obj|dxf|ac|shader|geo|c4d|tes[ce]|cginc|x)$",
 					"icon": "/icons/files/3d.svg"
 				},
 				{
@@ -401,7 +401,7 @@
 				{
 					"fileNames": "*.agda,*.lagda",
 					"name": "Agda",
-					"iconColor": "212121",
+					"iconColor": "BDBDBD",
 					"priority": "100",
 					"iconType": "FILE",
 					"pattern": ".*\\.l?agda$",
@@ -4906,7 +4906,7 @@
 				{
 					"fileNames": "*.grain",
 					"name": "Grain",
-					"iconColor": "#f78c6b",
+					"iconColor": "f78c6b",
 					"url": "https://grain-lang.org/",
 					"priority": "100",
 					"iconType": "FILE",
@@ -6208,7 +6208,7 @@
 				{
 					"fileNames": ".kiteignore",
 					"name": "Kite",
-					"iconColor": "#3ab4c2",
+					"iconColor": "3ab4c2",
 					"url": "https://www.kite.com/",
 					"priority": "100",
 					"iconType": "FILE",
@@ -8143,6 +8143,16 @@
 					"icon": "/icons/files/npmlock.svg"
 				},
 				{
+					"fileNames": "npm-shrinkwrap.json",
+					"name": "NPM ShrinkWrap",
+					"iconColor": "D52B2A",
+					"url": "https://www.npmjs.com/",
+					"priority": "100",
+					"iconType": "FILE",
+					"pattern": "^npm-shrinkwrap\\.json$",
+					"icon": "/icons/files/npmshrinkwrap.svg"
+				},
+				{
 					"fileNames": ".npmrc",
 					"name": "NPMFiles",
 					"iconColor": "D14748",
@@ -9795,7 +9805,7 @@
 				{
 					"fileNames": "users_schema.rb",
 					"name": "Rails Schema",
-					"iconColor": "#4FC3F7",
+					"iconColor": "4FC3F7",
 					"priority": "100",
 					"iconType": "FILE",
 					"pattern": ".*_schema\\.rb$",
@@ -12375,7 +12385,7 @@
 				{
 					"fileNames": "vercel.json",
 					"name": "Vercel",
-					"iconColor": "212121",
+					"iconColor": "f78c6c",
 					"url": "https://vercel.com/",
 					"priority": "100",
 					"iconType": "FILE",

@@ -226,7 +226,7 @@
 					"folderNames": "base,abstract,.base,.abstract,_bases,_abstracts,parent,.parent,_parents",
 					"name": "Base",
 					"folderColor": "cd9575",
-					"folderIconColor": "#FFE0B2",
+					"folderIconColor": "FFE0B2",
 					"priority": "100",
 					"iconType": "FOLDER",
 					"pattern": "^[\\._]?(bases?|abstract|parents?)$",
@@ -709,7 +709,7 @@
 					"folderIconColor": "b3e5fc",
 					"priority": "100",
 					"iconType": "FOLDER",
-					"pattern": "^\\[\\._]?dropbox(\\.cache)?$",
+					"pattern": "^[\\._]?dropbox(\\.cache)?$",
 					"icon": "/dropbox.svg"
 				},
 				{
@@ -1056,7 +1056,7 @@
 					"folderNames": "home,.home,_home",
 					"name": "Home",
 					"folderColor": "8D6E63",
-					"folderIconColor": "#BCAAA4",
+					"folderIconColor": "BCAAA4",
 					"priority": "100",
 					"iconType": "FOLDER",
 					"pattern": "^[\\._]?home$",
@@ -1149,7 +1149,7 @@
 					"folderIconColor": "FFF9C4",
 					"priority": "100",
 					"iconType": "FOLDER",
-					"pattern": "^\\.nyc[-_]output$",
+					"pattern": "^\\.nyc([-_]output)?$",
 					"icon": "/istanbul.svg"
 				},
 				{
@@ -1246,7 +1246,7 @@
 					"folderNames": "kv,.kv,_kv,kivy,.kivy,_kivy",
 					"name": "KiVy",
 					"folderColor": "78909C",
-					"folderIconColor": "#CFD8DC",
+					"folderIconColor": "CFD8DC",
 					"priority": "100",
 					"iconType": "FOLDER",
 					"pattern": "^[\\._]?(kv|kivy)$",
@@ -1593,7 +1593,7 @@
 					"icon": "/php.svg"
 				},
 				{
-					"folderNames": "pipe,pipes,filter,filters,.pipes,_pipes,_filter,.filterss",
+					"folderNames": "pipe,pipes,filter,filters,.pipes,_pipes,_filter,.filters",
 					"name": "Pipe",
 					"folderColor": "00897b",
 					"folderIconColor": "b2dfdb",

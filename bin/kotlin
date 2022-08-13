@@ -1,7 +1,7 @@
 /*
  * The MIT License (MIT)
  *
- * Copyright (c) 2015-2022 Elior "Mallowigi" Boukhobza
+ * Copyright (c) 2015-2021 Elior "Mallowigi" Boukhobza
  *
  * Permission is hereby granted, free of charge, to any person obtaining a copy
  * of this software and associated documentation files (the "Software"), to deal
@@ -24,37 +24,4 @@
  *
  */
 
-import { ExamplesFlags } from '../argsParsers/examplesArgsParser';
-import { WikiAllowedOutputs } from '../argsParsers/wikiArgsParser';
-import { PreviewAllowedOutputs } from '../argsParsers/previewArgsParser';
-import { KotlinAllowedOutputs } from '../argsParsers/kotlinArgsParser';
-
-export interface Association {
-  name: string;
-  pattern: string;
-  icon: string;
-}
-
-export interface IconAssociation extends Association {
-  fileNames: string;
-}
-
-export interface FolderAssociation extends Association {
-  folderNames: string;
-}
-
-export interface IconAssociations {
-  [name: string]: IconAssociation;
-}
-
-export interface FolderAssociations {
-  [name: string]: FolderAssociation;
-}
-
-export interface CommandArgs {
-  force?: boolean;
-  command: ExamplesFlags;
-  account: string;
-  output: WikiAllowedOutputs | PreviewAllowedOutputs | KotlinAllowedOutputs;
-  token: string;
-}
+require('../dist/main').kotlin();
