@@ -26,15 +26,14 @@
 <svg big="true" width="16px" height="16px" viewBox="0 -4 20 24" version="1.1" xmlns="http://www.w3.org/2000/svg"
      xmlns:xlink="http://www.w3.org/1999/xlink">
 
-    <g fill="#009CB9" fill-rule="evenodd">
-        <path fill="#009CB9" transform="translate(-2 -4)"
-              d="M20,18H4V8H20M20,6H12L10,4H4C2.89,4 2,4.89 2,6V18A2,2 0 0,0 4,20H20A2,2 0 0,0 22,18V8C22,6.89 21.1,6 20,6Z"/>
+    <path fill="#009CB9" transform="translate(-2 -4)" folderColor="XState"
+          d="M20,18H4V8H20M20,6H12L10,4H4C2.89,4 2,4.89 2,6V18A2,2 0 0,0 4,20H20A2,2 0 0,0 22,18V8C22,6.89 21.1,6 20,6Z"/>
 
-        <g id="X-state-logo" transform="translate(11.000000, 7.000000)" fill="#e1f5fe" fill-rule="nonzero">
-            <path d="M7.25999961,0 L9.6835443,0 L7.23514274,5 C6.48943668,3.43567251 6.50186511,1.53508772 7.25999961,0 Z"
-                  id="Path"></path>
-            <polygon id="Path"
-                     points="9.6835443 11 3.40869958 0 0.683544304 0 3.81397909 5.50707851 0.683544304 11 3.40869958 11 5.1835443 7.8996139 6.94441387 11"></polygon>
-        </g>
+    <g id="X-state-logo" transform="translate(11.000000, 7.000000)" fill="#e1f5fe" folderIconColor="XState"
+       fill-rule="nonzero">
+        <path d="M7.25999961,0 L9.6835443,0 L7.23514274,5 C6.48943668,3.43567251 6.50186511,1.53508772 7.25999961,0 Z"
+              id="Path"></path>
+        <polygon id="Path"
+                 points="9.6835443 11 3.40869958 0 0.683544304 0 3.81397909 5.50707851 0.683544304 11 3.40869958 11 5.1835443 7.8996139 6.94441387 11"></polygon>
     </g>
 </svg>

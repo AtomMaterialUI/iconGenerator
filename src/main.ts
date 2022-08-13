@@ -34,6 +34,8 @@ import { WikiGenerator } from './wikiGenerator';
 import { PreviewArgsParser, PreviewCommandArgs } from './argsParsers/previewArgsParser';
 import { PreviewGenerator } from './previewGenerator';
 import { CommandArgs } from './types/associations';
+import { KotlinArgsParser, KotlinCommandArgs } from './argsParsers/kotlinArgsParser';
+import { KotlinGenerator } from './kotlinGenerator';
 
 const generator = <ICommandArgs extends CommandArgs>(ArgsParser, Generator, useGit = false) => {
   return async () => {
@@ -81,3 +83,5 @@ export const examples = generator<CommandArgs>(ExamplesArgsParser, ExampleGenera
 export const wiki = generator<WikiCommandArgs>(WikiArgsParser, WikiGenerator, true);
 
 export const preview = generator<PreviewCommandArgs>(PreviewArgsParser, PreviewGenerator, true);
+
+export const kotlin = generator<KotlinCommandArgs>(KotlinArgsParser, KotlinGenerator, false);

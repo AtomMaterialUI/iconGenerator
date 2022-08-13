@@ -26,8 +26,8 @@
 
 <svg big="true" clip-rule="evenodd" fill-rule="evenodd" stroke-linejoin="round" stroke-miterlimit="1.414" version="1.1"
      viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" width="16px" height="16px">
-    <path fill="#26A69A"
-          d="M20,18H4V8H20M20,6H12L10,4H4C2.89,4 2,4.89 2,6V18A2,2 0 0,0 4,20H20A2,2 0 0,0 22,18V8C22,6.89 21.1,6 20,6Z" />
+    <path fill="#26A69A" folderColor="SSO"
+          d="M20,18H4V8H20M20,6H12L10,4H4C2.89,4 2,4.89 2,6V18A2,2 0 0,0 4,20H20A2,2 0 0,0 22,18V8C22,6.89 21.1,6 20,6Z"/>
     <path d="m7 14a2 2 0 0 1 -2 -2 2 2 0 0 1 2 -2 2 2 0 0 1 2 2 2 2 0 0 1 -2 2m5.65-4c-.82-2.33-3.04-4-5.65-4a6 6 0 0 0 -6 6 6 6 0 0 0 6 6c2.61 0 4.83-1.67 5.65-4h4.35v4h4v-4h2v-4z"
-          fill="#B2DFDB" transform="scale(0.7) translate(11 11)" />
+          fill="#B2DFDB" transform="scale(0.7) translate(11 11)" folderIconColor="SSO"/>
 </svg>

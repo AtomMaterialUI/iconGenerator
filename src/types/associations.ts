@@ -24,9 +24,10 @@
  *
  */
 
-import {ExamplesFlags} from '../argsParsers/examplesArgsParser';
-import {WikiAllowedOutputs} from '../argsParsers/wikiArgsParser';
-import {PreviewAllowedOutputs} from '../argsParsers/previewArgsParser';
+import { ExamplesFlags } from '../argsParsers/examplesArgsParser';
+import { WikiAllowedOutputs } from '../argsParsers/wikiArgsParser';
+import { PreviewAllowedOutputs } from '../argsParsers/previewArgsParser';
+import { KotlinAllowedOutputs } from '../argsParsers/kotlinArgsParser';
 
 export interface Association {
   name: string;
@@ -43,17 +44,17 @@ export interface FolderAssociation extends Association {
 }
 
 export interface IconAssociations {
-  [name: string]: IconAssociation
+  [name: string]: IconAssociation;
 }
 
 export interface FolderAssociations {
-  [name: string]: FolderAssociation
+  [name: string]: FolderAssociation;
 }
 
 export interface CommandArgs {
   force?: boolean;
   command: ExamplesFlags;
   account: string;
-  output: WikiAllowedOutputs | PreviewAllowedOutputs;
+  output: WikiAllowedOutputs | PreviewAllowedOutputs | KotlinAllowedOutputs;
   token: string;
 }

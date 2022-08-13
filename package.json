@@ -21,6 +21,7 @@
     "icons_publish": "npm run compile && ts-node ./bin/wiki files -o file",
     "folders_publish": "npm run compile && ts-node ./bin/wiki folders -o file",
     "preview": "npm run compile && ts-node ./bin/preview all -o file",
+    "kotlin": "npm run compile && ts-node ./bin/kotlin all -o file",
     "convert": "npm run convert_icons && npm run convert_folders",
     "convert_icons": "xml2json icon_associations.xml icon_associations.json",
     "convert_folders": "xml2json folder_associations.xml folder_associations.json"

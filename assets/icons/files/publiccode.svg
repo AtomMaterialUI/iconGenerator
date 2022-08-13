@@ -22,7 +22,8 @@
   -  SOFTWARE.
   -->
 
-<svg big="true" width="16px" height="16px" viewBox="0 0 903 1042" fill="#90A4AE" xmlns="http://www.w3.org/2000/svg">
+<svg big="true" width="16px" height="16px" viewBox="0 0 903 1042" fill="#90A4AE" iconColor="Public Code"
+     xmlns="http://www.w3.org/2000/svg">
     <defs>
         <mask id="Mask">
             <path fill="white" id="Polygon"
