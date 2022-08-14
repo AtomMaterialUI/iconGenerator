@@ -52,28 +52,27 @@ export class FoldersKotlinGenerator extends BaseKotlinGenerator {
   }
 
   protected createList(): string {
-    let mdText = 'object FolderIconAssociations {\n';
-    mdText += '  public val icons = mapOf<String, Icon>(\n';
+    let code = 'object FolderIconAssociations {\n';
+    code += '  val icons = mapOf(\n';
     this.logger.log('Starting creating folder icon associations', this.logGroupId);
 
-    // Add lines
     this.folders.forEach(folderAssociation => {
-      mdText += this.getLine(folderAssociation);
+      code += this.getLine(folderAssociation);
     });
 
-    mdText += '  )\n';
-    mdText += '}';
+    code += '  )\n';
+    code += '}';
 
     this.logger.log('Finished creating folder associations', this.logGroupId);
 
-    return mdText;
+    return code;
   }
 
   private getLine(folderAssociation: FolderAssociation) {
-    let mdText = '';
+    let code = '';
 
     const iconName = folderAssociation.name.toUpperCase().replace(/[\s().-]/g, '_');
-    mdText += `"${iconName}" to IconLoader.findIcon("/icons/folders${folderAssociation.icon}", FolderIconAssociations.javaClass)!!,\n`;
-    return mdText;
+    code += `"${iconName}" to loadIcon("/iconGenerator/assets/icons/folders${folderAssociation.icon}"),\n`;
+    return code;
   }
 }

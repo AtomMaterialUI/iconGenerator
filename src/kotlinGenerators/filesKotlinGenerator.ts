@@ -52,28 +52,27 @@ export class FilesKotlinGenerator extends BaseKotlinGenerator {
   }
 
   protected createList(): string {
-    let mdText = 'object IconAssociations {\n';
-    mdText += '  public val icons = mapOf<String, Icon>(\n';
+    let code = 'object FileAssociations {\n';
+    code += '  val icons = mapOf(\n';
     this.logger.log('Starting creating icon associations', this.logGroupId);
 
-    // Add lines
     this.files.forEach(iconAssociation => {
-      mdText += this.getLine(iconAssociation);
+      code += this.getLine(iconAssociation);
     });
 
-    mdText += '  )\n';
-    mdText += '}';
+    code += '  )\n';
+    code += '}';
 
     this.logger.log('Finished creating icon associations', this.logGroupId);
 
-    return mdText;
+    return code;
   }
 
   private getLine(iconAssociation: IconAssociation) {
-    let mdText = '';
+    let code = '';
 
     const iconName = iconAssociation.name.toUpperCase().replace(/[\s().-]/g, '_');
-    mdText += `"${iconName}" to IconLoader.findIcon("${iconAssociation.icon}", IconAssociations.javaClass)!!,\n`;
-    return mdText;
+    code += `"${iconName}" to loadIcon("/iconGenerator/assets/${iconAssociation.icon}"),\n`;
+    return code;
   }
 }
