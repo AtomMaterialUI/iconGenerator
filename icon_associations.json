@@ -13511,7 +13511,7 @@
 				{
 					"fileNames": ".git,.git-submodules,.gitrc",
 					"name": "Git",
-					"iconColor": "D52A29",
+					"iconColor": "E15B39",
 					"url": "https://git-scm.com/",
 					"priority": "10",
 					"iconType": "FILE",
