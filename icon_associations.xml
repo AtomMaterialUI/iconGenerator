@@ -571,7 +571,7 @@
                iconColor="43A047"
                priority="100"
                iconType="FILE"
-               pattern=".*\[._-]routing\.(dart|[tj]s)$"
+               pattern=".*[._-]routing\.(dart|[tj]s)$"
                url="https://angular.io/"
                icon="/icons/files/angularrouting.svg"/>
         <regex fileNames="*.module.js,*.module.ts,*.module.dart"
