@@ -1274,6 +1274,14 @@
         <!--endregion-->
 
         <!--region N-->
+        <regex folderNames="geo,.geo,_geo,navigation,navigate,.navigations,_navigations,.navigate"
+               name="Navigation"
+               folderColor="ff7043"
+               folderIconColor="ffccbc"
+               priority="100"
+               iconType="FOLDER"
+               pattern="[\._]?(geo|navigate|navigations?)"
+               icon="/navigation.svg"/>
         <regex folderNames=".netlify,netlify,_netlify"
                name="Netlify"
                folderColor="00ad9f"
