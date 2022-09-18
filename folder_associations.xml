@@ -67,6 +67,14 @@
                iconType="FOLDER"
                pattern="^[\._]?alacritty$"
                icon="/alacritty.svg"/>
+        <regex folderNames="amplication,.amplication,_amplication"
+               name="Amplication"
+               folderColor="7E57C2"
+               folderIconColor="E1BEE7"
+               priority="100"
+               iconType="FOLDER"
+               pattern="^[\._]?amplication$"
+               icon="/amplication.svg"/>
         <regex folderNames="android,androidApp,.android,_android"
                name="Android"
                folderColor="8bc34a"
