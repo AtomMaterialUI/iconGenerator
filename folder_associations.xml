@@ -465,6 +465,14 @@
                iconType="FOLDER"
                pattern="^[\._]?cubits?$"
                icon="/cubit.svg"/>
+        <regex folderNames="cue.mod"
+               name="Cue"
+               folderColor="1976D2"
+               folderIconColor="BBDEFB"
+               priority="100"
+               iconType="FOLDER"
+               pattern="^cue\.mod$"
+               icon="/cue.svg"/>
         <regex folderNames="custom,.custom,_custom"
                name="Custom"
                folderColor="ff7043"
@@ -1038,6 +1046,14 @@
                iconType="FOLDER"
                pattern="^[\._]?(jsons?|serializers?)$"
                icon="/json.svg"/>
+        <regex folderNames="jwt,.jwt,_jwt"
+               name="JWT"
+               folderColor="D63AFF"
+               folderIconColor="E1BEE7"
+               priority="100"
+               iconType="FOLDER"
+               pattern="^[\._]?jwt$"
+               icon="/jwt.svg"/>
         <!--endregion-->
 
         <!--region K-->
@@ -1788,6 +1804,14 @@
                iconType="FOLDER"
                pattern="^[\._]?(cli|tasks?|commands?|cmd|consoles?|.run|workflows?)$"
                icon="/tasks.svg"/>
+        <regex folderNames="src-tauri,tauri,.tauri,_tauri,.src-tauri"
+               name="Tauri"
+               folderColor="26C6DA"
+               folderIconColor="FFECB3"
+               priority="100"
+               iconType="FOLDER"
+               pattern="^[\._]?(src-)?tauri$"
+               icon="/tauri.svg"/>
         <regex folderNames="tech,.tech,technology,_technology,technologies,.technologies"
                name="Tech"
                folderColor="8a2be2"
