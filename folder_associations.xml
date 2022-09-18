@@ -91,13 +91,13 @@
                iconType="FOLDER"
                pattern="^[\._]?(animations?|anims?)$"
                icon="/animations.svg"/>
-        <regex folderNames="group_vars,host_vars,vars,roles,.group_vars,_roles,_host_vars,.vars"
+        <regex folderNames="group_vars,host_vars,vars,roles,.group_vars,_roles,_host_vars,.vars,_playbooks,playbooks"
                name="Ansible"
                folderColor="ef5350"
                folderIconColor="ffcdd2"
                priority="100"
                iconType="FOLDER"
-               pattern="^[\._]?(group_vars|host_vars|vars|roles)$"
+               pattern="^[\._]?(group_vars|host_vars|vars|roles|playbooks)$"
                icon="/ansible.svg"/>
         <regex folderNames=".api,.apis,.rest,.swagger,api,apis,rest,swagger,_api,_swagger"
                name="Api"
