@@ -393,13 +393,13 @@
                iconType="FOLDER"
                pattern="^[\._]?composer$"
                icon="/composer.svg"/>
-        <regex folderNames="config,conf,settings,.config,.conf,.settings,_config,_conf,_settings"
+        <regex folderNames="config,conf,settings,.config,.conf,.settings,_config,_conf,_settings,configuration,.configuration"
                name="Config"
                folderColor="00ACC1"
                folderIconColor="80DEEA"
                priority="100"
                iconType="FOLDER"
-               pattern="^[\._]?(config|conf|settings)$"
+               pattern="^[\._]?(config|conf(iguration)?|settings)$"
                icon="/config.svg"/>
         <regex folderNames="connect,_connect,connection,.connections,_connections"
                name="Connection"
