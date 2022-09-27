@@ -1,27 +1,25 @@
 <!--
   ~ The MIT License (MIT)
   ~
-  ~ Copyright (c) 2015-2022 Elior "Mallowigi" Boukhobza
+  ~  Copyright (c) 2015-2022 Elior "Mallowigi" Boukhobza
   ~
-  ~ Permission is hereby granted, free of charge, to any person obtaining a copy
-  ~ of this software and associated documentation files (the "Software"), to deal
-  ~ in the Software without restriction, including without limitation the rights
-  ~ to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
-  ~ copies of the Software, and to permit persons to whom the Software is
-  ~ furnished to do so, subject to the following conditions:
+  ~  Permission is hereby granted, free of charge, to any person obtaining a copy
+  ~  of this software and associated documentation files (the "Software"), to deal
+  ~  in the Software without restriction, including without limitation the rights
+  ~  to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+  ~  copies of the Software, and to permit persons to whom the Software is
+  ~  furnished to do so, subject to the following conditions:
   ~
-  ~ The above copyright notice and this permission notice shall be included in all
-  ~ copies or substantial portions of the Software.
+  ~  The above copyright notice and this permission notice shall be included in all
+  ~  copies or substantial portions of the Software.
   ~
-  ~ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
-  ~ IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
-  ~ FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
-  ~ AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
-  ~ LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
-  ~ OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
-  ~ SOFTWARE.
-  ~
-  ~
+  ~  THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+  ~  IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+  ~  FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+  ~  AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+  ~  LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+  ~  OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+  ~  SOFTWARE.
   -->
 
 <associations>
@@ -91,6 +89,14 @@
                iconType="FOLDER"
                pattern="^[\._]?android(App)?$"
                icon="/android.svg"/>
+        <regex folderNames="angular,.angular,_angular,ng,.ng,_ng,ngApp,.ngApp,_ngApp"
+               name="Angular"
+               folderColor="ff5252"
+               folderIconColor="ffcdd2"
+               priority="100"
+               iconType="FOLDER"
+               pattern="^[\._]?(angular|ng(App)?)$"
+               icon="/angular.svg"/>
         <regex folderNames="animation,animations,anims,anim,.anim,_anim,.animations,_animation"
                name="Animations"
                folderColor="ec407a"
@@ -115,6 +121,14 @@
                iconType="FOLDER"
                pattern="^[\._]?(apis?|rest|swagger)$"
                icon="/api.svg"/>
+        <regex folderNames="apollo,.apollo,apollo-client,.apollo-cache,_apollo-config"
+               name="Apollo"
+               folderColor="7e57c2"
+               folderIconColor="d1c4e9"
+               priority="100"
+               iconType="FOLDER"
+               pattern="^[\._]?apollo(-(config|cache|client))?$"
+               icon="/apollo.svg"/>
         <regex folderNames="app,application,apps,applications,.app,.application,_app,_application"
                name="App"
                folderColor="ef5350"
@@ -377,13 +391,21 @@
                iconType="FOLDER"
                pattern="^[\._]?cnab$"
                icon="/cnab.svg"/>
-        <regex folderNames="component,components,widget,widgets,element,elements,ui,.components,_widget,.widgets,.elements,_ui,.ui"
+        <regex folderNames="cobol,.cobol,_cobol"
+               name="Cobol"
+               folderColor="0288d1"
+               folderIconColor="b3e5fc"
+               priority="100"
+               iconType="FOLDER"
+               pattern="^[\._]?cobol$"
+               icon="/cobol.svg"/>
+        <regex folderNames="component,components,widget,widgets,element,elements,ui,.components,_widget,.widgets,.elements,_ui,.ui,directive,.directives,_directives"
                name="Components"
                folderColor="F9A825"
                folderIconColor="FFECB3"
                priority="100"
                iconType="FOLDER"
-               pattern="^[\._]?(components?|widgets?|elements?|ui)$"
+               pattern="^[\._]?(components?|widgets?|elements?|ui|directives?)$"
                icon="/components.svg"/>
         <regex folderNames="composer,.composer,_composer"
                name="Composer"
@@ -425,6 +447,14 @@
                iconType="FOLDER"
                pattern="^[\._]?(contents?|cont|context)$"
                icon="/content.svg"/>
+        <regex folderNames="contract,.contract,_contracts,contracts,pacts,.pact,_pacts"
+               name="Contract"
+               folderColor="448aff"
+               folderIconColor="bbdefb"
+               priority="100"
+               iconType="FOLDER"
+               pattern="^[\._]?(contracts?|pacts?)$"
+               icon="/contract.svg"/>
         <regex folderNames="constant,constants,const,.const,_const,_constant,.constants,enum,_enum,.enums"
                name="Constants"
                folderColor="607D8B"
@@ -813,13 +843,13 @@
                iconType="FOLDER"
                pattern="^[\._]?(gcp|gcloud)$"
                icon="/gcloud.svg"/>
-        <regex folderNames="gen,generated,auto,.gen,_gen,_generated,_auto,.auto,target,.targets,_target"
+        <regex folderNames="gen,generated,auto,.gen,_gen,_generated,_auto,.auto,target,.targets,_target,generator,generators,.generators"
                name="Generated"
                folderColor="EC407A"
                folderIconColor="FCE4EC"
                priority="100"
                iconType="FOLDER"
-               pattern="^[\._]?(gen|generated|auto|targets?)$"
+               pattern="^[\._]?(gen|generated|generators?|auto|targets?)$"
                icon="/generated.svg"/>
         <regex folderNames=".git,.submodules"
                name="Git"
@@ -1499,6 +1529,14 @@
                iconType="FOLDER"
                pattern="^[\._]?quasar$"
                icon="/quasar.svg"/>
+        <regex folderNames="queue,.queue,queues,.queues,_queues,bull,.bull,mq,.mq,_mq"
+               name="Queue"
+               folderColor="039be5"
+               folderIconColor="b3e5fc"
+               priority="100"
+               iconType="FOLDER"
+               pattern="^[\._]?(queues?|bull|mq)$"
+               icon="/queue.svg"/>
         <!-- endregion -->
 
         <!--region R-->
@@ -1606,6 +1644,14 @@
                iconType="FOLDER"
                pattern="^[\._]?reviews?$"
                icon="/reviews.svg"/>
+        <regex folderNames="root,.root,_root"
+               name="Root"
+               folderColor="C792EA"
+               folderIconColor="80CBC4"
+               priority="100"
+               iconType="FOLDER"
+               pattern="^[\._]?root$"
+               icon="/root.svg"/>
         <regex folderNames="routes,router,routing,_routes,.router,.routing"
                name="Routes"
                folderColor="607D8B"
@@ -1697,6 +1743,14 @@
                iconType="FOLDER"
                pattern="^[\._]?(serverless|infra(structure)?)$"
                icon="/serverless.svg"/>
+        <regex folderNames="shader,.shader,shaders,.shaders,_shaders,glsl,.glsl,.hlsl,hlsl"
+               name="Shader"
+               folderColor="AB47BC"
+               folderIconColor="E1BEE7"
+               priority="100"
+               iconType="FOLDER"
+               pattern="^[\._]?(shaders?|glsl|hlsl)$"
+               icon="/shader.svg"/>
         <regex folderNames="shared,common,_shared,.common,_common"
                name="Shared"
                folderColor="66BB6A"
@@ -1844,6 +1898,14 @@
         <!--endregion-->
 
         <!--region T-->
+        <regex folderNames="target,.target,_target,targets,_targets"
+               name="Target"
+               folderColor="4DB6AC"
+               folderIconColor="E0F2F1"
+               priority="100"
+               iconType="FOLDER"
+               pattern="^[\._]?targets?$"
+               icon="/target.svg"/>
         <regex folderNames="cli,task,tasks,command,commands,cmd,console,consoles,.run,.cli,.tasks,_commands,_cli,_consoles,.command,workflows,.workflows,_workflow"
                name="Tasks"
                folderColor="795774"
@@ -1919,6 +1981,14 @@
         <!--endregion-->
 
         <!--region U-->
+        <regex folderNames="unity,.unity,_unity"
+               name="Unity"
+               folderColor="1976d2"
+               folderIconColor="bbdefb"
+               priority="100"
+               iconType="FOLDER"
+               pattern="^[\._]?unity$"
+               icon="/unity.svg"/>
         <regex folderNames="upload,uploads,.uploads,_uploads"
                name="Upload"
                folderColor="ff7043"
@@ -1970,6 +2040,22 @@
                iconType="FOLDER"
                pattern="^[\._]?(venv|virtualenv)$"
                icon="/venv.svg"/>
+        <regex folderNames="vercel,.vercel,_vercel,now,.now,_now"
+               name="Vercel"
+               folderColor="546e7a"
+               folderIconColor="cfd8dc"
+               priority="100"
+               iconType="FOLDER"
+               pattern="^[\._]?(vercel|now)$"
+               icon="/vercel.svg"/>
+        <regex folderNames="verdaccio,.verdaccio,_verdaccio"
+               name="Verdaccio"
+               folderColor="00897b"
+               folderIconColor="b2dfdb"
+               priority="100"
+               iconType="FOLDER"
+               pattern="^[\._]?verdaccio$"
+               icon="/verdaccio.svg"/>
         <regex folderNames="videos,video,movie,movies,.video,_videos,_movie,.movies"
                name="Video"
                folderColor="7986CB"
