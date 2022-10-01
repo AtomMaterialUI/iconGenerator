@@ -8202,20 +8202,20 @@
         <!--endregion-->
 
         <!--region R -->
-        <regex fileNames="*.r,*.rd,*.rsx"
+        <regex fileNames="*.r,*.rd,*.rsx,*.R,*.Rd,*.Rsx"
                name="R"
                iconColor="497CE3"
                priority="100"
                iconType="FILE"
-               pattern=".*\.(r|rd|rsx)$"
+               pattern=".*\.([rR]|[rR]d|[rR]sx)$"
                url="https://www.r-project.org/"
                icon="/icons/files/r.svg"/>
-        <regex fileNames="*.rmd,*.rmarkdown"
+        <regex fileNames="*.rmd,*.rmarkdown,*.Rmd,*.Rmarkdown"
                name="R Markdown"
                iconColor="497CE3"
                priority="100"
                iconType="FILE"
-               pattern=".*\.(rmd|rmarkdown)$"
+               pattern=".*\.([rR]md|[rR]markdown)$"
                url="https://rmarkdown.rstudio.com/"
                icon="/icons/files/rmd.svg"/>
         <regex fileNames="*.rkt,*.rktd,*.rktl,*.scrbl"
