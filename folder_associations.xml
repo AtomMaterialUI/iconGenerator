@@ -994,13 +994,13 @@
                iconType="FOLDER"
                pattern="^[\._]?(icons?|ico|glyphs?|favicons?)$"
                icon="/icons.svg"/>
-        <regex folderNames=".idea,_idea,idea"
+        <regex folderNames=".idea,_idea,idea,META-INF,.META-INF"
                name="idea"
                folderColor="00BCD4"
                folderIconColor="087CFA"
                priority="100"
                iconType="FOLDER"
-               pattern="^[\._]?idea$"
+               pattern="^[\._]?(idea|META-INF)$"
                icon="/idea.svg"/>
         <regex folderNames="image,images,img,medias,media,.images,_img,_media,.medias,pic,.pics,_pictures,gallery,figure,.figures,_figures"
                name="Images"
@@ -1198,6 +1198,14 @@
         <!--endregion-->
 
         <!--region M-->
+        <regex folderNames="main"
+               name="Main"
+               folderColor="42a5f5"
+               folderIconColor="BBDEFB"
+               priority="100"
+               iconType="FOLDER"
+               pattern="^[\._]?main$"
+               icon="/main.svg"/>
         <regex folderNames="mailer,mailers,email,emails,mail,mails,_mailers,_mails,.emails,.mails"
                name="Mail"
                folderColor="42a5f5"
