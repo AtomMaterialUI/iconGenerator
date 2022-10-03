@@ -1200,8 +1200,8 @@
         <!--region M-->
         <regex folderNames="main"
                name="Main"
-               folderColor="42a5f5"
-               folderIconColor="BBDEFB"
+               folderColor="4DB6AC"
+               folderIconColor="E0F2F1"
                priority="100"
                iconType="FOLDER"
                pattern="^[\._]?main$"
