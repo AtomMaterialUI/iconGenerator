@@ -22,9 +22,9 @@
   -  SOFTWARE.
   -->
 
-<svg big="true" fill="#d81b60" iconColor="Turborepo" version="1.1" width="16px" height="16px" viewBox="0 0 24 24"
+<svg big="true" version="1.1" width="16px" height="16px" viewBox="0 0 24 24"
      xmlns="http://www.w3.org/2000/svg">
-    <g transform="translate(-.4 -.49911)">
+    <g transform="translate(-.4 -.49911)" fill="#d81b60" iconColor="Turborepo">
         <path d="m10.786 2.006c-2.4-0.083-4.8 0.666-6.786 2.249l1.324 0.75c1.573-1.167 3.559-1.666 5.462-1.583z"
         />
         <path d="m17.82 5.17c-1.654-1.748-3.806-2.83-6.123-3.08v1.415a9.306 9.306 0 0 1 5.13 2.665l0.994-1z"
