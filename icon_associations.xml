@@ -10994,6 +10994,14 @@
                pattern=".*\.wl[st]?$"
                url="https://www.wolfram.com/language/"
                icon="/icons/files/wolfram.svg"/>
+        <regex fileNames=".woodpecker.yml,.woodpecker.yaml"
+               name="Woodpecker"
+               iconColor="4caf50"
+               priority="100"
+               iconType="FILE"
+               pattern="^\.woodpecker\.ya?ml$"
+               url="https://woodpecker-ci.org/"
+               icon="/icons/files/woodpecker.svg"/>
         <regex fileNames="wp-admin.php,wp-login.php,wp-config.php,wp-env.json,wp-cli.yaml"
                name="Wordpress"
                iconColor="2a7ac9"

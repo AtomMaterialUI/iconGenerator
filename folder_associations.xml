@@ -2220,6 +2220,14 @@
                iconType="FOLDER"
                pattern="^[\._]?woocommerce$"
                icon="/woocommerce.svg"/>
+        <regex folderNames="woodpecker,.woodpecker,_woodpecker"
+               name="Woodpecker"
+               folderColor="4caf50"
+               folderIconColor="e8f5e9"
+               priority="100"
+               iconType="FOLDER"
+               pattern="^[\._]?woodpecker$"
+               icon="/woodpecker.svg"/>
         <regex folderNames="wp-admin,wp-content,wp-includes,.wp-admin,_wp-content,.wp-includes"
                name="WordPress"
                folderColor="21759b"
