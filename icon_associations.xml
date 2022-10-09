@@ -6633,7 +6633,7 @@
                icon="/icons/files/nestprovider.svg"/>
         <regex fileNames="*.repository.js,*.repository.ts"
                name="Nest Repository"
-               iconColor="81C784"
+               iconColor="F06292"
                url="https://nestjs.com/"
                priority="100"
                iconType="FILE"
