@@ -418,6 +418,14 @@
                pattern="\.alexignore$"
                url="https://alexjs.com/"
                icon="/icons/files/alexignore.svg"/>
+        <regex fileNames=".allcontributorsrc,.all-contributorsrc"
+               name="All Contributors"
+               iconColor="b1abea"
+               priority="100"
+               iconType="FILE"
+               pattern="^\.all-?contributorsrc$"
+               url="https://allcontributors.org/"
+               icon="/icons/files/allcontributors.svg"/>
         <regex fileNames="*.als"
                name="Alloy"
                iconColor="9575CD"
