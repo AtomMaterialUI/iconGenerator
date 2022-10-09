@@ -6631,6 +6631,14 @@
                iconType="FILE"
                pattern=".*\.provider\.[tj]s$"
                icon="/icons/files/nestprovider.svg"/>
+        <regex fileNames="*.repository.js,*.repository.ts"
+               name="Nest Repository"
+               iconColor="81C784"
+               url="https://nestjs.com/"
+               priority="100"
+               iconType="FILE"
+               pattern=".*\.repository\.[tj]s$"
+               icon="/icons/files/nestrepository.svg"/>
         <regex fileNames="*.schema.js,*.schema.ts"
                name="Nest Schema"
                iconColor="81C784"
