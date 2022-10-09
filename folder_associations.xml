@@ -1479,6 +1479,14 @@
                iconType="FOLDER"
                pattern="^\.pio(envs?)?$"
                icon="/platformio.svg"/>
+        <regex folderNames="playwright,pw,.pw,_playwright"
+               name="Playwright"
+               folderColor="4CAF50"
+               folderIconColor="A5D6A7"
+               priority="100"
+               iconType="FOLDER"
+               pattern="^[\._]?(pw|playwright)$"
+               icon="/playwright.svg"/>
         <regex folderNames="plugin,plugins,mu-plugins,extension,extensions,.plugin,.plugins,_plugins,.extension,.extensions"
                name="Plugins"
                folderColor="00796B"
