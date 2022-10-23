@@ -9898,7 +9898,7 @@
                iconType="FILE"
                pattern=".*\.(c|gem|hg|local)?tags$"
                icon="/icons/files/version.svg"/>
-        <regex fileNames="*.tags,*.ctags,*.gemtags,*.hgtags,*.localtags"
+        <regex fileNames="*.pid,*.tld,*.sha,*.sha256,*.shasum"
                name="Tags (2)"
                iconColor="80CBC4"
                priority="100"
@@ -9953,13 +9953,13 @@
                iconType="FILE"
                pattern=".*\.(tl|xps)$"
                icon="/icons/files/telegram.svg"/>
-        <regex fileNames="*.tt,*.tt2,*.tt3,*.tt4"
+        <regex fileNames="*.tt,*.tt2,*.tt3,*.tt4,*.ttml"
                name="Template Toolkit"
                iconColor="3BAAF0"
                url="http://www.template-toolkit.org/"
                priority="100"
                iconType="FILE"
-               pattern=".*\.tt[234]?$"
+               pattern=".*\.tt([234]|ml)?$"
                icon="/icons/files/tt.svg"/>
         <regex fileNames="*.tera"
                name="Tera"
@@ -9975,7 +9975,7 @@
                url="https://www.terraform.io/"
                priority="100"
                iconType="FILE"
-               pattern=".*\.(tf|tfstate|tfvars)(\.json)?$"
+               pattern=".*\.tf(state|vars|plan|ignore)?(\.json)?$"
                icon="/icons/files/terraform.svg"/>
         <regex fileNames="*.terserrc,*.uglifyrc.json,*.terserrc.conf"
                name="Terser"
