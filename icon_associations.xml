@@ -11066,7 +11066,7 @@
                iconType="FILE"
                pattern=".*\.wurst$"
                icon="/icons/files/wurst.svg"/>
-        <regex fileNames="*.wxss,*.wxs,*.wxml"
+        <regex fileNames="*.wxss"
                name="WeiXin Styles"
                iconColor="29a8de"
                url="https://developers.weixin.qq.com/"
@@ -11101,13 +11101,13 @@
                pattern=".*\.x10"
                url="http://x10-lang.org/"
                icon="/icons/files/x10.svg"/>
-        <regex fileNames=".Xauthority,.Xclients,.Xinitrc,.Xinputrc,.Xprofile,.Xresources,.Xscreensaver"
+        <regex fileNames=".Xauthority,.Xclients,.Xinitrc,.Xinputrc,.Xprofile,.Xresources,.Xscreensaver,.Xsession,.Xusers"
                name="X11"
                iconColor="ed4f1a"
                url="https://en.wikipedia.org/wiki/X_Window_System"
                priority="100"
                iconType="FILE"
-               pattern="^\.X(authority|clients|initrc|inputrc|profile|resources|session-errors|screensaver)$"
+               pattern="^\.X(authority|clients|initrc|inputrc|profile|resources|session-errors|screensaver|users|session)$"
                icon="/icons/files/x11.svg"/>
         <regex fileNames=".workbook"
                name="Xamarin"
@@ -11139,7 +11139,7 @@
                url="https://developer.apple.com/xcode/"
                priority="100"
                iconType="FILE"
-               pattern=".*\.xc(playground|workspace|workspacedata|plugindata|checkout|scheme|settings|userstate)$"
+               pattern=".*\.xc.*$"
                icon="/icons/files/appstore.svg"/>
         <regex fileNames="*.mode1v3,*.mode3v3"
                name="XCode Mode v3"
