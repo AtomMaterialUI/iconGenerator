@@ -7838,7 +7838,7 @@
                icon="/icons/files/pony.svg"/>
         <regex fileNames="*.pgsql"
                name="PostgreSQL"
-               iconColor="31648c"
+               iconColor="0da8e8"
                url="https://www.postgresql.org/"
                priority="100"
                iconType="FILE"
@@ -9561,13 +9561,13 @@
                pattern=".*\.[hs]qf$"
                url="https://codelani.com/languages/status-quo-function.html"
                icon="/icons/files/sqf.svg"/>
-        <regex fileNames="*.sql,*.pdb,*.pgsql,*.mysql,*.hql,*.qml,*.psql,*.pkb,*.xql,*.xq,*.xqm,*.xqy,*.cql,*.prc,*.viw"
+        <regex fileNames="*.sql,*.pdb,*.mysql,*.hql,*.qml,*.psql,*.pkb,*.xql,*.xq,*.xqm,*.xqy,*.cql,*.prc,*.viw"
                name="SQL"
                iconColor="39ADB5"
                url="https://en.wikipedia.org/wiki/SQL"
                priority="100"
                iconType="FILE"
-               pattern=".*\.(sql|pdb|pgsql|mysql|hql|qml|psql|pkb|xql|xq|xqm|xqy|cql|prc|viw)$"
+               pattern=".*\.(sql|pdb|mysql|hql|qml|psql|pkb|xql|xq|xqm|xqy|cql|prc|viw)$"
                icon="/icons/files/sql.svg"/>
         <regex fileNames="*.sqlite,*.sqlite3"
                name="SQLite"
