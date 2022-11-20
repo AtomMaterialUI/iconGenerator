@@ -10615,13 +10615,13 @@
                iconType="FILE"
                pattern="^(VERSION|version)$"
                icon="/icons/files/version.svg"/>
-        <regex fileNames="*.vhdl,*.vhd,*.vhf,*.vhi,*.vho,*.vhs,*.vht,*.vhw,*.sv"
+        <regex fileNames="*.vhdl,*.vhd,*.vhf,*.vhi,*.vho,*.vhs,*.vht,*.vhw"
                name="VHDL"
                iconColor="7A8387"
                url="https://en.wikipedia.org/wiki/VHDL"
                priority="100"
                iconType="FILE"
-               pattern=".*\.(vhdl|vh[dfiostw]|sv)$"
+               pattern=".*\.(vhdl|vh[dfiostw])$"
                icon="/icons/files/vhdl.svg"/>
         <regex fileNames="*.vim,*.viml,*.vimrc,*.gvimrc"
                name="Vim"
