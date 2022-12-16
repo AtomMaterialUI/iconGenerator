@@ -1492,13 +1492,13 @@
         <!--endregion-->
 
         <!--region O-->
-        <regex folderNames="other,misc,extra,extras,.other,_other,_misc,.misc,_extra,.extras"
+        <regex folderNames="other,misc,extra,extras,.other,_other,_misc,.misc,_extra,.extras,etc,.etc,_etc"
                name="Other"
                folderColor="795548"
                folderIconColor="BCAAA4"
                priority="100"
                iconType="FOLDER"
-               pattern="^[\._]?(other|misc|extras?)$"
+               pattern="^[\._]?(other|misc|extras?|etc)$"
                icon="/other.svg"/>
         <!--endregion-->
 
@@ -2281,6 +2281,14 @@
                iconType="FOLDER"
                pattern="^[\._]?vs$"
                icon="/vs.svg"/>
+        <regex folderNames="vitepress,.vitepress,_vitepress"
+               name="Vitepress"
+               folderColor="009688"
+               folderIconColor="C8E6C9"
+               priority="100"
+               iconType="FOLDER"
+               pattern="^[\._]?vitepress$"
+               icon="/vitepress.svg"/>
         <regex folderNames="vscode,.vscode,_vscode,.vscode-test,vscode-test"
                name="VSCode"
                folderColor="42A5F5"
