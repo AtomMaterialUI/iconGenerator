@@ -785,6 +785,14 @@
                iconType="FOLDER"
                pattern="^[\._]?(fastlane)$"
                icon="/fastlane.svg"/>
+        <regex folderNames="faq,faqs,.faq,_faqs"
+               name="FAQ"
+               folderColor="ffab00"
+               folderIconColor="ffe57f"
+               priority="100"
+               iconType="FOLDER"
+               pattern="^[\._]?faqs?$"
+               icon="/faq.svg"/>
         <regex folderNames="feature,features,feat,feats,.feature,_feat,_feats,.feats"
                name="Features"
                folderColor="ef5350"
@@ -1018,6 +1026,14 @@
                iconType="FOLDER"
                pattern="^[\._]?(inc(ludes?)?|imports?|imported|input|concerns?|deps?|dependencies)$"
                icon="/include.svg"/>
+        <regex folderNames="info,.info,_info,infos,.infos,_infos,information,.information,_information"
+               name="Info"
+               folderColor="00b0ff"
+               folderIconColor="b3e5fc"
+               priority="100"
+               iconType="FOLDER"
+               pattern="^[\._]?(infos?|informations?)$"
+               icon="/info.svg"/>
         <regex folderNames="init,initializers,initializer,startup,.init,_initializers,.startup,.initializer"
                name="Init"
                folderColor="9575CD"
@@ -1358,6 +1374,14 @@
                iconType="FOLDER"
                pattern="^[\._]?mongo(db)?$"
                icon="/mongo.svg"/>
+        <regex folderNames="moon,.moon,_moon"
+               name="Moon"
+               folderColor="6e58d1"
+               folderIconColor="A596F6"
+               priority="100"
+               iconType="FOLDER"
+               pattern="^[\._]?moon$"
+               icon="/moon.svg"/>
         <!--endregion-->
 
         <!--region N-->
@@ -2054,13 +2078,13 @@
                iconType="FOLDER"
                pattern="^[\._]?(uploads?|updates?|updated|upgrades?)$"
                icon="/upload.svg"/>
-        <regex folderNames="user,users,member,members,friend,friends,partner,partners,.users,.roles,_partners,_members,.friend,_friends"
+        <regex folderNames="user,users,member,members,friend,friends,partner,partners,.users,.roles,_partners,_members,.friend,_friends,contact,contacts,.contact,_contacts"
                name="Users"
                folderColor="ec407a"
                folderIconColor="f8bbd0"
                priority="100"
                iconType="FOLDER"
-               pattern="^[\._]?(users?|members?|friends?|partners?|roles?)$"
+               pattern="^[\._]?(users?|members?|friends?|partners?|roles?|contacts?)$"
                icon="/users.svg"/>
         <regex folderNames="util,utils,tool,tools,.util,_utils,_tools,.tools,utility,.utility,utilities,_utilities"
                name="Utils"

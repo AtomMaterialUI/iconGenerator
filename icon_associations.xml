@@ -6356,6 +6356,14 @@
                pattern=".*\.moon$"
                url="https://moonscript.org/"
                icon="/icons/files/moonscript.svg"/>
+        <regex fileNames="moon.yml,moon.yaml"
+               name="Moon"
+               iconColor="6e58d1"
+               priority="100"
+               iconType="FILE"
+               pattern="^moon\.ya?ml$"
+               url="https://moonrepo.dev/"
+               icon="/icons/files/moon.svg"/>
         <regex fileNames="mootools.js,mootools.min.js,mootools-nocompat.cjs"
                name="Mootools"
                iconColor="6c788e"
