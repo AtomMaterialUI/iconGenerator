@@ -1597,6 +1597,14 @@
                iconType="FOLDER"
                pattern="^[\._]?redis$"
                icon="/redis.svg"/>
+        <regex folderNames="redwood,.redwood,_redwood"
+               name="RedwoodJS"
+               folderColor="BF360C"
+               folderIconColor="FFCCBC"
+               priority="100"
+               iconType="FOLDER"
+               pattern="^[\._]?redwood$"
+               icon="/redwood.svg"/>
         <regex folderNames="coil,recoil,.coil,_recoil"
                name="Recoil"
                folderColor="42A5F5"
