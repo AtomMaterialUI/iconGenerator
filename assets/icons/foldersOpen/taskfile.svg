@@ -1,4 +1,4 @@
-<!--
+<?xml version="1.0" encoding="UTF-8"?><!--
   - The MIT License (MIT)
   -
   -  Copyright (c) 2015-2022 Elior "Mallowigi" Boukhobza
@@ -22,7 +22,13 @@
   -  SOFTWARE.
   -->
 
-<svg big="true" width="16px" height="16px" viewBox="0 0 32 32" xmlns="http://www.w3.org/2000/svg">
-    <path fill="#4DD0E1" iconColor="GameMaker"
-          d="M16.011,2h0L30,16h0c-2.7,0-5.394.005-8.09,0q0,4.056,0,8.112C19.95,26.077,17.982,28.034,16.025,30h0L2,16.008H2ZM10.12,16.008,16.009,21.9q0-2.949,0-5.9c1.96,0,3.92.005,5.88,0-1.949-1.973-3.92-3.925-5.878-5.888Q13.064,13.058,10.12,16.008Z"/>
+<svg big="true" width="16px" height="16px" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 500">
+    <path fill="#168e80" folderColor="Taskfile" transform="scale(20)"
+          d="M20,18H4V8H20M20,6H12L10,4H4C2.89,4 2,4.89 2,6V18A2,2 0 0,0 4,20H20A2,2 0 0,0 22,18V8C22,6.89 21.1,6 20,6Z"/>
+
+    <g fill="#69d2c8" folderIconColor="Taskfile">
+        <path d="M350.15,323.68v121.99l-104.39-63.27v-122l104.39,63.27Z"/>
+        <path d="M350.15,323.68v121.99l104.39-63.27v-122l-104.39,63.27Z"/>
+        <path d="M350.15,323.68l-104.39-63.27,104.39-63.27,104.39,63.27-104.39,63.27Z"/>
+    </g>
 </svg>

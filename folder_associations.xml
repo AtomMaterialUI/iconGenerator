@@ -26,6 +26,14 @@
 <associations>
     <associations>
         <!--region A-->
+        <regex folderNames=".acf,acf,_acf,.acf-json"
+               name="ACF"
+               folderColor="00ad9f"
+               folderIconColor="A7FFEB"
+               priority="100"
+               iconType="FOLDER"
+               pattern="^[\._]?acf(-json)?$"
+               icon="/acf.svg"/>
         <regex folderNames=".acre,acre,_acre"
                name="Acre"
                folderColor="5C6BC0"
@@ -983,6 +991,14 @@
                iconType="FOLDER"
                pattern="^[\._]?haxe(lib|_libraries)?$"
                icon="/haxelib.svg"/>
+        <regex folderNames="helm,.helm,_helm,helmcharts,.helmcharts,_helmcharts,chart,charts,.charts,_charts"
+               name="Helm"
+               folderColor="0288d1"
+               folderIconColor="B2EBF2"
+               priority="100"
+               iconType="FOLDER"
+               pattern="^[\._]?(helm|charts?|helmcharts?)$"
+               icon="/helm.svg"/>
         <regex folderNames="helper,helpers,help,.help,_help,.helpers"
                name="Helpers"
                folderColor="afb42b"
@@ -1467,8 +1483,8 @@
                icon="/nuget.svg"/>
         <regex folderNames="nuxt,.nuxt,_nuxt"
                name="Nuxt"
-               folderColor="546e7a"
-               folderIconColor="41b883"
+               folderColor="009688"
+               folderIconColor="80eec0"
                priority="100"
                iconType="FOLDER"
                pattern="[\._]?nuxt$"
@@ -1642,6 +1658,14 @@
                iconType="FOLDER"
                pattern="^[\._]?(quantum|qtn)$"
                icon="/quantum.svg"/>
+        <regex folderNames="query,queries,.query,_query,_queries"
+               name="Queries"
+               folderColor="00BFA5"
+               folderIconColor="A7FFEB"
+               priority="100"
+               iconType="FOLDER"
+               pattern="^[\._]?(query|queries)$"
+               icon="/queries.svg"/>
         <regex folderNames="queue,.queue,queues,.queues,_queues,bull,.bull,mq,.mq,_mq"
                name="Queue"
                folderColor="039be5"
@@ -1741,13 +1765,13 @@
                iconType="FOLDER"
                pattern="^[\._]?relay$"
                icon="/relay.svg"/>
-        <regex folderNames="resolver,resolvers,.resolver,_resolvers"
+        <regex folderNames="resolver,resolvers,.resolver,_resolvers,value,.value,_value,values,.values"
                name="Resolvers"
                folderColor="43a047"
                folderIconColor="c8e6c9"
                priority="100"
                iconType="FOLDER"
-               pattern="^[\._]?resolvers?$"
+               pattern="^[\._]?(resolvers?|values?)$"
                icon="/resolver.svg"/>
         <regex folderNames="res,resource,resources,asset,assets,.res,_res,_resources,.assets,_assets,report,reports,.reports,_report"
                name="Resources"
@@ -1896,13 +1920,13 @@
                iconType="FOLDER"
                pattern="^[\._]?(src|sources?|code|buildSrc)$"
                icon="/src.svg"/>
-        <regex folderNames="sql,mysql,pgsql,maria,.sql,_sql,_mysql,.pgsql,.maria,_mariadb,query,queries"
+        <regex folderNames="sql,mysql,pgsql,maria,.sql,_sql,_mysql,.pgsql,.maria,_mariadb"
                name="SQL"
                folderColor="0288D1"
                folderIconColor="b2dfdb"
                priority="100"
                iconType="FOLDER"
-               pattern="^[\._]?(sql|mysql|pgsql|maria(db)?|query|queries)$"
+               pattern="^[\._]?(sql|mysql|pgsql|maria(db)?)$"
                icon="/sql.svg"/>
         <regex folderNames="sso.sso,_sso"
                name="SSO"
@@ -1944,6 +1968,14 @@
                iconType="FOLDER"
                pattern="^[\._]?(stories|storybooks?|__stories__)$"
                icon="/storybook.svg"/>
+        <regex folderNames="storyblok,storybloks,.storyblok,_storyblok"
+               name="Storyblok"
+               folderColor="00838F"
+               folderIconColor="B2EBF2"
+               priority="100"
+               iconType="FOLDER"
+               pattern="^[\._]?storybloks?$"
+               icon="/storyblok.svg"/>
         <regex folderNames="strategy,strategies,_strategy,.strategies,.strategy,_strategy"
                name="Strategy"
                folderColor="1976d2"
@@ -2043,6 +2075,14 @@
                iconType="FOLDER"
                pattern="^[\._]?(cli|tasks?|commands?|cmd|consoles?|.run|workflows?|tickets?)$"
                icon="/tasks.svg"/>
+        <regex folderNames="taskfile,taskfiles,.taskfile,_taskfile,_taskfiles"
+               name="Taskfile"
+               folderColor="168e80"
+               folderIconColor="69d2c8"
+               priority="100"
+               iconType="FOLDER"
+               pattern="^[\._]?(taskfiles?)$"
+               icon="/taskfile.svg"/>
         <regex folderNames="src-tauri,tauri,.tauri,_tauri,.src-tauri"
                name="Tauri"
                folderColor="26C6DA"
