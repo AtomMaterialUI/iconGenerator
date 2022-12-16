@@ -2120,6 +2120,22 @@
                pattern="^(codeowners|CODEOWNERS)$"
                url="https://github.blog/2017-07-06-introducing-code-owners/"
                icon="/icons/files/codeowners.svg"/>
+        <regex fileNames="sandbox.config.json"
+               name="CodeSandbox"
+               iconColor="455A64"
+               url="https://codesandbox.io/"
+               priority="100"
+               iconType="FILE"
+               pattern="^sandbox\.config\.json$"
+               icon="/icons/files/codesandbox.svg"/>
+        <regex fileNames="sandbox.config.json"
+               name="CodeSandbox Dark"
+               iconColor="F5F5F5"
+               url="https://codesandbox.io/"
+               priority="101"
+               iconType="FILE"
+               pattern="^sandbox\.config\.json$"
+               icon="/icons/files/codesandbox.svg"/>
         <regex fileNames="codeship-services.yml,codeship-steps.yml"
                name="CodeShip"
                iconColor="42A5F5"
@@ -3239,6 +3255,14 @@
                iconType="FILE"
                pattern="\.compilerc(\.json)?$"
                icon="/icons/files/electron.svg"/>
+        <regex fileNames="*.electron.js,*.electron.ts,*.electron.jsx,*.electron.tsx,*.electron.mjs,*.electron.cjs"
+               name="Electron Files"
+               iconColor="26C6DA"
+               url="https://www.electronjs.org/"
+               priority="100"
+               iconType="FILE"
+               pattern=".*\.electron\.([cm]?jsx?|tsx?)$"
+               icon="/icons/files/electronfiles.svg"/>
         <regex fileNames="*.asar"
                name="Electron ASAR"
                iconColor="A1887F"
@@ -5048,6 +5072,14 @@
                iconType="FILE"
                pattern=".*\.(janet|jpm)$"
                icon="/icons/files/janet.svg"/>
+        <regex fileNames="japafile.js,japafile.cjs,japafile.mjs,japafile.ts"
+               name="Japa"
+               iconColor="DB2777"
+               url="https://japa.dev/docs/"
+               priority="100"
+               iconType="FILE"
+               pattern="^japa[Ff]ile(\.[cm]?js|ts)?$"
+               icon="/icons/files/japa.svg"/>
         <regex fileNames="jasmine.json,jasmine.js,jasmine.config.ts,jasmine.dev.coffee"
                name="Jasmine"
                iconColor="BA68C8"
@@ -7476,6 +7508,14 @@
                iconType="FILE"
                pattern=".*\.pan$"
                icon="/icons/files/pan.svg"/>
+        <regex fileNames="*.palette,*.pal,*.gpl,*.aco,*.act,*.skp,*.soc,*.ase,*.cpl"
+               name="Palette"
+               iconColor="42A5F5"
+               url="https://sk1project.net/palettes/"
+               priority="100"
+               iconType="FILE"
+               pattern=".*\.(palette|pal|gpl|aco|act|skp|soc|ase|cpl)$"
+               icon="/icons/files/palette.svg"/>
         <regex fileNames="*.psc,*.pex"
                name="Papyrus"
                iconColor="97bc0c"
@@ -7732,6 +7772,14 @@
                iconType="FILE"
                pattern=".*\.pine(script)?$"
                icon="/icons/files/pinescript.svg"/>
+        <regex fileNames="*.pinia.js,*.pinia.ts,*.pinia.mjs,*.pinia.cjs"
+               name="Pinia"
+               iconColor="ecb732"
+               url="https://pinia.vuejs.org/"
+               priority="100"
+               iconType="FILE"
+               pattern=".*\.pinia\.([cm]?js|ts)$"
+               icon="/icons/files/pinia.svg"/>
         <regex fileNames="Pipfile,pipfile,*.pipfile,*.Pipfile"
                name="Pipfile"
                iconColor="66BB6A"
@@ -8279,6 +8327,14 @@
                iconType="FILE"
                pattern="^quasar\.conf\.[cm]?js$"
                icon="/icons/files/quasar.svg"/>
+        <regex fileNames="*.qtn"
+               name="Quantum"
+               iconColor="90A4AE"
+               url="https://www.photonengine.com/en-US/Quantum"
+               priority="100"
+               iconType="FILE"
+               pattern=".*\.qtn$"
+               icon="/icons/files/quantum.svg"/>
         <!--endregion-->
 
         <!--region R -->
@@ -8490,6 +8546,14 @@
                iconType="FILE"
                pattern=".*\.rbs$"
                icon="/icons/files/rbs.svg"/>
+        <regex fileNames="Steepfile,rbs_collection.yaml"
+               name="RBS Config"
+               iconColor="f44336"
+               url="https://github.com/ruby/rbs"
+               priority="1"
+               iconType="FILE"
+               pattern="(Steepfile|rbs_collection\.ya?ml)$"
+               icon="/icons/files/rbsconfig.svg"/>
         <regex fileNames="*.RData,*.rds,*.rdx"
                name="RData"
                iconColor="dc353b"
@@ -9314,6 +9378,22 @@
                iconType="FILE"
                pattern=".*\.sy$"
                icon="/icons/files/siyuan.svg"/>
+        <regex fileNames=".size-limit.json"
+               name="SizeLimit"
+               iconColor="FFAB00"
+               url="https://github.com/ai/size-limit"
+               priority="100"
+               iconType="FILE"
+               pattern="^\.size-limit\.json$"
+               icon="/icons/files/sizelimit.svg"/>
+        <regex fileNames=".size-limit.json,.size-limit.js,.size-limit.ts,.size-limit.cjs,.size-limit.mjs"
+               name="SizeLimit Dark"
+               iconColor="FFD600"
+               url="https://github.com/ai/size-limit"
+               priority="101"
+               iconType="FILE"
+               pattern="^\.size-limit\.(json|[cm]?js|ts)$"
+               icon="/icons/files/sizelimit.svg"/>
         <regex fileNames="*.sketch"
                name="Sketch"
                iconColor="E99727"
@@ -9937,6 +10017,14 @@
                iconType="FILE"
                pattern="^symfony\.lock$"
                icon="/icons/files/symfony.svg"/>
+        <regex fileNames=".service,.target,.automount,.device,.mount,.path,.scope,.snapshot,.socket,.slice,.timer,.link,.netdev,.network,.rule,.d"
+               name="SystemD"
+               iconColor="30D475"
+               url="https://systemd.io/"
+               priority="100"
+               iconType="FILE"
+               pattern="^\.(service|target|automount|device|mount|path|scope|snapshot|socket|slice|timer|link|netdev|netword|rule|d)$"
+               icon="/icons/files/systemd.svg"/>
         <!--endregion-->
 
         <!--region T -->
@@ -10831,6 +10919,14 @@
                iconType="FILE"
                pattern="^vue\.config\.[cm]?js$"
                icon="/icons/files/vueconfig.svg"/>
+        <regex fileNames="vuepress.config.js,vuepress.config.ts,vuepress.config.mjs,vuepress.config.cjs"
+               name="Vuepress"
+               iconColor="81c784"
+               url="https://v2.vuepress.vuejs.org/"
+               priority="100"
+               iconType="FILE"
+               pattern="^vuepress\.config\.([cm]?js|ts)$"
+               icon="/icons/files/vuepress.svg"/>
         <regex fileNames=".vuerc"
                name="Vue RC"
                iconColor="009688"
