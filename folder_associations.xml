@@ -1090,6 +1090,14 @@
                iconType="FOLDER"
                pattern="^[\._]?(init|initializers?|startup)$"
                icon="/init.svg"/>
+        <regex folderNames="injection,_injection,injections,.injections,di,.di,_di,injector,.injector,_injector"
+               name="Injection"
+               folderColor="00BCD4"
+               folderIconColor="087CFA"
+               priority="100"
+               iconType="FOLDER"
+               pattern="^[\._]?(injections?|di|injector)$"
+               icon="/injection.svg"/>
         <regex folderNames=".nyc,.nyc-output,.nyc_output"
                name="Istanbul"
                folderColor="FFB300"
