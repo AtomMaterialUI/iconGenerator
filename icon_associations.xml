@@ -42,7 +42,7 @@
                icon="/icons/files/architecture.svg"/>
         <regex fileNames="main.yml,workflow.yaml,ci.yaml,config.yml"
                name="GitHub Actions"
-               priority="1000"
+               priority="1001"
                iconType="FILE"
                pattern="(main|workflow|ci|release|build|config)\.ya?ml$"
                iconColor="497CE3"
@@ -166,6 +166,13 @@
                pattern=".*[bB]undle\.kt$"
                iconColor="497CE3"
                icon="/icons/files/i18nKotlin.svg"/>
+        <regex fileNames=".github/settings.yml,.github/workflows/quality-checks.yml"
+               name="GitHub Files"
+               priority="1000"
+               iconType="FILE"
+               pattern=".*\.github/.*\.yml$"
+               iconColor="497CE3"
+               icon="/icons/files/github.svg"/>
         <!-- endregion -->
 
         <!--region 0-9 -->
