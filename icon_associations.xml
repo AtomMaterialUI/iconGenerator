@@ -4780,13 +4780,13 @@
                iconType="FILE"
                pattern=".*\.huskyrc(\.[cm]?js|\.json|\.ya?ml)?$"
                icon="/icons/files/husky.svg"/>
-        <regex fileNames="pre-commit,post-commit,pre-push,post-push,pre-merge,post-merge"
+        <regex fileNames="applypatch-msg,pre-applypatch,post-applypatch,pre-commit,pre-merge-commit,prepare-commit-msg,commit-msg,post-commit,pre-rebase,post-checkout,post-merge,pre-push,pre-receive,update,proc-receive,post-receive,post-update,reference-transaction,push-to-checkout,pre-auto-gc,post-rewrite,sendemail-validate,fsmonitor-watchman,p4-changelist,p4-prepare-changelist,p4-post-changelist,p4-pre-submit,post-index-change"
                name="Husky Hooks"
                iconColor="64B5F6"
                url="https://typicode.github.io/husky/#/"
                priority="100"
                iconType="FILE"
-               pattern="^(pre|post)-(checkout|commit|merge|rebase|push)(\.sh)?"
+               pattern="^((pre|post)-(applypatch|commit)|applypatch-msg|(prepare-)?commit-msg|(pre|post|proc)-receive|(post-)?update|p4-(((prepare|post)-)?changelist|pre-submit)|fsmonitor-watchman|(push-to|post)-checkout|reference-transaction|sendemail-validate|post-(index-change|merge|rewrite)|pre-(auto-gc|merge-commit|push|rebase))(\.sh)?$"
                icon="/icons/files/huskyhooks.svg"/>
         <regex fileNames="*.hy"
                name="HY"
