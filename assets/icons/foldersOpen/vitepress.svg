@@ -22,7 +22,22 @@
   -  SOFTWARE.
   -->
 
-<svg big="true" width="16px" height="16px" viewBox="0 0 32 32" xmlns="http://www.w3.org/2000/svg">
-    <path fill="#4DD0E1" iconColor="GameMaker"
-          d="M16.011,2h0L30,16h0c-2.7,0-5.394.005-8.09,0q0,4.056,0,8.112C19.95,26.077,17.982,28.034,16.025,30h0L2,16.008H2ZM10.12,16.008,16.009,21.9q0-2.949,0-5.9c1.96,0,3.92.005,5.88,0-1.949-1.973-3.92-3.925-5.878-5.888Q13.064,13.058,10.12,16.008Z"/>
+<svg big="true" width="16px" height="16px" clip-rule="evenodd" fill-rule="evenodd" stroke-linejoin="round"
+     stroke-miterlimit="1.414" viewBox="0 0 24 24"
+     xmlns="http://www.w3.org/2000/svg">
+    <defs>
+        <mask id="Mask">
+            <path d="M14.924 9.185a1.5 1.5 0 0 0-1.5 1.5v9a1.5 1.5 0 0 0 1.5 1.5h7a1.5 1.5 0 0 0 1.5-1.5v-9a1.5 1.5 0 0 0-1.5-1.5z"
+                  fill="white" transform="translate(.31 -.414)"/>
+            <path d="M16.4 10.4v5.2h1.6v4.3l3.8-5.7h-2.2l2.2-3.8H16.4z" fill="black"/>
+        </mask>
+    </defs>
+    <path fill="#009688" folderColor="Vitepress"
+          d="M20,18H4V8H20M20,6H12L10,4H4C2.89,4 2,4.89 2,6V18A2,2 0 0,0 4,20H20A2,2 0 0,0 22,18V8C22,6.89 21.1,6 20,6Z"/>
+
+    <g mask="url(#Mask)">
+        <path d="M14.924 9.185a1.5 1.5 0 0 0-1.5 1.5v9a1.5 1.5 0 0 0 1.5 1.5h7a1.5 1.5 0 0 0 1.5-1.5v-9a1.5 1.5 0 0 0-1.5-1.5z"
+              fill="#C8E6C9" transform="translate(.31 -.414)" folderIconColor="Vitepress"/>
+        <path d="M16.4 10.4v5.2h1.6v4.3l3.8-5.7h-2.2l2.2-3.8H16.4z" fill="#009688"/>
+    </g>
 </svg>
