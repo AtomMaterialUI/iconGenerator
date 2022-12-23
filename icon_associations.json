@@ -3264,7 +3264,7 @@
 					"fileNames": "*.dwl",
 					"name": "Dataweave",
 					"iconColor": "049cd8",
-					"url": "https://dataweave.com/",
+					"url": "https://docs.mulesoft.com/dataweave/1.0/",
 					"priority": "100",
 					"iconType": "FILE",
 					"pattern": ".*\\.dwl$",
@@ -3291,13 +3291,13 @@
 					"icon": "/icons/files/dbase.svg"
 				},
 				{
-					"fileNames": "*.deb,*.dsc,*.control",
+					"fileNames": "*.deb,*.udeb,*.dsc,*.control",
 					"name": "Debian",
 					"iconColor": "d0094d",
 					"url": "https://www.debian.org/",
 					"priority": "100",
 					"iconType": "FILE",
-					"pattern": ".*\\.(deb|dsc|control)$",
+					"pattern": ".*\\.(deb|udeb|dsc|control)$",
 					"icon": "/icons/files/debian.svg"
 				},
 				{
@@ -3321,13 +3321,13 @@
 					"icon": "/icons/files/deepsource.svg"
 				},
 				{
-					"fileNames": "*.delphi,*.dfm,*.dof,*.dpr",
+					"fileNames": "*.delphi,*.dfm,*.dof,*.dpr,*.dpk,*.nfm,*.dproj",
 					"name": "Delphi",
 					"iconColor": "eb2734",
 					"url": "https://www.embarcadero.com/products/delphi",
 					"priority": "100",
 					"iconType": "FILE",
-					"pattern": ".*\\.(delphi|dfm|dof|dpr)$",
+					"pattern": ".*\\.(delphi|dfm|nfm|dof|dpk|dpr|dproj)$",
 					"icon": "/icons/files/delphi.svg"
 				},
 				{
@@ -3359,6 +3359,26 @@
 					"iconType": "FILE",
 					"pattern": "^(mod|import_map)\\.(ts|json)$",
 					"icon": "/icons/files/deno.svg"
+				},
+				{
+					"fileNames": ".denorc,deno.json",
+					"name": "DenoRC",
+					"iconColor": "26A69A",
+					"url": "https://deno.land/",
+					"priority": "100",
+					"iconType": "FILE",
+					"pattern": "^(.*\\.denorc|deno\\.json)$",
+					"icon": "/icons/files/denorc.svg"
+				},
+				{
+					"fileNames": ".denoignore",
+					"name": "DenoIgnore",
+					"iconColor": "808080",
+					"url": "https://deno.land/",
+					"priority": "100",
+					"iconType": "FILE",
+					"pattern": "^\\.denoignore$",
+					"icon": "/icons/files/denoignore.svg"
 				},
 				{
 					"fileNames": "lock.json",
@@ -4367,13 +4387,13 @@
 					"icon": "/icons/files/fastlane.svg"
 				},
 				{
-					"fileNames": "*.fql,*.faunarc",
+					"fileNames": "*.fql,*.faunarc,*.fauna,*.faunql",
 					"name": "Fauna",
 					"iconColor": "7734e2",
 					"url": "https://docs.fauna.com/fauna/current/api/fql/",
 					"priority": "100",
 					"iconType": "FILE",
-					"pattern": ".*\\.(fql|faunarc)$",
+					"pattern": ".*\\.(fql|fauna(ql|rc)?)$",
 					"icon": "/icons/files/fauna.svg"
 				},
 				{
@@ -4416,23 +4436,23 @@
 					"icon": "/icons/files/fexl.svg"
 				},
 				{
-					"fileNames": "*.figma",
+					"fileNames": "*.figma,*.fig",
 					"name": "Figma",
 					"iconColor": "f76e60",
 					"url": "https://www.figma.com/",
 					"priority": "100",
 					"iconType": "FILE",
-					"pattern": ".*\\.figma$",
+					"pattern": ".*\\.fig(ma)?$",
 					"icon": "/icons/files/figma.svg"
 				},
 				{
-					"fileNames": "*.fdx",
+					"fileNames": "*.fdx,*.fdxtpl",
 					"name": "Final Draft",
 					"iconColor": "81C784",
 					"url": "https://www.finaldraft.com/",
 					"priority": "100",
 					"iconType": "FILE",
-					"pattern": ".*\\.fdx$",
+					"pattern": ".*\\.fdx(tpl)?$",
 					"icon": "/icons/files/finaldraft.svg"
 				},
 				{
@@ -4442,7 +4462,7 @@
 					"url": "https://en.wikipedia.org/wiki/MacOS",
 					"priority": "100",
 					"iconType": "FILE",
-					"pattern": "^\\.(_+(MACOSX)?|DS_Store)$",
+					"pattern": "^\\.(_+MACOSX|DS_Store)$",
 					"icon": "/icons/files/finder.svg"
 				},
 				{
@@ -4526,13 +4546,13 @@
 					"icon": "/icons/files/flash.svg"
 				},
 				{
-					"fileNames": "flask.py",
+					"fileNames": "flask.py,flaskapp.py",
 					"name": "Flask",
 					"iconColor": "F48FB1",
 					"url": "https://flask.palletsprojects.com/en/2.0.x/",
 					"priority": "100",
 					"iconType": "FILE",
-					"pattern": "^flask\\.py$",
+					"pattern": "^flask(app)?\\.py$",
 					"icon": "/icons/files/flask.svg"
 				},
 				{
@@ -4756,13 +4776,13 @@
 					"icon": "/icons/files/freemat.svg"
 				},
 				{
-					"fileNames": "*.fr",
+					"fileNames": "*.fr,*.frege",
 					"name": "Frege",
 					"iconColor": "810000",
 					"url": "https://github.com/Frege/frege",
 					"priority": "100",
 					"iconType": "FILE",
-					"pattern": ".*\\.fr$",
+					"pattern": ".*\\.fr(ege)?$",
 					"icon": "/icons/files/frege.svg"
 				},
 				{
@@ -4806,12 +4826,12 @@
 					"icon": "/icons/files/fusebox.svg"
 				},
 				{
-					"fileNames": "*.fut",
+					"fileNames": "*.fut,*.futhark",
 					"name": "Futhark",
 					"iconColor": "B71C1C",
 					"priority": "100",
 					"iconType": "FILE",
-					"pattern": ".*\\.fut$",
+					"pattern": ".*\\.fut(hark)?$",
 					"url": "https://futhark-lang.org/",
 					"icon": "/icons/files/futhark.svg"
 				},
@@ -9255,13 +9275,13 @@
 					"icon": "/icons/files/parcel.svg"
 				},
 				{
-					"fileNames": "*.parrot,*.pasm,*.pir",
+					"fileNames": "*.parrot,*.pasm,*.pir,*.pbc",
 					"name": "Parrot",
 					"iconColor": "01a8f0",
 					"url": "http://www.parrot.org/",
 					"priority": "100",
 					"iconType": "FILE",
-					"pattern": ".*\\.(parrot|pasm|pir)$",
+					"pattern": ".*\\.(parrot|pasm|pir|pbc)$",
 					"icon": "/icons/files/parrot.svg"
 				},
 				{
@@ -9305,13 +9325,13 @@
 					"icon": "/icons/files/patreon.svg"
 				},
 				{
-					"fileNames": "*.pawn,*.pwn,*.pgn,*.fen",
+					"fileNames": "*.pawn,*.pwn,*.pgn,*.fen,*.amx",
 					"name": "Pawn",
 					"iconColor": "cca171",
 					"url": "https://www.compuphase.com/pawn/pawn.htm",
 					"priority": "100",
 					"iconType": "FILE",
-					"pattern": ".*\\.(pawn|pwn|pgn|fen)$",
+					"pattern": ".*\\.(pawn|pwn|pgn|fen|amx)$",
 					"icon": "/icons/files/pawn.svg"
 				},
 				{
@@ -9375,13 +9395,13 @@
 					"icon": "/icons/files/perlconfig.svg"
 				},
 				{
-					"fileNames": ".p4",
+					"fileNames": "*.p4,*.p4config,*.p4include,*.p4info",
 					"name": "Perforce Helix",
 					"iconColor": "00aeef",
 					"url": "https://www.perforce.com/products/helix-core",
 					"priority": "100",
 					"iconType": "FILE",
-					"pattern": "^\\.p4$",
+					"pattern": "^.*\\.p4(include|info|config)?$",
 					"icon": "/icons/files/helix.svg"
 				},
 				{
@@ -9435,6 +9455,16 @@
 					"icon": "/icons/files/phpunit.svg"
 				},
 				{
+					"fileNames": "phpunit.xml,phpunit.xml.dist",
+					"name": "PHPUnit (2)",
+					"iconColor": "C792EA",
+					"url": "https://phpunit.de/",
+					"priority": "100",
+					"iconType": "FILE",
+					"pattern": "phpunit\\.xml(\\.dist)?$",
+					"icon": "/icons/files/phpunit.svg"
+				},
+				{
 					"fileNames": "*.engine,*.phar",
 					"name": "PHP Other",
 					"iconColor": "7477ae",
@@ -9452,6 +9482,16 @@
 					"priority": "100",
 					"iconType": "FILE",
 					"pattern": ".*\\.php_cs$",
+					"icon": "/icons/files/phpcs.svg"
+				},
+				{
+					"fileNames": "phpcs.xml,phpcs.xml.dist",
+					"name": "PHP CS (2)",
+					"iconColor": "aa826a",
+					"url": "https://github.com/squizlabs/PHP_CodeSniffer",
+					"priority": "100",
+					"iconType": "FILE",
+					"pattern": "phpcs\\.xml(\\.dist)?$",
 					"icon": "/icons/files/phpcs.svg"
 				},
 				{
@@ -9525,23 +9565,23 @@
 					"icon": "/icons/files/pike.svg"
 				},
 				{
-					"fileNames": "*.pine",
+					"fileNames": "*.pine,*.pinescript",
 					"name": "PineScript",
 					"iconColor": "04a69a",
 					"url": "https://www.tradingview.com/pine-script-docs/en/v4/Introduction.html",
 					"priority": "100",
 					"iconType": "FILE",
-					"pattern": ".*\\.pine$",
+					"pattern": ".*\\.pine(script)?$",
 					"icon": "/icons/files/pinescript.svg"
 				},
 				{
-					"fileNames": "Pipfile,pipfile",
+					"fileNames": "Pipfile,pipfile,*.pipfile,*.Pipfile",
 					"name": "Pipfile",
 					"iconColor": "66BB6A",
 					"url": "https://github.com/pypa/pipfile",
 					"priority": "100",
 					"iconType": "FILE",
-					"pattern": "^[Pp]ipfile$",
+					"pattern": ".*\\.?[Pp]ipfile$",
 					"icon": "/icons/files/pipfile.svg"
 				},
 				{
@@ -9645,7 +9685,7 @@
 					"icon": "/icons/files/pnpm.svg"
 				},
 				{
-					"fileNames": "pnpmfile.js",
+					"fileNames": "pnpmfile.js,pnpmfile.cjs,pnpmfile.mjs",
 					"name": "Pnpmfile",
 					"iconColor": "f9ad00",
 					"url": "https://pnpm.io/",
@@ -9717,7 +9757,7 @@
 				{
 					"fileNames": "*.pgsql",
 					"name": "PostgreSQL",
-					"iconColor": "31648c",
+					"iconColor": "0da8e8",
 					"url": "https://www.postgresql.org/",
 					"priority": "100",
 					"iconType": "FILE",
@@ -9775,21 +9815,21 @@
 					"icon": "/icons/files/povray.svg"
 				},
 				{
-					"fileNames": "*.pbl,*.pbt,*.srw,*.sru,*.srp,*.sra,*.srj",
+					"fileNames": "*.pbl,*.pbt,*.srw,*.sru,*.srp,*.sra,*.srj,*.pbw",
 					"name": "PowerBuilder",
 					"iconColor": "f2870b",
 					"url": "https://en.wikipedia.org/wiki/PowerBuilder",
 					"priority": "100",
 					"iconType": "FILE",
-					"pattern": ".*\\.(pb[lt]|sr[wupaj])$",
+					"pattern": ".*\\.(pb[ltmsrw]|sr[wupaj])$",
 					"icon": "/icons/files/powerbuilder.svg"
 				},
 				{
-					"fileNames": "*.ppt,*.pptx,*.pps,*.ppsx,*.pot,*.potx,*.ppa,*.ppam",
+					"fileNames": "*.ppt,*.pptx,*.pptm,*.pps,*.ppsx,*.ppsm,*.pot,*.potx,*.potm,*.ppa,*.ppam,*.ppax,*.sldx,*.sldm",
 					"name": "Powerpoint",
 					"priority": "100",
 					"iconType": "FILE",
-					"pattern": ".*\\.(ppt|pptx|pps|ppsx|pot|potx|ppa|ppam)$",
+					"pattern": ".*\\.(ppt[xm]?|pps[xm]?|pot[xm]?|ppa[mx]?|sld[xm])$",
 					"iconColor": "EA7130",
 					"url": "https://www.microsoft.com/en-us/microsoft-365/powerpoint",
 					"icon": "/icons/files/powerpoint.svg"
@@ -9955,13 +9995,13 @@
 					"icon": "/icons/files/proselint.svg"
 				},
 				{
-					"fileNames": "*.proto,*.protobuf,*.protobuf3",
+					"fileNames": "*.proto,*.protobuf,*.protobuf3,*.protodevel",
 					"name": "Protobuf",
 					"iconColor": "4285F4",
 					"url": "https://developers.google.com/protocol-buffers",
 					"priority": "100",
 					"iconType": "FILE",
-					"pattern": ".*\\.proto(buf3?)?$",
+					"pattern": ".*\\.proto(buf3?|devel)?$",
 					"icon": "/icons/files/protobuf.svg"
 				},
 				{
@@ -10055,13 +10095,13 @@
 					"icon": "/icons/files/purescript.svg"
 				},
 				{
-					"fileNames": "requirements.in,requirements.txt",
+					"fileNames": "requirements.in,requirements.txt,*.requirements,.pypirc",
 					"name": "PyPI",
 					"iconColor": "336d9e",
 					"url": "https://pypi.org/",
 					"priority": "100",
 					"iconType": "FILE",
-					"pattern": "^requirements.*\\.(in|txt)$",
+					"pattern": "^.*(\\.pypirc|requirements)(\\.(in|txt))?$",
 					"icon": "/icons/files/pypi.svg"
 				},
 				{
@@ -10085,12 +10125,12 @@
 					"icon": "/icons/files/pytest.svg"
 				},
 				{
-					"fileNames": "*.py.typed,*.typed",
+					"fileNames": "*.py.typed,*.typed,*.pypi,*.pytyped,*.pytd",
 					"name": "PyTyped",
 					"iconColor": "467fbf",
 					"priority": "100",
 					"iconType": "FILE",
-					"pattern": ".*(\\.py)?\\.typed$",
+					"pattern": ".*\\.(pyi|pytd|pytyped|py\\.typed|typed)$",
 					"url": "https://mypy.readthedocs.io/en/stable/installed_packages.html",
 					"icon": "/icons/files/pytyped.svg"
 				},
@@ -10105,13 +10145,13 @@
 					"icon": "/icons/files/pythonconfig.svg"
 				},
 				{
-					"fileNames": ".coveragerc,MANIFEST.in,.python-version",
+					"fileNames": ".coveragerc,MANIFEST.in,*.pylintrc",
 					"name": "Python Config (2)",
 					"iconColor": "FFCB6B",
 					"url": "https://www.python.org/",
 					"priority": "100",
 					"iconType": "FILE",
-					"pattern": "^(MANIFEST\\.in|\\.python-version|\\.coveragerc)$",
+					"pattern": "^(MANIFEST\\.in|\\.coveragerc|\\.pylintrc)$",
 					"icon": "/icons/files/pythonconfig.svg"
 				},
 				{
@@ -11861,13 +11901,13 @@
 					"icon": "/icons/files/sqf.svg"
 				},
 				{
-					"fileNames": "*.sql,*.pdb,*.pgsql,*.mysql,*.hql,*.qml,*.psql,*.pkb,*.xql,*.xq,*.xqm,*.xqy,*.cql,*.prc,*.viw",
+					"fileNames": "*.sql,*.pdb,*.mysql,*.hql,*.qml,*.psql,*.pkb,*.xql,*.xq,*.xqm,*.xqy,*.cql,*.prc,*.viw",
 					"name": "SQL",
 					"iconColor": "39ADB5",
 					"url": "https://en.wikipedia.org/wiki/SQL",
 					"priority": "100",
 					"iconType": "FILE",
-					"pattern": ".*\\.(sql|pdb|pgsql|mysql|hql|qml|psql|pkb|xql|xq|xqm|xqy|cql|prc|viw)$",
+					"pattern": ".*\\.(sql|pdb|mysql|hql|qml|psql|pkb|xql|xq|xqm|xqy|cql|prc|viw)$",
 					"icon": "/icons/files/sql.svg"
 				},
 				{
@@ -13172,13 +13212,13 @@
 					"icon": "/icons/files/version.svg"
 				},
 				{
-					"fileNames": "*.vhdl,*.vhd,*.vhf,*.vhi,*.vho,*.vhs,*.vht,*.vhw,*.sv",
+					"fileNames": "*.vhdl,*.vhd,*.vhf,*.vhi,*.vho,*.vhs,*.vht,*.vhw",
 					"name": "VHDL",
 					"iconColor": "7A8387",
 					"url": "https://en.wikipedia.org/wiki/VHDL",
 					"priority": "100",
 					"iconType": "FILE",
-					"pattern": ".*\\.(vhdl|vh[dfiostw]|sv)$",
+					"pattern": ".*\\.(vhdl|vh[dfiostw])$",
 					"icon": "/icons/files/vhdl.svg"
 				},
 				{
