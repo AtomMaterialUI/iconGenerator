@@ -10016,13 +10016,13 @@
                iconType="FILE"
                pattern="svelte\.config\.[cm]?js(on)?$"
                icon="/icons/files/svelte_config.svg"/>
-        <regex fileNames="svgo.config.js,svgo.config.ts,svgo.config.mjs"
+        <regex fileNames="svgo.config.js,svgo.config.ts,svgo.config.mjs,svgo.config.json"
                name="SVGO"
                iconColor="0288d1"
                url="https://github.com/svg/svgo"
                priority="100"
                iconType="FILE"
-               pattern="^svgo\.config\.[cm]?[jt]s$"
+               pattern="^svgo\.config\.([cm]?[jt]s|json)$"
                icon="/icons/files/svgo.svg"/>
         <regex fileNames=".svgrrc,svgr.config.js,svgr.config.ts,svgr.config.mjs,.svgrrc.js,.svgrrc.yml,.svgrrc.json"
                name="SVGR"
