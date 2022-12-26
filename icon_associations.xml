@@ -5527,12 +5527,12 @@
                iconType="FILE"
                pattern="publishToken.*"
                icon="/icons/files/publishToken.svg"/>
-        <regex fileNames="*.hypr,*.hypr.live"
+        <regex fileNames="*.kibo"
                name="Kibo"
                iconColor="ffd003"
                priority="100"
                iconType="FILE"
-               pattern=".*\.hypr(\.live)?$"
+               pattern=".*\.kibo$"
                url="https://www.mozu.com/docs/developer/themes/hypr.htm"
                icon="/icons/files/kibo.svg"/>
         <regex fileNames="*.kicad_pcb,*.kicad_pcb-bak,*.kicad_mod,*.kicad_wks"
@@ -11945,12 +11945,12 @@
                iconType="FILE"
                pattern=".*\.(axf|elf|la|objdump|bsdiff|bin|dat|pak|db-journal)$"
                icon="/icons/files/binary.svg"/>
-        <regex fileNames="*.gc,*.gco,*.gcode,*.cnc,*.dnc,*.hnc,*.knc,*.prx,*.swp,*.rnd"
+        <regex fileNames="*.gco,*.prx,*.swp,*.rnd"
                name="Binary (3)"
                iconColor="7C95A1"
                priority="1"
                iconType="FILE"
-               pattern=".*\.(gco?|gcode|[cdhk]nc|prx|swp|rnd)$"
+               pattern=".*\.(gco|prx|swp|rnd)$"
                icon="/icons/files/binary.svg"/>
         <!--endregion-->
 
@@ -11971,11 +11971,11 @@
                iconColor="C792EA"
                url="https://en.wikipedia.org/wiki/Archive_file"
                icon="/icons/files/archive.svg"/>
-        <regex fileNames="*.lz,*.lzo,*.lzma,*.tlz,*.whl,*.hqx,*.xar,*.ear,*.egg,*.sit,*.hak"
+        <regex fileNames="*.lz,*.lzo,*.lzma,*.tlz,*.whl,*.hqx,*.xar,*.ear,*.hak"
                name="Archive (3)"
                priority="10"
                iconType="FILE"
-               pattern=".*\.(lzo?|lzma|tlz|hqx|whl|xar|ear|egg|sit|hak)$"
+               pattern=".*\.(lzo?|lzma|tlz|hqx|whl|xar|ear|hak)$"
                iconColor="C792EA"
                url="https://en.wikipedia.org/wiki/Archive_file"
                icon="/icons/files/archive.svg"/>
@@ -12020,12 +12020,12 @@
                iconType="FILE"
                pattern=".*\.(webm|wmv|ogv|3gp|m4v|3gpp|ogm|dvd|divx|qt|yuv)$"
                icon="/icons/files/video.svg"/>
-        <regex fileNames="*.asx,*.asf,*.mks,*.mk3d,*.ogg"
+        <regex fileNames="*.asx,*.asf,*.mks,*.mk3d,*.vob"
                name="Video (3)"
                iconColor="7963E6"
                priority="10"
                iconType="FILE"
-               pattern=".*\.(asx|asf|mks|mk3d|ogg)$"
+               pattern=".*\.(asx|asf|mks|mk3d|vob)$"
                icon="/icons/files/video.svg"/>
         <!--endregion-->
 
