@@ -166,13 +166,6 @@
                pattern=".*[bB]undle\.kt$"
                iconColor="497CE3"
                icon="/icons/files/i18nKotlin.svg"/>
-        <regex fileNames=".github/settings.yml,.github/workflows/quality-checks.yml"
-               name="GitHub Files"
-               priority="1000"
-               iconType="FILE"
-               pattern=".*\.github/.*\.yml$"
-               iconColor="497CE3"
-               icon="/icons/files/github.svg"/>
         <!-- endregion -->
 
         <!--region 0-9 -->
@@ -12253,6 +12246,46 @@
                pattern=".*\.(ts|tslint)$"
                icon="/icons/files/typeScript.svg"/>
         <!--endregion-->
+
+        <!-- region Folders -->
+        <regex fileNames=".github/settings.yml,.github/workflows/quality-checks.yml"
+               name="GitHub Files"
+               priority="50"
+               iconType="FILE"
+               pattern=".*\.github/.*\.ya?ml$"
+               iconColor="000000"
+               icon="/icons/files/github.svg"/>
+        <regex fileNames=".github/settings.yml,.github/workflows/quality-checks.yml"
+               name="GitHub Files Dark"
+               priority="51"
+               iconType="FILE"
+               pattern=".*\.github/.*\.ya?ml$"
+               iconColor="E4E5E6"
+               icon="/icons/files/github.svg"/>
+
+        <regex fileNames="META-INF/plugin.xml,META-INF/withJava.xml"
+               name="Plugin Files"
+               priority="100"
+               iconType="FILE"
+               pattern=".*META-INF/.*\.xml$"
+               iconColor="66BB6A"
+               icon="/icons/files/plugin.svg"/>
+        <regex fileNames="colors/Darcula.xml,colors/Material Oceanic.xml"
+               name="IDEA Colors"
+               priority="100"
+               iconType="FILE"
+               pattern=".*colors/.*\.xml$"
+               iconColor="26A2C1"
+               icon="/icons/files/idea.svg"/>
+        <regex fileNames="messages/test.properties,messages/blabla.properties"
+               name="i18n Strings Properties"
+               priority="100"
+               iconType="FILE"
+               pattern=".*messages/.*\.properties$"
+               iconColor="00ACC1"
+               icon="/icons/files/i18nProperties.svg"/>
+
+        <!-- endregion -->
 
         <!--region Least priority -->
         <regex fileNames="*.o,*.out,*.ko,*.pyo,*.pyc"
