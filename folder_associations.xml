@@ -58,13 +58,13 @@
                iconType="FOLDER"
                pattern="^[\._]?(addons?)$"
                icon="/addon.svg"/>
-        <regex folderNames="admin,_admin,.admin,.admins,admins"
+        <regex folderNames="admin,_admin,.admin,.admins,admins,manager,managers,_managers,moderator,.moderator,moderators,_moderators"
                name="Admin"
                folderColor="00ad9f"
                folderIconColor="b3e6e2"
                priority="100"
                iconType="FOLDER"
-               pattern="^[\._]?admins?$"
+               pattern="^[\._]?(admins?|managers?|moderators?)$"
                icon="/admin.svg"/>
         <regex folderNames="adr,adrs,.adr,decision,decisions,.decision,.decisions,_decision,_decisions"
                name="ADR"
@@ -1473,6 +1473,14 @@
                iconType="FOLDER"
                pattern="^[\._]?node_modules$"
                icon="/node.svg"/>
+        <regex folderNames="notebook,notebooks,.notebooks,_notebooks,jupyter-notebook,jupyter-notebooks,.jupyter-notebook,.jupyter-notebooks,_jupyter-notebook,_jupyter-notebooks"
+               name="Notebooks"
+               folderColor="F78C6C"
+               folderIconColor="FFE0B2"
+               priority="100"
+               iconType="FOLDER"
+               pattern="[\._]?((jupyter-)?notebooks?)"
+               icon="/notebooks.svg"/>
         <regex folderNames="notif,notification,notifications,flash,.notif,_notifications,.flash,_flash"
                name="Notifications"
                folderColor="00B0FF"
@@ -1500,6 +1508,14 @@
         <!--endregion-->
 
         <!--region O-->
+        <regex folderNames="openshift,.openshift,_openshift"
+               name="OpenShift"
+               folderColor="c62828"
+               folderIconColor="ffcdd2"
+               priority="100"
+               iconType="FOLDER"
+               pattern="^[\._]?openshift$"
+               icon="/openshift.svg"/>
         <regex folderNames="other,misc,extra,extras,.other,_other,_misc,.misc,_extra,.extras,etc,.etc,_etc"
                name="Other"
                folderColor="795548"
@@ -1693,6 +1709,14 @@
                iconType="FOLDER"
                pattern="^[\._]?(react?.*|jsx|tsx)"
                icon="/react.svg"/>
+        <regex folderNames="redhat,.redhat,_redhat,s2i,_s2i,.s2i"
+               name="RedHat"
+               folderColor="ff5252"
+               folderIconColor="ffcdd2"
+               priority="100"
+               iconType="FOLDER"
+               pattern="^[\._]?(redhat|s2i)$"
+               icon="/redhat.svg"/>
         <regex folderNames="redis,.redis,_redis"
                name="Redis"
                folderColor="ef5350"
@@ -2190,13 +2214,13 @@
                iconType="FOLDER"
                pattern="^[\._]?(users?|members?|friends?|partners?|roles?|contacts?)$"
                icon="/users.svg"/>
-        <regex folderNames="util,utils,tool,tools,.util,_utils,_tools,.tools,utility,.utility,utilities,_utilities"
+        <regex folderNames="util,utils,tool,tools,.util,_utils,_tools,.tools,utility,.utility,utilities,_utilities,toolkit,toolkits,.toolkit,_toolkits,toolbox,toolboxes,.toolbox,_toolboxes"
                name="Utils"
                folderColor="78909C"
                folderIconColor="F5F5F5"
                priority="100"
                iconType="FOLDER"
-               pattern="^[\._]?(utils?|tools?|utilities|utility)$"
+               pattern="^[\._]?(utils?|tools?|utilities|utility|toolkits?|toolbox(es)?)$"
                icon="/tools.svg"/>
         <!--endregion-->
 
