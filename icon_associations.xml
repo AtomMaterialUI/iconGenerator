@@ -68,18 +68,18 @@
                pattern="^COMMIT_MESSAGE_CONVENTION\.(md|txt)$"
                iconColor="f3961a"
                icon="/icons/files/githubCommit.svg"/>
-        <regex fileNames="TEMPLATE.md,TEMPLATE.txt"
+        <regex fileNames=".github/settings.yml,.github/workflows/quality-checks.yml"
                name="GitHub"
-               priority="1000"
+               priority="50"
                iconType="FILE"
-               pattern=".*TEMPLATE\.(md|txt)$"
+               pattern=".*\.github/.*\.ya?ml$"
                iconColor="000000"
                icon="/icons/files/github.svg"/>
-        <regex fileNames="TEMPLATE.md,TEMPLATE.txt"
+        <regex fileNames=".github/settings.yml,.github/workflows/quality-checks.yml"
                name="GitHub Dark"
-               priority="1001"
+               priority="51"
                iconType="FILE"
-               pattern=".*TEMPLATE\.(md|txt)$"
+               pattern=".*\.github/.*\.ya?ml$"
                iconColor="E4E5E6"
                icon="/icons/files/github.svg"/>
         <regex fileNames="roadmap.md,ROADMAP.txt,ROADMAP.rst"
@@ -145,6 +145,13 @@
                pattern="^plugin.xml$"
                iconColor="66BB6A"
                icon="/icons/files/plugin.svg"/>
+        <regex fileNames="META-INF/plugin.xml,META-INF/withJava.xml"
+               name="Plugin Files"
+               priority="1000"
+               iconType="FILE"
+               pattern=".*META-INF/.*\.xml$"
+               iconColor="66BB6A"
+               icon="/icons/files/plugin.svg"/>
         <regex fileNames="MaterialThemeBundle.properties,atom.bundle.properties"
                name="Bundle properties"
                priority="1000"
@@ -152,6 +159,13 @@
                pattern=".*[bB]undle\.properties$"
                iconColor="00ACC1"
                icon="/icons/files/i18nProperties.svg"/>
+        <regex fileNames="messages/test.properties,messages/blabla.properties"
+               name="i18n Strings Properties"
+               priority="1000"
+               iconType="FILE"
+               pattern=".*messages/.*\.properties$"
+               iconColor="00ACC1"
+               icon="/icons/files/i18nPropertiesFiles.svg"/>
         <regex fileNames="MaterialThemeBundle.java"
                name="Java Bundles"
                priority="1000"
@@ -4896,6 +4910,13 @@
                iconType="FILE"
                pattern=".*\.(iml|icls)$"
                icon="/icons/files/idea.svg"/>
+        <regex fileNames="colors/Darcula.xml,colors/Material Oceanic.xml"
+               name="IDEA Colors"
+               priority="100"
+               iconType="FILE"
+               pattern=".*colors/.*\.xml$"
+               iconColor="26A2C1"
+               icon="/icons/files/ideacolors.svg"/>
         <regex fileNames="*.idr,*.lidr,*.idris,*.ibc,*.ipkg"
                name="Idris"
                iconColor="E57373"
@@ -12246,46 +12267,6 @@
                pattern=".*\.(ts|tslint)$"
                icon="/icons/files/typeScript.svg"/>
         <!--endregion-->
-
-        <!-- region Folders -->
-        <regex fileNames=".github/settings.yml,.github/workflows/quality-checks.yml"
-               name="GitHub Files"
-               priority="50"
-               iconType="FILE"
-               pattern=".*\.github/.*\.ya?ml$"
-               iconColor="000000"
-               icon="/icons/files/github.svg"/>
-        <regex fileNames=".github/settings.yml,.github/workflows/quality-checks.yml"
-               name="GitHub Files Dark"
-               priority="51"
-               iconType="FILE"
-               pattern=".*\.github/.*\.ya?ml$"
-               iconColor="E4E5E6"
-               icon="/icons/files/github.svg"/>
-
-        <regex fileNames="META-INF/plugin.xml,META-INF/withJava.xml"
-               name="Plugin Files"
-               priority="100"
-               iconType="FILE"
-               pattern=".*META-INF/.*\.xml$"
-               iconColor="66BB6A"
-               icon="/icons/files/plugin.svg"/>
-        <regex fileNames="colors/Darcula.xml,colors/Material Oceanic.xml"
-               name="IDEA Colors"
-               priority="100"
-               iconType="FILE"
-               pattern=".*colors/.*\.xml$"
-               iconColor="26A2C1"
-               icon="/icons/files/idea.svg"/>
-        <regex fileNames="messages/test.properties,messages/blabla.properties"
-               name="i18n Strings Properties"
-               priority="100"
-               iconType="FILE"
-               pattern=".*messages/.*\.properties$"
-               iconColor="00ACC1"
-               icon="/icons/files/i18nProperties.svg"/>
-
-        <!-- endregion -->
 
         <!--region Least priority -->
         <regex fileNames="*.o,*.out,*.ko,*.pyo,*.pyc"
