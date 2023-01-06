@@ -4759,7 +4759,7 @@
                iconType="FILE"
                pattern="[gG]runtfile.*"
                icon="/icons/files/gruntfile.svg"/>
-        <regex fileNames="gruntfile/*.js,Gruntfile/*.cjs,gruntfiles/*.mjs,grunt/*.ts"
+        <regex fileNames="gruntfiles/*.js,Gruntfiles/*.cjs,gruntfiles/*.mjs,grunt/*.ts"
                name="Grunt Files"
                iconColor="F4BF75"
                url="https://gruntjs.com/"
@@ -4775,7 +4775,7 @@
                iconType="FILE"
                pattern="[gG]ulpfile.*"
                icon="/icons/files/gulpfile.svg"/>
-        <regex fileNames="gulpfile/*.js,Gulpfile/*.cjs,gulpfiles/*.mjs,gulp/*.ts"
+        <regex fileNames="gulpfiles/*.js,Gulpfiles/*.cjs,gulpfiles/*.mjs,gulp/*.ts"
                name="Gulp Files"
                iconColor="C74748"
                url="https://gulpjs.com/"
@@ -12456,7 +12456,7 @@
                iconType="FILE"
                pattern="envs?/.*\.(env|json|ya?ml|ini)$"
                icon="/icons/files/preferences.svg"/>
-        <regex fileNames="config,settings,option,pref,config.yml,settings.ini,option.txt,prefs.yaml,config.json"
+        <regex fileNames="config.yml,settings.ini,option.txt,prefs.yaml,config.json"
                name="Configs"
                iconColor="E79627"
                priority="10"
