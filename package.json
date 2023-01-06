@@ -31,6 +31,7 @@
   "devDependencies": {
     "@types/node": "17.0.31",
     "@types/yargs": "17.0.15",
+    "node-gyp": "9.3.0",
     "nodegit": "0.28.0-alpha.20",
     "puppeteer": "16.2.0",
     "rimraf": "3.0.2",
@@ -38,7 +39,9 @@
     "tslint": "6.1.3",
     "typescript": "4.9.3",
     "xml2json-cli": "1.1.1",
-    "yargs": "17.6.2",
-    "node-gyp": "9.3.0"
+    "yargs": "17.6.2"
+  },
+  "dependencies": {
+    "fs-extra": "^11.1.0"
   }
 }
