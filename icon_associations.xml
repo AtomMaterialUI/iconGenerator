@@ -386,6 +386,21 @@
                iconType="FILE"
                pattern=".*(tests?|specs?)/.*\.ts$"
                icon="/icons/files/testts.svg"/>
+        <regex fileNames="my.test.php,myTest.php"
+               name="Test PHP"
+               iconColor="C792EA"
+               url="https://phpunit.de/"
+               priority="100"
+               iconType="FILE"
+               pattern=".*([tT])est\.php$"
+               icon="/icons/files/testphp.svg"/>
+        <regex fileNames="test/*.php,tests/*.php,spec/*.php,specs/*.php,phpunit/*.php"
+               name="Test PHP Folder"
+               iconColor="C792EA"
+               priority="50"
+               iconType="FILE"
+               pattern=".*(tests?|specs?|phpunit)/.*\.php$"
+               icon="/icons/files/testphp.svg"/>
         <!--endregion-->
 
         <!--region 0-9 -->
@@ -8047,16 +8062,8 @@
                iconType="FILE"
                pattern="^\.photorec\.cfg$"
                icon="/icons/files/photorec.svg"/>
-        <regex fileNames="my.test.php,myTest.php"
-               name="PHPUnit"
-               iconColor="C792EA"
-               url="https://phpunit.de/"
-               priority="100"
-               iconType="FILE"
-               pattern=".*([tT])est\.php$"
-               icon="/icons/files/phpunit.svg"/>
         <regex fileNames="phpunit.xml,phpunit.xml.dist"
-               name="PHPUnit (2)"
+               name="PHPUnit"
                iconColor="C792EA"
                url="https://phpunit.de/"
                priority="100"
