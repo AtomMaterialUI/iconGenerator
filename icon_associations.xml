@@ -10662,6 +10662,14 @@
                iconType="FILE"
                pattern=".*\.(story|stories)\.(jsx?|tsx?)$"
                icon="/icons/files/storybook.svg"/>
+        <regex fileNames=".storybook/*.js,storybook/*.ts,.storybook/*.tsx,storybook/*.jsx"
+               name="Storybook Files"
+               iconColor="ec407a"
+               url="https://storybook.js.org/"
+               priority="50"
+               iconType="FILE"
+               pattern=".*\.?storybook/.*\.(jsx?|tsx?)$"
+               icon="/icons/files/storybook.svg"/>
         <regex fileNames=".stylelintrc,stylelint.config.js,stylelint.config.json,.stylelintrc.js,.stylelintrc.json,.stylelintrc.yaml"
                name="Stylelint"
                priority="100"
