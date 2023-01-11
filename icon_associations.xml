@@ -7392,7 +7392,7 @@
                priority="50"
                iconType="FILE"
                package="ngrx"
-               pattern=".*/(repos?|repository|repositories)?/.*\.[tj]sx?$"
+               pattern=".*/(repos?|repository|repositories)/.*\.[tj]sx?$"
                url="https://ngrx.io/"
                icon="/icons/files/ngrx-repo.svg"/>
         <regex fileNames="*.state.ts,*.state.js,*.state.jsx,*.state.tsx,*.states.ts,*.states.js,*.states.jsx,*.states.tsx"
