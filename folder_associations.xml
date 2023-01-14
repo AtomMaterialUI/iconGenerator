@@ -757,7 +757,8 @@
                iconType="FOLDER"
                pattern="^[\._]?electron$"
                icon="/electron.svg"/>
-        <regex folderNames="elixir,.elixir,_elixir,elixir_ls,.elixir_ls,_elixir_ls,ex,.ex,_ex,eex,.eex,_eex,leex,.leex,_leex"
+        <regex folderNames="elixir,.elixir,_elixir,elixir_ls,.elixir_ls,_elixir_ls,ex,.ex,_ex,eex,.eex,_eex,
+        leex,.leex,_leex"
                name="Elixir"
                folderColor="9575cd"
                folderIconColor="dfceff"
