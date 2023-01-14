@@ -45,7 +45,7 @@
 				{
 					"fileNames": "main.yml,workflow.yaml,ci.yaml,config.yml",
 					"name": "GitHub Actions",
-					"priority": "1000",
+					"priority": "1001",
 					"iconType": "FILE",
 					"pattern": "(main|workflow|ci|release|build|config)\\.ya?ml$",
 					"iconColor": "497CE3",
@@ -79,20 +79,20 @@
 					"icon": "/icons/files/githubCommit.svg"
 				},
 				{
-					"fileNames": "TEMPLATE.md,TEMPLATE.txt",
+					"fileNames": ".github/settings.yml,.github/workflows/quality-checks.yml",
 					"name": "GitHub",
-					"priority": "1000",
+					"priority": "50",
 					"iconType": "FILE",
-					"pattern": ".*TEMPLATE\\.(md|txt)$",
+					"pattern": ".*\\.github/.*\\.ya?ml$",
 					"iconColor": "000000",
 					"icon": "/icons/files/github.svg"
 				},
 				{
-					"fileNames": "TEMPLATE.md,TEMPLATE.txt",
+					"fileNames": ".github/settings.yml,.github/workflows/quality-checks.yml",
 					"name": "GitHub Dark",
-					"priority": "1001",
+					"priority": "51",
 					"iconType": "FILE",
-					"pattern": ".*TEMPLATE\\.(md|txt)$",
+					"pattern": ".*\\.github/.*\\.ya?ml$",
 					"iconColor": "E4E5E6",
 					"icon": "/icons/files/github.svg"
 				},
@@ -178,6 +178,15 @@
 					"icon": "/icons/files/plugin.svg"
 				},
 				{
+					"fileNames": "META-INF/plugin.xml,META-INF/withJava.xml",
+					"name": "Plugin Files",
+					"priority": "1000",
+					"iconType": "FILE",
+					"pattern": ".*META-INF/.*\\.xml$",
+					"iconColor": "66BB6A",
+					"icon": "/icons/files/plugin.svg"
+				},
+				{
 					"fileNames": "MaterialThemeBundle.properties,atom.bundle.properties",
 					"name": "Bundle properties",
 					"priority": "1000",
@@ -203,6 +212,295 @@
 					"pattern": ".*[bB]undle\\.kt$",
 					"iconColor": "497CE3",
 					"icon": "/icons/files/i18nKotlin.svg"
+				},
+				{
+					"fileNames": "*.test.coffee,*.spec.coffee",
+					"name": "Test Coffee",
+					"iconColor": "AB7967",
+					"priority": "100",
+					"iconType": "FILE",
+					"pattern": ".*\\.?(test|spec)\\.coffee$",
+					"icon": "/icons/files/testcoffee.svg"
+				},
+				{
+					"fileNames": "test/*.coffee,tests/*.coffee,spec/*.coffee,specs/*.coffee",
+					"name": "Test Coffee Folder",
+					"iconColor": "AB7967",
+					"priority": "50",
+					"iconType": "FILE",
+					"pattern": ".*(tests?|specs?)/.*\\.coffee$",
+					"icon": "/icons/files/testcoffee.svg"
+				},
+				{
+					"fileNames": "*.test.dart,*.spec.dart",
+					"name": "Test Dart",
+					"iconColor": "26A2C1",
+					"priority": "100",
+					"iconType": "FILE",
+					"pattern": ".*\\.?(test|spec)\\.dart$",
+					"icon": "/icons/files/testdart.svg"
+				},
+				{
+					"fileNames": "test/*.dart,tests/*.dart,spec/*.dart,specs/*.dart",
+					"name": "Test Dart Folder",
+					"iconColor": "26A2C1",
+					"priority": "50",
+					"iconType": "FILE",
+					"pattern": ".*(tests?|specs?)/.*\\.dart$",
+					"icon": "/icons/files/testdart.svg"
+				},
+				{
+					"fileNames": "*.test.go,*.spec.go,*_test.go,*_spec.go",
+					"name": "Test Go",
+					"iconColor": "82AAFF",
+					"priority": "100",
+					"iconType": "FILE",
+					"pattern": ".*([._])(test|spec)\\.go$",
+					"icon": "/icons/files/testgo.svg"
+				},
+				{
+					"fileNames": "test/*.go,tests/*.go,spec/*.go,specs/*.go",
+					"name": "Test Go Folder",
+					"iconColor": "82AAFF",
+					"priority": "50",
+					"iconType": "FILE",
+					"pattern": ".*(tests?|specs?)/.*\\.go$",
+					"icon": "/icons/files/testgo.svg"
+				},
+				{
+					"fileNames": "*.test.hs,*.spec.hs",
+					"name": "Test Haskell",
+					"iconColor": "AB76A0",
+					"priority": "100",
+					"iconType": "FILE",
+					"pattern": ".*\\.?(test|spec)\\.hs$",
+					"icon": "/icons/files/testhaskell.svg"
+				},
+				{
+					"fileNames": "test/*.haskell,tests/*.haskell,spec/*.haskell,specs/*.haskell",
+					"name": "Test Haskell Folder",
+					"iconColor": "AB76A0",
+					"priority": "50",
+					"iconType": "FILE",
+					"pattern": ".*(tests?|specs?)/.*\\.haskell$",
+					"icon": "/icons/files/testhaskell.svg"
+				},
+				{
+					"fileNames": "MyTest.java,myTest.java,mytest.java",
+					"name": "Test Java",
+					"iconColor": "7963E6",
+					"priority": "100",
+					"iconType": "FILE",
+					"pattern": "([tT])est\\.java$",
+					"icon": "/icons/files/testjava.svg"
+				},
+				{
+					"fileNames": "test/*.java,tests/*.java,unit/*.java,units/*.java,junit/*.java",
+					"name": "Test Java Folder",
+					"iconColor": "7963E6",
+					"priority": "50",
+					"iconType": "FILE",
+					"pattern": ".*(tests?|units?|junit)/.*\\.java$",
+					"icon": "/icons/files/testjava.svg"
+				},
+				{
+					"fileNames": "*.test.js,*.spec.js,*.test.es6,*.spec.es6,*.test.mjs,*.spec.cjs",
+					"name": "Test JS",
+					"iconColor": "E79627",
+					"priority": "100",
+					"iconType": "FILE",
+					"pattern": ".*\\.?(test|spec)\\.([cm]?js|es6)$",
+					"icon": "/icons/files/testjs.svg"
+				},
+				{
+					"fileNames": "*.test.js,*.spec.js,*.test.es6,*.spec.es6,*.test.mjs,*.spec.cjs",
+					"name": "Test JS Dark",
+					"iconColor": "FFCB6B",
+					"priority": "101",
+					"iconType": "FILE",
+					"pattern": ".*\\.?(test|spec)\\.([cm]?js|es6)$",
+					"icon": "/icons/files/testjs.svg"
+				},
+				{
+					"fileNames": "test/*.js,tests/*.js,spec/*.js,specs/*.js,test/*.cjs,tests/*.cjs,spec/*.cjs,specs/*.cjs,test/*.mjs,tests/*.mjs,spec/*.mjs,specs/*.mjs",
+					"name": "Test JS Folder",
+					"iconColor": "E79627",
+					"priority": "50",
+					"iconType": "FILE",
+					"pattern": ".*(tests?|specs?)/.*\\.([cm]?js|es6)$",
+					"icon": "/icons/files/testjs.svg"
+				},
+				{
+					"fileNames": "test/*.js,tests/*.js,spec/*.js,specs/*.js,test/*.cjs,tests/*.cjs,spec/*.cjs,specs/*.cjs,test/*.mjs,tests/*.mjs,spec/*.mjs,specs/*.mjs",
+					"name": "Test JS Folder Dark",
+					"iconColor": "FFCB6B",
+					"priority": "51",
+					"iconType": "FILE",
+					"pattern": ".*(tests?|specs?)/.*\\.([cm]?js|es6)$",
+					"icon": "/icons/files/testjs.svg"
+				},
+				{
+					"fileNames": "MyTest.kt,myTest.kt,mytest.kt",
+					"name": "Test Kotlin",
+					"iconColor": "497CE3",
+					"priority": "100",
+					"iconType": "FILE",
+					"pattern": "([tT])est\\.kt$",
+					"icon": "/icons/files/testkt.svg"
+				},
+				{
+					"fileNames": "test/*.kt,tests/*.kt,unit/*.kt,units/*.kt,kunit/*.kt",
+					"name": "Test Kotlin Folder",
+					"iconColor": "497CE3",
+					"priority": "50",
+					"iconType": "FILE",
+					"pattern": ".*(tests?|units?|kunit)/.*\\.kt$",
+					"icon": "/icons/files/testkt.svg"
+				},
+				{
+					"fileNames": "*.test.perl,*.spec.pl,*.test.pl6,*.test.pm6,*.spec.ph",
+					"name": "Test Perl",
+					"iconColor": "4DB6AC",
+					"priority": "100",
+					"iconType": "FILE",
+					"pattern": ".*\\.?(test|spec)\\.(perl|pl[x6]?|pm6?|ph|al|psgi)$",
+					"icon": "/icons/files/testperl.svg"
+				},
+				{
+					"fileNames": "test/*.pl,tests/*.pl,spec/*.pl,specs/*.pl,test/*.perl,tests/*.perl,spec/*.perl,specs/*.perl",
+					"name": "Test Perl Folder",
+					"iconColor": "4DB6AC",
+					"priority": "50",
+					"iconType": "FILE",
+					"pattern": ".*(tests?|specs?)/.*\\.(perl|pl[x6]?|pm6?|ph|al|psgi)$",
+					"icon": "/icons/files/testperl.svg"
+				},
+				{
+					"fileNames": "*.test.jsx,*.spec.jsx,*.test.tsx,*.spec.tsx",
+					"name": "Test React",
+					"iconColor": "4DD0E1",
+					"priority": "100",
+					"iconType": "FILE",
+					"pattern": ".*\\.?(test|spec)\\.(jsx|tsx)$",
+					"icon": "/icons/files/testreact.svg"
+				},
+				{
+					"fileNames": "test/*.jsx,tests/*.jsx,spec/*.jsx,specs/*.jsx,test/*.tsx,tests/*.tsx,spec/*.tsx,specs/*.tsx",
+					"name": "Test React Folder",
+					"iconColor": "4DD0E1",
+					"priority": "50",
+					"iconType": "FILE",
+					"pattern": ".*(tests?|specs?)/.*\\.(jsx|tsx)$",
+					"icon": "/icons/files/testreact.svg"
+				},
+				{
+					"fileNames": "*.test.py,*.spec.ipy,*.test.python,*.spec.whl,*.test.pep",
+					"name": "Test Python",
+					"iconColor": "90A959",
+					"priority": "100",
+					"iconType": "FILE",
+					"pattern": ".*\\.(test|spec)\\.(py|ipy|python|py[pt3iwzc]|whl|pep)$",
+					"icon": "/icons/files/testpy.svg"
+				},
+				{
+					"fileNames": "test/*.py,tests/*.py,spec/*.py,specs/*.py",
+					"name": "Test Python Folder",
+					"iconColor": "90A959",
+					"priority": "50",
+					"iconType": "FILE",
+					"pattern": ".*(tests?|specs?)/.*\\.(py|ipy|python|py[pt3iwzc]|whl|pep)$",
+					"icon": "/icons/files/testpy.svg"
+				},
+				{
+					"fileNames": "*.test.rb,*.spec.rbs,my_test.ruby,controller_spec.rb",
+					"name": "Test Ruby",
+					"iconColor": "D33534",
+					"priority": "100",
+					"iconType": "FILE",
+					"pattern": ".*([_.])(test|spec)\\.(rb|rbs|ruby)$",
+					"icon": "/icons/files/testruby.svg"
+				},
+				{
+					"fileNames": "test/*.rb,tests/*.rb,spec/*.rb,specs/*.rb",
+					"name": "Test Ruby Folder",
+					"iconColor": "D33534",
+					"priority": "50",
+					"iconType": "FILE",
+					"pattern": ".*(tests?|specs?)/.*\\.(rb|rbs|ruby)$",
+					"icon": "/icons/files/testruby.svg"
+				},
+				{
+					"fileNames": "*.test.rs,*.spec.rs",
+					"name": "Test Rust",
+					"iconColor": "a72146",
+					"priority": "100",
+					"iconType": "FILE",
+					"pattern": ".*\\.?(test|spec)\\.rs$",
+					"icon": "/icons/files/testrust.svg"
+				},
+				{
+					"fileNames": "test/*.rs,tests/*.rs,spec/*.rs,specs/*.rs",
+					"name": "Test Rust Folder",
+					"iconColor": "a72146",
+					"priority": "50",
+					"iconType": "FILE",
+					"pattern": ".*(tests?|specs?)/.*\\.rs$",
+					"icon": "/icons/files/testrust.svg"
+				},
+				{
+					"fileNames": "*.test.scala,*.spec.scala",
+					"name": "Test Scala",
+					"iconColor": "FF5370",
+					"priority": "100",
+					"iconType": "FILE",
+					"pattern": ".*([_.])(test|spec)\\.scala$",
+					"icon": "/icons/files/testscala.svg"
+				},
+				{
+					"fileNames": "test/*.scala,tests/*.scala,spec/*.scala,specs/*.scala",
+					"name": "Test Scala Folder",
+					"iconColor": "FF5370",
+					"priority": "50",
+					"iconType": "FILE",
+					"pattern": ".*(tests?|specs?)/.*\\.scala$",
+					"icon": "/icons/files/testscala.svg"
+				},
+				{
+					"fileNames": "*.test.ts,*.spec.ts",
+					"name": "Test TypeScript",
+					"iconColor": "82AAFF",
+					"priority": "100",
+					"iconType": "FILE",
+					"pattern": ".*\\.?(test|spec)\\.ts$",
+					"icon": "/icons/files/testts.svg"
+				},
+				{
+					"fileNames": "test/*.ts,tests/*.ts,spec/*.ts,specs/*.ts",
+					"name": "Test TypeScript Folder",
+					"iconColor": "82AAFF",
+					"priority": "50",
+					"iconType": "FILE",
+					"pattern": ".*(tests?|specs?)/.*\\.ts$",
+					"icon": "/icons/files/testts.svg"
+				},
+				{
+					"fileNames": "my.test.php,myTest.php",
+					"name": "Test PHP",
+					"iconColor": "C792EA",
+					"url": "https://phpunit.de/",
+					"priority": "100",
+					"iconType": "FILE",
+					"pattern": ".*([tT])est\\.php$",
+					"icon": "/icons/files/testphp.svg"
+				},
+				{
+					"fileNames": "test/*.php,tests/*.php,spec/*.php,specs/*.php,phpunit/*.php",
+					"name": "Test PHP Folder",
+					"iconColor": "C792EA",
+					"priority": "50",
+					"iconType": "FILE",
+					"pattern": ".*(tests?|specs?|phpunit)/.*\\.php$",
+					"icon": "/icons/files/testphp.svg"
 				},
 				{
 					"fileNames": ".eleventy.js,.11ty.js,.eleventyignore,.11tyignore",
@@ -310,6 +608,16 @@
 					"pattern": ".*\\.abc$",
 					"url": "http://abcnotation.com/",
 					"icon": "/icons/files/abc.svg"
+				},
+				{
+					"fileNames": "*.abell",
+					"name": "Abell",
+					"iconColor": "3354ea",
+					"priority": "100",
+					"iconType": "FILE",
+					"pattern": ".*\\.abell$",
+					"url": "https://abelljs.org/",
+					"icon": "/icons/files/abell.svg"
 				},
 				{
 					"fileNames": "*.abif,*.ab1,*.fsa",
@@ -816,7 +1124,7 @@
 					"name": "Anime Studio",
 					"priority": "100",
 					"iconType": "FILE",
-					"pattern": ".*\\.anime.*$",
+					"pattern": ".*\\.anime(studio)?$",
 					"iconColor": "BA68C8",
 					"url": "https://en.wikipedia.org/wiki/Moho_(software)",
 					"icon": "/icons/files/animestudio.svg"
@@ -830,6 +1138,16 @@
 					"pattern": "^(ansible|site|webservers|dbservers|inventory|playbook|galaxy)\\.(cfg|ya?ml)$",
 					"url": "https://www.ansible.com/",
 					"icon": "/icons/files/ansible.svg"
+				},
+				{
+					"fileNames": "ansible/test.yml,ansible/execution.yaml",
+					"name": "Ansible Files",
+					"iconColor": "43adaf",
+					"priority": "100",
+					"iconType": "FILE",
+					"pattern": ".*ansible/.*\\.ya?ml$",
+					"url": "https://www.ansible.com/",
+					"icon": "/icons/files/ansiblefiles.svg"
 				},
 				{
 					"fileNames": "ant.xml,.ant",
@@ -972,12 +1290,12 @@
 					"icon": "/icons/files/apollo.svg"
 				},
 				{
-					"fileNames": "appcelerator.js,appcelerator.ts",
+					"fileNames": "appcelerator.js,appcelerator.ts,appcelerator.cjs,appcelerator.mjs",
 					"name": "Appcelerator",
 					"iconColor": "66BB6A",
 					"priority": "100",
 					"iconType": "FILE",
-					"pattern": "^appcelerator\\.(js|ts)$",
+					"pattern": "^appcelerator\\.([cm]?js|ts)$",
 					"url": "https://www.axway.com/en/appcelerator-end-of-life",
 					"icon": "/icons/files/appcelerator.svg"
 				},
@@ -1010,6 +1328,26 @@
 					"pattern": ".*\\.(applescript|scpt)$",
 					"url": "https://macosxautomation.com/applescript/firsttutorial/index.html",
 					"icon": "/icons/files/applescript.svg"
+				},
+				{
+					"fileNames": "*.aql",
+					"name": "ArangoDB",
+					"iconColor": "577138",
+					"priority": "100",
+					"iconType": "FILE",
+					"pattern": ".*\\.aql$",
+					"url": "https://www.arangodb.com/",
+					"icon": "/icons/files/arangodb.svg"
+				},
+				{
+					"fileNames": "*.aql",
+					"name": "ArangoDB Dark",
+					"iconColor": "DCDF72",
+					"priority": "101",
+					"iconType": "FILE",
+					"pattern": ".*\\.aql$",
+					"url": "https://www.arangodb.com/",
+					"icon": "/icons/files/arangodb.svg"
 				},
 				{
 					"fileNames": "*.arc",
@@ -1573,7 +1911,17 @@
 					"url": "https://projects.eclipse.org/projects/ee4j.ejb",
 					"priority": "100",
 					"iconType": "FILE",
-					"pattern": ".*([bB])ean\\.java$",
+					"pattern": ".*[bB]ean\\.java$",
+					"icon": "/icons/files/bean.svg"
+				},
+				{
+					"fileNames": "bean/*.java,beans/*.java",
+					"name": "Bean Files",
+					"iconColor": "AB7967",
+					"url": "https://projects.eclipse.org/projects/ee4j.ejb",
+					"priority": "50",
+					"iconType": "FILE",
+					"pattern": "[bB]eans?/.*\\.java$",
 					"icon": "/icons/files/bean.svg"
 				},
 				{
@@ -1747,6 +2095,16 @@
 					"icon": "/icons/files/bloc.svg"
 				},
 				{
+					"fileNames": "bloc/*.dart,blocs/*.dart,event/*.dart,events/*.dart,state/*.dart,states/*.dart",
+					"name": "Bloc Files",
+					"iconColor": "00D3B9",
+					"url": "https://bloclibrary.dev/#/",
+					"priority": "50",
+					"iconType": "FILE",
+					"pattern": "(blocs?|events?|states?)/.*\\.dart$",
+					"icon": "/icons/files/bloc.svg"
+				},
+				{
 					"fileNames": "*.bsv,*.bspec",
 					"name": "BlueSpec",
 					"iconColor": "1976D2",
@@ -1897,6 +2255,16 @@
 					"icon": "/icons/files/brainfuck.svg"
 				},
 				{
+					"fileNames": "*.bfbf,*.fbfbf",
+					"name": "BFBF",
+					"iconColor": "FF4081",
+					"url": "https://en.wikipedia.org/wiki/Brainfuck",
+					"priority": "100",
+					"iconType": "FILE",
+					"pattern": ".*\\.f?bfbf$",
+					"icon": "/icons/files/bfbf.svg"
+				},
+				{
 					"fileNames": "brakeman.yml",
 					"name": "Brakeman",
 					"iconColor": "78909C",
@@ -1957,13 +2325,13 @@
 					"icon": "/icons/files/browserslist.svg"
 				},
 				{
-					"fileNames": "bs-config.js,bs-config.json,browser-sync.js,browser-sync.json",
+					"fileNames": "bs-config.js,bs-config.json,browser-sync.js,browser-sync.json,browsersync.js,browsersync.json,bs-config.ts,browser-sync.cjs,browsersync.mjs",
 					"name": "Browsersync",
 					"iconColor": "EF5350",
 					"url": "https://browsersync.io/",
 					"priority": "100",
 					"iconType": "FILE",
-					"pattern": "^(bs-config|browser-sync)\\.(js|json)$",
+					"pattern": "^(bs-config|browser-sync|browsersync)\\.([cm]?js|ts|json)$",
 					"icon": "/icons/files/browsersync.svg"
 				},
 				{
@@ -1973,7 +2341,7 @@
 					"url": "https://brunch.io/",
 					"priority": "100",
 					"iconType": "FILE",
-					"pattern": "^brunch-config\\.(js|coffee|ts)$",
+					"pattern": "^brunch-config\\.([cm]?js|coffee|ts)$",
 					"icon": "/icons/files/brunch.svg"
 				},
 				{
@@ -2135,6 +2503,26 @@
 					"iconType": "FILE",
 					"pattern": ".*\\.calva(-repl)?$",
 					"icon": "/icons/files/calva.svg"
+				},
+				{
+					"fileNames": "*.futil",
+					"name": "Calyx",
+					"iconColor": "9eb764",
+					"url": "https://calyxir.org/",
+					"priority": "100",
+					"iconType": "FILE",
+					"pattern": ".*\\.futil$",
+					"icon": "/icons/files/calyx.svg"
+				},
+				{
+					"fileNames": "*.did",
+					"name": "Candid",
+					"iconColor": "b4318b",
+					"url": "https://github.com/dfinity/candid",
+					"priority": "100",
+					"iconType": "FILE",
+					"pattern": ".*\\.did$",
+					"icon": "/icons/files/candid.svg"
 				},
 				{
 					"fileNames": "*.cds",
@@ -2614,13 +3002,13 @@
 					"icon": "/icons/files/codemeta.svg"
 				},
 				{
-					"fileNames": "codemirror.js,codemirror.css,codemirror.ts,codemirror.cjs",
+					"fileNames": "codemirror.js,codemirror.css,codemirror.ts,codemirror.cjs,codemirror.mjs",
 					"name": "CodeMirror",
 					"iconColor": "f0525d",
 					"url": "https://codemirror.net/",
 					"priority": "100",
 					"iconType": "FILE",
-					"pattern": "^codemirror\\.([mc]?js|ts|css)$",
+					"pattern": "^codemirror\\.([cm]?js|ts|css)$",
 					"icon": "/icons/files/codemirror.svg"
 				},
 				{
@@ -2632,6 +3020,26 @@
 					"pattern": "^(codeowners|CODEOWNERS)$",
 					"url": "https://github.blog/2017-07-06-introducing-code-owners/",
 					"icon": "/icons/files/codeowners.svg"
+				},
+				{
+					"fileNames": "sandbox.config.json",
+					"name": "CodeSandbox",
+					"iconColor": "455A64",
+					"url": "https://codesandbox.io/",
+					"priority": "100",
+					"iconType": "FILE",
+					"pattern": "^sandbox\\.config\\.json$",
+					"icon": "/icons/files/codesandbox.svg"
+				},
+				{
+					"fileNames": "sandbox.config.json",
+					"name": "CodeSandbox Dark",
+					"iconColor": "F5F5F5",
+					"url": "https://codesandbox.io/",
+					"priority": "101",
+					"iconType": "FILE",
+					"pattern": "^sandbox\\.config\\.json$",
+					"icon": "/icons/files/codesandbox.svg"
 				},
 				{
 					"fileNames": "codeship-services.yml,codeship-steps.yml",
@@ -2814,6 +3222,16 @@
 					"icon": "/icons/files/conan.svg"
 				},
 				{
+					"fileNames": "concord.yml",
+					"name": "Concord",
+					"priority": "100",
+					"iconType": "FILE",
+					"pattern": "^concord\\.ya?ml$",
+					"iconColor": "094E8E",
+					"url": "https://github.com/walmartlabs/concord",
+					"icon": "/icons/files/concord.svg"
+				},
+				{
 					"fileNames": ".condarc",
 					"name": "Conda",
 					"priority": "100",
@@ -2932,6 +3350,16 @@
 					"icon": "/icons/files/cpcdocs.svg"
 				},
 				{
+					"fileNames": "craco.config.js,craco.config.ts,.cracorc.cjs,.cracorc.js,.cracorc.mjs,.cracorc.ts,.cracorc",
+					"name": "Craco",
+					"priority": "100",
+					"iconType": "FILE",
+					"pattern": "^(\\.cracorc(\\.([cm]?js|ts))?|craco\\.config\\.([cm]?js|ts))$",
+					"iconColor": "00bfa5",
+					"url": "https://craco.js.org/",
+					"icon": "/icons/files/craco.svg"
+				},
+				{
 					"fileNames": "*.creole",
 					"name": "Creole",
 					"priority": "100",
@@ -3042,13 +3470,13 @@
 					"icon": "/icons/files/cucumber.svg"
 				},
 				{
-					"fileNames": "cucumber.js,cucumber.json,cucumber.ts,cucumber.yml",
+					"fileNames": "cucumber.js,cucumber.json,cucumber.ts,cucumber.yml,cucumber.cjs,cucumber.mjs",
 					"name": "Cucumber Config",
 					"iconColor": "A5D6A7",
 					"url": "https://cucumber.io/",
 					"priority": "100",
 					"iconType": "FILE",
-					"pattern": "cucumber\\.(js|json|ts|ya?ml)",
+					"pattern": "cucumber\\.([cm]?js|json|ts|ya?ml)",
 					"icon": "/icons/files/cucumberconfig.svg"
 				},
 				{
@@ -3134,12 +3562,32 @@
 				{
 					"fileNames": "cypress.json,cypress.env.json",
 					"name": "Cypress",
-					"iconColor": "58cf9d",
+					"iconColor": "616161",
 					"url": "https://www.cypress.io/",
 					"priority": "100",
 					"iconType": "FILE",
 					"pattern": "^cypress.*\\.json$",
 					"icon": "/icons/files/cypress.svg"
+				},
+				{
+					"fileNames": "cypress.json,cypress.env.json",
+					"name": "Cypress Dark",
+					"iconColor": "FCFCFC",
+					"url": "https://www.cypress.io/",
+					"priority": "101",
+					"iconType": "FILE",
+					"pattern": "^cypress.*\\.json$",
+					"icon": "/icons/files/cypress.svg"
+				},
+				{
+					"fileNames": "*.cy.ts,*.cy.js,*.cy.jsx,*.cy.tsx,*.cy.mjs,*.cy.cjs",
+					"name": "Cypress Files",
+					"iconColor": "58cf9d",
+					"url": "https://www.cypress.io/",
+					"priority": "100",
+					"iconType": "FILE",
+					"pattern": "^.*\\.cy\\.([cm]?jsx?|tsx?)$",
+					"icon": "/icons/files/cypressfiles.svg"
 				},
 				{
 					"fileNames": "*.cpp,*.c++,*.cc,*.ii,*.mii,*.cxx,*.ipp,*.tcc,*.inl",
@@ -3261,13 +3709,13 @@
 					"icon": "/icons/files/dashboard.svg"
 				},
 				{
-					"fileNames": "*.dwl",
+					"fileNames": "*.dwl,*.wev,*.dw",
 					"name": "Dataweave",
 					"iconColor": "049cd8",
 					"url": "https://docs.mulesoft.com/dataweave/1.0/",
 					"priority": "100",
 					"iconType": "FILE",
-					"pattern": ".*\\.dwl$",
+					"pattern": ".*\\.(dwl?|wev)$",
 					"icon": "/icons/files/dataweave.svg"
 				},
 				{
@@ -3361,13 +3809,13 @@
 					"icon": "/icons/files/deno.svg"
 				},
 				{
-					"fileNames": ".denorc,deno.json",
+					"fileNames": ".denorc,deno.json,deno.jsonc",
 					"name": "DenoRC",
 					"iconColor": "26A69A",
 					"url": "https://deno.land/",
 					"priority": "100",
 					"iconType": "FILE",
-					"pattern": "^(.*\\.denorc|deno\\.json)$",
+					"pattern": "^(.*\\.denorc|deno\\.jsonc?)$",
 					"icon": "/icons/files/denorc.svg"
 				},
 				{
@@ -3396,7 +3844,7 @@
 					"iconColor": "81D4FA",
 					"priority": "100",
 					"iconType": "FILE",
-					"pattern": "^(DEPS|Dependencies|deps)\\.(js|ts|json|ya?ml)?$",
+					"pattern": "^(DEPS|Dependencies|deps)\\.([cm]?js|ts|json|ya?ml)?$",
 					"icon": "/icons/files/deps.svg"
 				},
 				{
@@ -3597,6 +4045,16 @@
 					"icon": "/icons/files/docker.svg"
 				},
 				{
+					"fileNames": "docker/*.Dockerfile,dockerfiles/*.dockerfile",
+					"name": "Docker Files",
+					"iconColor": "1e9cef",
+					"url": "https://www.docker.com/",
+					"priority": "50",
+					"iconType": "FILE",
+					"pattern": "docker(files?)?/.*\\.[dD]ockerfile$",
+					"icon": "/icons/files/docker.svg"
+				},
+				{
 					"fileNames": "docker-compose.yml,docker-compose.yaml,docker-compose.dev.yml,compose.yaml,compose.yml",
 					"name": "DockerCompose",
 					"iconColor": "1e9cef",
@@ -3605,6 +4063,16 @@
 					"iconType": "FILE",
 					"pattern": "^(docker-)?compose(.*)\\.(yml|yaml)$",
 					"icon": "/icons/files/dockercompose.svg"
+				},
+				{
+					"fileNames": "docker/*.yml,dockerfiles/*.yaml",
+					"name": "DockerCompose Files",
+					"iconColor": "1e9cef",
+					"url": "https://www.docker.com/",
+					"priority": "50",
+					"iconType": "FILE",
+					"pattern": "docker(files?)?/.*\\.ya?ml$",
+					"icon": "/icons/files/docker.svg"
 				},
 				{
 					"fileNames": ".dockerignore,.Dockerignore",
@@ -3625,6 +4093,16 @@
 					"iconType": "FILE",
 					"pattern": ".*\\.eco$",
 					"icon": "/icons/files/docpad.svg"
+				},
+				{
+					"fileNames": "docusaurus.config.js,docusaurus.config.ts,docusaurus.config.cjs,docusaurus.config.mjs",
+					"name": "Docusaurus",
+					"iconColor": "3ECC5F",
+					"url": "https://docusaurus.io/",
+					"priority": "100",
+					"iconType": "FILE",
+					"pattern": "^docusaurus\\.config\\.([cm]?js|ts)$",
+					"icon": "/icons/files/docusaurus.svg"
 				},
 				{
 					"fileNames": "docz.config.js,.doczrc.json,.doczrc.config.mjs,docz.config.cjs",
@@ -4007,6 +4485,16 @@
 					"icon": "/icons/files/electron.svg"
 				},
 				{
+					"fileNames": "*.electron.js,*.electron.ts,*.electron.jsx,*.electron.tsx,*.electron.mjs,*.electron.cjs",
+					"name": "Electron Files",
+					"iconColor": "26C6DA",
+					"url": "https://www.electronjs.org/",
+					"priority": "100",
+					"iconType": "FILE",
+					"pattern": ".*\\.electron\\.([cm]?jsx?|tsx?)$",
+					"icon": "/icons/files/electronfiles.svg"
+				},
+				{
 					"fileNames": "*.asar",
 					"name": "Electron ASAR",
 					"iconColor": "A1887F",
@@ -4207,6 +4695,16 @@
 					"icon": "/icons/files/eslint.svg"
 				},
 				{
+					"fileNames": "eslint/*.yaml,eslint/*.yml,eslint/*.json,eslint/*.js,eslint/*.cjs,eslint/*.mjs,eslint/*.ts",
+					"name": "ESLint Rules",
+					"iconColor": "7963E6",
+					"url": "https://eslint.org/",
+					"priority": "50",
+					"iconType": "FILE",
+					"pattern": "eslint/.*\\.(ya?ml|json|[cm]?js|ts)?$",
+					"icon": "/icons/files/eslint.svg"
+				},
+				{
 					"fileNames": ".eslintcache",
 					"name": "ESLint Cache",
 					"iconColor": "808080",
@@ -4284,6 +4782,16 @@
 					"priority": "100",
 					"iconType": "FILE",
 					"pattern": "^app\\.config?\\.([cm]?js|ts|json)$",
+					"icon": "/icons/files/expo.svg"
+				},
+				{
+					"fileNames": "expo/*.js,expo/*.json,expo/*.ts",
+					"name": "Expo Files",
+					"iconColor": "246dad",
+					"url": "https://docs.expo.dev/",
+					"priority": "50",
+					"iconType": "FILE",
+					"pattern": "^expo/.*\\.([cm]?js|ts|json)$",
 					"icon": "/icons/files/expo.svg"
 				},
 				{
@@ -4816,13 +5324,13 @@
 					"icon": "/icons/files/fuelux.svg"
 				},
 				{
-					"fileNames": "fuse.js,fuse.mjs",
+					"fileNames": "fuse.js,fuse.mjs,fuse.ts,fuse.cjs",
 					"name": "FuseBox",
 					"iconColor": "64B5F6",
 					"url": "https://fuse-box.org/",
 					"priority": "100",
 					"iconType": "FILE",
-					"pattern": "^fuse\\.(js|mjs)$",
+					"pattern": "^fuse\\.([cm]?js|ts)$",
 					"icon": "/icons/files/fusebox.svg"
 				},
 				{
@@ -4857,12 +5365,12 @@
 				},
 				{
 					"fileNames": "*.gml",
-					"name": "Gamemaker",
-					"iconColor": "88cb45",
-					"url": "https://www.yoyogames.com/en/gamemaker",
+					"name": "GameMaker",
+					"iconColor": "4DD0E1",
 					"priority": "100",
 					"iconType": "FILE",
 					"pattern": ".*\\.gml$",
+					"url": "https://gamemaker.io/en",
 					"icon": "/icons/files/gamemaker.svg"
 				},
 				{
@@ -4896,13 +5404,13 @@
 					"icon": "/icons/files/gss.svg"
 				},
 				{
-					"fileNames": "gatsby.js,gatsby.config.js,gatsby.ts",
+					"fileNames": "gatsby.js,gatsby.config.js,gatsby.ts,gatsby.config.cjs,gatsby-node.mjs,gatsby-ssr.js,gatsby-browser.cjs",
 					"name": "Gatsby",
 					"iconColor": "663399",
 					"url": "https://www.gatsbyjs.com/",
 					"priority": "100",
 					"iconType": "FILE",
-					"pattern": "^gatsby.*\\.(js|ts)",
+					"pattern": "^gatsby.*\\.([cm]?js|ts)",
 					"icon": "/icons/files/gatsby.svg"
 				},
 				{
@@ -5212,7 +5720,7 @@
 					"url": "https://golo-lang.org/",
 					"priority": "100",
 					"iconType": "FILE",
-					"pattern": ".*\\.(golo)$",
+					"pattern": ".*\\.golo$",
 					"icon": "/icons/files/golo.svg"
 				},
 				{
@@ -5382,17 +5890,17 @@
 					"url": "https://gridsome.org/",
 					"priority": "100",
 					"iconType": "FILE",
-					"pattern": "^gridsome\\.(config|client|server)\\.[jt]s$",
+					"pattern": "^gridsome\\.(config|client|server)\\.([cm]?js|ts)$",
 					"icon": "/icons/files/gridsome.svg"
 				},
 				{
-					"fileNames": "*.gy,*.gdsl,*.groovy,*.grt,*.gtpl,*.gsp,*.gvy",
+					"fileNames": "*.gy,*.gdsl,*.groovy,*.grt,*.gtpl,*.gsp",
 					"name": "Groovy",
 					"iconColor": "26A2C1",
 					"url": "https://groovy-lang.org/",
 					"priority": "100",
 					"iconType": "FILE",
-					"pattern": ".*\\.(gy|gdsl|groovy|grt|gtpl|gsp|gvy)$",
+					"pattern": ".*\\.(gy|gdsl|groovy|grt|gtpl|gvy)$",
 					"icon": "/icons/files/groovy.svg"
 				},
 				{
@@ -5416,6 +5924,16 @@
 					"icon": "/icons/files/gruntfile.svg"
 				},
 				{
+					"fileNames": "gruntfiles/*.js,Gruntfiles/*.cjs,gruntfiles/*.mjs,grunt/*.ts",
+					"name": "Grunt Files",
+					"iconColor": "F4BF75",
+					"url": "https://gruntjs.com/",
+					"priority": "50",
+					"iconType": "FILE",
+					"pattern": "[gG]runt(files?)?/.*\\.([cm]?js|json|ts)",
+					"icon": "/icons/files/gruntfile.svg"
+				},
+				{
 					"fileNames": "gulpfile,Gulpfile,gulpfile.js,Gulpfile.ts",
 					"name": "Gulp",
 					"iconColor": "C74748",
@@ -5423,6 +5941,16 @@
 					"priority": "100",
 					"iconType": "FILE",
 					"pattern": "[gG]ulpfile.*",
+					"icon": "/icons/files/gulpfile.svg"
+				},
+				{
+					"fileNames": "gulpfiles/*.js,Gulpfiles/*.cjs,gulpfiles/*.mjs,gulp/*.ts",
+					"name": "Gulp Files",
+					"iconColor": "C74748",
+					"url": "https://gulpjs.com/",
+					"priority": "50",
+					"iconType": "FILE",
+					"pattern": "[gG]ulp(files?)?/.*\\.([cm]?js|json|ts)",
 					"icon": "/icons/files/gulpfile.svg"
 				},
 				{
@@ -5824,6 +6352,16 @@
 					"icon": "/icons/files/husky.svg"
 				},
 				{
+					"fileNames": ".husky/*.js,.husky/*.mjs,.husky/*.cjs,.husky/*.json,.husky/*.yaml,.husky/*.yml",
+					"name": "Husky Files",
+					"iconColor": "7f7f7f",
+					"url": "https://typicode.github.io/husky/#/",
+					"priority": "50",
+					"iconType": "FILE",
+					"pattern": "\\.husky/.*\\.([cm]?js|\\.json|\\.ya?ml)$",
+					"icon": "/icons/files/husky.svg"
+				},
+				{
 					"fileNames": "pre-commit,post-commit,pre-push,post-push,pre-merge,post-merge",
 					"name": "Husky Hooks",
 					"iconColor": "64B5F6",
@@ -5831,6 +6369,16 @@
 					"priority": "100",
 					"iconType": "FILE",
 					"pattern": "^(pre|post)-(checkout|commit|merge|rebase|push)(\\.sh)?",
+					"icon": "/icons/files/huskyhooks.svg"
+				},
+				{
+					"fileNames": "hooks/*.sh",
+					"name": "Husky Hooks Files",
+					"iconColor": "64B5F6",
+					"url": "https://typicode.github.io/husky/#/",
+					"priority": "50",
+					"iconType": "FILE",
+					"pattern": "^hooks/.*\\.sh",
 					"icon": "/icons/files/huskyhooks.svg"
 				},
 				{
@@ -5844,12 +6392,12 @@
 					"icon": "/icons/files/hy.svg"
 				},
 				{
-					"fileNames": "*.ejs.t",
+					"fileNames": "*.ejs.t,*.hygen.js",
 					"name": "Hygen",
 					"iconColor": "ef22ac",
 					"priority": "100",
 					"iconType": "FILE",
-					"pattern": ".*\\.ejs\\.t$",
+					"pattern": ".*\\.(ejs\\.t|hygen\\.js)$",
 					"url": "https://www.hygen.io/",
 					"icon": "/icons/files/hygen.svg"
 				},
@@ -5860,7 +6408,7 @@
 					"url": "https://hyper.is/",
 					"priority": "100",
 					"iconType": "FILE",
-					"pattern": "\\.hyper\\.[cm]?js$",
+					"pattern": "\\.hyper\\.([cm]?js|ts)$",
 					"icon": "/icons/files/hyper.svg"
 				},
 				{
@@ -5900,7 +6448,17 @@
 					"url": "https://en.wikipedia.org/wiki/Internationalization_and_localization",
 					"priority": "90",
 					"iconType": "FILE",
-					"pattern": "^[a-zA-Z]{2}(_[a-zA-Z]{2})*\\.(js|ts|json|ya?ml)$",
+					"pattern": "^[a-zA-Z]{2}(_[a-zA-Z]{2})*\\.([cm]?js|ts|json|ya?ml)$",
+					"icon": "/icons/files/i18nlang.svg"
+				},
+				{
+					"fileNames": "lang/*.js,lang/*.ts,langs/*.mjs,langs/*.json,lang/*.yaml,langs/*.yml,locale/*.js,locales/*.tsx,translation/*.json,translations/*.yml,i18n/*.cjs",
+					"name": "i18n Languages Files",
+					"iconColor": "7986cb",
+					"url": "https://en.wikipedia.org/wiki/Internationalization_and_localization",
+					"priority": "50",
+					"iconType": "FILE",
+					"pattern": "^(langs?|locales?|translations?|i18n)/.*\\.([cm]?jsx?|tsx?|json|ya?ml)$",
 					"icon": "/icons/files/i18nlang.svg"
 				},
 				{
@@ -5942,6 +6500,15 @@
 					"iconType": "FILE",
 					"pattern": ".*\\.(iml|icls)$",
 					"icon": "/icons/files/idea.svg"
+				},
+				{
+					"fileNames": "colors/Darcula.xml,colors/Material Oceanic.xml",
+					"name": "IDEA Colors",
+					"priority": "100",
+					"iconType": "FILE",
+					"pattern": ".*colors/.*\\.xml$",
+					"iconColor": "26A2C1",
+					"icon": "/icons/files/ideacolors.svg"
 				},
 				{
 					"fileNames": "*.idr,*.lidr,*.idris,*.ibc,*.ipkg",
@@ -6251,6 +6818,16 @@
 					"icon": "/icons/files/janet.svg"
 				},
 				{
+					"fileNames": "japafile.js,japafile.cjs,japafile.mjs,japafile.ts",
+					"name": "Japa",
+					"iconColor": "DB2777",
+					"url": "https://japa.dev/docs/",
+					"priority": "100",
+					"iconType": "FILE",
+					"pattern": "^japa[Ff]ile(\\.[cm]?js|ts)?$",
+					"icon": "/icons/files/japa.svg"
+				},
+				{
 					"fileNames": "jasmine.json,jasmine.js,jasmine.config.ts,jasmine.dev.coffee",
 					"name": "Jasmine",
 					"iconColor": "BA68C8",
@@ -6331,6 +6908,16 @@
 					"icon": "/icons/files/jest.svg"
 				},
 				{
+					"fileNames": "jest/*.js,jest/*.ts,jest/*.tsx,jest/*.json,jest/*.jsx",
+					"name": "Jest Files",
+					"iconColor": "D52A29",
+					"url": "https://jestjs.io/",
+					"priority": "50",
+					"iconType": "FILE",
+					"pattern": "^jest/.*\\.(js(on|x)?|[cm]?js|tsx?)$",
+					"icon": "/icons/files/jest.svg"
+				},
+				{
 					"fileNames": ".jestrc,.jestrc.js,.jestrc.json",
 					"name": "Jestrc",
 					"iconColor": "D52A29",
@@ -6401,6 +6988,16 @@
 					"icon": "/icons/files/joomla.svg"
 				},
 				{
+					"fileNames": "*.jslt",
+					"name": "JSLT",
+					"iconColor": "A1887F",
+					"url": "https://github.com/schibsted/jslt",
+					"priority": "100",
+					"iconType": "FILE",
+					"pattern": ".*\\.jslt$",
+					"icon": "/icons/files/jslt.svg"
+				},
+				{
 					"fileNames": "jquery.js,jquery.min.js,jquery.latest.js,jquery.slim.js",
 					"name": "jQuery",
 					"iconColor": "82AAFF",
@@ -6460,13 +7057,13 @@
 					"icon": "/icons/files/jsmap.svg"
 				},
 				{
-					"fileNames": "jsconfig.js,jsconfig.json,.jsconfig.js,.jsconfig.json",
+					"fileNames": "jsconfig.js,jsconfig.json,.jsconfig.js,.jsconfig.json,jsconfig.cjs,jsconfig.mjs",
 					"name": "JS Config",
 					"iconColor": "ffca2f",
 					"url": "https://code.visualstudio.com/docs/languages/jsconfig",
 					"priority": "100",
 					"iconType": "FILE",
-					"pattern": "\\.?jsconfig.*\\.(js|json)$",
+					"pattern": "\\.?jsconfig.*\\.([cm]?js|json)$",
 					"icon": "/icons/files/jsconfig.svg"
 				},
 				{
@@ -6500,6 +7097,16 @@
 					"icon": "/icons/files/jsonld.svg"
 				},
 				{
+					"fileNames": "*.schema.json,*.definition.json,*.definitions.json",
+					"name": "JSON Schema",
+					"iconColor": "AB47BC",
+					"url": "https://json-schema.org/",
+					"priority": "100",
+					"iconType": "FILE",
+					"pattern": ".*\\.(schema|definitions?)\\.json$",
+					"icon": "/icons/files/jsonschema.svg"
+				},
+				{
 					"fileNames": "*.jsonnet,*.libsonnet,*.jsonn",
 					"name": "Jsonnet",
 					"iconColor": "0462b8",
@@ -6528,6 +7135,16 @@
 					"iconType": "FILE",
 					"pattern": ".*\\.jss$",
 					"icon": "/icons/files/jss.svg"
+				},
+				{
+					"fileNames": "*.jte",
+					"name": "JTE",
+					"iconColor": "00cdac",
+					"url": "https://jte.gg/",
+					"priority": "100",
+					"iconType": "FILE",
+					"pattern": ".*\\.jte$",
+					"icon": "/icons/files/jte.svg"
 				},
 				{
 					"fileNames": "*.julia,*.jl",
@@ -6570,6 +7187,26 @@
 					"icon": "/icons/files/junos.svg"
 				},
 				{
+					"fileNames": "justfile,Justfile",
+					"name": "Justfile",
+					"iconColor": "000000",
+					"url": "https://github.com/casey/just",
+					"priority": "100",
+					"iconType": "FILE",
+					"pattern": "^[jJ]ustfile$",
+					"icon": "/icons/files/justfile.svg"
+				},
+				{
+					"fileNames": "justfile,Justfile",
+					"name": "Justfile Dark",
+					"iconColor": "FFFFFF",
+					"url": "https://github.com/casey/just",
+					"priority": "101",
+					"iconType": "FILE",
+					"pattern": "^[jJ]ustfile$",
+					"icon": "/icons/files/justfile.svg"
+				},
+				{
 					"fileNames": "*.jwt",
 					"name": "JWT",
 					"iconColor": "D63AFF",
@@ -6596,7 +7233,7 @@
 					"url": "https://karma-runner.github.io/latest/index.html",
 					"priority": "100",
 					"iconType": "FILE",
-					"pattern": "^karma\\.conf(ig)?\\.(js|ts|coffee)$",
+					"pattern": "^karma\\.conf(ig)?\\.([cm]?js|ts|coffee)$",
 					"icon": "/icons/files/karma.svg"
 				},
 				{
@@ -6606,7 +7243,7 @@
 					"url": "https://karma-runner.github.io/latest/index.html",
 					"priority": "101",
 					"iconType": "FILE",
-					"pattern": "^karma\\.conf(ig)?\\.(js|ts|coffee)$",
+					"pattern": "^karma\\.conf(ig)?\\.([cm]?js|ts|coffee)$",
 					"icon": "/icons/files/karma.svg"
 				},
 				{
@@ -6658,12 +7295,12 @@
 					"icon": "/icons/files/publishToken.svg"
 				},
 				{
-					"fileNames": "*.hypr,*.hypr.live",
+					"fileNames": "*.kibo",
 					"name": "Kibo",
 					"iconColor": "ffd003",
 					"priority": "100",
 					"iconType": "FILE",
-					"pattern": ".*\\.hypr(\\.live)?$",
+					"pattern": ".*\\.kibo$",
 					"url": "https://www.mozu.com/docs/developer/themes/hypr.htm",
 					"icon": "/icons/files/kibo.svg"
 				},
@@ -7256,6 +7893,16 @@
 					"icon": "/icons/files/macaulay.svg"
 				},
 				{
+					"fileNames": ".madgerc",
+					"name": "Madge",
+					"iconColor": "803FA5",
+					"priority": "100",
+					"iconType": "FILE",
+					"pattern": "^\\.madgerc$",
+					"url": "https://github.com/pahen/madge",
+					"icon": "/icons/files/madge.svg"
+				},
+				{
 					"fileNames": "*.mage",
 					"name": "Magento",
 					"iconColor": "eb6007",
@@ -7362,7 +8009,7 @@
 					"url": "https://github.com/markdownlint/markdownlint",
 					"priority": "100",
 					"iconType": "FILE",
-					"pattern": "^\\.(markdownlint(rc)?|mdlrc)(\\.(js|ya?ml|jsonc?))?$",
+					"pattern": "^\\.(markdownlint(rc)?|mdlrc)(\\.([cm]?js|ts|ya?ml|jsonc?))?$",
 					"icon": "/icons/files/markdownlint.svg"
 				},
 				{
@@ -7596,6 +8243,16 @@
 					"icon": "/icons/files/meteor.svg"
 				},
 				{
+					"fileNames": "metro.config.js,metro.config.ts,metro.config.json,metro.config.cjs,metro.config.mjs",
+					"name": "Metro",
+					"iconColor": "ef5350",
+					"url": "https://facebook.github.io/metro/",
+					"priority": "100",
+					"iconType": "FILE",
+					"pattern": "^metro\\.config\\.([cm]?js|ts|json)$",
+					"icon": "/icons/files/metro.svg"
+				},
+				{
 					"fileNames": "*.mcfunction,*.mclevel,*.mcpack,*.mcworld,*.mcmod,*.mcmeta",
 					"name": "Minecraft",
 					"iconColor": "20ab49",
@@ -7706,13 +8363,13 @@
 					"icon": "/icons/files/mocha.svg"
 				},
 				{
-					"fileNames": ".mocha.js,.mocha.json,.mocha.yml",
+					"fileNames": ".mocha.js,.mocha.json,.mocha.yml,.mocha.cjs,.mocha.mjs,.mocha.ts",
 					"name": "Mocha JSON",
 					"iconColor": "ab7967",
 					"url": "https://mochajs.org/",
 					"priority": "100",
 					"iconType": "FILE",
-					"pattern": "^\\.mocha\\.(js|json|yml)$",
+					"pattern": "^\\.mocha\\.([cm]?js|ts|json|yml)$",
 					"icon": "/icons/files/mocha.svg"
 				},
 				{
@@ -7722,7 +8379,17 @@
 					"url": "https://en.wikipedia.org/wiki/Mock_object",
 					"priority": "100",
 					"iconType": "FILE",
-					"pattern": ".*\\.(mock|stub|spy)\\.([cm]?js|ts|dart|java|kt|rb|pl|py)$",
+					"pattern": ".*\\.(mock|stub|spy)\\.([cm]?jsx?|tsx?|dart|java|kt|rb|pl|py)$",
+					"icon": "/icons/files/mock.svg"
+				},
+				{
+					"fileNames": "mock/*.java,mocks/*.py,stub/*.js,stubs/*.jsx,spy/*.rb,spies/*.kt,mocks/*.dart,stub/*.cjs,spies/*.mjs",
+					"name": "Spy/Mock/Stub Files",
+					"iconColor": "8d6e63",
+					"url": "https://en.wikipedia.org/wiki/Mock_object",
+					"priority": "50",
+					"iconType": "FILE",
+					"pattern": "(mocks?|stubs?|spy|spies)/.*\\.([cm]?jsx?|tsx?|dart|java|kt|rb|pl|py)$",
 					"icon": "/icons/files/mock.svg"
 				},
 				{
@@ -7876,6 +8543,16 @@
 					"icon": "/icons/files/moonscript.svg"
 				},
 				{
+					"fileNames": "moon.yml,moon.yaml",
+					"name": "Moon",
+					"iconColor": "6e58d1",
+					"priority": "100",
+					"iconType": "FILE",
+					"pattern": "^moon\\.ya?ml$",
+					"url": "https://moonrepo.dev/",
+					"icon": "/icons/files/moon.svg"
+				},
+				{
 					"fileNames": "mootools.js,mootools.min.js,mootools-nocompat.cjs",
 					"name": "Mootools",
 					"iconColor": "6c788e",
@@ -8026,13 +8703,13 @@
 					"icon": "/icons/files/nasm.svg"
 				},
 				{
-					"fileNames": ".ncurc,.ncurc.js,.ncurc.mjs,.ncurc.json,.ncurc.yml",
+					"fileNames": ".ncurc,.ncurc.js,.ncurc.mjs,.ncurc.json,.ncurc.yml,.ncurc.cjs,.ncurc.mjs",
 					"name": "NCU",
 					"iconColor": "DCE775",
 					"url": "https://github.com/raineorshine/npm-check-updates",
 					"priority": "100",
 					"iconType": "FILE",
-					"pattern": "^\\.ncurc\\.(json|[cm]?js|ya?ml)$",
+					"pattern": "^\\.ncurc\\.(json|[cm]?js|ts|ya?ml)$",
 					"icon": "/icons/files/ncu.svg"
 				},
 				{
@@ -8396,12 +9073,32 @@
 					"icon": "/icons/files/ngrx-actions.svg"
 				},
 				{
+					"fileNames": "actions/*.js,actions/*.ts,actions/*.jsx,actions/*.tsx",
+					"name": "NgRx Actions Files",
+					"iconColor": "ab47bc",
+					"priority": "50",
+					"iconType": "FILE",
+					"pattern": "actions?/.*\\.[tj]sx?$",
+					"url": "https://ngrx.io/",
+					"icon": "/icons/files/ngrx-actions.svg"
+				},
+				{
 					"fileNames": "*.effect.ts,*.effect.js,*.effects.ts,*.effects.js,*.effect.jsx,*.effect.tsx,*.effects.jsx,*.effects.tsx",
 					"name": "NgRx Effects",
 					"iconColor": "9575CD",
 					"priority": "100",
 					"iconType": "FILE",
 					"pattern": ".*\\.effects?\\.[tj]sx?$",
+					"url": "https://ngrx.io/",
+					"icon": "/icons/files/ngrx-effects.svg"
+				},
+				{
+					"fileNames": "effects/*.js,effects/*.ts,effects/*.jsx,effects/*.tsx",
+					"name": "NgRx Effects Files",
+					"iconColor": "9575CD",
+					"priority": "50",
+					"iconType": "FILE",
+					"pattern": "effects?/.*\\.[tj]sx?$",
 					"url": "https://ngrx.io/",
 					"icon": "/icons/files/ngrx-effects.svg"
 				},
@@ -8416,12 +9113,32 @@
 					"icon": "/icons/files/ngrx-entities.svg"
 				},
 				{
+					"fileNames": "entities/*.js,entities/*.ts,entities/*.jsx,entities/*.tsx",
+					"name": "NgRx Entities Files",
+					"iconColor": "64B5F6",
+					"priority": "50",
+					"iconType": "FILE",
+					"pattern": "(entity|entities)/.*\\.[tj]sx?$",
+					"url": "https://ngrx.io/",
+					"icon": "/icons/files/ngrx-entities.svg"
+				},
+				{
 					"fileNames": "*.reducer.js,*.reducer.ts,*.reducers.ts,*.reducers.js,*.reducer.jsx,*.reducer.tsx,*.reducers.jsx,*.reducers.tsx",
 					"name": "NgRx Reducers",
 					"iconColor": "4CAF50",
 					"priority": "100",
 					"iconType": "FILE",
 					"pattern": ".*\\.reducers?\\.[tj]sx?$",
+					"url": "https://ngrx.io/",
+					"icon": "/icons/files/ngrx-reducers.svg"
+				},
+				{
+					"fileNames": "reducers/*.js,reducers/*.ts,reducers/*.jsx,reducers/*.tsx",
+					"name": "NgRx Reducers Files",
+					"iconColor": "4CAF50",
+					"priority": "50",
+					"iconType": "FILE",
+					"pattern": "reducers?/.*\\.[tj]sx?$",
 					"url": "https://ngrx.io/",
 					"icon": "/icons/files/ngrx-reducers.svg"
 				},
@@ -8436,6 +9153,16 @@
 					"icon": "/icons/files/ngrx-repo.svg"
 				},
 				{
+					"fileNames": "repo/*.js,repo/*.ts,repo/*.jsx,repo/*.tsx,repos/*.js,repos/*.ts,repos/*.jsx,repos/*.tsx",
+					"name": "NgRx Repositories Files",
+					"iconColor": "EC407A",
+					"priority": "50",
+					"iconType": "FILE",
+					"pattern": "(repos?|repository|repositories)?/.*\\.[tj]sx?$",
+					"url": "https://ngrx.io/",
+					"icon": "/icons/files/ngrx-repo.svg"
+				},
+				{
 					"fileNames": "*.state.ts,*.state.js,*.state.jsx,*.state.tsx,*.states.ts,*.states.js,*.states.jsx,*.states.tsx",
 					"name": "NgRx State",
 					"iconColor": "E57373",
@@ -8446,12 +9173,32 @@
 					"icon": "/icons/files/ngrx-state.svg"
 				},
 				{
+					"fileNames": "state/*.js,state/*.ts,state/*.jsx,state/*.tsx",
+					"name": "NgRx State Files",
+					"iconColor": "E57373",
+					"priority": "50",
+					"iconType": "FILE",
+					"pattern": "states?/.*\\.[tj]sx?$",
+					"url": "https://ngrx.io/",
+					"icon": "/icons/files/ngrx-state.svg"
+				},
+				{
 					"fileNames": "*.selector.js,*.selector.ts,*.selectors.ts,*.selectors.js,*.selector.jsx,*.selector.tsx,*.selectors.jsx,*.selectors.tsx",
 					"name": "NgRx Selectors",
 					"iconColor": "FDD835",
 					"priority": "100",
 					"iconType": "FILE",
 					"pattern": ".*\\.selectors?\\.[tj]sx?$",
+					"url": "https://ngrx.io/",
+					"icon": "/icons/files/ngrx-selectors.svg"
+				},
+				{
+					"fileNames": "selectors/*.js,selectors/*.ts,selectors/*.jsx,selectors/*.tsx",
+					"name": "NgRx Selectors Files",
+					"iconColor": "FDD835",
+					"priority": "50",
+					"iconType": "FILE",
+					"pattern": "selectors?/.*\\.[tj]sx?$",
 					"url": "https://ngrx.io/",
 					"icon": "/icons/files/ngrx-selectors.svg"
 				},
@@ -8731,7 +9478,7 @@
 					"url": "https://www.nrin.nl/projects/nsri",
 					"priority": "100",
 					"iconType": "FILE",
-					"pattern": "^\\.(nsrirc|integrity)(\\.(json|(config\\.)?[cm]?js|ya?ml))?$",
+					"pattern": "^\\.(nsrirc|integrity)(\\.(json|(config\\.)?[cm]?js|ts|ya?ml))?$",
 					"icon": "/icons/files/nsri.svg"
 				},
 				{
@@ -8807,7 +9554,7 @@
 				{
 					"fileNames": "nuxt.config.js,nuxt.config.ts,nuxt.config.cjs,nuxt.config.mjs",
 					"name": "Nuxt",
-					"iconColor": "41b883",
+					"iconColor": "00dc82",
 					"url": "https://nuxtjs.org/",
 					"priority": "100",
 					"iconType": "FILE",
@@ -9125,6 +9872,16 @@
 					"icon": "/icons/files/openscad.svg"
 				},
 				{
+					"fileNames": "*.s2i,*.s2iignore",
+					"name": "OpenShift",
+					"iconColor": "c62828",
+					"priority": "100",
+					"iconType": "FILE",
+					"pattern": ".*\\.(s2i(ignore)?)$",
+					"url": "https://docs.openshift.com/container-platform/3.11/creating_images/s2i.html/",
+					"icon": "/icons/files/openshift.svg"
+				},
+				{
 					"fileNames": "*.aki,*.ami,*.ari,*.ova,*.ovf",
 					"name": "OpenStack",
 					"iconColor": "e72f52",
@@ -9253,6 +10010,16 @@
 					"iconType": "FILE",
 					"pattern": ".*\\.pan$",
 					"icon": "/icons/files/pan.svg"
+				},
+				{
+					"fileNames": "*.palette,*.pal,*.gpl,*.aco,*.act,*.skp,*.soc,*.ase,*.cpl",
+					"name": "Palette",
+					"iconColor": "42A5F5",
+					"url": "https://sk1project.net/palettes/",
+					"priority": "100",
+					"iconType": "FILE",
+					"pattern": ".*\\.(palette|pal|gpl|aco|act|skp|soc|ase|cpl)$",
+					"icon": "/icons/files/palette.svg"
 				},
 				{
 					"fileNames": "*.psc,*.pex",
@@ -9415,6 +10182,16 @@
 					"icon": "/icons/files/helixignore.svg"
 				},
 				{
+					"fileNames": "*.pest",
+					"name": "Pest",
+					"iconColor": "FF8A65",
+					"url": "https://github.com/pest-parser",
+					"priority": "100",
+					"iconType": "FILE",
+					"pattern": "^.*\\.pest$",
+					"icon": "/icons/files/pest.svg"
+				},
+				{
 					"fileNames": "*.volt",
 					"name": "Phalcon",
 					"iconColor": "6AAB20",
@@ -9445,18 +10222,8 @@
 					"icon": "/icons/files/photorec.svg"
 				},
 				{
-					"fileNames": "my.test.php,myTest.php",
-					"name": "PHPUnit",
-					"iconColor": "C792EA",
-					"url": "https://phpunit.de/",
-					"priority": "100",
-					"iconType": "FILE",
-					"pattern": ".*([tT])est\\.php$",
-					"icon": "/icons/files/phpunit.svg"
-				},
-				{
 					"fileNames": "phpunit.xml,phpunit.xml.dist",
-					"name": "PHPUnit (2)",
+					"name": "PHPUnit",
 					"iconColor": "C792EA",
 					"url": "https://phpunit.de/",
 					"priority": "100",
@@ -9573,6 +10340,16 @@
 					"iconType": "FILE",
 					"pattern": ".*\\.pine(script)?$",
 					"icon": "/icons/files/pinescript.svg"
+				},
+				{
+					"fileNames": "*.pinia.js,*.pinia.ts,*.pinia.mjs,*.pinia.cjs",
+					"name": "Pinia",
+					"iconColor": "ecb732",
+					"url": "https://pinia.vuejs.org/",
+					"priority": "100",
+					"iconType": "FILE",
+					"pattern": ".*\\.pinia\\.([cm]?js|ts)$",
+					"icon": "/icons/files/pinia.svg"
 				},
 				{
 					"fileNames": "Pipfile,pipfile,*.pipfile,*.Pipfile",
@@ -9789,7 +10566,7 @@
 					"name": "PostHTML",
 					"priority": "100",
 					"iconType": "FILE",
-					"pattern": "^(\\.posthtmlrc|posthtml\\.config\\.(yml|js|json))$",
+					"pattern": "^(\\.posthtmlrc|posthtml\\.config\\.(yml|[cm]?js|json))$",
 					"iconColor": "FFB74D",
 					"url": "https://posthtml.org/#/",
 					"icon": "/icons/files/posthtml.svg"
@@ -10255,6 +11032,16 @@
 					"icon": "/icons/files/quasar.svg"
 				},
 				{
+					"fileNames": "*.qtn",
+					"name": "Quantum",
+					"iconColor": "90A4AE",
+					"url": "https://www.photonengine.com/en-US/Quantum",
+					"priority": "100",
+					"iconType": "FILE",
+					"pattern": ".*\\.qtn$",
+					"icon": "/icons/files/quantum.svg"
+				},
+				{
 					"fileNames": "*.r,*.rd,*.rsx,*.R,*.Rd,*.Rsx",
 					"name": "R",
 					"iconColor": "497CE3",
@@ -10325,6 +11112,16 @@
 					"icon": "/icons/files/railsconcern.svg"
 				},
 				{
+					"fileNames": "concern/*.rb,concerns/*.rb",
+					"name": "Rails Concern Files",
+					"iconColor": "00897B",
+					"priority": "50",
+					"iconType": "FILE",
+					"pattern": "concerns?/.*\\.rb$",
+					"url": "https://rubyonrails.org/",
+					"icon": "/icons/files/railsconcern.svg"
+				},
+				{
 					"fileNames": "users_controller.rb",
 					"name": "Rails Controller",
 					"iconColor": "EC407A",
@@ -10335,12 +11132,42 @@
 					"icon": "/icons/files/railscontroller.svg"
 				},
 				{
+					"fileNames": "controller/*.rb,controllers/*.rb",
+					"name": "Rails Controller Files",
+					"iconColor": "EC407A",
+					"priority": "50",
+					"iconType": "FILE",
+					"pattern": "controllers?/.*\\.rb$",
+					"url": "https://rubyonrails.org/",
+					"icon": "/icons/files/railscontroller.svg"
+				},
+				{
+					"fileNames": "config/*.rb,config/environments/*.rb",
+					"name": "Rails Config Files",
+					"iconColor": "7963E6",
+					"priority": "50",
+					"iconType": "FILE",
+					"pattern": "config/.*\\.rb$",
+					"url": "https://rubyonrails.org/",
+					"icon": "/icons/files/rails.svg"
+				},
+				{
 					"fileNames": "database\\.yml,database.yml",
 					"name": "Rails Database",
 					"iconColor": "F78C6C",
 					"priority": "100",
 					"iconType": "FILE",
 					"pattern": "database\\.ya?ml$",
+					"url": "https://rubyonrails.org/",
+					"icon": "/icons/files/railsdb.svg"
+				},
+				{
+					"fileNames": "migrate/*.rb,migrations/*.rb",
+					"name": "Rails Database Files",
+					"iconColor": "F78C6C",
+					"priority": "50",
+					"iconType": "FILE",
+					"pattern": "(migrate|migrations?)/.*\\.rb$",
 					"url": "https://rubyonrails.org/",
 					"icon": "/icons/files/railsdb.svg"
 				},
@@ -10355,12 +11182,32 @@
 					"icon": "/icons/files/railsfactory.svg"
 				},
 				{
+					"fileNames": "factory/*.rb,factories/*.rb",
+					"name": "Rails Factory Files",
+					"iconColor": "FF8A65",
+					"priority": "50",
+					"iconType": "FILE",
+					"pattern": "(factory|factories)/.*\\.rb$",
+					"url": "https://rubyonrails.org/",
+					"icon": "/icons/files/railsfactory.svg"
+				},
+				{
 					"fileNames": "user_fixture.rb",
 					"name": "Rails Fixture",
 					"iconColor": "9E9D24",
 					"priority": "100",
 					"iconType": "FILE",
 					"pattern": ".*_fixture\\.rb$",
+					"url": "https://rubyonrails.org/",
+					"icon": "/icons/files/railsfixture.svg"
+				},
+				{
+					"fileNames": "fixture/*.rb,fixtures/*.rb",
+					"name": "Rails Fixture Files",
+					"iconColor": "9E9D24",
+					"priority": "50",
+					"iconType": "FILE",
+					"pattern": "fixtures?/.*\\.rb$",
 					"url": "https://rubyonrails.org/",
 					"icon": "/icons/files/railsfixture.svg"
 				},
@@ -10375,12 +11222,32 @@
 					"icon": "/icons/files/railshelper.svg"
 				},
 				{
+					"fileNames": "helper/*.rb,helpers/*.rb",
+					"name": "Rails Helper Files",
+					"iconColor": "AB47BC",
+					"priority": "50",
+					"iconType": "FILE",
+					"pattern": "helpers?/.*\\.rb$",
+					"url": "https://rubyonrails.org/",
+					"icon": "/icons/files/railshelper.svg"
+				},
+				{
 					"fileNames": "users_job.rb",
 					"name": "Rails Job",
 					"iconColor": "7E57C2",
 					"priority": "100",
 					"iconType": "FILE",
 					"pattern": ".*_job\\.rb$",
+					"url": "https://rubyonrails.org/",
+					"icon": "/icons/files/railsjob.svg"
+				},
+				{
+					"fileNames": "job/*.rb,jobs/*.rb",
+					"name": "Rails Job Files",
+					"iconColor": "7E57C2",
+					"priority": "50",
+					"iconType": "FILE",
+					"pattern": "jobs?/.*\\.rb$",
 					"url": "https://rubyonrails.org/",
 					"icon": "/icons/files/railsjob.svg"
 				},
@@ -10395,12 +11262,32 @@
 					"icon": "/icons/files/railsmailer.svg"
 				},
 				{
+					"fileNames": "mailer/*.rb,mailers/*.rb",
+					"name": "Rails Mailer Files",
+					"iconColor": "42a5f5",
+					"priority": "50",
+					"iconType": "FILE",
+					"pattern": "mailers?/.*\\.rb$",
+					"url": "https://rubyonrails.org/",
+					"icon": "/icons/files/railsmailer.svg"
+				},
+				{
 					"fileNames": "routes.rb",
 					"name": "Rails Routing",
 					"iconColor": "F44336",
 					"priority": "100",
 					"iconType": "FILE",
 					"pattern": "^routes\\.rb$",
+					"url": "https://rubyonrails.org/",
+					"icon": "/icons/files/railsroutes.svg"
+				},
+				{
+					"fileNames": "route/*.rb,routes/*.rb",
+					"name": "Rails Routing Files",
+					"iconColor": "F44336",
+					"priority": "50",
+					"iconType": "FILE",
+					"pattern": "routes?/.*\\.rb$",
 					"url": "https://rubyonrails.org/",
 					"icon": "/icons/files/railsroutes.svg"
 				},
@@ -10415,12 +11302,32 @@
 					"icon": "/icons/files/railsschema.svg"
 				},
 				{
+					"fileNames": "schema/*.rb,schemas/*.rb",
+					"name": "Rails Schema Files",
+					"iconColor": "4FC3F7",
+					"priority": "50",
+					"iconType": "FILE",
+					"pattern": "schemas?/.*\\.rb$",
+					"url": "https://rubyonrails.org/",
+					"icon": "/icons/files/railsschema.svg"
+				},
+				{
 					"fileNames": "user_serializer.rb",
 					"name": "Rails Serializer",
 					"iconColor": "fbc02d",
 					"priority": "100",
 					"iconType": "FILE",
 					"pattern": ".*_serializer\\.rb$",
+					"url": "https://rubyonrails.org/",
+					"icon": "/icons/files/railsserializer.svg"
+				},
+				{
+					"fileNames": "serializer/*.rb,serializers/*.rb",
+					"name": "Rails Serializer Files",
+					"iconColor": "fbc02d",
+					"priority": "50",
+					"iconType": "FILE",
+					"pattern": "serializers?/.*\\.rb$",
 					"url": "https://rubyonrails.org/",
 					"icon": "/icons/files/railsserializer.svg"
 				},
@@ -10435,12 +11342,32 @@
 					"icon": "/icons/files/railsservice.svg"
 				},
 				{
+					"fileNames": "service/*.rb,services/*.rb",
+					"name": "Rails Service Files",
+					"iconColor": "FDD835",
+					"priority": "50",
+					"iconType": "FILE",
+					"pattern": "services?/.*\\.rb$",
+					"url": "https://rubyonrails.org/",
+					"icon": "/icons/files/railsservice.svg"
+				},
+				{
 					"fileNames": "seed.rb",
 					"name": "Rails Seed",
 					"iconColor": "EF5350",
 					"priority": "100",
 					"iconType": "FILE",
 					"pattern": "^seed\\.rb$",
+					"url": "https://rubyonrails.org/",
+					"icon": "/icons/files/railsseed.svg"
+				},
+				{
+					"fileNames": "seed/*.rb,seeds/*.rb",
+					"name": "Rails Seed Files",
+					"iconColor": "EF5350",
+					"priority": "50",
+					"iconType": "FILE",
+					"pattern": "seeds?/.*\\.rb$",
 					"url": "https://rubyonrails.org/",
 					"icon": "/icons/files/railsseed.svg"
 				},
@@ -10515,6 +11442,16 @@
 					"icon": "/icons/files/rbs.svg"
 				},
 				{
+					"fileNames": "Steepfile,rbs_collection.yaml",
+					"name": "RBS Config",
+					"iconColor": "f44336",
+					"url": "https://github.com/ruby/rbs",
+					"priority": "1",
+					"iconType": "FILE",
+					"pattern": "(Steepfile|rbs_collection\\.ya?ml)$",
+					"icon": "/icons/files/rbsconfig.svg"
+				},
+				{
 					"fileNames": "*.RData,*.rds,*.rdx",
 					"name": "RData",
 					"iconColor": "dc353b",
@@ -10550,9 +11487,29 @@
 					"iconColor": "42A5F5",
 					"priority": "100",
 					"iconType": "FILE",
-					"pattern": ".*\\.?(atoms?|selectors?)\\.([cm]?js|ts)$",
+					"pattern": ".*\\.?(atoms?|selectors?)\\.([cm]?jsx?|tsx?)$",
 					"url": "https://recoiljs.org/",
 					"icon": "/icons/files/recoil.svg"
+				},
+				{
+					"fileNames": "atom/*.js,atoms/*.ts,selector/*.jsx,selectors/*.tsx,recoil/*.jsx,recoil/*.tsx",
+					"name": "Recoil Files",
+					"iconColor": "42A5F5",
+					"priority": "50",
+					"iconType": "FILE",
+					"pattern": "(atoms?|selectors?|recoil)/.*\\.([cm]?jsx?|tsx?)$",
+					"url": "https://recoiljs.org/",
+					"icon": "/icons/files/recoil.svg"
+				},
+				{
+					"fileNames": "redwood.toml",
+					"name": "RedwoodJS",
+					"iconColor": "FF5722",
+					"priority": "100",
+					"iconType": "FILE",
+					"pattern": "^\\.redwood\\.toml$",
+					"url": "https://redwoodjs.com/",
+					"icon": "/icons/files/redwood.svg"
 				},
 				{
 					"fileNames": "remix.config.js,remix.config.mjs,remix.config.ts",
@@ -10615,6 +11572,16 @@
 					"icon": "/icons/files/react.svg"
 				},
 				{
+					"fileNames": "react-native.config.js,react-native.config.mjs,react-native.config.ts",
+					"name": "React Native",
+					"iconColor": "4DB6AC",
+					"url": "https://reactnative.dev/",
+					"priority": "100",
+					"iconType": "FILE",
+					"pattern": "^react-native\\.config\\.([cm]?js|ts)$",
+					"icon": "/icons/files/reactnative.svg"
+				},
+				{
 					"fileNames": "reactos.ios,reactos.deb",
 					"name": "ReactOS",
 					"iconColor": "467fbf",
@@ -10655,11 +11622,11 @@
 					"icon": "/icons/files/rebol.svg"
 				},
 				{
-					"fileNames": "*.rpm,*.rpmmacros",
+					"fileNames": "*.rpm,*.rpmmacros,.s2iignore",
 					"name": "Red Hat",
 					"priority": "100",
 					"iconType": "FILE",
-					"pattern": ".*\\.(rpm(macros)?)$",
+					"pattern": ".*\\.(rpm(macros)?|s2iignore)$",
 					"url": "https://www.redhat.com/en",
 					"iconColor": "eb1c24",
 					"icon": "/icons/files/redhat.svg"
@@ -10695,73 +11662,163 @@
 					"icon": "/icons/files/redis.svg"
 				},
 				{
-					"fileNames": "action.js,actions.ts,myAction.js,myActions.js,my-actions.js",
+					"fileNames": "action.js,actions.ts,action.js,actions.tsx,myAction.js,myActions.js,my-actions.js,actions.cjs,action.mjs",
 					"name": "Redux Action",
 					"iconColor": "ab47bc",
 					"url": "https://redux.js.org/",
 					"priority": "100",
 					"iconType": "FILE",
-					"pattern": ".*([aA])ctions?\\.(js|ts)$",
+					"pattern": ".*([aA])ctions?\\.([cm]?jsx?|tsx?)$",
 					"icon": "/icons/files/redux-action.svg"
 				},
 				{
-					"fileNames": "epic.js,epics.ts,myEpic.js,myEpics.js,my-epics.js",
+					"fileNames": "actions/*.js,actions/*.ts,actions/*.jsx,actions/*.tsx",
+					"name": "Redux Actions Files",
+					"iconColor": "ab47bc",
+					"priority": "50",
+					"iconType": "FILE",
+					"pattern": "actions?/.*\\.[tj]sx?$",
+					"url": "https://redux.js.org/",
+					"icon": "/icons/files/redux-action.svg"
+				},
+				{
+					"fileNames": "epic.js,epics.ts,epic.jsx,epics.tsx,myEpic.js,myEpics.js,my-epics.js,epic.cjs,epics.mjs",
 					"name": "Redux Epic",
 					"iconColor": "64B5F6",
 					"url": "https://redux.js.org/",
 					"priority": "100",
 					"iconType": "FILE",
-					"pattern": ".*([eE])pics?\\.(js|ts)$",
+					"pattern": ".*([eE])pics?\\.([cm]?jsx?|tsx?)$",
 					"icon": "/icons/files/redux-epic.svg"
 				},
 				{
-					"fileNames": "saga.js,sagas.ts,mySaga.js,mySagas.js,my-sagas.js",
+					"fileNames": "epics/*.js,epics/*.ts,epics/*.jsx,epics/*.tsx",
+					"name": "Redux Epic Files",
+					"iconColor": "64B5F6",
+					"priority": "50",
+					"iconType": "FILE",
+					"pattern": "epics?/.*\\.[tj]sx?$",
+					"url": "https://redux.js.org/",
+					"icon": "/icons/files/redux-epic.svg"
+				},
+				{
+					"fileNames": "thunk.js,thunks.ts,thunk.jsx,thunks.tsx,myThunk.js,myThunks.js,my-thunks.js,thunk.cjs,thunks.mjs",
+					"name": "Redux Thunk",
+					"iconColor": "A1887F",
+					"url": "https://redux.js.org/",
+					"priority": "100",
+					"iconType": "FILE",
+					"pattern": ".*([tT])hunks?\\.([cm]?jsx?|tsx?)$",
+					"icon": "/icons/files/redux-thunk.svg"
+				},
+				{
+					"fileNames": "thunks/*.js,thunks/*.ts,thunks/*.jsx,thunks/*.tsx",
+					"name": "Redux Thunk Files",
+					"iconColor": "A1887F",
+					"priority": "50",
+					"iconType": "FILE",
+					"pattern": "thunks?/.*\\.[tj]sx?$",
+					"url": "https://redux.js.org/",
+					"icon": "/icons/files/redux-thunk.svg"
+				},
+				{
+					"fileNames": "saga.js,sagas.ts,saga.jsx,sagas.tsx,mySaga.js,mySagas.js,my-sagas.js,saga.cjs,sagas.mjs",
 					"name": "Redux Saga",
 					"iconColor": "EF5350",
 					"url": "https://redux.js.org/",
 					"priority": "100",
 					"iconType": "FILE",
-					"pattern": ".*([sS])agas?\\.(js|ts)$",
+					"pattern": ".*([sS])agas?\\.([cm]?jsx?|tsx?)$",
 					"icon": "/icons/files/redux-saga.svg"
 				},
 				{
-					"fileNames": "selector.js,selectors.ts,mySelector.js,mySelectors.js,my-selectors.js",
+					"fileNames": "sagas/*.js,sagas/*.ts,sagas/*.jsx,sagas/*.tsx",
+					"name": "Redux Saga Files",
+					"iconColor": "EF5350",
+					"priority": "50",
+					"iconType": "FILE",
+					"pattern": "sagas?/.*\\.[tj]sx?$",
+					"url": "https://redux.js.org/",
+					"icon": "/icons/files/redux-saga.svg"
+				},
+				{
+					"fileNames": "selector.js,selectors.ts,selector.jsx,selectors.tsx,mySelector.js,mySelectors.js,my-selectors.js,selector.cjs,selectors.mjs",
 					"name": "Redux Selector",
 					"iconColor": "FDD835",
 					"url": "https://redux.js.org/",
 					"priority": "100",
 					"iconType": "FILE",
-					"pattern": ".*([sS])electors?\\.(js|ts)$",
+					"pattern": ".*([sS])electors?\\.([cm]?jsx?|tsx?)$",
 					"icon": "/icons/files/redux-selector.svg"
 				},
 				{
-					"fileNames": "reducer.js,reducer.ts,myReducer.js,myReducers.js,my-reducers.js",
+					"fileNames": "selectors/*.js,selectors/*.ts,selectors/*.jsx,selectors/*.tsx",
+					"name": "Redux Selector Files",
+					"iconColor": "FDD835",
+					"priority": "50",
+					"iconType": "FILE",
+					"pattern": "selectors?/.*\\.[tj]sx?$",
+					"url": "https://redux.js.org/",
+					"icon": "/icons/files/redux-selector.svg"
+				},
+				{
+					"fileNames": "reducer.js,reducer.ts,reducer.jsx,reducer.tsx,myReducer.js,myReducers.js,my-reducers.js,reducers.cjs,reducer.mjs",
 					"name": "Redux Reducer",
 					"iconColor": "4CAF50",
 					"url": "https://redux.js.org/",
 					"priority": "100",
 					"iconType": "FILE",
-					"pattern": ".*([rR])educers?\\.(js|ts)$",
+					"pattern": ".*([rR])educers?\\.([cm]?jsx?|tsx?)$",
 					"icon": "/icons/files/redux-reducer.svg"
 				},
 				{
-					"fileNames": "slice.js,slice.ts,mySlice.js,mySlices.js,my-slices.js",
+					"fileNames": "reducers/*.js,reducers/*.ts,reducers/*.jsx,reducers/*.tsx",
+					"name": "Redux Reducer Files",
+					"iconColor": "4CAF50",
+					"priority": "50",
+					"iconType": "FILE",
+					"pattern": "reducers?/.*\\.[tj]sx?$",
+					"url": "https://redux.js.org/",
+					"icon": "/icons/files/redux-reducer.svg"
+				},
+				{
+					"fileNames": "slice.js,slice.ts,slice.jsx,slice.tsx,mySlice.js,mySlices.js,my-slices.js,slice.cjs,slices.mjs",
 					"name": "Redux Slice",
 					"iconColor": "ba8fff",
 					"url": "https://redux-toolkit.js.org/",
 					"priority": "100",
 					"iconType": "FILE",
-					"pattern": ".*([sS])lices?\\.(js|ts)$",
+					"pattern": ".*([sS])lices?\\.([cm]?js|ts)$",
 					"icon": "/icons/files/redux-slice.svg"
 				},
 				{
-					"fileNames": "store.js,store.ts,myStore.js,myStores.js,my-stores.js",
+					"fileNames": "slices/*.js,slices/*.ts,slices/*.jsx,slices/*.tsx",
+					"name": "Redux Slice Files",
+					"iconColor": "ba8fff",
+					"priority": "50",
+					"iconType": "FILE",
+					"pattern": "slices?/.*\\.[tj]sx?$",
+					"url": "https://redux.js.org/",
+					"icon": "/icons/files/redux-slice.svg"
+				},
+				{
+					"fileNames": "store.js,store.ts,store.jsx,store.tsx,myStore.js,myStores.js,my-stores.js,store.cjs,stores.mjs",
 					"name": "Redux Store",
 					"iconColor": "26C6DA",
 					"url": "https://redux.js.org/",
 					"priority": "100",
 					"iconType": "FILE",
-					"pattern": ".*([sS])tores?\\.(js|ts)$",
+					"pattern": ".*([sS])tores?\\.([cm]?jsx?|tsx?)$",
+					"icon": "/icons/files/redux-store.svg"
+				},
+				{
+					"fileNames": "stores/*.js,stores/*.ts,stores/*.jsx,stores/*.tsx",
+					"name": "Redux Store Files",
+					"iconColor": "26C6DA",
+					"priority": "50",
+					"iconType": "FILE",
+					"pattern": "stores?/.*\\.[tj]sx?$",
+					"url": "https://redux.js.org/",
 					"icon": "/icons/files/redux-store.svg"
 				},
 				{
@@ -10905,6 +11962,16 @@
 					"icon": "/icons/files/rhino3d.svg"
 				},
 				{
+					"fileNames": "*.ride",
+					"name": "Ride",
+					"iconColor": "0055FF",
+					"url": "https://dev.waves.tech/",
+					"priority": "100",
+					"iconType": "FILE",
+					"pattern": ".*\\.ride$",
+					"icon": "/icons/files/ride.svg"
+				},
+				{
 					"fileNames": "riemann.config",
 					"name": "Riemann",
 					"iconColor": "ff5370",
@@ -10935,6 +12002,16 @@
 					"icon": "/icons/files/riot2.svg"
 				},
 				{
+					"fileNames": "*.roblox,*.rbxl,*.rbxlx,*.rbxm,*.rbxmx",
+					"name": "Roblox",
+					"iconColor": "00A1FF",
+					"url": "https://www.roblox.com/",
+					"priority": "100",
+					"iconType": "FILE",
+					"pattern": ".*\\.(roblox|rbxlx?|rbxmx?)$",
+					"icon": "/icons/files/roblox.svg"
+				},
+				{
 					"fileNames": "*.robot",
 					"name": "Robot",
 					"iconColor": "FFCB6B",
@@ -10953,6 +12030,16 @@
 					"iconType": "FILE",
 					"pattern": "robots(\\.txt)?$",
 					"icon": "/icons/files/robots.svg"
+				},
+				{
+					"fileNames": "*.project.json,*.model.json,*.meta.json",
+					"name": "Rojo",
+					"iconColor": "E13835",
+					"url": "https://rojo.space/",
+					"priority": "100",
+					"iconType": "FILE",
+					"pattern": ".*\\.^(project|model|meta)\\.json$",
+					"icon": "/icons/files/rojo.svg"
 				},
 				{
 					"fileNames": "rollup.js,rollup.conf.js,rollup.ts",
@@ -10975,12 +12062,21 @@
 					"icon": "/icons/files/rome.svg"
 				},
 				{
-					"fileNames": "routing.js,routes.js,routes.jsx,routing.ts,routes.tsx",
+					"fileNames": "routing.js,routes.js,routes.jsx,routing.ts,routes.tsx,routes.cjs,routing.mjs",
 					"name": "Routes",
 					"iconColor": "43A047",
 					"priority": "100",
 					"iconType": "FILE",
-					"pattern": "(routing|routes)\\.(js|jsx|ts|tsx)$",
+					"pattern": "(routing|routes)\\.([cm]?jsx?|tsx?)$",
+					"icon": "/icons/files/routes.svg"
+				},
+				{
+					"fileNames": "routing/*.js,routes/*.js,routes/*.jsx,routing/*.ts,routes/*.tsx,routes/*.cjs,routing/*.mjs",
+					"name": "Routes Files",
+					"iconColor": "43A047",
+					"priority": "50",
+					"iconType": "FILE",
+					"pattern": "(routing|routes)/.*\\.([cm]?jsx?|tsx?)$",
 					"icon": "/icons/files/routes.svg"
 				},
 				{
@@ -10991,6 +12087,16 @@
 					"priority": "100",
 					"iconType": "FILE",
 					"pattern": ".*_spec\\.rb$",
+					"icon": "/icons/files/rspec.svg"
+				},
+				{
+					"fileNames": "rspec/*.rb,rspec/*.rbs",
+					"name": "RSpec Files",
+					"iconColor": "D52A29",
+					"url": "https://rspec.info/",
+					"priority": "50",
+					"iconType": "FILE",
+					"pattern": "rspec/.*\\.rbs?$",
 					"icon": "/icons/files/rspec.svg"
 				},
 				{
@@ -11412,13 +12518,13 @@
 					"icon": "/icons/files/settings.svg"
 				},
 				{
-					"fileNames": ".sequelizerc,.sequelizerc.js,.sequelizerc.cjs,.sequelizerc.json",
+					"fileNames": ".sequelizerc,.sequelizerc.js,.sequelizerc.cjs,.sequelizerc.json,.sequelizerc.ts",
 					"name": "Sequelize",
 					"iconColor": "0288d1",
 					"url": "https://sequelize.org/",
 					"priority": "100",
 					"iconType": "FILE",
-					"pattern": "^\\.sequelizerc(\\.[cm]?js|\\.json)?$",
+					"pattern": "^\\.sequelizerc(\\.[cm]?js|ts|\\.json)?$",
 					"icon": "/icons/files/sequelize.svg"
 				},
 				{
@@ -11532,6 +12638,26 @@
 					"icon": "/icons/files/siyuan.svg"
 				},
 				{
+					"fileNames": ".size-limit.json",
+					"name": "SizeLimit",
+					"iconColor": "FFAB00",
+					"url": "https://github.com/ai/size-limit",
+					"priority": "100",
+					"iconType": "FILE",
+					"pattern": "^\\.size-limit\\.json$",
+					"icon": "/icons/files/sizelimit.svg"
+				},
+				{
+					"fileNames": ".size-limit.json,.size-limit.js,.size-limit.ts,.size-limit.cjs,.size-limit.mjs",
+					"name": "SizeLimit Dark",
+					"iconColor": "FFD600",
+					"url": "https://github.com/ai/size-limit",
+					"priority": "101",
+					"iconType": "FILE",
+					"pattern": "^\\.size-limit\\.(json|[cm]?js|ts)$",
+					"icon": "/icons/files/sizelimit.svg"
+				},
+				{
 					"fileNames": "*.sketch",
 					"name": "Sketch",
 					"iconColor": "E99727",
@@ -11641,6 +12767,15 @@
 					"icon": "/icons/files/slug.svg"
 				},
 				{
+					"fileNames": "slug/*.js,slug/*.php,slugs/*.ts,slugs/*.tsx",
+					"name": "Slug Files",
+					"iconColor": "C0CA33",
+					"priority": "50",
+					"iconType": "FILE",
+					"pattern": "slugs?/.*\\.([cm]?jsx?|php|tsx?)$",
+					"icon": "/icons/files/slug.svg"
+				},
+				{
 					"fileNames": "smartos.iso,smartos.deb",
 					"name": "SmartOS",
 					"iconColor": "7ccadc",
@@ -11747,7 +12882,7 @@
 					"url": "https://www.snowpack.dev/",
 					"priority": "100",
 					"iconType": "FILE",
-					"pattern": "^snowpack\\.config\\.(js|ts)$",
+					"pattern": "^snowpack\\.config\\.([cm]?js|ts)$",
 					"icon": "/icons/files/snowpack.svg"
 				},
 				{
@@ -11976,7 +13111,7 @@
 					"iconColor": "9C27B0",
 					"priority": "100",
 					"iconType": "FILE",
-					"pattern": "^stencil\\.config\\.(js|ts)$",
+					"pattern": "^stencil\\.config\\.([cm]?js|ts)$",
 					"url": "https://stenciljs.com/",
 					"icon": "/icons/files/stencilconfig.svg"
 				},
@@ -12045,7 +13180,7 @@
 					"name": "Stylelint",
 					"priority": "100",
 					"iconType": "FILE",
-					"pattern": "^(\\.stylelintrc(\\.([cm]?js|json|ya?ml))?|stylelint\\.config\\.[cm]?js(on)?)$",
+					"pattern": "^(\\.stylelintrc(\\.([cm]?js|ts|json|ya?ml))?|stylelint\\.config\\.[cm]?js(on)?)$",
 					"iconColor": "7A8387",
 					"url": "https://stylelint.io/",
 					"icon": "/icons/files/stylelint.svg"
@@ -12065,7 +13200,7 @@
 					"name": "Styleguidist",
 					"priority": "100",
 					"iconType": "FILE",
-					"pattern": "^(\\.styleguiderc(\\.([cm]?js|json|ya?ml))?|styleguide\\.config\\.[cm]?js(on)?)$",
+					"pattern": "^(\\.styleguiderc(\\.([cm]?js|ts|json|ya?ml))?|styleguide\\.config\\.[cm]?js(on)?)$",
 					"iconColor": "00acc1",
 					"url": "https://react-styleguidist.js.org/",
 					"icon": "/icons/files/styleguidist.svg"
@@ -12087,7 +13222,7 @@
 					"url": "https://styled-components.com/",
 					"priority": "100",
 					"iconType": "FILE",
-					"pattern": ".*\\.(sc|styles|styled)\\.(js|jsx|ts|tsx|mjs|cjs)$",
+					"pattern": ".*\\.(sc|styles|styled)\\.([cm]?jsx?|tsx?)$",
 					"icon": "/icons/files/styledcomponents.svg"
 				},
 				{
@@ -12161,11 +13296,11 @@
 					"icon": "/icons/files/sss.svg"
 				},
 				{
-					"fileNames": "supabase.js,supabase.py,supabase.ts",
+					"fileNames": "supabase.js,supabase.py,supabase.ts,supabase.cjs,supabase.mjs",
 					"name": "Supabase",
 					"priority": "100",
 					"iconType": "FILE",
-					"pattern": "supabase\\.(js|ts|py)$",
+					"pattern": "supabase\\.([cm]?js|ts|py)$",
 					"iconColor": "3ECF8E",
 					"url": "https://app.supabase.io/",
 					"icon": "/icons/files/supabase.svg"
@@ -12191,13 +13326,13 @@
 					"icon": "/icons/files/svelte_config.svg"
 				},
 				{
-					"fileNames": "svgo.config.js,svgo.config.ts,svgo.config.mjs",
+					"fileNames": "svgo.config.js,svgo.config.ts,svgo.config.mjs,svgo.config.json",
 					"name": "SVGO",
 					"iconColor": "0288d1",
 					"url": "https://github.com/svg/svgo",
 					"priority": "100",
 					"iconType": "FILE",
-					"pattern": "^svgo\\.config\\.[cm]?[jt]s$",
+					"pattern": "^svgo\\.config\\.([cm]?[jt]s|json)$",
 					"icon": "/icons/files/svgo.svg"
 				},
 				{
@@ -12311,6 +13446,16 @@
 					"icon": "/icons/files/symfony.svg"
 				},
 				{
+					"fileNames": ".service,.target,.automount,.device,.mount,.path,.scope,.snapshot,.socket,.slice,.timer,.link,.netdev,.network,.rule,.d",
+					"name": "SystemD",
+					"iconColor": "30D475",
+					"url": "https://systemd.io/",
+					"priority": "100",
+					"iconType": "FILE",
+					"pattern": "^\\.(service|target|automount|device|mount|path|scope|snapshot|socket|slice|timer|link|netdev|netword|rule|d)$",
+					"icon": "/icons/files/systemd.svg"
+				},
+				{
 					"fileNames": "*.toc,*.listing",
 					"name": "Table of Contents",
 					"iconColor": "66BB6A",
@@ -12346,6 +13491,16 @@
 					"iconType": "FILE",
 					"pattern": "^\\.?tailwind.*\\.[cm]?[jt]s$",
 					"icon": "/icons/files/tailwindcss.svg"
+				},
+				{
+					"fileNames": "Taskfile.yml,Taskfile.yaml,Taskfile.dist.yml,Taskfile.dist.yaml",
+					"name": "Taskfile",
+					"iconColor": "29beb0",
+					"priority": "100",
+					"url": "https://taskfile.dev/",
+					"iconType": "FILE",
+					"pattern": "Taskfile(\\.dist)?\\.ya?ml$",
+					"icon": "/icons/files/taskfile.svg"
 				},
 				{
 					"fileNames": "tauri.js,tauri.conf.js,tauri.conf.json,tauri.config.cjs,tauri.config.ts",
@@ -12468,132 +13623,6 @@
 					"icon": "/icons/files/testcafe.svg"
 				},
 				{
-					"fileNames": "*.test.coffee,*.spec.coffee",
-					"name": "Test Coffee",
-					"iconColor": "AB7967",
-					"priority": "100",
-					"iconType": "FILE",
-					"pattern": ".*\\.?(test|spec)\\.coffee$",
-					"icon": "/icons/files/testcoffee.svg"
-				},
-				{
-					"fileNames": "*.test.dart,*.spec.dart",
-					"name": "Test Dart",
-					"iconColor": "26A2C1",
-					"priority": "100",
-					"iconType": "FILE",
-					"pattern": ".*\\.?(test|spec)\\.dart$",
-					"icon": "/icons/files/testdart.svg"
-				},
-				{
-					"fileNames": "*.test.go,*.spec.go,*_test.go,*_spec.go",
-					"name": "Test Go",
-					"iconColor": "82AAFF",
-					"priority": "100",
-					"iconType": "FILE",
-					"pattern": ".*([._])(test|spec)\\.go$",
-					"icon": "/icons/files/testgo.svg"
-				},
-				{
-					"fileNames": "*.test.hs,*.spec.hs",
-					"name": "Test Haskell",
-					"iconColor": "AB76A0",
-					"priority": "100",
-					"iconType": "FILE",
-					"pattern": ".*\\.?(test|spec)\\.hs$",
-					"icon": "/icons/files/testhaskell.svg"
-				},
-				{
-					"fileNames": "MyTest.java,myTest.java,mytest.java",
-					"name": "Test Java",
-					"iconColor": "7963E6",
-					"priority": "100",
-					"iconType": "FILE",
-					"pattern": "([tT])est\\.java$",
-					"icon": "/icons/files/testjava.svg"
-				},
-				{
-					"fileNames": "*.test.js,*.spec.js,*.test.es6,*.spec.es6,*.test.mjs,*.spec.cjs",
-					"name": "Test JS",
-					"iconColor": "E79627",
-					"priority": "100",
-					"iconType": "FILE",
-					"pattern": ".*\\.?(test|spec)\\.[cm]?(js|es6)$",
-					"icon": "/icons/files/testjs.svg"
-				},
-				{
-					"fileNames": "*.test.js,*.spec.js,*.test.es6,*.spec.es6,*.test.mjs,*.spec.cjs",
-					"name": "Test JS Dark",
-					"iconColor": "FFCB6B",
-					"priority": "101",
-					"iconType": "FILE",
-					"pattern": ".*\\.?(test|spec)\\.[cm]?(js|es6)$",
-					"icon": "/icons/files/testjs.svg"
-				},
-				{
-					"fileNames": "*.test.perl,*.spec.pl,*.test.pl6,*.test.pm6,*.spec.ph",
-					"name": "Test Perl",
-					"iconColor": "4DB6AC",
-					"priority": "100",
-					"iconType": "FILE",
-					"pattern": ".*\\.?(test|spec)\\.(perl|pl[x6]?|pm6?|ph|al|psgi)$",
-					"icon": "/icons/files/testperl.svg"
-				},
-				{
-					"fileNames": "*.test.jsx,*.spec.jsx,*.test.tsx,*.spec.tsx",
-					"name": "Test React",
-					"iconColor": "4DD0E1",
-					"priority": "100",
-					"iconType": "FILE",
-					"pattern": ".*\\.?(test|spec)\\.(jsx|tsx)$",
-					"icon": "/icons/files/testreact.svg"
-				},
-				{
-					"fileNames": "*.test.py,*.spec.ipy,*.test.python,*.spec.whl,*.test.pep",
-					"name": "Test Python",
-					"iconColor": "90A959",
-					"priority": "100",
-					"iconType": "FILE",
-					"pattern": ".*\\.(test|spec)\\.(py|ipy|python|py[pt3iwzc]|whl|pep)$",
-					"icon": "/icons/files/testpy.svg"
-				},
-				{
-					"fileNames": "*.test.rb,*.spec.rbs,my_test.ruby,controller_spec.rb",
-					"name": "Test Ruby",
-					"iconColor": "D33534",
-					"priority": "100",
-					"iconType": "FILE",
-					"pattern": ".*([_.])(test|spec)\\.(rb|rbs|ruby)$",
-					"icon": "/icons/files/testruby.svg"
-				},
-				{
-					"fileNames": "*.test.rs,*.spec.rs",
-					"name": "Test Rust",
-					"iconColor": "a72146",
-					"priority": "100",
-					"iconType": "FILE",
-					"pattern": ".*\\.?(test|spec)\\.rs$",
-					"icon": "/icons/files/testrust.svg"
-				},
-				{
-					"fileNames": "*.test.scala,*.spec.scala",
-					"name": "Test Scala",
-					"iconColor": "FF5370",
-					"priority": "100",
-					"iconType": "FILE",
-					"pattern": ".*([_.])(test|spec)\\.scala$",
-					"icon": "/icons/files/testscala.svg"
-				},
-				{
-					"fileNames": "*.test.ts,*.spec.ts",
-					"name": "Test TypeScript",
-					"iconColor": "82AAFF",
-					"priority": "100",
-					"iconType": "FILE",
-					"pattern": ".*\\.?(test|spec)\\.ts$",
-					"icon": "/icons/files/testts.svg"
-				},
-				{
 					"fileNames": "*.tex,*.ltx,*.aux,*.sty,*.dtx,*.lbx,*.mkiv,*.mkvi,*.mkii,*.pgf,*.tikz,*.txi,*.texi",
 					"name": "TeX",
 					"iconColor": "4E85F4",
@@ -12644,13 +13673,13 @@
 					"icon": "/icons/files/thor.svg"
 				},
 				{
-					"fileNames": "thunderclient.json,thunder-tests.json,thunder-collection.js,thunder-collection_Web.json",
+					"fileNames": "thunderclient.json,thunder-tests.json,thunder-collection.js,thunder-collection_Web.json,thunderclient.cjs,thunderclient.ts,thunderclient.mjs",
 					"name": "ThunderClient",
 					"iconColor": "924e96",
 					"url": "https://www.thunderclient.io/",
 					"priority": "100",
 					"iconType": "FILE",
-					"pattern": "^thunder(client|-tests|-collection).*\\.(js|json)$",
+					"pattern": "^thunder(client|-tests|-collection).*\\.([cm]?js|ts|json)$",
 					"icon": "/icons/files/thunderclient.svg"
 				},
 				{
@@ -12793,23 +13822,23 @@
 					"icon": "/icons/files/tox.svg"
 				},
 				{
-					"fileNames": "tsconfig.js,tsconfig.json,.tsconfig.js,.tsconfig.json",
+					"fileNames": "tsconfig.js,tsconfig.json,.tsconfig.js,.tsconfig.json,tsconfig.ts,.tsconfig.cjs,.tsconfig.mjs",
 					"name": "TSConfig",
 					"iconColor": "0288d1",
 					"url": "https://www.typescriptlang.org/docs/handbook/tsconfig-json.html",
 					"priority": "100",
 					"iconType": "FILE",
-					"pattern": "\\.?tsconfig.*\\.(js|json)$",
+					"pattern": "\\.?tsconfig.*\\.([cm]?js|ts|json)$",
 					"icon": "/icons/files/tsconfig.svg"
 				},
 				{
-					"fileNames": "tslint.js,tslint.json,.tslint.js,.tslint.json,tslint.yaml,.tslint.yml",
+					"fileNames": "tslint.js,tslint.json,.tslint.js,.tslint.json,tslint.yaml,.tslint.yml,tslint.cjs,.tslint.mjs,tslint.ts",
 					"name": "TSLint",
 					"iconColor": "0288d1",
 					"url": "https://palantir.github.io/tslint/",
 					"priority": "100",
 					"iconType": "FILE",
-					"pattern": "\\.?tslint.*\\.(js|json|ya?ml)$",
+					"pattern": "\\.?tslint.*\\.([cm]?js|ts|json|ya?ml)$",
 					"icon": "/icons/files/tslint.svg"
 				},
 				{
@@ -13278,7 +14307,7 @@
 					"url": "https://vitest.dev/",
 					"priority": "100",
 					"iconType": "FILE",
-					"pattern": "^vitest\\.config\\.[jt]s$",
+					"pattern": "^vitest\\.config\\.([cm]?js|ts)$",
 					"icon": "/icons/files/vitest.svg"
 				},
 				{
@@ -13382,6 +14411,16 @@
 					"icon": "/icons/files/vscodesettings.svg"
 				},
 				{
+					"fileNames": ".vscode/*.json",
+					"name": "VSCode Settings Files",
+					"iconColor": "9575CD",
+					"url": "https://code.visualstudio.com/",
+					"priority": "100",
+					"iconType": "FILE",
+					"pattern": "\\.vscode/.*\\.json$",
+					"icon": "/icons/files/vscodesettings.svg"
+				},
+				{
 					"fileNames": ".vscodeignore,.vscodeignore.json",
 					"name": "VSCode Ignore",
 					"iconColor": "808080",
@@ -13412,14 +14451,24 @@
 					"icon": "/icons/files/tfsignore.svg"
 				},
 				{
-					"fileNames": "vue.config.js,vue.config.mjs,vue.config.cjs",
+					"fileNames": "vue.config.js,vue.config.mjs,vue.config.cjs,vetur.config.js,volar.config.js",
 					"name": "Vue Config",
 					"iconColor": "D4E157",
 					"url": "https://vuejs.org/",
 					"priority": "100",
 					"iconType": "FILE",
-					"pattern": "^vue\\.config\\.[cm]?js$",
+					"pattern": "^(vue|vetur|volar)\\.config\\.([cm]?js|ts)$",
 					"icon": "/icons/files/vueconfig.svg"
+				},
+				{
+					"fileNames": "vuepress.config.js,vuepress.config.ts,vuepress.config.mjs,vuepress.config.cjs",
+					"name": "Vuepress",
+					"iconColor": "81c784",
+					"url": "https://v2.vuepress.vuejs.org/",
+					"priority": "100",
+					"iconType": "FILE",
+					"pattern": "^vuepress\\.config\\.([cm]?js|ts)$",
+					"icon": "/icons/files/vuepress.svg"
 				},
 				{
 					"fileNames": ".vuerc",
@@ -13480,6 +14529,16 @@
 					"iconType": "FILE",
 					"pattern": "^\\.walt$",
 					"icon": "/icons/files/walt.svg"
+				},
+				{
+					"fileNames": "wally.toml",
+					"name": "Wally",
+					"iconColor": "AD4646",
+					"url": "https://wally.run/",
+					"priority": "100",
+					"iconType": "FILE",
+					"pattern": "^wally\\.toml$",
+					"icon": "/icons/files/wally.svg"
 				},
 				{
 					"fileNames": ".watchmanconfig,watchman.json",
@@ -13556,7 +14615,7 @@
 					"name": "Webpack",
 					"priority": "100",
 					"iconType": "FILE",
-					"pattern": "^webpack\\.(common|config|dev|prod)\\.([mc]?js|es|es6|coffee|ts)$",
+					"pattern": "^webpack\\.(common|config|dev|prod)\\.([cm]?js|es|es6|coffee|ts)$",
 					"url": "https://webpack.js.org/",
 					"iconColor": "497CE3",
 					"icon": "/icons/files/webpack.svg"
@@ -14082,6 +15141,16 @@
 					"icon": "/icons/files/yeoman.svg"
 				},
 				{
+					"fileNames": "*.ygg",
+					"name": "Yggdrasil",
+					"iconColor": "4ebabc",
+					"url": "https://github.com/ygg-lang/project-yggdrasil",
+					"priority": "100",
+					"iconType": "FILE",
+					"pattern": ".*\\.ygg$",
+					"icon": "/icons/files/yggdrasil.svg"
+				},
+				{
 					"fileNames": "*.yona",
 					"name": "Yona",
 					"iconColor": "ef4821",
@@ -14172,13 +15241,13 @@
 					"icon": "/icons/files/zeit.svg"
 				},
 				{
-					"fileNames": "now.json",
+					"fileNames": "nowignore",
 					"name": "Zeit Now Ignore",
 					"iconColor": "808080",
 					"url": "https://vercel.com/",
 					"priority": "100",
 					"iconType": "FILE",
-					"pattern": "^now\\.json$",
+					"pattern": "^(now|zeit)ignore$",
 					"icon": "/icons/files/zeitignore.svg"
 				},
 				{
@@ -14298,7 +15367,7 @@
 					"icon": "/icons/files/icon.svg"
 				},
 				{
-					"fileNames": "*.bpm,*.jbmp,*.wbmp",
+					"fileNames": "*.bmp,*.jbmp,*.wbmp",
 					"name": "Images (BMP)",
 					"priority": "100",
 					"iconType": "FILE",
@@ -14361,6 +15430,15 @@
 					"icon": "/icons/files/preferences.svg"
 				},
 				{
+					"fileNames": "config/*.json,config/*.yml,configs/*.yaml,pref/*.ini,prefs/*.yaml,prefs/*.cfg,option/*.json,options/*.yml,settings/*.ini,setting/*.cfg",
+					"name": "Preferences Files",
+					"iconColor": "E79627",
+					"priority": "5",
+					"iconType": "FILE",
+					"pattern": "(configs?|prefs?|options?|settings?)/.*\\.(json|ya?ml|ini|cfg)$",
+					"icon": "/icons/files/preferences.svg"
+				},
+				{
 					"fileNames": "*.env,*.env.dev,*.env.prod",
 					"name": "Envs",
 					"iconColor": "E79627",
@@ -14370,7 +15448,16 @@
 					"icon": "/icons/files/preferences.svg"
 				},
 				{
-					"fileNames": "config,settings,option,pref,config.yml,settings.ini,option.txt,prefs.yaml,config.json",
+					"fileNames": "env/*.json,env/*.env,envs/*.yaml,envs/*.env,envs/*.ini",
+					"name": "Env Files",
+					"iconColor": "E79627",
+					"priority": "5",
+					"iconType": "FILE",
+					"pattern": "envs?/.*\\.(env|json|ya?ml|ini)$",
+					"icon": "/icons/files/preferences.svg"
+				},
+				{
+					"fileNames": "config.yml,settings.ini,option.txt,prefs.yaml,config.json",
 					"name": "Configs",
 					"iconColor": "E79627",
 					"priority": "10",
@@ -14416,12 +15503,12 @@
 					"icon": "/icons/files/binary.svg"
 				},
 				{
-					"fileNames": "*.gc,*.gco,*.gcode,*.cnc,*.dnc,*.hnc,*.knc,*.prx,*.swp,*.rnd",
+					"fileNames": "*.gco,*.prx,*.swp,*.rnd",
 					"name": "Binary (3)",
 					"iconColor": "7C95A1",
 					"priority": "1",
 					"iconType": "FILE",
-					"pattern": ".*\\.(gco?|gcode|[cdhk]nc|prx|swp|rnd)$",
+					"pattern": ".*\\.(gco|prx|swp|rnd)$",
 					"icon": "/icons/files/binary.svg"
 				},
 				{
@@ -14445,11 +15532,11 @@
 					"icon": "/icons/files/archive.svg"
 				},
 				{
-					"fileNames": "*.lz,*.lzo,*.lzma,*.tlz,*.whl,*.hqx,*.xar,*.ear,*.egg,*.sit,*.hak",
+					"fileNames": "*.lz,*.lzo,*.lzma,*.tlz,*.whl,*.hqx,*.xar,*.ear,*.hak",
 					"name": "Archive (3)",
 					"priority": "10",
 					"iconType": "FILE",
-					"pattern": ".*\\.(lzo?|lzma|tlz|hqx|whl|xar|ear|egg|sit|hak)$",
+					"pattern": ".*\\.(lzo?|lzma|tlz|hqx|whl|xar|ear|hak)$",
 					"iconColor": "C792EA",
 					"url": "https://en.wikipedia.org/wiki/Archive_file",
 					"icon": "/icons/files/archive.svg"
@@ -14500,12 +15587,12 @@
 					"icon": "/icons/files/video.svg"
 				},
 				{
-					"fileNames": "*.asx,*.asf,*.mks,*.mk3d,*.ogg",
+					"fileNames": "*.asx,*.asf,*.mks,*.mk3d,*.vob",
 					"name": "Video (3)",
 					"iconColor": "7963E6",
 					"priority": "10",
 					"iconType": "FILE",
-					"pattern": ".*\\.(asx|asf|mks|mk3d|ogg)$",
+					"pattern": ".*\\.(asx|asf|mks|mk3d|vob)$",
 					"icon": "/icons/files/video.svg"
 				},
 				{
@@ -14579,13 +15666,13 @@
 					"icon": "/icons/files/go.svg"
 				},
 				{
-					"fileNames": "*.min.js,*.min.es6,*.min.es,*.min.jsx,*.min.ts",
+					"fileNames": "*.min.js,*.min.es6,*.min.es,*.min.jsx,*.min.ts,*.min.cjs,*.min.mjs",
 					"name": "Javascript Minified",
 					"iconColor": "E79627",
 					"url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript",
 					"priority": "10",
 					"iconType": "FILE",
-					"pattern": ".*\\.min\\.(js|es6|es|jsx|ts)$",
+					"pattern": ".*\\.min\\.([cm]?js|es6|es|jsx|ts)$",
 					"icon": "/icons/files/jsmin.svg"
 				},
 				{
@@ -14795,12 +15882,12 @@
 					"icon": "/icons/files/db.svg"
 				},
 				{
-					"fileNames": "*.aff,*.fea,*.cbor,*.pytb,*.son,*.syntax,*.tgn,*.od,*.onlydata,*.eign",
+					"fileNames": "*.fea,*.cbor,*.pytb,*.son,*.syntax,*.tgn,*.od,*.onlydata,*.eign",
 					"name": "DB (2)",
 					"iconColor": "F78C6C",
 					"priority": "1",
 					"iconType": "FILE",
-					"pattern": ".*\\.(aff|fea|cbor|pytb|son|syntax|tgn|od|onlydata|eign)$",
+					"pattern": ".*\\.(fea|cbor|pytb|son|syntax|tgn|onlydata|eign)$",
 					"icon": "/icons/files/db.svg"
 				},
 				{

@@ -27,6 +27,7 @@
 import { Logger } from './services/logger';
 import { ExamplesCommandArgs, ExamplesFlags } from './argsParsers/examplesArgsParser';
 import * as fs from 'fs';
+import * as fse from 'fs-extra';
 import { deleteDirectoryRecursively } from './utils';
 import { FolderAssociation, FolderAssociations, IconAssociation, IconAssociations } from './types/associations';
 
@@ -36,9 +37,9 @@ export class ExampleGenerator {
   private unsupported: Array<IconAssociation | FolderAssociation> = [];
 
   constructor(private pargs: ExamplesCommandArgs,
-              private files: IconAssociation[],
-              private folders: FolderAssociation[],
-              private logger: Logger) {
+    private files: IconAssociation[],
+    private folders: FolderAssociation[],
+    private logger: Logger) {
 
     this.iconAssociations = this.parseIconAssociations();
     this.folderAssociations = this.parseFolderAssociations();
@@ -123,7 +124,7 @@ export class ExampleGenerator {
       files.forEach(fileName => {
         try {
           this.logger.updateLog(`Creating ${fileName} for '${name}'...`);
-          fs.writeFileSync(fileName, '');
+          fse.outputFileSync(fileName, '');
           this.logger.updateLog(`Example file for '${name}' successfully created!`);
         }
         catch (e) {

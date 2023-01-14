@@ -58,13 +58,13 @@
                iconType="FOLDER"
                pattern="^[\._]?(addons?)$"
                icon="/addon.svg"/>
-        <regex folderNames="admin,_admin,.admin,.admins,admins"
+        <regex folderNames="admin,_admin,.admin,.admins,admins,manager,managers,_managers,moderator,.moderator,moderators,_moderators"
                name="Admin"
                folderColor="00ad9f"
                folderIconColor="b3e6e2"
                priority="100"
                iconType="FOLDER"
-               pattern="^[\._]?admins?$"
+               pattern="^[\._]?(admins?|managers?|moderators?)$"
                icon="/admin.svg"/>
         <regex folderNames="adr,adrs,.adr,decision,decisions,.decision,.decisions,_decision,_decisions"
                name="ADR"
@@ -202,13 +202,13 @@
                iconType="FOLDER"
                pattern="^[\._]?atoms?(-ci)?$"
                icon="/atom.svg"/>
-        <regex folderNames=".action,.caction,.definition,.workflow"
+        <regex folderNames=".caction,.definition,.workflow,_automations,_cactions,_definitions,_workflows"
                name="Automator"
                folderColor="b3e5fc"
                folderIconColor="0077db"
                priority="100"
                iconType="FOLDER"
-               pattern="^\.(c?action|definition|workflow)$"
+               pattern="^\.(cactions?|definitions?|workflows?|automations?)$"
                icon="/automator.svg"/>
         <regex folderNames="mp3,wav,music,musics,audio,sound,sounds,.mp3,_wav,_musics,.audio,.sounds,bgm,bgms,_bgms,soundtrack,soundtracks,_soundtracks,ost,osts,_osts"
                name="Audio"
@@ -226,13 +226,13 @@
                iconType="FOLDER"
                pattern="^[\._]?aurelia_project$"
                icon="/aurelia.svg"/>
-        <regex folderNames="aws,.aws,_aws,amazon,_amazon,.amazon,s3,_s3,.s3"
+        <regex folderNames="aws,.aws,_aws,amazon,_amazon,.amazon,s3,_s3,.s3,ecs,.ecs,_ecs,ecr,_ecr,.ecr,tableau,.tableau,cloudfront,_cloudfront,athena,.athena"
                name="AWS"
                folderColor="FF8F00"
                folderIconColor="ffecb3"
                priority="100"
                iconType="FOLDER"
-               pattern="^[\._]?(aws|amazon|s3)$"
+               pattern="^[\._]?(aws|amazon|s3|ecs|ecr|tableau|cloudfront|athena)$"
                icon="/aws.svg"/>
         <regex folderNames="azure,.azure,_azure,azuredevops,azure-devops,.azuredevops,_azure-devop"
                name="Azure Devops"
@@ -790,13 +790,13 @@
                iconType="FOLDER"
                pattern="^[\._]?(events?)$"
                icon="/events.svg"/>
-        <regex folderNames="example,examples,ex,exs,.example,_examples,.ex,_exs,demo,demos,.demos,_demos,sample,samples,.sample,_samples"
+        <regex folderNames="example,examples,.example,_examples,demo,demos,.demos,_demos,sample,samples,.sample,_samples"
                name="Examples"
                folderColor="009688"
                folderIconColor="b2dfdb"
                priority="100"
                iconType="FOLDER"
-               pattern="^[\._]?(examples?|exs?|demos?|samples?)$"
+               pattern="^[\._]?(examples?|demos?|samples?)$"
                icon="/examples.svg"/>
         <regex folderNames="exclude,excludes,external,output,.exclude,_excludes,.external,_external,.output,export,exports,.exports,exported,.exported"
                name="Exclude"
@@ -892,13 +892,13 @@
                iconType="FOLDER"
                pattern="^[\._]?(gcp|gcloud)$"
                icon="/gcloud.svg"/>
-        <regex folderNames="gen,generated,auto,.gen,_gen,_generated,_auto,.auto,target,.targets,_target,generator,generators,.generators"
+        <regex folderNames="gen,generated,auto,.gen,_gen,_generated,_auto,.auto,generator,generators,.generators"
                name="Generated"
                folderColor="EC407A"
                folderIconColor="FCE4EC"
                priority="100"
                iconType="FOLDER"
-               pattern="^[\._]?(gen|generated|generators?|auto|targets?)$"
+               pattern="^[\._]?(gen|generated|generators?|auto)$"
                icon="/generated.svg"/>
         <regex folderNames=".git,.submodules"
                name="Git"
@@ -1318,13 +1318,13 @@
                iconType="FOLDER"
                pattern="^[\._]?(maps?|mappings?|mappers?)$"
                icon="/maps.svg"/>
-        <regex folderNames=".appex,.bundle,.ccl,.component,.framework,.ideplugin,.kext,.mdimporter,.osax,.osirixplugin,.qlgenerator"
+        <regex folderNames=".appex,.ccl,.component,.framework,.ideplugin,.kext,.mdimporter,.osax,.osirixplugin,.qlgenerator"
                name="MacOS"
                folderColor="546e7a"
                folderIconColor="80CBC4"
                priority="100"
                iconType="FOLDER"
-               pattern="^\.(appex|bundle|ccl|component|framework|ideplugin|kext|mdimporter|osax|osirixplugin|qlgenerator)$"
+               pattern="^\.(appex|ccl|component|framework|ideplugin|kext|mdimporter|osax|osirixplugin|qlgenerator)$"
                icon="/osx.svg"/>
         <regex folderNames="mac,.mac,_mac,macos,.macos,_macos,osx,.osx,_osx"
                name="Mac"
@@ -1350,13 +1350,13 @@
                iconType="FOLDER"
                pattern="^[\._]?hg$"
                icon="/mercurial.svg"/>
-        <regex folderNames="meta,META-INF,.meta,_meta"
+        <regex folderNames="meta,metadata,.meta,_meta"
                name="Meta"
                folderColor="00BCD4"
                folderIconColor="B2EBF2"
                priority="100"
                iconType="FOLDER"
-               pattern="^[\._]?(meta|META-INF)$"
+               pattern="^[\._]?(meta(data)?)$"
                icon="/meta.svg"/>
         <regex folderNames=".meteor,meteor,_meteor"
                name="Meteor"
@@ -1473,6 +1473,14 @@
                iconType="FOLDER"
                pattern="^[\._]?node_modules$"
                icon="/node.svg"/>
+        <regex folderNames="notebook,notebooks,.notebooks,_notebooks,jupyter-notebook,jupyter-notebooks,.jupyter-notebook,.jupyter-notebooks,_jupyter-notebook,_jupyter-notebooks"
+               name="Notebooks"
+               folderColor="F78C6C"
+               folderIconColor="FFE0B2"
+               priority="100"
+               iconType="FOLDER"
+               pattern="[\._]?((jupyter-)?notebooks?)"
+               icon="/notebooks.svg"/>
         <regex folderNames="notif,notification,notifications,flash,.notif,_notifications,.flash,_flash"
                name="Notifications"
                folderColor="00B0FF"
@@ -1500,6 +1508,14 @@
         <!--endregion-->
 
         <!--region O-->
+        <regex folderNames="openshift,.openshift,_openshift"
+               name="OpenShift"
+               folderColor="c62828"
+               folderIconColor="ffcdd2"
+               priority="100"
+               iconType="FOLDER"
+               pattern="^[\._]?openshift$"
+               icon="/openshift.svg"/>
         <regex folderNames="other,misc,extra,extras,.other,_other,_misc,.misc,_extra,.extras,etc,.etc,_etc"
                name="Other"
                folderColor="795548"
@@ -1639,13 +1655,13 @@
                iconType="FOLDER"
                pattern="^[\._]?providers?$"
                icon="/providers.svg"/>
-        <regex folderNames="python,py,.py,_py,_python,.venv,_venv,.virtualenv,__pycache__,.pytest_cache"
+        <regex folderNames="python,py,.py,_py,_python,__pycache__,.pytest_cache"
                name="Python"
                folderColor="3949AB"
                folderIconColor="FFE0B2"
                priority="100"
                iconType="FOLDER"
-               pattern="^[\._]?(python|py|venv|virtualenv|__pycache__|pytest_cache)$"
+               pattern="^[\._]?(python|py|__pycache__|pytest_cache)$"
                icon="/python.svg"/>
         <!--endregion-->
 
@@ -1693,6 +1709,14 @@
                iconType="FOLDER"
                pattern="^[\._]?(react?.*|jsx|tsx)"
                icon="/react.svg"/>
+        <regex folderNames="redhat,.redhat,_redhat,s2i,_s2i,.s2i"
+               name="RedHat"
+               folderColor="ff5252"
+               folderIconColor="ffcdd2"
+               priority="100"
+               iconType="FOLDER"
+               pattern="^[\._]?(redhat|s2i)$"
+               icon="/redhat.svg"/>
         <regex folderNames="redis,.redis,_redis"
                name="Redis"
                folderColor="ef5350"
@@ -1984,7 +2008,7 @@
                iconType="FOLDER"
                pattern="^[\._]?storybloks?$"
                icon="/storyblok.svg"/>
-        <regex folderNames="strategy,strategies,_strategy,.strategies,.strategy,_strategy"
+        <regex folderNames="strategy,strategies,_strategy,.strategies,.strategy"
                name="Strategy"
                folderColor="1976d2"
                folderIconColor="4fc3f7"
@@ -2008,7 +2032,7 @@
                iconType="FOLDER"
                pattern="^[\._]?(styl|stylus)$"
                icon="/stylus.svg"/>
-        <regex folderNames=".sublime,.sublime,_sublime"
+        <regex folderNames="sublime,.sublime,_sublime"
                name="Sublime"
                folderColor="616161"
                folderIconColor="FFA726"
@@ -2190,13 +2214,13 @@
                iconType="FOLDER"
                pattern="^[\._]?(users?|members?|friends?|partners?|roles?|contacts?)$"
                icon="/users.svg"/>
-        <regex folderNames="util,utils,tool,tools,.util,_utils,_tools,.tools,utility,.utility,utilities,_utilities"
+        <regex folderNames="util,utils,tool,tools,.util,_utils,_tools,.tools,utility,.utility,utilities,_utilities,toolkit,toolkits,.toolkit,_toolkits,toolbox,toolboxes,.toolbox,_toolboxes"
                name="Utils"
                folderColor="78909C"
                folderIconColor="F5F5F5"
                priority="100"
                iconType="FOLDER"
-               pattern="^[\._]?(utils?|tools?|utilities|utility)$"
+               pattern="^[\._]?(utils?|tools?|utilities|utility|toolkits?|toolbox(es)?)$"
                icon="/tools.svg"/>
         <!--endregion-->
 
@@ -2273,13 +2297,13 @@
                iconType="FOLDER"
                pattern="^[\._]?vim$"
                icon="/vim.svg"/>
-        <regex folderNames="virtual,vm,vms,machine,machines,desktop,.virtual,_virtual,.vm,_vms,_machines,.desktop,_desktop"
+        <regex folderNames="virtual,vm,vms,desktop,.virtual,_virtual,.vm,_vms,.desktop,_desktop"
                name="VM"
                folderColor="039be5"
                folderIconColor="b3e5fc"
                priority="100"
                iconType="FOLDER"
-               pattern="^[\._]?(virtual|vms?|machines?|desktop)$"
+               pattern="^[\._]?(virtual|vms?|desktop)$"
                icon="/vm.svg"/>
         <regex folderNames="vs,.vs,_vs"
                name="VisualStudio"
