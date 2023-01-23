@@ -1,6 +1,6 @@
 {
   "name": "atom-icon-generator",
-  "version": "1.0.12",
+  "version": "1.0.13",
   "description": "",
   "main": "./dist/main",
   "bin": {
@@ -30,10 +30,10 @@
   "license": "MIT",
   "devDependencies": {
     "@types/node": "18.11.18",
-    "@types/yargs": "17.0.19",
+    "@types/yargs": "17.0.20",
     "node-gyp": "9.3.1",
     "nodegit": "0.28.0-alpha.20",
-    "puppeteer": "19.4.1",
+    "puppeteer": "19.6.0",
     "rimraf": "3.0.2",
     "ts-node-dev": "2.0.0",
     "tslint": "6.1.3",
