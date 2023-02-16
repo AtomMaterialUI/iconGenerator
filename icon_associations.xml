@@ -5209,7 +5209,7 @@
                url="https://en.wikipedia.org/wiki/Internationalization_and_localization"
                priority="50"
                iconType="FILE"
-               pattern=".*/(langs?|locales?|translations?|i18n)/.*\.([cm]?jsx?|tsx?|json|ya?ml)$"
+               pattern=".*/(langs?|locales?|translations?|i18n)/[^/]*\.([cm]?jsx?|tsx?|json|ya?ml)$"
                icon="/icons/files/i18nlang.svg"/>
         <regex fileNames="*.icl"
                name="ICL"
@@ -7320,7 +7320,7 @@
                priority="50"
                iconType="FILE"
                package="ngrx"
-               pattern=".*/actions?/.*\.[tj]sx?$"
+               pattern=".*/actions?/[^/]*\.[tj]sx?$"
                url="https://ngrx.io/"
                icon="/icons/files/ngrx-actions.svg"/>
         <regex fileNames="*.effect.ts,*.effect.js,*.effects.ts,*.effects.js,*.effect.jsx,*.effect.tsx,*.effects.jsx,*.effects.tsx"
@@ -7338,7 +7338,7 @@
                priority="50"
                iconType="FILE"
                package="ngrx"
-               pattern=".*/effects?/.*\.[tj]sx?$"
+               pattern=".*/effects?/[^/]*\.[tj]sx?$"
                url="https://ngrx.io/"
                icon="/icons/files/ngrx-effects.svg"/>
         <regex fileNames="*.entity.ts,*.entity.js,*.entity.jsx,*.entity.tsx,*.entities.ts,*.entities.js,*.entities.jsx,*.entities.tsx"
@@ -7356,7 +7356,7 @@
                priority="50"
                iconType="FILE"
                package="ngrx"
-               pattern=".*/(entity|entities)/.*\.[tj]sx?$"
+               pattern=".*/(entity|entities)/[^/]*\.[tj]sx?$"
                url="https://ngrx.io/"
                icon="/icons/files/ngrx-entities.svg"/>
         <regex fileNames="*.reducer.js,*.reducer.ts,*.reducers.ts,*.reducers.js,*.reducer.jsx,*.reducer.tsx,*.reducers.jsx,*.reducers.tsx"
@@ -7374,7 +7374,7 @@
                priority="50"
                iconType="FILE"
                package="ngrx"
-               pattern=".*/reducers?/.*\.[tj]sx?$"
+               pattern=".*/reducers?/[^/]*\.[tj]sx?$"
                url="https://ngrx.io/"
                icon="/icons/files/ngrx-reducers.svg"/>
         <regex fileNames="*.repo.ts,*.repo.js,*.repo.jsx,*.repo.tsx,*.repository.ts,*.repository.js,*.repository.jsx,*.repository.tsx,*.repos.ts,*.repos.js,*.repos.jsx,*.repos.tsx,*.repositories.ts,*.repositories.js,*.repositories.jsx,*.repositories.tsx"
@@ -7392,7 +7392,7 @@
                priority="50"
                iconType="FILE"
                package="ngrx"
-               pattern=".*/(repos?|repository|repositories)/.*\.[tj]sx?$"
+               pattern=".*/(repos?|repository|repositories)/[^/]*\.[tj]sx?$"
                url="https://ngrx.io/"
                icon="/icons/files/ngrx-repo.svg"/>
         <regex fileNames="*.state.ts,*.state.js,*.state.jsx,*.state.tsx,*.states.ts,*.states.js,*.states.jsx,*.states.tsx"
@@ -7410,7 +7410,7 @@
                priority="50"
                iconType="FILE"
                package="ngrx"
-               pattern=".*/states?/.*\.[tj]sx?$"
+               pattern=".*/states?/[^/]*\.[tj]sx?$"
                url="https://ngrx.io/"
                icon="/icons/files/ngrx-state.svg"/>
         <regex fileNames="*.selector.js,*.selector.ts,*.selectors.ts,*.selectors.js,*.selector.jsx,*.selector.tsx,*.selectors.jsx,*.selectors.tsx"
@@ -7428,7 +7428,7 @@
                priority="50"
                iconType="FILE"
                package="ngrx"
-               pattern=".*/selectors?/.*\.[tj]sx?$"
+               pattern=".*/selectors?/[^/]*\.[tj]sx?$"
                url="https://ngrx.io/"
                icon="/icons/files/ngrx-selectors.svg"/>
         <regex fileNames="*.nib"
@@ -9140,7 +9140,7 @@
                priority="50"
                iconType="FILE"
                package="rails"
-               pattern=".*/routes?/.*\.rb$"
+               pattern=".*/routes?/[^/]*\.rb$"
                url="https://rubyonrails.org/"
                icon="/icons/files/railsroutes.svg"/>
         <regex fileNames="users_schema.rb"
@@ -9318,7 +9318,7 @@
                priority="50"
                package="recoil"
                iconType="FILE"
-               pattern=".*/(atoms?|selectors?|recoil)/.*\.([cm]?jsx?|tsx?)$"
+               pattern=".*/(atoms?|selectors?|recoil)/[^/]*\.([cm]?jsx?|tsx?)$"
                url="https://recoiljs.org/"
                icon="/icons/files/recoil.svg"/>
         <regex fileNames="redwood.toml"
@@ -9464,7 +9464,7 @@
                priority="50"
                iconType="FILE"
                package="redux"
-               pattern=".*/actions?/.*\.[tj]sx?$"
+               pattern=".*/actions?/[^/]*\.[tj]sx?$"
                url="https://redux.js.org/"
                icon="/icons/files/redux-action.svg"/>
         <regex fileNames="epic.js,epics.ts,epic.jsx,epics.tsx,myEpic.js,myEpics.js,my-epics.js,epic.cjs,epics.mjs"
@@ -9482,7 +9482,7 @@
                priority="50"
                iconType="FILE"
                package="redux"
-               pattern=".*/epics?/.*\.[tj]sx?$"
+               pattern=".*/epics?/[^/]*\.[tj]sx?$"
                url="https://redux.js.org/"
                icon="/icons/files/redux-epic.svg"/>
         <regex fileNames="thunk.js,thunks.ts,thunk.jsx,thunks.tsx,myThunk.js,myThunks.js,my-thunks.js,thunk.cjs,thunks.mjs"
@@ -9536,7 +9536,7 @@
                priority="50"
                iconType="FILE"
                package="redux"
-               pattern=".*/selectors?/.*\.[tj]sx?$"
+               pattern=".*/selectors?/[^/]*\.[tj]sx?$"
                url="https://redux.js.org/"
                icon="/icons/files/redux-selector.svg"/>
         <regex fileNames="reducer.js,reducer.ts,reducer.jsx,reducer.tsx,myReducer.js,myReducers.js,my-reducers.js,reducers.cjs,reducer.mjs"
@@ -9554,7 +9554,7 @@
                priority="50"
                iconType="FILE"
                package="redux"
-               pattern=".*/reducers?/.*\.[tj]sx?$"
+               pattern=".*/reducers?/[^/]*\.[tj]sx?$"
                url="https://redux.js.org/"
                icon="/icons/files/redux-reducer.svg"/>
         <regex fileNames="slice.js,slice.ts,slice.jsx,slice.tsx,mySlice.js,mySlices.js,my-slices.js,slice.cjs,slices.mjs"
@@ -9572,7 +9572,7 @@
                priority="50"
                iconType="FILE"
                package="redux"
-               pattern=".*/slices?/.*\.[tj]sx?$"
+               pattern=".*/slices?/[^/]*\.[tj]sx?$"
                url="https://redux.js.org/"
                icon="/icons/files/redux-slice.svg"/>
         <regex fileNames="store.js,store.ts,store.jsx,store.tsx,myStore.js,myStores.js,my-stores.js,store.cjs,stores.mjs"
@@ -9590,7 +9590,7 @@
                priority="50"
                iconType="FILE"
                package="redux"
-               pattern=".*/stores?/.*\.[tj]sx?$"
+               pattern=".*/stores?/[^/]*\.[tj]sx?$"
                url="https://redux.js.org/"
                icon="/icons/files/redux-store.svg"/>
         <regex fileNames="*.reek"
@@ -9797,7 +9797,7 @@
                iconColor="43A047"
                priority="50"
                iconType="FILE"
-               pattern=".*/(routing|routes)/.*\.([cm]?jsx?|tsx?)$"
+               pattern=".*/(routing|routes)/[^/]*\.([cm]?jsx?|tsx?)$"
                icon="/icons/files/routes.svg"/>
         <regex fileNames="controller_spec.rb,model_spec.rb"
                name="RSpec"
@@ -10340,7 +10340,7 @@
                iconColor="C0CA33"
                priority="50"
                iconType="FILE"
-               pattern=".*/slugs?/.*\.([cm]?jsx?|php|tsx?)$"
+               pattern=".*/slugs?/[^/]*\.([cm]?jsx?|php|tsx?)$"
                icon="/icons/files/slug.svg"/>
         <regex fileNames="smartos.iso,smartos.deb"
                name="SmartOS"
@@ -10668,7 +10668,7 @@
                url="https://storybook.js.org/"
                priority="50"
                iconType="FILE"
-               pattern=".*\.?storybook/.*\.(jsx?|tsx?)$"
+               pattern=".*\.?storybook/[^/]*\.(jsx?|tsx?)$"
                icon="/icons/files/storybook.svg"/>
         <regex fileNames=".stylelintrc,stylelint.config.js,stylelint.config.json,.stylelintrc.js,.stylelintrc.json,.stylelintrc.yaml"
                name="Stylelint"
@@ -12517,7 +12517,7 @@
                iconColor="E79627"
                priority="5"
                iconType="FILE"
-               pattern=".*/(configs?|prefs?|options?|settings?)/.*\.(json|ya?ml|ini|cfg)$"
+               pattern=".*/(configs?|prefs?|options?|settings?)/[^/]*\.(json|ya?ml|ini|cfg)$"
                icon="/icons/files/preferences.svg"/>
         <regex fileNames="*.env,*.env.dev,*.env.prod"
                name="Envs"
@@ -12531,7 +12531,7 @@
                iconColor="E79627"
                priority="5"
                iconType="FILE"
-               pattern=".*/envs?/.*\.(env|json|ya?ml|ini)$"
+               pattern=".*/envs?/[^/]*\.(env|json|ya?ml|ini)$"
                icon="/icons/files/preferences.svg"/>
         <regex fileNames="config.yml,settings.ini,option.txt,prefs.yaml,config.json"
                name="Configs"
