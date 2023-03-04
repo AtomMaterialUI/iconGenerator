@@ -26,6 +26,6 @@
 
 
 <svg xmlns="http://www.w3.org/2000/svg" version="1.1" width="16px" height="16px" fill="#FFFFFF"
-     viewBox="-4 -4 32 32">
-    <path d="M8,5.14V19.14L19,12.14L8,5.14Z" transform="rotate(90 12 12) scale(1.5) translate(-5 -4)" />
+     viewBox="0 0 24 24">
+    <path d="M8,5.14V19.14L19,12.14L8,5.14Z" transform="rotate(90 12 12)" />
 </svg>
