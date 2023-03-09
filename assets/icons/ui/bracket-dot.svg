@@ -1,44 +1,6 @@
-<!--
-  - The MIT License (MIT)
-  -
-  - Copyright (c) 2015-2022 Elior "Mallowigi" Boukhobza
-  -
-  - Permission is hereby granted, free of charge, to any person obtaining a copy
-  - of this software and associated documentation files (the "Software"), to deal
-  - in the Software without restriction, including without limitation the rights
-  - to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
-  - copies of the Software, and to permit persons to whom the Software is
-  - furnished to do so, subject to the following conditions:
-  -
-  - The above copyright notice and this permission notice shall be included in all
-  - copies or substantial portions of the Software.
-  -
-  - THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
-  - IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
-  - FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
-  - AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
-  - LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
-  - OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
-  - SOFTWARE.
-  -
-  -
-  -->
-
-
-<svg big="true" xmlns="http://www.w3.org/2000/svg" version="1.1" width="16px" height="16px"
-     viewBox="0 0 24 24">
-    <defs>
-        <mask id="Mask">
-            <path fill="white"
-                  d="M8,3A2,2 0 0,0 6,5V9A2,2 0 0,1 4,11H3V13H4A2,2 0 0,1 6,15V19A2,2 0 0,0 8,21H10V19H8V14A2,2 0 0,0 6,12A2,2 0 0,0 8,10V5H10V3M16,3A2,2 0 0,1 18,5V9A2,2 0 0,0 20,11H21V13H20A2,2 0 0,0 18,15V19A2,2 0 0,1 16,21H14V19H16V14A2,2 0 0,1 18,12A2,2 0 0,1 16,10V5H14V3H16Z" />
-            <circle cx="18" cy="6" r="4" fill="black" />
-            <circle cx="18" cy="6" r="3" fill="white" />
-        </mask>
-    </defs>
-    <g mask="url(#Mask)">
-        <path fill="#26C6DA"
-              d="M8,3A2,2 0 0,0 6,5V9A2,2 0 0,1 4,11H3V13H4A2,2 0 0,1 6,15V19A2,2 0 0,0 8,21H10V19H8V14A2,2 0 0,0 6,12A2,2 0 0,0 8,10V5H10V3M16,3A2,2 0 0,1 18,5V9A2,2 0 0,0 20,11H21V13H20A2,2 0 0,0 18,15V19A2,2 0 0,1 16,21H14V19H16V14A2,2 0 0,1 18,12A2,2 0 0,1 16,10V5H14V3H16Z" />
-        <circle cx="18" cy="6" r="4" fill="white" />
-        <circle cx="18" cy="6" r="3" fill="#26C6DA" />
+<svg viewBox="0 0 24 24" width="24px" height="24px" xmlns="http://www.w3.org/2000/svg">
+    <g fill="#26C6DA">
+        <path d="M 10 3 L 10 5 L 8 5 L 8 10 C 8 11.105 7.105 12 6 12 C 7.105 12 8 12.895 8 14 L 8 19 L 10 19 L 10 21 L 8 21 C 6.895 21 6 20.105 6 19 L 6 15 C 6 13.895 5.105 13 4 13 L 3 13 L 3 11 L 4 11 C 5.105 11 6 10.105 6 9 L 6 5 C 6 3.895 6.895 3 8 3 Z M 20 11 L 21 11 L 21 13 L 20 13 C 18.895 13 18 13.895 18 15 L 18 19 C 18 20.105 17.105 21 16 21 L 14 21 L 14 19 L 16 19 L 16 14 C 16 12.895 16.895 12 18 12 C 16.895 12 16 11.105 16 10 L 16 9.465 C 16.588 9.805 17.271 10 18 10 C 18.088 10 18.176 9.997 18.262 9.992 C 18.607 10.594 19.256 11 20 11 Z M 14 5 L 14 3 L 15.354 3 C 14.764 3.521 14.328 4.214 14.126 5 Z"></path>
+        <circle cx="18" cy="6" r="3" />
     </g>
 </svg>
