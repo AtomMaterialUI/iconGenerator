@@ -1,25 +1,26 @@
 <!--
   ~ The MIT License (MIT)
   ~
-  ~  Copyright (c) 2015-2022 Elior "Mallowigi" Boukhobza
+  ~ Copyright (c) 2015-2023 Elior "Mallowigi" Boukhobza
   ~
-  ~  Permission is hereby granted, free of charge, to any person obtaining a copy
-  ~  of this software and associated documentation files (the "Software"), to deal
-  ~  in the Software without restriction, including without limitation the rights
-  ~  to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
-  ~  copies of the Software, and to permit persons to whom the Software is
-  ~  furnished to do so, subject to the following conditions:
+  ~ Permission is hereby granted, free of charge, to any person obtaining a copy
+  ~ of this software and associated documentation files (the "Software"), to deal
+  ~ in the Software without restriction, including without limitation the rights
+  ~ to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+  ~ copies of the Software, and to permit persons to whom the Software is
+  ~ furnished to do so, subject to the following conditions:
   ~
-  ~  The above copyright notice and this permission notice shall be included in all
-  ~  copies or substantial portions of the Software.
+  ~ The above copyright notice and this permission notice shall be included in all
+  ~ copies or substantial portions of the Software.
   ~
-  ~  THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
-  ~  IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
-  ~  FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
-  ~  AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
-  ~  LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
-  ~  OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
-  ~  SOFTWARE.
+  ~ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+  ~ IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+  ~ FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+  ~ AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+  ~ LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+  ~ OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+  ~ SOFTWARE.
+  ~
   -->
 
 <associations>
@@ -129,13 +130,13 @@
                iconType="FOLDER"
                pattern="^[\._]?(group_vars|host_vars|vars|roles|playbooks|ansible)$"
                icon="/ansible.svg"/>
-        <regex folderNames=".api,.apis,.rest,.swagger,api,apis,rest,swagger,_api,_swagger"
+        <regex folderNames=".api,.apis,.rest,.swagger,api,apis,rest,swagger,_api,_swagger,parsers,.parsers,_parsers"
                name="Api"
                folderColor="FFF176"
                folderIconColor="F57F17"
                priority="100"
                iconType="FOLDER"
-               pattern="^[\._]?(apis?|rest|swagger)$"
+               pattern="^[\._]?(apis?|rest|swagger|parsers?)$"
                icon="/api.svg"/>
         <regex folderNames="apollo,.apollo,apollo-client,.apollo-cache,_apollo-config"
                name="Apollo"
@@ -354,6 +355,14 @@
                iconType="FOLDER"
                pattern="^[\._]?(channels?)$"
                icon="/channels.svg"/>
+        <regex folderNames="graph,graphs,.graph,_graphs,metric,metrics,.metric,_metrics,analytics,.analytics,_analytics,d3,.d3,_d3"
+               name="Charts"
+               folderColor="FFA726"
+               folderIconColor="FFF8E1"
+               priority="100"
+               iconType="FOLDER"
+               pattern="^[\._]?(graphs?|d3|metrics?|analytics?)$"
+               icon="/charts.svg"/>
         <regex folderNames=".chef,chef,recipe,recipes,_chef,.recipes,_recipe"
                name="Chef"
                folderColor="EA7130"
