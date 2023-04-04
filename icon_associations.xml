@@ -5128,6 +5128,14 @@
            iconType="FILE"
            pattern="config\.toml$"
            icon="/icons/files/hugo.svg"/>
+    <regex fileNames="hugo.toml"
+           name="Hugo"
+           iconColor="fe4088"
+           url="https://gohugo.io/"
+           priority="100"
+           iconType="FILE"
+           pattern="hugo\.toml$"
+           icon="/icons/files/hugo.svg"/>
     <regex fileNames="*.aff,*.dic"
            name="Hunspell"
            iconColor="7cb342"
