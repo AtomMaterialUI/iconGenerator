@@ -2,30 +2,31 @@
 <!--
   - The MIT License (MIT)
   -
-  -  Copyright (c) 2015-2022 Elior "Mallowigi" Boukhobza
+  - Copyright (c) 2015-2023 Elior "Mallowigi" Boukhobza
   -
-  -  Permission is hereby granted, free of charge, to any person obtaining a copy
-  -  of this software and associated documentation files (the "Software"), to deal
-  -  in the Software without restriction, including without limitation the rights
-  -  to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
-  -  copies of the Software, and to permit persons to whom the Software is
-  -  furnished to do so, subject to the following conditions:
+  - Permission is hereby granted, free of charge, to any person obtaining a copy
+  - of this software and associated documentation files (the "Software"), to deal
+  - in the Software without restriction, including without limitation the rights
+  - to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+  - copies of the Software, and to permit persons to whom the Software is
+  - furnished to do so, subject to the following conditions:
   -
-  -  The above copyright notice and this permission notice shall be included in all
-  -  copies or substantial portions of the Software.
+  - The above copyright notice and this permission notice shall be included in all
+  - copies or substantial portions of the Software.
   -
-  -  THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
-  -  IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
-  -  FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
-  -  AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
-  -  LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
-  -  OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
-  -  SOFTWARE.
+  - THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+  - IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+  - FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+  - AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+  - LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+  - OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+  - SOFTWARE.
+  -
   -->
 
 <svg big="true" width="16px" height="16px" version="1.1" viewBox="0 0 1424.1 1368" xml:space="preserve"
-     xmlns="http://www.w3.org/2000/svg" fill="#ff5252" iconColor="DinoPHP">
-    <g transform="matrix(1.0312 0 0 1.0312 -22.154 -21.203)">
+     xmlns="http://www.w3.org/2000/svg">
+    <g fill="#ff5252" iconColor="DinoPHP" transform="matrix(1.0312 0 0 1.0312 -22.154 -21.203)">
 		<g transform="matrix(1.0181 0 0 1.0181 -12.919 -12.41)">
 			<path transform="matrix(.96976 0 0 .96976 21.484 20.562)"
                   d="m1094.9 140.38c-12.22 0.28357-29.903 1.7002-54.961 5.7734-31.658 5.1559-55.169 11.343-60.428 12.684-38.463 10.209-66.305 21.759-91.363 32.174-14.127 5.8778-32.69 13.612-55.582 25.471l-0.7207 0.41211c-10.931 5.6715-19.387 10.209-23.924 12.684l-2.3711 1.2363c-16.396 8.8682-32.277 15.674-48.879 24.336 0 0-15.879 8.3537-39.287 23.615-6.8058 4.4341-12.684 8.8672-12.684 8.8672-1.9593 1.4437-3.5079 2.6809-4.5391 3.5059-5.5684 4.4341-10.723 9.3843-15.363 14.85-4.4341 5.1559-10.829 12.582-15.057 23.1-6.9089 16.808-4.6386 32.275-3.6074 39.287 1.4437 8.9713 4.433 28.151 19.488 40.938 11.549 10.002 25.162 11.654 33.205 12.479 49.188 4.5372 96.416-5.2592 126.73-9.1777 40.732-5.1559 71.771-2.2686 96.52 0 45.166 4.2279 94.868 8.8672 146.22 41.35 12.168 7.7339 44.857 29.905 73.111 70.74 12.374 17.84 31.245 45.167 38.463 84.455 7.1152 39.185-0.8249 71.46 7.6309 73.625 4.0216 1.0312 8.5599-5.2582 17.531-17.529 11.859-16.293 21.242-34.235 27.842-53.209 2.578-7.5277 5.1566-18.769 10.312-41.352 5.6715-24.542 8.4544-36.812 10.31-48.465 1.5468-10.002 3.4028-24.542 4.0215-62.799 0.6187-42.897 0.928-64.347-1.5468-87.445-3.403-31.451-10.311-62.386-20.623-92.188-11.137-31.451-22.583-63.109-50.838-93.014-20.314-21.552-38.257-30.523-44.547-33.41-17.84-8.3526-32.997-10.517-42.896-11.961-3.1967-0.46404-9.9524-1.3148-22.172-1.0312zm-98.877 80.932c11.89 0.1154 19.914 2.775 21.848 8.8848 5.1559 16.293-23.511 47.64-73.111 63.314-49.6 15.571-115.29 6.908-120.44-9.3848s40.732-30.831 90.332-46.402c31-9.7318 61.556-16.604 81.373-16.412z"

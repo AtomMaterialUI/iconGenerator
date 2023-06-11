@@ -1,31 +1,32 @@
 <!--
   - The MIT License (MIT)
   -
-  -  Copyright (c) 2015-2022 Elior "Mallowigi" Boukhobza
+  - Copyright (c) 2015-2023 Elior "Mallowigi" Boukhobza
   -
-  -  Permission is hereby granted, free of charge, to any person obtaining a copy
-  -  of this software and associated documentation files (the "Software"), to deal
-  -  in the Software without restriction, including without limitation the rights
-  -  to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
-  -  copies of the Software, and to permit persons to whom the Software is
-  -  furnished to do so, subject to the following conditions:
+  - Permission is hereby granted, free of charge, to any person obtaining a copy
+  - of this software and associated documentation files (the "Software"), to deal
+  - in the Software without restriction, including without limitation the rights
+  - to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+  - copies of the Software, and to permit persons to whom the Software is
+  - furnished to do so, subject to the following conditions:
   -
-  -  The above copyright notice and this permission notice shall be included in all
-  -  copies or substantial portions of the Software.
+  - The above copyright notice and this permission notice shall be included in all
+  - copies or substantial portions of the Software.
   -
-  -  THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
-  -  IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
-  -  FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
-  -  AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
-  -  LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
-  -  OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
-  -  SOFTWARE.
+  - THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+  - IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+  - FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+  - AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+  - LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+  - OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+  - SOFTWARE.
+  -
   -->
 
-<svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px"
-     y="0px" height="16px" fill="#232B33" iconColor="DeepSource"
+<svg version="1.1" xmlns="http://www.w3.org/2000/svg" x="0px"
+     y="0px" height="16px"
      width="16px" viewBox="0 0 396 460" enable-background="new 0 0 396 460" xml:space="preserve">
-<path d="M397.000000,196.000000
+<path fill="#232B33" iconColor="DeepSource" d="M397.000000,196.000000
 	C397.000000,221.354233 397.000000,246.708450 396.645966,272.651917
 	C394.539001,280.575836 392.641724,287.879639 391.063538,295.251740
 	C387.899597,310.031067 382.440247,323.980225 376.014404,337.580505

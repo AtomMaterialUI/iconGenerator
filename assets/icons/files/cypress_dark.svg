@@ -23,8 +23,7 @@
   -
   -->
 
-<svg big="true" width="16px" height="16px" viewBox="0 0 200 200" version="1.1" xmlns="http://www.w3.org/2000/svg"
-     fill="#FCFCFC" iconColor="Cypress Dark">
+<svg big="true" width="16px" height="16px" viewBox="0 0 200 200" version="1.1" xmlns="http://www.w3.org/2000/svg">
     <defs>
         <mask id="Mask">
             <circle cx="90" cy="90" r="86" fill="white"/>
@@ -36,7 +35,7 @@
             </path>
         </mask>
     </defs>
-    <g id="Logo" transform="translate(10.000000, 10.000000)" mask="url(#Mask)">
+    <g fill="#FCFCFC" iconColor="Cypress Dark" transform="translate(10.000000, 10.000000)" mask="url(#Mask)">
         <circle cx="90" cy="90" r="86">
         </circle>
         <path d="M64,56 C71.5490744,56 78.4876056,58.7774238 83.9597969,63.4229874 L75.9013457,74.4302155 C73.151103,71.0556355 69.5027384,69 65.5,69 C56.9395864,69 50,78.4020203 50,90 C50,101.59798 56.9395864,111 65.5,111 C69.8072991,111 73.7042455,108.619645 76.5132895,104.776905 L84.2559877,116.322496 C78.739004,121.120951 71.6859434,124 64,124 C46.326888,124 32,108.777681 32,90 C32,71.2223185 46.326888,56 64,56 Z"
