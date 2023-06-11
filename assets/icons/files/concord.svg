@@ -23,8 +23,9 @@
   -
   -->
 
-<svg big="true" width="16px" height="16px" viewBox="0 0 70 63" version="1.1" xmlns="http://www.w3.org/2000/svg">
-    <g fill="#094E8E" stroke="#094E8E" iconColor="Concord">
+<svg width="16px" height="16px" viewBox="0 0 70 63" version="1.1" xmlns="http://www.w3.org/2000/svg">
+  <g big="true">
+      <g fill="#094E8E" stroke="#094E8E" iconColor="Concord">
         <g id="concord" transform="translate(2.000000, 2.000000)">
             <g id="Group" transform="translate(0.000000, 2.000000)">
                 <g>
@@ -52,4 +53,5 @@
             </g>
         </g>
     </g>
+  </g>
 </svg>

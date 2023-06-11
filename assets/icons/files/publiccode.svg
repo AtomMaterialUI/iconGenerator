@@ -22,9 +22,10 @@
   -  SOFTWARE.
   -->
 
-<svg big="true" width="16px" height="16px" viewBox="0 0 903 1042"
+<svg width="16px" height="16px" viewBox="0 0 903 1042"
      xmlns="http://www.w3.org/2000/svg">
-    <defs>
+  <g big="true">
+      <defs>
         <mask id="Mask">
             <path fill="white" id="Polygon"
                   d="M451.015 0L902.03 260.394V781.181L451.015 1041.57L0 781.181V260.394L451.015 0Z"
@@ -51,4 +52,5 @@
             />
         </g>
     </g>
+  </g>
 </svg>

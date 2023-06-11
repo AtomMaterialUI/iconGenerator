@@ -22,9 +22,11 @@
   -  SOFTWARE.
   -->
 
-<svg big="true" width="16px" height="16px" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-    <path fill="#546E7A" folderColor="CodeSandbox"
-          d="M20,18H4V8H20M20,6H12L10,4H4C2.89,4 2,4.89 2,6V18A2,2 0 0,0 4,20H20A2,2 0 0,0 22,18V8C22,6.89 21.1,6 20,6Z"/>
-    <path fill-rule="evenodd" clip-rule="evenodd" d="M12 21h11V10H12v11Zm9.875-1.125v-8.75h-8.75v8.75h8.75Z"
-          fill="#F5F5F5" folderIconColor="CodeSandbox"/>
+<svg width="16px" height="16px" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+    <g big="true">
+        <path fill="#546E7A" folderColor="CodeSandbox"
+              d="M20,18H4V8H20M20,6H12L10,4H4C2.89,4 2,4.89 2,6V18A2,2 0 0,0 4,20H20A2,2 0 0,0 22,18V8C22,6.89 21.1,6 20,6Z"/>
+        <path fill-rule="evenodd" clip-rule="evenodd" d="M12 21h11V10H12v11Zm9.875-1.125v-8.75h-8.75v8.75h8.75Z"
+              fill="#F5F5F5" folderIconColor="CodeSandbox"/>
+    </g>
 </svg>

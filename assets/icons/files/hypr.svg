@@ -24,10 +24,12 @@
   -
   -->
 
-<svg big="true" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32" width="16px" height="16px">
-    <g fill="#ffce01" iconColor="Hypr">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32" width="16px" height="16px">
+  <g big="true">
+      <g fill="#ffce01" iconColor="Hypr">
         <polygon points="2 29.99 29.91 29.99 8.7 8.52 4.22 17.05 2 29.99" fill="#656868"/>
         <polygon points="2 30 19.34 19.28 16.04 15.94 2 30" fill="#656868"/>
         <polygon points="2 13.18 13.19 2 30 2 2 29.99 2 13.18"/>
     </g>
+  </g>
 </svg>

@@ -24,10 +24,12 @@
   -
   -->
 
-<svg big="true" width="16px" height="16px" viewBox="0 0 300 300" xmlns="http://www.w3.org/2000/svg">
-    <path fill-rule="evenodd" clip-rule="evenodd"
+<svg width="16px" height="16px" viewBox="0 0 300 300" xmlns="http://www.w3.org/2000/svg">
+  <g big="true">
+      <path fill-rule="evenodd" clip-rule="evenodd"
           d="M134.445 70.857c-7.424-12.766-25.987-12.766-33.412 0l-80.92 139.136c-7.425 12.766 1.856 28.725 16.706 28.725H99.99c-6.345-5.546-8.695-15.14-3.893-23.37l61.285-105.053z"
           fill="#00dc82" iconColor="Nuxt"/>
     <path d="M185.718 101.377c6.145-10.445 21.507-10.445 27.651 0l66.968 113.838c6.145 10.446-1.535 23.503-13.824 23.503H132.575c-12.289 0-19.97-13.057-13.825-23.503z"
           fill="#00dc82" iconColor="Nuxt"/>
+  </g>
 </svg>

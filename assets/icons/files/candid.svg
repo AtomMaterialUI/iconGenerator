@@ -22,9 +22,10 @@
   -  SOFTWARE.
   -->
 
-<svg big="true" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" id="svg8" version="1.1"
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" id="svg8" version="1.1"
      viewBox="0 0 10.583 10.583" height="16px" width="16px">
-    <g transform="translate(24.963 -27.198)" fill="#b4318b" iconColor="Candid">
+  <g big="true">
+      <g transform="translate(24.963 -27.198)" fill="#b4318b" iconColor="Candid">
         <g transform="matrix(.07754 0 0 .07754 -27.502 20.904)">
             <g transform="translate(15.823 28.158) scale(.82216)">
                 <g transform="matrix(1.00067 0 0 1.00067 2.387 -.15)">
@@ -38,4 +39,5 @@
             </g>
         </g>
     </g>
+  </g>
 </svg>

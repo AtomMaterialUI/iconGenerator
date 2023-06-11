@@ -22,8 +22,9 @@
   -  SOFTWARE.
   -->
 
-<svg big="true" viewBox="0 0 50 50" width="16px" height="16px" xmlns="http://www.w3.org/2000/svg" version="1.1">
-    <g fill="#9eb764" iconColor="Calyx">
+<svg viewBox="0 0 50 50" width="16px" height="16px" xmlns="http://www.w3.org/2000/svg" version="1.1">
+  <g big="true">
+      <g fill="#9eb764" iconColor="Calyx">
         <g transform="matrix(2.17255 0 0 2.17255 -84.8722 -30.7166)">
             <path stroke-miterlimit="4" stroke-linejoin="round" stroke-width="0.13229"
                   d="m50.57288,15.76715l3.70417,3.43958l-3.70417,1.85208l0,-5.29166z"/>
@@ -37,4 +38,5 @@
         <rect stroke-miterlimit="5" y="25.55459" x="24.03475" height="20.90702" width="0.96526"/>
         <rect stroke-miterlimit="5" y="25.55459" x="25" height="20.90702" width="0.96526"/>
     </g>
+  </g>
 </svg>

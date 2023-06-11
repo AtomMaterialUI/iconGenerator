@@ -23,9 +23,10 @@
   -
   -->
 
-<svg big="true" width="16px" height="16px" version="1.1" xmlns="http://www.w3.org/2000/svg"
+<svg width="16px" height="16px" version="1.1" xmlns="http://www.w3.org/2000/svg"
      x="0px" y="0px" viewBox="0 0 200 200" enable-background="new 0 0 200 200" xml:space="preserve">
-    <path fill="#039475" iconColor="Snakemake" d="
+  <g big="true">
+      <path fill="#039475" iconColor="Snakemake" d="
 M55.431194,25.277943
 	C63.258709,24.071102 70.707153,22.329599 78.194458,22.142357
 	C95.838989,21.701107 113.508766,21.694366 131.155899,22.080093
@@ -67,4 +68,5 @@ M55.000126,136.000000
 	C22.862547,143.495880 28.320555,136.191376 36.500973,136.026108
 	C42.498428,135.904907 48.500278,136.000839 55.000126,136.000000
 z"/>
+  </g>
 </svg>

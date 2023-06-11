@@ -24,9 +24,10 @@
   -
   -->
 
-<svg big="true" clip-rule="evenodd" fill-rule="evenodd" stroke-linejoin="round" stroke-miterlimit="1.4142" version="1.1"
+<svg clip-rule="evenodd" fill-rule="evenodd" stroke-linejoin="round" stroke-miterlimit="1.4142" version="1.1"
      viewBox="0 0 24 24" width="16px" height="16px" xml:space="preserve" xmlns="http://www.w3.org/2000/svg">
-    <path d="m10 4h-6c-1.11 0-2 0.89-2 2v12c0 1.097 0.903 2 2 2h16c1.097 0 2-0.903 2-2v-10c0-1.11-0.9-2-2-2h-8l-2-2z"
+  <g big="true">
+      <path d="m10 4h-6c-1.11 0-2 0.89-2 2v12c0 1.097 0.903 2 2 2h16c1.097 0 2-0.903 2-2v-10c0-1.11-0.9-2-2-2h-8l-2-2z"
           fill="#03a9f4" fill-rule="nonzero" folderColor="Webpack"/>
     <g transform="matrix(.66328 0 0 .66328 9.1921 7.4804)" fill="#8ed6fb" folderIconColor="Webpack">
         <path d="m19.376 15.988-7.7084 4.4505-7.7084-4.4505v-8.9009l7.7084-4.4505 7.7084 4.4505z"
@@ -36,4 +37,5 @@
         <path d="m12.286 6.2097-4.9004 2.8301 4.9004 2.8301 4.9004-2.8301zm-5 5.0801v3.5801l4 2.3086v-3.5801zm10 0-4 2.3086v3.5801l4-2.3086z"
         />
     </g>
+  </g>
 </svg>

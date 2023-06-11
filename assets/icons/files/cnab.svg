@@ -23,9 +23,10 @@
   -
   -->
 
-<svg big="true" width="16px" height="16px" viewBox="0 0 450 450" version="1.1" xmlns="http://www.w3.org/2000/svg"
+<svg width="16px" height="16px" viewBox="0 0 450 450" version="1.1" xmlns="http://www.w3.org/2000/svg"
 >
-    <g id="Icon-Design" stroke="none" stroke-width="1" fill="#2EC4B6" iconColor="CNAB" fill-rule="evenodd">
+  <g big="true">
+      <g id="Icon-Design" stroke="none" stroke-width="1" fill="#2EC4B6" iconColor="CNAB" fill-rule="evenodd">
         <g id="Group" transform="translate(55.000000, 40.000000)" fill-rule="nonzero">
             <rect id="Rectangle" fill="#2EC4B6" x="177" y="208" width="120" height="120"></rect>
             <rect id="Rectangle" fill="#D3DDF7" x="195" y="43" width="105" height="105"></rect>
@@ -56,4 +57,5 @@
             </g>
         </g>
     </g>
+  </g>
 </svg>

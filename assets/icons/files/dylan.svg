@@ -24,8 +24,9 @@
   -
   -->
 
-<svg big="true" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32" width="16px" height="16px">
-    <defs>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32" width="16px" height="16px">
+  <g big="true">
+      <defs>
         <mask id="Mask">
             <g fill="#000">
                 <rect x="9" y="23" width="7" height="7"/>
@@ -59,4 +60,5 @@
         <rect x="9" y="9" width="7" height="7"/>
         <rect x="2" y="2" width="7" height="7"/>
     </g>
+  </g>
 </svg>

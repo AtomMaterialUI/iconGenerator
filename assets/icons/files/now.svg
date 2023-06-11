@@ -24,8 +24,9 @@
   -
   -->
 
-<svg big="true" version="1.1" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" width="16px" height="16px">
-    <g transform="matrix(.49799 0 0 .49799 -309.62 -27.09)" fill-rule="evenodd" fill="#cfd8dc" iconColor="Now"
+<svg version="1.1" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" width="16px" height="16px">
+  <g big="true">
+      <g transform="matrix(.49799 0 0 .49799 -309.62 -27.09)" fill-rule="evenodd" fill="#cfd8dc" iconColor="Now"
        stroke="#cfd8dc">
         <g transform="translate(628,63)">
             <g style="fill:none;stroke-width:2;stroke:#cfd8dc">
@@ -40,4 +41,5 @@
             <path d="m28.723 25.026-6.1277-10.667" style="fill:none;stroke-linecap:square;stroke:#cfd8dc"/>
         </g>
     </g>
+  </g>
 </svg>

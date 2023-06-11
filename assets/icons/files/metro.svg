@@ -22,9 +22,10 @@
   -  SOFTWARE.
   -->
 
-<svg big="true" width="16px" height="16px" viewBox="0 0 24 24" version="1.1"
+<svg width="16px" height="16px" viewBox="0 0 24 24" version="1.1"
      xmlns="http://www.w3.org/2000/svg" xmlns:svg="http://www.w3.org/2000/svg">
-    <defs>
+  <g big="true">
+      <defs>
         <mask id="Mask">
             <path d="M 9.66,53.52 C 9.66,46 15,36.81 21.47,33.06 L 69.29,5.45 c 6.5,-3.75 17.13,-3.75 23.63,0 l 47.82,27.61 c 6.5,3.75 11.82,13 11.82,20.46 v 55.22 c 0,7.5 -5.32,16.71 -11.82,20.46 l -47.82,27.61 c -6.5,3.75 -17.13,3.75 -23.63,0 L 21.47,129.2 C 14.98,125.45 9.66,116.2 9.66,108.74 Z"
                   transform="translate(-9.66,-2.64)"
@@ -54,4 +55,5 @@
               transform="translate(-9.66,-2.64)"
               fill="white"/>
     </g>
+  </g>
 </svg>

@@ -24,8 +24,9 @@
   -
   -->
 
-<svg big="true" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32" width="16px" height="16px">
-    <defs>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32" width="16px" height="16px">
+  <g big="true">
+      <defs>
         <mask id="mask">
             <path fill="white" d="M16 2l12.12 7v14L16 30 3.88 23V9z"/>
             <ellipse fill="none" stroke="black" cx="16" cy="16" rx="10.72" ry="4.1"
@@ -36,4 +37,5 @@
         </mask>
     </defs>
     <path fill="#673ab8" d="M16 2l12.12 7v14L16 30 3.88 23V9z" mask="url('#mask')" iconColor="Preact"/>
+  </g>
 </svg>

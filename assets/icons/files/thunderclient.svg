@@ -24,8 +24,9 @@
   -
   -->
 
-<svg big="true" version="1.0" xmlns="http://www.w3.org/2000/svg" width="16px" height="16px" viewBox="0 0 256 256">
-    <g transform="translate(0.000000,256.000000) scale(0.100000,-0.100000)"
+<svg version="1.0" xmlns="http://www.w3.org/2000/svg" width="16px" height="16px" viewBox="0 0 256 256">
+  <g big="true">
+      <g transform="translate(0.000000,256.000000) scale(0.100000,-0.100000)"
        fill="#924e96" stroke="none" iconColor="ThunderClient">
         <path d="M1175 2554 c-317 -34 -580 -158 -796 -373 -246 -246 -373 -553 -373
 -901 0 -348 127 -655 373 -901 246 -246 553 -373 901 -373 348 0 655 127 901
@@ -41,4 +42,5 @@
 l-24 25 -235 0 c-129 0 -237 3 -239 8 -2 4 13 144 33 312 24 200 33 315 28
 335 -17 63 -102 87 -151 43z"/>
     </g>
+  </g>
 </svg>

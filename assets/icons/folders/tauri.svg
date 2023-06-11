@@ -22,8 +22,9 @@
   -  SOFTWARE.
   -->
 
-<svg big="true" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" width="16px" height="16px">
-    <path fill="#26C6DA" folderColor="Tauri"
+<svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" width="16px" height="16px">
+  <g big="true">
+      <path fill="#26C6DA" folderColor="Tauri"
           d="M10 4H4c-1.11 0-2 .89-2 2v12c0 1.097.903 2 2 2h16c1.097 0 2-.903 2-2V8a2 2 0 0 0-2-2h-8l-2-2Z"/>
     <g fill="#FFECB3" folderIconColor="Tauri">
         <path d="M19.81 13.59a1.2 1.2 0 1 1-2.4.001 1.2 1.2 0 0 1 2.4 0Z"/>
@@ -35,4 +36,5 @@
               d="M14.096 13.182a4.583 4.583 0 0 1 1.594-.65 3.213 3.213 0 0 0-.18 1.457 3.22 3.22 0 1 0 3.694 4.912 5.345 5.345 0 0 0 1.757-.508 4.583 4.583 0 1 1-6.865-5.211Zm6.805 4.376-.022.011.022-.01Z"
         />
     </g>
+  </g>
 </svg>

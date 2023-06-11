@@ -24,7 +24,9 @@
   -
   -->
 
-<svg big="true" version="1.1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="16px" height="16px">
-    <path fill="#38ACC2" iconColor="SailsJS"
-          d="M47.5927582,512c0,0-195.8497467-311.4514771,207.0425568-512v512H47.5927582 M317,512V194l195,318H317"/>
+<svg version="1.1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="16px" height="16px">
+    <g big="true">
+        <path fill="#38ACC2" iconColor="SailsJS"
+              d="M47.5927582,512c0,0-195.8497467-311.4514771,207.0425568-512v512H47.5927582 M317,512V194l195,318H317"/>
+    </g>
 </svg>

@@ -22,8 +22,9 @@
   -  SOFTWARE.
   -->
 
-<svg big="true" width="16px" height="16px" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 500">
-    <path fill="#168e80" folderColor="Taskfile" transform="scale(20)"
+<svg width="16px" height="16px" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 500">
+  <g big="true">
+      <path fill="#168e80" folderColor="Taskfile" transform="scale(20)"
           d="M20,18H4V8H20M20,6H12L10,4H4C2.89,4 2,4.89 2,6V18A2,2 0 0,0 4,20H20A2,2 0 0,0 22,18V8C22,6.89 21.1,6 20,6Z"/>
 
     <g fill="#69d2c8" folderIconColor="Taskfile">
@@ -31,4 +32,5 @@
         <path d="M350.15,323.68v121.99l104.39-63.27v-122l-104.39,63.27Z"/>
         <path d="M350.15,323.68l-104.39-63.27,104.39-63.27,104.39,63.27-104.39,63.27Z"/>
     </g>
+  </g>
 </svg>

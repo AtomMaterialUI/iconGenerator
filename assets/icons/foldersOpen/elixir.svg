@@ -22,11 +22,13 @@
   -  SOFTWARE.
   -->
 
-<svg big="true" version="1.1" width="16px" height="16px" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"
+<svg version="1.1" width="16px" height="16px" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"
      xmlns:svg="http://www.w3.org/2000/svg">
-    <path fill="#9575cd" folderColor="Elixir"
+  <g big="true">
+      <path fill="#9575cd" folderColor="Elixir"
           d="M20,18H4V8H20M20,6H12L10,4H4C2.89,4 2,4.89 2,6V18A2,2 0 0,0 4,20H20A2,2 0 0,0 22,18V8C22,6.89 21.1,6 20,6Z"/>
     <path d="m 18.207881,21.728611 c -2.455667,0 -4.446922,-2.315707 -4.446922,-5.172171 0,-2.339883 1.764137,-5.198891 3.127477,-6.9407613 0.645091,-0.824494 1.864018,-1.4772184 1.864018,-1.4772184 0,0 -0.624732,3.3329657 1.070697,4.6562267 1.505209,1.175032 2.612169,2.703779 2.612169,4.048035 0,2.692328 -1.771134,4.885889 -4.227439,4.885889 z"
           fill="#dfceff" folderIconColor="Elixir"
     />
+  </g>
 </svg>

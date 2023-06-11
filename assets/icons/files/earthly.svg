@@ -23,8 +23,9 @@
   -
   -
   -->
-<svg big="true" width="16px" height="16px" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32">
-    <g fill="#00d6ff" iconColor="Earthly">
+<svg width="16px" height="16px" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32">
+  <g big="true">
+      <g fill="#00d6ff" iconColor="Earthly">
         <path d="M17.45,10.29l-3.19,5.48h0l-3.11-5.39Z" />
         <path d="M17.45,10.29h0l-6.21.09H4.86v-.09L8,4.82h6.3Z" />
         <path d="M14.26,15.77h0l-3.11,5.47H4.86L1.75,15.77l3.11-5.48L8,15.58l6.3.19Z" />
@@ -36,4 +37,5 @@
         <path d="M26.76,15.68l-3.11,5.47h0l-3.1-5.38h-6.2v-.09h0l3.1-5.39h6.3l3,5.39Z" />
         <path d="M30,21.15l-3.19,5.57H20.55l3-5.39v-.09h0l3.11-5.47v-.09h.09Z" />
     </g>
+  </g>
 </svg>
