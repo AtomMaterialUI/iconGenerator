@@ -23,13 +23,11 @@
   -  SOFTWARE.
   -->
 
-<svg clip-rule="evenodd" fill-rule="evenodd" stroke-linejoin="round" stroke-miterlimit="1.414" version="1.1"
+<svg big="true" clip-rule="evenodd" fill-rule="evenodd" stroke-linejoin="round" stroke-miterlimit="1.414" version="1.1"
      viewBox="0 0 24 24" width="16px" height="16px" xml:space="preserve" xmlns="http://www.w3.org/2000/svg">
-  <g big="true">
-      <path fill="#ff5252" folderColor="Angular"
+    <path fill="#ff5252" folderColor="Angular"
           d="M20,18H4V8H20M20,6H12L10,4H4C2.89,4 2,4.89 2,6V18A2,2 0 0,0 4,20H20A2,2 0 0,0 22,18V8C22,6.89 21.1,6 20,6Z"/>
     <path d="m18.034 9.132 5.692 2.0283-0.86282 7.5336-4.8292 2.6722-4.8292-2.6722-0.86282-7.5336 5.692-2.0283m0 1.3522-3.5607 7.9843h1.3264l0.71472-1.79h3.0263l0.71472 1.79h1.32l-3.5414-7.9843m1.0431 5.0868h-2.0798l1.0367-2.4919z"
           fill="#ffcdd2" folderIconColor="Angular"/>
-  </g>
 </svg>
 

@@ -22,14 +22,12 @@
   -  SOFTWARE.
   -->
 
-<svg width="16px" height="16px" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
-  <g big="true">
-      <g fill="#30D475" iconColor="SystemD">
+<svg big="true" width="16px" height="16px" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+    <g fill="#30D475" iconColor="SystemD">
         <path d="M1.2 8.7v6.6h2.512v-1.015H2.205v-4.57h1.507V8.7Zm19.088 0v1.015h1.507v4.57h-1.507V15.3H22.8V8.7Z"
               transform="scale(1 1.5) translate(0 -4)"/>
         />
         <path d="M12.5 12 17 9.5v5z"/>
         <circle cx="8.75" cy="12" r="2.25"/>
     </g>
-  </g>
 </svg>

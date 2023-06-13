@@ -24,14 +24,12 @@
   -
   -->
 
-<svg clip-rule="evenodd" fill-rule="evenodd" stroke-linejoin="round" stroke-miterlimit="1.414" version="1.1"
+<svg big="true" clip-rule="evenodd" fill-rule="evenodd" stroke-linejoin="round" stroke-miterlimit="1.414" version="1.1"
      width="16px" height="16px"
      viewBox="0 0 24 24" xml:space="preserve" xmlns="http://www.w3.org/2000/svg">
-  <g big="true">
-      <path fill="#43a047" folderColor="Resolvers"
+    <path fill="#43a047" folderColor="Resolvers"
           d="M20,18H4V8H20M20,6H12L10,4H4C2.89,4 2,4.89 2,6V18A2,2 0 0,0 4,20H20A2,2 0 0,0 22,18V8C22,6.89 21.1,6 20,6Z"/>
     <path d="m21.999 10.665-5.893 5.893-2.6098-2.6098-1.9045 1.9045 4.5143 4.9247 7.7975-7.7975z" fill="#c8e6c9"
           folderIconColor="Resolvers"
           stroke-width="1.6416"/>
-  </g>
 </svg>

@@ -24,9 +24,8 @@
   -
   -->
 
-<svg version="1.1" viewBox="0 0 300 300" xmlns="http://www.w3.org/2000/svg" width="16px" height="16px">
-  <g big="true">
-      <g transform="translate(0,3)">
+<svg big="true" version="1.1" viewBox="0 0 300 300" xmlns="http://www.w3.org/2000/svg" width="16px" height="16px">
+    <g transform="translate(0,3)">
         <g transform="matrix(1.3602 0 0 1.3602 33.252 15.767)" fill="none">
             <g id="Group" fill="#83e8c2" iconColor="RestQL">
                 <path id="Shape"
@@ -86,5 +85,4 @@
             </g>
         </g>
     </g>
-  </g>
 </svg>

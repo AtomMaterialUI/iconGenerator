@@ -23,15 +23,13 @@
   -
   -->
 
-<svg viewBox="0 0 768 600" width="16px" height="16px" version="1.1" xmlns="http://www.w3.org/2000/svg"
+<svg big="true" viewBox="0 0 768 600" width="16px" height="16px" version="1.1" xmlns="http://www.w3.org/2000/svg"
 >
-  <g big="true">
-      <g fill="#005a9c" iconColor="WGSL">
+    <g fill="#005a9c" iconColor="WGSL">
         <path d="M 293.6275,508.5 52.8725,91.5 h 481.51 z"/>
         <path d="m 534.6275,91.5 -120.5,208 h 241 z"/>
         <path d="m 534.6275,507.5 -120.5,-208 h 241 z"/>
         <path d="m 654.6275,300.5 -60.5,-104 h 121 z"/>
         <path d="m 654.6275,92.5 -60.5,104 h 121 z"/>
     </g>
-  </g>
 </svg>

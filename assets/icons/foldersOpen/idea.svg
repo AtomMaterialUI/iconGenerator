@@ -24,10 +24,9 @@
   -
   -->
 
-<svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" clip-rule="evenodd" fill-rule="evenodd"
+<svg big="true" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" clip-rule="evenodd" fill-rule="evenodd"
      stroke-linejoin="round" stroke-miterlimit="1.414" width="16px" height="16px">
-  <g big="true">
-      <defs xmlns="http://www.w3.org/2000/svg">
+    <defs xmlns="http://www.w3.org/2000/svg">
         <linearGradient x1="0%" y1="50%" x2="99.799%" y2="50%" id="a">
             <stop stop-color="#F97A12" offset="26%"/>
             <stop stop-color="#B07B58" offset="46%"/>
@@ -84,5 +83,4 @@
             <path d="M13.56 17.9h3v.5h-3zM15.7 13.04v-.6h-1.64v.6h.46v2.1h-.46v.62h1.64v-.62h-.46v-2.1zM17.3 15.8a1.342 1.342 0 0 1-.66-.14 1.574 1.574 0 0 1-.44-.36l.46-.52c.083.091.177.172.28.24a.586.586 0 0 0 .32.08.372.372 0 0 0 .32-.14.586.586 0 0 0 .12-.42V12.4h.74v2.16c.008.177-.02.354-.08.52a1 1 0 0 1-.28.44 1.43 1.43 0 0 1-.78.28"/>
         </g>
     </g>
-  </g>
 </svg>

@@ -22,13 +22,11 @@
   -  SOFTWARE.
   -->
 
-<svg viewBox="0 0 24 24" width="16px" height="16px" fill="none" xmlns="http://www.w3.org/2000/svg">
-  <g big="true">
-      <path fill="#1E88E5" folderColor="Windows"
+<svg big="true" viewBox="0 0 24 24" width="16px" height="16px" fill="none" xmlns="http://www.w3.org/2000/svg">
+    <path fill="#1E88E5" folderColor="Windows"
           d="M20,18H4V8H20M20,6H12L10,4H4C2.89,4 2,4.89 2,6V18A2,2 0 0,0 4,20H20A2,2 0 0,0 22,18V8C22,6.89 21.1,6 20,6Z"/>
 
     <path fill="#90CAF9" folderIconColor="Windows" transform="translate(9,9)"
           d="M6.245,7.681H1.006V2.965l5.238-.786v5.5Zm7.764,0H6.947v-5.6L14.009,1V7.681Zm-7.764.639H1.006v4.716l5.238,0.786v-5.5Zm7.764,0H6.947v5.6L14.009,15V8.319Z"
     />
-  </g>
 </svg>

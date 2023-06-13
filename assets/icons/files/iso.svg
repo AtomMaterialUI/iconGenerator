@@ -23,10 +23,8 @@
   -
   -->
 
-<svg width="16px" height="16px" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"
+<svg big="true" width="16px" height="16px" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"
 >
-  <g big="true">
-      <path fill="#b0bec5" iconColor="ISO"
+    <path fill="#b0bec5" iconColor="ISO"
           d="M12 14.5A2.5 2.5 0 0 1 9.5 12c0-1.387 1.113-2.5 2.5-2.5s2.5 1.113 2.5 2.5a2.5 2.5 0 0 1-2.5 2.5M12 2A10 10 0 0 0 2 12a10 10 0 0 0 10 10 10 10 0 0 0 10-10A10 10 0 0 0 12 2z"/>
-  </g>
 </svg>

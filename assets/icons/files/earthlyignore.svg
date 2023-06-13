@@ -22,9 +22,8 @@
   - SOFTWARE.
   -
   -->
-<svg width="16px" height="16px" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32">
-  <g big="true">
-      <g themed="true"
+<svg big="true" width="16px" height="16px" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32">
+    <g themed="true"
        iconColor="Earthlyignore" fill="#00d6ff">
         <path d="M17.45,10.29l-3.19,5.48h0l-3.11-5.39Z"
         />
@@ -45,5 +44,4 @@
         <path d="M30,21.15l-3.19,5.57H20.55l3-5.39v-.09h0l3.11-5.47v-.09h.09Z"
         />
     </g>
-  </g>
 </svg>

@@ -23,15 +23,13 @@
   -  SOFTWARE.
   -->
 
-<svg width="16px" height="16px" viewBox="0 0 30 30" version="1.1"
+<svg big="true" xmlns:xlink="http://www.w3.org/1999/xlink" width="16px" height="16px" viewBox="0 0 30 30" version="1.1"
      xmlns="http://www.w3.org/2000/svg">
-    <g big="true">
-        <g stroke-width="1" fill="none" fill-rule="evenodd" transform="translate(-100.000000, -556.000000)">
-            <g transform="translate(100.000000, 556.000000)" fill="#0055FF" iconColor="Ride">
-                <rect id="Rectangle-path"
-                      transform="translate(15.161864, 15.026689) rotate(135.000000) translate(-15.161864, -15.026689) "
-                      x="4.6892368" y="4.55406225" width="20.9452537" height="20.9452537"></rect>
-            </g>
+    <g stroke-width="1" fill="none" fill-rule="evenodd" transform="translate(-100.000000, -556.000000)">
+        <g transform="translate(100.000000, 556.000000)" fill="#0055FF" iconColor="Ride">
+            <rect id="Rectangle-path"
+                  transform="translate(15.161864, 15.026689) rotate(135.000000) translate(-15.161864, -15.026689) "
+                  x="4.6892368" y="4.55406225" width="20.9452537" height="20.9452537"></rect>
         </g>
     </g>
 </svg>

@@ -23,9 +23,8 @@
   -
   -->
 
-<svg viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg" width="16px" height="16px">
-  <g big="true">
-      <defs>
+<svg big="true" viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg" width="16px" height="16px">
+    <defs>
         <mask id="Mask">
             <rect y="2" width="16" height="12" fill="white"/>
             <g transform="matrix(0.109779, 0, 0, 0.098813, 1.166782, 4.663317)" fill="black">
@@ -70,5 +69,4 @@
             </g>
         </g>
     </g>
-  </g>
 </svg>

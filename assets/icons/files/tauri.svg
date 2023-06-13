@@ -22,9 +22,8 @@
   -  SOFTWARE.
   -->
 
-<svg viewBox="0 0 256 256" xmlns="http://www.w3.org/2000/svg" width="16px" height="16px">
-  <g big="true">
-      <g fill="#26C6DA" iconColor="Tauri">
+<svg big="true" viewBox="0 0 256 256" xmlns="http://www.w3.org/2000/svg" width="16px" height="16px">
+    <g fill="#26C6DA" iconColor="Tauri">
         <g transform="translate(-8.8242e-5 .00011806)">
             <path d="m165.09 99.183c0 5.3447-2.123 10.471-5.902 14.25s-8.905 5.902-14.25 5.902c-5.344 0-10.47-2.123-14.249-5.902s-5.902-8.905-5.902-14.25c0-5.3445 2.123-10.47 5.902-14.249s8.905-5.9023 14.249-5.9023c5.345 0 10.471 2.1231 14.25 5.9023s5.902 8.9048 5.902 14.249z"
             />
@@ -36,5 +35,4 @@
                   clip-rule="evenodd" fill-rule="evenodd"/>
         </g>
     </g>
-  </g>
 </svg>

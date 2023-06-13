@@ -23,12 +23,10 @@
   -  SOFTWARE.
   -->
 
-<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
+<svg big="true" version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
      width="16px" height="16px" viewBox="0 0 24 24" xml:space="preserve">
-  <g big="true">
-      <path fill="#00b0ff" folderColor="Info"
+    <path fill="#00b0ff" folderColor="Info"
           d="M20,18H4V8H20M20,6H12L10,4H4C2.89,4 2,4.89 2,6V18A2,2 0 0,0 4,20H20A2,2 0 0,0 22,18V8C22,6.89 21.1,6 20,6Z"/>
     <path fill="#b3e5fc" folderIconColor="Info" d="M16.5,9c-3.6,0-6.5,2.9-6.5,6.5s2.9,6.5,6.5,6.5s6.5-2.9,6.5-6.5S20.1,9,16.5,9z M17.1,18.8h-1.3v-3.9h1.3V18.8
 	z M17.1,13.6h-1.3v-1.3h1.3V13.6z"/>
-  </g>
 </svg>

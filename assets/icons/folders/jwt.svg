@@ -22,9 +22,8 @@
   -  SOFTWARE.
   -->
 
-<svg viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" width="16px" height="16px">
-  <g big="true">
-      <path d="M10 4H4c-1.11 0-2 .89-2 2v12c0 1.097.903 2 2 2h16c1.097 0 2-.903 2-2V8a2 2 0 0 0-2-2h-8l-2-2Z"
+<svg big="true" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" width="16px" height="16px">
+    <path d="M10 4H4c-1.11 0-2 .89-2 2v12c0 1.097.903 2 2 2h16c1.097 0 2-.903 2-2V8a2 2 0 0 0-2-2h-8l-2-2Z"
           fill="#D63AFF" folderColor="JWT"/>
     <g fill="#E1BEE7" folderIconColor="JWT">
         <path fill-rule="evenodd" clip-rule="evenodd"
@@ -43,5 +42,4 @@
               d="m15.393 19.212-1.775 2.449 1.359.989 1.786-2.45v-1.426l-1.37.438ZM19.807 16.01l1.775-2.449-1.359-.988-1.775 2.449v1.427l1.36-.439Z"
         />
     </g>
-  </g>
 </svg>

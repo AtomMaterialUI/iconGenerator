@@ -24,10 +24,9 @@
   -
   -->
 
-<svg clip-rule="evenodd" fill-rule="evenodd" stroke-linejoin="round" stroke-miterlimit="1.414" version="1.1"
+<svg big="true" clip-rule="evenodd" fill-rule="evenodd" stroke-linejoin="round" stroke-miterlimit="1.414" version="1.1"
      viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" width="16px" height="16px">
-  <g big="true">
-      <path fill="#1976D2" folderColor="Cue"
+    <path fill="#1976D2" folderColor="Cue"
           d="M20,18H4V8H20M20,6H12L10,4H4C2.89,4 2,4.89 2,6V18A2,2 0 0,0 4,20H20A2,2 0 0,0 22,18V8C22,6.89 21.1,6 20,6Z"/>
 
     <g fill="#BBDEFB" folderIconColor="Cue">
@@ -36,5 +35,4 @@
         <path d="M16.8,11.3c2,0,3.6,1.6,3.6,3.6s-1.6,3.6-3.6,3.6s-3.6-1.6-3.6-3.6S14.8,11.3,16.8,11.3 M16.8,10.5
 		c-2.4,0-4.4,2-4.4,4.4s2,4.4,4.4,4.4s4.4-2,4.4-4.4S19.3,10.5,16.8,10.5L16.8,10.5z"/>
     </g>
-  </g>
 </svg>

@@ -24,9 +24,8 @@
   -
   -->
 
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32" width="16px" height="16px">
-  <g big="true">
-      <defs>
+<svg big="true" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32" width="16px" height="16px">
+    <defs>
         <radialGradient id="e" cx="572.646" cy="-769.85" r="14.375"
                         gradientTransform="matrix(0.358, 0, 0, -0.358, -181.98, -268.597)"
                         gradientUnits="userSpaceOnUse">
@@ -42,5 +41,4 @@
         <path d="M20.877,17.969A4.878,4.878,0,1,1,16,13.092a4.877,4.877,0,0,1,4.877,4.877Z" fill="#fff"/>
         <circle stroke="none" cx="23.184" cy="7.22" r="5.15" style="fill:url(#e)"/>
     </g>
-  </g>
 </svg>

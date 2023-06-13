@@ -24,9 +24,8 @@
   -
   -->
 
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32" width="16px" height="16px">
-  <g big="true">
-      <defs>
+<svg big="true" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32" width="16px" height="16px">
+    <defs>
         <mask id="Mask">
             <rect x="0" y="0" width="32" height="32" fill="white"/>
             <path d="M20.322,11.523a1.5,1.5,0,1,1-.439-1.061A1.5,1.5,0,0,1,20.322,11.523Z" fill="black"/>
@@ -38,5 +37,4 @@
         <path d="M20.322,11.523a1.5,1.5,0,1,1-.439-1.061A1.5,1.5,0,0,1,20.322,11.523Z" style="fill:#fff"/>
         <path d="M17.047,11.523a1.5,1.5,0,1,1-.439-1.061A1.5,1.5,0,0,1,17.047,11.523Z" style="fill:#fff"/>
     </g>
-  </g>
 </svg>

@@ -22,11 +22,10 @@
   -  SOFTWARE.
   -->
 
-<svg width="16px" height="16px" stroke-miterlimit="10" version="1.1"
+<svg big="true" width="16px" height="16px" stroke-miterlimit="10" version="1.1"
      viewBox="0 0 24 24" xml:space="preserve" xmlns="http://www.w3.org/2000/svg"
      xmlns:xlink="http://www.w3.org/1999/xlink">
-  <g big="true">
-      <path fill="#c62828" folderColor="OpenShift"
+    <path fill="#c62828" folderColor="OpenShift"
           d="M20,18H4V8H20M20,6H12L10,4H4C2.89,4 2,4.89 2,6V18A2,2 0 0,0 4,20H20A2,2 0 0,0 22,18V8C22,6.89 21.1,6 20,6Z"/>
     <g transform="scale(0.7) translate(12 12)" fill="#ffcdd2" folderIconColor="OpenShift">
         <path d="M20.5 8.1769C20.3103 7.78216 20.0876 7.4042 19.8341 7.04709L17.1053 8.04032C17.4191 8.36331 17.6889 8.72646 17.9074 9.12029L20.5 8.17656L20.5 8.1769ZM8.43661 11.1952L5.70679 12.1884C5.74318 12.625 5.81565 13.0578 5.92344 13.4824L8.51636 12.538C8.43035 12.096 8.40353 11.6445 8.43661 11.1955"
@@ -40,5 +39,4 @@
         <path d="M20.1292 11.3998L17.4056 12.3908C17.3761 12.789 17.2988 13.1823 17.1754 13.5621L20.1401 12.4815C20.1611 12.1193 20.1577 11.7577 20.1292 11.3998M6.00685 16.5395C6.21653 16.8349 6.44881 17.1164 6.70102 17.3825L9.66578 16.3012C9.32494 16.0883 9.01079 15.8354 8.73003 15.5479L6.00685 16.5395Z"
         />
     </g>
-  </g>
 </svg>

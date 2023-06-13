@@ -24,10 +24,9 @@
   -
   -->
 
-<svg clip-rule="evenodd" fill-rule="evenodd" stroke-linejoin="round" stroke-miterlimit="1.414" version="1.1"
+<svg big="true" clip-rule="evenodd" fill-rule="evenodd" stroke-linejoin="round" stroke-miterlimit="1.414" version="1.1"
      viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" width="16px" height="16px">
-  <g big="true">
-      <path fill="#ffc63a" folderColor="Pinia"
+    <path fill="#ffc63a" folderColor="Pinia"
           d="M20,18H4V8H20M20,6H12L10,4H4C2.89,4 2,4.89 2,6V18A2,2 0 0,0 4,20H20A2,2 0 0,0 22,18V8C22,6.89 21.1,6 20,6Z"/>
 
     <g fill="none" fill-rule="evenodd" transform="scale(0.03) translate(400 240)">
@@ -42,5 +41,4 @@
         <path d="m184.473473 501c83.118854 0 150.526527-24.145148 150.526527-133.645148s-67.407673-199.354852-150.526527-199.354852c-83.118855 0-150.473473 89.854852-150.473473 199.354852s67.354618 133.645148 150.473473 133.645148z"
               fill="#fff9c4" folderIconColor="Pinia"/>
     </g>
-  </g>
 </svg>
