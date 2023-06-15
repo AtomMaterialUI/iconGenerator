@@ -1,28 +1,29 @@
-<?xml version="1.0" encoding="UTF-8" standalone="no"?><!--
+<!--
   - The MIT License (MIT)
   -
-  -  Copyright (c) 2015-2022 Elior "Mallowigi" Boukhobza
+  - Copyright (c) 2015-2023 Elior "Mallowigi" Boukhobza
   -
-  -  Permission is hereby granted, free of charge, to any person obtaining a copy
-  -  of this software and associated documentation files (the "Software"), to deal
-  -  in the Software without restriction, including without limitation the rights
-  -  to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
-  -  copies of the Software, and to permit persons to whom the Software is
-  -  furnished to do so, subject to the following conditions:
+  - Permission is hereby granted, free of charge, to any person obtaining a copy
+  - of this software and associated documentation files (the "Software"), to deal
+  - in the Software without restriction, including without limitation the rights
+  - to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+  - copies of the Software, and to permit persons to whom the Software is
+  - furnished to do so, subject to the following conditions:
   -
-  -  The above copyright notice and this permission notice shall be included in all
-  -  copies or substantial portions of the Software.
+  - The above copyright notice and this permission notice shall be included in all
+  - copies or substantial portions of the Software.
   -
-  -  THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
-  -  IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
-  -  FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
-  -  AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
-  -  LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
-  -  OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
-  -  SOFTWARE.
+  - THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+  - IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+  - FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+  - AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+  - LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+  - OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+  - SOFTWARE.
+  -
   -->
 
-<svg big="true" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" style="isolation:isolate"
+<svg big="true" xmlns="http://www.w3.org/2000/svg" style="isolation:isolate"
      viewBox="0 0 20 18" width="16px" height="16px">
     <path d=" M 8.513 1.5 L 3.461 1.5 C 2.526 1.5 1.776 2.249 1.776 3.184 L 1.776 13.289 C 1.776 14.22 2.53 14.974 3.461 14.974 L 16.934 14.974 C 17.864 14.974 18.618 14.22 18.618 13.289 L 18.618 4.868 C 18.618 3.934 17.861 3.184 16.934 3.184 L 10.197 3.184 L 8.513 1.5 Z "
           fill="#1976d2" folderColor="Strategy"/>
