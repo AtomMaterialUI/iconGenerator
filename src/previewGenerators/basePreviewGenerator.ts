@@ -143,13 +143,13 @@ export abstract class BasePreviewGenerator<A extends Association> {
   }
 
   /**
-   * Create a screenshot using puppeter
+   * Create a screenshot using puppeteer
    * @param filePath
    * @param fileName
    */
   private async createScreenshot(filePath: string, fileName: string) {
     try {
-      this.logger.log('Creating a screenshot using puppeter', this.logGroupId);
+      this.logger.log('Creating a screenshot using puppeteer', this.logGroupId);
 
       const htmlFilePath = path.join('file:', filePath);
       const browser = await puppeteer.launch();
