@@ -7683,7 +7683,7 @@
            priority="100"
            iconType="FILE"
            pattern="^\.npmrc$"
-           icon="/icons/files/npm.svg"/>
+           icon="/icons/files/npmfiles.svg"/>
     <regex fileNames=".npmignore"
            name="NPM Ignore"
            iconColor="808080"
