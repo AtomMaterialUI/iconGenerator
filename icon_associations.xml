@@ -152,7 +152,7 @@
            iconType="FILE"
            pattern=".*META-INF/.*\.xml$"
            iconColor="66BB6A"
-           icon="/icons/files/plugin.svg"/>
+           icon="/icons/files/pluginfiles.svg"/>
     <regex fileNames="MaterialThemeBundle.properties,atom.bundle.properties"
            name="Bundle properties"
            priority="1000"
@@ -192,7 +192,7 @@
            iconPack="TESTS"
            iconType="FILE"
            pattern=".*/(tests?|specs?)/.*\.coffee$"
-           icon="/icons/files/testcoffee.svg"/>
+           icon="/icons/files/testcoffeefiles.svg"/>
     <regex fileNames="*.test.dart,*.spec.dart"
            name="Test Dart"
            iconColor="26A2C1"
@@ -208,7 +208,7 @@
            iconPack="TESTS"
            iconType="FILE"
            pattern=".*/(tests?|specs?)/.*\.dart$"
-           icon="/icons/files/testdart.svg"/>
+           icon="/icons/files/testdartfiles.svg"/>
     <regex fileNames="*.test.go,*.spec.go,*_test.go,*_spec.go"
            name="Test Go"
            iconColor="82AAFF"
@@ -224,7 +224,7 @@
            iconPack="TESTS"
            iconType="FILE"
            pattern=".*/(tests?|specs?)/.*\.go$"
-           icon="/icons/files/testgo.svg"/>
+           icon="/icons/files/testgofiles.svg"/>
     <regex fileNames="*.test.hs,*.spec.hs"
            name="Test Haskell"
            iconColor="AB76A0"
@@ -240,7 +240,7 @@
            iconPack="TESTS"
            iconType="FILE"
            pattern=".*/(tests?|specs?)/.*\.haskell$"
-           icon="/icons/files/testhaskell.svg"/>
+           icon="/icons/files/testhaskellfiles.svg"/>
     <regex fileNames="MyTest.java,myTest.java,mytest.java"
            name="Test Java"
            iconColor="7963E6"
@@ -256,7 +256,7 @@
            iconPack="TESTS"
            iconType="FILE"
            pattern=".*/(tests?|units?|junit)/.*\.java$"
-           icon="/icons/files/testjava.svg"/>
+           icon="/icons/files/testjavafiles.svg"/>
     <regex fileNames="*.test.js,*.spec.js,*.test.es6,*.spec.es6,*.test.mjs,*.spec.cjs"
            name="Test JS"
            iconColor="E79627"
@@ -281,7 +281,7 @@
         iconPack="TESTS"
         iconType="FILE"
         pattern=".*/(tests?|specs?)/.*\.([cm]?js|es6)$"
-        icon="/icons/files/testjs.svg"/>
+        icon="/icons/files/testjsfiles.svg"/>
     <regex
         fileNames="test/*.js,tests/*.js,spec/*.js,specs/*.js,test/*.cjs,tests/*.cjs,spec/*.cjs,specs/*.cjs,test/*.mjs,tests/*.mjs,spec/*.mjs,specs/*.mjs"
         name="Test JS Folder Dark"
@@ -290,7 +290,7 @@
         iconPack="TESTS"
         iconType="FILE"
         pattern=".*/(tests?|specs?)/.*\.([cm]?js|es6)$"
-        icon="/icons/files/testjs.svg"/>
+        icon="/icons/files/testjsfiles.svg"/>
     <regex fileNames="MyTest.kt,myTest.kt,mytest.kt"
            name="Test Kotlin"
            iconColor="497CE3"
@@ -306,7 +306,7 @@
            iconPack="TESTS"
            iconType="FILE"
            pattern=".*/(tests?|units?|kunit)/.*\.kt$"
-           icon="/icons/files/testkt.svg"/>
+           icon="/icons/files/testktfiles.svg"/>
     <regex fileNames="*.test.perl,*.spec.pl,*.test.pl6,*.test.pm6,*.spec.ph"
            name="Test Perl"
            iconColor="4DB6AC"
@@ -322,7 +322,7 @@
            iconPack="TESTS"
            iconType="FILE"
            pattern=".*/(tests?|specs?)/.*\.(perl|pl[x6]?|pm6?|ph|psgi)$"
-           icon="/icons/files/testperl.svg"/>
+           icon="/icons/files/testperlfiles.svg"/>
     <regex fileNames="*.test.jsx,*.spec.jsx,*.test.tsx,*.spec.tsx"
            name="Test React"
            iconColor="4DD0E1"
@@ -338,7 +338,7 @@
            iconPack="TESTS"
            iconType="FILE"
            pattern=".*/(tests?|specs?)/.*\.(jsx|tsx)$"
-           icon="/icons/files/testreact.svg"/>
+           icon="/icons/files/testreactfiles.svg"/>
     <regex fileNames="*.test.py,*.spec.ipy,*.test.python,*.spec.whl,*.test.pep"
            name="Test Python"
            iconColor="90A959"
@@ -354,7 +354,7 @@
            iconPack="TESTS"
            iconType="FILE"
            pattern=".*/(tests?|specs?)/.*\.(py|ipy|python|py[pt3iwzc]|whl|pep)$"
-           icon="/icons/files/testpy.svg"/>
+           icon="/icons/files/testpyfiles.svg"/>
     <regex fileNames="*.test.rb,*.spec.rbs,my_test.ruby,controller_spec.rb"
            name="Test Ruby"
            iconColor="D33534"
@@ -370,7 +370,7 @@
            iconPack="TESTS"
            iconType="FILE"
            pattern=".*/(tests?|specs?)/.*\.(rb|rbs|ruby)$"
-           icon="/icons/files/testruby.svg"/>
+           icon="/icons/files/testrubyfiles.svg"/>
     <regex fileNames="*.test.rs,*.spec.rs"
            name="Test Rust"
            iconColor="a72146"
@@ -386,7 +386,7 @@
            iconPack="TESTS"
            iconType="FILE"
            pattern=".*/(tests?|specs?)/.*\.rs$"
-           icon="/icons/files/testrust.svg"/>
+           icon="/icons/files/testrustfiles.svg"/>
     <regex fileNames="*.test.scala,*.spec.scala"
            name="Test Scala"
            iconColor="FF5370"
@@ -402,7 +402,7 @@
            iconPack="TESTS"
            iconType="FILE"
            pattern=".*/(tests?|specs?)/.*\.scala$"
-           icon="/icons/files/testscala.svg"/>
+           icon="/icons/files/testscalafiles.svg"/>
     <regex fileNames="*.test.ts,*.spec.ts"
            name="Test TypeScript"
            iconColor="82AAFF"
@@ -418,7 +418,7 @@
            iconPack="TESTS"
            iconType="FILE"
            pattern=".*/(tests?|specs?)/.*\.ts$"
-           icon="/icons/files/testts.svg"/>
+           icon="/icons/files/testtsfiles.svg"/>
     <regex fileNames="my.test.php,myTest.php"
            name="Test PHP"
            iconColor="C792EA"
@@ -435,7 +435,7 @@
            iconType="FILE"
            iconPack="TESTS"
            pattern=".*/(tests?|specs?|phpunit)/.*\.php$"
-           icon="/icons/files/testphp.svg"/>
+           icon="/icons/files/testphpfiles.svg"/>
     <!--endregion-->
 
     <!--region 0-9 -->
@@ -1030,7 +1030,7 @@
            iconType="FILE"
            pattern="^\.apacheconf$"
            url="https://httpd.apache.org/docs/2.4/configuring.html"
-           icon="/icons/files/apacheconf.svg"/>
+           icon="/icons/files/apacheconf2.svg"/>
     <regex fileNames="*.vhost,*.thrift"
            name="Apache"
            iconColor="F44336"
@@ -1598,7 +1598,7 @@
            priority="50"
            iconType="FILE"
            pattern=".*/[bB]eans?/.*\.java$"
-           icon="/icons/files/bean.svg"/>
+           icon="/icons/files/beanfiles.svg"/>
     <regex fileNames="*.feature.php"
            name="Behat"
            iconColor="39ADB5"
@@ -1742,7 +1742,7 @@
            priority="50"
            iconType="FILE"
            pattern=".*/(blocs?|events?|states?)/.*\.dart$"
-           icon="/icons/files/bloc.svg"/>
+           icon="/icons/files/blocfiles.svg"/>
     <regex fileNames="*.bsv,*.bspec"
            name="BlueSpec"
            iconColor="1976D2"
@@ -1854,7 +1854,7 @@
            priority="100"
            iconType="FILE"
            pattern="^[Bb]owerfile$"
-           icon="/icons/files/bower.svg"/>
+           icon="/icons/files/bowerfile.svg"/>
     <regex fileNames="*.bf,*.b"
            name="Brainfuck"
            iconColor="F06292"
@@ -2274,7 +2274,7 @@
            priority="100"
            iconType="FILE"
            pattern="^circle\.ya?ml$"
-           icon="/icons/files/circleci.svg"/>
+           icon="/icons/files/circleciconf.svg"/>
     <regex fileNames="*.brd,*.sch,*.pcb,*.gbr,*.gbo,*.gbl,*.gbs,*.gbp,*.gto,*.gtl,*.gtp,*.gts,*.dsn"
            name="Circuit Board"
            iconColor="78909C"
@@ -2288,7 +2288,7 @@
            priority="100"
            iconType="FILE"
            pattern=".*\.(gko|gpt|gpb|fab|pho|cir|ckt|gm?[0-9]+)$"
-           icon="/icons/files/circuit.svg"/>
+           icon="/icons/files/circuit2.svg"/>
     <regex fileNames="*.cirru"
            name="Cirru"
            iconColor="a7a4f8"
@@ -3300,7 +3300,7 @@
            priority="50"
            iconType="FILE"
            pattern=".*/docker(files?)?/.*\.[dD]ockerfile$"
-           icon="/icons/files/docker.svg"/>
+           icon="/icons/files/dockerfiles.svg"/>
     <regex fileNames="docker-compose.yml,docker-compose.yaml,docker-compose.dev.yml,compose.yaml,compose.yml"
            name="DockerCompose"
            iconColor="1e9cef"
@@ -3316,7 +3316,7 @@
            priority="50"
            iconType="FILE"
            pattern=".*/docker(files?)?/.*\.ya?ml$"
-           icon="/icons/files/docker.svg"/>
+           icon="/icons/files/dockercomposefiles.svg"/>
     <regex fileNames=".dockerignore,.Dockerignore"
            name="Docker Ignore"
            iconColor="808080"
@@ -3380,7 +3380,7 @@
            priority="100"
            iconType="FILE"
            pattern="^\.dojorc$"
-           icon="/icons/files/dojo.svg"/>
+           icon="/icons/files/dojorc.svg"/>
     <regex fileNames="*.component"
            name="DoneJS"
            iconColor="2c88ab"
@@ -3823,7 +3823,7 @@
            priority="50"
            iconType="FILE"
            pattern=".*/eslint/.*\.(ya?ml|json|[cm]?js|ts)?$"
-           icon="/icons/files/eslint.svg"/>
+           icon="/icons/files/eslintrules.svg"/>
     <regex fileNames=".eslintcache"
            name="ESLint Cache"
            iconColor="808080"
@@ -3831,7 +3831,7 @@
            priority="100"
            iconType="FILE"
            pattern="^\.eslintcache$"
-           icon="/icons/files/eslintignore.svg"/>
+           icon="/icons/files/eslintcache.svg"/>
     <regex fileNames=".eslintignore"
            name="ESLint Ignore"
            iconColor="808080"
@@ -3862,16 +3862,8 @@
            url="https://www.erlang.org/"
            priority="100"
            iconType="FILE"
-           pattern="^[Ee]make(file)?$"
-           icon="/icons/files/makefile.svg"/>
-    <regex fileNames=".emakerfile"
-           name="Erlang Makefile (2)"
-           iconColor="E79627"
-           url="https://www.erlang.org/"
-           priority="100"
-           iconType="FILE"
-           pattern="^.*\.emakerfile$"
-           icon="/icons/files/makefile.svg"/>
+           pattern="^[Ee]maker?(file)?$"
+           icon="/icons/files/emakefile.svg"/>
     <regex fileNames="*.xls,*.xlsm,*.xlsx,*.xlsb,*.xlm,*.xla,*.xlam,*.xlt,*.xltm,*.xltx,*.odx"
            name="Excel"
            iconColor="6AAB20"
@@ -4813,7 +4805,7 @@
            priority="50"
            iconType="FILE"
            pattern=".*/[gG]runt(files?)?/.*\.([cm]?js|json|ts)"
-           icon="/icons/files/gruntfile.svg"/>
+           icon="/icons/files/gruntfiles.svg"/>
     <regex fileNames="gulpfile,Gulpfile,gulpfile.js,Gulpfile.ts"
            name="Gulp"
            iconColor="C74748"
@@ -4829,7 +4821,7 @@
            priority="50"
            iconType="FILE"
            pattern=".*/[gG]ulp(files?)?/.*\.([cm]?js|json|ts)"
-           icon="/icons/files/gulpfile.svg"/>
+           icon="/icons/files/gulpfiles.svg"/>
     <!--endregion-->
 
     <!--region H -->
@@ -5151,7 +5143,7 @@
            priority="50"
            iconType="FILE"
            pattern=".*/\.husky/.*\.([cm]?js|json|ya?ml)$"
-           icon="/icons/files/husky.svg"/>
+           icon="/icons/files/huskyfiles.svg"/>
     <regex fileNames="pre-commit,post-commit,pre-push,post-push,pre-merge,post-merge"
            name="Husky Hooks"
            iconColor="64B5F6"
@@ -5167,7 +5159,7 @@
            priority="50"
            iconType="FILE"
            pattern=".*/hooks/.*\.sh"
-           icon="/icons/files/huskyhooks.svg"/>
+           icon="/icons/files/huskyhooksfiles.svg"/>
     <regex fileNames="*.hy"
            name="HY"
            iconColor="1E88E5"
@@ -5235,7 +5227,7 @@
         priority="50"
         iconType="FILE"
         pattern=".*/(langs?|locales?|translations?|i18n)/[^/]*\.([cm]?jsx?|tsx?|json|ya?ml)$"
-        icon="/icons/files/i18nlang.svg"/>
+        icon="/icons/files/i18nlangfiles.svg"/>
     <regex fileNames="*.icl"
            name="ICL"
            iconColor="a6acb4"
@@ -5603,7 +5595,7 @@
            priority="50"
            iconType="FILE"
            pattern=".*/jest/.*\.(js(on|x)?|[cm]?js|tsx?)$"
-           icon="/icons/files/jest.svg"/>
+           icon="/icons/files/jestfiles.svg"/>
     <regex fileNames=".jestrc,.jestrc.js,.jestrc.json"
            name="Jestrc"
            iconColor="D52A29"
@@ -5804,13 +5796,13 @@
            pattern=".*\.ipynb$"
            icon="/icons/files/jupyter.svg"/>
     <regex fileNames="Notebook"
-           name="Jupyter Notebook (2)"
+           name="Jupyter Notebooks"
            iconColor="F78C6C"
            url="https://jupyter.org/"
            priority="100"
            iconType="FILE"
            pattern="^Notebook$"
-           icon="/icons/files/jupyter.svg"/>
+           icon="/icons/files/jupyternotebook.svg"/>
     <regex fileNames="*.jos,*.slax"
            name="Junos"
            iconColor="3a687a"
@@ -6320,13 +6312,13 @@
            pattern=".*\.log(\.[0-9]+)?$"
            icon="/icons/files/log.svg"/>
     <regex fileNames="*.rpt,*.bug-report"
-           name="Log (2)"
+           name="Log Report"
            iconColor="7A8387"
            url="https://en.wikipedia.org/wiki/Log_file"
            priority="100"
            iconType="FILE"
            pattern=".*\.(rpt|bug-report)$"
-           icon="/icons/files/log.svg"/>
+           icon="/icons/files/logreport.svg"/>
     <regex fileNames="*.logtalk,*.lgt"
            name="Logtalk"
            iconColor="7986CB"
@@ -6459,13 +6451,13 @@
            pattern="manifest(\.(json|bak|skip|txt|xml))?$"
            icon="/icons/files/manifest.svg"/>
     <regex fileNames="*.manifest"
-           name="Manifest (2)"
+           name="Manifest Files"
            iconColor="E79627"
            url="https://en.wikipedia.org/wiki/Manifest"
            priority="100"
            iconType="FILE"
            pattern=".*\.manifest$"
-           icon="/icons/files/manifest.svg"/>
+           icon="/icons/files/manifestfiles.svg"/>
     <regex fileNames="*.pkg.tar.xz"
            name="Manjaro"
            iconColor="3abf5c"
@@ -6547,13 +6539,13 @@
            pattern=".*\.(matlab|mlappinstall|mlpkginstall|mltbx|mdlp|mn|sldd|slxp?)$"
            icon="/icons/files/matlab.svg"/>
     <regex fileNames="*.fig,*.mex,*.mexn,*.mexrs6,*.mum,*.mx,*.mx3,*.rwd,*.smv,*.xvc"
-           name="Matlab (2)"
+           name="Matlab Ext"
            iconColor="D28445"
            url="https://www.mathworks.com/products/matlab.html"
            priority="100"
            iconType="FILE"
            pattern=".*\.(fig|mexn?|mexrs6|mum|mx3?|rwd|smv|xvc)$"
-           icon="/icons/files/matlab.svg"/>
+           icon="/icons/files/matlabext.svg"/>
     <regex fileNames="MathJax.js,MathJax-config.cjs,TeX-MML-AM_CHTML.js"
            name="Mathjax"
            iconColor="2b9a3e"
@@ -6777,7 +6769,7 @@
            priority="100"
            iconType="FILE"
            pattern="^\.mocha\.([cm]?js|ts|json|yml)$"
-           icon="/icons/files/mocha.svg"/>
+           icon="/icons/files/mochajson.svg"/>
     <regex
         fileNames="*.mock.js,*.mock.ts,*.spy.dart,*.spy.cjs,*.stub.mjs,*.spy.rb,*.mock.java,*.spy.kt,*.stub.pl,*.mock.py"
         name="Spy/Mock/Stub"
@@ -6795,7 +6787,7 @@
         priority="50"
         iconType="FILE"
         pattern=".*/(mocks?|stubs?|spy|spies)/.*\.([cm]?jsx?|tsx?|dart|java|kt|rb|pl|py)$"
-        icon="/icons/files/mock.svg"/>
+        icon="/icons/files/mockfiles.svg"/>
     <regex fileNames="*.mo,*.mos"
            name="Modelica"
            iconColor="c2132e"
@@ -7171,6 +7163,15 @@
            iconPack="NEST"
            pattern=".*\.dto\.[tj]s$"
            icon="/icons/files/nestdto.svg"/>
+    <regex fileNames="*.e2e-spec.js,*.e2e.ts"
+           name="Nest E2E"
+           iconColor="FF5722"
+           url="https://nestjs.com/"
+           priority="100"
+           iconType="FILE"
+           iconPack="NEST"
+           pattern=".*\.e2e(-spec)?\.[tj]s$"
+           icon="/icons/files/neste2e.svg"/>
     <regex fileNames="*.filter.js,*.filter.ts"
            name="Nest Filter"
            iconColor="42A5F5"
@@ -7216,6 +7217,15 @@
            iconPack="NEST"
            pattern=".*\.middleware\.[tj]s$"
            icon="/icons/files/nestmiddleware.svg"/>
+    <regex fileNames="*.model.js,*.model.ts"
+           name="Nest Model"
+           iconColor="22C1C3"
+           url="https://nestjs.com/"
+           priority="100"
+           iconType="FILE"
+           iconPack="NEST"
+           pattern=".*\.model\.[tj]s$"
+           icon="/icons/files/nestmodel.svg"/>
     <regex fileNames="*.module.js,*.module.ts"
            name="Nest Module"
            iconColor="A1887F"
@@ -7252,6 +7262,15 @@
            iconPack="NEST"
            pattern=".*\.repository\.[tj]s$"
            icon="/icons/files/nestrepository.svg"/>
+    <regex fileNames="*.resolver.js,*.resolver.ts"
+           name="Nest Resolver"
+           iconColor="66BB6A"
+           url="https://nestjs.com/"
+           priority="100"
+           iconType="FILE"
+           iconPack="NEST"
+           pattern=".*\.resolver\.[tj]s$"
+           icon="/icons/files/nestresolver.svg"/>
     <regex fileNames="*.schema.js,*.schema.ts"
            name="Nest Schema"
            iconColor="81C784"
@@ -7369,7 +7388,7 @@
            iconPack="NGRX"
            pattern=".*/actions?/[^/]*\.[tj]sx?$"
            url="https://ngrx.io/"
-           icon="/icons/files/ngrx-actions.svg"/>
+           icon="/icons/files/ngrx-actions-files.svg"/>
     <regex
         fileNames="*.effect.ts,*.effect.js,*.effects.ts,*.effects.js,*.effect.jsx,*.effect.tsx,*.effects.jsx,*.effects.tsx"
         name="NgRx Effects"
@@ -7388,7 +7407,7 @@
            iconPack="NGRX"
            pattern=".*/effects?/[^/]*\.[tj]sx?$"
            url="https://ngrx.io/"
-           icon="/icons/files/ngrx-effects.svg"/>
+           icon="/icons/files/ngrx-effects-files.svg"/>
     <regex
         fileNames="*.entity.ts,*.entity.js,*.entity.jsx,*.entity.tsx,*.entities.ts,*.entities.js,*.entities.jsx,*.entities.tsx"
         name="NgRx Entities"
@@ -7407,7 +7426,7 @@
            iconPack="NGRX"
            pattern=".*/(entity|entities)/[^/]*\.[tj]sx?$"
            url="https://ngrx.io/"
-           icon="/icons/files/ngrx-entities.svg"/>
+           icon="/icons/files/ngrx-entities-files.svg"/>
     <regex
         fileNames="*.reducer.js,*.reducer.ts,*.reducers.ts,*.reducers.js,*.reducer.jsx,*.reducer.tsx,*.reducers.jsx,*.reducers.tsx"
         name="NgRx Reducers"
@@ -7426,7 +7445,7 @@
            iconPack="NGRX"
            pattern=".*/reducers?/[^/]*\.[tj]sx?$"
            url="https://ngrx.io/"
-           icon="/icons/files/ngrx-reducers.svg"/>
+           icon="/icons/files/ngrx-reducers-files.svg"/>
     <regex
         fileNames="*.repo.ts,*.repo.js,*.repo.jsx,*.repo.tsx,*.repository.ts,*.repository.js,*.repository.jsx,*.repository.tsx,*.repos.ts,*.repos.js,*.repos.jsx,*.repos.tsx,*.repositories.ts,*.repositories.js,*.repositories.jsx,*.repositories.tsx"
         name="NgRx Repositories"
@@ -7445,7 +7464,7 @@
            iconPack="NGRX"
            pattern=".*/(repos?|repository|repositories)/[^/]*\.[tj]sx?$"
            url="https://ngrx.io/"
-           icon="/icons/files/ngrx-repo.svg"/>
+           icon="/icons/files/ngrx-repo-files.svg"/>
     <regex fileNames="*.state.ts,*.state.js,*.state.jsx,*.state.tsx,*.states.ts,*.states.js,*.states.jsx,*.states.tsx"
            name="NgRx State"
            iconColor="E57373"
@@ -7463,7 +7482,7 @@
            iconPack="NGRX"
            pattern=".*/states?/[^/]*\.[tj]sx?$"
            url="https://ngrx.io/"
-           icon="/icons/files/ngrx-state.svg"/>
+           icon="/icons/files/ngrx-state-files.svg"/>
     <regex
         fileNames="*.selector.js,*.selector.ts,*.selectors.ts,*.selectors.js,*.selector.jsx,*.selector.tsx,*.selectors.jsx,*.selectors.tsx"
         name="NgRx Selectors"
@@ -7482,7 +7501,7 @@
            iconPack="NGRX"
            pattern=".*/selectors?/[^/]*\.[tj]sx?$"
            url="https://ngrx.io/"
-           icon="/icons/files/ngrx-selectors.svg"/>
+           icon="/icons/files/ngrx-selectors-files.svg"/>
     <regex fileNames="*.nib"
            name="Nib"
            iconColor="AB7967"
@@ -7991,21 +8010,13 @@
            iconColor="4667a9"
            url="https://www.openindiana.org/"
            icon="/icons/files/openindiana.svg"/>
-    <regex fileNames="*.odf,*.ods,*.odp,*.odg,*.odf,*.odb,*.fodt,*.fods,*.fodp,*.fodg"
+    <regex fileNames="*.odf,*.ods,*.odp,*.odg,*.odf,*.odb,*.fodt,*.fods,*.fodp,*.fodg,*.ott,*.ots,*.otp,*.otg"
            name="OpenOffice"
            iconColor="E79627"
            url="https://www.openoffice.org/"
            priority="100"
            iconType="FILE"
-           pattern=".*\.(f?od[fspgb])$"
-           icon="/icons/files/openoffice.svg"/>
-    <regex fileNames="*.ott,*.ots,*.otp,*.otg"
-           name="OpenOffice (2)"
-           iconColor="E79627"
-           url="https://www.openoffice.org/"
-           priority="100"
-           iconType="FILE"
-           pattern=".*\.(ot[tspg])$"
+           pattern=".*\.(f?od[fspgb]|ot[tspg])$"
            icon="/icons/files/openoffice.svg"/>
     <regex fileNames="*.rego"
            name="Open Policy Agent"
@@ -8331,13 +8342,13 @@
            pattern=".*\.php_cs$"
            icon="/icons/files/phpcs.svg"/>
     <regex fileNames="phpcs.xml,phpcs.xml.dist"
-           name="PHP CS (2)"
+           name="PHP CS XML"
            iconColor="aa826a"
            url="https://github.com/squizlabs/PHP_CodeSniffer"
            priority="100"
            iconType="FILE"
            pattern="phpcs\.xml(\.dist)?$"
-           icon="/icons/files/phpcs.svg"/>
+           icon="/icons/files/phpcsxml.svg"/>
     <regex fileNames="*.phtml"
            name="PHTML"
            iconColor="43C0C0"
@@ -8578,7 +8589,7 @@
         pattern="^(\.postcssrc|postcss\.config)(\.[cm]?js|ts|json|ya?ml)?$"
         iconColor="D33534"
         url="https://postcss.org/"
-        icon="/icons/files/postcss.svg"/>
+        icon="/icons/files/postcssconfig.svg"/>
     <regex fileNames=".posthtmlrc,posthtml.config.yml,.posthtmlrc.json,posthtml.config.json"
            name="PostHTML"
            priority="100"
@@ -8868,13 +8879,13 @@
            pattern="^(python-?config\.json)$"
            icon="/icons/files/pythonconfig.svg"/>
     <regex fileNames=".coveragerc,MANIFEST.in,*.pylintrc"
-           name="Python Config (2)"
+           name="Python Configs"
            iconColor="FFCB6B"
            url="https://www.python.org/"
            priority="100"
            iconType="FILE"
            pattern="^(MANIFEST\.in|\.coveragerc|\.pylintrc)$"
-           icon="/icons/files/pythonconfig.svg"/>
+           icon="/icons/files/pythonconfigs.svg"/>
     <regex fileNames=".python-version,.pythonversion"
            name="Python Version"
            iconColor="FFCB6B"
@@ -9026,7 +9037,7 @@
            iconPack="RAILS"
            pattern=".*/channels?/.*\.rb$"
            url="https://rubyonrails.org/"
-           icon="/icons/files/railschannel.svg"/>
+           icon="/icons/files/railschannelfiles.svg"/>
     <regex fileNames="users_concern.rb"
            name="Rails Concern"
            iconColor="00897B"
@@ -9044,7 +9055,7 @@
            iconPack="RAILS"
            pattern=".*/concerns?/.*\.rb$"
            url="https://rubyonrails.org/"
-           icon="/icons/files/railsconcern.svg"/>
+           icon="/icons/files/railsconcernfiles.svg"/>
     <regex fileNames="users_controller.rb"
            name="Rails Controller"
            iconColor="EC407A"
@@ -9062,7 +9073,7 @@
            iconPack="RAILS"
            pattern=".*/controllers?/.*\.rb$"
            url="https://rubyonrails.org/"
-           icon="/icons/files/railscontroller.svg"/>
+           icon="/icons/files/railscontrollerfiles.svg"/>
     <regex fileNames="config/*.rb,config/environments/*.rb"
            name="Rails Config Files"
            iconColor="7963E6"
@@ -9089,7 +9100,7 @@
            iconPack="RAILS"
            pattern=".*/(migrate|migrations?)/.*\.rb$"
            url="https://rubyonrails.org/"
-           icon="/icons/files/railsdb.svg"/>
+           icon="/icons/files/railsdbfiles.svg"/>
     <regex fileNames="user_factory.rb"
            name="Rails Factory"
            iconColor="FF8A65"
@@ -9107,7 +9118,7 @@
            iconPack="RAILS"
            pattern=".*/(factory|factories)/.*\.rb$"
            url="https://rubyonrails.org/"
-           icon="/icons/files/railsfactory.svg"/>
+           icon="/icons/files/railsfactoryfiles.svg"/>
     <regex fileNames="user_fixture.rb"
            name="Rails Fixture"
            iconColor="9E9D24"
@@ -9125,7 +9136,7 @@
            iconPack="RAILS"
            pattern=".*/fixtures?/.*\.rb$"
            url="https://rubyonrails.org/"
-           icon="/icons/files/railsfixture.svg"/>
+           icon="/icons/files/railsfixturefiles.svg"/>
     <regex fileNames="users_helper.rb"
            name="Rails Helper"
            iconColor="AB47BC"
@@ -9143,7 +9154,7 @@
            iconPack="RAILS"
            pattern=".*/helpers?/.*\.rb$"
            url="https://rubyonrails.org/"
-           icon="/icons/files/railshelper.svg"/>
+           icon="/icons/files/railshelperfiles.svg"/>
     <regex fileNames="users_job.rb"
            name="Rails Job"
            iconColor="7E57C2"
@@ -9161,7 +9172,7 @@
            iconPack="RAILS"
            pattern=".*/jobs?/.*\.rb$"
            url="https://rubyonrails.org/"
-           icon="/icons/files/railsjob.svg"/>
+           icon="/icons/files/railsjobfiles.svg"/>
     <regex fileNames="users_mailer.rb"
            name="Rails Mailer"
            iconColor="42a5f5"
@@ -9179,7 +9190,7 @@
            iconPack="RAILS"
            pattern=".*/mailers?/.*\.rb$"
            url="https://rubyonrails.org/"
-           icon="/icons/files/railsmailer.svg"/>
+           icon="/icons/files/railsmailerfiles.svg"/>
     <regex fileNames="routes.rb"
            name="Rails Routing"
            iconColor="F44336"
@@ -9197,7 +9208,7 @@
            iconPack="RAILS"
            pattern=".*/routes?/[^/]*\.rb$"
            url="https://rubyonrails.org/"
-           icon="/icons/files/railsroutes.svg"/>
+           icon="/icons/files/railsroutesfiles.svg"/>
     <regex fileNames="users_schema.rb"
            name="Rails Schema"
            iconColor="4FC3F7"
@@ -9215,7 +9226,7 @@
            iconPack="RAILS"
            pattern=".*/schemas?/.*\.rb$"
            url="https://rubyonrails.org/"
-           icon="/icons/files/railsschema.svg"/>
+           icon="/icons/files/railsschemafiles.svg"/>
     <regex fileNames="user_serializer.rb"
            name="Rails Serializer"
            iconColor="fbc02d"
@@ -9233,7 +9244,7 @@
            iconPack="RAILS"
            pattern=".*/serializers?/.*\.rb$"
            url="https://rubyonrails.org/"
-           icon="/icons/files/railsserializer.svg"/>
+           icon="/icons/files/railsserializerfiles.svg"/>
     <regex fileNames="users_service.rb"
            name="Rails Service"
            iconColor="FDD835"
@@ -9251,7 +9262,7 @@
            iconPack="RAILS"
            pattern=".*/services?/.*\.rb$"
            url="https://rubyonrails.org/"
-           icon="/icons/files/railsservice.svg"/>
+           icon="/icons/files/railsservicefiles.svg"/>
     <regex fileNames="seed.rb"
            name="Rails Seed"
            iconColor="EF5350"
@@ -9269,7 +9280,7 @@
            iconPack="RAILS"
            pattern=".*/seeds?/.*\.rb$"
            url="https://rubyonrails.org/"
-           icon="/icons/files/railsseed.svg"/>
+           icon="/icons/files/railsseedfiles.svg"/>
     <regex fileNames="*.rake"
            name="Rake"
            iconColor="BC3F43"
@@ -9375,7 +9386,7 @@
            iconType="FILE"
            pattern=".*/(atoms?|selectors?|recoil)/[^/]*\.([cm]?jsx?|tsx?)$"
            url="https://recoiljs.org/"
-           icon="/icons/files/recoil.svg"/>
+           icon="/icons/files/recoilfiles.svg"/>
     <regex fileNames="redwood.toml"
            name="RedwoodJS"
            iconColor="FF5722"
@@ -9540,7 +9551,7 @@
            iconPack="REDUX"
            pattern=".*/epics?/[^/]*\.[tj]sx?$"
            url="https://redux.js.org/"
-           icon="/icons/files/redux-epic.svg"/>
+           icon="/icons/files/redux-epic-files.svg"/>
     <regex fileNames="thunk.js,thunks.ts,thunk.jsx,thunks.tsx,myThunk.js,myThunks.js,my-thunks.js,thunk.cjs,thunks.mjs"
            name="Redux Thunk"
            iconColor="A1887F"
@@ -9558,7 +9569,7 @@
            iconPack="REDUX"
            pattern=".*/thunks?/.*\.[tj]sx?$"
            url="https://redux.js.org/"
-           icon="/icons/files/redux-thunk.svg"/>
+           icon="/icons/files/redux-thunk-files.svg"/>
     <regex fileNames="saga.js,sagas.ts,saga.jsx,sagas.tsx,mySaga.js,mySagas.js,my-sagas.js,saga.cjs,sagas.mjs"
            name="Redux Saga"
            iconColor="EF5350"
@@ -9576,7 +9587,7 @@
            iconPack="REDUX"
            pattern=".*/sagas?/.*\.[tj]sx?$"
            url="https://redux.js.org/"
-           icon="/icons/files/redux-saga.svg"/>
+           icon="/icons/files/redux-saga-files.svg"/>
     <regex
         fileNames="selector.js,selectors.ts,selector.jsx,selectors.tsx,mySelector.js,mySelectors.js,my-selectors.js,selector.cjs,selectors.mjs"
         name="Redux Selector"
@@ -9595,7 +9606,7 @@
            iconPack="REDUX"
            pattern=".*/selectors?/[^/]*\.[tj]sx?$"
            url="https://redux.js.org/"
-           icon="/icons/files/redux-selector.svg"/>
+           icon="/icons/files/redux-selector-files.svg"/>
     <regex
         fileNames="reducer.js,reducer.ts,reducer.jsx,reducer.tsx,myReducer.js,myReducers.js,my-reducers.js,reducers.cjs,reducer.mjs"
         name="Redux Reducer"
@@ -9614,7 +9625,7 @@
            iconPack="REDUX"
            pattern=".*/reducers?/[^/]*\.[tj]sx?$"
            url="https://redux.js.org/"
-           icon="/icons/files/redux-reducer.svg"/>
+           icon="/icons/files/redux-reducer-files.svg"/>
     <regex fileNames="slice.js,slice.ts,slice.jsx,slice.tsx,mySlice.js,mySlices.js,my-slices.js,slice.cjs,slices.mjs"
            name="Redux Slice"
            iconColor="ba8fff"
@@ -9632,7 +9643,7 @@
            iconPack="REDUX"
            pattern=".*/slices?/[^/]*\.[tj]sx?$"
            url="https://redux.js.org/"
-           icon="/icons/files/redux-slice.svg"/>
+           icon="/icons/files/redux-slice-files.svg"/>
     <regex fileNames="store.js,store.ts,store.jsx,store.tsx,myStore.js,myStores.js,my-stores.js,store.cjs,stores.mjs"
            name="Redux Store"
            iconColor="26C6DA"
@@ -9650,7 +9661,7 @@
            iconPack="REDUX"
            pattern=".*/stores?/[^/]*\.[tj]sx?$"
            url="https://redux.js.org/"
-           icon="/icons/files/redux-store.svg"/>
+           icon="/icons/files/redux-store-files.svg"/>
     <regex fileNames="*.reek"
            name="Reek"
            priority="100"
@@ -9856,7 +9867,7 @@
            priority="50"
            iconType="FILE"
            pattern=".*/(routing|routes)/[^/]*\.([cm]?jsx?|tsx?)$"
-           icon="/icons/files/routes.svg"/>
+           icon="/icons/files/routesfiles.svg"/>
     <regex fileNames="controller_spec.rb,model_spec.rb"
            name="RSpec"
            iconColor="D52A29"
@@ -9872,7 +9883,7 @@
            priority="50"
            iconType="FILE"
            pattern="rspec/.*\.rbs?$"
-           icon="/icons/files/rspec.svg"/>
+           icon="/icons/files/rspecfiles.svg"/>
     <regex fileNames="*.rspec"
            name="RSpec Config"
            iconColor="D52A29"
@@ -10160,9 +10171,9 @@
            priority="100"
            iconType="FILE"
            pattern="^release\.config\.[cm]?js$"
-           iconColor="455a64"
+           iconColor="90A4AE"
            url="https://github.com/semantic-release"
-           icon="/icons/files/semantic-release.svg"/>
+           icon="/icons/files/semantic-release-config.svg"/>
     <regex fileNames="*.semgrep,*.semgrepignore"
            name="Semgrep"
            priority="100"
@@ -10241,7 +10252,7 @@
            priority="100"
            iconType="FILE"
            pattern=".*\.(csh|ksh|mksh|pdksh)(rc)?$"
-           icon="/icons/files/shell.svg"/>
+           icon="/icons/files/shell2.svg"/>
     <regex fileNames=".irb-history,.bash_history,.lesshst"
            name="Shell History"
            iconColor="AA759F"
@@ -10249,7 +10260,7 @@
            priority="100"
            iconType="FILE"
            pattern="\.((irb-|bash_|fish)history|lesshst)$"
-           icon="/icons/files/history.svg"/>
+           icon="/icons/files/shellhistory.svg"/>
     <regex fileNames="shipitfile.cjs,shipitfile.js,shipitfile.mjs"
            name="Shipit"
            iconColor="96BE45"
@@ -10407,7 +10418,7 @@
            priority="50"
            iconType="FILE"
            pattern=".*/slugs?/[^/]*\.([cm]?jsx?|php|tsx?)$"
-           icon="/icons/files/slug.svg"/>
+           icon="/icons/files/slugfiles.svg"/>
     <regex fileNames="smartos.iso,smartos.deb"
            name="SmartOS"
            iconColor="7ccadc"
@@ -10735,7 +10746,7 @@
            priority="50"
            iconType="FILE"
            pattern=".*\.?storybook/[^/]*\.(jsx?|tsx?)$"
-           icon="/icons/files/storybook.svg"/>
+           icon="/icons/files/storybookfiles.svg"/>
     <regex
         fileNames=".stylelintrc,stylelint.config.js,stylelint.config.json,.stylelintrc.js,.stylelintrc.json,.stylelintrc.yaml"
         name="Stylelint"
@@ -10779,13 +10790,13 @@
            pattern=".*\.(sc|styles|styled)\.([cm]?jsx?|tsx?)$"
            icon="/icons/files/styledcomponents.svg"/>
     <regex fileNames="*.styled"
-           name="Styled Components (2)"
+           name="Styled Components Extension"
            iconColor="F06292"
            url="https://styled-components.com/"
            priority="100"
            iconType="FILE"
            pattern=".*\.styled$"
-           icon="/icons/files/styledcomponents.svg"/>
+           icon="/icons/files/styledcomponentsext.svg"/>
     <regex fileNames=".stylish-haskell.yml,.stylish-haskell.yaml"
            name="Stylish Haskell"
            iconColor="934F8E"
@@ -10981,12 +10992,12 @@
            pattern=".*\.(c|gem|hg|local)?tags$"
            icon="/icons/files/version.svg"/>
     <regex fileNames="*.pid,*.tld,*.sha,*.sha256,*.shasum"
-           name="Tags (2)"
+           name="PID/TLD/Sha"
            iconColor="80CBC4"
            priority="100"
            iconType="FILE"
            pattern=".*\.(pid|tld|sha(256|sum))$"
-           icon="/icons/files/version.svg"/>
+           icon="/icons/files/pid.svg"/>
     <regex fileNames="tailwind.js,tailwind.conf.js,*.tailwind.cjs,config.tailwind.mjs"
            name="Tailwind CSS Config"
            iconColor="44a8b3"
@@ -11258,7 +11269,7 @@
            priority="100"
            iconType="FILE"
            pattern=".*\.(todo|taskpaper)$"
-           icon="/icons/files/todo.svg"/>
+           icon="/icons/files/todofile.svg"/>
     <regex fileNames="*.toit"
            name="Toit"
            iconColor="fac864"
@@ -11760,7 +11771,7 @@
            priority="100"
            iconType="FILE"
            pattern=".*\.vscode/.*\.json$"
-           icon="/icons/files/vscodesettings.svg"/>
+           icon="/icons/files/vscodesettingsfiles.svg"/>
     <regex fileNames=".vscodeignore,.vscodeignore.json"
            name="VSCode Ignore"
            iconColor="808080"
@@ -12020,7 +12031,7 @@
            priority="100"
            iconType="FILE"
            pattern=".*\.(wt|wikitext)$"
-           icon="/icons/files/wix.svg"/>
+           icon="/icons/files/wikitext.svg"/>
     <regex fileNames="*.wt,*.wikitext"
            name="Wikitext Dark"
            iconColor="ffffff"
@@ -12028,7 +12039,7 @@
            priority="101"
            iconType="FILE"
            pattern=".*\.(wt|wikitext)$"
-           icon="/icons/files/wix.svg"/>
+           icon="/icons/files/wikitext.svg"/>
     <regex fileNames="*.wix,*.wixproj,*.wixobj,*.wxi,*.wxl"
            name="Wix"
            iconColor="FFD54F"
@@ -12554,14 +12565,14 @@
            iconType="FILE"
            pattern=".*\.(dcm|ecw|hdp|hdr|heic|heif|iff)$"
            iconColor="92AC5A"
-           icon="/icons/files/image.svg"/>
+           icon="/icons/files/image2.svg"/>
     <regex fileNames="*.pcx,*.pict,*.pxr,*.raw,*.sgi,*.tga,*.tiff,*.wbm,*.wbmp,*.pxm,*.pxb,*.pxs"
            name="Images (3)"
            priority="10"
            iconType="FILE"
            pattern=".*\.(pcx|pict|pxr|raw|sgi|tga|tiff|wbmp?|px[mbgs])$"
            iconColor="92AC5A"
-           icon="/icons/files/image.svg"/>
+           icon="/icons/files/image3.svg"/>
     <regex fileNames="*.svg,*.svgz"
            name="SVG"
            priority="10"
@@ -12608,42 +12619,42 @@
         priority="5"
         iconType="FILE"
         pattern=".*/(configs?|prefs?|options?|settings?)/[^/]*\.(json|ya?ml|ini|cfg)$"
-        icon="/icons/files/preferences.svg"/>
+        icon="/icons/files/preferencesfiles.svg"/>
     <regex fileNames="*.env,*.env.dev,*.env.prod"
            name="Envs"
            iconColor="E79627"
            priority="10"
            iconType="FILE"
            pattern=".*\.env(\.\w+)?$"
-           icon="/icons/files/preferences.svg"/>
+           icon="/icons/files/envs.svg"/>
     <regex fileNames="env/*.json,env/*.env,envs/*.yaml,envs/*.env,envs/*.ini"
            name="Env Files"
            iconColor="E79627"
            priority="5"
            iconType="FILE"
            pattern=".*/envs?/[^/]*\.(env|json|ya?ml|ini)$"
-           icon="/icons/files/preferences.svg"/>
+           icon="/icons/files/envfiles.svg"/>
     <regex fileNames="config.yml,settings.ini,option.txt,prefs.yaml,config.json"
            name="Configs"
            iconColor="E79627"
            priority="10"
            iconType="FILE"
            pattern=".*/(config|settings?|options?|prefs?)(\.(ya?ml|ini|txt|json))?$"
-           icon="/icons/files/preferences.svg"/>
+           icon="/icons/files/configs.svg"/>
     <regex fileNames="*.pref,*.prefs"
            name="Prefs"
            priority="10"
            iconType="FILE"
            pattern=".*\.prefs?$"
            iconColor="1E88E5"
-           icon="/icons/files/config.svg"/>
+           icon="/icons/files/pref.svg"/>
     <regex fileNames="*.pref,*.prefs"
            name="Prefs Dark"
            priority="11"
            iconType="FILE"
            pattern=".*\.prefs?$"
            iconColor="82AAFF"
-           icon="/icons/files/config.svg"/>
+           icon="/icons/files/pref.svg"/>
     <regex fileNames=".git,.git-submodules,.gitrc"
            name="Git"
            iconColor="D52A29"
@@ -12663,19 +12674,19 @@
     <!--               pattern="^[^.]+$"-->
     <!--               icon="/icons/files/binary.svg" />-->
     <regex fileNames="*.axf,*.elf,*.la,*.objdump,*.bsdiff,*.bin,*.dat,*.pak,*.db-journal"
-           name="Binary (2)"
+           name="Binaries"
            iconColor="7C95A1"
            priority="1"
            iconType="FILE"
            pattern=".*\.(axf|elf|la|objdump|bsdiff|bin|dat|pak|db-journal)$"
            icon="/icons/files/binary.svg"/>
     <regex fileNames="*.gco,*.prx,*.swp,*.rnd"
-           name="Binary (3)"
+           name="Binaries (Other)"
            iconColor="7C95A1"
            priority="1"
            iconType="FILE"
            pattern=".*\.(gco|prx|swp|rnd)$"
-           icon="/icons/files/binary.svg"/>
+           icon="/icons/files/binaryother.svg"/>
     <!--endregion-->
 
     <!--region Archive -->
@@ -12694,7 +12705,7 @@
            pattern=".*\.(gz|pzip|saz|tgz|bz2|xar|egg|sit)$"
            iconColor="C792EA"
            url="https://en.wikipedia.org/wiki/Archive_file"
-           icon="/icons/files/archive.svg"/>
+           icon="/icons/files/archive2.svg"/>
     <regex fileNames="*.lz,*.lzo,*.lzma,*.tlz,*.whl,*.hqx,*.xar,*.ear,*.hak"
            name="Archive (3)"
            priority="10"
@@ -12702,7 +12713,7 @@
            pattern=".*\.(lzo?|lzma|tlz|hqx|whl|xar|ear|hak)$"
            iconColor="C792EA"
            url="https://en.wikipedia.org/wiki/Archive_file"
-           icon="/icons/files/archive.svg"/>
+           icon="/icons/files/archive3.svg"/>
     <!--endregion-->
 
     <!--region Audio -->
@@ -12719,14 +12730,14 @@
            priority="10"
            iconType="FILE"
            pattern=".*\.(mpp|ogg|oga|opus|ra|rm|wav|wma|snd|mid|cda)$"
-           icon="/icons/files/audio.svg"/>
+           icon="/icons/files/audio2.svg"/>
     <regex fileNames="*.ac3,*.m4p,*.f4a,*.f4b,*.it,*.s3m,*.sndh"
            name="Audio (3)"
            iconColor="D52A29"
            priority="10"
            iconType="FILE"
            pattern=".*\.(ac3|m4p|f4a|f4b|it|s3m|sndh)$"
-           icon="/icons/files/audio.svg"/>
+           icon="/icons/files/audio3.svg"/>
     <!--endregion-->
 
     <!--region Video -->
@@ -12743,14 +12754,14 @@
            priority="10"
            iconType="FILE"
            pattern=".*\.(webm|wmv|ogv|3gp|m4v|3gpp|ogm|dvd|divx|qt|yuv)$"
-           icon="/icons/files/video.svg"/>
+           icon="/icons/files/video2.svg"/>
     <regex fileNames="*.asx,*.asf,*.mks,*.mk3d,*.vob"
            name="Video (3)"
            iconColor="7963E6"
            priority="10"
            iconType="FILE"
            pattern=".*\.(asx|asf|mks|mk3d|vob)$"
-           icon="/icons/files/video.svg"/>
+           icon="/icons/files/video3.svg"/>
     <!--endregion-->
 
     <!--region Languages -->
@@ -12937,7 +12948,7 @@
            priority="1"
            iconType="FILE"
            pattern=".*\.(pyde|gypi?|tac|xpy|wsgi|rpy)$"
-           icon="/icons/files/python.svg"/>
+           icon="/icons/files/python2.svg"/>
     <regex fileNames="*.rb,*.ruby,*.rabl"
            name="Ruby"
            iconColor="D14748"
@@ -13023,14 +13034,14 @@
            priority="1"
            iconType="FILE"
            pattern=".*\.(fea|cbor|pytb|son|syntax|tgn|onlydata|eign)$"
-           icon="/icons/files/db.svg"/>
+           icon="/icons/files/db2.svg"/>
     <regex fileNames="*.termcap,*.terminfo,*.icondb.js"
            name="DB (3)"
            iconColor="F78C6C"
            priority="1"
            iconType="FILE"
            pattern=".*\.(term(cap|info)|icondb\.[cm]?js)$"
-           icon="/icons/files/db.svg"/>
+           icon="/icons/files/db3.svg"/>
     <regex fileNames="*.ttf,*.ttc,*.pfb,*.pfm,*.otf,*.dfont,*.pfa,*.eot,*.woff,*.woff2,*.tfm"
            name="Font"
            priority="10"
