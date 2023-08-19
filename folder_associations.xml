@@ -306,6 +306,14 @@
            iconType="FOLDER"
            pattern="^[\._]?blueprints?$"
            icon="/blueprint.svg"/>
+    <regex folderNames="bot,bots,.bot,_bots,robot,robots,.robot,_robots"
+           name="Bot"
+           folderColor="ff5252"
+           folderIconColor="ffcdd2"
+           priority="100"
+           iconType="FOLDER"
+           pattern="^[\._]?(robots?|bots?)$"
+           icon="/bot.svg"/>
     <regex folderNames="bower_components,.bower_components,_bower_components"
            name="Bower"
            folderColor="F4511E"
@@ -1633,6 +1641,14 @@
            iconType="FOLDER"
            pattern="^[\._]?(pipes?|filters?)$"
            icon="/pipe.svg"/>
+    <regex folderNames="plastic,.plastic,_plastic"
+           name="Plastic SCM"
+           folderColor="ff9800"
+           folderIconColor="fff3e0"
+           priority="100"
+           iconType="FOLDER"
+           pattern="^\.plastic$"
+           icon="/plastic.svg"/>
     <regex folderNames=".pio,.pioenv,.pioenvs"
            name="Platform.io"
            folderColor="F26B00"
@@ -2269,6 +2285,14 @@
     <!--endregion-->
 
     <!--region U-->
+    <regex folderNames="ui,gui,ux,.ui,_ui,.gui,_gui,.ux,_ux,figma,.figma,_figma"
+           name="UI"
+           folderColor="FF8A65"
+           folderIconColor="#FBE9E7"
+           priority="100"
+           iconType="FOLDER"
+           pattern="^[\._]?(ui|gui|ux|figma)$"
+           icon="/ui.svg"/>
     <regex folderNames="unity,.unity,_unity,unity3d,.unity3d,_unity3d"
            name="Unity"
            folderColor="1976d2"
