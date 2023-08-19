@@ -2937,7 +2937,7 @@
            icon="/icons/files/cpp.svg"/>
     <regex fileNames="*.csx,*.cs"
            name="C#"
-           iconColor="0277bd"
+           iconColor="7e57c2"
            url="https://docs.microsoft.com/en-us/dotnet/csharp/"
            priority="100"
            iconType="FILE"
@@ -4194,6 +4194,14 @@
            iconType="FILE"
            pattern=".*\.issuetracker$"
            icon="/icons/files/fork.svg"/>
+    <regex fileNames="formkit.config.js,formkit.config.ts,formkit.config.mjs,formkit.config.cjs"
+           name="FormKit"
+           url="https://formkit.com/"
+           iconColor="FF9357"
+           priority="100"
+           iconType="FILE"
+           pattern="^formkit\.config\.([cm]?js|ts)$"
+           icon="/icons/files/formkit.svg"/>
     <regex fileNames="*.fth,*.4th,*.frt"
            name="Forth"
            iconColor="ef5350"
@@ -6343,6 +6351,14 @@
            iconType="FILE"
            pattern=".*\.(lkml|lookml)$"
            icon="/icons/files/lookml.svg"/>
+    <regex fileNames="*.lottie"
+           name="Lottie"
+           iconColor="1de9b6"
+           url="https://lottiefiles.com/"
+           priority="100"
+           iconType="FILE"
+           pattern=".*\.lottie$"
+           icon="/icons/files/lottie.svg"/>
     <regex fileNames="*.lsl,*.lslp"
            name="LSL"
            iconColor="26A2C1"
@@ -8907,16 +8923,8 @@
     <!--region Q -->
     <regex fileNames="*.qs"
            name="Q#"
-           iconColor="3333cc"
+           iconColor="607d8b"
            priority="100"
-           iconType="FILE"
-           pattern=".*\.qs$"
-           url="https://docs.microsoft.com/en-us/azure/quantum/"
-           icon="/icons/files/qsharp.svg"/>
-    <regex fileNames="*.qs"
-           name="Q# Dark"
-           iconColor="3F51B5"
-           priority="101"
            iconType="FILE"
            pattern=".*\.qs$"
            url="https://docs.microsoft.com/en-us/azure/quantum/"
@@ -10925,6 +10933,14 @@
            iconType="FILE"
            pattern=".*\.swc$"
            icon="/icons/files/swc.svg"/>
+    <regex fileNames=".swcrc"
+           name="SWCRC"
+           iconColor="FFD54F"
+           url="https://github.com/swc-project/swc"
+           priority="100"
+           iconType="FILE"
+           pattern="^\.swcrc$"
+           icon="/icons/files/swcrc.svg"/>
     <regex fileNames="*.swift"
            name="Swift"
            iconColor="FF5370"
@@ -10965,6 +10981,15 @@
            iconType="FILE"
            pattern="^symfony\.lock$"
            icon="/icons/files/symfony.svg"/>
+    <regex
+        fileNames=".syncpackrc,.syncpackrc.json,.syncpackrc.yaml,.syncpackrc.yml,.syncpackrc.js,syncpack.config.js,syncpack.config.ts"
+        name="Syncpack"
+        iconColor="00ba96"
+        url="https://jamiemason.github.io/syncpack/"
+        priority="100"
+        iconType="FILE"
+        pattern="^(\.?(syncpackrc(\.(json|ya?ml|[cm]?js|ts))?)|syncpack\.config\.[cm]?js)$"
+        icon="/icons/files/syncpack.svg"/>
     <regex
         fileNames=".service,.target,.automount,.device,.mount,.path,.scope,.snapshot,.socket,.slice,.timer,.link,.netdev,.network,.rule,.d"
         name="SystemD"
