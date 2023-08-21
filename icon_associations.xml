@@ -7318,14 +7318,14 @@
            iconPack="NEST"
            pattern=".*\.repository\.[tj]s$"
            icon="/icons/files/nestrepository.svg"/>
-    <regex fileNames="*.resolver.js,*.resolver.ts"
+    <regex fileNames="*.resolver.js,*.resolver.ts,*.resolvers.js,*.resolvers.ts"
            name="Nest Resolver"
            iconColor="66BB6A"
            url="https://nestjs.com/"
            priority="100"
            iconType="FILE"
            iconPack="NEST"
-           pattern=".*\.resolver\.[tj]s$"
+           pattern=".*\.resolvers?\.[tj]s$"
            icon="/icons/files/nestresolver.svg"/>
     <regex fileNames="*.schema.js,*.schema.ts"
            name="Nest Schema"
