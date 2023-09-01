@@ -12775,7 +12775,7 @@
            priority="1"
            iconType="FILE"
            pattern=".*\.(gco|prx|swp|rnd)$"
-           icon="/icons/files/binaryother.svg"/>
+           icon="/icons/files/binariesother.svg"/>
     <!--endregion-->
 
     <!--region Archive -->
