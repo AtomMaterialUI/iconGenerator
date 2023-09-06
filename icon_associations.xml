@@ -8349,6 +8349,14 @@
            iconType="FILE"
            pattern="^\.p4ignore$"
            icon="/icons/files/helixignore.svg"/>
+    <regex fileNames="*.perm"
+           name="Permify"
+           iconColor="8449ff"
+           url="https://docs.permify.co/docs/permify-overview/intro"
+           priority="100"
+           iconType="FILE"
+           pattern="^.*\.perm$"
+           icon="/icons/files/permify.svg"/>
     <regex fileNames="*.pest"
            name="Pest"
            iconColor="FF8A65"
