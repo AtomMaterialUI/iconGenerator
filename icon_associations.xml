@@ -10691,6 +10691,14 @@
            pattern=".*\.spring$"
            url="https://spring.io/"
            icon="/icons/files/spring.svg"/>
+    <regex fileNames="*.spwn"
+           name="SPWN"
+           iconColor="00bfa5"
+           priority="100"
+           iconType="FILE"
+           pattern=".*\.spwn$"
+           url="https://github.com/Spu7Nix/SPWN-language"
+           icon="/icons/files/spwn.svg"/>
     <regex fileNames="*.sqf,*.hqf"
            name="SQF"
            iconColor="64B5F6"
