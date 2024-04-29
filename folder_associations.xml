@@ -1,7 +1,7 @@
 <!--
   ~ The MIT License (MIT)
   ~
-  ~ Copyright (c) 2015-2023 Elior "Mallowigi" Boukhobza
+  ~ Copyright (c) 2015-2024 Elior "Mallowigi" Boukhobza
   ~
   ~ Permission is hereby granted, free of charge, to any person obtaining a copy
   ~ of this software and associated documentation files (the "Software"), to deal
@@ -20,7 +20,6 @@
   ~ LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
   ~ OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
   ~ SOFTWARE.
-  ~
   -->
 
 <associations>
@@ -465,13 +464,13 @@
            pattern="^[\._]?composer$"
            icon="/composer.svg"/>
     <regex
-        folderNames="cfg,.cfg,_cfg,config,conf,settings,.config,.conf,.settings,_config,_conf,_settings,configuration,.configuration"
+        folderNames="cfg,.cfg,_cfg,config,conf,settings,.config,.conf,.settings,_config,_conf,_settings,configuration,.configuration,.configs,_setting,.option,options"
         name="Config"
         folderColor="00ACC1"
         folderIconColor="80DEEA"
         priority="100"
         iconType="FOLDER"
-        pattern="^[\._]?(cfg|config|conf(iguration)?|settings)$"
+        pattern="^[\._]?(cfg|configs?|conf(iguration)?|settings?|options?)$"
         icon="/config.svg"/>
     <regex folderNames="connect,_connect,connection,.connections,_connections,rel,.rel,_relation,relations,.relations,
         link,.link,links,_links"
@@ -804,13 +803,13 @@
            iconType="FOLDER"
            pattern="^[\._]?(envs?|environments?)$"
            icon="/env.svg"/>
-    <regex folderNames="error,errors,exception,exceptions,.error,_error,_errors,.exception,_exceptions"
+    <regex folderNames="error,errors,exception,exceptions,.error,_error,_errors,.exception,_exceptions,crash,.crashes,_crash"
            name="Error"
            folderColor="ef5350"
            folderIconColor="ffcdd2"
            priority="100"
            iconType="FOLDER"
-           pattern="^[\._]?(errors?|exceptions?)$"
+           pattern="^[\._]?(errors?|exceptions?|crash(es)?)$"
            icon="/error.svg"/>
     <regex folderNames="event,events,.event,_events,.events"
            name="Events"
@@ -1103,13 +1102,13 @@
            pattern="^[\._]?(idea|META-INF)$"
            icon="/idea.svg"/>
     <regex folderNames="image,images,img,medias,media,.images,_img,_media,.medias,pic,.pics,_pictures,gallery,
-        figure,.figures,_figures"
+        figure,.figures,_figures,png,.pngs,_jpg,.jpgs"
            name="Images"
            folderColor="009688"
            folderIconColor="b2dfdb"
            priority="100"
            iconType="FOLDER"
-           pattern="^[\._]?(images?|img|medias?|pics?|pictures?|gallery|figures?)$"
+           pattern="^[\._]?(images?|img|medias?|pics?|pictures?|gallery|figures?|pngs?|jpgs?)$"
            icon="/images.svg"/>
     <regex folderNames="inc,includes,include,import,imported,.imported,imports,input,concerns,concern,dep,deps,
         .inc,.include,_includes,.import,_imports,.concerns,_deps,.dependencies,_input"
@@ -1144,6 +1143,14 @@
            iconType="FOLDER"
            pattern="^[\._]?(injections?|di|injector)$"
            icon="/injection.svg"/>
+    <regex folderNames="interceptor,interceptors,.interceptor,_interceptors,.interceptors"
+           name="Interceptors"
+           folderColor="8D6E63"
+           folderIconColor="D7CCC8"
+           priority="100"
+           iconType="FOLDER"
+           pattern="^[\._]?interceptors?$"
+           icon="/interceptor.svg"/>
     <regex folderNames=".nyc,.nyc-output,.nyc_output"
            name="Istanbul"
            folderColor="FFB300"
@@ -1231,13 +1238,13 @@
 
     <!--region K-->
     <regex folderNames="key,keys,cert,certs,_keys,.keys,.certs,_cert,certificate,certificates,_certificates,ssl,.ssl,
-        .ssh,ssh,_ssh,secrets,.secrets,_secret,.secret"
+        .ssh,ssh,_ssh,secrets,.secrets,_secret,.secret,.auth,authentication"
            name="Keys"
            folderColor="BDBDBD"
            folderIconColor="FFFFFF"
            priority="100"
            iconType="FOLDER"
-           pattern="^[\._]?(keys?|certs?|certificates?|ssl|ssh|secrets?)$"
+           pattern="^[\._]?(keys?|certs?|certificates?|ssl|ssh|secrets?|auth|authentication)$"
            icon="/keys.svg"/>
     <regex folderNames="kv,.kv,_kv,kivy,.kivy,_kivy"
            name="KiVy"
@@ -1411,13 +1418,13 @@
            iconType="FOLDER"
            pattern="^[\._]?hg$"
            icon="/mercurial.svg"/>
-    <regex folderNames="meta,metadata,.meta,_meta"
+    <regex folderNames="meta,metadata,.meta,_meta,input,.inputs,form,.forms,_forms"
            name="Meta"
            folderColor="00BCD4"
            folderIconColor="B2EBF2"
            priority="100"
            iconType="FOLDER"
-           pattern="^[\._]?(meta(data)?)$"
+           pattern="^[\._]?(meta(data)?|forms?|inputs?)$"
            icon="/meta.svg"/>
     <regex folderNames=".meteor,meteor,_meteor"
            name="Meteor"
@@ -1435,6 +1442,14 @@
            iconType="FOLDER"
            pattern="^[\._]?(middlewares?|thunks?)$"
            icon="/middleware.svg"/>
+    <regex folderNames="mindsdb,.mindsdb,_mindsdb"
+           name="MindsDB"
+           folderColor="26A69A"
+           folderIconColor="E0F2F1"
+           priority="100"
+           iconType="FOLDER"
+           pattern="^[\._]?mindsdb$"
+           icon="/mindsdb.svg"/>
     <regex folderNames="mjml,.mjml,_mjml"
            name="MJML"
            folderColor="F26B00"
@@ -1665,14 +1680,13 @@
            iconType="FOLDER"
            pattern="^[\._]?(pw|playwright)$"
            icon="/playwright.svg"/>
-    <regex folderNames="plugin,plugins,mu-plugins,extension,extensions,.plugin,.plugins,_plugins,
-        .extension,.extensions"
+    <regex folderNames="plugin,plugins,mu-plugins,extension,extensions,.plugin,.plugins,_plugins,.extension,.extensions,.mod,_mods"
            name="Plugins"
            folderColor="00796B"
            folderIconColor="80CBC4"
            priority="100"
            iconType="FOLDER"
-           pattern="^[\._]?((mu-)?plugins?|extensions?)$"
+           pattern="^[\._]?((mu-)?plugins?|extensions?|mods?)$"
            icon="/plugin.svg"/>
     <regex folderNames="post,posts,.post,_post,_posts"
            name="Posts"
@@ -2320,13 +2334,13 @@
            pattern="^[\._]?(users?|members?|friends?|partners?|roles?|contacts?)$"
            icon="/users.svg"/>
     <regex folderNames="util,utils,tool,tools,.util,_utils,_tools,.tools,utility,.utility,utilities,_utilities,
-        toolkit,toolkits,.toolkit,_toolkits,toolbox,toolboxes,.toolbox,_toolboxes"
+        toolkit,toolkits,.toolkit,_toolkits,toolbox,toolboxes,.toolbox,_toolboxes,tooling,.tooling"
            name="Utils"
            folderColor="78909C"
            folderIconColor="F5F5F5"
            priority="100"
            iconType="FOLDER"
-           pattern="^[\._]?(utils?|tools?|utilities|utility|toolkits?|toolbox(es)?)$"
+           pattern="^[\._]?(utils?|tools?|utilities|utility|toolkits?|toolbox(es)?|tooling)$"
            icon="/tools.svg"/>
     <!--endregion-->
 
