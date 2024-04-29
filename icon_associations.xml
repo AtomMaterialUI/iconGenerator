@@ -1,7 +1,7 @@
 <!--
   ~ The MIT License (MIT)
   ~
-  ~ Copyright (c) 2015-2023 Elior "Mallowigi" Boukhobza
+  ~ Copyright (c) 2015-2024 Elior "Mallowigi" Boukhobza
   ~
   ~ Permission is hereby granted, free of charge, to any person obtaining a copy
   ~ of this software and associated documentation files (the "Software"), to deal
@@ -20,7 +20,6 @@
   ~ LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
   ~ OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
   ~ SOFTWARE.
-  ~
   -->
 
 <!--suppress ALL -->
@@ -4774,13 +4773,13 @@
            iconType="FILE"
            pattern=".*\.(gql|graphqls?|gqlconfig)$"
            icon="/icons/files/graphql.svg"/>
-    <regex fileNames=".graphqlconfig,.graphql.config.js,.graphqlrc,.graphqlrc.json,.graphql.config.yaml"
+    <regex fileNames=".graphqlconfig,.graphql.config.js,.graphqlrc,.graphqlrc.json,.graphql.config.yaml,graphql.config.yml"
            name="GraphQL Config"
            iconColor="EC407A"
            url="https://graphql.org/"
            priority="100"
            iconType="FILE"
-           pattern="\.graphql(\.?config|rc).*$"
+           pattern="^\.?graphql(\.?config|rc).*$"
            icon="/icons/files/graphqlconfig.svg"/>
     <regex fileNames="*.gv,*.graphviz"
            name="Graphviz"
@@ -7200,6 +7199,15 @@
            iconPack="NEST"
            pattern=".*\.adapter\.[tj]s$"
            icon="/icons/files/nestadapter.svg"/>
+    <regex fileNames="*.args.js,*.args.ts"
+           name="Nest Args"
+           iconColor="BDBDBD"
+           url="https://nestjs.com/"
+           priority="100"
+           iconType="FILE"
+           iconPack="NEST"
+           pattern=".*\.(args|arguments)\.[tj]s$"
+           icon="/icons/files/nestargs.svg"/>
     <regex fileNames="*.controller.js,*.controller.ts"
            name="Nest Controller"
            iconColor="03A9F4"
@@ -7281,6 +7289,15 @@
            iconPack="NEST"
            pattern=".*\.gateway\.[tj]s$"
            icon="/icons/files/nestgateway.svg"/>
+    <regex fileNames="*.gql.js,*.gql.ts,*.graphql.js,*.graphql.ts"
+           name="Nest GraphQL"
+           iconColor="EC407A"
+           url="https://nestjs.com/"
+           priority="100"
+           iconType="FILE"
+           iconPack="NEST"
+           pattern=".*\.(gql|graphql)\.[tj]s$"
+           icon="/icons/files/nestgql.svg"/>
     <regex fileNames="*.guard.js,*.guard.ts"
            name="Nest Guard"
            iconColor="FF8A65"
@@ -7290,6 +7307,15 @@
            iconPack="NEST"
            pattern=".*\.guard\.[tj]s$"
            icon="/icons/files/nestguard.svg"/>
+    <regex fileNames="*.input.js,*.input.ts"
+           name="Nest Input"
+           iconColor="1565C0"
+           url="https://nestjs.com/"
+           priority="100"
+           iconType="FILE"
+           iconPack="NEST"
+           pattern=".*\.interceptor\.[tj]s$"
+           icon="/icons/files/nestinput.svg"/>
     <regex fileNames="*.interceptor.js,*.interceptor.ts"
            name="Nest Interceptor"
            iconColor="AFB42B"
@@ -7299,6 +7325,15 @@
            iconPack="NEST"
            pattern=".*\.interceptor\.[tj]s$"
            icon="/icons/files/nestinterceptor.svg"/>
+    <regex fileNames="*.loaders.js,*.dataloaders.ts"
+           name="Nest DataLoaders"
+           iconColor="D500F9"
+           url="https://nestjs.com/"
+           priority="100"
+           iconType="FILE"
+           iconPack="NEST"
+           pattern=".*\.(data)?loaders\.[tj]s$"
+           icon="/icons/files/nestloader.svg"/>
     <regex fileNames="*.middleware.js,*.middleware.ts"
            name="Nest Middleware"
            iconColor="5c6bc0"
@@ -7371,6 +7406,15 @@
            iconPack="NEST"
            pattern=".*\.resolvers?\.[tj]s$"
            icon="/icons/files/nestresolver.svg"/>
+    <regex fileNames="*.scalar.js,*.scalar.ts"
+           name="Nest Scalar"
+           iconColor="FFB74D"
+           url="https://nestjs.com/"
+           priority="100"
+           iconType="FILE"
+           iconPack="NEST"
+           pattern=".*\.scalar\.[tj]s$"
+           icon="/icons/files/nestscalar.svg"/>
     <regex fileNames="*.schema.js,*.schema.ts"
            name="Nest Schema"
            iconColor="81C784"
