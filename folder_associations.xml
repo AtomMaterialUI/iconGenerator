@@ -1632,6 +1632,14 @@
            iconType="FOLDER"
            pattern="^[\._]?(pdfs?|adobe)$"
            icon="/pdf.svg"/>
+    <regex folderNames=".pdm-build,.pdm-plugins"
+           name="PDM"
+           folderColor="9575cd"
+           folderIconColor="d1c4e9"
+           priority="100"
+           iconType="FOLDER"
+           pattern="^[\._]?pdm-(build|plugins)$"
+           icon="/pdm.svg"/>
     <regex folderNames="php,phtml,_php,.php,.phtml,phpmailer,.phpmailer,.phpcs,_phpcs"
            name="PHP"
            folderColor="673AB7"
