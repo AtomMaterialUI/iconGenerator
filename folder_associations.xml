@@ -2007,6 +2007,14 @@
            iconType="FOLDER"
            pattern="^[\._]?(secure|security)$"
            icon="/security.svg"/>
+    <regex folderNames="seed,seeds,.seed,_seeds,.seeds,seeders,.seeders,_seeders"
+           name="Seeds"
+           folderColor="43a047"
+           folderIconColor="A5D6A7"
+           priority="100"
+           iconType="FOLDER"
+           pattern="^[\._]?(seeds?|seeders?)$"
+           icon="/seed.svg"/>
     <regex folderNames="server,http,request,requests,staging,qa,backend,_server,.server,.http,_request,.requests,
         _staging,_qa,.backend,_backend"
            name="Server"

@@ -6042,6 +6042,14 @@
            pattern="^knime\.ini$"
            url="http://www.knime.com/"
            icon="/icons/files/knime.svg"/>
+    <regex fileNames="knip.config.json,knip.config.js,knip.config.ts,knip.json,knip.js,knip.ts"
+           name="Knip"
+           iconColor="EF6C00"
+           url="https://knip.dev/"
+           priority="100"
+           iconType="FILE"
+           pattern="^\.?knip\.(config\.)?(jsonc?|[cm]?js|ts)$"
+           icon="/icons/files/knip.svg"/>
     <regex fileNames="knockout.js,knockout.min.js"
            name="Knockout"
            iconColor="D52A29"
@@ -8835,7 +8843,7 @@
         name="PostCSS Config"
         priority="100"
         iconType="FILE"
-        pattern="^(\.postcssrc|postcss\.config)(\.[cm]?js|ts|json|ya?ml)?$"
+        pattern="^(\.postcssrc|postcss\.config)(\.([cm]?js|ts|json|ya?ml))?$"
         iconColor="D33534"
         url="https://postcss.org/"
         icon="/icons/files/postcssconfig.svg"/>
@@ -9226,6 +9234,15 @@
            iconType="FILE"
            pattern="^quasar\.conf\.[cm]?js$"
            icon="/icons/files/quasar.svg"/>
+    <regex fileNames="quokka.config.js,quokka.config.cjs,quokka.config.mjs,quokka.config.ts"
+           name="Quokka"
+           iconColor="FF6D00"
+           url="https://quokkajs.com/"
+           priority="100"
+           iconType="FILE"
+           pattern="^quokka\.([cm]?jsx?|tsx?)$"
+           icon="/icons/files/quokka.svg"/>
+
     <regex fileNames="*.qtn"
            name="Quantum"
            iconColor="90A4AE"

@@ -1,0 +1,35 @@
+<!--
+  - The MIT License (MIT)
+  -
+  - Copyright (c) 2015-2024 Elior "Mallowigi" Boukhobza
+  -
+  - Permission is hereby granted, free of charge, to any person obtaining a copy
+  - of this software and associated documentation files (the "Software"), to deal
+  - in the Software without restriction, including without limitation the rights
+  - to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+  - copies of the Software, and to permit persons to whom the Software is
+  - furnished to do so, subject to the following conditions:
+  -
+  - The above copyright notice and this permission notice shall be included in all
+  - copies or substantial portions of the Software.
+  -
+  - THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+  - IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+  - FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+  - AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+  - LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+  - OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+  - SOFTWARE.
+  -->
+
+<svg width="16px" height="16px" clip-rule="evenodd" fill-rule="evenodd"
+     version="1.1" viewBox="0 0 3200 3200" xmlns="http://www.w3.org/2000/svg">
+  <path fill="#43a047" folderColor="Seeds" transform="scale(136)"
+        d="M20,18H4V8H20M20,6H12L10,4H4C2.89,4 2,4.89 2,6V18A2,2 0 0,0 4,20H20A2,2 0 0,0 22,18V8C22,6.89 21.1,6 20,6Z"/>
+  <path
+      d="m2999.5 1165.5c17.69 2.74 35.36 5.91 53 9.5 1.08 0.67 1.75 1.67 2 3 28.18 168.19 32.68 337.02 13.5 506.5-11.97 104.19-34.8 205.86-68.5 305-33.03 92.41-76.87 179.07-131.5 260-24.46 33.24-50.13 65.58-77 97-26.2 26.86-53.03 53.03-80.5 78.5-46.48 38.13-95.48 72.8-147 104-47.04 26.18-95.37 49.68-145 70.5-24.7 9.85-49.7 19.01-75 27.5-149 44.89-301.33 68.89-457 72-64.06 1.52-128.06 0.19-192-4-49.39-3.53-98.73-7.7-148-12.5-2.99-27.61-5.33-55.27-7-83-2.33-32.97-4.16-65.97-5.5-99-4.98-119.78 0.02-239.11 15-358 11.45-83.35 29.11-165.35 53-246 33.56-106.11 81.23-205.11 143-297 15.38-19.72 30.38-39.72 45-60 39.41-47.08 82.58-90.58 129.5-130.5 1-0.33 2-0.67 3-1 17.79-15.06 36.12-29.39 55-43 69.82-48.26 144.49-88.26 224-120 67.48-25.45 136.48-45.79 207-61 164.92-33.57 331.25-42.9 499-28 30.9 3.15 61.57 6.32 92 9.5z"
+      fill="#A5D6A7" folderIconColor="Seeds"/>
+  <path fill="white"
+        d="m2709.5 1494.5c7.67-0.17 15.34 0 23 0.5-45.07 16.54-88.41 36.87-130 61-97.27 54.78-187.6 119.12-271 193-15.7 14.7-31.7 29.04-48 43-37.92 37.92-75.09 76.42-111.5 115.5-18.62 22.96-37.62 45.63-57 68-93.1 116.73-172.93 242.4-239.5 377-0.5 1.02-1.17 1.19-2 0.5 6.63-168.23 50.47-326.06 131.5-473.5 116.36-197.54 287.53-319.37 513.5-365.5 24.5-4.98 49.17-8.98 74-12 39.09-3.5 78.09-6 117-7.5z"
+  />
+</svg>
