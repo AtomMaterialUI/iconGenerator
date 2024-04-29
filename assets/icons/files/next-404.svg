@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  - The MIT License (MIT)
+  -
+  - Copyright (c) 2015-2024 Elior "Mallowigi" Boukhobza
+  -
+  - Permission is hereby granted, free of charge, to any person obtaining a copy
+  - of this software and associated documentation files (the "Software"), to deal
+  - in the Software without restriction, including without limitation the rights
+  - to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+  - copies of the Software, and to permit persons to whom the Software is
+  - furnished to do so, subject to the following conditions:
+  -
+  - The above copyright notice and this permission notice shall be included in all
+  - copies or substantial portions of the Software.
+  -
+  - THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+  - IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+  - FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+  - AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+  - LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+  - OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+  - SOFTWARE.
+  -->
+
+<svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+     width="16px" height="16px" big="true"
+     viewBox="0 0 300 300" xml:space="preserve">
+  <g fill="#F4B042" iconColor="NextJS 404">
+	<polygon class="st0" points="63.3,88.2 63.3,155.6 38.1,155.6 38.1,88.2 13.7,88.2 13.7,180 28.5,180 38.1,180 63.3,180
+		63.3,211.5 87.5,211.5 87.5,88.2 	"/>
+    <path class="st0" d="M113.5,88.2v123.3h12.8h11.5h25h12.1H187V88.2H113.5z M137.7,187.3v-74.7h25v74.7H137.7z"/>
+    <polygon class="st0" points="261.9,88.5 261.9,155.9 236.7,155.9 236.7,88.5 212.5,88.5 212.5,156.1 212.5,180.1 227.1,180.1
+		236.7,180.1 261.9,180.1 261.9,211.8 286.3,211.8 286.3,88.5 	"/>
+</g>
+</svg>
