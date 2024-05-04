@@ -1,0 +1,32 @@
+<!--
+  - The MIT License (MIT)
+  -
+  - Copyright (c) 2015-2024 Elior "Mallowigi" Boukhobza
+  -
+  - Permission is hereby granted, free of charge, to any person obtaining a copy
+  - of this software and associated documentation files (the "Software"), to deal
+  - in the Software without restriction, including without limitation the rights
+  - to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+  - copies of the Software, and to permit persons to whom the Software is
+  - furnished to do so, subject to the following conditions:
+  -
+  - The above copyright notice and this permission notice shall be included in all
+  - copies or substantial portions of the Software.
+  -
+  - THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+  - IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+  - FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+  - AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+  - LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+  - OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+  - SOFTWARE.
+  -->
+
+<svg big="true" width="16px" height="16px" clip-rule="evenodd" fill-rule="evenodd" stroke-linejoin="round" stroke-miterlimit="1.414"
+     viewBox="0 0 24 24" xml:space="preserve"
+     version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:svg="http://www.w3.org/2000/svg">
+  <path fill="#546e7a" folderColor="Internal"
+        d="M20,18H4V8H20M20,6H12L10,4H4C2.89,4 2,4.89 2,6V18A2,2 0 0,0 4,20H20A2,2 0 0,0 22,18V8C22,6.89 21.1,6 20,6Z"/>
+  <path folderIconColor="Internal"
+        d="m 16.793167,8.3575817 c -0.32496,0 -0.649919,0.1234846 -0.916386,0.3834521 l -5.19935,5.1993502 c -0.513436,0.506936 -0.513436,1.325834 0,1.832771 l 5.19935,5.19935 c 0.506937,0.513436 1.325834,0.513436 1.832771,0 l 5.19935,-5.19935 c 0.513436,-0.506937 0.513436,-1.325835 0,-1.832771 L 17.709552,8.7410338 C 17.443085,8.4810663 17.118126,8.3575817 16.793167,8.3575817 m -0.649919,3.2495933 h 1.299837 v 3.899513 h -1.299837 v -3.899513 m 0,5.199351 h 1.299837 v 1.299837 h -1.299837 z"
+        fill="#cfd8dc"/></svg>
