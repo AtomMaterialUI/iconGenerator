@@ -7769,7 +7769,7 @@
            url="https://nextjs.org/"
            priority="100"
            iconType="FILE"
-           iconPack="NextJS"
+           iconPack="NEXTJS"
            pattern="^.*\.?(404|not-found)\.[tj]sx?$"
            icon="/icons/files/next-404.svg"/>
     <regex fileNames="error.js,*.error.ts,error.jsx,*.error.tsx"
@@ -7778,7 +7778,7 @@
            url="https://nextjs.org/"
            priority="100"
            iconType="FILE"
-           iconPack="NextJS"
+           iconPack="NEXTJS"
            pattern="^.*\.?error\.[tj]sx?$"
            icon="/icons/files/next-error.svg"/>
     <regex fileNames="layout.js,*.layout.ts,layout.jsx,*.layout.tsx"
@@ -7787,7 +7787,7 @@
            url="https://nextjs.org/"
            priority="100"
            iconType="FILE"
-           iconPack="NextJS"
+           iconPack="NEXTJS"
            pattern="^.*\.?layout\.[tj]sx?$"
            icon="/icons/files/next-layout.svg"/>
     <regex fileNames="page.js,*.page.ts,page.jsx,*.page.tsx"
@@ -7796,7 +7796,7 @@
            url="https://nextjs.org/"
            priority="100"
            iconType="FILE"
-           iconPack="NextJS"
+           iconPack="NEXTJS"
            pattern="^.*\.?page\.[tj]sx?$"
            icon="/icons/files/next-page.svg"/>
     <regex fileNames="route.js,*.route.ts,route.jsx,*.route.tsx"
@@ -7805,7 +7805,7 @@
            url="https://nextjs.org/"
            priority="100"
            iconType="FILE"
-           iconPack="NextJS"
+           iconPack="NEXTJS"
            pattern="^.*\.?route\.[tj]sx?$"
            icon="/icons/files/next-route.svg"/>
     <regex
