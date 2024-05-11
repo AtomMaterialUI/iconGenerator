@@ -23,13 +23,13 @@
   - SOFTWARE.
   -->
 
-<svg big="true" width="16px" height="16px" clip-rule="evenodd" fill-rule="evenodd" stroke-linejoin="round" stroke-miterlimit="1.414"
+<svg data-big="true" width="16px" height="16px" clip-rule="evenodd" fill-rule="evenodd" stroke-linejoin="round" stroke-miterlimit="1.414"
      version="1.1" viewBox="0 0 24 24"
      xml:space="preserve" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
-  <path fill="#0277bd" folderColor="WebComponents"
+  <path fill="#0277bd" data-folderColor="WebComponents"
         d="M20,18H4V8H20M20,6H12L10,4H4C2.89,4 2,4.89 2,6V18A2,2 0 0,0 4,20H20A2,2 0 0,0 22,18V8C22,6.89 21.1,6 20,6Z"/>
 
-  <g transform="matrix(.08867 0 0 .08867 9.6424 9.1665)" fill-rule="evenodd" fill="#B3E5FC" folderIconColor="WebComponents">
+  <g transform="matrix(.08867 0 0 .08867 9.6424 9.1665)" fill-rule="evenodd" fill="#B3E5FC" data-folderIconColor="WebComponents">
     <path d="m61.1 31.4h79.9l-17.6-30.5h-44.7z"/>
     <path d="m114.8 63.3h44.2l-15.9-26.8h-44.3"/>
     <path d="m141.3 100.3h-80.3l17.6 30.5h45z"/>

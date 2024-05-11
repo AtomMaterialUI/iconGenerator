@@ -1,7 +1,7 @@
 <!--
   - The MIT License (MIT)
   -
-  - Copyright (c) 2015-2022 Elior "Mallowigi" Boukhobza
+  - Copyright (c) 2015-2024 Elior "Mallowigi" Boukhobza
   -
   - Permission is hereby granted, free of charge, to any person obtaining a copy
   - of this software and associated documentation files (the "Software"), to deal
@@ -20,19 +20,17 @@
   - LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
   - OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
   - SOFTWARE.
-  -
-  -
   -->
 
-<svg big="true" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32" width="16px" height="16px">
-    <defs>
-        <mask id="Mask">
-            <rect x="0" y="0" width="32" height="32" fill="white"/>
-            <rect x="16.42" y="7.32" width="7" height="7" fill="black"/>
-        </mask>
-    </defs>
-    <g fill="#00aab4" mask="url('#Mask')" iconColor="Teal">
-        <circle cx="16" cy="16" r="14"/>
-        <rect x="16.42" y="7.32" width="7" height="7" fill="white"/>
-    </g>
+<svg data-big="true" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32" width="16px" height="16px">
+  <defs>
+    <mask id="Mask">
+      <rect x="0" y="0" width="32" height="32" fill="white"/>
+      <rect x="16.42" y="7.32" width="7" height="7" fill="black"/>
+    </mask>
+  </defs>
+  <g fill="#00aab4" mask="url('#Mask')" data-iconColor="Teal">
+    <circle cx="16" cy="16" r="14"/>
+    <rect x="16.42" y="7.32" width="7" height="7" fill="white"/>
+  </g>
 </svg>

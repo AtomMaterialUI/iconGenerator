@@ -23,8 +23,8 @@
   - SOFTWARE.
   -->
 
-<svg big="true" width="16px" height="16px" version="1.1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16">
-  <g fill="#C62828" iconColor="Scons">
+<svg data-big="true" width="16px" height="16px" version="1.1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16">
+  <g fill="#C62828" data-iconColor="Scons">
     <rect x="1" y="12.252" width="6.612" height="2.515"/>
     <rect x="8.519" y="0.295" transform="matrix(0.4462 -0.8949 0.8949 0.4462 2.1917 10.7438)" width="2.515" height="6.612"/>
     <rect x="8.388" y="12.252" width="6.612" height="2.515"/>

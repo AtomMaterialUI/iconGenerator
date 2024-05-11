@@ -2,7 +2,7 @@
 <!--
   - The MIT License (MIT)
   -
-  - Copyright (c) 2015-2023 Elior "Mallowigi" Boukhobza
+  - Copyright (c) 2015-2024 Elior "Mallowigi" Boukhobza
   -
   - Permission is hereby granted, free of charge, to any person obtaining a copy
   - of this software and associated documentation files (the "Software"), to deal
@@ -23,11 +23,11 @@
   - SOFTWARE.
   -->
 
-<svg big="true" version="1.1" viewBox="0 0 24 24" xml:space="preserve" xmlns="http://www.w3.org/2000/svg" width="16px"
+<svg data-big="true" version="1.1" viewBox="0 0 24 24" xml:space="preserve" xmlns="http://www.w3.org/2000/svg" width="16px"
      height="16px">
   <path d="M10,4H4C2.89,4,2,4.89,2,6v12c0,1.097,0.903,2,2,2h16c1.097,0,2-0.903,2-2V8c0-1.105-0.895-2-2-2h-8L10,4z"
-        fill="#ff9800" folderColor="Plastic SCM"/>
-  <g transform="matrix(.87402 0 0 .87402 2.8627 .76743)" fill="#fff3e0" folderIconColor="Plastic SCM">
+        fill="#ff9800" data-folderColor="Plastic SCM"/>
+  <g transform="matrix(.87402 0 0 .87402 2.8627 .76743)" fill="#fff3e0" data-folderIconColor="Plastic SCM">
     <path
         d="m22.583 11.978-4.87-2.789c-0.441-0.253-0.983-0.253-1.424 0l-4.87 2.789c-0.281 0.161-0.494 0.409-0.614 0.7-0.07 0.17-0.107 0.354-0.107 0.544v5.557c0 0.514 0.266 0.941 0.712 1.197l0.69 0.393 0.021-6.519c0-0.138 0.03-0.281 0.077-0.406 0.092-0.226 0.262-0.432 0.481-0.557l3.771-2.159c0.342-0.196 0.761-0.196 1.103 0l3.771 2.159c0.263 0.151 0.45 0.401 0.523 0.687 0.023 0.089 0.035 0.181 0.035 0.276v4.303c0 0.398-0.213 0.765-0.558 0.963l-3.771 2.159c-0.172 0.099-0.364 0.147-0.556 0.146v1.579c0.246 0 0.494-0.063 0.714-0.189l4.87-2.789c0.446-0.255 0.721-0.73 0.721-1.244v-5.556c0-0.132-0.018-0.261-0.053-0.384-0.097-0.359-0.335-0.67-0.666-0.86z"/>
     <path

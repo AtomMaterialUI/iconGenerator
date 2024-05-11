@@ -1,7 +1,7 @@
 <!--
   - The MIT License (MIT)
   -
-  - Copyright (c) 2015-2023 Elior "Mallowigi" Boukhobza
+  - Copyright (c) 2015-2024 Elior "Mallowigi" Boukhobza
   -
   - Permission is hereby granted, free of charge, to any person obtaining a copy
   - of this software and associated documentation files (the "Software"), to deal
@@ -20,12 +20,11 @@
   - LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
   - OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
   - SOFTWARE.
-  -
   -->
 
-<svg big="true" width="16px" height="16px" version="1.1" xmlns="http://www.w3.org/2000/svg"
+<svg data-big="true" width="16px" height="16px" version="1.1" xmlns="http://www.w3.org/2000/svg"
      x="0px" y="0px" viewBox="0 0 200 200" enable-background="new 0 0 200 200" xml:space="preserve">
-    <path fill="#FFCA28" iconColor="Snakefile" d="
+    <path fill="#FFCA28" data-iconColor="Snakefile" d="
 M55.431194,25.277943
 	C63.258709,24.071102 70.707153,22.329599 78.194458,22.142357
 	C95.838989,21.701107 113.508766,21.694366 131.155899,22.080093
@@ -44,7 +43,7 @@ M136.551468,38.044464
 	C147.961868,41.359825 146.622864,37.806828 145.257767,37.316669
 	C142.867447,36.458382 139.856918,37.327381 136.551468,38.044464
 z"/>
-    <path d="
+  <path d="
 M149.291290,131.657883
 	C142.439636,126.747696 134.848465,125.189316 127.080894,125.081879
 	C108.754143,124.828392 90.421501,125.011406 72.091263,124.995354
@@ -56,7 +55,7 @@ M149.291290,131.657883
 	C170.942413,163.951706 168.018723,166.092926 164.714340,168.308868
 	C165.037216,153.533173 162.555496,140.479263 149.291290,131.657883
 z"/>
-    <path d="
+  <path d="
 M55.000126,136.000000
 	C80.499718,136.000046 105.499344,135.993439 130.498978,136.002975
 	C142.711563,136.007645 152.207977,144.025406 153.854568,156.425613

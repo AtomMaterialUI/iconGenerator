@@ -1,7 +1,7 @@
 <!--
   - The MIT License (MIT)
   -
-  - Copyright (c) 2015-2022 Elior "Mallowigi" Boukhobza
+  - Copyright (c) 2015-2024 Elior "Mallowigi" Boukhobza
   -
   - Permission is hereby granted, free of charge, to any person obtaining a copy
   - of this software and associated documentation files (the "Software"), to deal
@@ -20,11 +20,9 @@
   - LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
   - OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
   - SOFTWARE.
-  -
-  -
   -->
 
-<svg big="true" xmlns="http://www.w3.org/2000/svg" width="16px" height="16px" viewBox="0 0 16 16">
-    <path fill="#EA7130" iconColor="Adobe Illustrator"
-          d="M1,15V1H15V15H1Zm9.282-4.021h1.15V5.758h-1.15v5.221ZM7.163,3.953H5.7v0.33l-1.927,6.7H4.9l0.532-2H7.472l0.522,2H9.26Zm3.679-.224a0.667,0.667,0,1,0,.674.667A0.671,0.671,0,0,0,10.842,3.729ZM6.46,4.975l0.724,2.97H5.715Z"/>
+<svg data-big="true" xmlns="http://www.w3.org/2000/svg" width="16px" height="16px" viewBox="0 0 16 16">
+  <path fill="#EA7130" data-iconColor="Adobe Illustrator"
+        d="M1,15V1H15V15H1Zm9.282-4.021h1.15V5.758h-1.15v5.221ZM7.163,3.953H5.7v0.33l-1.927,6.7H4.9l0.532-2H7.472l0.522,2H9.26Zm3.679-.224a0.667,0.667,0,1,0,.674.667A0.671,0.671,0,0,0,10.842,3.729ZM6.46,4.975l0.724,2.97H5.715Z"/>
 </svg>

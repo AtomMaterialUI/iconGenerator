@@ -22,11 +22,11 @@
   - SOFTWARE.
   -->
 
-<svg big="true" width="16px" height="16px" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-  <path folderColor="Fluig"
+<svg data-big="true" width="16px" height="16px" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <path data-folderColor="Fluig"
         d="M10 4H4C2.89 4 2 4.89 2 6V18C2 19.097 2.903 20 4 20H20C21.097 20 22 19.097 22 18V8C22 7.46957 21.7893 6.96086 21.4142 6.58579C21.0391 6.21071 20.5304 6 20 6H12L10 4Z"
         fill="#E51358"/>
-  <g fill="#ECEFF1" folderIconColor="Fluig">
+  <g fill="#ECEFF1" data-folderIconColor="Fluig">
     <path
         d="M17.703 8.03942C17.2703 8.13266 16.9366 8.35912 16.9118 8.5767C16.8809 8.8076 16.918 8.88752 17.1344 9.0607C17.3074 9.19391 17.4558 9.26051 17.7586 9.32712C18.7167 9.54025 19.2606 9.34932 19.2606 8.80316C19.2606 8.51009 19.0134 8.15931 18.7414 8.06606C18.5189 7.99057 17.9873 7.97725 17.703 8.03942Z"/>
     <path

@@ -24,9 +24,9 @@
   -->
 
 <svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
-     width="16px" height="16px" big="true"
+     width="16px" height="16px" data-big="true"
      viewBox="0 0 300 300" xml:space="preserve">
-  <g fill="#F4B042" iconColor="NextJS 404">
+  <g fill="#F4B042" data-iconColor="NextJS 404">
 	<polygon class="st0" points="63.3,88.2 63.3,155.6 38.1,155.6 38.1,88.2 13.7,88.2 13.7,180 28.5,180 38.1,180 63.3,180
 		63.3,211.5 87.5,211.5 87.5,88.2 	"/>
     <path class="st0" d="M113.5,88.2v123.3h12.8h11.5h25h12.1H187V88.2H113.5z M137.7,187.3v-74.7h25v74.7H137.7z"/>

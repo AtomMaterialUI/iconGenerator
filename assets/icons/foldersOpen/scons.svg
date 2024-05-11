@@ -22,10 +22,10 @@
   - SOFTWARE.
   -->
 
-<svg big="true" width="16px" height="16px" version="1.1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
-  <path folderColor="Scons" fill="#EF5350"
+<svg data-big="true" width="16px" height="16px" version="1.1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+  <path data-folderColor="Scons" fill="#EF5350"
         d="M20,18H4V8H20M20,6H12L10,4H4C2.89,4 2,4.89 2,6V18A2,2 0 0,0 4,20H20A2,2 0 0,0 22,18V8C22,6.89 21.1,6 20,6Z"/>
-  <g fill="#FFCDD2" folderIconColor="Scons">
+  <g fill="#FFCDD2" data-folderIconColor="Scons">
     <rect x="9" y="20.368" width="6.612" height="2.515"/>
     <rect x="16.519" y="8.412" transform="matrix(0.4462 -0.8949 0.8949 0.4462 -0.6419 22.3977)" width="2.515" height="6.612"/>
     <rect x="16.388" y="20.368" width="6.612" height="2.515"/>

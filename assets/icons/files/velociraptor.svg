@@ -22,7 +22,7 @@
   - SOFTWARE.
   -->
 
-<svg big="true" width="16px" height="16px" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+<svg data-big="true" width="16px" height="16px" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
   <defs>
     <mask id="Mask" width="20" height="16" x="2" y="4" maskUnits="userSpaceOnUse" style="mask-type:luminance">
       <path fill="#fff"
@@ -35,7 +35,7 @@
   </defs>
   <g>
     <g mask="url(#Mask)">
-      <path fill="#00B0FF" iconColor="Velociraptor" d="M22 5H2.296v14.816H22V5Z"/>
+      <path fill="#00B0FF" data-iconColor="Velociraptor" d="M22 5H2.296v14.816H22V5Z"/>
       <path fill="#fff"
             d="M6.143 20.904 2 20.877s.19-3.227.2-3.905c.03-2.873 1.566-3.942 1.929-4.496.86-1.298 1.107-1.986 1.804-2.53.907-.716 1.91-.592 2.788-.869.391-.124.82-.668 1.823-.592 1.002.077 1.843.955 2.864 1.327.697.258 3.905 1.528 4.191 1.967.363.544.277 1.804-.01 2.138-.878 1.06-7.732.144-8.992.382-2.607.497-4.41 5.203-.87 5.528l-1.584 1.078Zm4-11.312c-.01.057-.01.124-.01.181 0 .688.564 1.25 1.251 1.25.449 0 .869-.247 1.089-.639-.64-.63-1.432-.85-2.33-.792Z"/>
       <path fill="#E3F2FD"

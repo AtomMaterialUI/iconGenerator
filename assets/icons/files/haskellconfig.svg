@@ -1,7 +1,7 @@
 <!--
   - The MIT License (MIT)
   -
-  - Copyright (c) 2015-2022 Elior "Mallowigi" Boukhobza
+  - Copyright (c) 2015-2024 Elior "Mallowigi" Boukhobza
   -
   - Permission is hereby granted, free of charge, to any person obtaining a copy
   - of this software and associated documentation files (the "Software"), to deal
@@ -20,12 +20,10 @@
   - LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
   - OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
   - SOFTWARE.
-  -
-  -
   -->
 
-<svg big="true" xmlns="http://www.w3.org/2000/svg" width="16px" height="16px" viewBox="0 0 16 16">
-    <path fill="#FF8A65" iconColor="Haskell Config"
-          d="M1,13L4.294,8,1,3H3.471L6.765,8,3.471,13H1Zm3.294,0L7.588,8,4.294,3H6.765l6.588,10H10.882L8.824,9.875,6.765,13H4.294Zm7.961-2.916-1.1-1.667H15v1.667H12.255Zm-1.647-2.5L9.51,5.918H15V7.584H10.608Z"
-    />
+<svg data-big="true" xmlns="http://www.w3.org/2000/svg" width="16px" height="16px" viewBox="0 0 16 16">
+  <path fill="#FF8A65" data-iconColor="Haskell Config"
+        d="M1,13L4.294,8,1,3H3.471L6.765,8,3.471,13H1Zm3.294,0L7.588,8,4.294,3H6.765l6.588,10H10.882L8.824,9.875,6.765,13H4.294Zm7.961-2.916-1.1-1.667H15v1.667H12.255Zm-1.647-2.5L9.51,5.918H15V7.584H10.608Z"
+  />
 </svg>

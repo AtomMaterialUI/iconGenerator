@@ -1,7 +1,7 @@
 <!--
   - The MIT License (MIT)
   -
-  - Copyright (c) 2015-2023 Elior "Mallowigi" Boukhobza
+  - Copyright (c) 2015-2024 Elior "Mallowigi" Boukhobza
   -
   - Permission is hereby granted, free of charge, to any person obtaining a copy
   - of this software and associated documentation files (the "Software"), to deal
@@ -22,7 +22,7 @@
   - SOFTWARE.
   -->
 
-<svg big="true" version="1.1" viewBox="0 0 24 24" xml:space="preserve" xmlns="http://www.w3.org/2000/svg" width="16px" height="16px">
+<svg data-big="true" version="1.1" viewBox="0 0 24 24" xml:space="preserve" xmlns="http://www.w3.org/2000/svg" width="16px" height="16px">
   <defs>
     <mask id="Mask">
       <circle cx="30.125" cy="-29" r="110.12" fill="white" stroke-width="1.0244"/>
@@ -33,7 +33,7 @@
     </mask>
   </defs>
 
-  <g transform="matrix(.061526 0 0 .061526 13.512 10.42)" mask="url(#Mask)" fill="#00bfa5" iconColor="SPWN">
+  <g transform="matrix(.061526 0 0 .061526 13.512 10.42)" mask="url(#Mask)" fill="#00bfa5" data-iconColor="SPWN">
     <circle cx="30.125" cy="-29" r="110.12" stroke-width="1.0244"/>
     <circle cx="-79.266" cy="80.375" r="110.12" stroke-width="1.0244"/>
     <path

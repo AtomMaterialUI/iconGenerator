@@ -22,10 +22,10 @@
   - SOFTWARE.
   -->
 
-<svg big="true" width="16px" height="16px" fill="none" version="1.1" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
-  <path fill="#26A69A" folderColor="MindsDB"
+<svg data-big="true" width="16px" height="16px" fill="none" version="1.1" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+  <path fill="#26A69A" data-folderColor="MindsDB"
         d="M20,18H4V8H20M20,6H12L10,4H4C2.89,4 2,4.89 2,6V18A2,2 0 0,0 4,20H20A2,2 0 0,0 22,18V8C22,6.89 21.1,6 20,6Z"/>
-  <g fill="#E0F2F1" folderIconColor="MindsDB">
+  <g fill="#E0F2F1" data-folderIconColor="MindsDB">
     <path
         d="M19.2185 17.0298C19.3871 18.2549 19.5435 19.4051 19.7059 20.5541C19.7251 20.6917 19.6943 20.7403 19.5279 20.748C18.5258 20.7941 18.5264 20.7978 18.1641 19.9525C18.0133 19.6008 17.8663 19.2477 17.7057 18.8994C17.6703 18.8422 17.6573 18.7757 17.6686 18.7109C17.68 18.646 17.7152 18.5866 17.7684 18.5423C18.2424 18.0626 18.7041 17.5699 19.2185 17.0298Z"
     />

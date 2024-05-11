@@ -1,7 +1,7 @@
 <!--
   - The MIT License (MIT)
   -
-  - Copyright (c) 2015-2023 Elior "Mallowigi" Boukhobza
+  - Copyright (c) 2015-2024 Elior "Mallowigi" Boukhobza
   -
   - Permission is hereby granted, free of charge, to any person obtaining a copy
   - of this software and associated documentation files (the "Software"), to deal
@@ -20,26 +20,25 @@
   - LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
   - OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
   - SOFTWARE.
-  -
   -->
 
-<svg big="true" width="16px" height="16px" viewBox="0 0 512 512" version="1.1" xmlns="http://www.w3.org/2000/svg"
+<svg data-big="true" width="16px" height="16px" viewBox="0 0 512 512" version="1.1" xmlns="http://www.w3.org/2000/svg"
 >
-    <defs>
-        <mask id="Mask">
-            <rect fill="white" width="314.30923" height="406.60901" x="-26.565063" y="134.75079"
-                  transform="rotate(-23.821262)" ry="8"/>
-            <rect width="314.30923" fill="white" height="406.60901" x="77.571838" y="72.808708" ry="8"
-                  transform="rotate(-4.5744534)"/>
-            <path fill="black"
-                  d="M 359.38947,355.95134 320.72935,176.52942 238.34613,238.94118 Z M 273.64124,273.06608 152.59788,156.05591 191.25804,335.47786 Z"/>
-        </mask>
-    </defs>
-    <g fill="#34d399" iconColor="Histoire" mask="url(#Mask)">
-        <rect fill-opacity="0.5" width="314.30923" height="406.60901" x="-26.565063" y="134.75079"
-              transform="rotate(-23.821262)" ry="8"/>
-        <rect width="314.30923" height="406.60901" x="77.571838" y="72.808708" ry="8" transform="rotate(-4.5744534)"/>
-        <path fill="red"
-              d="M 359.38947,355.95134 320.72935,176.52942 238.34613,238.94118 Z M 273.64124,273.06608 152.59788,156.05591 191.25804,335.47786 Z"/>
-    </g>
+  <defs>
+    <mask id="Mask">
+      <rect fill="white" width="314.30923" height="406.60901" x="-26.565063" y="134.75079"
+            transform="rotate(-23.821262)" ry="8"/>
+      <rect width="314.30923" fill="white" height="406.60901" x="77.571838" y="72.808708" ry="8"
+            transform="rotate(-4.5744534)"/>
+      <path fill="black"
+            d="M 359.38947,355.95134 320.72935,176.52942 238.34613,238.94118 Z M 273.64124,273.06608 152.59788,156.05591 191.25804,335.47786 Z"/>
+    </mask>
+  </defs>
+  <g fill="#34d399" data-iconColor="Histoire" mask="url(#Mask)">
+    <rect fill-opacity="0.5" width="314.30923" height="406.60901" x="-26.565063" y="134.75079"
+          transform="rotate(-23.821262)" ry="8"/>
+    <rect width="314.30923" height="406.60901" x="77.571838" y="72.808708" ry="8" transform="rotate(-4.5744534)"/>
+    <path fill="red"
+          d="M 359.38947,355.95134 320.72935,176.52942 238.34613,238.94118 Z M 273.64124,273.06608 152.59788,156.05591 191.25804,335.47786 Z"/>
+  </g>
 </svg>

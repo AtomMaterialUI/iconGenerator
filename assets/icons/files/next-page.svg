@@ -22,9 +22,9 @@
   - SOFTWARE.
   -->
 
-<svg version="1.1" big="true" width="16px" height="16px" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
+<svg version="1.1" data-big="true" width="16px" height="16px" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
      x="0px" y="0px" viewBox="0 0 300 300" xml:space="preserve">
-  <g fill="#90A3AE" iconColor="NextJS Page">
+  <g fill="#90A3AE" data-iconColor="NextJS Page">
 	<path d="M258.8,29.1H41.2c-13.3,0-24.1,10.9-24.1,24.1v193.4c0,13.3,10.9,24.1,24.1,24.1h217.5
 		c13.3,0,24.1-10.9,24.1-24.1V53.4C283.1,40.1,272.2,29.1,258.8,29.1 M258.8,246.8H41.2V77.5h217.5V246.8z"/>
 </g>
