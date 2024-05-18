@@ -58,14 +58,14 @@
            pattern="^[\._]?(addons?)$"
            icon="/addon.svg"/>
     <regex
-        folderNames="admin,_admin,.admin,.admins,admins,manager,managers,_managers,moderator,.moderator,moderators,_moderators"
-        name="Admin"
-        folderColor="00ad9f"
-        folderIconColor="b3e6e2"
-        priority="100"
-        iconType="FOLDER"
-        pattern="^[\._]?(admins?|managers?|moderators?)$"
-        icon="/admin.svg"/>
+      folderNames="admin,_admin,.admin,.admins,admins,manager,managers,_managers,moderator,.moderator,moderators,_moderators"
+      name="Admin"
+      folderColor="00ad9f"
+      folderIconColor="b3e6e2"
+      priority="100"
+      iconType="FOLDER"
+      pattern="^[\._]?(admins?|managers?|moderators?)$"
+      icon="/admin.svg"/>
     <regex folderNames="adr,adrs,.adr,decision,decisions,.decision,.decisions,_decision,_decisions"
            name="ADR"
            folderColor="0277BD"
@@ -123,14 +123,14 @@
            pattern="^[\._]?(animations?|anims?|animated)$"
            icon="/animations.svg"/>
     <regex
-        folderNames="group_vars,host_vars,vars,roles,.group_vars,_roles,_host_vars,.vars,_playbooks,playbooks,ansible,_ansible,.ansible,collections"
-        name="Ansible"
-        folderColor="ef5350"
-        folderIconColor="ffcdd2"
-        priority="100"
-        iconType="FOLDER"
-        pattern="^[\._]?(group_vars|host_vars|vars|roles|playbooks|ansible|collections)$"
-        icon="/ansible.svg"/>
+      folderNames="group_vars,host_vars,vars,roles,.group_vars,_roles,_host_vars,.vars,_playbooks,playbooks,ansible,_ansible,.ansible,collections"
+      name="Ansible"
+      folderColor="ef5350"
+      folderIconColor="ffcdd2"
+      priority="100"
+      iconType="FOLDER"
+      pattern="^[\._]?(group_vars|host_vars|vars|roles|playbooks|ansible|collections)$"
+      icon="/ansible.svg"/>
     <regex folderNames=".api,.apis,.rest,.swagger,api,apis,rest,swagger,_api,_swagger,parsers,.parsers,_parsers"
            name="Api"
            folderColor="FFF176"
@@ -357,14 +357,14 @@
            pattern="^[\._]?cake$"
            icon="/cake.svg"/>
     <regex
-        folderNames="cart,carts,.cart,.carts,_cart,shop,shops,.shop,basket,baskets,_basket,.baskets,marketing,.marketing"
-        name="Cart"
-        folderColor="FFA000"
-        folderIconColor="FFECB3"
-        priority="100"
-        iconType="FOLDER"
-        pattern="^[\._]?(carts?|shops?|baskets?|marketing)$"
-        icon="/cart.svg"/>
+      folderNames="cart,carts,.cart,.carts,_cart,shop,shops,.shop,basket,baskets,_basket,.baskets,marketing,.marketing"
+      name="Cart"
+      folderColor="FFA000"
+      folderIconColor="FFECB3"
+      priority="100"
+      iconType="FOLDER"
+      pattern="^[\._]?(carts?|shops?|baskets?|marketing)$"
+      icon="/cart.svg"/>
     <regex folderNames="channel,channels,.channel,_channels"
            name="Channels"
            folderColor="673AB7"
@@ -374,14 +374,14 @@
            pattern="^[\._]?(channels?)$"
            icon="/channels.svg"/>
     <regex
-        folderNames="graph,graphs,.graph,_graphs,metric,metrics,.metric,_metrics,analytics,.analytics,_analytics,d3,.d3,_d3"
-        name="Charts"
-        folderColor="FFA726"
-        folderIconColor="FFF8E1"
-        priority="100"
-        iconType="FOLDER"
-        pattern="^[\._]?(graphs?|d3|metrics?|analytics?)$"
-        icon="/charts.svg"/>
+      folderNames="graph,graphs,.graph,_graphs,metric,metrics,.metric,_metrics,analytics,.analytics,_analytics,d3,.d3,_d3"
+      name="Charts"
+      folderColor="FFA726"
+      folderIconColor="FFF8E1"
+      priority="100"
+      iconType="FOLDER"
+      pattern="^[\._]?(graphs?|d3|metrics?|analytics?)$"
+      icon="/charts.svg"/>
     <regex folderNames=".chef,chef,recipe,recipes,_chef,.recipes,_recipe"
            name="Chef"
            folderColor="EA7130"
@@ -480,14 +480,14 @@
            pattern="^[\._]?conductors?$"
            icon="/conductor.svg"/>
     <regex
-        folderNames="cfg,.cfg,_cfg,config,conf,settings,.config,.conf,.settings,_config,_conf,_settings,configuration,.configuration,.configs,_setting,.option,options"
-        name="Config"
-        folderColor="00ACC1"
-        folderIconColor="80DEEA"
-        priority="100"
-        iconType="FOLDER"
-        pattern="^[\._]?(cfg|configs?|conf(iguration)?|settings?|options?)$"
-        icon="/config.svg"/>
+      folderNames="cfg,.cfg,_cfg,config,conf,settings,.config,.conf,.settings,_config,_conf,_settings,configuration,.configuration,.configs,_setting,.option,options"
+      name="Config"
+      folderColor="00ACC1"
+      folderIconColor="80DEEA"
+      priority="100"
+      iconType="FOLDER"
+      pattern="^[\._]?(cfg|configs?|conf(iguration)?|settings?|options?)$"
+      icon="/config.svg"/>
     <regex folderNames="connect,_connect,connection,.connections,_connections,rel,.rel,_relation,relations,.relations,
         link,.link,links,_links"
            name="Connection"
@@ -1073,14 +1073,14 @@
            pattern="^[\._]?(helpers?|help)$"
            icon="/helper.svg"/>
     <regex
-        folderNames="home,.home,_home,start,.start,_start,tuto,tutos,.tutos,_tuto,tutorial,_tutorial,tutorials,.tutorials"
-        name="Home"
-        folderColor="8D6E63"
-        folderIconColor="BCAAA4"
-        priority="100"
-        iconType="FOLDER"
-        pattern="^[\._]?(home|start|tutos?|tutorials?)$"
-        icon="/home.svg"/>
+      folderNames="home,.home,_home,start,.start,_start,tuto,tutos,.tutos,_tuto,tutorial,_tutorial,tutorials,.tutorials"
+      name="Home"
+      folderColor="8D6E63"
+      folderIconColor="BCAAA4"
+      priority="100"
+      iconType="FOLDER"
+      pattern="^[\._]?(home|start|tutos?|tutorials?)$"
+      icon="/home.svg"/>
     <regex folderNames="hooks,hook,triggers,trigger,.hook,_hooks,_triggers"
            name="Hooks"
            folderColor="9575CD"
@@ -1117,13 +1117,13 @@
            iconType="FOLDER"
            pattern="^[\._]?(icons?|ico|glyphs?|favicons?)$"
            icon="/icons.svg"/>
-    <regex folderNames=".idea,_idea,idea,META-INF,.META-INF"
+    <regex folderNames=".idea,_idea,idea,META-INF,.META-INF,intellijPlatform,.intellijPlatform"
            name="idea"
            folderColor="00BCD4"
            folderIconColor="087CFA"
            priority="100"
            iconType="FOLDER"
-           pattern="^[\._]?(idea|META-INF)$"
+           pattern="^[\._]?(idea|META-INF|intellijPlatform)$"
            icon="/idea.svg"/>
     <regex folderNames="image,images,img,medias,media,.images,_img,_media,.medias,pic,.pics,_pictures,gallery,
         figure,.figures,_figures,png,.pngs,_jpg,.jpgs"
