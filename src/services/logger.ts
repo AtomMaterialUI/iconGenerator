@@ -27,7 +27,7 @@
 import * as readline from 'readline';
 
 export interface ISpinner {
-  timer: NodeJS.Timer;
+  timer: Timer;
   line: number;
 }
 
@@ -108,7 +108,7 @@ export class Logger {
    * @param groupId
    * @param line
    */
-  private spin(message: string, groupId?: string, line?: number): NodeJS.Timer {
+  private spin(message: string, groupId?: string, line?: number): Timer {
     if (!process.stdout.isTTY) {
       return;
     }
