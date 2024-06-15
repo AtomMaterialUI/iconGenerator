@@ -10,20 +10,16 @@
   "scripts": {
     "postinstall": "npm run compile && npm run convert",
     "clean": "rimraf tmp examples dist",
-    "cleanup": "rm -rf node_modules",
     "compile": "tsc",
     "compile:w": "npm run compile -- -w",
-    "lint": "tslint --project tsconfig.json",
     "example": "ts-node ./bin/examples --all",
-    "icons_publish": "npm run compile && ts-node ./bin/wiki files -o file",
-    "folders_publish": "npm run compile && ts-node ./bin/wiki folders -o file",
-    "preview": "npm run compile && ts-node ./bin/preview all -o file",
-    "kotlin": "npm run compile && ts-node ./bin/kotlin all -o file",
+    "preview": "ts-node ./bin/preview all",
+    "kotlin": "ts-node ./bin/kotlin all",
     "convert": "npm run convert_icons && npm run convert_folders",
-    "convert_icons": "xml2json icon_associations.xml icon_associations.json",
-    "convert_folders": "xml2json folder_associations.xml folder_associations.json"
+    "convert_icons": "npx xml-js --spaces 4 icon_associations.xml --out icon_associations.json",
+    "convert_folders": "npx xml-js --spaces 4 folder_associations.xml --out folder_associations.json"
   },
-  "author": "",
+  "author": "Elior Boukhobza",
   "license": "MIT",
   "devDependencies": {
     "@types/node": "^20.14.2",
@@ -33,8 +29,8 @@
     "rimraf": "5.0.7",
     "ts-node-dev": "2.0.0",
     "typescript": "5.4.5",
-    "xml2json-cli": "1.1.1",
-    "yargs": "17.7.2"
+    "yargs": "17.7.2",
+    "xmljs": "^0.3.3"
   },
   "dependencies": {
     "fs-extra": "^11.2.0"
