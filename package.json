@@ -13,8 +13,8 @@
     "compile": "tsc",
     "compile:w": "npm run compile -- -w",
     "example": "ts-node ./bin/examples --all",
-    "preview": "ts-node ./bin/preview all",
-    "kotlin": "ts-node ./bin/kotlin all",
+    "preview": "ts-node ./bin/preview all -o file",
+    "kotlin": "ts-node ./bin/kotlin all -o file",
     "convert": "npm run convert_icons && npm run convert_folders",
     "convert_icons": "npx xml-js --spaces 4 icon_associations.xml --out icon_associations.json",
     "convert_folders": "npx xml-js --spaces 4 folder_associations.xml --out folder_associations.json"
