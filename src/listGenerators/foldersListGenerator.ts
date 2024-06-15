@@ -43,7 +43,6 @@ export class FoldersListGenerator extends ListGenerator {
       logGroupId: 'folders',
       pargs: param.pargs,
       logger: param.logger,
-      gitClient: param.gitClient,
     });
     this.folders = param.folders;
   }
@@ -122,7 +121,8 @@ export class FoldersListGenerator extends ListGenerator {
     let mdText = '| ';
 
     mdText += this.pargs.useSmallFonts ? '<sub>' : '';
-    mdText += ` ![${folderAssociation.name}](${this.getImagesUrl()}/foldersOpen${folderAssociation.icon}?sanitize=true) `;
+    mdText +=
+      ` ![${folderAssociation.name}](${this.getImagesUrl()}/foldersOpen${folderAssociation.icon}?sanitize=true) `;
     mdText += this.pargs.useSmallFonts ? '</sub>' : '';
     return mdText;
   }

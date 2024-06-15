@@ -93,11 +93,11 @@ export class Logger {
   public spinnerLogStart(message: string, groupId?: string): ISpinner {
     const line = this.countLines;
     this.log(message, groupId);
-    return {timer: this.spin(message, groupId, line), line};
+    return { timer: this.spin(message, groupId, line), line };
   }
 
   public spinnerLogStop(spinner: ISpinner, message?: string, groupId?: string): void {
-    clearInterval(spinner.timer);
+    clearInterval(spinner.timer as any);
     this.updateLog(`${Logger.getHeader(groupId)}${message}`, this.countLines - spinner.line);
     Logger.cursorShow();
   }

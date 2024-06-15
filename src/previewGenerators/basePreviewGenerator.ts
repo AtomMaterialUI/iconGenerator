@@ -24,26 +24,22 @@
  *
  */
 
-import {Association} from '../types/associations';
-import {GitClient} from '../services/gitClient';
-import {PreviewCommandArgs} from '../argsParsers/previewArgsParser';
-import {Logger} from '../services/logger';
-import {buildMatrix} from '../utils';
+import { Association } from '../types/associations';
+import { PreviewCommandArgs } from '../argsParsers/previewArgsParser';
+import { Logger } from '../services/logger';
+import { buildMatrix } from '../utils';
 import path from 'path';
 import fs from 'fs';
 import puppeteer from 'puppeteer';
 
-
 export interface PreviewGeneratorParams {
   pargs: PreviewCommandArgs,
   logger: Logger,
-  gitClient: GitClient<PreviewCommandArgs>,
   logGroupId?: string,
   fileName: string,
 }
 
 export abstract class BasePreviewGenerator<A extends Association> {
-  protected gitClient: GitClient<PreviewCommandArgs>;
   protected logger: Logger;
   protected pargs: PreviewCommandArgs;
   protected logGroupId: string;
@@ -54,7 +50,6 @@ export abstract class BasePreviewGenerator<A extends Association> {
   protected fileName: string;
 
   protected constructor(params: PreviewGeneratorParams) {
-    this.gitClient = params.gitClient;
     this.logger = params.logger;
     this.pargs = params.pargs;
     this.logGroupId = params.logGroupId;
@@ -79,7 +74,7 @@ export abstract class BasePreviewGenerator<A extends Association> {
   async savePreview(fileName: string, numCols: number, assocs: A[]) {
     const assocMatrix: A[][] = buildMatrix(assocs, numCols);
 
-    const filePath = path.join(__dirname, fileName + '.html');
+    const filePath = path.join(__dirname, `${fileName}.html`);
 
     try {
       // write the html file with the icon table
@@ -88,14 +83,15 @@ export abstract class BasePreviewGenerator<A extends Association> {
       // create the image
       await this.createScreenshot(filePath, fileName);
       this.logger.log(`> Successfully created ${fileName} preview image!`, this.logGroupId);
-    } catch {
+    }
+    catch {
       this.logger.error(`Error while creating ${fileName} preview image`, this.logGroupId);
     }
   }
 
   protected abstract getImagesUrl(): string;
 
-  protected abstract generate();
+  protected abstract generate(): Promise<{ filename: string, content: any }>;
 
   /**
    * Create the rows with the assocs
@@ -105,10 +101,10 @@ export abstract class BasePreviewGenerator<A extends Association> {
     let rows = '';
     assocs.forEach(row => {
       const columns = row.map(icon => `
-            <td class="icon">
-                <img src="${this.getImagesUrl()}${icon.icon}?sanitize=true" alt="${icon.name}">
+            <td class='icon'>
+                <img src='${this.getImagesUrl()}${icon.icon}?sanitize=true' alt='${icon.name}'>
             </td>
-            <td class="iconName">${icon.name}</td>
+            <td class='iconName'>${icon.name}</td>
         `).join('');
 
       const tableRow = `
@@ -116,7 +112,7 @@ export abstract class BasePreviewGenerator<A extends Association> {
                 ${columns}
             </tr>
         `;
-      rows = rows + tableRow;
+      rows += tableRow;
     });
     return rows;
   }
@@ -124,14 +120,13 @@ export abstract class BasePreviewGenerator<A extends Association> {
   /**
    * Generate html string for the preview table of the icons
    * @param assocs icon associations
-   * @param numCols number of cols
    */
   private createPreviewTable(assocs: A[][]): string {
-    const table = `
+    return `
 <!DOCTYPE html>
-<html lang="en">
+<html lang='en'>
   <head>
-    <link rel="stylesheet" href="${path.join('../../assets/style.css')}"/>
+    <link rel='stylesheet' href='${path.join('../../assets/style.css')}'/>
     <title></title>
   </head>
   <body>
@@ -139,7 +134,6 @@ export abstract class BasePreviewGenerator<A extends Association> {
   </body>
 </html>
 `;
-    return table;
   }
 
   /**
@@ -171,8 +165,8 @@ export abstract class BasePreviewGenerator<A extends Association> {
 
       await browser.close();
       return fs.readFileSync(`assets/${fileName}.png`);
-
-    } catch (error) {
+    }
+    catch (error) {
       console.error(error);
       throw Error(error);
     }

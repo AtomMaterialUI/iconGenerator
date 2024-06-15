@@ -68,16 +68,14 @@ export class ExampleGenerator {
         this.createFiles(Object.keys(this.iconAssociations));
         this.createFolders(Object.keys(this.folderAssociations));
         break;
-      case ExamplesFlags.FILES: {
-        const icons = this.pargs.icons.length ? this.pargs.icons : Object.keys(this.iconAssociations);
-        this.createFiles(icons);
+      case ExamplesFlags.FILES:
+        const fileIcons = this.pargs.icons.length ? this.pargs.icons : Object.keys(this.iconAssociations);
+        this.createFiles(fileIcons);
         break;
-      }
-      case ExamplesFlags.FOLDERS: {
-        const icons = this.pargs.icons.length ? this.pargs.icons : Object.keys(this.folderAssociations);
-        this.createFolders(icons);
+      case ExamplesFlags.FOLDERS:
+        const folderIcons = this.pargs.icons.length ? this.pargs.icons : Object.keys(this.folderAssociations);
+        this.createFolders(folderIcons);
         break;
-      }
     }
     this.displayNoteFooter();
     process.chdir(currentDir);

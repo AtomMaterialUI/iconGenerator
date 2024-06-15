@@ -24,12 +24,11 @@
  *
  */
 
-import path from 'path';
-import fs from 'fs';
+import * as fs from 'node:fs';
+import * as path from 'node:path';
 
 export const ROOT = 'iconGenerator';
 export const DOCS_ROOT = 'material-theme-docs';
-
 
 /**
  * Find a directory from the current directory
@@ -44,13 +43,15 @@ export function findDirectorySync(dirName: string): string {
     try {
       fs.accessSync(path.resolve(dir, dirName)); // will resolve the passed path
       lookUpDir = dirName;
-    } catch (err) {
+    }
+    catch (err) {
       lookUpDir = undefined;
     }
 
     if (lookUpDir) {
       return path.join(dir, lookUpDir); // will build the path
-    } else if (dir === root) {
+    }
+    else if (dir === root) {
       return null;
     }
     dir = path.dirname(dir);
@@ -102,14 +103,15 @@ export function findFileSync(filePath: string | RegExp, rootPath?: string, resul
 export function deleteDirectoryRecursively(dirName: string) {
   if (fs.existsSync(dirName)) {
     fs.readdirSync(dirName)
-        .forEach(file => {
-          const curPath = `${dirName}/${file}`;
-          if (fs.lstatSync(curPath).isDirectory()) {
-            deleteDirectoryRecursively(curPath);
-          } else {
-            fs.unlinkSync(curPath);
-          }
-        });
+      .forEach(file => {
+        const curPath = `${dirName}/${file}`;
+        if (fs.lstatSync(curPath).isDirectory()) {
+          deleteDirectoryRecursively(curPath);
+        }
+        else {
+          fs.unlinkSync(curPath);
+        }
+      });
     fs.rmdirSync(dirName);
   }
 }
@@ -122,7 +124,6 @@ export function pathUnixJoin(...paths: string[]) {
   return path.posix.join(...paths);
 }
 
-
 /**
  * Combine two arrays
  * @param array1
@@ -131,9 +132,8 @@ export function pathUnixJoin(...paths: string[]) {
  */
 export function combine(array1: any[], array2: any[], separator = '.'): any[] {
   return array1.reduce((previous: string[], current: string) =>
-      previous.concat(array2.map(value => [current, value].join(separator))), []);
+    previous.concat(array2.map(value => [current, value].join(separator))), []);
 }
-
 
 export function slugify(name: string) {
   return name.replace(/[ _-]/g, '-').toLowerCase();
