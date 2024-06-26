@@ -1,6 +1,6 @@
 {
   "name": "atom-icon-generator",
-  "version": "1.0.24",
+  "version": "1.0.25",
   "description": "",
   "main": "./dist/main",
   "bin": {
@@ -22,15 +22,15 @@
   "author": "Elior Boukhobza",
   "license": "MIT",
   "devDependencies": {
-    "@types/node": "^20.14.2",
+    "@types/node": "20.14.9",
     "@types/yargs": "17.0.32",
-    "biome": "^0.3.3",
-    "puppeteer": "22.11.0",
+    "biome": "0.3.3",
+    "puppeteer": "22.12.1",
     "rimraf": "5.0.7",
     "ts-node-dev": "2.0.0",
-    "typescript": "5.4.5",
+    "typescript": "5.5.2",
     "yargs": "17.7.2",
-    "xml-js": "^1.6.11"
+    "xml-js": "1.6.11"
   },
   "dependencies": {
     "fs-extra": "^11.2.0"
