@@ -20,6 +20,7 @@
   ~ LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
   ~ OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
   ~ SOFTWARE.
+  ~
   -->
 
 <!--suppress ALL -->
@@ -1359,7 +1360,7 @@
            icon="/icons/files/asp.svg"/>
     <regex fileNames="*.astro"
            name="Astro"
-           iconColor="6c1cd6"
+           iconColor="FF5D01"
            priority="100"
            iconType="FILE"
            pattern=".*\.astro$"
@@ -4686,6 +4687,22 @@
            iconType="FILE"
            pattern=".*\.(xcf|ggr|gih|gpl|vbr)$"
            icon="/icons/files/gimp.svg"/>
+    <regex fileNames=".gitbook,.gitbook.yml,.gitbook.yaml"
+           name="GitBook"
+           iconColor="181C1F"
+           url="https://www.gitbook.com/"
+           priority="100"
+           iconType="FILE"
+           pattern="^\.gitbook(\.ya?ml)?$"
+           icon="/icons/files/gitbook.svg"/>
+    <regex fileNames=".gitbook"
+           name="GitBook Dark"
+           iconColor="FAFAFA"
+           url="https://www.gitbook.com/"
+           priority="101"
+           iconType="FILE"
+           pattern="^\.gitbook$"
+           icon="/icons/files/gitbook.svg"/>
     <regex fileNames=".gitlab-ci.yml"
            name="GitLab CI"
            iconColor="e24329"
@@ -4878,6 +4895,14 @@
            iconType="FILE"
            pattern="^gradlew(\.bat)?$"
            icon="/icons/files/gradlew.svg"/>
+    <regex fileNames="*.alloy"
+           name="Grafana Alloy"
+           iconColor="FF6F00"
+           url="https://grafana.com/docs/alloy/latest/"
+           priority="100"
+           iconType="FILE"
+           pattern=".*\.alloy$"
+           icon="/icons/files/grafana.svg"/>
     <regex fileNames="*.grain"
            name="Grain"
            iconColor="f78c6b"
@@ -6938,6 +6963,14 @@
            pattern=".*\.mint$"
            url="https://www.mint-lang.com/"
            icon="/icons/files/mint.svg"/>
+    <regex fileNames="mint.json"
+           name="Mintlify"
+           iconColor="18E299"
+           url="https://mintlify.com/"
+           priority="100"
+           iconType="FILE"
+           pattern="^mint\.json$"
+           icon="/icons/files/mintlify.svg"/>
     <regex fileNames="*.mir,*.mirah,*.druby,*.duby"
            name="Mirah"
            iconColor="5293f7"

@@ -20,6 +20,7 @@
   ~ LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
   ~ OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
   ~ SOFTWARE.
+  ~
   -->
 
 <associations>
@@ -702,13 +703,13 @@
                iconType="FOLDER"
                pattern="^[\._]?(dist|distributions?|out|builds?|releases?)$"
                icon="/dist.svg" />
-        <regex folderNames="docker,.docker,_docker,dockerfiles,.dockerfiles,_dockerfiles"
+        <regex folderNames="docker,.docker,_docker,dockerfiles,.dockerfiles,_dockerfiles,dockerhub,.dockerhub,_dockerhub"
                name="Docker"
                folderColor="039be5"
                folderIconColor="b3e5fc"
                priority="100"
                iconType="FOLDER"
-               pattern="^[\._]?(docker|dockerfiles)$"
+               pattern="^[\._]?(docker|dockerfiles|dockerhub)$"
                icon="/docker.svg" />
         <regex folderNames="doc,docs,documentation,.doc,_doc,_docs,.documentation,text,texts,.texts,_text"
                name="Docs"
