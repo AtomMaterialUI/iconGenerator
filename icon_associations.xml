@@ -7551,7 +7551,7 @@
            priority="100"
            iconType="FILE"
            iconPack="NEST"
-           pattern=".*\.interceptor\.[tj]s$"
+           pattern=".*\.input\.[tj]s$"
            icon="/icons/files/nestinput.svg"/>
     <regex fileNames="*.interceptor.js,*.interceptor.ts"
            name="Nest Interceptor"
