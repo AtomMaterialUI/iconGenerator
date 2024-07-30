@@ -1509,6 +1509,7 @@
                icon="/mocks.svg" />
         <regex folderNames="modal,modals,portal,portals,usecase,usecases,.modal,.modals,_portal,.portals,
         _usecase,_usecases,dialog,.dialog,dialogs,_dialogs,dialogbox,.dialogbox,dialogboxes,_dialogboxes,
+        popup,.popup,popups,_popups"
                name="Modals"
                folderColor="8d6e63"
                folderIconColor="D7CCC8"
