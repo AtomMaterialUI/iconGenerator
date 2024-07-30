@@ -24,10 +24,9 @@
  *
  */
 
-import { WikiAllowedOutputs, WikiCommandArgs } from '../argsParsers/wikiArgsParser';
+import { WikiCommandArgs } from '../argsParsers/wikiArgsParser';
 import { ISpinner, Logger } from '../services/logger';
 import { pathUnixJoin, ROOT, DOCS_ROOT } from '../utils';
-import { GitClient } from '../services/gitClient';
 import * as fs from 'fs';
 import * as https from 'https';
 import * as http from 'http';
@@ -35,7 +34,6 @@ import * as http from 'http';
 export interface ListGeneratorParams {
   pargs: WikiCommandArgs,
   logger: Logger,
-  gitClient: GitClient<WikiCommandArgs>,
   logGroupId?: string,
   wikiPageFilename: string,
   docsPageFilename: string;
@@ -43,7 +41,6 @@ export interface ListGeneratorParams {
 }
 
 export abstract class ListGenerator {
-  protected gitClient: GitClient<WikiCommandArgs>;
   protected logger: Logger;
   protected pargs: WikiCommandArgs;
   protected logGroupId: string;
@@ -71,7 +68,6 @@ export abstract class ListGenerator {
   protected DOCS_URL: string;
 
   protected constructor(params: ListGeneratorParams) {
-    this.gitClient = params.gitClient;
     this.logger = params.logger;
     this.pargs = params.pargs;
     this.logGroupId = params.logGroupId;
@@ -113,12 +109,6 @@ export abstract class ListGenerator {
     const docsPageContent = await this.getDocsPage();
     // Create the list markdown
     const createdList = this.createList();
-
-    // Do not generate if nothing changed (repo mode)
-    // const hasChanged = this.pargs.force || this.compareLists(wikiPageContent, createdList);
-    // if (this.pargs.output === WikiAllowedOutputs.REPO && !hasChanged) {
-    //   return;
-    // }
 
     // Create a new wiki page with the contents
     const newWikiPage = this.createNewWikiPage(wikiPageContent, createdList);
@@ -179,23 +169,6 @@ export abstract class ListGenerator {
    */
   private async getWikiPage(): Promise<string> {
     return new Promise((resolve, reject) => {
-      // If writing directly to the repo
-      if (this.pargs.output === WikiAllowedOutputs.REPO) {
-        try {
-          // Fetch the file from wiki
-          const filePath = pathUnixJoin(this.gitClient.wikiRepoFolder, this.wikiPageFilename);
-          this.logger.log(`Reading wiki page from: ${filePath.replace(`${this.gitClient.rootFolder}`, '')}`,
-            this.logGroupId);
-
-          const src = fs.readFileSync(filePath).toString();
-          return resolve(src);
-        }
-        catch (e) {
-          this.logger.error(e);
-          return reject(e);
-        }
-      }
-
       // Fetch wiki page from the repository
       const uri = `${this.WIKI_URL}/${this.wikiPageFilename}`;
       const spinner: ISpinner = this.logger.spinnerLogStart(`Requesting wiki page from: ${uri}`, this.logGroupId);
@@ -205,7 +178,7 @@ export abstract class ListGenerator {
         const body = [];
 
         resp.on('error', err => {
-          clearInterval(spinner.timer);
+          clearInterval(spinner.timer as any);
           reject(err.stack);
         });
 
@@ -231,23 +204,6 @@ export abstract class ListGenerator {
    */
   private async getDocsPage(): Promise<string> {
     return new Promise((resolve, reject) => {
-      // If writing directly to the repo
-      if (this.pargs.output === WikiAllowedOutputs.REPO) {
-        try {
-          // Fetch the file from docs
-          const filePath = pathUnixJoin(this.gitClient.docsRepoFolder, this.docsPageFilename);
-          this.logger.log(`Reading docs page from: ${filePath.replace(`${this.gitClient.rootFolder}`, '')}`,
-            this.logGroupId);
-
-          const src = fs.readFileSync(filePath).toString();
-          return resolve(src);
-        }
-        catch (e) {
-          this.logger.error(e);
-          return reject(e);
-        }
-      }
-
       // Fetch docs page from the repository
       const uri = `${this.DOCS_URL}/master/docs/reference/${this.docsPageFilename}`;
       const spinner: ISpinner = this.logger.spinnerLogStart(`Requesting docs page from: ${uri}`, this.logGroupId);
@@ -257,7 +213,7 @@ export abstract class ListGenerator {
         const body = [];
 
         resp.on('error', err => {
-          clearInterval(spinner.timer);
+          clearInterval(spinner.timer as any);
           reject(err.stack);
         });
 
@@ -285,11 +241,6 @@ export abstract class ListGenerator {
    */
   // @ts-ignore
   private compareLists(wikiPageContent: string, createdList: string): boolean {
-    // Make sure we are not in repo mode
-    if (this.pargs.output !== WikiAllowedOutputs.REPO) {
-      return false;
-    }
-
     this.logger.updateLog(`Checking for changes to: '${this.associationsFile}'`);
 
     // Split by newlines
@@ -355,12 +306,8 @@ export abstract class ListGenerator {
       return;
     }
 
-    const dirname = this.pargs.output === WikiAllowedOutputs.REPO ? this.gitClient.wikiRepoFolder : __dirname;
-    const filePath = pathUnixJoin(dirname, this.wikiPageFilename);
-    const filePathLog = this.pargs.output === WikiAllowedOutputs.REPO ? filePath.replace(`${this.gitClient.rootFolder}`,
-      '') : filePath;
-
-    this.logger.log(`Writing new wiki page to: ${filePathLog}`, this.logGroupId);
+    const filePath = pathUnixJoin(__dirname, this.wikiPageFilename);
+    this.logger.log(`Writing new wiki page to: ${filePath}`, this.logGroupId);
     fs.writeFileSync(filePath, content);
   }
 
@@ -373,12 +320,8 @@ export abstract class ListGenerator {
       return;
     }
 
-    const dirname = this.pargs.output === WikiAllowedOutputs.REPO ? this.gitClient.docsRepoFolder : __dirname;
-    const filePath = pathUnixJoin(dirname, this.docsPageFilename);
-    const filePathLog = this.pargs.output === WikiAllowedOutputs.REPO ? filePath.replace(`${this.gitClient.rootFolder}`,
-      '') : filePath;
-
-    this.logger.log(`Writing new docs page to: ${filePathLog}`, this.logGroupId);
+    const filePath = pathUnixJoin(__dirname, this.docsPageFilename);
+    this.logger.log(`Writing new docs page to: ${filePath}`, this.logGroupId);
     fs.writeFileSync(filePath, content);
   }
 }

@@ -26,7 +26,6 @@
 
 import { FolderAssociation, IconAssociation } from './types/associations';
 import { Logger } from './services/logger';
-import { GitClient } from './services/gitClient';
 import { PreviewCommandArgs } from './argsParsers/previewArgsParser';
 import { ExamplesFlags } from './argsParsers/examplesArgsParser';
 import { FilesKotlinGenerator } from './kotlinGenerators/filesKotlinGenerator';
@@ -40,15 +39,13 @@ export class KotlinGenerator {
     private pargs: PreviewCommandArgs,
     files: IconAssociation[],
     folders: FolderAssociation[],
-    private logger: Logger,
-    private gitClient: GitClient<PreviewCommandArgs>) {
+    private logger: Logger) {
     this.filesKotlinGenerator = new FilesKotlinGenerator({
       pargs,
       files,
       outputFile: '',
       associationsFile: '',
       logger,
-      gitClient,
     });
 
     this.foldersKotlinGenerator = new FoldersKotlinGenerator({
@@ -57,7 +54,6 @@ export class KotlinGenerator {
       pargs,
       folders,
       logger,
-      gitClient,
     });
 
   }
@@ -79,10 +75,6 @@ export class KotlinGenerator {
     }
 
     try {
-      if (this.gitClient) {
-        await this.commitAndPushToWiki(results);
-      }
-
       this.logger.log('Finished');
     }
     catch (e) {
@@ -91,18 +83,4 @@ export class KotlinGenerator {
       process.exit(1);
     }
   }
-
-  private async commitAndPushToWiki(results: any[]) {
-    let hasCommit: boolean;
-    if (results && results.length) {
-      for (const result of results) {
-        hasCommit = await this.gitClient.tryCommitToWikiRepo(result.filename, result.content) || hasCommit;
-      }
-    }
-
-    if (hasCommit) {
-      await this.gitClient.tryPushToWikiRepo(results.length);
-    }
-  }
-
 }

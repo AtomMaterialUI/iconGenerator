@@ -42,7 +42,6 @@ export class FilesKotlinGenerator extends BaseKotlinGenerator {
       associationsFile: 'icon_associations.json',
       pargs: params.pargs,
       logger: params.logger,
-      gitClient: params.gitClient,
     });
     this.files = params.files;
   }

@@ -42,7 +42,6 @@ export class FoldersKotlinGenerator extends BaseKotlinGenerator {
       associationsFile: 'folder_icon_associations.json',
       pargs: params.pargs,
       logger: params.logger,
-      gitClient: params.gitClient,
     });
     this.folders = params.folders;
   }

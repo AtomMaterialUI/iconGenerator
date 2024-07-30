@@ -26,7 +26,6 @@
 
 import { FolderAssociation, IconAssociation } from './types/associations';
 import { Logger } from './services/logger';
-import { GitClient } from './services/gitClient';
 import { PreviewCommandArgs } from './argsParsers/previewArgsParser';
 import { FilesPreviewGenerator } from './previewGenerators/filesPreviewGenerator';
 import { FoldersPreviewGenerator } from './previewGenerators/foldersPreviewGenerator';
@@ -37,16 +36,15 @@ export class PreviewGenerator {
   private foldersPreviewGenerator: FoldersPreviewGenerator;
 
   constructor(private pargs: PreviewCommandArgs,
-              files: IconAssociation[],
-              folders: FolderAssociation[],
-              private logger: Logger,
-              private gitClient: GitClient<PreviewCommandArgs>) {
+    files: IconAssociation[],
+    folders: FolderAssociation[],
+    private logger: Logger) {
+
     this.filesPreviewGenerator = new FilesPreviewGenerator({
       pargs,
       files,
       fileName: '',
       logger,
-      gitClient,
     });
 
     this.foldersPreviewGenerator = new FoldersPreviewGenerator({
@@ -54,7 +52,6 @@ export class PreviewGenerator {
       pargs,
       folders,
       logger,
-      gitClient,
     });
 
   }
@@ -76,8 +73,6 @@ export class PreviewGenerator {
     }
 
     try {
-      await this.commitAndPushToWiki(results);
-
       this.logger.log('Finished');
     }
     catch (e) {
@@ -86,19 +81,4 @@ export class PreviewGenerator {
       process.exit(1);
     }
   }
-
-  private async commitAndPushToWiki(results: any[]) {
-    let hasCommit: boolean;
-    if (results && results.length) {
-      for (const result of results) {
-        hasCommit = await this.gitClient.tryCommitToWikiRepo(result.filename, result.content) || hasCommit;
-      }
-    }
-
-    if (hasCommit) {
-      await this.gitClient.tryPushToWikiRepo(results.length);
-    }
-  }
-
-
 }

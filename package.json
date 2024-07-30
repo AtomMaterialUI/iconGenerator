@@ -4,44 +4,35 @@
   "description": "",
   "main": "./dist/main",
   "bin": {
-    "wiki": "./bin/wiki",
     "example": "./bin/example",
     "preview": "./bin/preview"
   },
   "scripts": {
     "postinstall": "npm run compile && npm run convert",
     "clean": "rimraf tmp examples dist",
-    "cleanup": "rm -rf node_modules",
     "compile": "tsc",
     "compile:w": "npm run compile -- -w",
-    "lint": "tslint --project tsconfig.json",
     "example": "ts-node ./bin/examples --all",
-    "wiki": "ts-node ./bin/wiki all -o file",
-    "wiki_publish": "npm run compile && ts-node ./bin/wiki all -o repo",
-    "icons_publish": "npm run compile && ts-node ./bin/wiki files -o file",
-    "folders_publish": "npm run compile && ts-node ./bin/wiki folders -o file",
-    "preview": "npm run compile && ts-node ./bin/preview all -o file",
-    "kotlin": "npm run compile && ts-node ./bin/kotlin all -o file",
+    "preview": "ts-node ./bin/preview all -o file",
+    "kotlin": "ts-node ./bin/kotlin all -o file",
     "convert": "npm run convert_icons && npm run convert_folders",
-    "convert_icons": "xml2json icon_associations.xml icon_associations.json",
-    "convert_folders": "xml2json folder_associations.xml folder_associations.json"
+    "convert_icons": "npx xml-js icon_associations.xml --out icon_associations.json --spaces 2 --compact --no-comment --attributes-key value",
+    "convert_folders": "npx xml-js folder_associations.xml --out folder_associations.json --spaces 2 --compact --no-comment --attributes-key value"
   },
-  "author": "",
+  "author": "Elior Boukhobza",
   "license": "MIT",
   "devDependencies": {
-    "@types/node": "20.9.2",
-    "@types/yargs": "17.0.31",
-    "node-gyp": "10.0.1",
-    "nodegit": "0.28.0-alpha.21",
-    "puppeteer": "21.5.2",
-    "rimraf": "5.0.5",
+    "@types/node": "^20.14.2",
+    "@types/yargs": "17.0.32",
+    "biome": "^0.3.3",
+    "puppeteer": "22.11.0",
+    "rimraf": "5.0.7",
     "ts-node-dev": "2.0.0",
-    "tslint": "6.1.3",
-    "typescript": "5.2.2",
-    "xml2json-cli": "1.1.1",
-    "yargs": "17.7.2"
+    "typescript": "5.4.5",
+    "yargs": "17.7.2",
+    "xml-js": "^1.6.11"
   },
   "dependencies": {
-    "fs-extra": "^11.1.0"
+    "fs-extra": "^11.2.0"
   }
 }

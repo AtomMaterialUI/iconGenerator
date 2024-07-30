@@ -24,10 +24,8 @@
  *
  */
 
-import { WikiAllowedOutputs } from '../argsParsers/wikiArgsParser';
 import { ISpinner, Logger } from '../services/logger';
 import { pathUnixJoin, ROOT } from '../utils';
-import { GitClient } from '../services/gitClient';
 import * as fs from 'fs';
 import * as https from 'https';
 import * as http from 'http';
@@ -36,14 +34,12 @@ import { KotlinCommandArgs } from '../argsParsers/kotlinArgsParser';
 export interface KotlinGeneratorParams {
   pargs: KotlinCommandArgs,
   logger: Logger,
-  gitClient: GitClient<KotlinCommandArgs>,
   logGroupId?: string,
   outputFile: string,
   associationsFile: string,
 }
 
 export abstract class BaseKotlinGenerator {
-  protected gitClient: GitClient<KotlinCommandArgs>;
   protected logger: Logger;
   protected pargs: KotlinCommandArgs;
   protected logGroupId: string;
@@ -63,7 +59,6 @@ export abstract class BaseKotlinGenerator {
   protected associationsFile: string;
 
   protected constructor(params: KotlinGeneratorParams) {
-    this.gitClient = params.gitClient;
     this.logger = params.logger;
     this.pargs = params.pargs;
     this.logGroupId = params.logGroupId;
@@ -118,23 +113,6 @@ export abstract class BaseKotlinGenerator {
    */
   private async getKotlinTemplate(): Promise<string> {
     return new Promise((resolve, reject) => {
-      // If writing directly to the repo
-      if (this.pargs.output === WikiAllowedOutputs.REPO) {
-        try {
-          // Fetch the file from wiki
-          const filePath = pathUnixJoin(this.gitClient.wikiRepoFolder, this.wikiPageName);
-          this.logger.log(`Reading wiki page from: ${filePath.replace(`${this.gitClient.rootFolder}`, '')}`,
-            this.logGroupId);
-
-          const src = fs.readFileSync(filePath).toString();
-          return resolve(src);
-        }
-        catch (e) {
-          this.logger.error(e);
-          return reject(e);
-        }
-      }
-
       // Fetch wiki page from the repository
       const uri = `${this.WIKI_URL}/${this.wikiPageName}`;
       const spinner: ISpinner = this.logger.spinnerLogStart(`Requesting wiki page from: ${uri}`, this.logGroupId);
@@ -144,7 +122,7 @@ export abstract class BaseKotlinGenerator {
         const body = [];
 
         resp.on('error', err => {
-          clearInterval(spinner.timer);
+          clearInterval(spinner.timer as any);
           reject(err.stack);
         });
 
@@ -191,10 +169,8 @@ export abstract class BaseKotlinGenerator {
       return;
     }
 
-    const dirname = this.pargs.output === WikiAllowedOutputs.REPO ? this.gitClient.wikiRepoFolder : __dirname;
-    const filePath = pathUnixJoin(dirname, this.outputFile);
-    const filePathLog = this.pargs.output === WikiAllowedOutputs.REPO ? filePath.replace(`${this.gitClient.rootFolder}`,
-      '') : filePath;
+    const filePath = pathUnixJoin(__dirname, this.outputFile);
+    const filePathLog = this.pargs.output === filePath;
 
     this.logger.log(`Writing new wiki page to: ${filePathLog}`, this.logGroupId);
     fs.writeFileSync(filePath, content);

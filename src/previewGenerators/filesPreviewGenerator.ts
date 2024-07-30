@@ -24,9 +24,9 @@
  *
  */
 
-import {BasePreviewGenerator, PreviewGeneratorParams} from './basePreviewGenerator';
-import {IconAssociation} from '../types/associations';
-import {ROOT} from '../utils';
+import { BasePreviewGenerator, PreviewGeneratorParams } from './basePreviewGenerator';
+import { IconAssociation } from '../types/associations';
+import { ROOT } from '../utils';
 
 export interface FilesPreviewGeneratorParams extends PreviewGeneratorParams {
   files: IconAssociation[],
@@ -41,7 +41,6 @@ export class FilesPreviewGenerator extends BasePreviewGenerator<IconAssociation>
       logGroupId: 'files',
       pargs: params.pargs,
       logger: params.logger,
-      gitClient: params.gitClient,
     });
     this.files = params.files;
   }

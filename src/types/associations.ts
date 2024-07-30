@@ -25,9 +25,9 @@
  */
 
 import { ExamplesFlags } from '../argsParsers/examplesArgsParser';
-import { WikiAllowedOutputs } from '../argsParsers/wikiArgsParser';
 import { PreviewAllowedOutputs } from '../argsParsers/previewArgsParser';
 import { KotlinAllowedOutputs } from '../argsParsers/kotlinArgsParser';
+import { WikiAllowedOutputs } from '../argsParsers/wikiArgsParser';
 
 export interface Association {
   name: string;

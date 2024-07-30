@@ -43,7 +43,6 @@ export class FilesListGenerator extends ListGenerator {
       logGroupId: 'files',
       pargs: param.pargs,
       logger: param.logger,
-      gitClient: param.gitClient,
     });
     this.files = param.files;
   }

@@ -24,9 +24,9 @@
  *
  */
 
-import {BasePreviewGenerator, PreviewGeneratorParams} from './basePreviewGenerator';
-import {FolderAssociation} from '../types/associations';
-import {ROOT} from '../utils';
+import { BasePreviewGenerator, PreviewGeneratorParams } from './basePreviewGenerator';
+import { FolderAssociation } from '../types/associations';
+import { ROOT } from '../utils';
 
 export interface FoldersPreviewGeneratorParams extends PreviewGeneratorParams {
   folders: FolderAssociation[],
@@ -41,7 +41,6 @@ export class FoldersPreviewGenerator extends BasePreviewGenerator<FolderAssociat
       logGroupId: 'folders',
       pargs: params.pargs,
       logger: params.logger,
-      gitClient: params.gitClient,
     });
     this.folders = params.folders;
   }
