@@ -11767,6 +11767,14 @@
            iconType="FILE"
            pattern=".*\.tm(cg|Preferences|Properties|Theme|Language|Command|Snippet|Macro)"
            icon="/icons/files/textmate.svg"/>
+    <regex fileNames="tikuiconfig.json"
+           name="Tikui"
+           iconColor="310ca3"
+           priority="50"
+           iconType="FILE"
+           pattern="^tikuiconfig\.json$"
+           icon="/icons/files/tikui.svg"
+    />
     <regex fileNames="*.thor"
            name="Thor"
            iconColor="FFD54F"
