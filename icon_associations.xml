@@ -20,7 +20,6 @@
   ~ LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
   ~ OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
   ~ SOFTWARE.
-  ~
   -->
 
 <!--suppress ALL -->
@@ -11623,6 +11622,14 @@
            iconType="FILE"
            pattern="^\.?tailwind.*\.[cm]?[jt]s$"
            icon="/icons/files/tailwindcss.svg"/>
+    <regex fileNames="tsr.config.json"
+           name="TanStack Router"
+           iconColor="66BB6A"
+           url="https://tanstack.com/router/latest/docs/framework/react/guide/file-based-routing#file-naming-conventions"
+           priority="100"
+           iconType="FILE"
+           pattern="^tsr\.config\.json$"
+           icon="/icons/files/tanstack.svg"/>
     <regex fileNames="Taskfile.yml,Taskfile.yaml,Taskfile.dist.yml,Taskfile.dist.yaml"
            name="Taskfile"
            iconColor="29beb0"
