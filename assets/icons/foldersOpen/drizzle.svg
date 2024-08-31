@@ -1,0 +1,32 @@
+<!--
+  - The MIT License (MIT)
+  -
+  - Copyright (c) 2015-2024 Elior "Mallowigi" Boukhobza
+  -
+  - Permission is hereby granted, free of charge, to any person obtaining a copy
+  - of this software and associated documentation files (the "Software"), to deal
+  - in the Software without restriction, including without limitation the rights
+  - to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+  - copies of the Software, and to permit persons to whom the Software is
+  - furnished to do so, subject to the following conditions:
+  -
+  - The above copyright notice and this permission notice shall be included in all
+  - copies or substantial portions of the Software.
+  -
+  - THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+  - IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+  - FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+  - AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+  - LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+  - OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+  - SOFTWARE.
+  -->
+
+<svg data-big="true" width="16px" height="16px" xmlns="http://www.w3.org/2000/svg" clip-rule="evenodd" fill-rule="evenodd"
+     stroke-linejoin="round" stroke-miterlimit="1.41" viewBox="0 0 24 24">
+  <path fill="#4caf50" data-folderColor="Drizzle"
+        d="M20,18H4V8H20M20,6H12L10,4H4C2.89,4 2,4.89 2,6V18A2,2 0 0,0 4,20H20A2,2 0 0,0 22,18V8C22,6.89 21.1,6 20,6Z"/>
+  <path data-folderIconColor="Drizzle" fill="#c8e6c9" transform="scale(0.7) translate(2 2)"
+        d="M9.7438,26.21913m1.00847.99833,3.12682-5.76413a1.512,1.512,0,0,0-.57346-2.03408,1.452,1.452,0,0,0-1.995.58525L8.18384,25.76778a1.51242,1.51242,0,0,0,.57346,2.03451,1.43655,1.43655,0,0,0,.70908.187A1.46238,1.46238,0,0,0,10.75227,27.21746Zm10.30469,0,3.12681-5.76413a1.512,1.512,0,0,0-.57346-2.03408,1.45177,1.45177,0,0,0-1.995.58525l-3.12682,5.76328a1.51242,1.51242,0,0,0,.57346,2.03451,1.43652,1.43652,0,0,0,.70908.187A1.46239,1.46239,0,0,0,21.057,27.21746ZM18.1612,22.007l3.32606-5.75987a1.5074,1.5074,0,0,0-.51821-2.0409,1.44712,1.44712,0,0,0-2.00166.52805l-3.32607,5.75986a1.50811,1.50811,0,0,0,.51821,2.04133,1.43,1.43,0,0,0,.74005.20576A1.45558,1.45558,0,0,0,18.1612,22.007Zm10.31054,0,3.32607-5.75987a1.50741,1.50741,0,0,0-.51821-2.0409,1.44713,1.44713,0,0,0-2.00167.52805l-3.32606,5.75986a1.50811,1.50811,0,0,0,.51821,2.04133,1.43,1.43,0,0,0,.74005.20576A1.45556,1.45556,0,0,0,28.47174,22.007Z"
+  />
+</svg>
