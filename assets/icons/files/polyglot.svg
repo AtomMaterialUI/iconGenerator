@@ -1,0 +1,51 @@
+<!--
+  - The MIT License (MIT)
+  -
+  - Copyright (c) 2015-2024 Elior "Mallowigi" Boukhobza
+  -
+  - Permission is hereby granted, free of charge, to any person obtaining a copy
+  - of this software and associated documentation files (the "Software"), to deal
+  - in the Software without restriction, including without limitation the rights
+  - to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+  - copies of the Software, and to permit persons to whom the Software is
+  - furnished to do so, subject to the following conditions:
+  -
+  - The above copyright notice and this permission notice shall be included in all
+  - copies or substantial portions of the Software.
+  -
+  - THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+  - IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+  - FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+  - AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+  - LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+  - OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+  - SOFTWARE.
+  -->
+
+<svg xmlns="http://www.w3.org/2000/svg" width="16px" height="16px" viewBox="0 0 72 72" data-big="true">
+  <defs>
+    <mask id="Mask" maskUnits="userSpaceOnUse" x="0" y="0" width="72" height="72" fill="white">
+      <path d="M56 48H60C61.104 48 62 48.896 62 50V56C62 57.104 61.104 58 60 58H56V48Z"/>
+      <path d="M56 36H60C61.104 36 62 36.896 62 38V44C62 45.104 61.104 46 60 46H56V36Z"/>
+      <path d="M56 24H60C61.104 24 62 24.896 62 26V32C62 33.104 61.104 34 60 34H56V24Z"/>
+      <path d="M56 12H60C61.104 12 62 12.896 62 14V20C62 21.104 61.104 22 60 22H56V12Z"/>
+      <path d="M15 60V49H57V60C57 61.6477 55.6477 63 54 63H18C16.3523 63 15 61.6477 15 60Z"
+            stroke-width="2"/>
+      <path d="M58 14V52C58 54.2 56.2 56 54 56H18C15.8 56 14 57.8 14 60V14C14 10.68 16.68 8 20 8H52C55.32 8 58 10.68 58 14Z"
+      />
+      <rect x="23" y="16" width="27" height="9" rx="2" fill="black"/>
+    </mask>
+  </defs>
+
+  <g mask="url(#Mask)" fill="#A35CFF" data-iconColor="Polyglot Notebooks">
+    <path d="M56 48H60C61.104 48 62 48.896 62 50V56C62 57.104 61.104 58 60 58H56V48Z"/>
+    <path d="M56 36H60C61.104 36 62 36.896 62 38V44C62 45.104 61.104 46 60 46H56V36Z"/>
+    <path d="M56 24H60C61.104 24 62 24.896 62 26V32C62 33.104 61.104 34 60 34H56V24Z"/>
+    <path d="M56 12H60C61.104 12 62 12.896 62 14V20C62 21.104 61.104 22 60 22H56V12Z"/>
+    <path d="M15 60V49H57V60C57 61.6477 55.6477 63 54 63H18C16.3523 63 15 61.6477 15 60Z"
+          stroke-width="2"/>
+    <path d="M58 14V52C58 54.2 56.2 56 54 56H18C15.8 56 14 57.8 14 60V14C14 10.68 16.68 8 20 8H52C55.32 8 58 10.68 58 14Z"
+    />
+    <rect x="23" y="16" width="27" height="9" rx="2" fill="white"/>
+  </g>
+</svg>

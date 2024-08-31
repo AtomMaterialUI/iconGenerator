@@ -147,13 +147,13 @@
            iconType="FOLDER"
            pattern="^[\._]?apollo(-(config|cache|client))?$"
            icon="/apollo.svg"/>
-    <regex folderNames="app,application,apps,applications,.app,.application,_app,_application"
+    <regex folderNames="app,application,apps,applications,.app,.application,_app,_application,sdk,sdks,.sdk,_sdks"
            name="App"
            folderColor="ef5350"
            folderIconColor="ffcdd2"
            priority="100"
            iconType="FOLDER"
-           pattern="^[\._]?(apps?|applications?)$"
+           pattern="^[\._]?(apps?|applications?|sdks?)$"
            icon="/app.svg"/>
     <regex folderNames=".xcworkspace,.xcodeproj"
            name="Appstore"
@@ -1599,6 +1599,14 @@
            iconType="FOLDER"
            pattern="^[\._]?moon$"
            icon="/moon.svg"/>
+    <regex folderNames="msw,.msw,_msw"
+           name="MSW"
+           folderColor="ff7043"
+           folderIconColor="ffccbc"
+           priority="100"
+           iconType="FOLDER"
+           pattern="^[\._]?(msw)$"
+           icon="/msw.svg"/>
     <!--endregion-->
 
     <!--region N-->
