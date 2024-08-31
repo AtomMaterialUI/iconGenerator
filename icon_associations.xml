@@ -10435,6 +10435,15 @@
            iconType="FILE"
            pattern=".*/(routing|routes)/[^/]*\.([cm]?jsx?|tsx?)$"
            icon="/icons/files/routesfiles.svg"/>
+    <regex
+        fileNames="rspack.config.js,rspack.config.ts,rspack.config.cjs,rspack.config.mjs,rsbuild.config.js,rsbuild.config.ts,rsbuild.config.cjs,rsbuild.config.mjs,rspress.config.js,rspress.config.ts,rspress.config.cjs,rspress.config.mjs"
+        name="Rspack"
+        iconColor="ffbc9c"
+        url="https://rspack.dev/config.html#supported-configuration-file-formats"
+        priority="100"
+        iconType="FILE"
+        pattern="(rspack|rsbuild|rspress)\.config\.([cm]?js|ts)$"
+        icon="/icons/files/rspack.svg"/>
     <regex fileNames="controller_spec.rb,model_spec.rb"
            name="RSpec"
            iconColor="D52A29"
