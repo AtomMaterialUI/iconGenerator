@@ -237,13 +237,13 @@
            pattern="^[\._]?aurelia_project$"
            icon="/aurelia.svg"/>
     <regex folderNames="aws,.aws,_aws,amazon,_amazon,.amazon,s3,_s3,.s3,ecs,.ecs,_ecs,ecr,_ecr,.ecr,tableau,.tableau,
-        cloudfront,_cloudfront,athena,.athena"
+        cloudfront,_cloudfront,athena,.athena,cloudflare"
            name="AWS"
            folderColor="FF8F00"
            folderIconColor="ffecb3"
            priority="100"
            iconType="FOLDER"
-           pattern="^[\._]?(aws|amazon|s3|ecs|ecr|tableau|cloudfront|athena)$"
+           pattern="^[\._]?(aws|amazon|s3|ecs|ecr|tableau|cloudfront|athena|cloudflare)$"
            icon="/aws.svg"/>
     <regex folderNames="azure,.azure,_azure,azuredevops,azure-devops,.azuredevops,_azure-devop"
            name="Azure Devops"
@@ -620,6 +620,14 @@
            iconType="FOLDER"
            pattern="^[\._]?dapr$"
            icon="/dapr.svg"/>
+    <regex folderNames="dart,.dart,_dart"
+           name="Dart"
+           folderColor="47C5FB"
+           folderIconColor="#BBDEFB"
+           priority="100"
+           iconType="FOLDER"
+           pattern="^[\._]?dart$"
+           icon="/dart.svg"/>
     <regex folderNames="db,migrate,migrations,database,repo,repos,repositories,repository,.db,_db,_migrate,.migrations,
         .database,_database,.repos,_repos,_repository"
            name="DB"
@@ -1548,7 +1556,7 @@
            folderIconColor="D7CCC8"
            priority="100"
            iconType="FOLDER"
-               pattern="^[\._]?(modals?|portals?|usecases?|dialogs?|dialogbox(es)?|popups?)$"
+           pattern="^[\._]?(modals?|portals?|usecases?|dialogs?|dialogbox(es)?|popups?)$"
            icon="/modals.svg"/>
     <regex folderNames="model,models,struct,structs,class,classes,.models,_models,_struct,.struct,.class,_classes,
         entity,.entity,entities,_entities,dto,.dto,_dto,object,objects,_objects"
