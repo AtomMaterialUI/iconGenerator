@@ -851,13 +851,13 @@
            iconType="FOLDER"
            pattern="^[\._]?(errors?|exceptions?|crash(es)?)$"
            icon="/error.svg"/>
-    <regex folderNames="event,events,.event,_events,.events"
+    <regex folderNames="event,events,.event,_events,.events,signal,signals,.signal,_signals"
            name="Events"
            folderColor="66BB6A"
            folderIconColor="C8E6C9"
            priority="100"
            iconType="FOLDER"
-           pattern="^[\._]?(events?)$"
+           pattern="^[\._]?(events?|signals?)$"
            icon="/events.svg"/>
     <regex folderNames="example,examples,.example,_examples,demo,demos,.demos,_demos,sample,samples,.sample,_samples"
            name="Examples"
@@ -961,13 +961,13 @@
            pattern="^[\._]?flutter$"
            icon="/flutter.svg"/>
 
-    <regex folderNames="font,fonts,.fonts,_fonts"
+    <regex folderNames="font,fonts,.fonts,_fonts,typeface,typefaces,.typeface,.typefaces,_typeface"
            name="Fonts"
            folderColor="607D8B"
            folderIconColor="CFD8DC"
            priority="100"
            iconType="FOLDER"
-           pattern="^[\._]?fonts?$"
+           pattern="^[\._]?(fonts?|typefaces?)$"
            icon="/fonts.svg"/>
     <regex folderNames="func,.func,funcs,_funcs,function,functions,service,services,lambda,lambdas,
         .functions,_functions,_lambda,.lambda,.services,_services,handler,handlers,.handlers,_handler,rpc,.rpc"
@@ -1122,13 +1122,13 @@
         iconType="FOLDER"
         pattern="^[\._]?(home|start|tutos?|tutorials?)$"
         icon="/home.svg"/>
-    <regex folderNames="hooks,hook,triggers,trigger,.hook,_hooks,_triggers"
+    <regex folderNames="hooks,hook,triggers,trigger,.hook,_hooks,_triggers,composable,.composables,_composables"
            name="Hooks"
            folderColor="9575CD"
            folderIconColor="D1C4E9"
            priority="100"
            iconType="FOLDER"
-           pattern="^[\._]?(hooks?|triggers?)"
+           pattern="^[\._]?(hooks?|triggers?|composables?)"
            icon="/hook.svg"/>
     <regex folderNames="husky,.husky,_husky"
            name="Husky"
@@ -1224,6 +1224,14 @@
            iconType="FOLDER"
            pattern="^[\._]?internals?$"
            icon="/internal.svg"/>
+    <regex folderNames="islands,.islands,_islands"
+           name="Islands"
+           folderColor="F78C6C"
+           folderIconColor="FFE0B2"
+           priority="100"
+           iconType="FOLDER"
+           pattern="^[\._]?(islands?)$"
+           icon="/islands.svg"/>
     <regex folderNames=".nyc,.nyc-output,.nyc_output"
            name="Istanbul"
            folderColor="FFB300"
@@ -1659,6 +1667,14 @@
            iconType="FOLDER"
            pattern="[\._]?nuxt$"
            icon="/nuxt.svg"/>
+    <regex folderNames="nx,.nx,_nx"
+           name="Nx"
+           folderColor="64B5F6"
+           folderIconColor="DFF8FB"
+           priority="100"
+           iconType="FOLDER"
+           pattern="^[\._]?nx$"
+           icon="/nx.svg"/>
     <!--endregion-->
 
     <!--region O-->
@@ -2346,13 +2362,13 @@
            pattern="^[\._]?targets?$"
            icon="/target.svg"/>
     <regex folderNames="cli,task,tasks,command,commands,cmd,console,consoles,.run,.cli,.tasks,_commands,_cli,
-        _consoles,.command,workflows,.workflows,_workflow,ticket,tickets,_ticket,.tickets"
+        _consoles,.command,workflows,.workflows,_workflow,ticket,tickets,_ticket,.tickets,shell,.shell,bash,_bash,.zsh,_zsh,.fish,_fish"
            name="Tasks"
            folderColor="795774"
            folderIconColor="CE93D8"
            priority="100"
            iconType="FOLDER"
-           pattern="^[\._]?(cli|tasks?|commands?|cmd|consoles?|.run|workflows?|tickets?)$"
+           pattern="^[\._]?(cli|tasks?|commands?|cmd|consoles?|.run|workflows?|tickets?|shell|bash|zsh|fish)$"
            icon="/tasks.svg"/>
     <regex folderNames="taskfile,taskfiles,.taskfile,_taskfile,_taskfiles"
            name="Taskfile"
