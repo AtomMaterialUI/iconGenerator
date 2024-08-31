@@ -2817,6 +2817,14 @@
            url="https://contextmapper.org/"
            pattern=".*\.cml$"
            icon="/icons/files/cml.svg"/>
+    <regex fileNames="contentlayer.config.js,contentlayer.config.ts"
+           name="ContentLayer"
+           iconColor="#7C4DFF"
+           priority="100"
+           iconType="FILE"
+           pattern="contentlayer\.config\.([cm]?js|ts)$"
+           icon="/icons/files/contentlayer.svg"/>
+
     <regex fileNames=".contributorsrc"
            name="Contributors"
            iconColor="F78AE0"
@@ -13403,6 +13411,14 @@
            iconType="FILE"
            pattern=".*\.(ac3|m4p|f4a|f4b|it|s3m|sndh)$"
            icon="/icons/files/audio3.svg"/>
+
+    <regex fileNames="*.nsf,*.gym,*.vgm,*.vgz,*.sfc,*.sfx"
+           name="Chiptune"
+           iconColor="FF4081"
+           priority="100"
+           iconType="FILE"
+           pattern=".*\.(sfc|vgm|vgz|nsf|gym|sfx)$"
+           icon="/icons/files/chiptune.svg"/>
     <!--endregion-->
 
     <!--region Video -->
