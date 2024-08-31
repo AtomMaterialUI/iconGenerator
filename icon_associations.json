@@ -17413,6 +17413,17 @@
         },
         {
           "value": {
+            "fileNames": "tikuiconfig.json",
+            "name": "Tikui",
+            "iconColor": "310ca3",
+            "priority": "50",
+            "iconType": "FILE",
+            "pattern": "^tikuiconfig\\.json$",
+            "icon": "/icons/files/tikui.svg"
+          }
+        },
+        {
+          "value": {
             "fileNames": "*.thor",
             "name": "Thor",
             "iconColor": "FFD54F",

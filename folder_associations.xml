@@ -1541,13 +1541,14 @@
            pattern="^[\._]?(mocks?|fakes?|stubs?|wireframes?|sketch(es)?)$"
            icon="/mocks.svg"/>
     <regex folderNames="modal,modals,portal,portals,usecase,usecases,.modal,.modals,_portal,.portals,
-        _usecase,_usecases,dialog,.dialog,dialogs,_dialogs,popup,.popup,popups,_popups"
+        _usecase,_usecases,dialog,.dialog,dialogs,_dialogs,dialogbox,.dialogbox,dialogboxes,_dialogboxes,
+        popup,.popup,popups,_popups"
            name="Modals"
            folderColor="8d6e63"
            folderIconColor="D7CCC8"
            priority="100"
            iconType="FOLDER"
-           pattern="^[\._]?(modals?|portals?|usecases?|dialogs?|popups?)$"
+               pattern="^[\._]?(modals?|portals?|usecases?|dialogs?|dialogbox(es)?|popups?)$"
            icon="/modals.svg"/>
     <regex folderNames="model,models,struct,structs,class,classes,.models,_models,_struct,.struct,.class,_classes,
         entity,.entity,entities,_entities,dto,.dto,_dto,object,objects,_objects"
