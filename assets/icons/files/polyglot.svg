@@ -20,9 +20,10 @@
   - LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
   - OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
   - SOFTWARE.
+  -
   -->
 
-<svg xmlns="http://www.w3.org/2000/svg" width="16px" height="16px" viewBox="0 0 72 72" data-big="true">
+<svg xmlns="http://www.w3.org/2000/svg" width="16px" height="16px" viewBox="0 0 72 72">
   <defs>
     <mask id="Mask" maskUnits="userSpaceOnUse" x="0" y="0" width="72" height="72" fill="white">
       <path d="M56 48H60C61.104 48 62 48.896 62 50V56C62 57.104 61.104 58 60 58H56V48Z"/>
@@ -31,7 +32,8 @@
       <path d="M56 12H60C61.104 12 62 12.896 62 14V20C62 21.104 61.104 22 60 22H56V12Z"/>
       <path d="M15 60V49H57V60C57 61.6477 55.6477 63 54 63H18C16.3523 63 15 61.6477 15 60Z"
             stroke-width="2"/>
-      <path d="M58 14V52C58 54.2 56.2 56 54 56H18C15.8 56 14 57.8 14 60V14C14 10.68 16.68 8 20 8H52C55.32 8 58 10.68 58 14Z"
+      <path
+          d="M58 14V52C58 54.2 56.2 56 54 56H18C15.8 56 14 57.8 14 60V14C14 10.68 16.68 8 20 8H52C55.32 8 58 10.68 58 14Z"
       />
       <rect x="23" y="16" width="27" height="9" rx="2" fill="black"/>
     </mask>
@@ -44,7 +46,8 @@
     <path d="M56 12H60C61.104 12 62 12.896 62 14V20C62 21.104 61.104 22 60 22H56V12Z"/>
     <path d="M15 60V49H57V60C57 61.6477 55.6477 63 54 63H18C16.3523 63 15 61.6477 15 60Z"
           stroke-width="2"/>
-    <path d="M58 14V52C58 54.2 56.2 56 54 56H18C15.8 56 14 57.8 14 60V14C14 10.68 16.68 8 20 8H52C55.32 8 58 10.68 58 14Z"
+    <path
+        d="M58 14V52C58 54.2 56.2 56 54 56H18C15.8 56 14 57.8 14 60V14C14 10.68 16.68 8 20 8H52C55.32 8 58 10.68 58 14Z"
     />
     <rect x="23" y="16" width="27" height="9" rx="2" fill="white"/>
   </g>

@@ -184,13 +184,13 @@
         },
         {
           "value": {
-            "folderNames": "app,application,apps,applications,.app,.application,_app,_application",
+            "folderNames": "app,application,apps,applications,.app,.application,_app,_application,sdk,sdks,.sdk,_sdks",
             "name": "App",
             "folderColor": "ef5350",
             "folderIconColor": "ffcdd2",
             "priority": "100",
             "iconType": "FOLDER",
-            "pattern": "^[\\._]?(apps?|applications?)$",
+            "pattern": "^[\\._]?(apps?|applications?|sdks?)$",
             "icon": "/app.svg"
           }
         },
@@ -316,13 +316,13 @@
         },
         {
           "value": {
-            "folderNames": "aws,.aws,_aws,amazon,_amazon,.amazon,s3,_s3,.s3,ecs,.ecs,_ecs,ecr,_ecr,.ecr,tableau,.tableau,\n        cloudfront,_cloudfront,athena,.athena",
+            "folderNames": "aws,.aws,_aws,amazon,_amazon,.amazon,s3,_s3,.s3,ecs,.ecs,_ecs,ecr,_ecr,.ecr,tableau,.tableau,\n        cloudfront,_cloudfront,athena,.athena,cloudflare",
             "name": "AWS",
             "folderColor": "FF8F00",
             "folderIconColor": "ffecb3",
             "priority": "100",
             "iconType": "FOLDER",
-            "pattern": "^[\\._]?(aws|amazon|s3|ecs|ecr|tableau|cloudfront|athena)$",
+            "pattern": "^[\\._]?(aws|amazon|s3|ecs|ecr|tableau|cloudfront|athena|cloudflare)$",
             "icon": "/aws.svg"
           }
         },
@@ -484,13 +484,13 @@
         },
         {
           "value": {
-            "folderNames": "cart,carts,.cart,.carts,_cart,shop,shops,.shop,basket,baskets,_basket,.baskets,marketing,.marketing",
+            "folderNames": "cart,carts,.cart,.carts,_cart,shop,shops,.shop,basket,baskets,_basket,.baskets,marketing,.marketing,products,.products,sku,skus,.sku,.skus",
             "name": "Cart",
             "folderColor": "FFA000",
             "folderIconColor": "FFECB3",
             "priority": "100",
             "iconType": "FOLDER",
-            "pattern": "^[\\._]?(carts?|shops?|baskets?|marketing)$",
+            "pattern": "^[\\._]?(carts?|shops?|baskets?|marketing|products?|skus?)$",
             "icon": "/cart.svg"
           }
         },
@@ -868,6 +868,18 @@
         },
         {
           "value": {
+            "folderNames": "dart,.dart,_dart",
+            "name": "Dart",
+            "folderColor": "47C5FB",
+            "folderIconColor": "#BBDEFB",
+            "priority": "100",
+            "iconType": "FOLDER",
+            "pattern": "^[\\._]?dart$",
+            "icon": "/dart.svg"
+          }
+        },
+        {
+          "value": {
             "folderNames": "db,migrate,migrations,database,repo,repos,repositories,repository,.db,_db,_migrate,.migrations,\n        .database,_database,.repos,_repos,_repository",
             "name": "DB",
             "folderColor": "7CB342",
@@ -988,13 +1000,13 @@
         },
         {
           "value": {
-            "folderNames": "docker,.docker,_docker,dockerfiles,.dockerfiles,_dockerfiles",
+            "folderNames": "docker,.docker,_docker,dockerfiles,.dockerfiles,_dockerfiles,dockerhub,.dockerhub,_dockerhub",
             "name": "Docker",
             "folderColor": "039be5",
             "folderIconColor": "b3e5fc",
             "priority": "100",
             "iconType": "FOLDER",
-            "pattern": "^[\\._]?(docker|dockerfiles)$",
+            "pattern": "^[\\._]?(docker|dockerfiles|dockerhub)$",
             "icon": "/docker.svg"
           }
         },
@@ -1032,6 +1044,18 @@
             "iconType": "FOLDER",
             "pattern": "^[\\._]?(dl|downloads?)$",
             "icon": "/download.svg"
+          }
+        },
+        {
+          "value": {
+            "folderNames": ".drizzle,drizzle,_drizzle",
+            "name": "Drizzle",
+            "folderColor": "4caf50",
+            "folderIconColor": "c8e6c9",
+            "priority": "100",
+            "iconType": "FOLDER",
+            "pattern": "^[\\._]?drizzle$",
+            "icon": "/drizzle.svg"
           }
         },
         {
@@ -1144,6 +1168,18 @@
         },
         {
           "value": {
+            "folderNames": "empties,empty,.empty,.empties,_empty,stocks,.stocks,_stocks",
+            "name": "Empties",
+            "folderColor": "8690BA",
+            "folderIconColor": "E9EAEA",
+            "priority": "100",
+            "iconType": "FOLDER",
+            "pattern": "^[\\._]?(empty|empties|stocks)$",
+            "icon": "/empties.svg"
+          }
+        },
+        {
+          "value": {
             "folderNames": "env,envs,environment,environments,.env,_env,.environment,_environments",
             "name": "Env",
             "folderColor": "8BC34A",
@@ -1168,13 +1204,13 @@
         },
         {
           "value": {
-            "folderNames": "event,events,.event,_events,.events",
+            "folderNames": "event,events,.event,_events,.events,signal,signals,.signal,_signals",
             "name": "Events",
             "folderColor": "66BB6A",
             "folderIconColor": "C8E6C9",
             "priority": "100",
             "iconType": "FOLDER",
-            "pattern": "^[\\._]?(events?)$",
+            "pattern": "^[\\._]?(events?|signals?)$",
             "icon": "/events.svg"
           }
         },
@@ -1240,6 +1276,18 @@
         },
         {
           "value": {
+            "folderNames": "favorite,favorites,.favorite,_favorites,fav,favs,.fav,_favs,bookmark,bookmarks,.bookmark,_bookmarks",
+            "name": "Favorites",
+            "folderColor": "F06292",
+            "folderIconColor": "EBEBEB",
+            "priority": "100",
+            "iconType": "FOLDER",
+            "pattern": "^[\\._]?(favorites?|favs?|bookmarks?)$",
+            "icon": "/favorites.svg"
+          }
+        },
+        {
+          "value": {
             "folderNames": "feature,features,feat,feats,.feature,_feat,_feats,.feats",
             "name": "Features",
             "folderColor": "ef5350",
@@ -1300,13 +1348,25 @@
         },
         {
           "value": {
-            "folderNames": "font,fonts,.fonts,_fonts",
+            "folderNames": "flutter",
+            "name": "Flutter",
+            "folderColor": "03a9f4",
+            "folderIconColor": "b3e5fc",
+            "priority": "100",
+            "iconType": "FOLDER",
+            "pattern": "^[\\._]?flutter$",
+            "icon": "/flutter.svg"
+          }
+        },
+        {
+          "value": {
+            "folderNames": "font,fonts,.fonts,_fonts,typeface,typefaces,.typeface,.typefaces,_typeface",
             "name": "Fonts",
             "folderColor": "607D8B",
             "folderIconColor": "CFD8DC",
             "priority": "100",
             "iconType": "FOLDER",
-            "pattern": "^[\\._]?fonts?$",
+            "pattern": "^[\\._]?(fonts?|typefaces?)$",
             "icon": "/fonts.svg"
           }
         },
@@ -1528,13 +1588,13 @@
         },
         {
           "value": {
-            "folderNames": "hooks,hook,triggers,trigger,.hook,_hooks,_triggers",
+            "folderNames": "hooks,hook,triggers,trigger,.hook,_hooks,_triggers,composable,.composables,_composables",
             "name": "Hooks",
             "folderColor": "9575CD",
             "folderIconColor": "D1C4E9",
             "priority": "100",
             "iconType": "FOLDER",
-            "pattern": "^[\\._]?(hooks?|triggers?)",
+            "pattern": "^[\\._]?(hooks?|triggers?|composables?)",
             "icon": "/hook.svg"
           }
         },
@@ -1668,6 +1728,18 @@
             "iconType": "FOLDER",
             "pattern": "^[\\._]?internals?$",
             "icon": "/internal.svg"
+          }
+        },
+        {
+          "value": {
+            "folderNames": "islands,.islands,_islands",
+            "name": "Islands",
+            "folderColor": "F78C6C",
+            "folderIconColor": "FFE0B2",
+            "priority": "100",
+            "iconType": "FOLDER",
+            "pattern": "^[\\._]?(islands?)$",
+            "icon": "/islands.svg"
           }
         },
         {
@@ -2128,13 +2200,13 @@
         },
         {
           "value": {
-            "folderNames": "modal,modals,portal,portals,usecase,usecases,.modal,.modals,_portal,.portals,\n        _usecase,_usecases,dialog,.dialog,dialogs,_dialogs,popup,.popup,popups,_popups",
+            "folderNames": "modal,modals,portal,portals,usecase,usecases,.modal,.modals,_portal,.portals,\n        _usecase,_usecases,dialog,.dialog,dialogs,_dialogs,dialogbox,.dialogbox,dialogboxes,_dialogboxes,\n        popup,.popup,popups,_popups",
             "name": "Modals",
             "folderColor": "8d6e63",
             "folderIconColor": "D7CCC8",
             "priority": "100",
             "iconType": "FOLDER",
-            "pattern": "^[\\._]?(modals?|portals?|usecases?|dialogs?|popups?)$",
+            "pattern": "^[\\._]?(modals?|portals?|usecases?|dialogs?|dialogbox(es)?|popups?)$",
             "icon": "/modals.svg"
           }
         },
@@ -2188,6 +2260,18 @@
         },
         {
           "value": {
+            "folderNames": "msw,.msw,_msw",
+            "name": "MSW",
+            "folderColor": "ff7043",
+            "folderIconColor": "ffccbc",
+            "priority": "100",
+            "iconType": "FOLDER",
+            "pattern": "^[\\._]?(msw)$",
+            "icon": "/msw.svg"
+          }
+        },
+        {
+          "value": {
             "folderNames": "geo,.geo,_geo,nav,.nav,_nav,navigation,navigate,.navigations,_navigations,.navigate",
             "name": "Navigation",
             "folderColor": "ff7043",
@@ -2236,13 +2320,13 @@
         },
         {
           "value": {
-            "folderNames": "notebook,notebooks,.notebooks,_notebooks,jupyter-notebook,jupyter-notebooks,\n        .jupyter-notebook,.jupyter-notebooks,_jupyter-notebook,_jupyter-notebooks,jupyter,.jupyter,_jupyter",
+            "folderNames": "notebook,notebooks,.notebooks,_notebooks,jupyter-notebook,jupyter-notebooks,\n        .jupyter-notebook,.jupyter-notebooks,_jupyter-notebook,_jupyter-notebooks,jupyter,.jupyter,_jupyter,ipynb,.ipynb,_ipynb",
             "name": "Notebooks",
             "folderColor": "F78C6C",
             "folderIconColor": "FFE0B2",
             "priority": "100",
             "iconType": "FOLDER",
-            "pattern": "[\\._]?(notebooks?|jupyter|jupyter-notebooks?)",
+            "pattern": "[\\._]?(notebooks?|jupyter|jupyter-notebooks?|ipynb)",
             "icon": "/notebooks.svg"
           }
         },
@@ -2284,6 +2368,18 @@
         },
         {
           "value": {
+            "folderNames": "nx,.nx,_nx",
+            "name": "Nx",
+            "folderColor": "64B5F6",
+            "folderIconColor": "DFF8FB",
+            "priority": "100",
+            "iconType": "FOLDER",
+            "pattern": "^[\\._]?nx$",
+            "icon": "/nx.svg"
+          }
+        },
+        {
+          "value": {
             "folderNames": "openshift,.openshift,_openshift",
             "name": "OpenShift",
             "folderColor": "c62828",
@@ -2292,6 +2388,18 @@
             "iconType": "FOLDER",
             "pattern": "^[\\._]?openshift$",
             "icon": "/openshift.svg"
+          }
+        },
+        {
+          "value": {
+            "folderNames": "order,orders,.order,_orders,.orders,list,lists,.list,_lists,.lists,listing,listings,.listing,_listings",
+            "name": "Orders",
+            "folderColor": "D65C75",
+            "folderIconColor": "EBEBEB",
+            "priority": "100",
+            "iconType": "FOLDER",
+            "pattern": "^[\\._]?(orders?|lists?|listings?)$",
+            "icon": "/orders.svg"
           }
         },
         {
@@ -2496,6 +2604,18 @@
             "iconType": "FOLDER",
             "pattern": "^[\\._]?private$",
             "icon": "/private.svg"
+          }
+        },
+        {
+          "value": {
+            "folderNames": "profile,profiles,.profile,_profiles,.profiles,persona,personas,.persona,_personas,.personas",
+            "name": "Profiles",
+            "folderColor": "7491EE",
+            "folderIconColor": "EBEBEB",
+            "priority": "100",
+            "iconType": "FOLDER",
+            "pattern": "^[\\._]?(profiles?|personas?)$",
+            "icon": "/profiles.svg"
           }
         },
         {
@@ -2968,13 +3088,25 @@
         },
         {
           "value": {
-            "folderNames": "src,source,sources,code,buildSrc,.src,_src,_source,.sources,.code,_code,.buildSrc",
+            "folderNames": "skeletons,.skeletons,_skeletons,placeholders,.placeholders,_placeholders",
+            "name": "Skeletons",
+            "folderColor": "616161",
+            "folderIconColor": "FFA726",
+            "priority": "100",
+            "iconType": "FOLDER",
+            "pattern": "^[\\._]?(skeletons?|placeholders?)$",
+            "icon": "/skeletons.svg"
+          }
+        },
+        {
+          "value": {
+            "folderNames": "src,source,sources,code,buildSrc,.src,_src,_source,.sources,.code,_code,.buildSrc,snippets,.snippets,.snippet",
             "name": "Sources",
             "folderColor": "5C6BC0",
             "folderIconColor": "89ddff",
             "priority": "100",
             "iconType": "FOLDER",
-            "pattern": "^[\\._]?(src|sources?|code|buildSrc)$",
+            "pattern": "^[\\._]?(src|sources?|code|buildSrc|snippets?)$",
             "icon": "/src.svg"
           }
         },
@@ -3232,13 +3364,13 @@
         },
         {
           "value": {
-            "folderNames": "cli,task,tasks,command,commands,cmd,console,consoles,.run,.cli,.tasks,_commands,_cli,\n        _consoles,.command,workflows,.workflows,_workflow,ticket,tickets,_ticket,.tickets",
+            "folderNames": "cli,task,tasks,command,commands,cmd,console,consoles,.run,.cli,.tasks,_commands,_cli,\n        _consoles,.command,workflows,.workflows,_workflow,ticket,tickets,_ticket,.tickets,shell,.shell,bash,_bash,.zsh,_zsh,.fish,_fish",
             "name": "Tasks",
             "folderColor": "795774",
             "folderIconColor": "CE93D8",
             "priority": "100",
             "iconType": "FOLDER",
-            "pattern": "^[\\._]?(cli|tasks?|commands?|cmd|consoles?|.run|workflows?|tickets?)$",
+            "pattern": "^[\\._]?(cli|tasks?|commands?|cmd|consoles?|.run|workflows?|tickets?|shell|bash|zsh|fish)$",
             "icon": "/tasks.svg"
           }
         },
@@ -3436,13 +3568,13 @@
         },
         {
           "value": {
-            "folderNames": "util,utils,tool,tools,.util,_utils,_tools,.tools,utility,.utility,utilities,_utilities,\n        toolkit,toolkits,.toolkit,_toolkits,toolbox,toolboxes,.toolbox,_toolboxes,tooling,.tooling",
+            "folderNames": "util,utils,tool,tools,.util,_utils,_tools,.tools,utility,.utility,utilities,_utilities,\n        toolkit,toolkits,.toolkit,_toolkits,toolbox,toolboxes,.toolbox,_toolboxes,tooling,.tooling,devtools,.devtools",
             "name": "Utils",
             "folderColor": "78909C",
             "folderIconColor": "F5F5F5",
             "priority": "100",
             "iconType": "FOLDER",
-            "pattern": "^[\\._]?(utils?|tools?|utilities|utility|toolkits?|toolbox(es)?|tooling)$",
+            "pattern": "^[\\._]?(utils?|tools?|utilities|utility|toolkits?|toolbox(es)?|tooling|devtools)$",
             "icon": "/tools.svg"
           }
         },
@@ -3460,13 +3592,13 @@
         },
         {
           "value": {
-            "folderNames": "vendor,vendors,lib,libs,library,.library,libraries,.libraries,Pod,Pods,stdlib,\n        .vendor,_vendor,.vendors,.lib,_lib,.Pods,_Pod,.stdlib,_stdlib",
+            "folderNames": "vendor,vendors,lib,libs,library,.library,libraries,.libraries,Pod,Pods,stdlib,\n        .vendor,_vendor,.vendors,.lib,_lib,.Pods,_Pod,.stdlib,_stdlib,.lib64,_lib64",
             "name": "Vendors",
             "folderColor": "6CAC23",
             "folderIconColor": "A5D6A7",
             "priority": "100",
             "iconType": "FOLDER",
-            "pattern": "^[\\._]?(vendors?|libs?|library|libraries|Pods?|stdlib)$",
+            "pattern": "^[\\._]?(vendors?|libs?|library|libraries|Pods?|stdlib|lib64)$",
             "icon": "/lib.svg"
           }
         },
@@ -3676,13 +3808,13 @@
         },
         {
           "value": {
-            "folderNames": "windows,.windows,_windows,.win,_win,win",
+            "folderNames": "windows,.windows,_windows,.win,_win,win,win32,win64",
             "name": "Windows",
             "folderColor": "1E88E5",
             "folderIconColor": "90CAF9",
             "priority": "100",
             "iconType": "FOLDER",
-            "pattern": "^[\\._]?(win|windows)$",
+            "pattern": "^[\\._]?(win(32|64)?|windows)$",
             "icon": "/windows.svg"
           }
         },

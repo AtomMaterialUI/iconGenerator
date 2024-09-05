@@ -20,15 +20,17 @@
   - LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
   - OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
   - SOFTWARE.
+  -
   -->
 
-<svg data-big="true" width="16px" height="16px" clip-rule="evenodd" fill-rule="evenodd" stroke-linejoin="round"
+<svg width="16px" height="16px" clip-rule="evenodd" fill-rule="evenodd" stroke-linejoin="round"
      stroke-miterlimit="1.414" viewBox="0 0 24 24"
      xmlns="http://www.w3.org/2000/svg">
   <defs>
     <mask id="Mask">
-      <path d="M14.924 9.185a1.5 1.5 0 0 0-1.5 1.5v9a1.5 1.5 0 0 0 1.5 1.5h7a1.5 1.5 0 0 0 1.5-1.5v-9a1.5 1.5 0 0 0-1.5-1.5z"
-            fill="white" transform="translate(.31 -.414)"/>
+      <path
+          d="M14.924 9.185a1.5 1.5 0 0 0-1.5 1.5v9a1.5 1.5 0 0 0 1.5 1.5h7a1.5 1.5 0 0 0 1.5-1.5v-9a1.5 1.5 0 0 0-1.5-1.5z"
+          fill="white" transform="translate(.31 -.414)"/>
       <path d="M16.4 10.4v5.2h1.6v4.3l3.8-5.7h-2.2l2.2-3.8H16.4z" fill="black"/>
     </mask>
   </defs>
@@ -36,8 +38,9 @@
         fill="#009688" data-folderColor="Vitepress"
         fill-rule="nonzero"/>
   <g mask="url(#Mask)">
-    <path d="M14.924 9.185a1.5 1.5 0 0 0-1.5 1.5v9a1.5 1.5 0 0 0 1.5 1.5h7a1.5 1.5 0 0 0 1.5-1.5v-9a1.5 1.5 0 0 0-1.5-1.5z"
-          fill="#C8E6C9" transform="translate(.31 -.414)" data-folderIconColor="Vitepress"/>
+    <path
+        d="M14.924 9.185a1.5 1.5 0 0 0-1.5 1.5v9a1.5 1.5 0 0 0 1.5 1.5h7a1.5 1.5 0 0 0 1.5-1.5v-9a1.5 1.5 0 0 0-1.5-1.5z"
+        fill="#C8E6C9" transform="translate(.31 -.414)" data-folderIconColor="Vitepress"/>
     <path d="M16.4 10.4v5.2h1.6v4.3l3.8-5.7h-2.2l2.2-3.8H16.4z" fill="#009688"/>
   </g>
 </svg>

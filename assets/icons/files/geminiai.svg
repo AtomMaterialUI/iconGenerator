@@ -20,8 +20,9 @@
   - LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
   - OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
   - SOFTWARE.
+  -
   -->
-<svg width="16px" height="16px" xmlns="http://www.w3.org/2000/svg" data-big="true">
+<svg width="16px" height="16px" xmlns="http://www.w3.org/2000/svg" >
   <path data-iconColor="Gemini AI"
         d="M15 8.014A7.457 7.457 0 008.014 15h-.028A7.456 7.456 0 001 8.014v-.028A7.456 7.456 0 007.986 1h.028A7.457 7.457 0 0015 7.986z"
         fill="#448AFF"/>

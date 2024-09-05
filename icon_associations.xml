@@ -20,6 +20,7 @@
   ~ LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
   ~ OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
   ~ SOFTWARE.
+  ~
   -->
 
 <!--suppress ALL -->
@@ -5006,14 +5007,15 @@
            iconType="FILE"
            pattern=".*\.(gql|graphqls?|gqlconfig)$"
            icon="/icons/files/graphql.svg"/>
-    <regex fileNames=".graphqlconfig,.graphql.config.js,.graphqlrc,.graphqlrc.json,.graphql.config.yaml,graphql.config.yml"
-           name="GraphQL Config"
-           iconColor="EC407A"
-           url="https://graphql.org/"
-           priority="100"
-           iconType="FILE"
-           pattern="^\.?graphql(\.?config|rc).*$"
-           icon="/icons/files/graphqlconfig.svg"/>
+    <regex
+        fileNames=".graphqlconfig,.graphql.config.js,.graphqlrc,.graphqlrc.json,.graphql.config.yaml,graphql.config.yml"
+        name="GraphQL Config"
+        iconColor="EC407A"
+        url="https://graphql.org/"
+        priority="100"
+        iconType="FILE"
+        pattern="^\.?graphql(\.?config|rc).*$"
+        icon="/icons/files/graphqlconfig.svg"/>
     <regex fileNames="*.gv,*.graphviz"
            name="Graphviz"
            iconColor="26A2C1"
@@ -9517,14 +9519,15 @@
            iconType="FILE"
            pattern="^\.puppeteerrc(\.([cm]?js|ts|json|ya?ml))?$"
            icon="/icons/files/puppeteerrc.svg"/>
-    <regex fileNames="puppeteer.config.js,puppeteer.config.ts,puppeteer.config.json,puppeteer.config.yml,puppeteer.config.yaml"
-           name="Puppeteer Config"
-           iconColor="00bfa5"
-           url="https://pptr.dev"
-           priority="100"
-           iconType="FILE"
-           pattern="^puppeteer\.config\.([cm]?js|ts|json|ya?ml)$"
-           icon="/icons/files/puppeteer.svg"/>
+    <regex
+        fileNames="puppeteer.config.js,puppeteer.config.ts,puppeteer.config.json,puppeteer.config.yml,puppeteer.config.yaml"
+        name="Puppeteer Config"
+        iconColor="00bfa5"
+        url="https://pptr.dev"
+        priority="100"
+        iconType="FILE"
+        pattern="^puppeteer\.config\.([cm]?js|ts|json|ya?ml)$"
+        icon="/icons/files/puppeteer.svg"/>
     <regex fileNames="*.pure"
            name="Pure"
            iconColor="b4b4b4"
@@ -9670,7 +9673,7 @@
            url="https://quasar.dev/"
            priority="100"
            iconType="FILE"
-           pattern="^quasar\.conf\.[cm]?js$"
+           pattern="^quasar\.conf\.([cm]?js|ts)$"
            icon="/icons/files/quasar.svg"/>
     <regex fileNames="quokka.config.js,quokka.config.cjs,quokka.config.mjs,quokka.config.ts"
            name="Quokka"
@@ -12440,22 +12443,24 @@
            iconType="FILE"
            pattern="^velite\.config\.[cm]?[jt]s$"
            icon="/icons/files/velite.svg"/>
-    <regex fileNames="velociraptor.js,velociraptor.ts,velociraptor.cjs,velociraptor.mjs,velociraptor.yaml,velociraptor.yml"
-           name="Velociraptor"
-           iconColor="00B0FF"
-           url="https://velociraptor.run/"
-           priority="100"
-           iconType="FILE"
-           pattern="^velociraptor\.([cm]?js|ts|ya?ml)$"
-           icon="/icons/files/velociraptor.svg"/>
-    <regex fileNames="velociraptor.js,velociraptor.ts,velociraptor.cjs,velociraptor.mjs,velociraptor.yaml,velociraptor.yml"
-           name="Velocity"
-           iconColor="0288d1"
-           url="https://velocity.apache.org/"
-           priority="100"
-           iconType="FILE"
-           pattern=".*\.(vm|vtl|fhtml)"
-           icon="/icons/files/velocity.svg"/>
+    <regex
+        fileNames="velociraptor.js,velociraptor.ts,velociraptor.cjs,velociraptor.mjs,velociraptor.yaml,velociraptor.yml"
+        name="Velociraptor"
+        iconColor="00B0FF"
+        url="https://velociraptor.run/"
+        priority="100"
+        iconType="FILE"
+        pattern="^velociraptor\.([cm]?js|ts|ya?ml)$"
+        icon="/icons/files/velociraptor.svg"/>
+    <regex
+        fileNames="velociraptor.js,velociraptor.ts,velociraptor.cjs,velociraptor.mjs,velociraptor.yaml,velociraptor.yml"
+        name="Velocity"
+        iconColor="0288d1"
+        url="https://velocity.apache.org/"
+        priority="100"
+        iconType="FILE"
+        pattern=".*\.(vm|vtl|fhtml)"
+        icon="/icons/files/velocity.svg"/>
     <regex fileNames="vercel.json"
            name="Vercel"
            iconColor="212121"
@@ -12543,14 +12548,15 @@
            iconType="FILE"
            pattern=".*\.vbproj$"
            icon="/icons/files/vbproj.svg"/>
-    <regex fileNames="*.vssettings,*.vstemplate,*.vsconfig,*.lsproj,*.modelproj,*.njsproj,*.wmaproj,*.sln,*.suo,*.rc,*.slnx"
-           name="Visual Studio"
-           iconColor="7963E6"
-           url="https://visualstudio.microsoft.com/"
-           priority="100"
-           iconType="FILE"
-           pattern=".*\.(vssettings|vsconfig|vstemplate|lsproj|modelproj|njsproj|wmaproj|slnx?|suo|rc)$"
-           icon="/icons/files/vs.svg"/>
+    <regex
+        fileNames="*.vssettings,*.vstemplate,*.vsconfig,*.lsproj,*.modelproj,*.njsproj,*.wmaproj,*.sln,*.suo,*.rc,*.slnx"
+        name="Visual Studio"
+        iconColor="7963E6"
+        url="https://visualstudio.microsoft.com/"
+        priority="100"
+        iconType="FILE"
+        pattern=".*\.(vssettings|vsconfig|vstemplate|lsproj|modelproj|njsproj|wmaproj|slnx?|suo|rc)$"
+        icon="/icons/files/vs.svg"/>
     <regex fileNames="vitest.config.js,vitest.config.ts,vitest.workspace.js,vitest.workspace.ts"
            name="Vitest"
            iconColor="729B1B"

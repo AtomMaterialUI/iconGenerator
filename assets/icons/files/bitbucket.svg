@@ -20,9 +20,10 @@
   - LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
   - OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
   - SOFTWARE.
+  -
   -->
 
-<svg data-big="true" xmlns="http://www.w3.org/2000/svg" width="16px" height="16px" viewBox="0 0 14 14">
+<svg  xmlns="http://www.w3.org/2000/svg" width="16px" height="16px" viewBox="0 0 14 14">
   <g stroke="none" stroke-width="1" fill="#2684FF" data-iconColor="Bitbucket Pipelines" fill-rule="evenodd">
     <polygon fill="none"
              points="5.49462409 8.49565205 8.39462409 8.49565205 9.09462409 4.30144152 4.72351298 4.30144152"></polygon>

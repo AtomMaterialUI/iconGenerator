@@ -20,9 +20,10 @@
   - LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
   - OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
   - SOFTWARE.
+  -
   -->
 
-<svg data-big="true" width="16px" height="16px" viewBox="0 0 50 50" fill="none" xmlns="http://www.w3.org/2000/svg">
+<svg width="16px" height="16px" viewBox="0 0 50 50" fill="none" xmlns="http://www.w3.org/2000/svg">
   <g stroke="#00796B" data-iconColor="Swlang" stroke-width="3" stroke-linecap="round" stroke-linejoin="round">
     <path
         d="M25 38.3333C28.5362 38.3333 31.9276 36.9286 34.4281 34.4281C36.9286 31.9276 38.3333 28.5362 38.3333 25C38.3333 21.4638 36.9286 18.0724 34.4281 15.5719C31.9276 13.0714 28.5362 11.6667 25 11.6667C21.4638 11.6667 18.0724 13.0714 15.5719 15.5719C13.0714 18.0724 11.6667 21.4638 11.6667 25C11.6667 28.5362 13.0714 31.9276 15.5719 34.4281C18.0724 36.9286 21.4638 38.3333 25 38.3333Z"/>
