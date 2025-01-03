@@ -1,7 +1,7 @@
 <!--
   ~ The MIT License (MIT)
   ~
-  ~ Copyright (c) 2015-2024 Elior "Mallowigi" Boukhobza
+  ~ Copyright (c) 2015-2025 Elior "Mallowigi" Boukhobza
   ~
   ~ Permission is hereby granted, free of charge, to any person obtaining a copy
   ~ of this software and associated documentation files (the "Software"), to deal
@@ -20,7 +20,6 @@
   ~ LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
   ~ OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
   ~ SOFTWARE.
-  ~
   -->
 
 <!--suppress ALL -->
@@ -7646,6 +7645,15 @@
            iconPack="NEST"
            pattern=".*\.filter\.[tj]s$"
            icon="/icons/files/nestfilter.svg"/>
+    <regex fileNames="*.fixture.ts,*.fixture.js,*.testdata.ts,*.testdata.js"
+           name="Nest Fixture"
+           iconColor="8D6E63"
+           url="https://nestjs.com/"
+           priority="100"
+           iconType="FILE"
+           iconPack="NEST"
+           pattern=".*\.(fixture|testdata)\.[cm]?[tj]s$"
+           icon="/icons/files/nestfixture.svg"/>
     <regex fileNames="*.gateway.js,*.gateway.ts"
            name="Nest Gateway"
            iconColor="7E57C2"
@@ -7926,13 +7934,13 @@
            iconType="FILE"
            pattern="^nextflow\.config\.[cm]?js$"
            icon="/icons/files/nextflowconfig.svg"/>
-    <regex fileNames="next.config.js,next.config.mjs,next.config.cjs"
+    <regex fileNames="next.config.js,next.config.mjs,next.config.cjs,next.config.ts"
            name="Next JS"
            iconColor="90A4AE"
            url="https://nextjs.org/"
            priority="100"
            iconType="FILE"
-           pattern="^next\.config\.[cm]?js$"
+           pattern="^next\.config\.[cm]?[jt]s$"
            icon="/icons/files/nextjs.svg"/>
     <regex fileNames="404.js,*.404.ts,404.jsx,*.404.tsx,not-found.js,*.not-found.ts,not-found.jsx,*.not-found.tsx"
            name="NextJS 404"
