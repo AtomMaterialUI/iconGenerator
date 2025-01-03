@@ -10969,6 +10969,14 @@
            iconType="FILE"
            pattern="^\.sequelizerc(\.[cm]?js|ts|\.json)?$"
            icon="/icons/files/sequelize.svg"/>
+    <regex fileNames="components.json"
+           name="Shadcn"
+           iconColor="9E9E9E"
+           url="https://ui.shadcn.com/"
+           priority="100"
+           iconType="FILE"
+           pattern="^components\.json$"
+           icon="/icons/files/shadcn.svg"/>
     <regex fileNames="shadow-cljs.edn"
            name="Shadow CLJS"
            iconColor="76E013"
