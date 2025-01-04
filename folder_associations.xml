@@ -1403,13 +1403,13 @@
                iconType="FOLDER"
                pattern="^[\._]?lotties?$"
                icon="/lottie.svg"/>
-        <regex folderNames="lua,_lua,.lua"
+        <regex folderNames="lua,_lua,.lua,luau,.luau,_luau"
                name="Lua"
                folderColor="0288d1"
                folderIconColor="90caf9"
                priority="100"
                iconType="FOLDER"
-               pattern="^[\._]?lua$"
+               pattern="^[\._]?luau?$"
                icon="/lua.svg"/>
         <!--endregion-->
 
@@ -1634,7 +1634,7 @@
                iconType="FOLDER"
                pattern="^[\._]?next$"
                icon="/next.svg"/>
-        <regex folderNames="node_modules,.node_modules,_node_modules"
+        <regex folderNames="node_modules,.node_modules,_node_modules,.node,.nodejs,.npm,_node,npm"
                name="Node Modules"
                folderColor="8bc34a"
                folderIconColor="dcedc8"
@@ -1715,13 +1715,13 @@
 
         <!--region P-->
         <regex folderNames="package,packages,bundle,bundles,.bundle,.paket,module,modules,_package,.packages,
-        _bundles,.bundles,_paket,_modules,.module,pkg,pkgs,_pkgs"
+        _bundles,.bundles,_paket,_modules,.module,pkg,pkgs,_pkgs,serverpackages,.devpackages"
                name="Packages"
                folderColor="5C6BC0"
                folderIconColor="C5CAE9"
                priority="100"
                iconType="FOLDER"
-               pattern="^[\._]?(packages?|bundles?|paket|modules?|pkgs?)$"
+               pattern="^[\._]?(packages?|bundles?|paket|modules?|pkgs?|serverpackages?|devpackages?)$"
                icon="/packages.svg"/>
         <regex folderNames="parcel,.parcel,_parcel,parcel-cache,.parcel-cache,_parcel-cache"
                name="Parcel"
