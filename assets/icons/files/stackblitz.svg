@@ -22,8 +22,6 @@
   - SOFTWARE.
   -->
 
-<svg data-big="true" xmlns="http://www.w3.org/2000/svg" version="1.1" viewBox="0 0 256 256" width="16px" height="16px"
-     stroke-width="32px" stroke-linecap="round" stroke-linejoin="round" stroke="#9E9E9E" data-iconColor="Shadcn">
-  <line x1="208" y1="128" x2="128" y2="208"/>
-  <line x1="192" y1="40" x2="40" y2="192"/>
+<svg data-big="true" width="16px" height="16px" version="1.1" viewBox="0 0 16 16" xml:space="preserve" xmlns="http://www.w3.org/2000/svg">
+  <path d="m5 15 8-8h-4l2-6-8 8h4z" fill="#2196f3" stroke-width=".9476" data-iconColor="Stackblitz"/>
 </svg>
