@@ -1921,13 +1921,13 @@
                iconType="FILE"
                pattern="^(\.bunfig\.toml|bun-version)$"
                icon="/icons/files/bun.svg"/>
-        <regex fileNames="bun.lockb"
+        <regex fileNames="bun.lockb,bun.lock"
                name="Bun Lock"
                iconColor="e53935"
                url="https://bun.sh/"
                priority="100"
                iconType="FILE"
-               pattern="^bun\.lockb$"
+               pattern="^bun\.lockb?$"
                icon="/icons/files/bunlock.svg"/>
         <regex fileNames="bootstrap.js,bootstrap.ts,bootstrap.css,bootstrap.scss,custom.bootstrap.js"
                name="Bootstrap"
@@ -6255,13 +6255,14 @@
                iconType="FILE"
                pattern=".*\.(key|pem|gpg|der|ssh|passwd|kdbx|enc)"
                icon="/icons/files/key.svg"/>
-        <regex fileNames="publishToken,publishToken.xml,publishToken.txt,publishToken.md"
-               name="PublishToken"
-               iconColor="26a69a"
+        <regex fileNames="keystatic.config.js,keystatic.config.cjs,keystatic.config.mjs,keystatic.config.ts"
+               name="Keystatic"
+               iconColor="78909c"
+               url="https://keystatic.com/"
                priority="100"
                iconType="FILE"
-               pattern="publishToken.*"
-               icon="/icons/files/publishToken.svg"/>
+               pattern="^keystatic\.config\.([cm]?js|ts)$"
+               icon="/icons/files/keystatic.svg"/>
         <regex fileNames="*.kibo"
                name="Kibo"
                iconColor="ffd003"
@@ -6769,6 +6770,14 @@
                iconType="FILE"
                pattern=".*\.(ocrec|crec)$"
                icon="/icons/files/lync.svg"/>
+        <regex fileNames="*.lrc,*.lyric"
+               name="Lyric"
+               iconColor="42A5F5"
+               url="https://en.wikipedia.org/wiki/LRC_(file_format)"
+               priority="100"
+               iconType="FILE"
+               pattern=".*\.(lyric|lrc)$"
+               icon="/icons/files/lyric.svg"/>
         <!--endregion-->
 
         <!--region M -->
@@ -6868,6 +6877,14 @@
                iconType="FILE"
                pattern=".*\.mss$"
                icon="/icons/files/mapbox.svg"/>
+        <regex fileNames="*.mdoc,*.markdoc,markdoc.md,markdoc.config.js,markdoc.config.ts,markdoc.config.cjs"
+               name="Markdoc"
+               iconColor="ffb300"
+               url="https://markdoc.dev/"
+               priority="100"
+               iconType="FILE"
+               pattern="(.*\.(mdoc|markdoc)|markdoc\.md|markdoc\.config\.[cm]?[jt]s)$"
+               icon="/icons/files/markdoc.svg"/>
         <regex fileNames=".markdownlintrc,.markdownlint.json,.markdownlint.yaml,.markdownlint.jsonc,.mdlrc"
                name="MarkdownLint"
                iconColor="bb262c"
@@ -9536,6 +9553,13 @@
                iconType="FILE"
                pattern=".*\.(puz|pub)$"
                icon="/icons/files/publisher.svg"/>
+        <regex fileNames="publishToken,publishToken.xml,publishToken.txt,publishToken.md"
+               name="PublishToken"
+               iconColor="26a69a"
+               priority="100"
+               iconType="FILE"
+               pattern="publishToken.*"
+               icon="/icons/files/publishToken.svg"/>
         <regex fileNames="pullapprove.yml,.pullapprove.yaml"
                name="PullApprove"
                iconColor="0f9f6e"
