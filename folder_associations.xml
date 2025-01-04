@@ -49,13 +49,13 @@
                iconType="FOLDER"
                pattern="^[\._]?adapters?$"
                icon="/adapter.svg"/>
-        <regex folderNames="addon,addons,_addon,_addons,.addon,.addons"
+        <regex folderNames="addon,addons,_addon,_addons,.addon,.addons,.addin,.addins"
                name="Addons"
                folderColor="7CB342"
                folderIconColor="dcedc8"
                priority="100"
                iconType="FOLDER"
-               pattern="^[\._]?(addons?)$"
+               pattern="^[\._]?(addons?|addins)$"
                icon="/addon.svg"/>
         <regex
             folderNames="admin,_admin,.admin,.admins,admins,manager,managers,_managers,moderator,.moderator,moderators,_moderators"
@@ -114,14 +114,15 @@
                iconType="FOLDER"
                pattern="^[\._]?(angular|ng(App)?)$"
                icon="/angular.svg"/>
-        <regex folderNames="animation,animations,anims,anim,.anim,_anim,.animations,_animation,animated,.animated,_animated"
-               name="Animations"
-               folderColor="ec407a"
-               folderIconColor="f8bbd0"
-               priority="100"
-               iconType="FOLDER"
-               pattern="^[\._]?(animations?|anims?|animated)$"
-               icon="/animations.svg"/>
+        <regex
+            folderNames="animation,animations,anims,anim,.anim,_anim,.animations,_animation,animated,.animated,_animated,motions,.motions,transition,.transitions,_transitions,easings,.easing,houdini,.houdini,greensock,.greensock"
+            name="Animations"
+            folderColor="ec407a"
+            folderIconColor="f8bbd0"
+            priority="100"
+            iconType="FOLDER"
+            pattern="^[\._]?(animations?|anims?|animated|motions?|transitions?|easings?|houdini|greensock)$"
+            icon="/animations.svg"/>
         <regex
             folderNames="group_vars,host_vars,vars,roles,.group_vars,_roles,_host_vars,.vars,_playbooks,playbooks,ansible,_ansible,.ansible,collections"
             name="Ansible"
@@ -220,13 +221,13 @@
                pattern="^\.(cactions?|definitions?|workflows?|automations?)$"
                icon="/automator.svg"/>
         <regex folderNames="mp3,wav,music,musics,audio,sound,sounds,.mp3,_wav,_musics,.audio,.sounds,bgm,bgms,_bgms,
-        soundtrack,soundtracks,_soundtracks,ost,osts,_osts"
+        soundtrack,soundtracks,_soundtracks,ost,osts,_osts,voice,.voices,_voices,recordings,.recording,_recordings"
                name="Audio"
                folderColor="ef5350"
                folderIconColor="ffcdd2"
                priority="100"
                iconType="FOLDER"
-               pattern="^[\._]?(mp3|wav|musics?|audio|sounds?|bgms?|soundtracks?|osts?)$"
+               pattern="^[\._]?(mp3|wav|musics?|audio|sounds?|bgms?|soundtracks?|osts?|voices?|recordings?)$"
                icon="/audio.svg"/>
         <regex folderNames="aurelia_project,.aurelia_project,_aurelia_project"
                name="Aurelia"
@@ -398,13 +399,13 @@
                iconType="FOLDER"
                pattern="^[\._]?(ci|integrations?)$"
                icon="/ci.svg"/>
-        <regex folderNames="client,.client,_client,clients,_clients,frontend,.frontend,pwa,_pwa,.pwa"
+        <regex folderNames="client,.client,_client,clients,_clients,frontend,.frontend,pwa,_pwa,.pwa,spa,.spa"
                name="Client"
                folderColor="039BE5"
                folderIconColor="b3e5fc"
                priority="100"
                iconType="FOLDER"
-               pattern="^[\._]?(clients?|frontend|pwa)$"
+               pattern="^[\._]?(clients?|frontend|pwa|spa)$"
                icon="/client.svg"/>
         <regex folderNames=".circleci,circleci,_circleci"
                name="CircleCI"
@@ -735,13 +736,13 @@
                iconType="FOLDER"
                pattern="^[\._]?(domains?)$"
                icon="/domain.svg"/>
-        <regex folderNames="download,downloads,dl,.dl,_dl,_downloads"
+        <regex folderNames="download,downloads,dl,.dl,_dl,_downloads,downloaders,.downloaders,_downloaders"
                name="Downloads"
                folderColor="4caf50"
                folderIconColor="c8e6c9"
                priority="100"
                iconType="FOLDER"
-               pattern="^[\._]?(dl|downloads?)$"
+               pattern="^[\._]?(dl|downloads?|downloaders?)$"
                icon="/download.svg"/>
         <regex folderNames=".drizzle,drizzle,_drizzle"
                name="Drizzle"
@@ -1114,13 +1115,13 @@
                pattern="^[\._]?(helpers?|help)$"
                icon="/helper.svg"/>
         <regex
-            folderNames="home,.home,_home,start,.start,_start,tuto,tutos,.tutos,_tuto,tutorial,_tutorial,tutorials,.tutorials"
+            folderNames="home,.home,_home,start,.start,_start,tuto,tutos,.tutos,_tuto,tutorial,_tutorial,tutorials,.tutorials,.landing,landing"
             name="Home"
             folderColor="8D6E63"
             folderIconColor="BCAAA4"
             priority="100"
             iconType="FOLDER"
-            pattern="^[\._]?(home|start|tutos?|tutorials?)$"
+            pattern="^[\._]?(home|start|tutos?|tutorials?|landing)$"
             icon="/home.svg"/>
         <regex folderNames="hooks,hook,triggers,trigger,.hook,_hooks,_triggers,composable,.composables,_composables"
                name="Hooks"
@@ -2029,13 +2030,13 @@
                pattern="^[\._]?(res|resources?|assets?|reports?)$"
                icon="/resource.svg"/>
         <regex folderNames="review,reviews,.review,.reviews,_reviews,reviewed,.reviewed,revision,revisions,
-        .revisions,_revisions,pr,.pr,prs,_prs"
+        .revisions,_revisions,pr,.pr,prs,_prs,preview,previews,.preview,_previews"
                name="Reviews"
                folderColor="2196f3"
                folderIconColor="bbdefb"
                priority="100"
                iconType="FOLDER"
-               pattern="^[\._]?(reviews?|reviewed|revisions?|prs?)$"
+               pattern="^[\._]?(reviews?|reviewed|revisions?|prs?|previews?)$"
                icon="/reviews.svg"/>
         <regex folderNames="root,.root,_root,roots,.roots,_roots"
                name="Root"
@@ -2350,13 +2351,13 @@
                pattern="^[\._]?(sync|synced)$"
                icon="/sync.svg"/>
         <regex folderNames="syntax,syntaxes,spellcheck,.syntax,_syntax,_syntaxes,.spellcheck,_spellcheck,
-        grammar,.grammar,_grammars"
+        grammar,.grammar,_grammars,dict,.dict,_dict,dictionary,.dictionary,_dictionary,dictionaries,.dictionaries"
                name="Syntax"
                folderColor="ef5350"
                folderIconColor="FFCDD2"
                priority="100"
                iconType="FOLDER"
-               pattern="^[\._]?(syntax|syntaxes|spellcheck|grammars?)$"
+               pattern="^[\._]?(syntax|syntaxes|spellcheck|grammars?|dicts?|dictionar(y|ies))$"
                icon="/syntax.svg"/>
         <!--endregion-->
 
@@ -2567,13 +2568,13 @@
                iconType="FOLDER"
                pattern="^[\._]?verdaccio$"
                icon="/verdaccio.svg"/>
-        <regex folderNames="videos,video,movie,movies,.video,_videos,_movie,.movies"
+        <regex folderNames="videos,video,movie,movies,.video,_videos,_movie,.movies,vids,.vids,_vid,mov,.movs,mp4,.mp4"
                name="Video"
                folderColor="7986CB"
                folderIconColor="C5CAE9"
                priority="100"
                iconType="FOLDER"
-               pattern="^[\._]?(videos?|movies?)$"
+               pattern="^[\._]?(videos?|movies?|vids?|mp4|movs?)$"
                icon="/video.svg"/>
         <regex folderNames="view,views,template,templates,page,pages,.view,_views,.templates,_template,
         _page,.pages,html,_html,.html"
