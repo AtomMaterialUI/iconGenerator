@@ -54,6 +54,18 @@
         },
         {
           "value": {
+            "fileNames": "appwrite.js,appwrite.py,appwrite.ts,appwrite.cjs,appwrite.mjs",
+            "name": "Appwrite",
+            "priority": "100",
+            "iconType": "FILE",
+            "pattern": "appwrite\\.([cm]?js|ts|py)$",
+            "iconColor": "FD366E",
+            "url": "https://appwrite.io/",
+            "icon": "/icons/files/appwrite.svg"
+          }
+        },
+        {
+          "value": {
             "fileNames": "main.yml,workflow.yaml,ci.yaml,config.yml",
             "name": "GitHub Actions",
             "priority": "1001",

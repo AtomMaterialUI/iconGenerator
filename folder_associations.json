@@ -208,6 +208,18 @@
         },
         {
           "value": {
+            "folderNames": ".appwrite,appwrite,_appwrite",
+            "name": "Appwrite",
+            "folderColor": "FD366E",
+            "folderIconColor": "FAB1C6",
+            "priority": "100",
+            "iconType": "FOLDER",
+            "pattern": "^[\\._]?appwrite$",
+            "icon": "/appwrite.svg"
+          }
+        },
+        {
+          "value": {
             "folderNames": "archetypes,archetype,_archetype,_archetypes,schematic,_schematics",
             "name": "Archetype",
             "folderColor": "f06292",
