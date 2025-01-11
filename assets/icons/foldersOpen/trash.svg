@@ -27,6 +27,6 @@
      image-rendering="optimizeQuality" fill-rule="evenodd" clip-rule="evenodd">
     <path fill="#F44336" data-folderColor="Trash" transform="scale(20)"
           d="M20,18H4V8H20M20,6H12L10,4H4C2.89,4 2,4.89 2,6V18A2,2 0 0,0 4,20H20A2,2 0 0,0 22,18V8C22,6.89 21.1,6 20,6Z"/>
-    <path fill="#FFCDD2" folderIconColor="Trash"
+    <path fill="#FFCDD2" data-folderIconColor="Trash"
           d="M320 160v32h-96v32h32v192c0 17.63 14.38 32 32 32h160c17.63 0 32-14.37 32-32V224h32v-32h-96v-32h-96zm0 96v128h32V256h-32zm64 0v128h32V256h-32z"/>
 </svg>

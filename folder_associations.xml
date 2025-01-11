@@ -1788,13 +1788,13 @@
                iconType="FOLDER"
                pattern="^[\._]?pinia$"
                icon="/pinia.svg"/>
-        <regex folderNames="pipe,pipes,filter,filters,.pipes,_pipes,_filter,.filters"
+        <regex folderNames="pipe,pipes,filter,filters,.pipes,_pipes,_filter,.filters,pipeline,pipelines,.pipeline,_pipeline"
                name="Pipe"
                folderColor="00897b"
                folderIconColor="b2dfdb"
                priority="100"
                iconType="FOLDER"
-               pattern="^[\._]?(pipes?|filters?)$"
+               pattern="^[\._]?(pipes?|filters?|pipelines?)$"
                icon="/pipe.svg"/>
         <regex folderNames="plastic,.plastic,_plastic"
                name="Plastic SCM"

@@ -25,8 +25,8 @@
 
 <svg xmlns="http://www.w3.org/2000/svg" width="16px" height="16px" viewBox="0 0 512 512" data-big="true"
      image-rendering="optimizeQuality" fill-rule="evenodd" clip-rule="evenodd">
-    <path fill="#F44336" folderColor="Trash"
+    <path fill="#F44336" data-folderColor="Trash"
           d="M221.5 120.58l-20.6-17.16A32.01 32.01 0 00180.42 96H64c-17.67 0-32 14.33-32 32v256c0 17.67 14.33 32 32 32h384c17.67 0 32-14.33 32-32V160c0-17.67-14.33-32-32-32H241.98a32.01 32.01 0 01-20.48-7.42z"/>
-    <path fill="#FFCDD2" folderIconColor="Trash"
+    <path fill="#FFCDD2" data-folderIconColor="Trash"
           d="M320 160v32h-96v32h32v192c0 17.63 14.38 32 32 32h160c17.63 0 32-14.37 32-32V224h32v-32h-96v-32h-96zm0 96v128h32V256h-32zm64 0v128h32V256h-32z"/>
 </svg>

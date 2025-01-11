@@ -1485,13 +1485,13 @@
                iconType="FILE"
                pattern="\.?auto(rc|\.config)?(\.([cm]?[jt]s|ya?ml|json))?$"
                icon="/icons/files/auto.svg"/>
-        <regex fileNames="*.ahk,*.ahkl"
+        <regex fileNames="*.ahk,*.ahkl,*.ahk2"
                name="AutoHotKey"
                iconColor="6AAB20"
                url="https://www.autohotkey.com/"
                priority="100"
                iconType="FILE"
-               pattern=".*\.ahkl?$"
+               pattern=".*\.ahk[l2]?$"
                icon="/icons/files/ahk.svg"/>
         <regex fileNames="*.au3,*.autoit"
                name="AutoIt"
@@ -10760,6 +10760,14 @@
                iconType="FILE"
                pattern="^\.ruby-version$"
                icon="/icons/files/rubyversion.svg"/>
+        <regex fileNames="ruff.toml,.ruff.toml"
+               name="Ruff"
+               iconColor="D4E157"
+               url="https://docs.astral.sh/ruff/"
+               priority="100"
+               iconType="FILE"
+               pattern="^\.?ruff\.toml$"
+               icon="/icons/files/ruff.svg"/>
         <regex fileNames="*.ron"
                name="Rust Object Notation"
                iconColor="8d684c"
@@ -11608,6 +11616,15 @@
                iconType="FILE"
                pattern=".*\.?storybook/[^/]*\.(jsx?|tsx?)$"
                icon="/icons/files/storybookfiles.svg"/>
+        <regex
+            fileNames="stryker.conf.js,stryker.conf.json,stryker.conf.ts,stryker.conf.cjs,.stryker.conf.js,.stryker.conf.json,.stryker.conf.ts,.stryker.conf.cjs,stryker.config.js,stryker.config.json,stryker.config.ts,stryker.config.cjs,.stryker.config.js,.stryker.config.json,.stryker.config.ts,.stryker.config.cjs"
+            name="Stryker"
+            iconColor="ef5350"
+            url="https://stryker-mutator.io/"
+            priority="100"
+            iconType="FILE"
+            pattern="^\.?stryker\.conf(ig)?(\.[cm]?js|ts|json)?$"
+            icon="/icons/files/stryker.svg"/>
         <regex
             fileNames=".stylelintrc,stylelint.config.js,stylelint.config.json,.stylelintrc.js,.stylelintrc.json,.stylelintrc.yaml"
             name="Stylelint"
@@ -13090,6 +13107,14 @@
                iconType="FILE"
                pattern="^wpml-config\.xml$"
                icon="/icons/files/wpml.svg"/>
+        <regex fileNames="wrangler.toml,wrangler.json,wrangler.jsonc"
+               name="Wrangler"
+               iconColor="ffab40"
+               url="https://developers.cloudflare.com/workers/wrangler/configuration/"
+               priority="100"
+               iconType="FILE"
+               pattern="^wrangler\.(toml|json|jsonc)$"
+               icon="/icons/files/wrangler.svg"/>
         <regex fileNames="*.wurst"
                name="WurstScript"
                iconColor="40babe"
