@@ -1388,6 +1388,14 @@
                iconType="FOLDER"
                pattern="^[\._]?(linux|nux|unix)$"
                icon="/linux.svg"/>
+        <regex folderNames="changelog,changelogs,.changelogs,_changelogs,liquibase,.liquibase"
+               name="Liquibase"
+               folderColor="f44336"
+               folderIconColor="ffcdd2"
+               priority="100"
+               iconType="FOLDER"
+               pattern="^[\._]?(liquibase|changelogs?)$"
+               icon="/liquibase.svg"/>
         <regex folderNames="log,logs,.log,_logs"
                name="Logs"
                folderColor="607D8B"
@@ -1687,6 +1695,14 @@
         <!--endregion-->
 
         <!--region O-->
+        <regex folderNames="obsidian,.obsidian,_obsidian"
+               name="Obsidian"
+               folderColor="673AB7"
+               folderIconColor="D1C4E9"
+               priority="100"
+               iconType="FOLDER"
+               pattern="^[\._]?obsidian$"
+               icon="/obsidian.svg"/>
         <regex folderNames="openshift,.openshift,_openshift"
                name="OpenShift"
                folderColor="c62828"
@@ -2444,6 +2460,14 @@
                iconType="FOLDER"
                pattern="^[\._]?(traits?)$"
                icon="/trait.svg"/>
+        <regex folderNames="trash,bin,.trash,.bin,_trash,_bin"
+               name="Trash"
+               folderColor="F44336"
+               folderIconColor="FFCDD2"
+               priority="100"
+               iconType="FOLDER"
+               pattern="^[\._]?(trash|bin)$"
+               icon="/trash.svg"/>
         <regex folderNames="theme,themes,color,colors,scheme,schemes,skin,skins,.theme,_themes,.colors,_color,
         .schemes,_scheme,_skins,.skin,design,designs,.design,_designs"
                name="Themes"

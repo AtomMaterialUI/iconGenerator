@@ -1,0 +1,36 @@
+<!--
+  - The MIT License (MIT)
+  -
+  - Copyright (c) 2015-2025 Elior "Mallowigi" Boukhobza
+  -
+  - Permission is hereby granted, free of charge, to any person obtaining a copy
+  - of this software and associated documentation files (the "Software"), to deal
+  - in the Software without restriction, including without limitation the rights
+  - to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+  - copies of the Software, and to permit persons to whom the Software is
+  - furnished to do so, subject to the following conditions:
+  -
+  - The above copyright notice and this permission notice shall be included in all
+  - copies or substantial portions of the Software.
+  -
+  - THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+  - IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+  - FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+  - AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+  - LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+  - OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+  - SOFTWARE.
+  -
+  -->
+
+<svg xmlns="http://www.w3.org/2000/svg" width="16px" height="16px" viewBox="0 0 512 512" data-big="true"
+     fill-rule="evenodd" clip-rule="evenodd">
+    <path fill="#673AB7" data-folderColor="Nuxt" transform="scale(20)"
+          d="M20,18H4V8H20M20,6H12L10,4H4C2.89,4 2,4.89 2,6V18A2,2 0 0,0 4,20H20A2,2 0 0,0 22,18V8C22,6.89 21.1,6 20,6Z"/>
+    <g fill="#D1C4E9" folderIconColor="Obsidian">
+        <path
+            d="M336.2 318.24c8.07-1.51 12.6-2.02 21.66-2.02-34.18-89.72 48.95-139.27 18.63-155.11-17-8.88-52.32 37.77-72.93 56.26l-10.67 37.41c19.77 16.2 36.25 39.63 43.31 63.46zM411.24 447.15c13.05 3.85 26.66-5.92 28.52-19.42 1.35-9.81 3.51-20.65 8.24-30.94-2.66-7.51-25.72-71.18-104.74-56.39 7.6 31.4-4.15 64.54-22.83 91.02 33.14.31 59.29 6.45 90.81 15.73z"/>
+        <path
+            d="M478.76 346.86c7.02-12.43-16.61-22.28-28.74-50.78-10.52-24.69 4.93-53.82-8.18-66.23l-40.17-38.02c-14.09 38.27-40.29 56.91-17.12 123.38 37.13 6.98 67.48 27.2 77.55 58.42 0 0 13.67-21.49 16.66-26.77zM257.5 352.64c-8.21 18.67 17.96 36.81 43.46 63.29 29-40.73 24.17-88.95-15.12-127.91l-28.34 64.62z"/>
+    </g>
+</svg>
