@@ -13848,6 +13848,15 @@
                iconType="FILE"
                pattern=".*\.(css|tss)$"
                icon="/icons/files/css.svg"/>
+        <regex fileNames="*.css,*.tss"
+               name="CSS 2"
+               iconColor="AB47BC"
+               url="https://www.w3.org/Style/CSS/Overview.en.html"
+               priority="1"
+               iconType="FILE"
+               iconPack="CSS"
+               pattern=".*\.(css|tss)$"
+               icon="/icons/files/css2.svg"/>
         <regex fileNames="*.dart"
                name="Dart"
                iconColor="26A2C1"
