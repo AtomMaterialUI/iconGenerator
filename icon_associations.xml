@@ -1697,6 +1697,14 @@
                iconType="FILE"
                pattern=".*/[bB]eans?/.*\.java$"
                icon="/icons/files/beanfiles.svg"/>
+        <regex fileNames="*.bean,*.beancount"
+               name="Beancount"
+               iconColor="e64a19"
+               url="https://github.com/beancount/beancount"
+               priority="100"
+               iconType="FILE"
+               pattern=".*\.bean(count)?$"
+               icon="/icons/files/beancount.svg"/>
         <regex fileNames="*.feature.php"
                name="Behat"
                iconColor="39ADB5"
