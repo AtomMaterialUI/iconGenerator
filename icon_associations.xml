@@ -847,7 +847,7 @@
                priority="100"
                iconType="FILE"
                iconPack="ANGULAR"
-               pattern=".*\.container\.[tj]s$"
+               pattern=".*\.container\.[cm]?[tj]s$"
                url="https://angular.io/"
                icon="/icons/files/ngrxjs.svg"/>
         <regex fileNames="*.component.js,*.component.ts,*.component.ts"
@@ -856,7 +856,7 @@
                priority="100"
                iconType="FILE"
                iconPack="ANGULAR"
-               pattern=".*\.component\.(dart|[tj]s)$"
+               pattern=".*\.component\.(dart|[cm]?[tj]s)$"
                url="https://angular.io/"
                icon="/icons/files/angularcomponent.svg"/>
         <regex fileNames="*.component.js,*.component.ts,*.component.ts"
@@ -865,7 +865,7 @@
                priority="100"
                iconType="FILE"
                iconPack="ANGULAR2"
-               pattern=".*\.component\.(dart|[tj]s)$"
+               pattern=".*\.component\.(dart|[cm]?[tj]s)$"
                url="https://angular.io/"
                icon="/icons/files/angular2component.svg"/>
         <regex fileNames="*.controller.js,*.controller.ts,*.controller.dart"
@@ -874,7 +874,7 @@
                priority="100"
                iconType="FILE"
                iconPack="ANGULAR"
-               pattern=".*\.controller\.(dart|[tj]s)$"
+               pattern=".*\.controller\.(dart|[cm]?[tj]s)$"
                url="https://angular.io/"
                icon="/icons/files/angularcontroller.svg"/>
         <regex fileNames="*.controller.js,*.controller.ts,*.controller.dart"
@@ -883,7 +883,7 @@
                priority="100"
                iconType="FILE"
                iconPack="ANGULAR2"
-               pattern=".*\.controller\.(dart|[tj]s)$"
+               pattern=".*\.controller\.(dart|[cm]?[tj]s)$"
                url="https://angular.io/"
                icon="/icons/files/angular2controller.svg"/>
         <regex fileNames="*.directive.js,*.directive.ts,*.directive.dart"
@@ -892,7 +892,7 @@
                priority="100"
                iconType="FILE"
                iconPack="ANGULAR"
-               pattern=".*\.directive\.(dart|[tj]s)$"
+               pattern=".*\.directive\.(dart|[cm]?[tj]s)$"
                url="https://angular.io/"
                icon="/icons/files/angulardirective.svg"/>
         <regex fileNames="*.directive.js,*.directive.ts,*.directive.dart"
@@ -901,7 +901,7 @@
                priority="100"
                iconType="FILE"
                iconPack="ANGULAR2"
-               pattern=".*\.directive\.(dart|[tj]s)$"
+               pattern=".*\.directive\.(dart|[cm]?[tj]s)$"
                url="https://angular.io/"
                icon="/icons/files/angular2directive.svg"/>
         <regex fileNames="*.guard.js,*.guard.ts,*.guard.dart"
@@ -910,7 +910,7 @@
                priority="100"
                iconType="FILE"
                iconPack="ANGULAR"
-               pattern=".*\.guard\.(dart|[tj]s)$"
+               pattern=".*\.guard\.(dart|[cm]?[tj]s)$"
                url="https://angular.io/"
                icon="/icons/files/angularguard.svg"/>
         <regex fileNames="*.guard.js,*.guard.ts,*.guard.dart"
@@ -919,7 +919,7 @@
                priority="100"
                iconType="FILE"
                iconPack="ANGULAR2"
-               pattern=".*\.guard\.(dart|[tj]s)$"
+               pattern=".*\.guard\.(dart|[cm]?[tj]s)$"
                url="https://angular.io/"
                icon="/icons/files/angular2guard.svg"/>
         <regex fileNames="*.interceptor.js,*.interceptor.ts,*.interceptor.dart"
@@ -928,7 +928,7 @@
                priority="100"
                iconType="FILE"
                iconPack="ANGULAR"
-               pattern=".*\.interceptor\.(dart|[tj]s)$"
+               pattern=".*\.interceptor\.(dart|[cm]?[tj]s)$"
                url="https://angular.io/"
                icon="/icons/files/angularinterceptor.svg"/>
         <regex fileNames="*.interceptor.js,*.interceptor.ts,*.interceptor.dart"
@@ -937,7 +937,7 @@
                priority="100"
                iconType="FILE"
                iconPack="ANGULAR2"
-               pattern=".*\.interceptor\.(dart|[tj]s)$"
+               pattern=".*\.interceptor\.(dart|[cm]?[tj]s)$"
                url="https://angular.io/"
                icon="/icons/files/angular2interceptor.svg"/>
         <regex fileNames="*.routing.js,*.routing.ts,*.routing.dart,angular-routing.js,angular_routing.ts"
@@ -946,7 +946,7 @@
                priority="100"
                iconType="FILE"
                iconPack="ANGULAR"
-               pattern=".*[._-]routing\.(dart|[tj]s)$"
+               pattern=".*[._-]routing\.(dart|[cm]?[tj]s)$"
                url="https://angular.io/"
                icon="/icons/files/angularrouting.svg"/>
         <regex fileNames="*.module.js,*.module.ts,*.module.dart"
@@ -955,7 +955,7 @@
                priority="100"
                iconType="FILE"
                iconPack="ANGULAR"
-               pattern=".*\.module\.(dart|[tj]s)$"
+               pattern=".*\.module\.(dart|[cm]?[tj]s)$"
                url="https://angular.io/"
                icon="/icons/files/angularmodule.svg"/>
         <regex fileNames="*.module.js,*.module.ts,*.module.dart"
@@ -964,7 +964,7 @@
                priority="100"
                iconType="FILE"
                iconPack="ANGULAR2"
-               pattern=".*\.module\.(dart|[tj]s)$"
+               pattern=".*\.module\.(dart|[cm]?[tj]s)$"
                url="https://angular.io/"
                icon="/icons/files/angular2module.svg"/>
         <regex fileNames="*.service.js,*.service.ts,*.service.dart"
@@ -973,7 +973,7 @@
                priority="100"
                iconType="FILE"
                iconPack="ANGULAR"
-               pattern=".*\.service\.(dart|[tj]s)$"
+               pattern=".*\.service\.(dart|[cm]?[tj]s)$"
                url="https://angular.io/"
                icon="/icons/files/angularservice.svg"/>
         <regex fileNames="*.service.js,*.service.ts,*.service.dart"
@@ -982,7 +982,7 @@
                priority="100"
                iconType="FILE"
                iconPack="ANGULAR2"
-               pattern=".*\.service\.(dart|[tj]s)$"
+               pattern=".*\.service\.(dart|[cm]?[tj]s)$"
                url="https://angular.io/"
                icon="/icons/files/angular2service.svg"/>
         <regex fileNames="*.page.js,*.page.ts,*.page.dart"
@@ -991,7 +991,7 @@
                priority="100"
                iconType="FILE"
                iconPack="ANGULAR"
-               pattern=".*\.page\.(dart|[tj]s)$"
+               pattern=".*\.page\.(dart|[cm]?[tj]s)$"
                url="https://angular.io/"
                icon="/icons/files/ionic.svg"/>
         <regex fileNames="*.pipe.js,*.pipe.ts,*.pipe.dart"
@@ -1000,7 +1000,7 @@
                priority="100"
                iconType="FILE"
                iconPack="ANGULAR"
-               pattern=".*\.pipe\.(dart|[tj]s)$"
+               pattern=".*\.pipe\.(dart|[cm]?[tj]s)$"
                url="https://angular.io/"
                icon="/icons/files/angularpipe.svg"/>
         <regex fileNames="*.pipe.js,*.pipe.ts,*.pipe.dart"
@@ -1009,7 +1009,7 @@
                priority="100"
                iconType="FILE"
                iconPack="ANGULAR2"
-               pattern=".*\.pipe\.(dart|[tj]s)$"
+               pattern=".*\.pipe\.(dart|[cm]?[tj]s)$"
                url="https://angular.io/"
                icon="/icons/files/angular2pipe.svg"/>
         <regex fileNames="app-routing.module.js,app-routing.module.ts,app-routing.module.dart"
@@ -1018,7 +1018,7 @@
                priority="100"
                iconType="FILE"
                iconPack="ANGULAR"
-               pattern="^app-routing\.module\.(dart|[tj]s)$"
+               pattern="^app-routing\.module\.(dart|[cm]?[tj]s)$"
                url="https://angular.io/"
                icon="/icons/files/angularapprouting.svg"/>
         <regex fileNames="*.resolver.js,*.resolver.ts,*.resolver.dart"
@@ -1027,7 +1027,7 @@
                priority="100"
                iconType="FILE"
                iconPack="ANGULAR"
-               pattern=".*\.resolver\.(dart|[tj]s)$"
+               pattern=".*\.resolver\.(dart|[cm]?[tj]s)$"
                url="https://angular.io/"
                icon="/icons/files/angularresolver.svg"/>
         <regex fileNames="*.resolver.js,*.resolver.ts,*.resolver.dart"
@@ -1036,7 +1036,7 @@
                priority="100"
                iconType="FILE"
                iconPack="ANGULAR2"
-               pattern=".*\.resolver\.(dart|[tj]s)$"
+               pattern=".*\.resolver\.(dart|[cm]?[tj]s)$"
                url="https://angular.io/"
                icon="/icons/files/angular2resolver.svg"/>
         <regex fileNames="ng-tailwind.js,ng-tailwind.ts,ng-tailwind.dart"
@@ -1046,7 +1046,7 @@
                priority="100"
                iconType="FILE"
                iconPack="ANGULAR"
-               pattern="^.*\.?ng-tailwind\.(dart|[tj]s)$"
+               pattern="^.*\.?ng-tailwind\.(dart|[cm]?[tj]s)$"
                icon="/icons/files/angulartailwind.svg"/>
         <regex fileNames="*.anime,*.animestudio"
                name="Anime Studio"
@@ -7602,7 +7602,7 @@
                priority="100"
                iconType="FILE"
                iconPack="NEST"
-               pattern=".*\.adapter\.[tj]s$"
+               pattern=".*\.adapter\.[cm]?[tj]s$"
                icon="/icons/files/nestadapter.svg"/>
         <regex fileNames="*.args.js,*.args.ts"
                name="Nest Args"
@@ -7611,7 +7611,7 @@
                priority="100"
                iconType="FILE"
                iconPack="NEST"
-               pattern=".*\.(args|arguments)\.[tj]s$"
+               pattern=".*\.(args|arguments)\.[cm]?[tj]s$"
                icon="/icons/files/nestargs.svg"/>
         <regex fileNames="*.commands.js,*.commands.ts"
                name="Nest Commands"
@@ -7620,7 +7620,7 @@
                priority="100"
                iconType="FILE"
                iconPack="NEST"
-               pattern=".*\.commands?\.[tj]s$"
+               pattern=".*\.commands?\.[cm]?[tj]s$"
                icon="/icons/files/nestcommands.svg"/>
         <regex fileNames="*.controller.js,*.controller.ts"
                name="Nest Controller"
@@ -7629,7 +7629,7 @@
                priority="100"
                iconType="FILE"
                iconPack="NEST"
-               pattern=".*\.controller\.[tj]s$"
+               pattern=".*\.controller\.[cm]?[tj]s$"
                icon="/icons/files/nestcontroller.svg"/>
         <regex fileNames="*.constant.js,*.constant.ts,*.constants.js,*.constants.ts"
                name="Nest Constants"
@@ -7638,7 +7638,7 @@
                priority="100"
                iconType="FILE"
                iconPack="NEST"
-               pattern=".*\.constants?\.[tj]s$"
+               pattern=".*\.constants?\.[cm]?[tj]s$"
                icon="/icons/files/nestconstants.svg"/>
         <regex fileNames="*.constant.js,*.constant.ts,*.constants.js,*.constants.ts"
                name="Nest Constants Dark"
@@ -7647,7 +7647,7 @@
                priority="101"
                iconType="FILE"
                iconPack="NEST"
-               pattern=".*\.constants?\.[tj]s$"
+               pattern=".*\.constants?\.[cm]?[tj]s$"
                icon="/icons/files/nestconstants.svg"/>
         <regex fileNames="*.cron.ts,*.cron.js,*.tasks.ts,*.tasks.js"
                name="Nest Cron"
@@ -7656,7 +7656,7 @@
                priority="100"
                iconType="FILE"
                iconPack="NEST"
-               pattern=".*\.(cron|tasks?)\.[tj]s$"
+               pattern=".*\.(cron|tasks?)\.[cm]?[tj]s$"
                icon="/icons/files/nestcron.svg"/>
         <regex fileNames="*.decorator.js,*.decorator.ts"
                name="Nest Decorator"
@@ -7665,7 +7665,7 @@
                priority="100"
                iconType="FILE"
                iconPack="NEST"
-               pattern=".*\.decorator\.[tj]s$"
+               pattern=".*\.decorator\.[cm]?[tj]s$"
                icon="/icons/files/nestdecorator.svg"/>
         <regex fileNames="*.dto.js,*.dto.ts"
                name="Nest DTO"
@@ -7674,7 +7674,7 @@
                priority="100"
                iconType="FILE"
                iconPack="NEST"
-               pattern=".*\.dto\.[tj]s$"
+               pattern=".*\.dto\.[cm]?[tj]s$"
                icon="/icons/files/nestdto.svg"/>
         <regex fileNames="*.e2e-spec.js,*.e2e.ts"
                name="Nest E2E"
@@ -7683,7 +7683,7 @@
                priority="100"
                iconType="FILE"
                iconPack="NEST"
-               pattern=".*\.e2e(-spec)?\.[tj]s$"
+               pattern=".*\.e2e(-spec)?\.[cm]?[tj]s$"
                icon="/icons/files/neste2e.svg"/>
         <regex fileNames="*.entity.js,*.entity.ts"
                name="Nest Entity"
@@ -7692,7 +7692,7 @@
                priority="100"
                iconType="FILE"
                iconPack="NEST"
-               pattern=".*\.entity\.[tj]s$"
+               pattern=".*\.entity\.[cm]?[tj]s$"
                icon="/icons/files/nestentity.svg"/>
         <regex fileNames="*.filter.js,*.filter.ts"
                name="Nest Filter"
@@ -7701,7 +7701,7 @@
                priority="100"
                iconType="FILE"
                iconPack="NEST"
-               pattern=".*\.filter\.[tj]s$"
+               pattern=".*\.filter\.[cm]?[tj]s$"
                icon="/icons/files/nestfilter.svg"/>
         <regex fileNames="*.fixture.ts,*.fixture.js,*.testdata.ts,*.testdata.js"
                name="Nest Fixture"
@@ -7710,7 +7710,7 @@
                priority="100"
                iconType="FILE"
                iconPack="NEST"
-               pattern=".*\.(fixture|testdata)\.[cm]?[tj]s$"
+               pattern=".*\.(fixture|testdata)\.[cm]?[cm]?[tj]s$"
                icon="/icons/files/nestfixture.svg"/>
         <regex fileNames="*.gateway.js,*.gateway.ts"
                name="Nest Gateway"
@@ -7719,7 +7719,7 @@
                priority="100"
                iconType="FILE"
                iconPack="NEST"
-               pattern=".*\.gateway\.[tj]s$"
+               pattern=".*\.gateway\.[cm]?[tj]s$"
                icon="/icons/files/nestgateway.svg"/>
         <regex fileNames="*.gql.js,*.gql.ts,*.graphql.js,*.graphql.ts"
                name="Nest GraphQL"
@@ -7728,7 +7728,7 @@
                priority="100"
                iconType="FILE"
                iconPack="NEST"
-               pattern=".*\.(gql|graphql)\.[tj]s$"
+               pattern=".*\.(gql|graphql)\.[cm]?[tj]s$"
                icon="/icons/files/nestgql.svg"/>
         <regex fileNames="*.guard.js,*.guard.ts"
                name="Nest Guard"
@@ -7737,7 +7737,7 @@
                priority="100"
                iconType="FILE"
                iconPack="NEST"
-               pattern=".*\.guard\.[tj]s$"
+               pattern=".*\.guard\.[cm]?[tj]s$"
                icon="/icons/files/nestguard.svg"/>
         <regex fileNames="*.handlers.js,*.handlers.ts"
                name="Nest Handlers"
@@ -7746,8 +7746,17 @@
                priority="100"
                iconType="FILE"
                iconPack="NEST"
-               pattern=".*\.handlers?\.[tj]s$"
+               pattern=".*\.handlers?\.[cm]?[tj]s$"
                icon="/icons/files/nesthandlers.svg"/>
+        <regex fileNames="*.health.ts"
+               name="Nest Health"
+               iconColor="29B6F6"
+               url="https://nestjs.com/"
+               priority="100"
+               iconType="FILE"
+               iconPack="NEST"
+               pattern=".*\.health?\.[cm]?[tj]s$"
+               icon="/icons/files/nesthealth.svg"/>
         <regex fileNames="*.input.js,*.input.ts"
                name="Nest Input"
                iconColor="1565C0"
@@ -7755,7 +7764,7 @@
                priority="100"
                iconType="FILE"
                iconPack="NEST"
-               pattern=".*\.input\.[tj]s$"
+               pattern=".*\.input\.[cm]?[tj]s$"
                icon="/icons/files/nestinput.svg"/>
         <regex fileNames="*.interceptor.js,*.interceptor.ts"
                name="Nest Interceptor"
@@ -7764,7 +7773,7 @@
                priority="100"
                iconType="FILE"
                iconPack="NEST"
-               pattern=".*\.interceptor\.[tj]s$"
+               pattern=".*\.interceptor\.[cm]?[tj]s$"
                icon="/icons/files/nestinterceptor.svg"/>
         <regex fileNames="*.listener.js,*.listener.ts,*.listeners.js,*.listeners.ts"
                name="Nest Listener"
@@ -7773,7 +7782,7 @@
                priority="100"
                iconType="FILE"
                iconPack="NEST"
-               pattern=".*\.listeners?\.[tj]s$"
+               pattern=".*\.listeners?\.[cm]?[tj]s$"
                icon="/icons/files/nestlistener.svg"/>
         <regex fileNames="*.loaders.js,*.dataloaders.ts"
                name="Nest DataLoaders"
@@ -7782,7 +7791,7 @@
                priority="100"
                iconType="FILE"
                iconPack="NEST"
-               pattern=".*\.(data)?loaders\.[tj]s$"
+               pattern=".*\.(data)?loaders\.[cm]?[tj]s$"
                icon="/icons/files/nestloader.svg"/>
         <regex fileNames="*.middleware.js,*.middleware.ts"
                name="Nest Middleware"
@@ -7791,7 +7800,7 @@
                priority="100"
                iconType="FILE"
                iconPack="NEST"
-               pattern=".*\.middleware\.[tj]s$"
+               pattern=".*\.middleware\.[cm]?[tj]s$"
                icon="/icons/files/nestmiddleware.svg"/>
         <regex fileNames="*.model.js,*.model.ts"
                name="Nest Model"
@@ -7800,7 +7809,7 @@
                priority="100"
                iconType="FILE"
                iconPack="NEST"
-               pattern=".*\.model\.[tj]s$"
+               pattern=".*\.model\.[cm]?[tj]s$"
                icon="/icons/files/nestmodel.svg"/>
         <regex fileNames="*.module.js,*.module.ts"
                name="Nest Module"
@@ -7809,7 +7818,7 @@
                priority="100"
                iconType="FILE"
                iconPack="NEST"
-               pattern=".*\.module\.[tj]s$"
+               pattern=".*\.module\.[cm]?[tj]s$"
                icon="/icons/files/nestmodule.svg"/>
         <regex fileNames="*.pipe.js,*.pipe.ts"
                name="Nest Pipe"
@@ -7818,7 +7827,7 @@
                priority="100"
                iconType="FILE"
                iconPack="NEST"
-               pattern=".*\.pipe\.[tj]s$"
+               pattern=".*\.pipe\.[cm]?[tj]s$"
                icon="/icons/files/nestpipe.svg"/>
         <regex fileNames="*.processor.js,*.processor.ts,*.processors.js,*.processors.ts"
                name="Nest Processor"
@@ -7827,7 +7836,7 @@
                priority="100"
                iconType="FILE"
                iconPack="NEST"
-               pattern=".*\.processors?\.[tj]s$"
+               pattern=".*\.processors?\.[cm]?[tj]s$"
                icon="/icons/files/nestprocessor.svg"/>
         <regex fileNames="*.provider.js,*.provider.ts"
                name="Nest Provider"
@@ -7836,7 +7845,7 @@
                priority="100"
                iconType="FILE"
                iconPack="NEST"
-               pattern=".*\.provider\.[tj]s$"
+               pattern=".*\.provider\.[cm]?[tj]s$"
                icon="/icons/files/nestprovider.svg"/>
         <regex fileNames="*.queue.js,*.queue.ts,*.queues.js,*.queues.ts"
                name="Nest Queues"
@@ -7845,7 +7854,7 @@
                priority="100"
                iconType="FILE"
                iconPack="NEST"
-               pattern=".*\.queues?\.[tj]s$"
+               pattern=".*\.queues?\.[cm]?[tj]s$"
                icon="/icons/files/nestqueues.svg"/>
         <regex fileNames="*.repository.js,*.repository.ts"
                name="Nest Repository"
@@ -7854,7 +7863,7 @@
                priority="100"
                iconType="FILE"
                iconPack="NEST"
-               pattern=".*\.repository\.[tj]s$"
+               pattern=".*\.repository\.[cm]?[tj]s$"
                icon="/icons/files/nestrepository.svg"/>
         <regex fileNames="*.resolver.js,*.resolver.ts,*.resolvers.js,*.resolvers.ts"
                name="Nest Resolver"
@@ -7863,7 +7872,7 @@
                priority="100"
                iconType="FILE"
                iconPack="NEST"
-               pattern=".*\.resolvers?\.[tj]s$"
+               pattern=".*\.resolvers?\.[cm]?[tj]s$"
                icon="/icons/files/nestresolver.svg"/>
         <regex fileNames="*.scalar.js,*.scalar.ts"
                name="Nest Scalar"
@@ -7872,7 +7881,7 @@
                priority="100"
                iconType="FILE"
                iconPack="NEST"
-               pattern=".*\.scalar\.[tj]s$"
+               pattern=".*\.scalar\.[cm]?[tj]s$"
                icon="/icons/files/nestscalar.svg"/>
         <regex fileNames="*.schema.js,*.schema.ts"
                name="Nest Schema"
@@ -7881,7 +7890,7 @@
                priority="100"
                iconType="FILE"
                iconPack="NEST"
-               pattern=".*\.schema\.[tj]s$"
+               pattern=".*\.schema\.[cm]?[tj]s$"
                icon="/icons/files/nestschema.svg"/>
         <regex fileNames="*.service.js,*.service.ts"
                name="Nest Service"
@@ -7890,7 +7899,7 @@
                priority="100"
                iconType="FILE"
                iconPack="NEST"
-               pattern=".*\.service\.[tj]s$"
+               pattern=".*\.service\.[cm]?[tj]s$"
                icon="/icons/files/nestservice.svg"/>
         <regex fileNames="*.strategy.js,*.strategy.ts"
                name="Nest Strategy"
@@ -7899,7 +7908,7 @@
                priority="100"
                iconType="FILE"
                iconPack="NEST"
-               pattern=".*\.strategy\.[tj]s$"
+               pattern=".*\.strategy\.[cm]?[tj]s$"
                icon="/icons/files/neststrategy.svg"/>
         <regex fileNames="*.subscriber.js,*.subscriber.ts"
                name="Nest Subscriber"
@@ -7908,7 +7917,7 @@
                priority="100"
                iconType="FILE"
                iconPack="NEST"
-               pattern=".*\.subscriber\.[tj]s$"
+               pattern=".*\.subscriber\.[cm]?[tj]s$"
                icon="/icons/files/nestsubscriber.svg"/>
         <regex fileNames="*.types.js,*.types.ts"
                name="Nest Types"
@@ -7917,7 +7926,7 @@
                priority="100"
                iconType="FILE"
                iconPack="NEST"
-               pattern=".*\.types?\.[tj]s$"
+               pattern=".*\.types?\.[cm]?[tj]s$"
                icon="/icons/files/nesttypes.svg"/>
         <regex fileNames="*.util.js,*.utils.ts"
                name="Nest Utilities"
@@ -7926,7 +7935,7 @@
                priority="100"
                iconType="FILE"
                iconPack="NEST"
-               pattern=".*\.utils?\.[tj]s$"
+               pattern=".*\.utils?\.[cm]?[tj]s$"
                icon="/icons/files/nestutil.svg"/>
         <regex fileNames="netlify.toml"
                name="Netlify"
@@ -8007,7 +8016,7 @@
                priority="100"
                iconType="FILE"
                iconPack="NEXTJS"
-               pattern="^.*\.?(404|not-found)\.[tj]sx?$"
+               pattern="^.*\.?(404|not-found)\.[cm]?[tj]sx?$"
                icon="/icons/files/next-404.svg"/>
         <regex fileNames="error.js,*.error.ts,error.jsx,*.error.tsx"
                name="NextJS Error"
@@ -8016,7 +8025,7 @@
                priority="100"
                iconType="FILE"
                iconPack="NEXTJS"
-               pattern="^.*\.?error\.[tj]sx?$"
+               pattern="^.*\.?error\.[cm]?[tj]sx?$"
                icon="/icons/files/next-error.svg"/>
         <regex fileNames="layout.js,*.layout.ts,layout.jsx,*.layout.tsx"
                name="NextJS Layout"
@@ -8025,7 +8034,7 @@
                priority="100"
                iconType="FILE"
                iconPack="NEXTJS"
-               pattern="^.*\.?layout\.[tj]sx?$"
+               pattern="^.*\.?layout\.[cm]?[tj]sx?$"
                icon="/icons/files/next-layout.svg"/>
         <regex fileNames="page.js,*.page.ts,page.jsx,*.page.tsx"
                name="NextJS Page"
@@ -8034,7 +8043,7 @@
                priority="100"
                iconType="FILE"
                iconPack="NEXTJS"
-               pattern="^.*\.?page\.[tj]sx?$"
+               pattern="^.*\.?page\.[cm]?[tj]sx?$"
                icon="/icons/files/next-page.svg"/>
         <regex fileNames="route.js,*.route.ts,route.jsx,*.route.tsx"
                name="NextJS Route"
@@ -8043,7 +8052,7 @@
                priority="100"
                iconType="FILE"
                iconPack="NEXTJS"
-               pattern="^.*\.?route\.[tj]sx?$"
+               pattern="^.*\.?route\.[cm]?[tj]sx?$"
                icon="/icons/files/next-route.svg"/>
         <regex
             fileNames="*.actions.ts,*.actions.js,*.actions.jsx,*.actions.tsx,*.action.ts,*.action.js,*.action.jsx,*.action.tsx"
@@ -8052,7 +8061,7 @@
             priority="100"
             iconType="FILE"
             iconPack="NGRX"
-            pattern=".*\.actions?\.[tj]sx?$"
+            pattern=".*\.actions?\.[cm]?[tj]sx?$"
             url="https://ngrx.io/"
             icon="/icons/files/ngrx-actions.svg"/>
         <regex fileNames="actions/*.js,actions/*.ts,actions/*.jsx,actions/*.tsx"
@@ -8061,7 +8070,7 @@
                priority="50"
                iconType="FILE"
                iconPack="NGRX"
-               pattern=".*/actions?/[^/]*\.[tj]sx?$"
+               pattern=".*/actions?/[^/]*\.[cm]?[tj]sx?$"
                url="https://ngrx.io/"
                icon="/icons/files/ngrx-actions-files.svg"/>
         <regex
@@ -8071,7 +8080,7 @@
             priority="100"
             iconType="FILE"
             iconPack="NGRX"
-            pattern=".*\.effects?\.[tj]sx?$"
+            pattern=".*\.effects?\.[cm]?[tj]sx?$"
             url="https://ngrx.io/"
             icon="/icons/files/ngrx-effects.svg"/>
         <regex fileNames="effects/*.js,effects/*.ts,effects/*.jsx,effects/*.tsx"
@@ -8080,7 +8089,7 @@
                priority="50"
                iconType="FILE"
                iconPack="NGRX"
-               pattern=".*/effects?/[^/]*\.[tj]sx?$"
+               pattern=".*/effects?/[^/]*\.[cm]?[tj]sx?$"
                url="https://ngrx.io/"
                icon="/icons/files/ngrx-effects-files.svg"/>
         <regex
@@ -8090,7 +8099,7 @@
             priority="100"
             iconType="FILE"
             iconPack="NGRX"
-            pattern=".*\.entit(y|ies)\.[tj]sx?$"
+            pattern=".*\.entit(y|ies)\.[cm]?[tj]sx?$"
             url="https://ngrx.io/"
             icon="/icons/files/ngrx-entities.svg"/>
         <regex fileNames="entities/*.js,entities/*.ts,entities/*.jsx,entities/*.tsx"
@@ -8099,7 +8108,7 @@
                priority="50"
                iconType="FILE"
                iconPack="NGRX"
-               pattern=".*/(entity|entities)/[^/]*\.[tj]sx?$"
+               pattern=".*/(entity|entities)/[^/]*\.[cm]?[tj]sx?$"
                url="https://ngrx.io/"
                icon="/icons/files/ngrx-entities-files.svg"/>
         <regex
@@ -8109,7 +8118,7 @@
             priority="100"
             iconType="FILE"
             iconPack="NGRX"
-            pattern=".*\.reducers?\.[tj]sx?$"
+            pattern=".*\.reducers?\.[cm]?[tj]sx?$"
             url="https://ngrx.io/"
             icon="/icons/files/ngrx-reducers.svg"/>
         <regex fileNames="reducers/*.js,reducers/*.ts,reducers/*.jsx,reducers/*.tsx"
@@ -8118,7 +8127,7 @@
                priority="50"
                iconType="FILE"
                iconPack="NGRX"
-               pattern=".*/reducers?/[^/]*\.[tj]sx?$"
+               pattern=".*/reducers?/[^/]*\.[cm]?[tj]sx?$"
                url="https://ngrx.io/"
                icon="/icons/files/ngrx-reducers-files.svg"/>
         <regex
@@ -8128,7 +8137,7 @@
             priority="100"
             iconType="FILE"
             iconPack="NGRX"
-            pattern=".*\.repo(s|sitory|sitories)?\.[tj]sx?$"
+            pattern=".*\.repo(s|sitory|sitories)?\.[cm]?[tj]sx?$"
             url="https://ngrx.io/"
             icon="/icons/files/ngrx-repo.svg"/>
         <regex fileNames="repo/*.js,repo/*.ts,repo/*.jsx,repo/*.tsx,repos/*.js,repos/*.ts,repos/*.jsx,repos/*.tsx"
@@ -8137,7 +8146,7 @@
                priority="50"
                iconType="FILE"
                iconPack="NGRX"
-               pattern=".*/(repos?|repository|repositories)/[^/]*\.[tj]sx?$"
+               pattern=".*/(repos?|repository|repositories)/[^/]*\.[cm]?[tj]sx?$"
                url="https://ngrx.io/"
                icon="/icons/files/ngrx-repo-files.svg"/>
         <regex fileNames="*.state.ts,*.state.js,*.state.jsx,*.state.tsx,*.states.ts,*.states.js,*.states.jsx,*.states.tsx"
@@ -8146,7 +8155,7 @@
                priority="100"
                iconType="FILE"
                iconPack="NGRX"
-               pattern=".*\.states?\.[tj]sx?$"
+               pattern=".*\.states?\.[cm]?[tj]sx?$"
                url="https://ngrx.io/"
                icon="/icons/files/ngrx-state.svg"/>
         <regex fileNames="state/*.js,state/*.ts,state/*.jsx,state/*.tsx"
@@ -8155,7 +8164,7 @@
                priority="50"
                iconType="FILE"
                iconPack="NGRX"
-               pattern=".*/states?/[^/]*\.[tj]sx?$"
+               pattern=".*/states?/[^/]*\.[cm]?[tj]sx?$"
                url="https://ngrx.io/"
                icon="/icons/files/ngrx-state-files.svg"/>
         <regex
@@ -8165,7 +8174,7 @@
             priority="100"
             iconType="FILE"
             iconPack="NGRX"
-            pattern=".*\.selectors?\.[tj]sx?$"
+            pattern=".*\.selectors?\.[cm]?[tj]sx?$"
             url="https://ngrx.io/"
             icon="/icons/files/ngrx-selectors.svg"/>
         <regex fileNames="selectors/*.js,selectors/*.ts,selectors/*.jsx,selectors/*.tsx"
@@ -8174,7 +8183,7 @@
                priority="50"
                iconType="FILE"
                iconPack="NGRX"
-               pattern=".*/selectors?/[^/]*\.[tj]sx?$"
+               pattern=".*/selectors?/[^/]*\.[cm]?[tj]sx?$"
                url="https://ngrx.io/"
                icon="/icons/files/ngrx-selectors-files.svg"/>
         <regex fileNames="*.nib"
@@ -10319,7 +10328,7 @@
                priority="50"
                iconType="FILE"
                iconPack="REDUX"
-               pattern=".*/actions?/[^/]*\.[tj]sx?$"
+               pattern=".*/actions?/[^/]*\.[cm]?[tj]sx?$"
                url="https://redux.js.org/"
                icon="/icons/files/redux-action.svg"/>
         <regex fileNames="epic.js,epics.ts,epic.jsx,epics.tsx,myEpic.js,myEpics.js,my-epics.js,epic.cjs,epics.mjs"
@@ -10337,7 +10346,7 @@
                priority="50"
                iconType="FILE"
                iconPack="REDUX"
-               pattern=".*/epics?/[^/]*\.[tj]sx?$"
+               pattern=".*/epics?/[^/]*\.[cm]?[tj]sx?$"
                url="https://redux.js.org/"
                icon="/icons/files/redux-epic-files.svg"/>
         <regex fileNames="thunk.js,thunks.ts,thunk.jsx,thunks.tsx,myThunk.js,myThunks.js,my-thunks.js,thunk.cjs,thunks.mjs"
@@ -10355,7 +10364,7 @@
                priority="50"
                iconType="FILE"
                iconPack="REDUX"
-               pattern=".*/thunks?/.*\.[tj]sx?$"
+               pattern=".*/thunks?/.*\.[cm]?[tj]sx?$"
                url="https://redux.js.org/"
                icon="/icons/files/redux-thunk-files.svg"/>
         <regex fileNames="saga.js,sagas.ts,saga.jsx,sagas.tsx,mySaga.js,mySagas.js,my-sagas.js,saga.cjs,sagas.mjs"
@@ -10373,7 +10382,7 @@
                priority="50"
                iconType="FILE"
                iconPack="REDUX"
-               pattern=".*/sagas?/.*\.[tj]sx?$"
+               pattern=".*/sagas?/.*\.[cm]?[tj]sx?$"
                url="https://redux.js.org/"
                icon="/icons/files/redux-saga-files.svg"/>
         <regex
@@ -10392,7 +10401,7 @@
                priority="50"
                iconType="FILE"
                iconPack="REDUX"
-               pattern=".*/selectors?/[^/]*\.[tj]sx?$"
+               pattern=".*/selectors?/[^/]*\.[cm]?[tj]sx?$"
                url="https://redux.js.org/"
                icon="/icons/files/redux-selector-files.svg"/>
         <regex
@@ -10411,7 +10420,7 @@
                priority="50"
                iconType="FILE"
                iconPack="REDUX"
-               pattern=".*/reducers?/[^/]*\.[tj]sx?$"
+               pattern=".*/reducers?/[^/]*\.[cm]?[tj]sx?$"
                url="https://redux.js.org/"
                icon="/icons/files/redux-reducer-files.svg"/>
         <regex fileNames="slice.js,slice.ts,slice.jsx,slice.tsx,mySlice.js,mySlices.js,my-slices.js,slice.cjs,slices.mjs"
@@ -10429,7 +10438,7 @@
                priority="50"
                iconType="FILE"
                iconPack="REDUX"
-               pattern=".*/slices?/[^/]*\.[tj]sx?$"
+               pattern=".*/slices?/[^/]*\.[cm]?[tj]sx?$"
                url="https://redux.js.org/"
                icon="/icons/files/redux-slice-files.svg"/>
         <regex fileNames="store.js,store.ts,store.jsx,store.tsx,myStore.js,myStores.js,my-stores.js,store.cjs,stores.mjs"
@@ -10447,7 +10456,7 @@
                priority="50"
                iconType="FILE"
                iconPack="REDUX"
-               pattern=".*/stores?/[^/]*\.[tj]sx?$"
+               pattern=".*/stores?/[^/]*\.[cm]?[tj]sx?$"
                url="https://redux.js.org/"
                icon="/icons/files/redux-store-files.svg"/>
         <regex fileNames="*.reek"
@@ -13017,7 +13026,7 @@
                url="https://windicss.org/"
                priority="100"
                iconType="FILE"
-               pattern="^windi\.config\.[tj]s$"
+               pattern="^windi\.config\.[cm]?[tj]s$"
                icon="/icons/files/windi.svg"/>
         <regex fileNames="*.bat,*.exe,*.ms,*.msi,*.reg,*.msc"
                name="Windows"
