@@ -23,12 +23,11 @@
   -
   -->
 
-<svg  width="16px" height="16px" clip-rule="evenodd" fill-rule="evenodd" stroke-linejoin="round"
+<svg width="16px" height="16px" clip-rule="evenodd" fill-rule="evenodd" stroke-linejoin="round"
      stroke-miterlimit="1.414" version="1.1"
      viewBox="0 0 24 24" xml:space="preserve" xmlns="http://www.w3.org/2000/svg">
     <path fill="#1976d2" fill-rule="nonzero" data-folderColor="Unity"
           d="M20,18H4V8H20M20,6H12L10,4H4C2.89,4 2,4.89 2,6V18A2,2 0 0,0 4,20H20A2,2 0 0,0 22,18V8C22,6.89 21.1,6 20,6Z"/>
-  <path
-      d="m16.259 18.052h-1.7748l-3.3387-3.3999 3.3387-3.3999h1.7748l0.89078-1.5368 4.6171-1.1832 1.2716 4.5831-0.89078 1.5368 0.89078 1.5368-1.2716 4.5831-4.6171-1.1832-0.89078-1.5368m0.0952-0.17 3.4883 0.93838-2.0127-3.4883h-4.0255l2.5499 2.5499m4.6715 0.25839 0.93838-3.4883-0.93838-3.4883-2.0195 3.4883 2.0195 3.4883m-4.6715-6.7182-2.5499 2.5499h4.0255l2.0127-3.4883z"
-      fill="#bbdefb" stroke-width=".67998" data-folderIconColor="Unity"/>
+    <path fill="#bbdefb" data-folderIconColor="Unity" transform="translate(8 8)"
+          d="M8 6.5 5 5l2-1V2L2 5v5l2-1V6.5L7 8v4.5L4 11l-2 1 6 3 6-3-2-1-3 1.5V8l3-1.5V9l2 1V5L9 2v2l2 1Z"/>
 </svg>

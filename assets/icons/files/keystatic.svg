@@ -23,7 +23,7 @@
   -
   -->
 
-<svg data-big="true" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32" width="16px" height="16px" fill="#78909c"
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32" width="16px" height="16px" fill="#78909c"
      data-iconColor="Keystatic">
     <path d="M17.71429,9,14.28571,23l-1.71428,7L28,14Z"/>
     <path d="M4,18,19.42857,2,17.71429,9Z"/>
