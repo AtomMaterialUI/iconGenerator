@@ -12777,7 +12777,7 @@
                url="https://svelte.dev/"
                priority="100"
                iconType="FILE"
-               pattern=".*\.svelte(-kit)?"
+               pattern=".*\.svelte(-kit)(\.[cm]?[jt]s)?"
                icon="/icons/files/svelte.svg"/>
         <regex fileNames="svelte.config.js,svelte.config.json,svelte.config.ts"
                name="Svelte Config"

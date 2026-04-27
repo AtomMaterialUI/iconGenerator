@@ -877,7 +877,7 @@
                folderIconColor="fbe9e7"
                priority="100"
                iconType="FOLDER"
-               pattern="^[\._]?(excludes?|external|output|exports?|exported)$"
+               pattern="^[\._]?(excludes?|external|outputs?|exports?|exported)$"
                icon="/exclude.svg" defaultState="false"/>
         <regex folderNames=".expo,.expo-shared"
                name="Expo"
