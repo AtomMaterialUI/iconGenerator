@@ -212,6 +212,7 @@
            folderIconColor="FFCCBC"
            priority="100"
            iconType="FOLDER"
+           defaultState="false"
            pattern="^[\._]?(assembly|asm)$"
            icon="/assembly.svg"/>
     <regex folderNames="astro,.astro,_astro"
@@ -1066,6 +1067,7 @@
            folderIconColor="80deea"
            priority="100"
            iconType="FOLDER"
+           defaultState="false"
            pattern="^[\._]?go(lang)?$"
            icon="/go.svg"/>
 
@@ -1085,6 +1087,15 @@
            iconType="FOLDER"
            pattern="^[\._]?(graphql|gql|schemas?)$"
            icon="/graphql.svg"/>
+    <regex folderNames="grit,.grit,_grit"
+           name="GritQL"
+           folderColor="536DFE"
+           folderIconColor="D1C4E9"
+           priority="100"
+           defaultState="false"
+           iconType="FOLDER"
+           pattern="^[\._]?grit$"
+           icon="/gritql.svg"/>
     <regex folderNames="grunt,.grunt,_grunt,gruntfile,.gruntfiles,_gruntfiles"
            name="Grunt"
            folderColor="C17900"
@@ -2252,6 +2263,7 @@
            folderIconColor="FFA726"
            priority="100"
            iconType="FOLDER"
+           defaultState="false"
            pattern="^[\._]?(skills?|instructions?)$"
            icon="/skill.svg"
     />
