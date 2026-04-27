@@ -23,12 +23,16 @@
   -
   -->
 
-<svg viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg" width="16px" height="16px">
+<svg version="1.1" viewBox="0 0 32 32" xml:space="preserve" xmlns="http://www.w3.org/2000/svg" width="16px"
+     height="16px">
   <path d="M10 4H4c-1.11 0-2 .89-2 2v12c0 1.097.903 2 2 2h16c1.097 0 2-.903 2-2V8a2 2 0 0 0-2-2h-8l-2-2Z"
-        fill="#C51162" data-folderColor="Appwrite" transform="scale(0.65)"/>
-  <path
-    transform="scale(0.666666667) translate(9,7)" data-folderIconColor="Appwrite"
-    fill="#F48FB1"
-    d="M 7 2 A 6 6 0 0 0 1 8 A 6 6 0 0 0 7 14 L 15 14 L 15 11 L 12.195312 11 L 7 11 A 3 3 0 0 1 4 8 A 3 3 0 0 1 7 5 A 3 3 0 0 1 9.2363281 6 L 12.65625 6 A 6 6 0 0 0 7 2 z M 9.828125 7 A 3 3 0 0 1 10 8 A 3 3 0 0 1 9.2363281 10 L 15 10 L 15 7 L 9.828125 7 z"
-  />
+        fill="#ff8f00" data-folderColor="Skills" transform="scale(1.3)"/>
+  <g transform="matrix(1.4283 0 0 1.4283 14.881 8.5529)" fill="#ffecb3"
+     data-folderIconColor="Skills"
+  >
+    <path d="m6.3847 12.215v1.4002h2.8005v-1.4002z" stroke-linecap="round" stroke-linejoin="round"
+          stroke-miterlimit="2.6131" stroke-width="1.633"/>
+    <path
+      d="m6.3847 1.0131-2.8005 2.8005v2.8005l1.4002 1.4002v1.4002l1.4002 1.4002h2.8005l1.4002-1.4002v-1.4002l1.4002-1.4002v-2.8005l-2.8005-2.8005-1.4002 1.4002v1.4002l-1.4002 1.4002h-1.4002v-1.4002l1.4002-1.4002h1.4002l1.4002-1.4002z"/>
+  </g>
 </svg>

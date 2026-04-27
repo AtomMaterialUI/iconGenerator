@@ -9625,6 +9625,15 @@
     <!--endregion-->
 
     <!--region P-->
+    <regex fileNames="*.pkr.hcl,*.pkr.json,*.pkrvars.hcl,*.pkrvars.json"
+           name="Packer"
+           iconColor="02a8ef"
+           url="https://developer.hashicorp.com/packer"
+           priority="100"
+           iconType="FILE"
+           pattern=".*\.pkr(vars)?\.(hcl|json)$"
+           icon="/icons/files/packer.svg"
+           defaultState="false"/>
     <regex fileNames="paket.dependencies,paket.lock,paket.references,paket.local,paket.template"
            name="Paket"
            iconColor="FFD54F"
@@ -11573,6 +11582,15 @@
            pattern=".*\.^(project|model|meta)\.json$"
            icon="/icons/files/rojo.svg"
            defaultState="false"/>
+    <regex fileNames="rolldown.config.js,rolldown.config.mjs,rolldown.config.ts"
+           name="Rolldown"
+           iconColor="f4511e"
+           priority="100"
+           iconType="FILE"
+           pattern="^rolldown\.config\.([cm]?js|ts)$"
+           url="https://rolldown.rs/"
+           defaultState="false"
+           icon="/icons/files/rolldown.svg"/>
     <regex fileNames="rollup.js,rollup.conf.js,rollup.ts"
            name="Rollup"
            iconColor="FF5370"
@@ -12181,6 +12199,13 @@
            pattern=".*\.(skp|style)$"
            icon="/icons/files/sketchmake.svg"
            defaultState="false"/>
+    <regex fileNames="skill.md,SKILL.md,skills.md,SKILLS.md"
+           name="Skill"
+           iconColor="FFB74D"
+           priority="100"
+           iconType="FILE"
+           pattern="^skills?\.md$"
+           icon="/icons/files/skill.svg"/>
     <regex fileNames="*.eskip"
            name="Skipper"
            iconColor="64B5F6"
