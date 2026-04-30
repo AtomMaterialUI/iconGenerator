@@ -98,6 +98,14 @@
            iconType="FOLDER"
            pattern="^[\._]?ai(assistant)?$"
            icon="/ai.svg"/>
+    <regex folderNames="airflow,.airflow,_airflow,dags,.dags,_dags"
+           name="Airflow"
+           folderColor="4DD0E1"
+           folderIconColor="FCE4EC"
+           priority="100"
+           iconType="FOLDER"
+           pattern="^[\._]?(airflow|dags?)$"
+           icon="/airflow.svg"/>
     <regex folderNames="alacritty,.alacritty,_alacritty"
            name="Alacritty"
            folderColor="ef5350"
@@ -2278,6 +2286,15 @@
     <!--endregion-->
 
     <!--region S-->
+    <regex folderNames="saltstack,sls,.sls,_sls,.saltstack,_saltstack,.salt,salt"
+           name="Saltstack"
+           folderColor="03a9f4"
+           folderIconColor="b3e5fc"
+           priority="100"
+           iconType="FOLDER"
+           defaultState="false"
+           pattern="^[\._]?(salt(stack)?|sls)$"
+           icon="/salt.svg"/>
     <regex folderNames="sass,scss,.scss,_scss,.sass,_sass"
            name="Sass"
            folderColor="f06292"
