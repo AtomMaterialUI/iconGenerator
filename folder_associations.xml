@@ -882,13 +882,13 @@
            pattern="^[\._]?dub$"
            icon="/dub.svg"
            defaultState="false"/>
-    <regex folderNames="dump,dumps,data,_dump,.dumps,_data,.data"
+    <regex folderNames="dump,dumps,data,_dump,.dumps,_data,.data,dal,.dal,_dal"
            name="Dump"
            folderColor="757575"
            folderIconColor="bdbdbd"
            priority="100"
            iconType="FOLDER"
-           pattern="^[\._]?(dumps?|data)$"
+           pattern="^[\._]?(dumps?|data|dal)$"
            icon="/dump.svg"/>
     <regex folderNames=".dvc,dvc,_dvc"
            name="DVC"
@@ -1708,7 +1708,17 @@
            priority="100"
            iconType="FOLDER"
            pattern="^[\._]?meteor$"
-           icon="/meteor.svg" defaultState="false"/>
+           icon="/meteor.svg"
+           defaultState="false"/>
+    <regex folderNames="metro,.metro,_metro"
+           name="Metro"
+           folderColor="AC7B69"
+           folderIconColor="EFEBE9"
+           priority="100"
+           iconType="FOLDER"
+           pattern="^[\._]?metro$"
+           icon="/metro.svg"
+           defaultState="false"/>
     <regex
       folderNames="middleware,middlewares,thunk,thunks,.middlewares,_middlewares,.thunk,_thunks,proxy,proxies,.proxy,_proxy"
       name="Middlewares"
@@ -2560,13 +2570,13 @@
            iconType="FOLDER"
            pattern="^[\._]?(svelte(-kit)?|sapper)$"
            icon="/svelte.svg" defaultState="false"/>
-    <regex folderNames="svg,svgs,svgicon,svgicons,graphic,graphics,.svg,_svg,_svgicons,.graphics,_graphic,gfx,.gfx,_gfx"
+    <regex folderNames="svg,svgs,svgicon,svgicons,graphic,graphics,.svg,_svg,_svgicons,.graphics,_graphic,gfx,.gfx,_gfx,vectors,.vectors,_vectors,vector,.vector"
            name="SVG"
            folderColor="ffb300"
            folderIconColor="fff9c4"
            priority="100"
            iconType="FOLDER"
-           pattern="^[\._]?(svgs?|svgicons?|graphics?|gfx)$"
+           pattern="^[\._]?(svgs?|svgicons?|graphics?|gfx|vectors?)$"
            icon="/svg.svg"/>
     <regex folderNames=".svn"
            name="SVN"
