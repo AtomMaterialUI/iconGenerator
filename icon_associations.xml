@@ -10465,6 +10465,15 @@
            pattern=".*\.rules$"
            icon="/icons/files/prometheus.svg"
            defaultState="false"/>
+    <regex fileNames="prompts.md,prompt.md,.prompts.md,.prompt.md"
+           name="Prompt.MD"
+           iconColor="7986cb"
+           url="https://devblogs.microsoft.com/dotnet/prompt-files-and-instructions-files-explained/"
+           priority="100"
+           iconType="FILE"
+           pattern="\.?prompts?\.md"
+           icon="/icons/files/prompt.svg"
+           defaultState="false"/>
     <regex fileNames="*.spin"
            name="Propeller Spin"
            iconColor="a1cbf5"
