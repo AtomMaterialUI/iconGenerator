@@ -83,6 +83,14 @@
            iconType="FOLDER"
            pattern="^[\._]?agda$"
            icon="/agda.svg" defaultState="false"/>
+    <regex folderNames=".aiassistant,.aiassistant,_aiassistant,.ai,ai,_ai"
+           name="AI Assistant"
+           folderColor="834DF0"
+           folderIconColor="F8BBD0"
+           priority="100"
+           iconType="FOLDER"
+           pattern="^[\._]?ai(assistant)?$"
+           icon="/ai.svg" />
     <regex folderNames="alacritty,.alacritty,_alacritty"
            name="Alacritty"
            folderColor="ef5350"
@@ -739,14 +747,15 @@
            iconType="FOLDER"
            pattern="^[\._]?(docker|dockerfiles|dockerhub)$"
            icon="/docker.svg"/>
-    <regex folderNames="doc,docs,documentation,.doc,_doc,_docs,.documentation,text,texts,.texts,_text"
-           name="Docs"
-           folderColor="0277bd"
-           folderIconColor="b3e5fc"
-           priority="100"
-           iconType="FOLDER"
-           pattern="^[\._]?(docs?|documentation|texts?)$"
-           icon="/docs.svg"/>
+    <regex
+      folderNames="doc,docs,documentation,.doc,_doc,_docs,.documentation,text,texts,.texts,_text,forms,forms,.forms,_forms"
+      name="Docs"
+      folderColor="0277bd"
+      folderIconColor="b3e5fc"
+      priority="100"
+      iconType="FOLDER"
+      pattern="^[\._]?(docs?|documentation|texts?|forms?)$"
+      icon="/docs.svg"/>
     <regex folderNames="domain,domains,.domain,_domain,.domains,_domains"
            name="Domain"
            folderColor="78909C"
@@ -1350,6 +1359,14 @@
            iconType="FOLDER"
            pattern="^[\._]?(jsons?|serializers?)$"
            icon="/json.svg"/>
+    <regex folderNames="junie,.junie,_junie"
+           name="Junie"
+           folderColor="47E054"
+           folderIconColor="F0F4C3"
+           priority="100"
+           iconType="FOLDER"
+           pattern="^[\._]?junie$"
+           icon="/junie.svg"/>
     <regex folderNames="jwt,.jwt,_jwt,token,tokens,_tokens,.token"
            name="JWT"
            folderColor="D63AFF"
@@ -1566,14 +1583,15 @@
            iconType="FOLDER"
            pattern="^[\._]?meteor$"
            icon="/meteor.svg" defaultState="false"/>
-    <regex folderNames="middleware,middlewares,thunk,thunks,.middlewares,_middlewares,.thunk,_thunks"
-           name="Middlewares"
-           folderColor="5c6bc0"
-           folderIconColor="c5cae9"
-           priority="100"
-           iconType="FOLDER"
-           pattern="^[\._]?(middlewares?|thunks?)$"
-           icon="/middleware.svg"/>
+    <regex
+      folderNames="middleware,middlewares,thunk,thunks,.middlewares,_middlewares,.thunk,_thunks,proxy,proxies,.proxy,_proxy"
+      name="Middlewares"
+      folderColor="5c6bc0"
+      folderIconColor="c5cae9"
+      priority="100"
+      iconType="FOLDER"
+      pattern="^[\._]?(middlewares?|thunks?|proxy|proxies)$"
+      icon="/middleware.svg"/>
     <regex folderNames="mindsdb,.mindsdb,_mindsdb"
            name="MindsDB"
            folderColor="26A69A"
