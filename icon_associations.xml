@@ -13713,6 +13713,15 @@
            iconColor="796e67"
            icon="/icons/files/urweb.svg"
            defaultState="false"/>
+    <regex fileNames="uv.lock"
+           name="UV"
+           url="https://docs.astral.sh/uv/"
+           priority="100"
+           iconType="FILE"
+           pattern="^uv\.lock$"
+           iconColor="DE5FE9"
+           icon="/icons/files/uv.svg"
+           defaultState="false"/>
     <!--endregion-->
 
     <!--region V -->

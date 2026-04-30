@@ -97,7 +97,7 @@
            priority="100"
            iconType="FOLDER"
            pattern="^[\._]?ai(assistant)?$"
-           icon="/ai.svg" />
+           icon="/ai.svg"/>
     <regex folderNames="alacritty,.alacritty,_alacritty"
            name="Alacritty"
            folderColor="ef5350"
@@ -205,7 +205,7 @@
            iconType="FOLDER"
            pattern="^[\._]?(archetypes?|schematics?)"
            icon="/archetype.svg"
-          defaultState="false"/>
+           defaultState="false"/>
     <regex folderNames="archive,archives,jar,jars,zip,zips,backups,backup,.archives,_jar,.jars,.zip,_backups"
            name="Archives"
            folderColor="795548"
@@ -372,13 +372,13 @@
            pattern="^[\._]?blueprints?$"
            icon="/blueprint.svg"
            defaultState="false"/>
-    <regex folderNames="bot,bots,.bot,_bots,robot,robots,.robot,_robots"
+    <regex folderNames="bot,bots,.bot,_bots,robot,robots,.robot,_robots,agent,agents,.agent,_agents"
            name="Bot"
            folderColor="ff5252"
            folderIconColor="ffcdd2"
            priority="100"
            iconType="FOLDER"
-           pattern="^[\._]?(robots?|bots?)$"
+           pattern="^[\._]?(robots?|bots?|agents?)$"
            icon="/bot.svg"
            defaultState="false"/>
     <regex folderNames="bower_components,.bower_components,_bower_components"
@@ -1087,13 +1087,13 @@
       icon="/fonts.svg"/>
     <regex folderNames="func,.func,funcs,_funcs,function,functions,service,services,lambda,lambdas,
         .functions,_functions,_lambda,.lambda,.services,_services,handler,handlers,.handlers,_handler,rpc,.rpc
-        .rpcs,_rpc,.rpcs,proc,.proc,.procs,_proc,.procs,procedure,procedures,.procedure,.procedures,_procedure"
+        .rpcs,_rpc,.rpcs,proc,.proc,.procs,_proc,.procs,procedure,procedures,.procedure,.procedures,_procedure,composable,composables,.composable,.composables,_composable"
            name="Functions"
            folderColor="039BE5"
            folderIconColor="B3E5FC"
            priority="100"
            iconType="FOLDER"
-           pattern="^[\._]?(funcs?|functions?|services?|lambdas?|handlers?|rpc|procs?|procedures?)$"
+           pattern="^[\._]?(funcs?|functions?|services?|lambdas?|handlers?|rpc|procs?|procedures?|composables?)$"
            icon="/functions.svg"/>
     <!--endregion-->
 
