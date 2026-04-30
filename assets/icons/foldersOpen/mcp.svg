@@ -1,0 +1,39 @@
+<!--
+  - The MIT License (MIT)
+  -
+  - Copyright (c) 2015-2026 Elior "Mallowigi" Boukhobza
+  -
+  - Permission is hereby granted, free of charge, to any person obtaining a copy
+  - of this software and associated documentation files (the "Software"), to deal
+  - in the Software without restriction, including without limitation the rights
+  - to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+  - copies of the Software, and to permit persons to whom the Software is
+  - furnished to do so, subject to the following conditions:
+  -
+  - The above copyright notice and this permission notice shall be included in all
+  - copies or substantial portions of the Software.
+  -
+  - THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+  - IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+  - FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+  - AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+  - LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+  - OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+  - SOFTWARE.
+  -
+  -->
+
+<svg version="1.1" viewBox="0 0 24 24" xml:space="preserve" xmlns="http://www.w3.org/2000/svg" width="16px"
+     height="16px">
+  <path fill="#546e7a" data-folderColor="MCP"
+        d="M20,18H4V8H20M20,6H12L10,4H4C2.89,4 2,4.89 2,6V18A2,2 0 0,0 4,20H20A2,2 0 0,0 22,18V8C22,6.89 21.1,6 20,6Z"/>
+  <g transform="scale(0.8) translate(-3 3)" fill="none" stroke="#F5F5F5" stroke-linecap="round"
+     data-folderIconColor="MCP">
+    <path
+      d="m22.246 20.413 5.1959-4.992m-9.8795 3.4883 6.9773-6.6283c2.2987-2.2085 5.3663 0.77268 2.9019 3.1403 2.4633-2.3666 5.6337 0.59077 3.1719 2.956l-5.6893 5.466c-0.95793 0.92033-0.94453 1.3438 0.39054 2.6265"
+      stroke-width="1.0827"/>
+    <path transform="matrix(4.1691 0 0 4.0167 -1.6443 -1.7127)"
+          d="m6.6334 3.8586-1.1987 1.1987c-0.6407 0.6407 0.14361 1.3531 0.74835 0.74835l1.1971-1.1971"
+          stroke-width=".26458"/>
+  </g>
+</svg>

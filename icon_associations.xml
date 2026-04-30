@@ -1293,7 +1293,7 @@
            iconColor="66BB6A"
            priority="100"
            iconType="FILE"
-           pattern="^appcelerator\.([cm]?js|ts)$"
+           pattern="^appcelerator\.[cm]?(js|ts)$"
            url="https://www.axway.com/en/appcelerator-end-of-life"
            icon="/icons/files/appcelerator.svg"
            defaultState="false"/>
@@ -1329,7 +1329,7 @@
            iconColor="C51162"
            priority="100"
            iconType="FILE"
-           pattern="^appwrite\.([cm]?js|ts)$"
+           pattern="^appwrite\.[cm]?(js|ts)$"
            url="https://appwrite.io/"
            icon="/icons/files/appwrite.svg"
            defaultState="false"/>
@@ -1504,7 +1504,7 @@
            iconColor="9575CD"
            priority="100"
            iconType="FILE"
-           pattern="^astro\.config\.([cm]?js|ts)$"
+           pattern="^astro\.config\.[cm]?(js|ts)$"
            url="https://astro.build/"
            icon="/icons/files/astroconfig.svg"/>
     <regex fileNames="artisan,artisan.php"
@@ -2584,7 +2584,7 @@
            url="https://www.chartjs.org/"
            priority="100"
            iconType="FILE"
-           pattern="^[Cc]hart(\.bundle)?(\.min)?\.([cm]?js|ts)$"
+           pattern="^[Cc]hart(\.bundle)?(\.min)?\.[cm]?(js|ts)$"
            icon="/icons/files/chartjs.svg"
            defaultState="false"/>
     <regex fileNames="*.jas"
@@ -3137,7 +3137,7 @@
            iconColor="BDBDBD"
            priority="100"
            iconType="FILE"
-           pattern="^contenthook\.config\.([cm]?js|ts)$"
+           pattern="^contenthook\.config\.[cm]?(js|ts)$"
            icon="/icons/files/contenthook.svg"
            defaultState="false"/>
     <regex fileNames="*.cml"
@@ -3154,7 +3154,7 @@
            iconColor="#7C4DFF"
            priority="100"
            iconType="FILE"
-           pattern="contentlayer\.config\.([cm]?js|ts)$"
+           pattern="contentlayer\.config\.[cm]?(js|ts)$"
            icon="/icons/files/contentlayer.svg"
            defaultState="false"/>
 
@@ -3247,7 +3247,7 @@
            name="Craco"
            priority="100"
            iconType="FILE"
-           pattern="^(\.cracorc(\.([cm]?js|ts))?|craco\.config\.([cm]?js|ts))$"
+           pattern="^(\.cracorc(\.[cm]?(js|ts))?|craco\.config\.[cm]?(js|ts))$"
            iconColor="00bfa5"
            url="https://craco.js.org/"
            icon="/icons/files/craco.svg"
@@ -3727,7 +3727,7 @@
            url="https://www.npmjs.com/package/dependency-cruiser"
            priority="100"
            iconType="FILE"
-           pattern="^\.dependency-cruiser\.([cm]?js|ts)$"
+           pattern="^\.dependency-cruiser\.[cm]?(js|ts)$"
            icon="/icons/files/depcruiser.svg"
            defaultState="false"/>
     <regex fileNames="detekt-config.yml,detekt-config.yaml,detekt.yaml"
@@ -3938,7 +3938,7 @@
            url="https://docusaurus.io/"
            priority="100"
            iconType="FILE"
-           pattern="^docusaurus\.config\.([cm]?js|ts)$"
+           pattern="^docusaurus\.config\.[cm]?(js|ts)$"
            icon="/icons/files/docusaurus.svg"/>
     <regex fileNames="docz.config.js,.doczrc.json,.doczrc.config.mjs,docz.config.cjs"
            name="Docz Config"
@@ -4324,7 +4324,7 @@
            iconColor="66BB6A"
            priority="100"
            iconType="FILE"
-           pattern="(^|\.)forge\.config\.([cm]?js|ts)$"
+           pattern="(^|\.)forge\.config\.[cm]?(js|ts)$"
            url="https://www.electronforge.io/configuration"
            icon="/icons/files/electronforge.svg"
            defaultState="false"/>
@@ -4502,7 +4502,7 @@
            url="https://eslint.org/"
            priority="100"
            iconType="FILE"
-           pattern="eslint\.config\.([cm]?js|ts)$"
+           pattern="eslint\.config\.[cm]?(js|ts)$"
            icon="/icons/files/eslintconfig.svg"/>
     <regex fileNames="eslint/*.yaml,eslint/*.yml,eslint/*.json,eslint/*.js,eslint/*.cjs,eslint/*.mjs,eslint/*.ts"
            name="ESLint Rules"
@@ -4934,7 +4934,7 @@
            iconColor="FF9357"
            priority="100"
            iconType="FILE"
-           pattern="^formkit\.config\.([cm]?js|ts)$"
+           pattern="^formkit\.config\.[cm]?(js|ts)$"
            icon="/icons/files/formkit.svg"
            defaultState="false"/>
     <regex fileNames="*.fth,*.4th,*.frt"
@@ -5076,7 +5076,7 @@
            url="https://fuse-box.org/"
            priority="100"
            iconType="FILE"
-           pattern="^fuse\.([cm]?js|ts)$"
+           pattern="^fuse\.[cm]?(js|ts)$"
            icon="/icons/files/fusebox.svg"
            defaultState="false"/>
     <regex fileNames="*.fut,*.futhark"
@@ -5161,7 +5161,7 @@
       url="https://www.gatsbyjs.com/"
       priority="100"
       iconType="FILE"
-      pattern="^gatsby.*\.([cm]?js|ts)"
+      pattern="^gatsby.*\.[cm]?(js|ts)"
       icon="/icons/files/gatsby.svg"
       defaultState="false"/>
     <regex fileNames="*.spec"
@@ -5617,7 +5617,7 @@
            url="https://gridsome.org/"
            priority="100"
            iconType="FILE"
-           pattern="^gridsome\.(config|client|server)\.([cm]?js|ts)$"
+           pattern="^gridsome\.(config|client|server)\.[cm]?(js|ts)$"
            icon="/icons/files/gridsome.svg"
            defaultState="false"/>
     <regex fileNames="grit.yaml,grit.yml"
@@ -5710,7 +5710,7 @@
            url="https://hardhat.org/"
            priority="100"
            iconType="FILE"
-           pattern="^hardhat\.config\.([cm]?js|ts)$"
+           pattern="^hardhat\.config\.[cm]?(js|ts)$"
            icon="/icons/files/hardhat.svg"
            defaultState="false"/>
     <regex fileNames="harmonix.config.js,harmonix.config.mjs,harmonix.config.ts"
@@ -5719,7 +5719,7 @@
            url="https://harmonix-js.netlify.app/"
            priority="100"
            iconType="FILE"
-           pattern="^harmonix\.config\.([cm]?js|ts)$"
+           pattern="^harmonix\.config\.[cm]?(js|ts)$"
            icon="/icons/files/harmonix.svg"
            defaultState="false"/>
     <regex fileNames="hasura.config.yml"
@@ -6103,7 +6103,7 @@
            url="https://hyper.is/"
            priority="100"
            iconType="FILE"
-           pattern="\.hyper\.([cm]?js|ts)$"
+           pattern="\.hyper\.[cm]?(js|ts)$"
            icon="/icons/files/hyper.svg"
            defaultState="false"/>
     <regex fileNames="hypestyle.config.js"
@@ -6863,7 +6863,7 @@
            url="https://kos.fandom.com/wiki/KerboScript"
            priority="100"
            iconType="FILE"
-           pattern="^(kdu|kocan)\.config\.([cm]?js|ts)$"
+           pattern="^(kdu|kocan)\.config\.[cm]?(js|ts)$"
            icon="/icons/files/kdu.svg"
            defaultState="false"/>
     <regex fileNames="*.ks"
@@ -6906,7 +6906,7 @@
            url="https://keystatic.com/"
            priority="100"
            iconType="FILE"
-           pattern="^keystatic\.config\.([cm]?js|ts)$"
+           pattern="^keystatic\.config\.[cm]?(js|ts)$"
            icon="/icons/files/keystatic.svg"
            defaultState="false"/>
     <regex fileNames="*.kibo"
@@ -9296,7 +9296,7 @@
            url="https://nuxtjs.org/"
            priority="100"
            iconType="FILE"
-           pattern="(nuxt\.config\.([cm]?js|ts)|\.nuxtrc)"
+           pattern="(nuxt\.config\.[cm]?(js|ts)|\.nuxtrc)"
            icon="/icons/files/nuxt.svg"/>
     <regex fileNames="*.nvmrc,*.esmrc"
            name="NVM"
@@ -9655,6 +9655,14 @@
            pattern=".*\.(pst|bcmx|oab|otm|oft|nk2)$"
            icon="/icons/files/outlook.svg"
            defaultState="false"/>
+    <regex fileNames=".oxfmtrc.json,.oxlintrc.json,.oxfmtrc.jsonc,.oxlintrc.jsonc,oxfmt.config.mts,oxfmt.config.cts,oxfmt.config.cjs,oxfmt.config.mjs,oxlintrc.mts,oxlintrc.cts,oxlintrc.cjs,oxlintrc.mjs"
+           name="OXC"
+           iconColor="00b8d4"
+           url="https://oxc.rs/"
+           priority="100"
+           iconType="FILE"
+           pattern="^(\.ox(fmt|lint)rc\.jsonc?|ox(fmt|lint)\.config\.[cm]?(js|ts))$"
+           icon="/icons/files/oxc.svg" />
     <regex fileNames="*.oxygene"
            name="Oxygene"
            iconColor="555D9F"
@@ -9718,7 +9726,7 @@
            url="https://panda-css.com/"
            priority="100"
            iconType="FILE"
-           pattern="^panda\.config\.([cm]?js|ts)$"
+           pattern="^panda\.config\.[cm]?(js|ts)$"
            icon="/icons/files/panda.svg"
            defaultState="false"/>
     <regex fileNames="*.psc,*.pex"
@@ -9798,7 +9806,7 @@
            url="https://payloadcms.com/"
            priority="100"
            iconType="FILE"
-           pattern="^payload\.config\.([cm]?js|ts)$"
+           pattern="^payload\.config\.[cm]?(js|ts)$"
            icon="/icons/files/payload.svg"
            defaultState="false"/>
     <regex fileNames="payload.config.js,payload.config.ts,payload.config.cjs,payload.config.mjs,payload.config.json"
@@ -9807,7 +9815,7 @@
            url="https://payloadcms.com/"
            priority="101"
            iconType="FILE"
-           pattern="^payload\.config\.([cm]?js|ts)$"
+           pattern="^payload\.config\.[cm]?(js|ts)$"
            icon="/icons/files/payload.svg"
            defaultState="false"/>
     <regex fileNames="*.pcd"
@@ -10060,7 +10068,7 @@
            url="https://pinia.vuejs.org/"
            priority="100"
            iconType="FILE"
-           pattern=".*\.pinia\.([cm]?js|ts)$"
+           pattern=".*\.pinia\.[cm]?(js|ts)$"
            icon="/icons/files/pinia.svg"
            defaultState="false"/>
     <regex fileNames="Pipfile,pipfile,*.pipfile,*.Pipfile"
@@ -10141,7 +10149,7 @@
            url="https://playwright.dev"
            priority="100"
            iconType="FILE"
-           pattern="^playwright\.config\.([cm]?js|ts)$"
+           pattern="^playwright\.config\.[cm]?(js|ts)$"
            icon="/icons/files/playwright.svg"
            defaultState="false"/>
     <regex fileNames="*.plist"
@@ -10157,7 +10165,7 @@
            iconColor="00BFA5"
            priority="100"
            iconType="FILE"
-           pattern="^plopfile\.([cm]?js|ts)$"
+           pattern="^plopfile\.[cm]?(js|ts)$"
            url="https://plopjs.com/"
            icon="/icons/files/plopfile.svg"
            defaultState="false"/>
@@ -10479,7 +10487,7 @@
            url="https://webpack.js.org/configuration/dev-server/#devserverproxy"
            priority="100"
            iconType="FILE"
-           pattern="proxy\.conf\.([cm]?js|ts)$"
+           pattern="proxy\.conf\.[cm]?(js|ts)$"
            icon="/icons/files/proxy.svg"
            defaultState="false"/>
     <regex fileNames="publiccode.yml,publiccode.yaml"
@@ -10701,7 +10709,7 @@
            url="https://quasar.dev/"
            priority="100"
            iconType="FILE"
-           pattern="^quasar\.conf(ig)?\.([cm]?js|ts)$"
+           pattern="^quasar\.conf(ig)?\.[cm]?(js|ts)$"
            icon="/icons/files/quasar.svg"
            defaultState="false"/>
     <regex fileNames="*.qd"
@@ -11164,7 +11172,7 @@
            iconColor="64B5F6"
            priority="100"
            iconType="FILE"
-           pattern="^remix\.config\.([cm]?js|ts)$"
+           pattern="^remix\.config\.[cm]?(js|ts)$"
            url="https://remix.run/"
            icon="/icons/files/remix.svg"/>
     <regex fileNames=".replit"
@@ -11218,7 +11226,7 @@
            url="https://reactnative.dev/"
            priority="100"
            iconType="FILE"
-           pattern="^react-native\.config\.([cm]?js|ts)$"
+           pattern="^react-native\.config\.[cm]?(js|ts)$"
            icon="/icons/files/reactnative.svg"
            defaultState="false"/>
     <regex fileNames="reactos.ios,reactos.deb"
@@ -11409,7 +11417,7 @@
            priority="100"
            iconType="FILE"
            iconPack="REDUX"
-           pattern=".*([sS])lices?\.([cm]?js|ts)$"
+           pattern=".*([sS])lices?\.[cm]?(js|ts)$"
            icon="/icons/files/redux-slice.svg"/>
     <regex fileNames="slices/*.js,slices/*.ts,slices/*.jsx,slices/*.tsx"
            name="Redux Slice Files"
@@ -11586,7 +11594,7 @@
            url="https://rindojs.web.app/"
            priority="100"
            iconType="FILE"
-           pattern="rindo\.config\.([cm]?js|ts)$"
+           pattern="rindo\.config\.[cm]?(js|ts)$"
            icon="/icons/files/rindo.svg"
            defaultState="false"/>
     <regex fileNames="*.ring"
@@ -11647,7 +11655,7 @@
            iconColor="f4511e"
            priority="100"
            iconType="FILE"
-           pattern="^rolldown\.config\.([cm]?js|ts)$"
+           pattern="^rolldown\.config\.[cm]?(js|ts)$"
            url="https://rolldown.rs/"
            defaultState="false"
            icon="/icons/files/rolldown.svg"/>
@@ -11689,7 +11697,7 @@
       url="https://rspack.dev/config.html#supported-configuration-file-formats"
       priority="100"
       iconType="FILE"
-      pattern="(rspack|rsbuild|rspress)\.config\.([cm]?js|ts)$"
+      pattern="(rspack|rsbuild|rspress)\.config\.[cm]?(js|ts)$"
       icon="/icons/files/rspack.svg"
       defaultState="false"/>
     <regex fileNames="controller_spec.rb,model_spec.rb"
@@ -12032,7 +12040,7 @@
            url="https://sentry.io/welcome/"
            priority="100"
            iconType="FILE"
-           pattern="(\.sentryclirc|sentry\.(.*)\.config\.([cm]?js|ts))$"
+           pattern="(\.sentryclirc|sentry\.(.*)\.config\.[cm]?(js|ts))$"
            icon="/icons/files/sentry.svg"
            defaultState="false"/>
     <regex fileNames=".releaserc,.releaserc.js,.releaserc.json,.releaserc.yml"
@@ -12449,7 +12457,7 @@
            url="https://www.snowpack.dev/"
            priority="100"
            iconType="FILE"
-           pattern="^snowpack\.config\.([cm]?js|ts)$"
+           pattern="^snowpack\.config\.[cm]?(js|ts)$"
            icon="/icons/files/snowpack.svg"
            defaultState="false"/>
     <regex fileNames="*.snyk"
@@ -12632,7 +12640,7 @@
            iconColor="FF7043"
            priority="100"
            iconType="FILE"
-           pattern="(.*\.sst|sst\.config\.([cm]?js|ts))$"
+           pattern="(.*\.sst|sst\.config\.[cm]?(js|ts))$"
            url="https://docs.sst.dev/what-is-sst"
            icon="/icons/files/sst.svg"
            defaultState="false"/>
@@ -12677,7 +12685,7 @@
            iconColor="9C27B0"
            priority="100"
            iconType="FILE"
-           pattern="^stencil\.config\.([cm]?js|ts)$"
+           pattern="^stencil\.config\.[cm]?(js|ts)$"
            url="https://stenciljs.com/"
            icon="/icons/files/stencilconfig.svg"
            defaultState="false"/>
@@ -12705,7 +12713,7 @@
            url="https://stitches.dev/"
            priority="100"
            iconType="FILE"
-           pattern="^\.?stitches.config\.([cm]?js|ts)$"
+           pattern="^\.?stitches.config\.[cm]?(js|ts)$"
            icon="/icons/files/stitches.svg"
            defaultState="false"/>
     <regex fileNames="*.storyboard"
@@ -13595,7 +13603,7 @@
            url="https://github.com/umijs/umi"
            priority="100"
            iconType="FILE"
-           pattern=".*\.umirc\.([cm]?js|ts)$"
+           pattern=".*\.umirc\.[cm]?(js|ts)$"
            icon="/icons/files/umi.svg"
            defaultState="false"/>
     <regex fileNames="*.uml,*.iuml,*.puml,*.pu,*.plantuml,*.wsd"
@@ -13928,7 +13936,7 @@
            url="https://vitest.dev/"
            priority="100"
            iconType="FILE"
-           pattern="^vitest\.(config|workspace)\.([cm]?js|ts)$"
+           pattern="^vitest\.(config|workspace)\.[cm]?(js|ts)$"
            icon="/icons/files/vitest.svg"/>
     <regex fileNames="vite.config.js,vite.config.ts"
            name="Vite"
@@ -13936,7 +13944,7 @@
            url="https://vitejs.dev/"
            priority="100"
            iconType="FILE"
-           pattern="^vite\.config\.[jt]s$"
+           pattern="^vite\.config\.[cm]?(js|ts)$"
            icon="/icons/files/vite.svg"/>
     <regex fileNames="*.vbox,*.vdi,*.vbox_version,*.vhdx"
            name="VirtualBox"
@@ -14055,7 +14063,7 @@
            url="https://vuejs.org/"
            priority="100"
            iconType="FILE"
-           pattern="^(vue|vetur|volar)\.config\.([cm]?js|ts)$"
+           pattern="^(vue|vetur|volar)\.config\.[cm]?(js|ts)$"
            icon="/icons/files/vueconfig.svg"/>
     <regex fileNames="vuepress.config.js,vuepress.config.ts,vuepress.config.mjs,vuepress.config.cjs"
            name="Vuepress"
@@ -14063,7 +14071,7 @@
            url="https://v2.vuepress.vuejs.org/"
            priority="100"
            iconType="FILE"
-           pattern="^vuepress\.config\.([cm]?js|ts)$"
+           pattern="^vuepress\.config\.[cm]?(js|ts)$"
            icon="/icons/files/vuepress.svg"/>
     <regex fileNames=".vuerc"
            name="Vue RC"
@@ -14543,7 +14551,7 @@
            url="https://xstate.js.org/"
            priority="100"
            iconType="FILE"
-           pattern=".*\.machine\.([cm]?js|ts)$"
+           pattern=".*\.machine\.[cm]?(js|ts)$"
            icon="/icons/files/xstate.svg"
            defaultState="false"/>
     <regex fileNames="*.xtend"
