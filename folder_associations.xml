@@ -683,6 +683,15 @@
            iconType="FOLDER"
            pattern="^[\._]?(custom|random)$"
            icon="/custom.svg"/>
+    <regex folderNames="cursor,.cursor,_cursor"
+           name="Cursor"
+           folderColor="424242"
+           folderIconColor="9e9e9e"
+           priority="100"
+           iconType="FOLDER"
+           pattern="^[\._]?cursor?$"
+           icon="/cursor.svg"
+           defaultState="false"/>
     <regex folderNames="CVS"
            name="CVS"
            folderColor="FBC02D"
