@@ -1,0 +1,32 @@
+<!--
+  - The MIT License (MIT)
+  -
+  - Copyright (c) 2015-2026 Elior "Mallowigi" Boukhobza
+  -
+  - Permission is hereby granted, free of charge, to any person obtaining a copy
+  - of this software and associated documentation files (the "Software"), to deal
+  - in the Software without restriction, including without limitation the rights
+  - to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+  - copies of the Software, and to permit persons to whom the Software is
+  - furnished to do so, subject to the following conditions:
+  -
+  - The above copyright notice and this permission notice shall be included in all
+  - copies or substantial portions of the Software.
+  -
+  - THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+  - IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+  - FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+  - AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+  - LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+  - OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+  - SOFTWARE.
+  -
+  -->
+
+<svg clip-rule="evenodd" fill-rule="evenodd" stroke-linejoin="round" stroke-miterlimit="1.414" version="1.1"
+     viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" width="16px" height="16px">
+  <path d="M10 4H4c-1.11 0-2 .89-2 2v12c0 1.097.903 2 2 2h16c1.097 0 2-.903 2-2V8a2 2 0 0 0-2-2h-8l-2-2z"
+        fill="#398ccb" fill-rule="nonzero" data-folderColor="TRPC"/>
+  <path fill-rule="evenodd" fill="#d5edff" data-folderIconColor="TRPC" transform="scale(0.6) translate(6.75 5)"
+        d="m22.1 11c0.1 0 0.4 0.2 0.8 0.4 0.3 0.2 1 0.6 1.4 0.8 0.5 0.3 1.1 0.6 1.3 0.8q0.5 0.2 0.6 0.4c0.1 0.2 0.1 0.2 0.1 1.1l0.4 0.3c0.3 0.1 0.7 0.3 0.9 0.5 0.3 0.1 1 0.5 1.5 0.8 0.6 0.4 1.1 0.7 1.2 0.8 0.2 0.1 0.3 0.2 0.4 0.3 0.1 0.1 0.1 0.3 0.1 4.3l0.4 0.2c0.2 0.2 0.5 0.3 0.6 0.4 0 0.1 0.1 0.2 0.2 0.3 0 0.1 0 1.2 0 2.3 0 1.2 0 2.1-0.1 2.2 0 0.2-0.1 0.3-0.1 0.4-0.1 0-0.7 0.4-1.4 0.8-0.7 0.4-1.5 0.9-1.9 1.1-0.6 0.3-0.7 0.4-0.9 0.4-0.1-0.1-0.5-0.2-0.9-0.4-0.3-0.2-0.7-0.4-0.7-0.4 0 0-0.2 0.1-0.5 0.3-0.3 0.1-0.8 0.4-1.2 0.6-0.4 0.3-1 0.6-1.4 0.8-0.5 0.3-0.7 0.4-0.8 0.4-0.2 0-0.4-0.1-1.4-0.6-0.6-0.4-1.4-0.8-1.8-1.1-0.7-0.4-0.8-0.4-0.9-0.4-0.1 0.1-0.4 0.2-0.7 0.4-0.4 0.3-0.5 0.3-0.8 0.3-0.2 0-0.3 0-0.8-0.3-0.2-0.1-0.7-0.4-0.9-0.5-0.3-0.2-0.9-0.5-1.3-0.7-0.4-0.3-0.8-0.5-0.9-0.6-0.1-0.1-0.3-0.2-0.3-0.3-0.1-0.2-0.1-0.4-0.1-2.5 0-2.2 0-2.3 0.1-2.4 0.1-0.1 0.3-0.3 1-0.7v-2c0-1.6 0-2.1 0.1-2.2 0-0.1 0.1-0.2 0.1-0.3 0.1 0 0.4-0.2 0.7-0.4 0.2-0.1 0.8-0.5 1.3-0.7 0.4-0.3 1.1-0.7 2.1-1.3v-0.5c0.1-0.5 0.1-0.5 0.2-0.7 0.1-0.1 0.3-0.3 0.7-0.5 0.2-0.1 0.7-0.4 0.9-0.5 0.2-0.2 0.8-0.5 1.3-0.8 0.5-0.3 0.9-0.5 1-0.6 0.1 0 0.3 0 0.4 0zm-1 3.1c0.7 0.3 0.9 0.4 0.9 0.4 0 0 0.2-0.1 0.4-0.2 0.3-0.1 0.5-0.2 0.5-0.3q0 0-0.2-0.1c0 0-0.2-0.1-0.4-0.2l-0.3-0.2zm-1.1 3c0.5 0.4 0.7 0.5 0.7 0.5 0.1 0 0.1 0 0.1-0.5l0.1-0.5c-0.4-0.2-0.6-0.3-0.7-0.4l-0.2-0.1zm3.2-0.5c0 0.7 0 1 0 1 0 0 0.2-0.1 0.4-0.3l0.5-0.2c0-0.8-0.1-1-0.1-1 0 0-0.2 0.1-0.4 0.2zm3.1 1.2c0 0.4 0 0.5-0.1 0.6q-0.1 0.2-0.6 0.5c-0.2 0.1-0.8 0.5-1.3 0.7-0.4 0.3-1.1 0.7-1.4 0.9-0.5 0.3-0.7 0.3-0.9 0.3-0.2 0-0.3 0-1-0.4-0.4-0.2-1.1-0.6-1.4-0.8-0.4-0.3-0.9-0.6-1.2-0.7-0.3-0.2-0.5-0.3-0.6-0.4-0.1-0.1-0.1-0.3-0.1-0.7v-0.5l-2.1 1.2c0 1.4 0 1.8 0.1 1.8 0 0 0.1-0.1 0.3-0.2 0.2-0.1 0.3-0.2 0.5-0.2 0.3 0 0.4 0.1 1 0.4 0.4 0.2 1 0.6 1.3 0.8 0.4 0.2 1 0.5 1.2 0.7 0.3 0.1 0.6 0.3 0.6 0.4 0.1 0 0.1 0.1 0.2 0.2 0 0.1 0.1 0.6 0.1 2.4 0 1.7-0.1 2.2-0.1 2.3-0.1 0.1-0.2 0.3-0.2 0.3-0.1 0.1-0.2 0.1-0.2 0.2 0.1 0 0.4 0.2 0.9 0.4 0.4 0.3 0.7 0.5 0.8 0.5 0 0 0.3-0.2 0.8-0.5 0.4-0.2 0.7-0.4 0.8-0.4 0 0-0.1-0.1-0.2-0.2l-0.1-0.2v-4.8c0.2-0.3 0.7-0.6 1.2-0.9 0.5-0.3 1.3-0.7 1.9-1q0.9-0.6 1.1-0.6c0.2 0 0.3 0 0.5 0.2l0.4 0.2v-1.8c-1.4-0.8-1.8-1-2-1.1l-0.2-0.1zm-10.7 5.1q0.5 0.3 0.7 0.4l0.2 0.1c0.7-0.3 0.9-0.5 0.9-0.5 0 0-0.2-0.1-0.4-0.2-0.3-0.2-0.5-0.3-0.5-0.3 0 0-0.2 0.1-0.4 0.3zm11.1 0c0 0 0.2 0.1 0.4 0.2 0.2 0.2 0.5 0.3 0.5 0.3 0 0 0.2-0.1 0.4-0.3 0.3-0.1 0.4-0.2 0.4-0.2 0 0-0.2-0.2-0.4-0.3-0.2-0.1-0.4-0.2-0.4-0.2-0.1 0-0.3 0.1-0.5 0.2-0.2 0.1-0.4 0.3-0.4 0.3zm-12.3 3c0.7 0.4 0.9 0.5 0.9 0.5 0 0 0-0.2 0-0.5v-0.5c-0.6-0.4-0.8-0.5-0.8-0.5-0.1-0.1-0.1 0-0.1 0.5zm3.2-0.6v1.1l0.9-0.5c0-0.9 0-1.1 0-1.1 0 0-0.2 0.1-0.5 0.3zm11.2 0c0 0.8 0 1 0 1 0 0 0.2-0.1 0.5-0.3l0.4-0.2c0-0.8 0-1.1 0-1.1 0 0.1-0.2 0.2-0.5 0.3zm-3.2 0.5c0.5 0.3 0.7 0.4 0.8 0.5h0.1v-1c-0.6-0.4-0.8-0.5-0.8-0.5-0.1 0-0.1 0.3-0.1 0.5z"/>
+</svg>

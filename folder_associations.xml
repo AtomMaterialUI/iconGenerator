@@ -223,13 +223,13 @@
            defaultState="false"
            pattern="^[\._]?(archives?|jars?|zips?|backups?)"
            icon="/archive.svg"/>
-    <regex folderNames="article,articles,.article,.articles,_articles"
+    <regex folderNames="article,articles,.article,.articles,_articles,blog,blogs,.blog,.blogs,_blogs,news,.news,_news"
            name="Article"
            folderColor="1dacd6"
            folderIconColor="b3e5fc"
            priority="100"
            iconType="FOLDER"
-           pattern="^[\._]?articles?$"
+           pattern="^[\._]?(articles?|blogs?|news?)$"
            icon="/article.svg"
            defaultState="false"/>
     <regex folderNames=".artx,art,arts,wordart,wordarts"
@@ -974,6 +974,15 @@
       pattern="^[\._]?(errors?|exceptions?|crash(es)?)$"
       icon="/error.svg"
       defaultState="false"/>
+    <regex folderNames="eslint,.eslint,_eslint,eslint-config,.eslint-config,_eslint-config,eslint-plugin,.eslint-plugin,_eslint-plugin"
+           name="ESLint"
+           folderColor="5c6bc0"
+           folderIconColor="B3E5FC"
+           priority="100"
+           iconType="FOLDER"
+           pattern="^[\._]?eslint(-.*)?$"
+           icon="/eslint.svg"
+           defaultState="false"/>
     <regex folderNames="event,events,.event,_events,.events,signal,signals,.signal,_signals"
            name="Events"
            folderColor="66BB6A"
@@ -2714,6 +2723,14 @@
            iconType="FOLDER"
            pattern="^[\._]?(themes?|colors?|schemes?|skins?|designs?)$"
            icon="/themes.svg"/>
+    <regex folderNames="trpc,.trpc,_trpc"
+           name="TRPC"
+           folderColor="0288d1"
+           folderIconColor="d5edff"
+           priority="100"
+           iconType="FOLDER"
+           pattern="^[\._]?trpc$"
+           icon="/trpc.svg" defaultState="false"/>
     <regex folderNames="protheus,totvs,advpl,.protheus,_protheus,.totvs,_totvs,.advpl,_advpl"
            name="TotVS"
            folderColor="1E88E5"
