@@ -2105,6 +2105,18 @@
         },
         {
           "value": {
+            "folderNames": ".kadence,_kadence",
+            "name": "Kadence",
+            "folderColor": "009688",
+            "folderIconColor": "B2DFDB",
+            "priority": "100",
+            "iconType": "FOLDER",
+            "pattern": "^[\\._]kadence$",
+            "icon": "/kadence.svg"
+          }
+        },
+        {
+          "value": {
             "folderNames": "key,keys,cert,certs,_keys,.keys,.certs,_cert,certificate,certificates,_certificates,ssl,.ssl,\n        .ssh,ssh,_ssh,secrets,.secrets,_secret,.secret,.auth,authentication",
             "name": "Keys",
             "folderColor": "BDBDBD",
